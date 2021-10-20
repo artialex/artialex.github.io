@@ -1,8 +1,6 @@
 const { resolve } = require('path')
 
 module.exports = {
-  assetPrefix: '.',
-
   publicRuntimeConfig: {
     apiUrl: process.env.API_URL,
   },

@@ -9,7 +9,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "export": "next export -o docs",
+    "export": "next export",
     "format": "prettier",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
