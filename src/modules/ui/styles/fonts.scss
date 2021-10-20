@@ -1,8 +1,0 @@
-$nunito: 'Nunito', Arial, Helvetica, sans-serif;
-
-@mixin nunito($font-size: 16px, $line-height: 20px, $font-weight: 400) {
-  font-family: $nunito;
-  font-size: $font-size;
-  font-weight: $font-weight;
-  line-height: $line-height;
-}
