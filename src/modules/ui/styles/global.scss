@@ -1,0 +1,17 @@
+@use 'fonts';
+
+html {
+  font-size: 16px;
+}
+
+html,
+body,
+#__next {
+  //height: 100vh;
+
+  @include fonts.nunito();
+}
+
+h1 {
+  font-weight: normal;
+}

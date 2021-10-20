@@ -2,11 +2,36 @@
   "name": "alextheartisan.github.io",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "export": "next export -o docs",
+    "format": "prettier",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "prettier": "@alextheartisan/prettier-config",
+  "devDependencies": {
+    "@alextheartisan/prettier-config": "^2.0.0",
+    "@alextheartisan/typescript-config": "^0.0.12",
+    "@types/react": "^17.0.30",
+    "@types/react-dom": "^17.0.10",
+    "@types/webpack": "^5.28.0",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.2",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^4.5.0",
+    "axios": "^0.23.0",
+    "next": "^11.1.2",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.27.0"
+  }
 }
