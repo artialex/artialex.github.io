@@ -5,8 +5,17 @@ fetch("/public/Hi.md")
     return r.text();
   })
   .then((r) => {
-    console.log("main :: 3", r);
-    let el = document.querySelector("#file");
+    let el = document.querySelector("#file1");
+
+    el.innerHTML = r;
+  });
+
+fetch("/public/Java.md")
+  .then((r) => {
+    return r.text();
+  })
+  .then((r) => {
+    let el = document.querySelector("#file2");
 
     el.innerHTML = r;
   });
