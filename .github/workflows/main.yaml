@@ -3,7 +3,7 @@ name: Publish to Github Pages
 on:
   push:
     branches:
-      - master
+      - develop
 
 jobs:
   build:
@@ -36,3 +36,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./out
+          publish_branch: master
