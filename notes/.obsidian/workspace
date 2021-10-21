@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "18eb2bc40aa43555",
+    "type": "split",
+    "children": [
+      {
+        "id": "f68a1d1d1b560100",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3da544f4c0dc0d60",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c646eeb305022e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa00e8a6ae871744",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a68800fb6c9b4feb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "fea4bfede2feac21",
+    "type": "split",
+    "children": [
+      {
+        "id": "c109e86cc6895eed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e0f7ada18cfc391",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f68a1d1d1b560100",
+  "lastOpenFiles": [
+    "Hi.md",
+    "Adjacency list.md"
+  ]
+}
