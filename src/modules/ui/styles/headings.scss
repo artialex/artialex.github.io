@@ -1,0 +1,26 @@
+@use 'fonts';
+
+h1 {
+  @include fonts.nunito(1.5rem, 1.5rem);
+
+  margin: 0 0 1rem -0.5rem;
+
+  // TODO: move to NoteTitle
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    //filter: brightness(50%);
+  }
+}
+
+h2 {
+  @include fonts.nunito(1.2rem, 1.5rem);
+
+  margin: 1.5rem 0 0.5rem -0.5rem;
+}
+
+h3 {
+  @include fonts.nunito(1.12rem, 1.5rem);
+
+  margin: 1.25rem 0 0.5rem -0.5rem;
+}

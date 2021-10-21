@@ -1,0 +1,8 @@
+# Bidirectional reflectance distribution function
+::aliases[BRDF]
+
+One of BxDF functions
+
+
+
+

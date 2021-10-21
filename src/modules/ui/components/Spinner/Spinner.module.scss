@@ -1,0 +1,138 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.spinner {
+  height: 65px;
+  width: 65px;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.spinner,
+.spinner * {
+  box-sizing: border-box;
+}
+
+.spinner .rhombus {
+  height: calc(65px / 7.5);
+  width: calc(65px / 7.5);
+  animation-duration: 2000ms;
+  top: calc(65px / 2.3077);
+  left: calc(65px / 2.3077);
+  background-color: var(--spinner-color);
+  position: absolute;
+  animation-iteration-count: infinite;
+}
+
+.spinner .rhombus:nth-child(2n + 0) {
+  margin-right: 0;
+}
+
+.spinner .rhombus.child1 {
+  animation-name: spinner-animation-child1;
+  animation-delay: calc(100ms * 1);
+}
+
+.spinner .rhombus.child2 {
+  animation-name: spinner-animation-child2;
+  animation-delay: calc(100ms * 2);
+}
+
+.spinner .rhombus.child3 {
+  animation-name: spinner-animation-child3;
+  animation-delay: calc(100ms * 3);
+}
+
+.spinner .rhombus.child4 {
+  animation-name: spinner-animation-child4;
+  animation-delay: calc(100ms * 4);
+}
+
+.spinner .rhombus.child5 {
+  animation-name: spinner-animation-child5;
+  animation-delay: calc(100ms * 5);
+}
+
+.spinner .rhombus.child6 {
+  animation-name: spinner-animation-child6;
+  animation-delay: calc(100ms * 6);
+}
+
+.spinner .rhombus.child7 {
+  animation-name: spinner-animation-child7;
+  animation-delay: calc(100ms * 7);
+}
+
+.spinner .rhombus.child8 {
+  animation-name: spinner-animation-child8;
+  animation-delay: calc(100ms * 8);
+}
+
+.spinner .rhombus.big {
+  height: calc(65px / 3);
+  width: calc(65px / 3);
+  animation-duration: 2000ms;
+  top: calc(65px / 3);
+  left: calc(65px / 3);
+  background-color: var(--spinner-color);
+  animation: spinner-animation-childbig 2s infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes spinner-animation-child1 {
+  50% {
+    transform: translate(-325%, -325%);
+  }
+}
+
+@keyframes spinner-animation-child2 {
+  50% {
+    transform: translate(0, -325%);
+  }
+}
+
+@keyframes spinner-animation-child3 {
+  50% {
+    transform: translate(325%, -325%);
+  }
+}
+
+@keyframes spinner-animation-child4 {
+  50% {
+    transform: translate(325%, 0);
+  }
+}
+
+@keyframes spinner-animation-child5 {
+  50% {
+    transform: translate(325%, 325%);
+  }
+}
+
+@keyframes spinner-animation-child6 {
+  50% {
+    transform: translate(0, 325%);
+  }
+}
+
+@keyframes spinner-animation-child7 {
+  50% {
+    transform: translate(-325%, 325%);
+  }
+}
+
+@keyframes spinner-animation-child8 {
+  50% {
+    transform: translate(-325%, 0);
+  }
+}
+
+@keyframes spinner-animation-childbig {
+  50% {
+    transform: scale(0.5);
+  }
+}

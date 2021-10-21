@@ -1,0 +1,36 @@
+main {
+  ul,
+  ol {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    list-style-type: none;
+    counter-reset: li;
+
+    ul,
+    ol {
+      margin-bottom: 0;
+      padding-left: 1rem;
+    }
+
+    li {
+      position: relative;
+      counter-increment: li;
+
+      &::before {
+        position: absolute;
+        top: -1px;
+        left: -0.75rem;
+        color: var(--list-symbol-color);
+      }
+    }
+  }
+
+  ul li::before {
+    content: '· ';
+  }
+
+  ol li::before {
+    font-size: 12px;
+    content: counter(li);
+  }
+}

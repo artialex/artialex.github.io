@@ -1,0 +1,1 @@
+export { NoteArea } from './NoteArea'

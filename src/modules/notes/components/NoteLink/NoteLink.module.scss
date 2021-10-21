@@ -1,0 +1,28 @@
+.root {
+  text-decoration: none;
+  transition-property: filter, transform;
+  transition-duration: 0.2s;
+
+  &:hover {
+    filter: brightness(90%);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &.external {
+    color: var(--external-link-color);
+  }
+
+  &.internal {
+    color: var(--internal-link-color);
+
+    &.opened {
+      background-color: var(--internal-link-opened-background-color);
+      padding: 0 0.2rem;
+      margin: 0 -0.2rem;
+      border-radius: 0.2rem;
+    }
+  }
+}

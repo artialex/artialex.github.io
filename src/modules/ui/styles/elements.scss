@@ -1,0 +1,17 @@
+main {
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  hr {
+    width: 1rem;
+    margin: 1rem auto;
+    border: 0;
+    border-top: 1px solid var(--hr-color);
+  }
+
+  i,
+  em {
+    color: var(--emphasized-color);
+  }
+}

@@ -1,0 +1,3 @@
+# Rationality
+
+- [[Cognitive biases]]

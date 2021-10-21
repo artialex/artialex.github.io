@@ -1,0 +1,11 @@
+code {
+  font-family: var(--monospace-font);
+  font-size: 1rem;
+  tab-size: 4;
+  color: var(--code-color);
+  /*border-bottom: 1px solid var(--code-color);*/
+}
+
+pre {
+  margin-bottom: 0.5rem;
+}

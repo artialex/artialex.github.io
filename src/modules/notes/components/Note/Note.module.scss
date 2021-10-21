@@ -1,0 +1,10 @@
+$note-width: 640px;
+
+.root {
+  min-width: $note-width;
+  width: $note-width;
+  padding: 1.5rem 1.5rem 10rem;
+  overflow-y: auto;
+  word-wrap: break-word;
+  opacity: 1;
+}

@@ -1,3 +1,106 @@
-$primary: wheat;
+:root {
+  --base03-color: #002b36;
+  --base02-color: #073642;
+  --base01-color: #586e75;
+  --base00-color: #657b83;
+  --base0-color: #839496;
+  --base1-color: #93a1a1;
+  --base2-color: #eee8d5;
+  --base3-color: #fdf6e3;
+  --yellow-color: #b58900;
+  --orange-color: #cb4b16;
+  --red-color: #dc322f;
+  --magenta-color: #8d4a69;
+  --violet-color: #6c71c4;
+  --blue-color: #268bd2;
+  --cyan-color: #2aa198;
+  --green-color: #76af1a;
 
-$subtle: lightgray;
+  --subtle-color: var(--base1-color);
+
+  --success-color: green;
+  --danger-color: red;
+}
+
+.light-theme {
+  --body-color: #fff;
+  --text-color: #002b36;
+
+  --emphasized-color: #9f711a; // Italic
+
+  --header-border-color: #a0ceff;
+
+  --hr-color: black;
+
+  --scrollbar-color: #e8eefa;
+  --scrollbar-thumb-color: #abd1ff;
+
+  //--body-color: #fff;
+  //--body-color-darker: #eee;
+  //--body-color-lighter: #ccc;
+  //
+  //--text-color: var(--base03-color);
+  //
+  --internal-link-color: #268bd2;
+  --internal-link-opened-background-color: #ceeaff;
+  --external-link-color: var(--magenta-color);
+  //--code-color: #ec7777;
+  //--italic-color: #9c68bc;
+
+  --spinner-color: var(--blue-color);
+}
+
+.dark-theme {
+  --red-color: red;
+  --green-color: green;
+  --blue-color: blue;
+  --yellow-color: yellow;
+
+  --background-color: #171717;
+  --background-color-lighter: #212121;
+  --background-color-darker: #111;
+
+  --text-color: #fff;
+
+  --hr-color: #93a1a1;
+
+  // -- Links --
+
+  --internal-link-color: #5fb8e5;
+  --internal-link-opened-background-color: #2d4f58;
+  --external-link-color: #ee7ebd;
+
+  --code-color: #eab4b4;
+  --emphasized-color: #e3e0ba; // Italic
+
+  --list-symbol-color: #7c7777;
+
+  --body-color: #171717;
+  --body-color-darker: #212121;
+  --body-color-lighter: #111;
+
+  //--text-color: #fff;
+  //
+  //--internal-link-color: #5fb8e5;
+  //--internal-link-opened-color: #2d4f58;
+  //--external-link-color: #ee7ebd;
+  //--code-color: #eab4b4;
+  //--italic-color: #e3e0ba;
+  --spinner-color: var(--blue-color);
+}
+
+.red {
+  color: var(--red-color);
+}
+
+.green {
+  color: var(--green-color);
+}
+
+.blue {
+  color: var(--blue-color);
+}
+
+.yellow {
+  color: var(--yellow-color);
+}
