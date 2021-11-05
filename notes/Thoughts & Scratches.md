@@ -22,7 +22,7 @@ Some links are external, that means that they match my own thoughts and for clar
 * Парное программирование
 * Slack as main way of communication как основное средство коммуникации
 * Task estimation (and why it's bad) Оценка задач (Почему оценивать задачи - это плохо)
-* Конкретные, а не абстрактные примеры
+* Concrete example are better than abstract ones
 * Как собеседовать?
 * Загрузим всех работой
 * Встречи и совещания
@@ -144,3 +144,8 @@ Some links are external, that means that they match my own thoughts and for clar
     Добавить каик блокс
 
 -->
+
+
+[[Concrete examples better than abstract ones]]
+
+[['I have no time' problem]]

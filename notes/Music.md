@@ -1,10 +1,8 @@
 # Music
 
-<!--Я провел лет 7 самообучаясь музыке-->
-
 Всегда неплохо иметь список интересной музыки, чтобы не забыть
 
-Жанры музыки смешиваются, поэтому в алфавитном порядке. **Жирным** выделено то, что слушаю очень много. *Курсивом* -- то что много слушал раньше
+Жанры музыки смешиваются, поэтому в алфавитном порядке. **Жирным** выделено то, что слушаю очень много. _Курсивом_ -- то что много слушал раньше
 
 - Anathema
 - **Animals as Leaders**
@@ -16,15 +14,15 @@
 - Infected Mushroom
 - Liquid Tension Experiment
 - Mike Portnoy
-- *Metallica*
-- *Megadeth*
+- _Metallica_
+- _Megadeth_
 - **Moonspell**
 - Marty Friedman
-- *Nightwish*
+- _Nightwish_
 - **Sabaton**
 - Symphony X
 - Rage
-- *Rhapsody of Fire*
+- _Rhapsody of Fire_
 - **Tool**
 
 <!--

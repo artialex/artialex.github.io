@@ -1,27 +1,56 @@
+---
+tags: [index]
+---
+
 # JavaScript
 
-- [[JavaScript Types|Types]]
+- [[Basic JavaScript]]
+- Asynchronicity
+	- Promises
+	- Event Loop
+- Module systems
+- [[React]]
+- Flux
+
+
+<!-- 
+
+[[Promises]]
+
+[[Front-end performance checklist]]
+[[CSS Shorthands]]
+
+[[Next]]
+[[Web vitals]]
+
+
+[[Node project cheatsheet]]
+
+
+
+## Node
+
+- Streams
+
 - [[JavaScript Arrays|Arrays]]
+- [[JavaScript Functions|Functions]]
+- [[JavaScript Modules|Modules]]
+- [[JavaScript Asynchronicity|Asynchronicity]]
 
-<!-- Map, Set, WeakMap, WeakSet -->
-<!-- [[JavaScript Functions|Functions]] -->
+Map, Set, WeakMap, WeakSet 
+[[JavaScript Functions|Functions]] 
 
+- [[How browser works]]
 
-* [[How browser works]]
+* Asyncronicity
 
+## [[JavaScript Modules|Modules]]
 
-Everything in JavaScript acts like an object, except for `null` and `undefined`
-
-<!--## [[JavaScript Modules|Modules]]-->
-
-<!--
 ## Asynchronicity
 
 - [[Event loop]]
 - [[Promises]]
 - Timers
--->
-<!--
 
 #### So, now, we have 5 ways of controlling code flow:
 
@@ -37,15 +66,14 @@ Everything in JavaScript acts like an object, except for `null` and `undefined`
     flag. Might work in Firefox. Should be supported by all browsers eventually.
     Supported now through an ES6 transpiler/shim which probably introduces
     significant overhead to make work. Good error handling.
-	
--->
 
-## [[Streams (Node)]]
 
+## Node
+
+- [[Streams (Node)]]
 
 ## Performance
 
-<!--
 ## Visualization
 
 - [Seeing circles, sines, and signals](https://jackschaedler.github.io/circles-sines-signals/index.html)
@@ -54,7 +82,6 @@ Everything in JavaScript acts like an object, except for `null` and `undefined`
 - https://c82.net/
 - https://bost.ocks.org/mike/algorithms/
 -->
-
 
 <!--
 
@@ -114,7 +141,7 @@ https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/
 
 ## Окна
 
-Попапы откравыются с помощью `window.open()` 
+Попапы откравыются с помощью `window.open()`
 
 ```js
 window.open('http://example.com')

@@ -19,27 +19,38 @@ Choosing a right name for a variable is just as important as choosing the right 
 
 If an ancronym contains two letters use UPPER_CASE. Note the words "id" and "ok" are not acronyms
 
-💔 Bad: `getUi`, `userID`, `processHTML`, `APIService`, `getVrContext`, `ResponseOK`
-
-💚 Good: `getUI`, `userId`, `processHtml`, `ApiService`, `getVRContext`, `ResponseOk`
+| 💚 Good        | 💔 Bad         |
+| :------------- | :------------- |
+| `getUI`        | `getUi`        |
+| `userId`       | `userID`       |
+| `processHtml`  | `processHTML`  |
+| `ApiService`   | `APIService`   |
+| `getVRContext` | `getVrContext` |
+| `ResponseOk`   | `ResponseOK`   |
 
 - [[Naming collections]]
 
-## Counters
+## Countable
 
-Use `<x>Count` pattern
+- Use `<x>Count` pattern
 
-💔 Bad:`usersCount`, `countUser`, `userQuantity`, `userNumber`
-
-💚 Good: `userCount`
+| 💚 Good     | 💔 Bad         |
+| :---------- | :------------- |
+| `userCount` | `usersCount`   |
+|             | `countUser`    |
+|             | `userQuantity` |
+|             | `userNumber`   |
 
 ## RegExps
 
-Use `re`, `re<X>`, patterns
+- Use `re`, `re<X>`, patterns
 
-💔 Bad: `rx`, `reg`, `regex`, `rEmail`
-
-💚 Good: `re`, `reEmail`
+| 💚 Good   | 💔 Bad   |
+| :-------- | :------- |
+| `re`      | `rx`     |
+| `reEmail` | `reg`    |
+|           | `regex`  |
+|           | `rEmail` |
 
 ## Functions
 
@@ -207,3 +218,7 @@ No `&__element` and `&--modifier` nonsense!
 
 - [[Naming @media breakpoints and ranges]]
 - [[How do I write unit tests|Naming in unit tests]]
+
+---
+
+- https://javascript.info/ninja-code

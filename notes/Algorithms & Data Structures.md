@@ -193,3 +193,22 @@ Cmposite Types
 https://www.geeksforgeeks.org/data-structures
 https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md
 -->
+
+
+[[Notes graph]]
+
+[[Cool graphs]]
+
+[[Graph traversions]]
+
+
+[[Graph operations]]
+
+[[Complete graph]]
+
+[[Edge list]]
+
+[[Heap]]
+
+
+[[Pathfinding]]

@@ -1,0 +1,5 @@
+Searching
+
+```
+GET /notes?
+```

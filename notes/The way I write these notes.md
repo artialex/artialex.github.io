@@ -184,3 +184,5 @@ This web version is inspired by:
 - [[Zettelkasten: как один немецкий учёный стал невероятно
   продуктивным|https://habr.com/ru/post/508672/]]
 -->
+
+[[Zettelkasten principles]]

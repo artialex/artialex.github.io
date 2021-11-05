@@ -1,3 +1,7 @@
+---
+tags: [index]
+---
+
 # UML
 
 ::aliases[Unified Modelling Language]
@@ -24,7 +28,7 @@ A composition is a strong _Whole-Part relationship_. When the whole is destroyed
 
 ## Aggregation
 
-Aggregation represents a *Container-Contained* relationship
+Aggregation represents a _Container-Contained_ relationship
 
 ![tex](tex-images/uml-aggregation.svg)
 
@@ -33,9 +37,7 @@ Aggregation represents a *Container-Contained* relationship
 - Association Class
 - Interface
 
-
 ## Inheritance
-
 
 ---
 
@@ -44,3 +46,5 @@ Aggregation represents a *Container-Contained* relationship
 - https://braindump.jethro.dev/posts/software_engineering/
 - https://www.wikiwand.com/en/Class_diagram
 - https://www.uml-diagrams.org/
+
+- #todo Rewrite

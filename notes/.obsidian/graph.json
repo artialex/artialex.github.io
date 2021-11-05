@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#map",
-      "color": {
-        "a": 1,
-        "rgb": 4381680
-      }
-    },
-    {
       "query": "tag:#done",
       "color": {
         "a": 1,
@@ -22,23 +15,44 @@
       }
     },
     {
+      "query": "tag:#map",
+      "color": {
+        "a": 1,
+        "rgb": 33023
+      }
+    },
+    {
       "query": "tag:#wip",
       "color": {
         "a": 1,
-        "rgb": 16724787
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#entrypoint",
+      "color": {
+        "a": 1,
+        "rgb": 16711935
+      }
+    },
+    {
+      "query": "tag:#index",
+      "color": {
+        "a": 1,
+        "rgb": 16512311
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.9999999999999996,
+  "nodeSizeMultiplier": 2.61423220973783,
+  "lineSizeMultiplier": 2.19213483146067,
+  "collapse-forces": false,
+  "centerStrength": 0.202247191011236,
+  "repelStrength": 18.0524344569288,
+  "linkStrength": 0.846441947565543,
+  "linkDistance": 151,
+  "scale": 0.047787637109624116,
   "close": false
 }

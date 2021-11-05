@@ -1,5 +1,5 @@
 ---
-tags: [map]
+tags: [index]
 ---
 
 # Networking
@@ -92,3 +92,19 @@ Routers allow to connect LANs to the global _Wide Area Network_ (WAN, Internet)
 - Компьютерные сети. Нисходящий подход. (Куроуз, Росс) 📖
 - Компьютерные сети. (Танненбаум) 📖
   -->
+
+# Как устроен сетевой пакет
+
+- [[MAC-address]]
+- [[IP-адрес]]
+- ID, Error Checking Code
+- Payload
+
+
+[[TCP]]
+
+[[UDP]]
+[[IP-address]]
+
+
+[[TLS]]

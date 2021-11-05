@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "f68a1d1d1b560100",
+        "id": "fc3d69663d74ca0e",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#index",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,11 +45,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 280,
     "collapsed": true
   },
   "right": {
@@ -83,9 +84,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f68a1d1d1b560100",
+  "active": "fc3d69663d74ca0e",
   "lastOpenFiles": [
-    "Hi.md",
-    "Adjacency list.md"
+    "JavaScript.md",
+    "How I write Front-End.md",
+    "Front-end Programming.md",
+    "Basic JavaScript.md",
+    "JavaScript Arrays.md",
+    "Naming variables.md",
+    "JavaScript Types.md",
+    "React.md",
+    "Productivity.md",
+    "Java.md"
   ]
 }

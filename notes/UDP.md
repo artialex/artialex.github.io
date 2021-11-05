@@ -6,7 +6,6 @@ User Datagram Protocol
 установки специальных каналов передачи и не имеет механизмов
 гарантированной доставки пакетов
 
-### Заметки
+### Notes
 
-- Используется для данных реального времени, которые относительно
-  не страшно потерять, например, для передачи стримингового видео и аудио
+- Used for real-time data that is not required receive confirmation like streaming audio and video

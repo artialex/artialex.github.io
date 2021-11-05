@@ -1,2 +1,0 @@
-- https://tsdx.io/
-- https://github.com/keithamus/sort-package-json#readme

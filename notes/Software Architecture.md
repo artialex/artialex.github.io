@@ -43,3 +43,6 @@ https://github.com/stemmlerjs/software-design-and-architecture-roadmap
 - [FPB, Software Architecture](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#software-architecture)
 
 
+
+
+[[12-factor application]]

@@ -2,7 +2,7 @@
 tags: [done]
 ---
 
-# Streams
+# Streams (Node)
 
 Types of streams:
 
@@ -10,9 +10,7 @@ Types of streams:
 - [[Writable streams]]
 - [[Duplex streams]]
 
-
-When creating a stream-based applicaiton or module there are two main tasks: *implementing* and *consuming*
-
+When creating a stream-based applicaiton or module there are two main tasks: _implementing_ and _consuming_
 
 <!--
 

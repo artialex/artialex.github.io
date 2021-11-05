@@ -1,7 +1,8 @@
 # Bike-shedding effect
+
 ::aliases[Parkinson's law of triviality]
 
-*Time spent discussing some point is inversly proportional to the importance of that point*
+_Time spent discussing some point is inversly proportional to the importance of that point_
 
 ### Examples
 

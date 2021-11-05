@@ -7,20 +7,21 @@ Input \xrightarrow{Process} Output
 $$
 
 - Event streams
-	- Input / Output
-	- Positive / Negative
+  - Input / Output
+  - Positive / Negative
 - Item streams
-	- Kanban
-- Feedback 
+  - Kanban
+- Feedback
 
 - Reactions to the events
-	- Fragility
-	- Reactivity
-	- Stability
+
+  - Fragility
+  - Reactivity
+  - Stability
 
 - Little's law
-- Theory of constraints 
-	- Sankey chart
+- Theory of constraints
+  - Sankey chart
 
 Technical analogy: RabbitMQ / CQRS
 

@@ -2,14 +2,42 @@
 tags: [wip]
 ---
 
-# JavaScript asynchronicity
+[[JavaScript Projects Terminology]]
+
+Some theses
+
+- JavaScript code is always _single-threaded_
+- Event loop is _single-threaded_
+
+### V8
+
+- Ignition, JS Interpreter
+- TurboGan, JS Compiler
+
+# JavaScript Asynchronicity
+
+V8, JS Engine, wirtten in C++
+
+Node.js is _multi-threaded_, JavaScript code running inside it is _single-threaded_
+
+JavaScript specification does not define any threading mechanism
+
+JavaScript implementation that is running inside web-browsers is _single-threaded_. It allows some form of multithreading via _Web Workers_
+
+Node.js code is _single-threaded_, but IO operations and other things under the hood can run in a thread pool
+
+V8
+
+Node.js is using V8
 
 ## Event loop
 
 JavaScript performs its tasks sequentially _inside a one process_ that is called _event loop_. Event loop has a _call stack_ controlling executing of functions. Call stack is syncronous
 
-JavaScript is _single-threaded_. It comprised of heap and call stack
-Javascript is a single threaded language. This means it has one call stack and one memory heap.
+JavaScript is _single-threaded_. But JavaScript engines are _multi-threaded_.
+
+It comprised of heap and call stack
+Javascript is a single threaded language. This means it has _one call stack_ and _one memory heap_.
 
 There are different types of asynchronous functions
 
@@ -34,11 +62,11 @@ Task Queue is emptied by _event loop_ which runs continuously inside the JavaScr
 
 ### Blocking main thread
 
-Long-running code can block the user interface. Avoid it by:
+Long-running code can block the user interface. It's avoidable by:
 
 - Delivering operation result _asynchronously_
 - Performing long computations in separate process using _Web Workers_
-- Taking _breaks_ during long computations
+- Taking _breaks_ during long computations (with `setTimeout`)
 
 <!--
 Модель памяти?
