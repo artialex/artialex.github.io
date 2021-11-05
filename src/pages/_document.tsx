@@ -12,7 +12,7 @@ const MyDocument: FC<DocumentProps> = () => {
     <Html>
       <Head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Nunito&display=optional"
+          href="https://fonts.googleapis.com/css2?family=Rubik&display=optional"
           rel="stylesheet"
         />
         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />

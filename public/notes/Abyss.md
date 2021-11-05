@@ -1,5 +1,8 @@
-# Abyss
+---
+tags: [map]
+---
 
+# Abyss
 
 - [[Статьи для разбора]]
 
@@ -32,7 +35,7 @@ https://castel.dev/
 - http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
 - https://github.com/karan/Projects
 
-[[Карта Computer Science]]
+[[Computer Science]]
 
 - Компьютерное зрение
 - Как работает и кодируется видео?
@@ -54,29 +57,23 @@ https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onio
 
 https://www.youtube.com/watch?v=TqfbAXCCVwE
 
-
-
 https://www.lockheedmartin.com/en-us/who-we-are/business-areas/aeronautics/skunkworks/kelly-14-rules.html#:~:text=The%20Skunk%20Works%C2%AE%20manager,by%20the%20military%20and%20industry.
 
 https://www.projectsmart.co.uk/white-papers/100-rules-for-nasa-project-managers.pdf
 
 System Scaling
-	Read
-		Master / Slave
-	Write
-		Sharding
-		Partitioning
-		
+Read
+Master / Slave
+Write
+Sharding
+Partitioning
 https://www.youtube.com/watch?v=6aNT-ZmY9rU
 
 https://increment.com/software-architecture/primer-on-functional-architecture/
 
+- [CSS Modules. Welcome to the Future](https://glenmaddern.com/articles/css-modules) by Glen Maddern
 
-
--   [CSS Modules. Welcome to the Future](https://glenmaddern.com/articles/css-modules) by Glen Maddern
-
--   [Learn CSS Grid](https://learncssgrid.com/) by Jonathan Suh
-
+- [Learn CSS Grid](https://learncssgrid.com/) by Jonathan Suh
 
 100 правил руководителей NASA
 
@@ -94,7 +91,48 @@ Impact mapping. Gojko Adzic (не представляю как по-русск�
 Крайне рекомендую обратить внимание на проект Аристотель — исследование Google об эффективных командах.
 ```
 
-
 Есть вещи которые нельзя измерить? Деминг
 
 Dreyfus model
+
+Кьеркегор
+
+принципы кайдзен
+
+правила спора
+
+# Документация
+
+|                 | Useful when studying                  | Useful when working              |
+| --------------- | ------------------------------------- | -------------------------------- |
+| **Practical**   | Tutorials (learning-oriented)         | How-To guides (problem-oriented) |
+| **Theoretical** | Explanations (understanding-oriented) | Reference (information-oriented) |
+
+---
+
+- [4 Types of documentation](https://documentation.divio.com/)
+
+# Мьютексы
+
+Фьютексы, семафоры, сравнение с обменом, атомарные инструкции
+
+# О изучении нового
+
+> — Most people overestimate what they can do in 1 year and underestimate what they can do in a decade.
+
+> Bill Gates
+
+---
+
+> — Frankly, though, I think most people can learn a lot more than they think they can. They sell themselves short without trying. One bit of advice: it is important to view knowledge as sort of a semantic tree  —  make sure you understand the fundamental principles, ie the trunk and big branches, before you get into the details/leaves or there is nothing for them to hang on to
+
+> Elon Musk
+
+---
+
+> — What I cannot create, I do not understand
+
+> Richard Feynman
+
+
+[[Visuals]]

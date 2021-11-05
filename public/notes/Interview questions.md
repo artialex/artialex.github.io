@@ -1,0 +1,2 @@
+- How does HashMap work?
+- How do lambdas work?

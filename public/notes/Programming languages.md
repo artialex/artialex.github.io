@@ -1,10 +1,5 @@
-# Programming languages
+# Programming Languages
 
 - [[JavaScript]]
-
-<!--
-- [[Golang]]
-* [[Язык JavaScript]]
-* [[Язык Java]]
-* [[C++ language]]
--->
+- [[Java]]
+- [[C++]]

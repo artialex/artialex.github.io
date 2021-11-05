@@ -1,13 +1,12 @@
 # TLS
 
-aliases:
-:::
-Transport Layer Security
-:::
+::aliases[Transport Layer Security]
 
-Предыдущая реализация --- SSL (Secure Sockets Layer)
+Cryptographic security protocol
 
-Криптографический протокол для обеспечения безопасной коммуникации через сеть
+Successor of the revious realization, SSL (Secure Sockets Layer)
+
+---
 
 https://istlsfastyet.com/
 

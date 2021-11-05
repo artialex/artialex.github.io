@@ -1,0 +1,5 @@
+- Interface is a contract, abstract class is a subset of common properties
+- Abstract class is something between interfaces and classes
+- Class can extend only one abstract class, but can implement many interfaces
+- Abstract class can have a state (which is not recommended)
+- Abstract class should be used only for extending

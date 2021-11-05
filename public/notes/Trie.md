@@ -2,6 +2,7 @@
 
 Trie is a type of a [[Tree|tree]] that is used for storing characters
 
+<!--
 
 ```plantuml
 @startdot
@@ -19,7 +20,7 @@ graph a {
 	"*8" [label="*" shape=point]
 	"*9" [label="*" shape=point]
 	"*10" [label="*" shape=point]
-	
+
 	"*" -- {C T}
 	C -- {CA CO}
 	CA -- CAR
@@ -41,3 +42,5 @@ graph a {
 
 @enddot
 ```
+
+-->

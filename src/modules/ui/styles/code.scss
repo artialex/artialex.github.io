@@ -1,9 +1,9 @@
+@use 'fonts';
+
 code {
-  font-family: var(--monospace-font);
-  font-size: 1rem;
-  tab-size: 4;
+  @include fonts.mono();
   color: var(--code-color);
-  /*border-bottom: 1px solid var(--code-color);*/
+  tab-size: 4;
 }
 
 pre {

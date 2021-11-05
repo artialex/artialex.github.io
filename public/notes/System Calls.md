@@ -1,7 +1,8 @@
 # System Calls
+
 ::aliases[Syscalls]
 
-System calls are the *functions of the operating system*, e. g. `read()` in C
+System calls are the _functions of the operating system_, e. g. `read()` in C
 
 ```c
 count = read(fd, buffer, nbytes)

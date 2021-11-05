@@ -1,0 +1,1 @@
+- Records have pretty `toString()` implementation by default

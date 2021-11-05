@@ -58,3 +58,7 @@ Probability of dependent events is the _sum_ of their probabilities
 - Throwing a coin 10 times:
 	- Chance to get at least one head:
 		- $100\% - 0.097\% \approx 99.003\%$
+
+
+
+[[Poker probability]]

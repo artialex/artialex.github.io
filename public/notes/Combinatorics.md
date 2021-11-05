@@ -1,4 +1,7 @@
-::tags[#map]
+---
+tags: [map]
+---
+
 # Combinatorics
 
 The main question of combinatorics is "How many?" and the main task is counting the length of resulting set of elements

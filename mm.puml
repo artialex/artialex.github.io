@@ -1,0 +1,27 @@
+@startmindmap
+
+* Computer Science
+** Software
+*** Operating Systems
+**** Processes
+**** Threads
+**** Signals
+**** System Calls
+*** Programming Languages
+**** Software Architecture
+**** Paradigms
+**** Patterns
+*** Algorithms & Data Structures
+*** Networking
+**** OSI Model
+-- Hardware
+--- CPU
+--- RAM
+--- GPU
+--- HDD
+
+
+
+
+
+@endmindmap

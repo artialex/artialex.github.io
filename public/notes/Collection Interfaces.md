@@ -1,0 +1,11 @@
+- `Iterable` - collection has an iterator, and is traversable using `for (T value: collection) { ... }`
+	- `Collection` is basic interface for all Iterable collections
+		- `List` is a sequence of elements
+		- `Set` is a sequence of unique elements
+			- `SortedSet`
+			- `NavigableSet` has methods for quick navigation
+		- `Queue` is LIFO collection
+			- `Deque` is a double-ended queue
+		- `Map` is a sequence of key-value entries
+			- `SortedMap`
+			- `NavigableMap` has methods for quick navigation

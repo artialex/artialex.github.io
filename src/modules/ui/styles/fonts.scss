@@ -1,15 +1,15 @@
-$nunito: 'Nunito', Arial, Helvetica, sans-serif;
+$primary: 'Rubik', Arial, Helvetica, sans-serif;
 
-@mixin nunito($font-size: 1.1rem, $line-height: 1.5rem, $font-weight: 500) {
-  font-family: $nunito;
+@mixin primary($font-size: 1.1rem, $line-height: 1.5rem, $font-weight: 400) {
+  font-family: $primary;
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
 }
 
-$mono: 'Anka/Coder Condensed', monospace;
+$mono: 'Iosevka SS08', monospace;
 
-@mixin mono($font-size: 1.1rem, $line-height: 1.5rem, $font-weight: 500) {
+@mixin mono($font-size: 1rem, $line-height: 1.5rem, $font-weight: 500) {
   font-family: $mono;
   font-size: $font-size;
   font-weight: $font-weight;

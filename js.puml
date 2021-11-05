@@ -1,0 +1,90 @@
+@startuml
+!include https://raw.githubusercontent.com/alextheartisan/plantuml-themes/master/src/themes/pretty.iuml
+
+left to right direction
+hide empty members
+
+class Skia<C++> <<(G, lightgreen) Graphics Engine>>
+
+package Firefox <<Browser Engine>> {
+    class Gecko as "Gecko/Servo" <C++, Rust> <<(R, plum) Rendering Engine>>
+    class SpiderMonkey <C++, Rust> <<(J, orange) JS Engine>>
+
+    Gecko --> SpiderMonkey
+}
+
+package Webkit <<Browser Engine>> {
+    class WebCore <<(R, plum) Rendering Engine>>
+    class JavaScriptCore <<(J, orange) JS Engine>>
+
+    WebCore --> JavaScriptCore
+}
+
+package Chromium <<Browser Engine>> {
+    class Blink <<(R, plum) Rendering Engine>> {
+        Written in **C++**
+    }
+    class V8 <<(J, orange) JS Engine>> {
+        Written in **C++**
+    }
+
+    Blink --> V8
+}
+
+class Chrome <<(W, lightblue) Web Browser>>
+class Edge <<(W, lightblue) Web Browser>>
+class Opera <<(W, lightblue) Web Browser>>
+class Safari <<(W, lightblue) Web Browser>>
+class FirefoxB as "Firefox" <<(W, lightblue) Web Browser>>
+
+Chrome --> Blink
+Edge --> Blink
+Opera --> Blink
+Safari --> WebCore
+FirefoxB --> Gecko
+
+/'
+class Chromium <<(W, lightblue) Web Browser>> {
+    ""DOM API""
+    ""Console API""
+
+    ""...other browser APIs""
+}
+
+class V8 <<(E, lightgreen) JS Engine>> {
+    ""- Has JS Interpreter""
+    ""- Has JS Compiler""
+    ""- Has Garbage collector""
+
+    --Specifications--
+    ECMAScript
+    WebAssembly
+}
+
+class JavaScriptCore <<(E, lightgreen) JS Engine>>  {
+}
+
+
+class N as "Node.js" << (R, pink) JS Runtime>> {
+    ""Console API""
+    ""Stream API""
+
+    ""...other Node.js APIs""
+}
+
+class Deno << (R, pink) JS Runtime>> {
+
+}
+
+Blink -> Webkit: "fork    "
+N ----> V8
+Deno ----> V8
+Blink --> V8
+Chromium --> Blink
+Chrome --> Chromium
+Edge --> Chromium
+Opera --> Chromium
+Webkit --> JavaScriptCore
+Safari ---> Webkit
+'/
+@enduml

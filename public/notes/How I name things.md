@@ -65,3 +65,6 @@ These files usually export multiple functions, so use pseudoextensions indicatin
 ---
 
 - https://github.com/kettanaito/naming-cheatsheet
+
+
+[[Naming projects]]

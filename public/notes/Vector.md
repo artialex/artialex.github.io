@@ -4,7 +4,7 @@ tags: [done]
 
 # Vector
 
-Algebraic representation of a vector is a _one-dimensional list_
+**Algebraic representation** of a vector is a _one-dimensional list_
 
 $$
 \vec{\Green v} = \BM a_1 \\ a_2 \\ \vdots \\ a_n \EM
@@ -12,7 +12,7 @@ $$
 \vec{\Green v} = \BM a_1 & a_2 & \ldots & a_n \EM
 $$
 
-Geometrical representation of a vector is _an arrow_ coming from
+**Geometrical representation** of a vector is _an arrow_ coming from
 the origin of a coordinate space to the point which denoted either as
 $x$ and $y$ coordinates or as an angle $\theta$ and a magnitude $\|\vec{v}\|$
 

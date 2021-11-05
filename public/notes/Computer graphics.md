@@ -1,8 +1,8 @@
 ---
-tags: [map]
+tags: [index]
 ---
 
-# Computer graphics
+# Computer Graphics
 
 [[How to start learning computer graphics programming]]
 
@@ -381,3 +381,28 @@ http://www.songho.ca/math/index.html
 - https://telegra.ph/Poleznye-resursy-11-08
 - https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc
 -->
+
+
+
+[[OBJ File Format]]
+
+[[3D Graphics Class Structure]]
+
+
+[[Physics]]
+
+[[Color]]
+
+[[Partial differential equation]]
+
+[[Shaders]]
+
+[[Lights & Shadows]]
+
+[[Bidirectional reflectance distribution function]]
+
+
+[[Post Processing]]
+
+
+[[Сортировка]]

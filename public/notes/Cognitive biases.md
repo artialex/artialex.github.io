@@ -1,3 +1,7 @@
+---
+tags: [map]
+---
+
 # Cognitive biases
 
 ## Biases
@@ -11,5 +15,3 @@
 - False analogy
 - Collector's fallacy
 - Vicious circle
-
-

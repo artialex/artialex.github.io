@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [entrypoint]
 ---
 
 # Hi
@@ -9,13 +9,6 @@ I'm Alex <!--I look pretty much like this -->
 <!--![face](lico.jpg)-->
 
 This is my "second brain" where I write about things that are interesting to me. Mostly those things are related to software development, especially the visible side of it, GUI and graphics
-
-<!--Also this is my other resources-->
-
-<!--
-I don't really like personal definitions, but for simplicity you can think of
-me as of software developer, mostly working on a visible side of it, GUI
--->
 
 <!--
 [[My resume]]

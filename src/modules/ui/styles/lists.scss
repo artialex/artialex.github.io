@@ -26,7 +26,14 @@ main {
   }
 
   ul li::before {
-    content: '· ';
+    content: '• ';
+    font-size: 0.75rem;
+    // width: 2px;
+    // height: 2px;
+    // border-radius: 50%;
+    // align-items: center;
+    // display: flex;
+    // top: calc(1rem);
   }
 
   ol li::before {

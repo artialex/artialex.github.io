@@ -1,3 +1,7 @@
+---
+tags: [map]
+---
+
 # Unix
 
 * [[Bash]]

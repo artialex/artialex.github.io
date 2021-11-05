@@ -13,10 +13,10 @@ Arrays are _Objects_. Differences are:
 
 ### Stacks & Queues
 
-|        | start                | end               |
-| ------ | -------------------- | ----------------- |
-| add    | `unshift()` (slower) | `push()` (faster) |
-| remove | `shift()` (slower)   | `pop()` (faster)  |
+|        | start              | end             |
+| ------ | ------------------ | --------------- |
+| add    | `unshift()` (slow) | `push()` (fast) |
+| remove | `shift()` (slow)   | `pop()` (fast)  |
 
 - Array works as a Stack (FIFO) when using `push` and `pop` methods
 - Array works as a Queue (FILO) when using `push` and `shift` methods

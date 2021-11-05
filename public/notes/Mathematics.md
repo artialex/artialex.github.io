@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [map]
 ---
 
 # Mathematics
@@ -12,8 +12,10 @@ tags: [done]
 
 ## Spaces
 
-<!--
 - [[Geometry]]
+	- [[Angles]]
+
+<!--
 - [[Trigonometry]]
 -->
 
@@ -27,10 +29,9 @@ tags: [done]
 
 <!-- Propability theory -->
 
-<!--
 ## Analysis
+
 - [[Calculus]]
--->
 
 ## Applied
 
