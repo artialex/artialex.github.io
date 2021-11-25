@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # WebGL
 
 - https://alain.xyz/blog/raw-webgl

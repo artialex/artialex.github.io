@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [notetaking]
 ---
 
 # The way I write these notes
@@ -30,12 +30,17 @@ Then I used Workflowy, but the idea of having a lot of lists quickly became not 
 _Maybe my mindset led me the way of lists and categories instead of
 the way of links and connections_
 
-Finally I discovered [Zettelkasten method](https://www.wikiwand.com/en/Zettelkasten) and now I think that it's the most appropriate way of writing notes for me. It has no overhead, no extra burden. It drove me back to simple markdown files and I can view them in any form I like, In the editor or web-based.
+Finally I discovered [Zettelkasten method](https://zettelkasten.de/posts/overview/) and now I think that it's the most appropriate way of writing notes for me. It has no overhead, no extra burden. It drove me back to simple markdown files and I can view them in any form I like, In the editor or web-based.
 
 This web version is inspired by:
 
 - [Max Stoiber's notes](https://notes.mxstbr.com/About_these_notes)
 - [Andy Matuschak's notes](https://notes.andymatuschak.org/About_these_notes)
+
+---
+
+- [RU] [Картотека Лумана: 10 принципов идеального конспекта для писателей, исследователей и студентов](https://zeh.media/praktika/instruktsiya/4796135-10-printsipov-idealnogo-konspekta)
+
 
 <!--
 * https://braindump.jethro.dev/
@@ -185,4 +190,3 @@ This web version is inspired by:
   продуктивным|https://habr.com/ru/post/508672/]]
 -->
 
-[[Zettelkasten principles]]

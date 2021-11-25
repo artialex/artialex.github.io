@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Lighting
 
 Light in software differs from the light of the real world. It's not much about physics, waves and particles and more about. It's more about _how light appears on an object_

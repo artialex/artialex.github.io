@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [linal, done]
 ---
 
 # Cross product

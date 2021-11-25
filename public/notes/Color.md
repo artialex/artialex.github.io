@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Color
 
 ## Color spaces

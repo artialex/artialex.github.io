@@ -1,5 +1,5 @@
 ---
-tags: [map]
+tags: [map, ignore]
 ---
 
 # Mathematics
@@ -17,9 +17,10 @@ tags: [map]
 
 <!--
 - [[Trigonometry]]
+- [[Linear algebra]]
+
 -->
 
-- [[Linear algebra]]
 
 ## Structures
 

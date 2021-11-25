@@ -1,5 +1,5 @@
 ---
-tags: [wip]
+tags: [js]
 ---
 
 # JavaScript Functions

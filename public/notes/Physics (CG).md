@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Physics (CG)
 
 - Fire & Smoke simulation

@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # 3D Graphics Class Structure
 
 Using `three.js` library as an example

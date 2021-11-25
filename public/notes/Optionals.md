@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 # Optionals
 
 - Should not be used as Object properties

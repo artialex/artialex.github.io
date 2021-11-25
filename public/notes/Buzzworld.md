@@ -1,5 +1,5 @@
 ---
-tags: [map]
+tags: [map, ignore]
 ---
 
 # Buzzworld
@@ -47,8 +47,8 @@ Algorithms
 
 [[ASCII]]
 
-[[Back-end Programming]]
-[[Front-end Programming]]
+[[Java]]
+[[Frontend]]
 
 ## Принципы и практики
 

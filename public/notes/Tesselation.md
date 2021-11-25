@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Tesselation
 
 Tesselation is a process of generating more and more subdivided surface. This allows meshes to look smoother

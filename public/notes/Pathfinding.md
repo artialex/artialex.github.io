@@ -1,3 +1,7 @@
+---
+tags: [algo]
+---
+
 # Pathfinding
 
 - DFS (Bad)

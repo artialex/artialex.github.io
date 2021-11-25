@@ -1,42 +1,22 @@
+---
+tags: [architecture, index]
+---
+
 # Software Architecture
 
-First of all, *not every system needs an architecture*. 
+*Not every system needs an architecture*
 
-- [[Дизайн API]]
-- [[Как работает игровой движок?]]
-- [[Как работает браузер?]]
+- [[Common Principles]]
+- [[Small Picture]] / [[Big Picture]]
+- [[UML & Visualization]]
+- [[Concrete Usecases]]
 
+Biases
 
-- [[Screaming Architecture]]
-- [[Clean Architecture]]
-
-- **DRY**: Don't Repeat Yourself
-
-- [[Modules]]
 - [[Conway's Law]]
-
-- MVC for GUI
-- ECS for games
-
-## Command Query Separation (CQS )
-
-- https://martinfowler.com/bliki/CommandQuerySeparation.html
-
-<!--
-## Buzzworld
-
-- SOLID
-- Dependency inversion
-- DDD
-
-https://github.com/stemmlerjs/software-design-and-architecture-roadmap
-
-
--->
 
 ---
 
-- https://c4model.com/
 - [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
 - [Application Architecture Guide 2.0](https://archive.codeplex.com/?p=AppArchGuide)
 - [Архитектура приложений с открытым исходным кодом](http://rus-linux.net/MyLDP/BOOKS/Architecture-Open-Source-Applications/index.html)
@@ -45,4 +25,3 @@ https://github.com/stemmlerjs/software-design-and-architecture-roadmap
 
 
 
-[[12-factor application]]

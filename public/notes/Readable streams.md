@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [js, done]
 ---
 
 # Readable streams

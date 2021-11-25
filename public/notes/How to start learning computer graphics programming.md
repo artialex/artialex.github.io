@@ -20,8 +20,10 @@ Summary of [this](https://erkaman.github.io/posts/beginner_computer_graphics.htm
 
 ## 2. Learn the necessary mathematics
 
+<!--
 - [[Dot product]]
 - [[Cross product]]
+-->
 - Spherical coordinates
 - Transformation Matrices (4x4)
   - Rotation Matrix
@@ -32,7 +34,11 @@ Summary of [this](https://erkaman.github.io/posts/beginner_computer_graphics.htm
 - Orthonormal Basis Matrix
 - Intersection calculations
 - ! Column-major order и row-major order ([[1|https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/geometry/row-major-vs-column-major-vector]])
-- How to model camera, with the view matrix and perspective transformation matrix ([[1|https://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction]], [[2|https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/lookat-function]])
+- How to model camera, with the view matrix and perspective transformation matrix 
+<!--
+
+- ([[1|https://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction]], [[2|https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/lookat-function]])
+-->
 
 ## 3. Some debugging notes
 

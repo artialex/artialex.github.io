@@ -1,8 +1,10 @@
 ---
-tags: [index]
+tags: [cg, index]
 ---
 
 # Computer Graphics
+
+[[Linear algebra]]
 
 [[How to start learning computer graphics programming]]
 
@@ -18,7 +20,9 @@ tags: [index]
 
 ## Common
 
+<!--
 - [[Linear transformations]]
+-->
 - [[Spaces]]
   - Views
   - Cameras

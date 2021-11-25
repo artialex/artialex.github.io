@@ -1,3 +1,7 @@
+---
+tags: [architecture]
+---
+
 # Clean Architecture
 
 ## Ideas:

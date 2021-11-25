@@ -1,13 +1,26 @@
 {
   "main": {
-    "id": "18eb2bc40aa43555",
+    "id": "a728d7222303ca63",
     "type": "split",
     "children": [
       {
-        "id": "fc3d69663d74ca0e",
+        "id": "c1af192f6e847e89",
         "type": "leaf",
+        "dimension": 30.5077968812475,
         "state": {
-          "type": "empty",
+          "type": "markdown",
+          "state": {
+            "file": "State Machine.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "31d15bf24d731700",
+        "type": "leaf",
+        "dimension": 69.4922031187525,
+        "state": {
+          "type": "graph",
           "state": {}
         }
       }
@@ -36,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#index",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,6 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "State Machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -76,25 +90,42 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "762c28d12a40146e",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f675b10f3ba19e2a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "fc3d69663d74ca0e",
+  "active": "c1af192f6e847e89",
   "lastOpenFiles": [
-    "JavaScript.md",
-    "How I write Front-End.md",
-    "Front-end Programming.md",
-    "Basic JavaScript.md",
-    "JavaScript Arrays.md",
-    "Naming variables.md",
-    "JavaScript Types.md",
-    "React.md",
-    "Productivity.md",
-    "Java.md"
+    "State Machine.md",
+    "npm.md",
+    "Web Performance.md",
+    "Frontend.md",
+    "Dev Tools.md",
+    "Web Dev Tools.md",
+    "Data Fetching.md",
+    "AJAX.md",
+    "Node.js.md",
+    "Frontend Persistence.md"
   ]
 }

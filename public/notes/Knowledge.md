@@ -5,6 +5,7 @@ tags: [map]
 # Knowledge
 
 My personal notes and summaries in various disciplines and activities.
+<!--
 
 - [[JavaScript]]
 - [[Java]]
@@ -17,8 +18,8 @@ My personal notes and summaries in various disciplines and activities.
 - [[UML]]
 - [[Computer Graphics]]
 - [[Authentication and Authorization]]
+- [[Learning]]
 
-<!--
 - [[DevOps]]
 - Computer Science
 	- [[Software]]

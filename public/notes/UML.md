@@ -1,5 +1,5 @@
 ---
-tags: [index]
+tags: []
 ---
 
 # UML

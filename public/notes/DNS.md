@@ -1,9 +1,12 @@
 ---
-tags: [done]
+tags: [networking]
+aliases: [Domain name System]
 ---
 
 # DNS
 
-::aliases[Domain name System]
+- [[Domain name]]
+
+--
 
 [DNS in one picture](https://roadmap.sh/guides/dns-in-one-picture)

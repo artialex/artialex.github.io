@@ -1,3 +1,7 @@
+---
+tags: [fe, js]
+---
+
 # JavaScript Modules
 
 - CommonJS

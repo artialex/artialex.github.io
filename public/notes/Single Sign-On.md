@@ -1,5 +1,8 @@
-# Single Sign-On
+---
+tags: [fe]
+aliases: [SSO]
+---
 
-::aliases[SSO]
+# Single Sign-On
 
 - https://roadmap.sh/guides/sso

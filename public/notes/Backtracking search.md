@@ -1,3 +1,7 @@
+---
+tags: [algo]
+---
+
 # Backtracking search
 
 Method of solving tasks where the check of all possible options is required (brute force)

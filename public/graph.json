@@ -1,0 +1,5320 @@
+{
+  "nodes": [
+    {
+      "id": "'I have no time' problem"
+    },
+    {
+      "id": ".NET"
+    },
+    {
+      "id": "1"
+    },
+    {
+      "id": "12-factor application",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "2D Rotation",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "3D Graphics Class Structure",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "3D Rotation",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "About feedback"
+    },
+    {
+      "id": "PDCA"
+    },
+    {
+      "id": "Abstract classes vs interfaces"
+    },
+    {
+      "id": "Abyss"
+    },
+    {
+      "id": "Статьи для разбора"
+    },
+    {
+      "id": "Как работает игровой движок?"
+    },
+    {
+      "id": "Как работает браузер?"
+    },
+    {
+      "id": "Visuals"
+    },
+    {
+      "id": "Adapter"
+    },
+    {
+      "id": "Adapters Layer",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Application layer"
+    },
+    {
+      "id": "Infrastructure Layer"
+    },
+    {
+      "id": "Adjacency list",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Adjacency matrix",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Advanced Java",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Affine transformations",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Scaling"
+    },
+    {
+      "id": "Reflection"
+    },
+    {
+      "id": "Rotation"
+    },
+    {
+      "id": "Agile Development",
+      "tags": [
+        "agile",
+        "index"
+      ]
+    },
+    {
+      "id": "User Story"
+    },
+    {
+      "id": "Task"
+    },
+    {
+      "id": "Kaizen"
+    },
+    {
+      "id": "Algorithms & Data Structures"
+    },
+    {
+      "id": "Algorithms",
+      "tags": [
+        "algo",
+        "index"
+      ]
+    },
+    {
+      "id": "Pathfinding"
+    },
+    {
+      "id": "Breadth-first search"
+    },
+    {
+      "id": "Depth-first search"
+    },
+    {
+      "id": "Backtracking search"
+    },
+    {
+      "id": "Data Sctructures"
+    },
+    {
+      "id": "Aliasing"
+    },
+    {
+      "id": "Sampling"
+    },
+    {
+      "id": "Amazon S3"
+    },
+    {
+      "id": "Angles"
+    },
+    {
+      "id": "Application layer",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Array",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "Arrays",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Lists"
+    },
+    {
+      "id": "Assets optimizations"
+    },
+    {
+      "id": "Associations",
+      "tags": [
+        "db"
+      ]
+    },
+    {
+      "id": "Authentication & Authorization",
+      "tags": []
+    },
+    {
+      "id": "Single Sign-On"
+    },
+    {
+      "id": "Backtracking search",
+      "tags": [
+        "algo"
+      ]
+    },
+    {
+      "id": "Bash"
+    },
+    {
+      "id": "Basic JavaScript"
+    },
+    {
+      "id": "Bezier curves"
+    },
+    {
+      "id": "Bidirectional reflectance distribution function",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Big Picture",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Screaming Architecture"
+    },
+    {
+      "id": "Clean Architecture"
+    },
+    {
+      "id": "Domain-Driven Design"
+    },
+    {
+      "id": "12-factor application"
+    },
+    {
+      "id": "Bike-shedding effect"
+    },
+    {
+      "id": "Binary tree",
+      "tags": [
+        "ds",
+        "graph",
+        "tree"
+      ]
+    },
+    {
+      "id": "Bitmap"
+    },
+    {
+      "id": "Breadth-first search",
+      "tags": [
+        "algo",
+        "graph"
+      ]
+    },
+    {
+      "id": "Build optimizations"
+    },
+    {
+      "id": "Buzzworld",
+      "tags": [
+        "map",
+        "ignore"
+      ]
+    },
+    {
+      "id": "ASCII"
+    },
+    {
+      "id": "Java"
+    },
+    {
+      "id": "Frontend"
+    },
+    {
+      "id": "C++"
+    },
+    {
+      "id": "Calculus"
+    },
+    {
+      "id": "Call stack"
+    },
+    {
+      "id": "Cartesian product"
+    },
+    {
+      "id": "Classes"
+    },
+    {
+      "id": "Enums"
+    },
+    {
+      "id": "Clean Architecture",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Domain Layer"
+    },
+    {
+      "id": "Application layer"
+    },
+    {
+      "id": "Adapters Layer"
+    },
+    {
+      "id": "Infrastructure Layer"
+    },
+    {
+      "id": "Clipping",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Cloth simulation"
+    },
+    {
+      "id": "ODE"
+    },
+    {
+      "id": "Code organization"
+    },
+    {
+      "id": "Cognitive biases",
+      "tags": [
+        "map"
+      ]
+    },
+    {
+      "id": "Bike-shedding effect"
+    },
+    {
+      "id": "Fundamental attribution error"
+    },
+    {
+      "id": "Concorde effect"
+    },
+    {
+      "id": "Collections",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Arrays"
+    },
+    {
+      "id": "Lists"
+    },
+    {
+      "id": "Sets"
+    },
+    {
+      "id": "Maps"
+    },
+    {
+      "id": "Queues"
+    },
+    {
+      "id": "Color",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Combinations",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Combinatorics Tasks",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Combinatorics",
+      "tags": [
+        "map"
+      ]
+    },
+    {
+      "id": "Set theory"
+    },
+    {
+      "id": "Combinations"
+    },
+    {
+      "id": "Permutations"
+    },
+    {
+      "id": "Combinatorics Tasks"
+    },
+    {
+      "id": "Common Principles",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "SOLID"
+    },
+    {
+      "id": "Common Sense Style Guide",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Complete graph",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "Component, Instance & Element"
+    },
+    {
+      "id": "Computer Graphics",
+      "tags": [
+        "cg",
+        "index"
+      ]
+    },
+    {
+      "id": "Linear algebra"
+    },
+    {
+      "id": "How to start learning computer graphics programming"
+    },
+    {
+      "id": "Modeling"
+    },
+    {
+      "id": "Lighting"
+    },
+    {
+      "id": "Rendering"
+    },
+    {
+      "id": "Tesselation"
+    },
+    {
+      "id": "Spaces"
+    },
+    {
+      "id": "OBJ File Format"
+    },
+    {
+      "id": "3D Graphics Class Structure"
+    },
+    {
+      "id": "Physics"
+    },
+    {
+      "id": "Color"
+    },
+    {
+      "id": "Partial differential equation"
+    },
+    {
+      "id": "Shaders"
+    },
+    {
+      "id": "Lights & Shadows"
+    },
+    {
+      "id": "Bidirectional reflectance distribution function"
+    },
+    {
+      "id": "Post Processing"
+    },
+    {
+      "id": "Сортировка"
+    },
+    {
+      "id": "Computer Science",
+      "tags": [
+        "map"
+      ]
+    },
+    {
+      "id": "Serialization"
+    },
+    {
+      "id": "Marshalling"
+    },
+    {
+      "id": "Multiplexing"
+    },
+    {
+      "id": "Function Types"
+    },
+    {
+      "id": "Encoding"
+    },
+    {
+      "id": "Round Trip Time"
+    },
+    {
+      "id": "Computer vision"
+    },
+    {
+      "id": "Digital image processing"
+    },
+    {
+      "id": "Concorde effect"
+    },
+    {
+      "id": "Concrete examples better than abstract ones"
+    },
+    {
+      "id": "Concrete Usecases",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Rest API Design"
+    },
+    {
+      "id": "Concurrent collection interfaces"
+    },
+    {
+      "id": "Concurrent collections",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Conditional requests"
+    },
+    {
+      "id": "Content Security Policy"
+    },
+    {
+      "id": "Contexts"
+    },
+    {
+      "id": "Systems"
+    },
+    {
+      "id": "Convolution"
+    },
+    {
+      "id": "Conway's Law",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Cool graphs"
+    },
+    {
+      "id": "Coordinate space",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "CPU",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Processes"
+    },
+    {
+      "id": "Threads"
+    },
+    {
+      "id": "Creating a resource"
+    },
+    {
+      "id": "Cross product",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Unit vector"
+    },
+    {
+      "id": "CSharp Features"
+    },
+    {
+      "id": "CSS Shorthands"
+    },
+    {
+      "id": "CSS"
+    },
+    {
+      "id": "Curves & Surfaces"
+    },
+    {
+      "id": "Bezier curves"
+    },
+    {
+      "id": "Splines"
+    },
+    {
+      "id": "Data Access",
+      "tags": [
+        "db"
+      ]
+    },
+    {
+      "id": "SQL"
+    },
+    {
+      "id": "Databases"
+    },
+    {
+      "id": "Data Integrity"
+    },
+    {
+      "id": "Data link layer"
+    },
+    {
+      "id": "модели OSI"
+    },
+    {
+      "id": "Ethernet Packet & Frame"
+    },
+    {
+      "id": "Physical Layer"
+    },
+    {
+      "id": "Data Science"
+    },
+    {
+      "id": "Statistics"
+    },
+    {
+      "id": "Data Sctructures",
+      "tags": [
+        "ds",
+        "index"
+      ]
+    },
+    {
+      "id": "Graph"
+    },
+    {
+      "id": "Queue"
+    },
+    {
+      "id": "Array"
+    },
+    {
+      "id": "List"
+    },
+    {
+      "id": "Linked List"
+    },
+    {
+      "id": "Binary tree"
+    },
+    {
+      "id": "Node"
+    },
+    {
+      "id": "Heap"
+    },
+    {
+      "id": "Databases",
+      "tags": [
+        "db",
+        "index"
+      ]
+    },
+    {
+      "id": "Associations"
+    },
+    {
+      "id": "PostgreSQL"
+    },
+    {
+      "id": "Partitioning"
+    },
+    {
+      "id": "Databases"
+    },
+    {
+      "id": "JDBC"
+    },
+    {
+      "id": "JPA"
+    },
+    {
+      "id": "Hibernate"
+    },
+    {
+      "id": "Spring Data"
+    },
+    {
+      "id": "PostgreSQL"
+    },
+    {
+      "id": "Sharding"
+    },
+    {
+      "id": "Partitioning"
+    },
+    {
+      "id": "Data Access"
+    },
+    {
+      "id": "DateTime API",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Dependency Injection",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Depth-first search",
+      "tags": [
+        "algo",
+        "graph"
+      ]
+    },
+    {
+      "id": "Design patterns",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Determinant",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Dev Tools"
+    },
+    {
+      "id": "DevOps",
+      "tags": [
+        "devops",
+        "index"
+      ]
+    },
+    {
+      "id": "Amazon S3"
+    },
+    {
+      "id": "Diagnostics & Tracing"
+    },
+    {
+      "id": "Diagonal matrix",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Differential equations"
+    },
+    {
+      "id": "Digital image processing"
+    },
+    {
+      "id": "Sampling"
+    },
+    {
+      "id": "Quantization"
+    },
+    {
+      "id": "Digital signal processing"
+    },
+    {
+      "id": "Sampling"
+    },
+    {
+      "id": "Quantization"
+    },
+    {
+      "id": "Z Transform"
+    },
+    {
+      "id": "Discrete Fourier Transform"
+    },
+    {
+      "id": "Fast Fourier Transform"
+    },
+    {
+      "id": "Convolution"
+    },
+    {
+      "id": "Digital image processing"
+    },
+    {
+      "id": "Sampling"
+    },
+    {
+      "id": "Stack Exchange Roadmap"
+    },
+    {
+      "id": "Physical Audio Signal Processing for virtual musical instruments and audio effects"
+    },
+    {
+      "id": "Direction vector",
+      "tags": [
+        "linal"
+      ]
+    },
+    {
+      "id": "Unit vector"
+    },
+    {
+      "id": "DNS",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Docker"
+    },
+    {
+      "id": "Domain Layer",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Domain-Driven Design",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Dot product",
+      "tags": [
+        "linal"
+      ]
+    },
+    {
+      "id": "Matrix · Matrix operation"
+    },
+    {
+      "id": "dotNET"
+    },
+    {
+      "id": "Duplex streams",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Edge list",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Encoding"
+    },
+    {
+      "id": "Enums"
+    },
+    {
+      "id": "equals() and hashCode()"
+    },
+    {
+      "id": "Error responses"
+    },
+    {
+      "id": "Errors vs Exceptions"
+    },
+    {
+      "id": "Event Emitter"
+    },
+    {
+      "id": "Event loop",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "id": "Call stack"
+    },
+    {
+      "id": "Task queue"
+    },
+    {
+      "id": "Events"
+    },
+    {
+      "id": "Exceptions"
+    },
+    {
+      "id": "Factory Method"
+    },
+    {
+      "id": "Fifth Discipline. Summary"
+    },
+    {
+      "id": "Two types of Feedback"
+    },
+    {
+      "id": "Files API",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Files",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "id": "Filtering"
+    },
+    {
+      "id": "First two things I do when joining a new team",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Front-end performance checklist"
+    },
+    {
+      "id": "Assets optimizations"
+    },
+    {
+      "id": "Build optimizations"
+    },
+    {
+      "id": "Frontend",
+      "tags": [
+        "fe",
+        "index"
+      ]
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "CSS"
+    },
+    {
+      "id": "Authentication & Authorization"
+    },
+    {
+      "id": "I18n"
+    },
+    {
+      "id": "Web Animation"
+    },
+    {
+      "id": "Function Types"
+    },
+    {
+      "id": "Functional elements",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Functional interfaces"
+    },
+    {
+      "id": "Stream API"
+    },
+    {
+      "id": "Optionals"
+    },
+    {
+      "id": "Functional interfaces",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Fundamental attribution error"
+    },
+    {
+      "id": "Game loop"
+    },
+    {
+      "id": "Update method"
+    },
+    {
+      "id": "Geometry"
+    },
+    {
+      "id": "Git"
+    },
+    {
+      "id": "Blob"
+    },
+    {
+      "id": "Binary representation"
+    },
+    {
+      "id": "Goals"
+    },
+    {
+      "id": "GPU"
+    },
+    {
+      "id": "Graph algorithms",
+      "tags": [
+        "algo",
+        "graph"
+      ]
+    },
+    {
+      "id": "Depth-first search"
+    },
+    {
+      "id": "Breadth-first search"
+    },
+    {
+      "id": "Graph connectivity",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph cyclicity",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph edge",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph elements",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph vertex"
+    },
+    {
+      "id": "Graph edge"
+    },
+    {
+      "id": "Graph joining",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph operations",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph joining"
+    },
+    {
+      "id": "Graph orientation",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph properties",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph orientation"
+    },
+    {
+      "id": "Graph cyclicity"
+    },
+    {
+      "id": "Graph weight"
+    },
+    {
+      "id": "Graph connectivity"
+    },
+    {
+      "id": "Graph representations",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Adjacency matrix"
+    },
+    {
+      "id": "Adjacency list"
+    },
+    {
+      "id": "Edge list"
+    },
+    {
+      "id": "Graph traversions",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph types",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Tree"
+    },
+    {
+      "id": "Complete graph"
+    },
+    {
+      "id": "Cool graphs"
+    },
+    {
+      "id": "Двудольный граф"
+    },
+    {
+      "id": "Tree"
+    },
+    {
+      "id": "Binary tree"
+    },
+    {
+      "id": "Graph vertex",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph weight",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph",
+      "tags": [
+        "ds",
+        "graph"
+      ]
+    },
+    {
+      "id": "Graph elements"
+    },
+    {
+      "id": "Graph properties"
+    },
+    {
+      "id": "Graph types"
+    },
+    {
+      "id": "Graph operations"
+    },
+    {
+      "id": "Graph traversions"
+    },
+    {
+      "id": "Graph representations"
+    },
+    {
+      "id": "Graph algorithms"
+    },
+    {
+      "id": "Guides",
+      "tags": [
+        "map",
+        "ignore"
+      ]
+    },
+    {
+      "id": "How I write Front-End"
+    },
+    {
+      "id": "How I name things"
+    },
+    {
+      "id": "How I create a CI pipeline"
+    },
+    {
+      "id": "How I write unit tests"
+    },
+    {
+      "id": "Hardware",
+      "tags": [
+        "map"
+      ]
+    },
+    {
+      "id": "CPU"
+    },
+    {
+      "id": "RAM"
+    },
+    {
+      "id": "GPU"
+    },
+    {
+      "id": "Heap",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "Hi",
+      "tags": [
+        "entrypoint",
+        "ignore"
+      ]
+    },
+    {
+      "id": "The way I write these notes"
+    },
+    {
+      "id": "Learning"
+    },
+    {
+      "id": "Linear algebra"
+    },
+    {
+      "id": "Algorithms & Data Structures"
+    },
+    {
+      "id": "Software Architecture"
+    },
+    {
+      "id": "Frontend"
+    },
+    {
+      "id": "Java"
+    },
+    {
+      "id": "Data Access"
+    },
+    {
+      "id": "Hibernate",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "JPA"
+    },
+    {
+      "id": "Histories"
+    },
+    {
+      "id": "Contexts"
+    },
+    {
+      "id": "Streams (Management)"
+    },
+    {
+      "id": "Homogeneity"
+    },
+    {
+      "id": "How browser works"
+    },
+    {
+      "id": "How I create a CI pipeline"
+    },
+    {
+      "id": "How I name things",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "id": "Common Sense Style Guide"
+    },
+    {
+      "id": "Naming variables"
+    },
+    {
+      "id": "Naming projects"
+    },
+    {
+      "id": "How I write Front-End",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Package by feature not layer"
+    },
+    {
+      "id": "How I write unit tests"
+    },
+    {
+      "id": "How to ask good questions"
+    },
+    {
+      "id": "How to measure application complexity"
+    },
+    {
+      "id": "How to solve algorithmic tasks",
+      "tags": [
+        "algo"
+      ]
+    },
+    {
+      "id": "Depth-first search"
+    },
+    {
+      "id": "Breadth-first search"
+    },
+    {
+      "id": "Backtracking search"
+    },
+    {
+      "id": "How to start learning computer graphics programming"
+    },
+    {
+      "id": "Rasterizer"
+    },
+    {
+      "id": "Quarternion"
+    },
+    {
+      "id": "1"
+    },
+    {
+      "id": "HTTP (Java)"
+    },
+    {
+      "id": "HTTP Headers"
+    },
+    {
+      "id": "HTTP Headers"
+    },
+    {
+      "id": "HTTP"
+    },
+    {
+      "id": "RTT"
+    },
+    {
+      "id": "Multiplexing"
+    },
+    {
+      "id": "Мультиплексирование!мультиплексируются"
+    },
+    {
+      "id": "SSH"
+    },
+    {
+      "id": "I18n"
+    },
+    {
+      "id": "Ideas"
+    },
+    {
+      "id": "Identity matrix",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Images"
+    },
+    {
+      "id": "Pixel"
+    },
+    {
+      "id": "Bitmap"
+    },
+    {
+      "id": "Pixmap"
+    },
+    {
+      "id": "PPM"
+    },
+    {
+      "id": "Digital image processing"
+    },
+    {
+      "id": "Including & Excluding fields"
+    },
+    {
+      "id": "Infrastructure Layer",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Insertion sort"
+    },
+    {
+      "id": "Interfaces"
+    },
+    {
+      "id": "Functional interfaces"
+    },
+    {
+      "id": "Abstract classes vs interfaces"
+    },
+    {
+      "id": "Inverse matrix",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Inverse vector",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "IP-address"
+    },
+    {
+      "id": "IP-адрес"
+    },
+    {
+      "id": "Java Abbreviations"
+    },
+    {
+      "id": "Java API",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Files API"
+    },
+    {
+      "id": "DateTime API"
+    },
+    {
+      "id": "Stream API"
+    },
+    {
+      "id": "Java Code Snippets"
+    },
+    {
+      "id": "Java Concurrency",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Java Concurrency"
+    },
+    {
+      "id": "Java Concurrency"
+    },
+    {
+      "id": "Java Language",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Java Objects"
+    },
+    {
+      "id": "Values & Value Types"
+    },
+    {
+      "id": "Exceptions"
+    },
+    {
+      "id": "Collections"
+    },
+    {
+      "id": "Java Concurrency"
+    },
+    {
+      "id": "OOP Elements"
+    },
+    {
+      "id": "Functional elements"
+    },
+    {
+      "id": "Java API"
+    },
+    {
+      "id": "Java Libraries"
+    },
+    {
+      "id": "Lombok"
+    },
+    {
+      "id": "Jackson"
+    },
+    {
+      "id": "JSONAssert"
+    },
+    {
+      "id": "Java Objects",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "equals() and hashCode()"
+    },
+    {
+      "id": "toString()"
+    },
+    {
+      "id": "Java Persistence",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "JPA"
+    },
+    {
+      "id": "JDBC"
+    },
+    {
+      "id": "Java Platform",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Java Tools"
+    },
+    {
+      "id": "Advanced Java"
+    },
+    {
+      "id": "Java Abbreviations"
+    },
+    {
+      "id": "Java Abbreviations"
+    },
+    {
+      "id": "Java Abbreviations"
+    },
+    {
+      "id": "Java Platforms"
+    },
+    {
+      "id": "Java Platforms"
+    },
+    {
+      "id": "Java Testing",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "JUnit"
+    },
+    {
+      "id": "Mockito"
+    },
+    {
+      "id": "Java Tools"
+    },
+    {
+      "id": "Maven"
+    },
+    {
+      "id": "Gradle"
+    },
+    {
+      "id": "Java vs CSharp"
+    },
+    {
+      "id": "Parallel run"
+    },
+    {
+      "id": "Java",
+      "tags": [
+        "java",
+        "index"
+      ]
+    },
+    {
+      "id": "Java Language"
+    },
+    {
+      "id": "Java Platform"
+    },
+    {
+      "id": "Java Libraries"
+    },
+    {
+      "id": "Java Testing"
+    },
+    {
+      "id": "Spring"
+    },
+    {
+      "id": "Java Persistence"
+    },
+    {
+      "id": "Databases"
+    },
+    {
+      "id": "JavaScript Arrays",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "JavaScript Asynchronicity",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "id": "JavaScript Projects Terminology"
+    },
+    {
+      "id": "JavaScript Functions",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "id": "JavaScript Modules"
+    },
+    {
+      "id": "JavaScript Projects Terminology"
+    },
+    {
+      "id": "JavaScript",
+      "tags": [
+        "js",
+        "index"
+      ]
+    },
+    {
+      "id": "Basic JavaScript"
+    },
+    {
+      "id": "React"
+    },
+    {
+      "id": "JDBC",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "JPA",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "JDBC"
+    },
+    {
+      "id": "JDBC"
+    },
+    {
+      "id": "SQL"
+    },
+    {
+      "id": "SQL"
+    },
+    {
+      "id": "SQL"
+    },
+    {
+      "id": "JPQL"
+    },
+    {
+      "id": "SpEL"
+    },
+    {
+      "id": "Kaizen",
+      "tags": [
+        "map"
+      ]
+    },
+    {
+      "id": "Элементы кайдзен"
+    },
+    {
+      "id": "Принципы кайдзен"
+    },
+    {
+      "id": "Применение кайдзен"
+    },
+    {
+      "id": "Keyboard shortcuts"
+    },
+    {
+      "id": "Knowledge",
+      "tags": [
+        "map"
+      ]
+    },
+    {
+      "id": "Laws & Principles"
+    },
+    {
+      "id": "Conway's Law"
+    },
+    {
+      "id": "Learning",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "Levels"
+    },
+    {
+      "id": "Lighting",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Direction vector"
+    },
+    {
+      "id": "Direction vector"
+    },
+    {
+      "id": "Unit vector"
+    },
+    {
+      "id": "Direction vector"
+    },
+    {
+      "id": "Lights & Shadows",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Reflection (CG)"
+    },
+    {
+      "id": "Shadows"
+    },
+    {
+      "id": "Limbo"
+    },
+    {
+      "id": "Linear algebra",
+      "tags": [
+        "linal",
+        "index"
+      ]
+    },
+    {
+      "id": "Coordinate space"
+    },
+    {
+      "id": "Vector"
+    },
+    {
+      "id": "Matrix"
+    },
+    {
+      "id": "Vector & Matrix Operations"
+    },
+    {
+      "id": "Linear transformations"
+    },
+    {
+      "id": "Linear transformations",
+      "tags": [
+        "linal"
+      ]
+    },
+    {
+      "id": "Matrix"
+    },
+    {
+      "id": "Scaling"
+    },
+    {
+      "id": "Reflection"
+    },
+    {
+      "id": "Rotation"
+    },
+    {
+      "id": "Shear"
+    },
+    {
+      "id": "Projection"
+    },
+    {
+      "id": "Affine transformations"
+    },
+    {
+      "id": "Linked List",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "Stack"
+    },
+    {
+      "id": "Queue"
+    },
+    {
+      "id": "List",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "Lists",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Logging",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Lombok"
+    },
+    {
+      "id": "MAC-address",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Magical number 7"
+    },
+    {
+      "id": "Management Checklist"
+    },
+    {
+      "id": "Management"
+    },
+    {
+      "id": "Streams (Management)"
+    },
+    {
+      "id": "Levels"
+    },
+    {
+      "id": "Systems"
+    },
+    {
+      "id": "Contexts"
+    },
+    {
+      "id": "Histories"
+    },
+    {
+      "id": "People"
+    },
+    {
+      "id": "Ideas"
+    },
+    {
+      "id": "Goals"
+    },
+    {
+      "id": "Streams (Management)"
+    },
+    {
+      "id": "Ideas"
+    },
+    {
+      "id": "People"
+    },
+    {
+      "id": "About feedback"
+    },
+    {
+      "id": "Management Checklist"
+    },
+    {
+      "id": "Fifth Discipline. Summary"
+    },
+    {
+      "id": "Laws & Principles"
+    },
+    {
+      "id": "Tasks"
+    },
+    {
+      "id": "Maps",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Mathematical notation",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Mathematics (CG)"
+    },
+    {
+      "id": "Homogenous coordinates"
+    },
+    {
+      "id": "ODE"
+    },
+    {
+      "id": "Aliasing"
+    },
+    {
+      "id": "Monte-Carlo integration"
+    },
+    {
+      "id": "Differential equations"
+    },
+    {
+      "id": "Curves & Surfaces"
+    },
+    {
+      "id": "Splines"
+    },
+    {
+      "id": "Bezier curves"
+    },
+    {
+      "id": "Mathematics",
+      "tags": [
+        "map",
+        "ignore"
+      ]
+    },
+    {
+      "id": "Mathematical notation"
+    },
+    {
+      "id": "Numbers"
+    },
+    {
+      "id": "Geometry"
+    },
+    {
+      "id": "Angles"
+    },
+    {
+      "id": "Combinatorics"
+    },
+    {
+      "id": "Set theory"
+    },
+    {
+      "id": "Graph theory"
+    },
+    {
+      "id": "Calculus"
+    },
+    {
+      "id": "Probability"
+    },
+    {
+      "id": "Matrix addition",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Matrix transposition",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Matrix · Matrix operation",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Dot product"
+    },
+    {
+      "id": "Matrix · Vector operation"
+    },
+    {
+      "id": "Linear transformations"
+    },
+    {
+      "id": "Matrix · Scalar operation",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Matrix · Vector operation",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Matrix · Matrix operation"
+    },
+    {
+      "id": "Matrix",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Determinant"
+    },
+    {
+      "id": "Zero matrix"
+    },
+    {
+      "id": "Diagonal matrix"
+    },
+    {
+      "id": "Identity matrix"
+    },
+    {
+      "id": "Inverse matrix"
+    },
+    {
+      "id": "Matrix addition"
+    },
+    {
+      "id": "Matrix transposition"
+    },
+    {
+      "id": "Matrix · Scalar operation"
+    },
+    {
+      "id": "Matrix · Matrix operation"
+    },
+    {
+      "id": "Matrix · Vector operation"
+    },
+    {
+      "id": "Matrix · Vector operation"
+    },
+    {
+      "id": "Methods"
+    },
+    {
+      "id": "Modeling",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Textures"
+    },
+    {
+      "id": "Splines"
+    },
+    {
+      "id": "Modules",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Monte-Carlo integration"
+    },
+    {
+      "id": "Multiplexing",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Naming @media breakpoints and ranges"
+    },
+    {
+      "id": "Naming collections",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Naming projects",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "id": "Naming variables",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "id": "Naming collections"
+    },
+    {
+      "id": "Naming @media breakpoints and ranges"
+    },
+    {
+      "id": "How do I write unit tests"
+    },
+    {
+      "id": "Networking",
+      "tags": [
+        "networking",
+        "index"
+      ]
+    },
+    {
+      "id": "OSI Model"
+    },
+    {
+      "id": "DNS"
+    },
+    {
+      "id": "HTTP"
+    },
+    {
+      "id": "MAC-address"
+    },
+    {
+      "id": "MAC-address"
+    },
+    {
+      "id": "IP-address"
+    },
+    {
+      "id": "TCP"
+    },
+    {
+      "id": "UDP"
+    },
+    {
+      "id": "TLS"
+    },
+    {
+      "id": "Next"
+    },
+    {
+      "id": "Node project cheatsheet"
+    },
+    {
+      "id": "Node",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "Notable Pages",
+      "tags": [
+        "ignore"
+      ]
+    },
+    {
+      "id": "Dot product"
+    },
+    {
+      "id": "Trigonometric Functions"
+    },
+    {
+      "id": "Rasterizer"
+    },
+    {
+      "id": "Combinations"
+    },
+    {
+      "id": "Permutations"
+    },
+    {
+      "id": "Notes graph"
+    },
+    {
+      "id": "Numbers (Java)"
+    },
+    {
+      "id": "Numbers",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "OBJ File Format",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "ODE"
+    },
+    {
+      "id": "OOP Elements"
+    },
+    {
+      "id": "Classes"
+    },
+    {
+      "id": "Methods"
+    },
+    {
+      "id": "Enums"
+    },
+    {
+      "id": "Interfaces"
+    },
+    {
+      "id": "Open-source applications"
+    },
+    {
+      "id": "OpenGL",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "state machine"
+    },
+    {
+      "id": "Operating Systems",
+      "tags": [
+        "os",
+        "index"
+      ]
+    },
+    {
+      "id": "Processes"
+    },
+    {
+      "id": "Threads"
+    },
+    {
+      "id": "Signals"
+    },
+    {
+      "id": "System Calls"
+    },
+    {
+      "id": "Shell"
+    },
+    {
+      "id": "Optionals",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "OSI Model",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "id": "Physical layer"
+    },
+    {
+      "id": "Data link layer"
+    },
+    {
+      "id": "Outer product",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Overused terms"
+    },
+    {
+      "id": "Package by feature not layer",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Pagination"
+    },
+    {
+      "id": "Parallel run"
+    },
+    {
+      "id": "Partial differential equation",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Partitioning",
+      "tags": [
+        "db"
+      ]
+    },
+    {
+      "id": "Path of Exile"
+    },
+    {
+      "id": "PoE All-In-One CutSheet"
+    },
+    {
+      "id": "Pathfinding",
+      "tags": [
+        "algo"
+      ]
+    },
+    {
+      "id": "Patterns",
+      "tags": [
+        "map"
+      ]
+    },
+    {
+      "id": "Factory Method"
+    },
+    {
+      "id": "Game loop"
+    },
+    {
+      "id": "PDCA"
+    },
+    {
+      "id": "People"
+    },
+    {
+      "id": "Permutations",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Combinations"
+    },
+    {
+      "id": "Physical layer"
+    },
+    {
+      "id": "Physics (CG)",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Cloth simulation"
+    },
+    {
+      "id": "Physics"
+    },
+    {
+      "id": "Pixel"
+    },
+    {
+      "id": "Sampling"
+    },
+    {
+      "id": "Pixmap"
+    },
+    {
+      "id": "Bitmap"
+    },
+    {
+      "id": "Poker probability"
+    },
+    {
+      "id": "Post Processing",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "PostgreSQL",
+      "tags": [
+        "db"
+      ]
+    },
+    {
+      "id": "PPM"
+    },
+    {
+      "id": "Priority queue",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "Probability"
+    },
+    {
+      "id": "Deck of cards"
+    },
+    {
+      "id": "Poker probability"
+    },
+    {
+      "id": "Processes",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Threads"
+    },
+    {
+      "id": "Processing"
+    },
+    {
+      "id": "Productivity",
+      "tags": [
+        "productivity",
+        "index"
+      ]
+    },
+    {
+      "id": "Top-down & bottom-up learning approaches"
+    },
+    {
+      "id": "Cognitive biases"
+    },
+    {
+      "id": "Magical number 7"
+    },
+    {
+      "id": "UML"
+    },
+    {
+      "id": "Programming Languages"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "C++"
+    },
+    {
+      "id": "Project structure"
+    },
+    {
+      "id": "Projection",
+      "tags": [
+        "linal",
+        "wip"
+      ]
+    },
+    {
+      "id": "Promises"
+    },
+    {
+      "id": "Quantization"
+    },
+    {
+      "id": "Quarternion"
+    },
+    {
+      "id": "Queue",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "Priority queue"
+    },
+    {
+      "id": "Queues",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Quotes"
+    },
+    {
+      "id": "RAM",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Rasterization",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Rasterizer",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Rationality"
+    },
+    {
+      "id": "Cognitive biases"
+    },
+    {
+      "id": "Ray casting",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Ray tracing",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "React"
+    },
+    {
+      "id": "Component, Instance & Element"
+    },
+    {
+      "id": "Readable streams",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Readme"
+    },
+    {
+      "id": "Index"
+    },
+    {
+      "id": "Reflection (CG)",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Reflection",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Rendering Pipeline",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Clipping"
+    },
+    {
+      "id": "Spaces"
+    },
+    {
+      "id": "Rendering",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Rasterization"
+    },
+    {
+      "id": "Ray tracing"
+    },
+    {
+      "id": "Ray casting"
+    },
+    {
+      "id": "OpenGL"
+    },
+    {
+      "id": "WebGL"
+    },
+    {
+      "id": "Rest API Design",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "REST API Inluding & Excluding fields"
+    },
+    {
+      "id": "REST API"
+    },
+    {
+      "id": "HTTP"
+    },
+    {
+      "id": "Sorting"
+    },
+    {
+      "id": "Filtering"
+    },
+    {
+      "id": "Pagination"
+    },
+    {
+      "id": "Including & Excluding fields"
+    },
+    {
+      "id": "Data Integrity"
+    },
+    {
+      "id": "Conditional requests"
+    },
+    {
+      "id": "Searching"
+    },
+    {
+      "id": "Diagnostics & Tracing"
+    },
+    {
+      "id": "Error responses"
+    },
+    {
+      "id": "Rotation",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "2D Rotation"
+    },
+    {
+      "id": "3D Rotation"
+    },
+    {
+      "id": "Round Trip Time"
+    },
+    {
+      "id": "Sampling"
+    },
+    {
+      "id": "Scaling",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Screaming Architecture",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Errors vs Exceptions"
+    },
+    {
+      "id": "Searching"
+    },
+    {
+      "id": "Serialization"
+    },
+    {
+      "id": "Marshalling"
+    },
+    {
+      "id": "Set theory",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Cartesian product"
+    },
+    {
+      "id": "Sets",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Shaders",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Shadows",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Sharding",
+      "tags": [
+        "db"
+      ]
+    },
+    {
+      "id": "Shear",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Shell"
+    },
+    {
+      "id": "Signals"
+    },
+    {
+      "id": "Sine & Cosine"
+    },
+    {
+      "id": "Function"
+    },
+    {
+      "id": "Single Sign-On"
+    },
+    {
+      "id": "Small Picture",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Design patterns"
+    },
+    {
+      "id": "Modules"
+    },
+    {
+      "id": "Software Architecture",
+      "tags": [
+        "architecture",
+        "index"
+      ]
+    },
+    {
+      "id": "Common Principles"
+    },
+    {
+      "id": "Small Picture"
+    },
+    {
+      "id": "Big Picture"
+    },
+    {
+      "id": "UML & Visualization"
+    },
+    {
+      "id": "Concrete Usecases"
+    },
+    {
+      "id": "Conway's Law"
+    },
+    {
+      "id": "Software I use"
+    },
+    {
+      "id": "Расширения браузера"
+    },
+    {
+      "id": "Keyboard shortcuts"
+    },
+    {
+      "id": "Software",
+      "tags": [
+        "map",
+        "ignore"
+      ]
+    },
+    {
+      "id": "Operating Systems"
+    },
+    {
+      "id": "Programming Languages"
+    },
+    {
+      "id": "Algorithms & Data Structures"
+    },
+    {
+      "id": "Networking"
+    },
+    {
+      "id": "Computer Science"
+    },
+    {
+      "id": "Software Architecture"
+    },
+    {
+      "id": "Computer Graphics"
+    },
+    {
+      "id": "SOLID",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "Sorting"
+    },
+    {
+      "id": "Sound",
+      "tags": [
+        "sound"
+      ]
+    },
+    {
+      "id": "Spaces"
+    },
+    {
+      "id": "Rasterization"
+    },
+    {
+      "id": "Splines",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Spring Boot Starters",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "id": "Spring Boot",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "id": "Spring Framework"
+    },
+    {
+      "id": "Spring MVC"
+    },
+    {
+      "id": "Spring Cloud",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "id": "Spring Data",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "id": "Data Access"
+    },
+    {
+      "id": "Spring"
+    },
+    {
+      "id": "Hibernate"
+    },
+    {
+      "id": "Spring Framework",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "id": "Dependency Injection"
+    },
+    {
+      "id": "Spring MVC",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "id": "Spring"
+    },
+    {
+      "id": "Spring",
+      "tags": [
+        "spring",
+        "index"
+      ]
+    },
+    {
+      "id": "JDBC"
+    },
+    {
+      "id": "Spring Framework"
+    },
+    {
+      "id": "Spring MVC"
+    },
+    {
+      "id": "Spring Boot"
+    },
+    {
+      "id": "Spring Boot Starters"
+    },
+    {
+      "id": "Spring Data"
+    },
+    {
+      "id": "Spring Cloud"
+    },
+    {
+      "id": "SQL",
+      "tags": [
+        "db"
+      ]
+    },
+    {
+      "id": "Stack",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "State Machine"
+    },
+    {
+      "id": "Statistics",
+      "tags": [
+        "map"
+      ]
+    },
+    {
+      "id": "Queueing theory"
+    },
+    {
+      "id": "Stream API",
+      "tags": [
+        "java"
+      ]
+    },
+    {
+      "id": "Streams (Management)"
+    },
+    {
+      "id": "Streams (Node)",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Readable streams"
+    },
+    {
+      "id": "Writable streams"
+    },
+    {
+      "id": "Duplex streams"
+    },
+    {
+      "id": "Strings"
+    },
+    {
+      "id": "SVG"
+    },
+    {
+      "id": "System Calls"
+    },
+    {
+      "id": "Systems"
+    },
+    {
+      "id": "Streams (Management)"
+    },
+    {
+      "id": "Task queue"
+    },
+    {
+      "id": "Event loop"
+    },
+    {
+      "id": "Call stack"
+    },
+    {
+      "id": "Task"
+    },
+    {
+      "id": "Tasks"
+    },
+    {
+      "id": "TCP"
+    },
+    {
+      "id": "Tesselation",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Testing"
+    },
+    {
+      "id": "Textures",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Images"
+    },
+    {
+      "id": "The way I write these notes",
+      "tags": [
+        "notetaking"
+      ]
+    },
+    {
+      "id": "Thoughts & Scratches",
+      "tags": [
+        "map",
+        "ignore"
+      ]
+    },
+    {
+      "id": "Overused terms"
+    },
+    {
+      "id": "First two things I do when joining a new team"
+    },
+    {
+      "id": "Three books for every developer"
+    },
+    {
+      "id": "Package by feature not layer"
+    },
+    {
+      "id": "Concrete examples better than abstract ones"
+    },
+    {
+      "id": "'I have no time' problem"
+    },
+    {
+      "id": "Threads",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Processes"
+    },
+    {
+      "id": "Three books for every developer",
+      "tags": [
+        "wip"
+      ]
+    },
+    {
+      "id": "TLS"
+    },
+    {
+      "id": "TODO"
+    },
+    {
+      "id": "Top-down & bottom-up learning approaches"
+    },
+    {
+      "id": "Top-down & bottom-up learning approaches"
+    },
+    {
+      "id": "toString()"
+    },
+    {
+      "id": "Tree",
+      "tags": [
+        "ds",
+        "graph",
+        "tree"
+      ]
+    },
+    {
+      "id": "Binary tree"
+    },
+    {
+      "id": "Двудольный граф"
+    },
+    {
+      "id": "Trie",
+      "tags": [
+        "ds"
+      ]
+    },
+    {
+      "id": "Tree"
+    },
+    {
+      "id": "Trigonometric Functions"
+    },
+    {
+      "id": "Sine & Cosine"
+    },
+    {
+      "id": "Triple product",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Dot product"
+    },
+    {
+      "id": "Cross product"
+    },
+    {
+      "id": "Two types of feedback"
+    },
+    {
+      "id": "UDP"
+    },
+    {
+      "id": "UI Design",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "UML & Visualization",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "UML",
+      "tags": []
+    },
+    {
+      "id": "Unit vector",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Vector magnitude"
+    },
+    {
+      "id": "Unix",
+      "tags": [
+        "map"
+      ]
+    },
+    {
+      "id": "Bash"
+    },
+    {
+      "id": "User Story"
+    },
+    {
+      "id": "Values & Value Types"
+    },
+    {
+      "id": "Values & Value Types"
+    },
+    {
+      "id": "Numbers (Java)"
+    },
+    {
+      "id": "Strings"
+    },
+    {
+      "id": "Booleans"
+    },
+    {
+      "id": "Strings"
+    },
+    {
+      "id": "Vector & Matrix Operations",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Matrix addition"
+    },
+    {
+      "id": "Vector addition"
+    },
+    {
+      "id": "Dot product"
+    },
+    {
+      "id": "Cross product"
+    },
+    {
+      "id": "Outer product"
+    },
+    {
+      "id": "Triple product"
+    },
+    {
+      "id": "Matrix · Scalar operation"
+    },
+    {
+      "id": "Vector · Scalar operation"
+    },
+    {
+      "id": "Matrix · Matrix operation"
+    },
+    {
+      "id": "Matrix · Vector operation"
+    },
+    {
+      "id": "Vector addition",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Vector magnitude",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Vector · Scalar operation",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Vector",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Vector magnitude"
+    },
+    {
+      "id": "Vector & Matrix Operations"
+    },
+    {
+      "id": "Zero vector"
+    },
+    {
+      "id": "Inverse vector"
+    },
+    {
+      "id": "Unit vector"
+    },
+    {
+      "id": "Matrix"
+    },
+    {
+      "id": "Visuals"
+    },
+    {
+      "id": "Web Animation",
+      "tags": []
+    },
+    {
+      "id": "Web Images"
+    },
+    {
+      "id": "Web vitals"
+    },
+    {
+      "id": "WebGL",
+      "tags": [
+        "cg"
+      ]
+    },
+    {
+      "id": "Websites to learn Java"
+    },
+    {
+      "id": "Wisdom"
+    },
+    {
+      "id": "Writable streams",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "id": "Zero matrix",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Zero vector",
+      "tags": [
+        "linal",
+        "done"
+      ]
+    },
+    {
+      "id": "Быстрая сортировка"
+    },
+    {
+      "id": "Важно уметь задавать правильные вопросы"
+    },
+    {
+      "id": "How to ask good questions"
+    },
+    {
+      "id": "Двудольный граф"
+    },
+    {
+      "id": "Дух"
+    },
+    {
+      "id": "Как я делаю конспекты"
+    },
+    {
+      "id": "Кошелек Миллера"
+    },
+    {
+      "id": "Мой путь в IT"
+    },
+    {
+      "id": "О изучении нового"
+    },
+    {
+      "id": "Плохие привычки, которые воспитывает школа"
+    },
+    {
+      "id": "Применение кайдзен"
+    },
+    {
+      "id": "Символ"
+    },
+    {
+      "id": "Кодировка"
+    },
+    {
+      "id": "Сортировка"
+    },
+    {
+      "id": "Insertion sort"
+    },
+    {
+      "id": "Быстрая сортировка"
+    },
+    {
+      "id": "Статьи для разбора"
+    },
+    {
+      "id": "Ты продавал фотоаппарат самому себе"
+    },
+    {
+      "id": "Чтение книг и просмотр лекций не помогают учить новое"
+    },
+    {
+      "id": "Why books don’t work"
+    },
+    {
+      "id": "Шаблон Decorator"
+    },
+    {
+      "id": "Шаблон Observer"
+    },
+    {
+      "id": "Шаблон Singleton"
+    },
+    {
+      "id": "Элементы кайдзен"
+    },
+    {
+      "id": "Эффективность алгоритмов"
+    }
+  ],
+  "links": [
+    {
+      "source": "About feedback",
+      "target": "PDCA"
+    },
+    {
+      "source": "Abyss",
+      "target": "Статьи для разбора"
+    },
+    {
+      "source": "Abyss",
+      "target": "Как работает игровой движок?"
+    },
+    {
+      "source": "Abyss",
+      "target": "Как работает браузер?"
+    },
+    {
+      "source": "Abyss",
+      "target": "Visuals"
+    },
+    {
+      "source": "Adapters Layer",
+      "target": "Application layer"
+    },
+    {
+      "source": "Adapters Layer",
+      "target": "Infrastructure Layer"
+    },
+    {
+      "source": "Affine transformations",
+      "target": "Scaling"
+    },
+    {
+      "source": "Affine transformations",
+      "target": "Reflection"
+    },
+    {
+      "source": "Affine transformations",
+      "target": "Rotation"
+    },
+    {
+      "source": "Agile Development",
+      "target": "User Story"
+    },
+    {
+      "source": "Agile Development",
+      "target": "Task"
+    },
+    {
+      "source": "Agile Development",
+      "target": "Kaizen"
+    },
+    {
+      "source": "Algorithms",
+      "target": "Pathfinding"
+    },
+    {
+      "source": "Algorithms",
+      "target": "Breadth-first search"
+    },
+    {
+      "source": "Algorithms",
+      "target": "Depth-first search"
+    },
+    {
+      "source": "Algorithms",
+      "target": "Backtracking search"
+    },
+    {
+      "source": "Algorithms",
+      "target": "Data Sctructures"
+    },
+    {
+      "source": "Aliasing",
+      "target": "Sampling"
+    },
+    {
+      "source": "Arrays",
+      "target": "Lists"
+    },
+    {
+      "source": "Authentication & Authorization",
+      "target": "Single Sign-On"
+    },
+    {
+      "source": "Big Picture",
+      "target": "Screaming Architecture"
+    },
+    {
+      "source": "Big Picture",
+      "target": "Clean Architecture"
+    },
+    {
+      "source": "Big Picture",
+      "target": "Domain-Driven Design"
+    },
+    {
+      "source": "Big Picture",
+      "target": "12-factor application"
+    },
+    {
+      "source": "Buzzworld",
+      "target": "ASCII"
+    },
+    {
+      "source": "Buzzworld",
+      "target": "Java"
+    },
+    {
+      "source": "Buzzworld",
+      "target": "Frontend"
+    },
+    {
+      "source": "Classes",
+      "target": "Enums"
+    },
+    {
+      "source": "Clean Architecture",
+      "target": "Domain Layer"
+    },
+    {
+      "source": "Clean Architecture",
+      "target": "Application layer"
+    },
+    {
+      "source": "Clean Architecture",
+      "target": "Adapters Layer"
+    },
+    {
+      "source": "Clean Architecture",
+      "target": "Infrastructure Layer"
+    },
+    {
+      "source": "Cloth simulation",
+      "target": "ODE"
+    },
+    {
+      "source": "Cognitive biases",
+      "target": "Bike-shedding effect"
+    },
+    {
+      "source": "Cognitive biases",
+      "target": "Fundamental attribution error"
+    },
+    {
+      "source": "Cognitive biases",
+      "target": "Concorde effect"
+    },
+    {
+      "source": "Collections",
+      "target": "Arrays"
+    },
+    {
+      "source": "Collections",
+      "target": "Lists"
+    },
+    {
+      "source": "Collections",
+      "target": "Sets"
+    },
+    {
+      "source": "Collections",
+      "target": "Maps"
+    },
+    {
+      "source": "Collections",
+      "target": "Queues"
+    },
+    {
+      "source": "Combinatorics",
+      "target": "Set theory"
+    },
+    {
+      "source": "Combinatorics",
+      "target": "Combinations"
+    },
+    {
+      "source": "Combinatorics",
+      "target": "Permutations"
+    },
+    {
+      "source": "Combinatorics",
+      "target": "Combinatorics Tasks"
+    },
+    {
+      "source": "Common Principles",
+      "target": "SOLID"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Linear algebra"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "How to start learning computer graphics programming"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Modeling"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Lighting"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Rendering"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Tesselation"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Spaces"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "OBJ File Format"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "3D Graphics Class Structure"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Physics"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Color"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Partial differential equation"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Shaders"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Lights & Shadows"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Bidirectional reflectance distribution function"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Post Processing"
+    },
+    {
+      "source": "Computer Graphics",
+      "target": "Сортировка"
+    },
+    {
+      "source": "Computer Science",
+      "target": "Serialization"
+    },
+    {
+      "source": "Computer Science",
+      "target": "Marshalling"
+    },
+    {
+      "source": "Computer Science",
+      "target": "Multiplexing"
+    },
+    {
+      "source": "Computer Science",
+      "target": "Function Types"
+    },
+    {
+      "source": "Computer Science",
+      "target": "Encoding"
+    },
+    {
+      "source": "Computer Science",
+      "target": "Round Trip Time"
+    },
+    {
+      "source": "Computer vision",
+      "target": "Digital image processing"
+    },
+    {
+      "source": "Concrete Usecases",
+      "target": "Rest API Design"
+    },
+    {
+      "source": "Contexts",
+      "target": "Systems"
+    },
+    {
+      "source": "CPU",
+      "target": "Processes"
+    },
+    {
+      "source": "CPU",
+      "target": "Threads"
+    },
+    {
+      "source": "Cross product",
+      "target": "Unit vector"
+    },
+    {
+      "source": "Curves & Surfaces",
+      "target": "Bezier curves"
+    },
+    {
+      "source": "Curves & Surfaces",
+      "target": "Splines"
+    },
+    {
+      "source": "Data Access",
+      "target": "SQL"
+    },
+    {
+      "source": "Data Access",
+      "target": "Databases"
+    },
+    {
+      "source": "Data link layer",
+      "target": "модели OSI"
+    },
+    {
+      "source": "Data link layer",
+      "target": "Ethernet Packet & Frame"
+    },
+    {
+      "source": "Data link layer",
+      "target": "Physical Layer"
+    },
+    {
+      "source": "Data Science",
+      "target": "Statistics"
+    },
+    {
+      "source": "Data Sctructures",
+      "target": "Graph"
+    },
+    {
+      "source": "Data Sctructures",
+      "target": "Queue"
+    },
+    {
+      "source": "Data Sctructures",
+      "target": "Array"
+    },
+    {
+      "source": "Data Sctructures",
+      "target": "List"
+    },
+    {
+      "source": "Data Sctructures",
+      "target": "Linked List"
+    },
+    {
+      "source": "Data Sctructures",
+      "target": "Binary tree"
+    },
+    {
+      "source": "Data Sctructures",
+      "target": "Node"
+    },
+    {
+      "source": "Data Sctructures",
+      "target": "Heap"
+    },
+    {
+      "source": "Databases",
+      "target": "Associations"
+    },
+    {
+      "source": "Databases",
+      "target": "PostgreSQL"
+    },
+    {
+      "source": "Databases",
+      "target": "Partitioning"
+    },
+    {
+      "source": "Databases",
+      "target": "Databases"
+    },
+    {
+      "source": "Databases",
+      "target": "JDBC"
+    },
+    {
+      "source": "Databases",
+      "target": "JPA"
+    },
+    {
+      "source": "Databases",
+      "target": "Hibernate"
+    },
+    {
+      "source": "Databases",
+      "target": "Spring Data"
+    },
+    {
+      "source": "Databases",
+      "target": "PostgreSQL"
+    },
+    {
+      "source": "Databases",
+      "target": "Sharding"
+    },
+    {
+      "source": "Databases",
+      "target": "Partitioning"
+    },
+    {
+      "source": "Databases",
+      "target": "Data Access"
+    },
+    {
+      "source": "DevOps",
+      "target": "Amazon S3"
+    },
+    {
+      "source": "Digital image processing",
+      "target": "Sampling"
+    },
+    {
+      "source": "Digital image processing",
+      "target": "Quantization"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Sampling"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Quantization"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Z Transform"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Discrete Fourier Transform"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Fast Fourier Transform"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Convolution"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Digital image processing"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Sampling"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Stack Exchange Roadmap"
+    },
+    {
+      "source": "Digital signal processing",
+      "target": "Physical Audio Signal Processing for virtual musical instruments and audio effects"
+    },
+    {
+      "source": "Direction vector",
+      "target": "Unit vector"
+    },
+    {
+      "source": "Dot product",
+      "target": "Matrix · Matrix operation"
+    },
+    {
+      "source": "Event loop",
+      "target": "Call stack"
+    },
+    {
+      "source": "Event loop",
+      "target": "Task queue"
+    },
+    {
+      "source": "Fifth Discipline. Summary",
+      "target": "Two types of Feedback"
+    },
+    {
+      "source": "Front-end performance checklist",
+      "target": "Assets optimizations"
+    },
+    {
+      "source": "Front-end performance checklist",
+      "target": "Build optimizations"
+    },
+    {
+      "source": "Frontend",
+      "target": "JavaScript"
+    },
+    {
+      "source": "Frontend",
+      "target": "CSS"
+    },
+    {
+      "source": "Frontend",
+      "target": "Authentication & Authorization"
+    },
+    {
+      "source": "Frontend",
+      "target": "I18n"
+    },
+    {
+      "source": "Frontend",
+      "target": "Web Animation"
+    },
+    {
+      "source": "Functional elements",
+      "target": "Functional interfaces"
+    },
+    {
+      "source": "Functional elements",
+      "target": "Stream API"
+    },
+    {
+      "source": "Functional elements",
+      "target": "Optionals"
+    },
+    {
+      "source": "Game loop",
+      "target": "Update method"
+    },
+    {
+      "source": "Git",
+      "target": "Blob"
+    },
+    {
+      "source": "Git",
+      "target": "Binary representation"
+    },
+    {
+      "source": "Graph algorithms",
+      "target": "Depth-first search"
+    },
+    {
+      "source": "Graph algorithms",
+      "target": "Breadth-first search"
+    },
+    {
+      "source": "Graph elements",
+      "target": "Graph vertex"
+    },
+    {
+      "source": "Graph elements",
+      "target": "Graph edge"
+    },
+    {
+      "source": "Graph operations",
+      "target": "Graph joining"
+    },
+    {
+      "source": "Graph properties",
+      "target": "Graph orientation"
+    },
+    {
+      "source": "Graph properties",
+      "target": "Graph cyclicity"
+    },
+    {
+      "source": "Graph properties",
+      "target": "Graph weight"
+    },
+    {
+      "source": "Graph properties",
+      "target": "Graph connectivity"
+    },
+    {
+      "source": "Graph representations",
+      "target": "Adjacency matrix"
+    },
+    {
+      "source": "Graph representations",
+      "target": "Adjacency list"
+    },
+    {
+      "source": "Graph representations",
+      "target": "Edge list"
+    },
+    {
+      "source": "Graph types",
+      "target": "Tree"
+    },
+    {
+      "source": "Graph types",
+      "target": "Complete graph"
+    },
+    {
+      "source": "Graph types",
+      "target": "Cool graphs"
+    },
+    {
+      "source": "Graph types",
+      "target": "Двудольный граф"
+    },
+    {
+      "source": "Graph types",
+      "target": "Tree"
+    },
+    {
+      "source": "Graph types",
+      "target": "Binary tree"
+    },
+    {
+      "source": "Graph",
+      "target": "Graph elements"
+    },
+    {
+      "source": "Graph",
+      "target": "Graph properties"
+    },
+    {
+      "source": "Graph",
+      "target": "Graph types"
+    },
+    {
+      "source": "Graph",
+      "target": "Graph operations"
+    },
+    {
+      "source": "Graph",
+      "target": "Graph traversions"
+    },
+    {
+      "source": "Graph",
+      "target": "Graph representations"
+    },
+    {
+      "source": "Graph",
+      "target": "Graph algorithms"
+    },
+    {
+      "source": "Guides",
+      "target": "How I write Front-End"
+    },
+    {
+      "source": "Guides",
+      "target": "How I name things"
+    },
+    {
+      "source": "Guides",
+      "target": "How I create a CI pipeline"
+    },
+    {
+      "source": "Guides",
+      "target": "How I write unit tests"
+    },
+    {
+      "source": "Hardware",
+      "target": "CPU"
+    },
+    {
+      "source": "Hardware",
+      "target": "RAM"
+    },
+    {
+      "source": "Hardware",
+      "target": "GPU"
+    },
+    {
+      "source": "Hi",
+      "target": "The way I write these notes"
+    },
+    {
+      "source": "Hi",
+      "target": "Learning"
+    },
+    {
+      "source": "Hi",
+      "target": "Linear algebra"
+    },
+    {
+      "source": "Hi",
+      "target": "Algorithms & Data Structures"
+    },
+    {
+      "source": "Hi",
+      "target": "Software Architecture"
+    },
+    {
+      "source": "Hi",
+      "target": "Frontend"
+    },
+    {
+      "source": "Hi",
+      "target": "Java"
+    },
+    {
+      "source": "Hi",
+      "target": "Data Access"
+    },
+    {
+      "source": "Hibernate",
+      "target": "JPA"
+    },
+    {
+      "source": "Histories",
+      "target": "Contexts"
+    },
+    {
+      "source": "Histories",
+      "target": "Streams (Management)"
+    },
+    {
+      "source": "How I name things",
+      "target": "Common Sense Style Guide"
+    },
+    {
+      "source": "How I name things",
+      "target": "Naming variables"
+    },
+    {
+      "source": "How I name things",
+      "target": "Naming projects"
+    },
+    {
+      "source": "How I write Front-End",
+      "target": "Package by feature not layer"
+    },
+    {
+      "source": "How to solve algorithmic tasks",
+      "target": "Depth-first search"
+    },
+    {
+      "source": "How to solve algorithmic tasks",
+      "target": "Breadth-first search"
+    },
+    {
+      "source": "How to solve algorithmic tasks",
+      "target": "Backtracking search"
+    },
+    {
+      "source": "How to start learning computer graphics programming",
+      "target": "Rasterizer"
+    },
+    {
+      "source": "How to start learning computer graphics programming",
+      "target": "Quarternion"
+    },
+    {
+      "source": "How to start learning computer graphics programming",
+      "target": "1"
+    },
+    {
+      "source": "HTTP (Java)",
+      "target": "HTTP Headers"
+    },
+    {
+      "source": "HTTP",
+      "target": "RTT"
+    },
+    {
+      "source": "HTTP",
+      "target": "Multiplexing"
+    },
+    {
+      "source": "HTTP",
+      "target": "Мультиплексирование!мультиплексируются"
+    },
+    {
+      "source": "HTTP",
+      "target": "SSH"
+    },
+    {
+      "source": "Images",
+      "target": "Pixel"
+    },
+    {
+      "source": "Images",
+      "target": "Bitmap"
+    },
+    {
+      "source": "Images",
+      "target": "Pixmap"
+    },
+    {
+      "source": "Images",
+      "target": "PPM"
+    },
+    {
+      "source": "Images",
+      "target": "Digital image processing"
+    },
+    {
+      "source": "Interfaces",
+      "target": "Functional interfaces"
+    },
+    {
+      "source": "Interfaces",
+      "target": "Abstract classes vs interfaces"
+    },
+    {
+      "source": "Java API",
+      "target": "Files API"
+    },
+    {
+      "source": "Java API",
+      "target": "DateTime API"
+    },
+    {
+      "source": "Java API",
+      "target": "Stream API"
+    },
+    {
+      "source": "Java Concurrency",
+      "target": "Java Concurrency"
+    },
+    {
+      "source": "Java Concurrency",
+      "target": "Java Concurrency"
+    },
+    {
+      "source": "Java Language",
+      "target": "Java Objects"
+    },
+    {
+      "source": "Java Language",
+      "target": "Values & Value Types"
+    },
+    {
+      "source": "Java Language",
+      "target": "Exceptions"
+    },
+    {
+      "source": "Java Language",
+      "target": "Collections"
+    },
+    {
+      "source": "Java Language",
+      "target": "Java Concurrency"
+    },
+    {
+      "source": "Java Language",
+      "target": "OOP Elements"
+    },
+    {
+      "source": "Java Language",
+      "target": "Functional elements"
+    },
+    {
+      "source": "Java Language",
+      "target": "Java API"
+    },
+    {
+      "source": "Java Libraries",
+      "target": "Lombok"
+    },
+    {
+      "source": "Java Libraries",
+      "target": "Jackson"
+    },
+    {
+      "source": "Java Libraries",
+      "target": "JSONAssert"
+    },
+    {
+      "source": "Java Objects",
+      "target": "equals() and hashCode()"
+    },
+    {
+      "source": "Java Objects",
+      "target": "toString()"
+    },
+    {
+      "source": "Java Persistence",
+      "target": "JPA"
+    },
+    {
+      "source": "Java Persistence",
+      "target": "JDBC"
+    },
+    {
+      "source": "Java Platform",
+      "target": "Java Tools"
+    },
+    {
+      "source": "Java Platform",
+      "target": "Advanced Java"
+    },
+    {
+      "source": "Java Platform",
+      "target": "Java Abbreviations"
+    },
+    {
+      "source": "Java Platform",
+      "target": "Java Abbreviations"
+    },
+    {
+      "source": "Java Platform",
+      "target": "Java Abbreviations"
+    },
+    {
+      "source": "Java Platform",
+      "target": "Java Platforms"
+    },
+    {
+      "source": "Java Testing",
+      "target": "JUnit"
+    },
+    {
+      "source": "Java Testing",
+      "target": "Mockito"
+    },
+    {
+      "source": "Java Tools",
+      "target": "Maven"
+    },
+    {
+      "source": "Java Tools",
+      "target": "Gradle"
+    },
+    {
+      "source": "Java vs CSharp",
+      "target": "Parallel run"
+    },
+    {
+      "source": "Java",
+      "target": "Java Language"
+    },
+    {
+      "source": "Java",
+      "target": "Java Platform"
+    },
+    {
+      "source": "Java",
+      "target": "Java Libraries"
+    },
+    {
+      "source": "Java",
+      "target": "Java Testing"
+    },
+    {
+      "source": "Java",
+      "target": "Spring"
+    },
+    {
+      "source": "Java",
+      "target": "Java Persistence"
+    },
+    {
+      "source": "Java",
+      "target": "Databases"
+    },
+    {
+      "source": "JavaScript Asynchronicity",
+      "target": "JavaScript Projects Terminology"
+    },
+    {
+      "source": "JavaScript",
+      "target": "Basic JavaScript"
+    },
+    {
+      "source": "JavaScript",
+      "target": "React"
+    },
+    {
+      "source": "JPA",
+      "target": "JDBC"
+    },
+    {
+      "source": "JPA",
+      "target": "JDBC"
+    },
+    {
+      "source": "JPA",
+      "target": "SQL"
+    },
+    {
+      "source": "JPA",
+      "target": "SQL"
+    },
+    {
+      "source": "JPA",
+      "target": "SQL"
+    },
+    {
+      "source": "JPA",
+      "target": "JPQL"
+    },
+    {
+      "source": "JPA",
+      "target": "SpEL"
+    },
+    {
+      "source": "Kaizen",
+      "target": "Элементы кайдзен"
+    },
+    {
+      "source": "Kaizen",
+      "target": "Принципы кайдзен"
+    },
+    {
+      "source": "Kaizen",
+      "target": "Применение кайдзен"
+    },
+    {
+      "source": "Laws & Principles",
+      "target": "Conway's Law"
+    },
+    {
+      "source": "Lighting",
+      "target": "Direction vector"
+    },
+    {
+      "source": "Lighting",
+      "target": "Direction vector"
+    },
+    {
+      "source": "Lighting",
+      "target": "Unit vector"
+    },
+    {
+      "source": "Lighting",
+      "target": "Direction vector"
+    },
+    {
+      "source": "Lights & Shadows",
+      "target": "Reflection (CG)"
+    },
+    {
+      "source": "Lights & Shadows",
+      "target": "Shadows"
+    },
+    {
+      "source": "Linear algebra",
+      "target": "Coordinate space"
+    },
+    {
+      "source": "Linear algebra",
+      "target": "Vector"
+    },
+    {
+      "source": "Linear algebra",
+      "target": "Matrix"
+    },
+    {
+      "source": "Linear algebra",
+      "target": "Vector & Matrix Operations"
+    },
+    {
+      "source": "Linear algebra",
+      "target": "Linear transformations"
+    },
+    {
+      "source": "Linear transformations",
+      "target": "Matrix"
+    },
+    {
+      "source": "Linear transformations",
+      "target": "Scaling"
+    },
+    {
+      "source": "Linear transformations",
+      "target": "Reflection"
+    },
+    {
+      "source": "Linear transformations",
+      "target": "Rotation"
+    },
+    {
+      "source": "Linear transformations",
+      "target": "Shear"
+    },
+    {
+      "source": "Linear transformations",
+      "target": "Projection"
+    },
+    {
+      "source": "Linear transformations",
+      "target": "Affine transformations"
+    },
+    {
+      "source": "Linked List",
+      "target": "Stack"
+    },
+    {
+      "source": "Linked List",
+      "target": "Queue"
+    },
+    {
+      "source": "Management",
+      "target": "Streams (Management)"
+    },
+    {
+      "source": "Management",
+      "target": "Levels"
+    },
+    {
+      "source": "Management",
+      "target": "Systems"
+    },
+    {
+      "source": "Management",
+      "target": "Contexts"
+    },
+    {
+      "source": "Management",
+      "target": "Histories"
+    },
+    {
+      "source": "Management",
+      "target": "People"
+    },
+    {
+      "source": "Management",
+      "target": "Ideas"
+    },
+    {
+      "source": "Management",
+      "target": "Goals"
+    },
+    {
+      "source": "Management",
+      "target": "Streams (Management)"
+    },
+    {
+      "source": "Management",
+      "target": "Ideas"
+    },
+    {
+      "source": "Management",
+      "target": "People"
+    },
+    {
+      "source": "Management",
+      "target": "About feedback"
+    },
+    {
+      "source": "Management",
+      "target": "Management Checklist"
+    },
+    {
+      "source": "Management",
+      "target": "Fifth Discipline. Summary"
+    },
+    {
+      "source": "Management",
+      "target": "Laws & Principles"
+    },
+    {
+      "source": "Management",
+      "target": "Tasks"
+    },
+    {
+      "source": "Mathematics (CG)",
+      "target": "Homogenous coordinates"
+    },
+    {
+      "source": "Mathematics (CG)",
+      "target": "ODE"
+    },
+    {
+      "source": "Mathematics (CG)",
+      "target": "Aliasing"
+    },
+    {
+      "source": "Mathematics (CG)",
+      "target": "Monte-Carlo integration"
+    },
+    {
+      "source": "Mathematics (CG)",
+      "target": "Differential equations"
+    },
+    {
+      "source": "Mathematics (CG)",
+      "target": "Curves & Surfaces"
+    },
+    {
+      "source": "Mathematics (CG)",
+      "target": "Splines"
+    },
+    {
+      "source": "Mathematics (CG)",
+      "target": "Bezier curves"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Mathematical notation"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Numbers"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Geometry"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Angles"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Combinatorics"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Set theory"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Graph theory"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Calculus"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Probability"
+    },
+    {
+      "source": "Matrix · Matrix operation",
+      "target": "Dot product"
+    },
+    {
+      "source": "Matrix · Matrix operation",
+      "target": "Matrix · Vector operation"
+    },
+    {
+      "source": "Matrix · Matrix operation",
+      "target": "Linear transformations"
+    },
+    {
+      "source": "Matrix · Vector operation",
+      "target": "Matrix · Matrix operation"
+    },
+    {
+      "source": "Matrix",
+      "target": "Determinant"
+    },
+    {
+      "source": "Matrix",
+      "target": "Zero matrix"
+    },
+    {
+      "source": "Matrix",
+      "target": "Diagonal matrix"
+    },
+    {
+      "source": "Matrix",
+      "target": "Identity matrix"
+    },
+    {
+      "source": "Matrix",
+      "target": "Inverse matrix"
+    },
+    {
+      "source": "Matrix",
+      "target": "Matrix addition"
+    },
+    {
+      "source": "Matrix",
+      "target": "Matrix transposition"
+    },
+    {
+      "source": "Matrix",
+      "target": "Matrix · Scalar operation"
+    },
+    {
+      "source": "Matrix",
+      "target": "Matrix · Matrix operation"
+    },
+    {
+      "source": "Matrix",
+      "target": "Matrix · Vector operation"
+    },
+    {
+      "source": "Matrix",
+      "target": "Matrix · Vector operation"
+    },
+    {
+      "source": "Modeling",
+      "target": "Textures"
+    },
+    {
+      "source": "Modeling",
+      "target": "Splines"
+    },
+    {
+      "source": "Naming variables",
+      "target": "Naming collections"
+    },
+    {
+      "source": "Naming variables",
+      "target": "Naming @media breakpoints and ranges"
+    },
+    {
+      "source": "Naming variables",
+      "target": "How do I write unit tests"
+    },
+    {
+      "source": "Networking",
+      "target": "OSI Model"
+    },
+    {
+      "source": "Networking",
+      "target": "DNS"
+    },
+    {
+      "source": "Networking",
+      "target": "HTTP"
+    },
+    {
+      "source": "Networking",
+      "target": "MAC-address"
+    },
+    {
+      "source": "Networking",
+      "target": "MAC-address"
+    },
+    {
+      "source": "Networking",
+      "target": "IP-address"
+    },
+    {
+      "source": "Networking",
+      "target": "TCP"
+    },
+    {
+      "source": "Networking",
+      "target": "UDP"
+    },
+    {
+      "source": "Networking",
+      "target": "TLS"
+    },
+    {
+      "source": "Notable Pages",
+      "target": "Dot product"
+    },
+    {
+      "source": "Notable Pages",
+      "target": "Trigonometric Functions"
+    },
+    {
+      "source": "Notable Pages",
+      "target": "Rasterizer"
+    },
+    {
+      "source": "Notable Pages",
+      "target": "Combinations"
+    },
+    {
+      "source": "Notable Pages",
+      "target": "Permutations"
+    },
+    {
+      "source": "OOP Elements",
+      "target": "Classes"
+    },
+    {
+      "source": "OOP Elements",
+      "target": "Methods"
+    },
+    {
+      "source": "OOP Elements",
+      "target": "Enums"
+    },
+    {
+      "source": "OOP Elements",
+      "target": "Interfaces"
+    },
+    {
+      "source": "OpenGL",
+      "target": "state machine"
+    },
+    {
+      "source": "Operating Systems",
+      "target": "Processes"
+    },
+    {
+      "source": "Operating Systems",
+      "target": "Threads"
+    },
+    {
+      "source": "Operating Systems",
+      "target": "Signals"
+    },
+    {
+      "source": "Operating Systems",
+      "target": "System Calls"
+    },
+    {
+      "source": "Operating Systems",
+      "target": "Shell"
+    },
+    {
+      "source": "OSI Model",
+      "target": "Physical layer"
+    },
+    {
+      "source": "OSI Model",
+      "target": "Data link layer"
+    },
+    {
+      "source": "Path of Exile",
+      "target": "PoE All-In-One CutSheet"
+    },
+    {
+      "source": "Patterns",
+      "target": "Factory Method"
+    },
+    {
+      "source": "Patterns",
+      "target": "Game loop"
+    },
+    {
+      "source": "Permutations",
+      "target": "Combinations"
+    },
+    {
+      "source": "Physics (CG)",
+      "target": "Cloth simulation"
+    },
+    {
+      "source": "Pixel",
+      "target": "Sampling"
+    },
+    {
+      "source": "Pixmap",
+      "target": "Bitmap"
+    },
+    {
+      "source": "Probability",
+      "target": "Deck of cards"
+    },
+    {
+      "source": "Probability",
+      "target": "Poker probability"
+    },
+    {
+      "source": "Processes",
+      "target": "Threads"
+    },
+    {
+      "source": "Productivity",
+      "target": "Top-down & bottom-up learning approaches"
+    },
+    {
+      "source": "Productivity",
+      "target": "Cognitive biases"
+    },
+    {
+      "source": "Productivity",
+      "target": "Magical number 7"
+    },
+    {
+      "source": "Productivity",
+      "target": "UML"
+    },
+    {
+      "source": "Programming Languages",
+      "target": "JavaScript"
+    },
+    {
+      "source": "Programming Languages",
+      "target": "C++"
+    },
+    {
+      "source": "Queue",
+      "target": "Priority queue"
+    },
+    {
+      "source": "Rationality",
+      "target": "Cognitive biases"
+    },
+    {
+      "source": "React",
+      "target": "Component, Instance & Element"
+    },
+    {
+      "source": "Readme",
+      "target": "Index"
+    },
+    {
+      "source": "Rendering Pipeline",
+      "target": "Clipping"
+    },
+    {
+      "source": "Rendering Pipeline",
+      "target": "Spaces"
+    },
+    {
+      "source": "Rendering",
+      "target": "Rasterization"
+    },
+    {
+      "source": "Rendering",
+      "target": "Ray tracing"
+    },
+    {
+      "source": "Rendering",
+      "target": "Ray casting"
+    },
+    {
+      "source": "Rendering",
+      "target": "OpenGL"
+    },
+    {
+      "source": "Rendering",
+      "target": "WebGL"
+    },
+    {
+      "source": "REST API",
+      "target": "HTTP"
+    },
+    {
+      "source": "REST API",
+      "target": "Sorting"
+    },
+    {
+      "source": "REST API",
+      "target": "Filtering"
+    },
+    {
+      "source": "REST API",
+      "target": "Pagination"
+    },
+    {
+      "source": "REST API",
+      "target": "Including & Excluding fields"
+    },
+    {
+      "source": "REST API",
+      "target": "Data Integrity"
+    },
+    {
+      "source": "REST API",
+      "target": "Conditional requests"
+    },
+    {
+      "source": "REST API",
+      "target": "Searching"
+    },
+    {
+      "source": "REST API",
+      "target": "Diagnostics & Tracing"
+    },
+    {
+      "source": "REST API",
+      "target": "Error responses"
+    },
+    {
+      "source": "Rotation",
+      "target": "2D Rotation"
+    },
+    {
+      "source": "Rotation",
+      "target": "3D Rotation"
+    },
+    {
+      "source": "Screaming Architecture",
+      "target": "Errors vs Exceptions"
+    },
+    {
+      "source": "Serialization",
+      "target": "Marshalling"
+    },
+    {
+      "source": "Set theory",
+      "target": "Cartesian product"
+    },
+    {
+      "source": "Sine & Cosine",
+      "target": "Function"
+    },
+    {
+      "source": "Small Picture",
+      "target": "Design patterns"
+    },
+    {
+      "source": "Small Picture",
+      "target": "Modules"
+    },
+    {
+      "source": "Software Architecture",
+      "target": "Common Principles"
+    },
+    {
+      "source": "Software Architecture",
+      "target": "Small Picture"
+    },
+    {
+      "source": "Software Architecture",
+      "target": "Big Picture"
+    },
+    {
+      "source": "Software Architecture",
+      "target": "UML & Visualization"
+    },
+    {
+      "source": "Software Architecture",
+      "target": "Concrete Usecases"
+    },
+    {
+      "source": "Software Architecture",
+      "target": "Conway's Law"
+    },
+    {
+      "source": "Software I use",
+      "target": "Расширения браузера"
+    },
+    {
+      "source": "Software I use",
+      "target": "Keyboard shortcuts"
+    },
+    {
+      "source": "Software",
+      "target": "Operating Systems"
+    },
+    {
+      "source": "Software",
+      "target": "Programming Languages"
+    },
+    {
+      "source": "Software",
+      "target": "Algorithms & Data Structures"
+    },
+    {
+      "source": "Software",
+      "target": "Networking"
+    },
+    {
+      "source": "Software",
+      "target": "Computer Science"
+    },
+    {
+      "source": "Software",
+      "target": "Software Architecture"
+    },
+    {
+      "source": "Software",
+      "target": "Computer Graphics"
+    },
+    {
+      "source": "Spaces",
+      "target": "Rasterization"
+    },
+    {
+      "source": "Spring Boot",
+      "target": "Spring Framework"
+    },
+    {
+      "source": "Spring Boot",
+      "target": "Spring MVC"
+    },
+    {
+      "source": "Spring Data",
+      "target": "Data Access"
+    },
+    {
+      "source": "Spring Data",
+      "target": "Spring"
+    },
+    {
+      "source": "Spring Data",
+      "target": "Hibernate"
+    },
+    {
+      "source": "Spring Framework",
+      "target": "Dependency Injection"
+    },
+    {
+      "source": "Spring MVC",
+      "target": "Spring"
+    },
+    {
+      "source": "Spring",
+      "target": "JDBC"
+    },
+    {
+      "source": "Spring",
+      "target": "Spring Framework"
+    },
+    {
+      "source": "Spring",
+      "target": "Spring MVC"
+    },
+    {
+      "source": "Spring",
+      "target": "Spring Boot"
+    },
+    {
+      "source": "Spring",
+      "target": "Spring Boot Starters"
+    },
+    {
+      "source": "Spring",
+      "target": "Spring Data"
+    },
+    {
+      "source": "Spring",
+      "target": "Spring Cloud"
+    },
+    {
+      "source": "Statistics",
+      "target": "Queueing theory"
+    },
+    {
+      "source": "Streams (Node)",
+      "target": "Readable streams"
+    },
+    {
+      "source": "Streams (Node)",
+      "target": "Writable streams"
+    },
+    {
+      "source": "Streams (Node)",
+      "target": "Duplex streams"
+    },
+    {
+      "source": "Systems",
+      "target": "Streams (Management)"
+    },
+    {
+      "source": "Task queue",
+      "target": "Event loop"
+    },
+    {
+      "source": "Task queue",
+      "target": "Call stack"
+    },
+    {
+      "source": "Textures",
+      "target": "Images"
+    },
+    {
+      "source": "Thoughts & Scratches",
+      "target": "Overused terms"
+    },
+    {
+      "source": "Thoughts & Scratches",
+      "target": "First two things I do when joining a new team"
+    },
+    {
+      "source": "Thoughts & Scratches",
+      "target": "Three books for every developer"
+    },
+    {
+      "source": "Thoughts & Scratches",
+      "target": "Package by feature not layer"
+    },
+    {
+      "source": "Thoughts & Scratches",
+      "target": "Concrete examples better than abstract ones"
+    },
+    {
+      "source": "Thoughts & Scratches",
+      "target": "'I have no time' problem"
+    },
+    {
+      "source": "Threads",
+      "target": "Processes"
+    },
+    {
+      "source": "TODO",
+      "target": "Top-down & bottom-up learning approaches"
+    },
+    {
+      "source": "Tree",
+      "target": "Binary tree"
+    },
+    {
+      "source": "Tree",
+      "target": "Двудольный граф"
+    },
+    {
+      "source": "Trie",
+      "target": "Tree"
+    },
+    {
+      "source": "Trigonometric Functions",
+      "target": "Sine & Cosine"
+    },
+    {
+      "source": "Triple product",
+      "target": "Dot product"
+    },
+    {
+      "source": "Triple product",
+      "target": "Cross product"
+    },
+    {
+      "source": "Unit vector",
+      "target": "Vector magnitude"
+    },
+    {
+      "source": "Unix",
+      "target": "Bash"
+    },
+    {
+      "source": "Values & Value Types",
+      "target": "Values & Value Types"
+    },
+    {
+      "source": "Values & Value Types",
+      "target": "Numbers (Java)"
+    },
+    {
+      "source": "Values & Value Types",
+      "target": "Strings"
+    },
+    {
+      "source": "Values & Value Types",
+      "target": "Booleans"
+    },
+    {
+      "source": "Values & Value Types",
+      "target": "Strings"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Matrix addition"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Vector addition"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Dot product"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Cross product"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Outer product"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Triple product"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Matrix · Scalar operation"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Vector · Scalar operation"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Matrix · Matrix operation"
+    },
+    {
+      "source": "Vector & Matrix Operations",
+      "target": "Matrix · Vector operation"
+    },
+    {
+      "source": "Vector",
+      "target": "Vector magnitude"
+    },
+    {
+      "source": "Vector",
+      "target": "Vector & Matrix Operations"
+    },
+    {
+      "source": "Vector",
+      "target": "Zero vector"
+    },
+    {
+      "source": "Vector",
+      "target": "Inverse vector"
+    },
+    {
+      "source": "Vector",
+      "target": "Unit vector"
+    },
+    {
+      "source": "Vector",
+      "target": "Matrix"
+    },
+    {
+      "source": "Важно уметь задавать правильные вопросы",
+      "target": "How to ask good questions"
+    },
+    {
+      "source": "Как я делаю конспекты",
+      "target": "Кошелек Миллера"
+    },
+    {
+      "source": "Символ",
+      "target": "Кодировка"
+    },
+    {
+      "source": "Сортировка",
+      "target": "Insertion sort"
+    },
+    {
+      "source": "Сортировка",
+      "target": "Быстрая сортировка"
+    },
+    {
+      "source": "Чтение книг и просмотр лекций не помогают учить новое",
+      "target": "Why books don’t work"
+    }
+  ]
+}

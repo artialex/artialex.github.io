@@ -1,13 +1,6 @@
----
-tags: [map]
----
-
-# Abyss
-
 - [[Статьи для разбора]]
 
 - https://www.30secondsofcode.org
-- https://andymatuschak.org
 - http://wwwhere.io/tags/images
 - https://unwttng.com/compression-decompressed
 - https://visualgo.net/en
@@ -24,8 +17,6 @@ https://free-for.dev
 
 драйв или что мотивирует нас
 
-!! Inspiration
-
 https://castel.dev/
 
 ### Build your own X
@@ -35,10 +26,12 @@ https://castel.dev/
 - http://inventwithpython.com/blog/2012/02/20/i-need-practice-programming-49-ideas-for-game-clones-to-code/
 - https://github.com/karan/Projects
 
-[[Computer Science]]
-
-- Компьютерное зрение
 - Как работает и кодируется видео?
+
+https://github.com/stemmlerjs/software-design-and-architecture-roadmap
+
+- [[Как работает игровой движок?]]
+- [[Как работает браузер?]]
 
 http://acko.net/
 
@@ -61,19 +54,10 @@ https://www.lockheedmartin.com/en-us/who-we-are/business-areas/aeronautics/skunk
 
 https://www.projectsmart.co.uk/white-papers/100-rules-for-nasa-project-managers.pdf
 
-System Scaling
-Read
-Master / Slave
-Write
-Sharding
-Partitioning
 https://www.youtube.com/watch?v=6aNT-ZmY9rU
 
 https://increment.com/software-architecture/primer-on-functional-architecture/
 
-- [CSS Modules. Welcome to the Future](https://glenmaddern.com/articles/css-modules) by Glen Maddern
-
-- [Learn CSS Grid](https://learncssgrid.com/) by Jonathan Suh
 
 100 правил руководителей NASA
 
@@ -90,8 +74,6 @@ Impact mapping. Gojko Adzic (не представляю как по-русск�
 Тут я почерпнул важность целей, а также получил информацию о том, как их можно использовать.
 Крайне рекомендую обратить внимание на проект Аристотель — исследование Google об эффективных командах.
 ```
-
-Есть вещи которые нельзя измерить? Деминг
 
 Dreyfus model
 
@@ -112,27 +94,6 @@ Dreyfus model
 
 - [4 Types of documentation](https://documentation.divio.com/)
 
-# Мьютексы
-
-Фьютексы, семафоры, сравнение с обменом, атомарные инструкции
-
-# О изучении нового
-
-> — Most people overestimate what they can do in 1 year and underestimate what they can do in a decade.
-
-> Bill Gates
-
----
-
-> — Frankly, though, I think most people can learn a lot more than they think they can. They sell themselves short without trying. One bit of advice: it is important to view knowledge as sort of a semantic tree  —  make sure you understand the fundamental principles, ie the trunk and big branches, before you get into the details/leaves or there is nothing for them to hang on to
-
-> Elon Musk
-
----
-
-> — What I cannot create, I do not understand
-
-> Richard Feynman
 
 
 [[Visuals]]

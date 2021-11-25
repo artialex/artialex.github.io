@@ -1,3 +1,7 @@
+---
+tags: [spring]
+---
+
 **Spring Framework** is *the core* of Spring project. 
 
 - It can be thought as *the foundation* of all other modules of Spring ecosystem

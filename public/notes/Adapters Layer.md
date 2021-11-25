@@ -1,3 +1,7 @@
+---
+tags: [architecture]
+---
+
 # Adapters Layer
 
 _Adapters_ that convert data between the [[Application layer|Application]] and [[Infrastructure Layer|Infrastructure]] layers

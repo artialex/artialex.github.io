@@ -1,5 +1,5 @@
 ---
-tags: [wip]
+tags: [algo, graph]
 ---
 
 # Depth-first search

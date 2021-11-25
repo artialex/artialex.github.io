@@ -1,10 +1,9 @@
 ---
-tags: [done]
+tags: [js]
+aliases: [Transform streams, Through streams]
 ---
 
 # Duplex streams
-
-::aliases[Transform streams, Through streams]
 
 Duplex streams are _both readable and writable_
 

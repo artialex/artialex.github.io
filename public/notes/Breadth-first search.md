@@ -1,5 +1,5 @@
 ---
-tags: [wip]
+tags: [algo, graph]
 ---
 
 # Breadth-first search

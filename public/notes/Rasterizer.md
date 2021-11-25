@@ -1,4 +1,5 @@
 ---
+tags: [cg]
 size: double
 ---
 

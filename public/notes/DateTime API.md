@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 `java.time.*`
 
 - Why no deprecation notice on the old API?

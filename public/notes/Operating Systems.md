@@ -1,5 +1,5 @@
 ---
-tags: [wip]
+tags: [os, index]
 ---
 
 # Operating Systems
@@ -88,4 +88,14 @@ https://github.com/EbookFoundation/free-programming-books/blob/master/free-progr
 * Operating System Concepts 📖
 * Modern Operating Systems 📖
 * UNIX Operating System 📖
+
+
+
+
+
+# Мьютексы
+
+Фьютексы, семафоры, сравнение с обменом, атомарные инструкции
 -->
+
+

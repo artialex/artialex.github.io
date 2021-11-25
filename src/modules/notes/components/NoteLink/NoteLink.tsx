@@ -2,8 +2,8 @@ import cn from 'clsx'
 import { AnchorHTMLAttributes, FC, MouseEvent } from 'react'
 // import { notes } from '../../init'
 import css from './NoteLink.module.scss'
-import { useAppDispatch, useAppSelector } from '@/redux'
 import { open, selectOpened } from '@/notes/contexts/notes'
+import { useAppDispatch, useAppSelector } from '@/redux.hooks'
 
 interface NoteLinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   href: string

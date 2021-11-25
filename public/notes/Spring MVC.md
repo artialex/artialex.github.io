@@ -1,3 +1,7 @@
+---
+tags: [spring]
+---
+
 **Spring (Web) MVC** is a [[Spring]] framework for web-sites & REST services
 
 - *Model* contains indepentend data

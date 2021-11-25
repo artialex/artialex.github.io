@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 # Functional elements
 
 - [[Functional interfaces]]

@@ -1,3 +1,7 @@
+---
+tags: [algo]
+---
+
 # How to solve algorithmic tasks
 
 ## [5 advices from CS Dojo](https://www.youtube.com/watch?v=GBuHSRDGZBY)

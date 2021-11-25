@@ -1,8 +1,14 @@
+---
+tags: [ds, graph, tree]
+---
+
 # Tree
 
 Tree is a graph
 
 Forest is a set of trees
+
+- [[Binary tree]]
 
 <!--
 

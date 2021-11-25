@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Splines
 
 **Spline** is a curve defined by a special function using *control points*. 

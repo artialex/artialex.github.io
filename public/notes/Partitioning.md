@@ -1,0 +1,5 @@
+---
+tags: [db]
+---
+
+# Partitioning

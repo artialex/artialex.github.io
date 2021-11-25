@@ -1,3 +1,7 @@
+---
+tags: [ds]
+---
+
 # Node
 
 Basic data structure, a simple *container for a value* + pointer to the next node (can be `null`)

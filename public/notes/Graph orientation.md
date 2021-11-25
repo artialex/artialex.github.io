@@ -1,5 +1,5 @@
 ---
-tags: [wip]
+tags: [ds, graph]
 ---
 
 # Graph orientation
@@ -11,6 +11,8 @@ Graph can be _oriented_, _unoriented_ and _mixed_
 $$
 G = (V, E)
 $$
+
+::insertion[graph]{type=oriented}
 
 <!--
 
@@ -45,6 +47,8 @@ $$
 G = (V, A)
 $$
 
+::insertion[graph]{type=unoriented}
+
 <!--
 viz: neato
 :::
@@ -76,6 +80,8 @@ digraph {
 $$
 G = (V, E, A)
 $$
+
+::insertion[graph]{type=mixed}
 
 <!--
 viz: neato

@@ -1,5 +1,5 @@
 ---
-tags: [index]
+tags: [productivity, index]
 ---
 
 # Productivity
@@ -7,7 +7,8 @@ tags: [index]
 - [[Top-down & bottom-up learning approaches]]
 - [[Cognitive biases]]
 	- [[Magical number 7]]
-- Problem solving
+- [[Learning]]
+- [[Problem solving]]
 	- Visualization
 		- [[UML]]
 		- Excalidraw

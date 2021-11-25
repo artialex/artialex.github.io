@@ -1,3 +1,7 @@
+---
+tags: [fe, js, react]
+---
+
 # Component, Instance & Element
 
 <!--

@@ -1,8 +1,12 @@
 ---
-tags: [wip]
+tags: [fe, js]
 ---
 
 [[JavaScript Projects Terminology]]
+
+[[Promises]]
+
+[[Event loop]]
 
 Some theses
 
@@ -88,4 +92,30 @@ Long-running code can block the user interface. It's avoidable by:
 * Как устроен Event Loop?
 ** Rewatch Sorax Spotlight
 ** Read Streams Handbook
+
+
+
+## Asynchronicity
+
+- [[Event loop]]
+- [[Promises]]
+- Timers
+
+#### So, now, we have 5 ways of controlling code flow:
+
+1.  **Vanilla**. Lots of callbacks. Poor error handling.
+1.  **Promises**. Reduces nesting. Separates success and error callbacks.
+1.  **Rx Observables**. Promises with more chaining. Looks more familiar to
+    functional programmers.
+1.  **Fibers**. Linearizes callbacks. Only works server-side in Node. Meteor and
+    others took this approach. This basically allows you to write async code as
+    if it were synchronous. I couldn't figure out how they worked until I just
+    now when I realized it's actually a C extension.
+1.  **ES6 generators & async/await**. Like fibers. Works in Node 0.11 w/ special
+    flag. Might work in Firefox. Should be supported by all browsers eventually.
+    Supported now through an ES6 transpiler/shim which probably introduces
+    significant overhead to make work. Good error handling.
 -->
+
+
+

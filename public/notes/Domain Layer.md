@@ -1,3 +1,7 @@
+---
+tags: [architecture]
+---
+
 # Domain Layer
 
 _Enterprise wide_ business logic

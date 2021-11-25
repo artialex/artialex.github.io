@@ -1,3 +1,8 @@
+---
+tags: [db]
+---
+
+# Data Access
 
 Problems
 
@@ -5,7 +10,6 @@ Problems
 - *Dynamic* problems are exposed in runtime
 	- Data navigation problem
 
-asd
 
 - Lazy queries
 	- N+1 problem
@@ -20,3 +24,7 @@ asd
 - Message brokers
 	- RabbitMQ
 	- Kafka
+
+
+
+- [[Databases]]

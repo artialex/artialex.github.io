@@ -6,11 +6,12 @@
 - [[Monte-Carlo integration]]
 - [[Differential equations]]
 
+<!--
 ### [[Linear algebra]]
-
 - [[Vector]]
 - [[Dot product]]
 - [[Cross product]]
+-->
 
 ### [[Curves & Surfaces]]
 

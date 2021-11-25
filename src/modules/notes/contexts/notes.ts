@@ -1,11 +1,10 @@
+import _ from 'lodash'
 import { Middleware } from 'redux'
 import type { AppState } from '@/redux'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { NoteId } from '../@types/Note'
 import Router from 'next/router'
-import { slugify } from '@/notes/services/notes.query'
-import { store } from '@/redux'
-import _ from 'lodash'
+import { slugify } from '@/notes/services/slug.utils'
 
 // -- State ----------------------------------------------------------------------------------------
 
@@ -50,9 +49,6 @@ export const notesMiddleware: Middleware<{}, AppState> = (store) => (next) => (a
   let performed = next(action)
 
   if ([open, close].some((_) => _.type === action.type)) {
-    // console.log(store.getState().notes.opened)
-    // console.log(Router.query)
-
     void Router.push({
       query: {
         open: store.getState().notes.opened.map(slugify).join(','),

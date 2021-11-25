@@ -1,3 +1,7 @@
+---
+tags: [spring]
+---
+
 **starter**
 
 - `org.springframework` -> `spring-core`

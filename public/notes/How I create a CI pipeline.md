@@ -1,3 +1,7 @@
+---
+tags: [devops]
+---
+
 # How I create a CI pipeline
 
 ## Simple pipeline

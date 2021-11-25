@@ -1,3 +1,7 @@
+---
+tags: [ds]
+---
+
 # Trie
 
 Trie is a type of a [[Tree|tree]] that is used for storing characters

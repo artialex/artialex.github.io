@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [linal]
 ---
 
 # Dot product

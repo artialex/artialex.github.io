@@ -1,3 +1,7 @@
+---
+tags: [architecture]
+---
+
 # Infrastructure Layer
 
 Frameworks & Drivers

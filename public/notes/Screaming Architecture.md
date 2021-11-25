@@ -1,3 +1,7 @@
+---
+tags: [architecture]
+---
+
 # Screaming Architecture
 
 ## Without screaming architecture

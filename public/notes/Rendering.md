@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Rendering
 
 Rendering is a process of creating an image from a set of geometrical objects, lighting sources and a viewport (camera). The image represents a pixel array where each pixel contains information about the color at the particular point

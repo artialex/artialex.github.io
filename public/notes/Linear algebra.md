@@ -1,5 +1,5 @@
 ---
-tags: [index]
+tags: [linal, index]
 ---
 
 # Linear algebra
@@ -20,9 +20,11 @@ tags: [index]
 - [[Affine transformations]]
 - Interpolation
 ---
--->
 
+
+-->
 - [[Vector & Matrix Operations]]
+
 
 ---
 

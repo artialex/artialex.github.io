@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 **Collections** are containers for related values
 
 - Collections *only store references* to objects 
@@ -6,19 +10,28 @@
 	- `ArrayList` is a list (*interface*) with an array (*Implementation*) under the hood
 	- `HashMap` is a map (*interface*) with a hash table (*Implementation*) under the hood
 
+- [[Arrays]]
+
 ## Java collections
 
-![[Collection Interfaces]]
+Collection Interfaces
 
-![[Concurrent collection interfaces]]
+- `Iterable` - collection has an iterator, and is traversable using `for (T value: collection) { ... }`
+	- `Collection` is basic interface for all Iterable collections
+		- `List` is a sequence of elements
+		- `Set` is a sequence of unique elements
+			- `SortedSet`
+			- `NavigableSet` has methods for quick navigation
+		- `Queue` is LIFO collection
+			- `Deque` is a double-ended queue
+		- `Map` is a sequence of key-value entries
+			- `SortedMap`
+			- `NavigableMap` has methods for quick navigation
 
-![[List implementations]]
-
-![[Set implementations]]
-
-![[Map implementations]]
-
-![[Queue implementations]]
+- [[Lists]]
+- [[Sets]]
+- [[Maps]]
+- [[Queues]]
 
 ## Other collections
 
@@ -31,13 +44,16 @@
 
 Related
 
-- [[Stream API]]
-
-
+<!--
+- [[Concurrent collection interfaces]]
+- [[Concurrent collections]]
+-->
 
 ##### Unmodifiable collections
-![[Creating maps]]
 
 ---
 
 -  [[RU] Collections](https://habr.com/ru/company/luxoft/blog/256877/)
+
+
+

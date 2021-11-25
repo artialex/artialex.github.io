@@ -19,6 +19,10 @@ Here I collect the resources I find useful especially if some of them intersect 
 - [Michael Fogleman](https://www.michaelfogleman.com/) - 3D libraries
 - [Mike Bostock](https://bost.ocks.org/mike)
 - [Jason Davies](https://www.jasondavies.com/)
+- https://app.umami.is/share/8rmHaheU/umami.is
+- https://learn.netdata.cloud/docs/cloud/visualize/overview
+- https://preview.tabler.io/
+
 
 <!--
 

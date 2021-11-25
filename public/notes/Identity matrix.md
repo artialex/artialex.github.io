@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [linal, done]
 ---
 
 # Identity matrix

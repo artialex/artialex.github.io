@@ -3,11 +3,12 @@ import { useEffect } from 'react'
 import { configure } from '@/markdown'
 import { NoteLink, NoteTitle } from '@/notes'
 import { useRouter } from 'next/router'
-import { useAppDispatch, useAppSelector } from '@/redux'
-import { open, selectOpened } from '@/notes/contexts/notes'
-import { unslugify } from '@/notes/services/notes.query'
+import { open } from '@/notes/contexts/notes'
+import { unslugify } from '@/notes/services/slug.utils'
 import { useTheme } from '@/ui.theme'
 import { RoughMark } from '@/ui'
+import { Insertion } from '@/insertions'
+import { useAppDispatch } from '@/redux.hooks'
 
 const IndexPage = () => {
   let router = useRouter()
@@ -23,7 +24,8 @@ const IndexPage = () => {
         a: NoteLink,
         h1: NoteTitle,
         mark: RoughMark,
-        tags: () => null, // Hide tags in Web app, keep them in Obsidian
+        tags: () => null, // Hide tags in Web app, keep them in Obsidian // FIXME?
+        insertion: Insertion,
       },
     })
   }, [])
@@ -40,4 +42,5 @@ const IndexPage = () => {
 
   return <RootComponent />
 }
+
 export default IndexPage

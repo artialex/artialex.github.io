@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 **Java Database Connectivity** is a specification for working with a database
 
 - Located inside `java.sql.*` and `javax.sql.*`

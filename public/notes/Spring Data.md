@@ -1,4 +1,14 @@
+---
+tags: [spring]
+---
+
+# Spring Data
+
+Multiple libraries related to [[Data Access]]
+
 **Spring Data** is a data access library  for [[Spring]]
+
+[[Hibernate]]
 
 - **Spring Data JPA** is a library which add an additional level of abstraction above ORM (above Hibernate for example)
 

@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 **Hibernate** is not only an ORM but a complete solution for data storage in Java
 
 Java Objects <- **Hibernate** -> Database

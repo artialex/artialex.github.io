@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Shaders
 
 Shader is a program written for a videocard, that executes simultaneosly for every pixel on the screen

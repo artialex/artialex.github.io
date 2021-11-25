@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [linal, done]
 ---
 
 # Matrix
@@ -63,8 +63,3 @@ $$
 	-13 \\ 7 \\ -5
 \end{bmatrix}
 $$
-
-## Related
-
-- [[Vector]]
-- [[Linear transformations]]

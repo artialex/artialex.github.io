@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 **Java Persistence API** is a specification for binding Java Objects and records in a RDBMS
 
 - JPA elements are located inside `javax.persistence.*`
@@ -7,7 +11,7 @@
 - JPA has a language over [[SQL]] (JPQL)
 - JPA simplifies *associations* using annotations like `@OneToOne`, `@OneToMay`, .etc..
 - JPA is *database-agnostic*
-- JPA uses *only* [[Exceptions|unchecked exceptions]]
+- JPA uses *only unchecked exceptions*
 - JPA *implicitly provides a transaction management*
 - JPA uses `EntityManager`
 
@@ -121,3 +125,12 @@ JPA caches
 
 - [JPA vs JDBC](https://www.baeldung.com/jpa-vs-jdbc)
 - [[RU] JPA Entities](https://habr.com/ru/post/265061/)
+
+
+
+
+
+
+
+- [[SQL]] -> [[JPQL]] -> [[SpEL]]
+Collections

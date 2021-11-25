@@ -1,5 +1,9 @@
+---
+tags: [networking]
+aliases: [HyperText Transfer Protocol]
+---
+
 # HTTP
-::aliases[HyperText Transfer Protocol]
 
 Исторически HTTP/1.1 имел некоторые проблемы - чувствительность к [[RTT]], конвейерная обработка запросов,
 блокировка начала очереди, необходимость домен-шардинга. Поэтому была начата разработка HTTP2,

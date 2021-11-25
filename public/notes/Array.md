@@ -1,3 +1,7 @@
+---
+tags: [ds]
+---
+
 # Array
 
 <!--
@@ -95,6 +99,7 @@ $$
 \end{array}
 $$
 
+<!--
 - !mark[](check) Indexing takes $O(1)$ time
 - !mark[](cross) Search takes $O(n)$ time because it requres checking every element
 - !mark[](cross) Insertion/deletion takes $O(n)$ time because following elements are shifted one position left/right
@@ -104,6 +109,7 @@ $$
 - !mark[](info) A string can be implemented as an array of chars 
 - !mark[](info) Используются как сами по себе, так и в рамках других структур данных, таких как список, стек, куча, очередь с приоритетом, хэш-таблица
 
+-->
 
 ## Resizeable Array
 

@@ -1,3 +1,7 @@
+---
+tags: [ds, graph]
+---
+
 # Graph cyclicity
 
 Graph can be *cyclic* or *acyclic*

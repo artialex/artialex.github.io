@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Lights & Shadows
 
 - BRDF

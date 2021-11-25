@@ -1,3 +1,7 @@
+---
+tags: [architecture]
+---
+
 # Domain driven design
 
 ::aliases[DDD]

@@ -1,5 +1,5 @@
 ---
-tags: [map]
+tags: [productivity, map]
 ---
 
 # Cognitive biases

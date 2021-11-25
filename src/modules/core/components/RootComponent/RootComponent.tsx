@@ -1,5 +1,5 @@
 import { NoteArea } from '@/notes'
-import { useAppDispatch } from '@/redux'
+import { useAppDispatch } from '@/redux.hooks'
 import { toggle } from '@/ui.theme'
 import { Header } from '../Header'
 import css from './RootComponent.module.scss'

@@ -1,3 +1,7 @@
+---
+tags: [architecture]
+---
+
 **IoC (Inversion of Control) Container**
 
 **Dependency Injection**

@@ -1,3 +1,7 @@
+---
+tags: [fe]
+---
+
 # Promises
 
 Functions are synchronous

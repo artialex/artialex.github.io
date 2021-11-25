@@ -1,3 +1,7 @@
+---
+tags: [ds, graph]
+---
+
 # Graph joining
 
 viz:

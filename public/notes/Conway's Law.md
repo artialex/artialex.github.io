@@ -1,3 +1,7 @@
+---
+tags: [architecture]
+---
+
 # Conway's Law
 
 

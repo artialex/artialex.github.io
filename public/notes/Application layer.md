@@ -1,3 +1,7 @@
+---
+tags: [architecture]
+---
+
 # Application layer
 
 _Application specific_ business logic

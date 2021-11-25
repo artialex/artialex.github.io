@@ -1,7 +1,13 @@
+---
+tags: [db, index]
+---
+
 # Databases
 
+[[Associations]]
+
 - SQL
-- Normalisation
+- Normalization
 - ACID Transactions
 - CAP Theorem
 - OLTP vs OLAP
@@ -16,7 +22,7 @@
 - Partitioning
 
 
-## PostgreSQL
+## [[PostgreSQL]]
 Relational database
 
 - De-facto standard for a RDBMS
@@ -33,3 +39,24 @@ Relational database
 Relational database
 - Stores data in a single file
 - Widely used in mobile development
+
+- [[Partitioning]]
+
+Data Access
+
+- [[Databases]] -> [[JDBC]] -> [[JPA]] -> [[Hibernate]] -> [[Spring Data]]
+- [[PostgreSQL]] -> [[Sharding]] -> [[Partitioning]]
+
+Best Practices
+
+- [[Data Access]]
+
+Data Access
+	- JDBC & JPA
+	- Hibernate
+Databases
+
+System Scaling
+Read
+Master / Slave
+Write

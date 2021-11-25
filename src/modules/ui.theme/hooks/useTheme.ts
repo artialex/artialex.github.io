@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
-import { useAppDispatch, useAppSelector } from '@/redux'
-import { themeCurrent } from '@/ui.theme/contexts/theme'
+import { useAppSelector } from '@/redux.hooks'
+import { themeCurrent } from '../contexts/theme'
 
 export function useTheme() {
   let current = useAppSelector(themeCurrent)

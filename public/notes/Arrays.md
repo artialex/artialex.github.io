@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 # Arrays
 
 Initializing
@@ -46,4 +50,4 @@ Arrays.sort(ints);
 ```
 
 - Has fixed size
-- [[ArrayList]] is implemented with an _array_
+- [[Lists|ArrayList]] is implemented with an _array_

@@ -1,12 +1,11 @@
----
-tags: [map]
----
-
 # Algorithms & Data Structures
 
-It's hard to separate them
-
 <!--
+
+- [[Data Sctructures]]
+- [[Algorithms]]
+
+
 Попытка выделить отдельно _алгоритмы_ и отдельно _структуры данных_
 проваливается -- они неотделимы друг от друга
 -->
@@ -48,13 +47,11 @@ It's hard to separate them
 ## Структуры данных
 - высокоуровневая абстракция для организации низкоуровневых данных.
 - метод хранения информации
--->
 
 ## Abstract data types
 
 - [[Array]]
 - [[List]]
-- [[Queue]]
 - Stack
 - Map, Dictionary _or_ Associative array
 - Set
@@ -81,7 +78,6 @@ It's hard to separate them
       - [[Priority queue]]
 - Pile
 
-<!--
 ## Алгоритмы
 
 - [[Эффективность алгоритмов]]
@@ -171,7 +167,6 @@ Cmposite Types
 
 - [[Типы данных]]
 
--->
 
 - [[How to solve algorithmic tasks]]
 
@@ -188,23 +183,9 @@ Cmposite Types
 
 - [Red Blob Games](https://www.redblobgames.com/) \- interactive visual explanations of math and algorithms, using motivating examples from computer games
 
-<!--
-
 https://www.geeksforgeeks.org/data-structures
 https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md
--->
 
-
-[[Notes graph]]
-
-[[Cool graphs]]
-
-[[Graph traversions]]
-
-
-[[Graph operations]]
-
-[[Complete graph]]
 
 [[Edge list]]
 
@@ -212,3 +193,6 @@ https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md
 
 
 [[Pathfinding]]
+
+
+-->

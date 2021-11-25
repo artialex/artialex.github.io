@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 Reading file as line stream
 
 ```java

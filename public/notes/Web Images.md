@@ -1,0 +1,3 @@
+# Web Images
+
+- Image optimization

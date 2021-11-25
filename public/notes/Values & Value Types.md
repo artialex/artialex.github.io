@@ -83,3 +83,19 @@ Character is half-Number-like value type
 - Values *can't be changed* (instead variables are assigned with new value)
 - Values are copied when passing as a method argument
 %%
+
+
+
+- [[Values & Value Types]]
+- Value types
+  - [[Numbers (Java)]]
+  - [[Strings]]
+  - [[Booleans]]
+- Literals
+- [[Strings]]
+  - `String` / `char`
+  - Concatenation
+  - Interpolation
+  - String.format
+  - Guids
+

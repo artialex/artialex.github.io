@@ -1,3 +1,7 @@
+---
+tags: [spring, index]
+---
+
 **Spring** *or* **Spring framework** is divided into **modules** 
 
 Notable ones:
@@ -29,7 +33,7 @@ Other modules:
 	- SpEL
 - `spring-instrument`
 - `spring-instrument-tomcat` - Tomcat utilities
-- Core: `core`, , `beans`, `spel`
+- Core: `core`,  `beans`, `spel`
 	- `spring-context` - Application context
 - `spring-oxm` for Object/XML mapping
 - Data Access: `jdbc`, `orm`, `oxm`, `jms`, `transactions`
@@ -71,6 +75,7 @@ There are many **Spring projects** that are build on top of **Spring framework**
 
 
 
+<!--
 %%
 
 [Spring Projects](https://spring.io/projects)
@@ -87,12 +92,7 @@ There are many **Spring projects** that are build on top of **Spring framework**
 	- Starter
 	- Sets up a web server (Tomcat)
 
-
-## Spring Data
-Multiple libraries related to [[Data Access]]
 	
-### Spring Data JPA
-A level of abstraction over ORM, by default [[Hibernate]]
 
 - Spring MVC
 	- Model, View, Controller
@@ -133,3 +133,7 @@ https://www.baeldung.com/spring-tutorial
 
 
 %% 
+
+
+- [[Dependency Injection]] -> [[Spring Framework]] -> [[Spring Core]] -> [[Spring Boot]]
+-->

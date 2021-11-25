@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Rasterization
 
 $$
