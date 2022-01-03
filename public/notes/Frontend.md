@@ -9,6 +9,9 @@ tags: [fe, index]
 
 Libraries
 
+[[Next]]
+[[React]]
+
 [[Frontend Persistence]]
 
 [[Practical tasks]]

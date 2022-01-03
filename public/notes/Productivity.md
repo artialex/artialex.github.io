@@ -14,3 +14,9 @@ tags: [productivity, index]
 		- Excalidraw
 - Software that helps
 	- Keybindings
+
+
+
+---
+
+- [Learning Library](https://www.notion.so/moritz42w/Learning-Library-2ecb646b5e1e4d5c8274c73c3fbb2541)

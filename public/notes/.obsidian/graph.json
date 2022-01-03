@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": "tag:#fe OR tag:#js",
+  "search": "tag:#linal",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#index",
@@ -141,16 +141,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0.1,
-  "nodeSizeMultiplier": 1.45560661764706,
-  "lineSizeMultiplier": 1.41717524509804,
-  "collapse-forces": true,
-  "centerStrength": 0.411680911680912,
-  "repelStrength": 11.8803418803419,
+  "textFadeMultiplier": -1.3,
+  "nodeSizeMultiplier": 1.85627240143369,
+  "lineSizeMultiplier": 1.20645161290323,
+  "collapse-forces": false,
+  "centerStrength": 0.283154121863799,
+  "repelStrength": 13.1182795698925,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 1.2414543899483017,
+  "linkDistance": 352,
+  "scale": 0.7478537827650056,
   "close": true
 }

@@ -1,5 +1,6 @@
 ---
 tags: [linal, done]
+small: true
 ---
 
 # Matrix transposition
@@ -34,7 +35,7 @@ $$
 \EM
 $$
 
-### Properties
+Properties
 
 $$
 \BA

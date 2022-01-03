@@ -1,7 +1,8 @@
-import { Note } from '../Note'
 import css from './NoteArea.module.scss'
+/*
 import { close, selectOpened } from '@/notes/contexts/notes'
 import { useAppDispatch, useAppSelector } from '@/redux.hooks'
+import { Note } from '../Note'
 
 export const NoteArea = () => {
   let opened = useAppSelector(selectOpened)
@@ -15,3 +16,4 @@ export const NoteArea = () => {
     </main>
   )
 }
+*/

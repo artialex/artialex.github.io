@@ -1,4 +1,5 @@
 import cn from 'clsx'
+/*
 import { AnchorHTMLAttributes, FC, MouseEvent } from 'react'
 // import { notes } from '../../init'
 import css from './NoteLink.module.scss'
@@ -14,18 +15,18 @@ export const NoteLink: FC<NoteLinkProps> = (props) => {
   let opened = useAppSelector(selectOpened)
   let dispatch = useAppDispatch()
 
+  function handleClick(event: MouseEvent<HTMLAnchorElement>) {
+    event.preventDefault()
+
+    dispatch(open(props.href))
+  }
+
   if (!props.className?.includes) {
     return (
       <a className={cn(css.root, css.external)} target="_blank" href={props.href}>
         {props.children}
       </a>
     )
-  }
-
-  function handleClick(event: MouseEvent<HTMLAnchorElement>) {
-    event.preventDefault()
-
-    dispatch(open(props.href))
   }
 
   return (
@@ -40,3 +41,4 @@ export const NoteLink: FC<NoteLinkProps> = (props) => {
     </a>
   )
 }
+*/

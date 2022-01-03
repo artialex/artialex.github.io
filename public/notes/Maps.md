@@ -10,9 +10,9 @@ Single-threaded
 	- `IdentityHashMap` is like a `HashMap` but keys are compared with `==`
 		- Graph friendly
 		- Spoof attack 
-	- `WeakHashMap` is ike a `HashMap` but keys are *weak references*
+	- `WeakHashMap` is like a `HashMap` but keys are *weak references*
 		- Cache friendly
-- `LinkedHashMap` is a map backed by linked list & hashtable. Keeps insertion order
+- `LinkedHashMap` is a map backed by linked list & hash-table. Keeps insertion order
 - `TreeMap` is a map backed by red-black tree. Sorted by keys
 - `EnumMap` has enums as keys
 - `HashTable` is obsolete and not used
@@ -21,6 +21,7 @@ Multi-threaded
 
 - `ConcurrentHashMap` is a thread-safe `HashMap`
 - `ConcurrentSkipListMap` is a thread-safe `TreeMap`
+
 Immutable map
 
 ```java

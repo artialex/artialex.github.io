@@ -1,4 +1,5 @@
 import { FC } from 'react'
+/*
 import { useAppDispatch } from '@/redux.hooks'
 import { close } from '@/notes/contexts/notes'
 
@@ -11,3 +12,4 @@ export const NoteTitle: FC<NoteTitleProps> = ({ children }) => {
 
   return <h1 onClick={() => dispatch(close(children[0].replace(/,/g, '')))}>{children}</h1>
 }
+*/

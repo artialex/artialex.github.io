@@ -1,5 +1,6 @@
 ---
 tags: [linal, done]
+small: true
 ---
 
 # Matrix addition
@@ -20,7 +21,7 @@ $$
 	\EM
 $$
 
-### Properties
+Properties
 
 $$
 \BA

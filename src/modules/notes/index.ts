@@ -1,5 +1,4 @@
-export { Note } from './components/Note'
-export { NoteArea } from './components/NoteArea'
-export { NoteLink } from './components/NoteLink'
-export { NoteTitle } from './components/NoteTitle'
-export { notes, notesMiddleware } from './contexts/notes'
+export { AllNotesPage } from './components/_pages/AllNotesPage'
+
+export { Notes } from './services/NotesService'
+export { NoteLayout } from './services/NoteLayoutService'

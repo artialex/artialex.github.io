@@ -25,6 +25,7 @@ All the notes are divided into several sections:
 - [[Software Architecture]]
 - [[Frontend]]
 - [[Java]]
+- [[Strings (CSharp)]]
 - [[Data Access]]
 
 <!--

@@ -1,10 +1,11 @@
 ---
 tags: [linal, done]
+small: true
 ---
 
 # Determinant
 
-Determinant denoted as $\Delta$ or $\det$
+[//]: # 'Determinant denoted as $\\Delta$ or $\det$'
 
 $$
 \Delta =
@@ -16,13 +17,7 @@ $$
 \Green m_{11} \Violet m_{22} - \Blue m_{12} \Orange m_{21}
 $$
 
-<iframe
-  width="400"
-	height="400"
-	frameborder="no" src="https://alextheartisan.github.io/algebra/determinant/index.html" />
-
-
-### Notes
+Notes
 
 - If both rows are identical then terminant is 0
 

@@ -1,4 +1,6 @@
+# dotNET
 
+**.NET** is a platform for building applications
 
 |Project|Java|
 |--|--|
@@ -23,3 +25,9 @@
 
 
 
+
+
+---
+
+- Connection strings
+- MVC

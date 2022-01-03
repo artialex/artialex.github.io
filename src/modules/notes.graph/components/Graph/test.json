@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {
+      "key": "Alphabet",
+      "attributes": {
+      }
+    },
+    {
+      "key": "Bonaparte",
+      "attributes": {
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "0",
+      "source": "Alphabet",
+      "target": "Bonaparte"
+    }
+  ]
+}

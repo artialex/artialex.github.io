@@ -7,9 +7,13 @@ tags: [fe]
 - [[Frontend Architecture]]
 - [[Authentication & Authorization]]
 - [[I18n]]
-- [[Web Animation]]
 - [[Routing]]
 - [[Data Fetching]]
 - [[Web Analytics]]
 - [[Feature flags]]
+- [[Web Animation]]
+- [[Forms]]
+
+---
+
 - [[Deployment]]

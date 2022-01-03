@@ -4,24 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c1af192f6e847e89",
+        "id": "34d970c8e2c41e8b",
         "type": "leaf",
-        "dimension": 30.5077968812475,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "State Machine.md",
+            "file": "Linear transformations.md",
             "mode": "source"
           }
-        }
-      },
-      {
-        "id": "31d15bf24d731700",
-        "type": "leaf",
-        "dimension": 69.4922031187525,
-        "state": {
-          "type": "graph",
-          "state": {}
         }
       }
     ],
@@ -49,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "```js",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -80,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "State Machine.md",
+                "file": "Linear transformations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c1af192f6e847e89",
+  "active": "34d970c8e2c41e8b",
   "lastOpenFiles": [
-    "State Machine.md",
-    "npm.md",
-    "Web Performance.md",
-    "Frontend.md",
-    "Dev Tools.md",
-    "Web Dev Tools.md",
-    "Data Fetching.md",
-    "AJAX.md",
-    "Node.js.md",
-    "Frontend Persistence.md"
+    "Linear transformations.md",
+    "Vector.md",
+    "Vector & Matrix Operations.md",
+    "Unit vector.md",
+    "Inverse vector.md",
+    "Zero vector.md",
+    "Vector magnitude.md",
+    "Linear algebra.md",
+    "Matrix.md",
+    "Determinant.md"
   ]
 }

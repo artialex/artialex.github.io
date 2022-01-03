@@ -1,5 +1,6 @@
 ---
 tags: [linal, done]
+small: true
 ---
 
 # Inverse matrix

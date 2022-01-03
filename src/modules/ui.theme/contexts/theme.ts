@@ -1,4 +1,5 @@
-import { createSlice } from '@reduxjs/toolkit'
+import React from 'react'
+/*
 import { AppState } from '@/redux'
 
 enum Theme {
@@ -36,7 +37,7 @@ export const themeCurrent = (state: AppState) => state.theme.current
 
 export const { toggle } = theme.actions
 
-/*
+/!*
 const THEME_KEY = 'theme'
 
 export function create() {
@@ -73,4 +74,5 @@ if (typeof window !== 'undefined') {
   })
   // Client-side-only code
 }
+*!/
 */

@@ -127,6 +127,12 @@
       "id": "Kaizen"
     },
     {
+      "id": "AJAX",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
       "id": "Algorithms & Data Structures"
     },
     {
@@ -149,7 +155,7 @@
       "id": "Backtracking search"
     },
     {
-      "id": "Data Sctructures"
+      "id": "Data Structures"
     },
     {
       "id": "Aliasing"
@@ -195,7 +201,9 @@
     },
     {
       "id": "Authentication & Authorization",
-      "tags": []
+      "tags": [
+        "fe"
+      ]
     },
     {
       "id": "Single Sign-On"
@@ -210,7 +218,17 @@
       "id": "Bash"
     },
     {
-      "id": "Basic JavaScript"
+      "id": "Basic JavaScript",
+      "tags": [
+        "fe",
+        "js"
+      ]
+    },
+    {
+      "id": "JavaScript Arrays"
+    },
+    {
+      "id": "JavaScript Functions"
     },
     {
       "id": "Bezier curves"
@@ -292,6 +310,12 @@
       "id": "Cartesian product"
     },
     {
+      "id": "CI & CD",
+      "tags": [
+        "devops"
+      ]
+    },
+    {
       "id": "Classes"
     },
     {
@@ -333,6 +357,7 @@
     {
       "id": "Cognitive biases",
       "tags": [
+        "productivity",
         "map"
       ]
     },
@@ -424,7 +449,12 @@
       ]
     },
     {
-      "id": "Component, Instance & Element"
+      "id": "Component, Instance & Element",
+      "tags": [
+        "fe",
+        "js",
+        "react"
+      ]
     },
     {
       "id": "Computer Graphics",
@@ -515,6 +545,13 @@
       "id": "Digital image processing"
     },
     {
+      "id": "Conceptual computation",
+      "tags": [
+        "productivity",
+        "learning"
+      ]
+    },
+    {
       "id": "Concorde effect"
     },
     {
@@ -549,6 +586,12 @@
     },
     {
       "id": "Systems"
+    },
+    {
+      "id": "Controls",
+      "tags": [
+        "fe"
+      ]
     },
     {
       "id": "Convolution"
@@ -598,10 +641,42 @@
       "id": "CSharp Features"
     },
     {
+      "id": "CSS Layout Systems",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "CSS Media Queries",
+      "tags": [
+        "fe",
+        "index"
+      ]
+    },
+    {
+      "id": "CSS Modules",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
       "id": "CSS Shorthands"
     },
     {
-      "id": "CSS"
+      "id": "CSS",
+      "tags": [
+        "fe",
+        "index"
+      ]
+    },
+    {
+      "id": "CSS Modules"
+    },
+    {
+      "id": "CSS Layout Systems"
+    },
+    {
+      "id": "CSS Media Queries"
     },
     {
       "id": "Curves & Surfaces"
@@ -623,6 +698,18 @@
     },
     {
       "id": "Databases"
+    },
+    {
+      "id": "Data Fetching",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "AJAX"
+    },
+    {
+      "id": "Websockets"
     },
     {
       "id": "Data Integrity"
@@ -732,6 +819,15 @@
       ]
     },
     {
+      "id": "Deployment",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "12-factor application"
+    },
+    {
       "id": "Depth-first search",
       "tags": [
         "algo",
@@ -831,8 +927,11 @@
     {
       "id": "DNS",
       "tags": [
-        "done"
+        "networking"
       ]
+    },
+    {
+      "id": "Domain name"
     },
     {
       "id": "Docker"
@@ -864,7 +963,7 @@
     {
       "id": "Duplex streams",
       "tags": [
-        "done"
+        "js"
       ]
     },
     {
@@ -876,6 +975,24 @@
     },
     {
       "id": "Encoding"
+    },
+    {
+      "id": "English",
+      "tags": [
+        "eng"
+      ]
+    },
+    {
+      "id": "Idioms"
+    },
+    {
+      "id": "Verbs"
+    },
+    {
+      "id": "Tenses"
+    },
+    {
+      "id": "Pronouns"
     },
     {
       "id": "Enums"
@@ -895,7 +1012,7 @@
     {
       "id": "Event loop",
       "tags": [
-        "wip"
+        "js"
       ]
     },
     {
@@ -941,6 +1058,15 @@
       ]
     },
     {
+      "id": "Forms",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "Controls"
+    },
+    {
       "id": "Front-end performance checklist"
     },
     {
@@ -948,6 +1074,31 @@
     },
     {
       "id": "Build optimizations"
+    },
+    {
+      "id": "Frontend Architecture",
+      "tags": [
+        "fe",
+        "architecture"
+      ]
+    },
+    {
+      "id": "State Management"
+    },
+    {
+      "id": "Server-Side Rendering"
+    },
+    {
+      "id": "Frontend Persistence",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "Web storage"
+    },
+    {
+      "id": "IndexedDB"
     },
     {
       "id": "Frontend",
@@ -963,13 +1114,25 @@
       "id": "CSS"
     },
     {
-      "id": "Authentication & Authorization"
+      "id": "Frontend Persistence"
     },
     {
-      "id": "I18n"
+      "id": "Practical tasks"
     },
     {
-      "id": "Web Animation"
+      "id": "Web Images"
+    },
+    {
+      "id": "SVG"
+    },
+    {
+      "id": "Web Fonts"
+    },
+    {
+      "id": "Web Performance"
+    },
+    {
+      "id": "Meta Information"
     },
     {
       "id": "Function Types"
@@ -1298,7 +1461,10 @@
       "id": "How browser works"
     },
     {
-      "id": "How I create a CI pipeline"
+      "id": "How I create a CI pipeline",
+      "tags": [
+        "devops"
+      ]
     },
     {
       "id": "How I name things",
@@ -1370,7 +1536,10 @@
       "id": "HTTP Headers"
     },
     {
-      "id": "HTTP"
+      "id": "HTTP",
+      "tags": [
+        "networking"
+      ]
     },
     {
       "id": "RTT"
@@ -1385,7 +1554,10 @@
       "id": "SSH"
     },
     {
-      "id": "I18n"
+      "id": "I18n",
+      "tags": [
+        "fe"
+      ]
     },
     {
       "id": "Ideas"
@@ -1640,26 +1812,37 @@
     {
       "id": "JavaScript Arrays",
       "tags": [
-        "done"
+        "js"
       ]
     },
     {
       "id": "JavaScript Asynchronicity",
       "tags": [
-        "wip"
+        "fe",
+        "js"
       ]
     },
     {
       "id": "JavaScript Projects Terminology"
     },
     {
+      "id": "Promises"
+    },
+    {
+      "id": "Event loop"
+    },
+    {
       "id": "JavaScript Functions",
       "tags": [
-        "wip"
+        "js"
       ]
     },
     {
-      "id": "JavaScript Modules"
+      "id": "JavaScript Modules",
+      "tags": [
+        "fe",
+        "js"
+      ]
     },
     {
       "id": "JavaScript Projects Terminology"
@@ -1667,6 +1850,7 @@
     {
       "id": "JavaScript",
       "tags": [
+        "fe",
         "js",
         "index"
       ]
@@ -1675,7 +1859,16 @@
       "id": "Basic JavaScript"
     },
     {
-      "id": "React"
+      "id": "JavaScript Asynchronicity"
+    },
+    {
+      "id": "JavaScript Modules"
+    },
+    {
+      "id": "Node.js"
+    },
+    {
+      "id": "Windows & IFrames"
     },
     {
       "id": "JDBC",
@@ -1711,6 +1904,9 @@
       "id": "SpEL"
     },
     {
+      "id": "JS Asynchronicity"
+    },
+    {
       "id": "Kaizen",
       "tags": [
         "map"
@@ -1743,6 +1939,7 @@
     {
       "id": "Learning",
       "tags": [
+        "productivity",
         "learning"
       ]
     },
@@ -1856,6 +2053,18 @@
       ]
     },
     {
+      "id": "Local Area Network",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "Hub"
+    },
+    {
+      "id": "Switch"
+    },
+    {
       "id": "Logging",
       "tags": [
         "java"
@@ -1867,7 +2076,7 @@
     {
       "id": "MAC-address",
       "tags": [
-        "done"
+        "networking"
       ]
     },
     {
@@ -2148,6 +2357,21 @@
       "id": "How do I write unit tests"
     },
     {
+      "id": "Network Protocols",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "HTTP"
+    },
+    {
+      "id": "TCP"
+    },
+    {
+      "id": "UDP"
+    },
+    {
       "id": "Networking",
       "tags": [
         "networking",
@@ -2161,22 +2385,37 @@
       "id": "DNS"
     },
     {
-      "id": "HTTP"
+      "id": "MAC-address"
     },
     {
-      "id": "MAC-address"
+      "id": "Network Protocols"
+    },
+    {
+      "id": "Sockets"
+    },
+    {
+      "id": "Wires"
+    },
+    {
+      "id": "NAT"
+    },
+    {
+      "id": "Time To Live"
+    },
+    {
+      "id": "Port"
+    },
+    {
+      "id": "Local Area Network"
+    },
+    {
+      "id": "Wide Area Network"
     },
     {
       "id": "MAC-address"
     },
     {
       "id": "IP-address"
-    },
-    {
-      "id": "TCP"
-    },
-    {
-      "id": "UDP"
     },
     {
       "id": "TLS"
@@ -2186,6 +2425,19 @@
     },
     {
       "id": "Node project cheatsheet"
+    },
+    {
+      "id": "Node.js",
+      "tags": [
+        "fe",
+        "js"
+      ]
+    },
+    {
+      "id": "Streams (Node)"
+    },
+    {
+      "id": "Data Fetching"
     },
     {
       "id": "Node",
@@ -2216,6 +2468,13 @@
     },
     {
       "id": "Notes graph"
+    },
+    {
+      "id": "npm",
+      "tags": [
+        "fe",
+        "js"
+      ]
     },
     {
       "id": "Numbers (Java)"
@@ -2293,7 +2552,7 @@
     {
       "id": "OSI Model",
       "tags": [
-        "wip"
+        "networking"
       ]
     },
     {
@@ -2421,6 +2680,39 @@
       "id": "PPM"
     },
     {
+      "id": "Practical tasks",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "Frontend Architecture"
+    },
+    {
+      "id": "Authentication & Authorization"
+    },
+    {
+      "id": "I18n"
+    },
+    {
+      "id": "Web Animation"
+    },
+    {
+      "id": "Routing"
+    },
+    {
+      "id": "Data Fetching"
+    },
+    {
+      "id": "Web Analytics"
+    },
+    {
+      "id": "Feature flags"
+    },
+    {
+      "id": "Deployment"
+    },
+    {
       "id": "Priority queue",
       "tags": [
         "ds"
@@ -2434,6 +2726,15 @@
     },
     {
       "id": "Poker probability"
+    },
+    {
+      "id": "Problem solving",
+      "tags": [
+        "productivity"
+      ]
+    },
+    {
+      "id": "Conceptual computation"
     },
     {
       "id": "Processes",
@@ -2464,6 +2765,12 @@
       "id": "Magical number 7"
     },
     {
+      "id": "Learning"
+    },
+    {
+      "id": "Problem solving"
+    },
+    {
       "id": "UML"
     },
     {
@@ -2486,7 +2793,16 @@
       ]
     },
     {
-      "id": "Promises"
+      "id": "Promises",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "Pronouns",
+      "tags": [
+        "eng"
+      ]
     },
     {
       "id": "Quantization"
@@ -2549,14 +2865,25 @@
       ]
     },
     {
-      "id": "React"
+      "id": "React",
+      "tags": [
+        "fe",
+        "js"
+      ]
     },
     {
       "id": "Component, Instance & Element"
     },
     {
+      "id": "Reconciliation"
+    },
+    {
+      "id": "Hooks"
+    },
+    {
       "id": "Readable streams",
       "tags": [
+        "js",
         "done"
       ]
     },
@@ -2611,6 +2938,12 @@
     },
     {
       "id": "WebGL"
+    },
+    {
+      "id": "requestAnimationFrame",
+      "tags": [
+        "fe"
+      ]
     },
     {
       "id": "Rest API Design",
@@ -2671,6 +3004,12 @@
       "id": "Round Trip Time"
     },
     {
+      "id": "Routing",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
       "id": "Sampling"
     },
     {
@@ -2697,6 +3036,12 @@
     },
     {
       "id": "Marshalling"
+    },
+    {
+      "id": "Server-Side Rendering",
+      "tags": [
+        "fe"
+      ]
     },
     {
       "id": "Set theory",
@@ -2751,7 +3096,10 @@
       "id": "Function"
     },
     {
-      "id": "Single Sign-On"
+      "id": "Single Sign-On",
+      "tags": [
+        "fe"
+      ]
     },
     {
       "id": "Small Picture",
@@ -2764,6 +3112,12 @@
     },
     {
       "id": "Modules"
+    },
+    {
+      "id": "Sockets",
+      "tags": [
+        "networking"
+      ]
     },
     {
       "id": "Software Architecture",
@@ -2955,6 +3309,12 @@
       "id": "State Machine"
     },
     {
+      "id": "State Management",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
       "id": "Statistics",
       "tags": [
         "map"
@@ -2975,7 +3335,7 @@
     {
       "id": "Streams (Node)",
       "tags": [
-        "done"
+        "js"
       ]
     },
     {
@@ -3019,6 +3379,12 @@
     },
     {
       "id": "TCP"
+    },
+    {
+      "id": "Tenses",
+      "tags": [
+        "eng"
+      ]
     },
     {
       "id": "Tesselation",
@@ -3290,14 +3656,55 @@
       "id": "Visuals"
     },
     {
+      "id": "Vocabulary",
+      "tags": [
+        "eng"
+      ]
+    },
+    {
+      "id": "Web Analytics",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
       "id": "Web Animation",
-      "tags": []
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "requestAnimationFrame"
+    },
+    {
+      "id": "Web Dev Tools",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "Web Fonts"
     },
     {
       "id": "Web Images"
     },
     {
+      "id": "Web Performance",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
       "id": "Web vitals"
+    },
+    {
+      "id": "Web Dev Tools"
+    },
+    {
+      "id": "Web vitals",
+      "tags": [
+        "fe"
+      ]
     },
     {
       "id": "WebGL",
@@ -3309,12 +3716,39 @@
       "id": "Websites to learn Java"
     },
     {
+      "id": "Wide Area Network",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "Router"
+    },
+    {
+      "id": "Windows & IFrames",
+      "tags": [
+        "fe"
+      ]
+    },
+    {
+      "id": "Wires",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "CAT-5 Cable"
+    },
+    {
+      "id": "RJ-45 Connector"
+    },
+    {
       "id": "Wisdom"
     },
     {
       "id": "Writable streams",
       "tags": [
-        "done"
+        "js"
       ]
     },
     {
@@ -3478,7 +3912,7 @@
     },
     {
       "source": "Algorithms",
-      "target": "Data Sctructures"
+      "target": "Data Structures"
     },
     {
       "source": "Aliasing",
@@ -3491,6 +3925,14 @@
     {
       "source": "Authentication & Authorization",
       "target": "Single Sign-On"
+    },
+    {
+      "source": "Basic JavaScript",
+      "target": "JavaScript Arrays"
+    },
+    {
+      "source": "Basic JavaScript",
+      "target": "JavaScript Functions"
     },
     {
       "source": "Big Picture",
@@ -3713,6 +4155,18 @@
       "target": "Unit vector"
     },
     {
+      "source": "CSS",
+      "target": "CSS Modules"
+    },
+    {
+      "source": "CSS",
+      "target": "CSS Layout Systems"
+    },
+    {
+      "source": "CSS",
+      "target": "CSS Media Queries"
+    },
+    {
       "source": "Curves & Surfaces",
       "target": "Bezier curves"
     },
@@ -3727,6 +4181,14 @@
     {
       "source": "Data Access",
       "target": "Databases"
+    },
+    {
+      "source": "Data Fetching",
+      "target": "AJAX"
+    },
+    {
+      "source": "Data Fetching",
+      "target": "Websockets"
     },
     {
       "source": "Data link layer",
@@ -3825,6 +4287,10 @@
       "target": "Data Access"
     },
     {
+      "source": "Deployment",
+      "target": "12-factor application"
+    },
+    {
       "source": "DevOps",
       "target": "Amazon S3"
     },
@@ -3881,8 +4347,28 @@
       "target": "Unit vector"
     },
     {
+      "source": "DNS",
+      "target": "Domain name"
+    },
+    {
       "source": "Dot product",
       "target": "Matrix · Matrix operation"
+    },
+    {
+      "source": "English",
+      "target": "Idioms"
+    },
+    {
+      "source": "English",
+      "target": "Verbs"
+    },
+    {
+      "source": "English",
+      "target": "Tenses"
+    },
+    {
+      "source": "English",
+      "target": "Pronouns"
     },
     {
       "source": "Event loop",
@@ -3897,12 +4383,32 @@
       "target": "Two types of Feedback"
     },
     {
+      "source": "Forms",
+      "target": "Controls"
+    },
+    {
       "source": "Front-end performance checklist",
       "target": "Assets optimizations"
     },
     {
       "source": "Front-end performance checklist",
       "target": "Build optimizations"
+    },
+    {
+      "source": "Frontend Architecture",
+      "target": "State Management"
+    },
+    {
+      "source": "Frontend Architecture",
+      "target": "Server-Side Rendering"
+    },
+    {
+      "source": "Frontend Persistence",
+      "target": "Web storage"
+    },
+    {
+      "source": "Frontend Persistence",
+      "target": "IndexedDB"
     },
     {
       "source": "Frontend",
@@ -3914,15 +4420,31 @@
     },
     {
       "source": "Frontend",
-      "target": "Authentication & Authorization"
+      "target": "Frontend Persistence"
     },
     {
       "source": "Frontend",
-      "target": "I18n"
+      "target": "Practical tasks"
     },
     {
       "source": "Frontend",
-      "target": "Web Animation"
+      "target": "Web Images"
+    },
+    {
+      "source": "Frontend",
+      "target": "SVG"
+    },
+    {
+      "source": "Frontend",
+      "target": "Web Fonts"
+    },
+    {
+      "source": "Frontend",
+      "target": "Web Performance"
+    },
+    {
+      "source": "Frontend",
+      "target": "Meta Information"
     },
     {
       "source": "Functional elements",
@@ -4365,12 +4887,32 @@
       "target": "JavaScript Projects Terminology"
     },
     {
+      "source": "JavaScript Asynchronicity",
+      "target": "Promises"
+    },
+    {
+      "source": "JavaScript Asynchronicity",
+      "target": "Event loop"
+    },
+    {
       "source": "JavaScript",
       "target": "Basic JavaScript"
     },
     {
       "source": "JavaScript",
-      "target": "React"
+      "target": "JavaScript Asynchronicity"
+    },
+    {
+      "source": "JavaScript",
+      "target": "JavaScript Modules"
+    },
+    {
+      "source": "JavaScript",
+      "target": "Node.js"
+    },
+    {
+      "source": "JavaScript",
+      "target": "Windows & IFrames"
     },
     {
       "source": "JPA",
@@ -4495,6 +5037,14 @@
     {
       "source": "Linked List",
       "target": "Queue"
+    },
+    {
+      "source": "Local Area Network",
+      "target": "Hub"
+    },
+    {
+      "source": "Local Area Network",
+      "target": "Switch"
     },
     {
       "source": "Management",
@@ -4709,6 +5259,18 @@
       "target": "How do I write unit tests"
     },
     {
+      "source": "Network Protocols",
+      "target": "HTTP"
+    },
+    {
+      "source": "Network Protocols",
+      "target": "TCP"
+    },
+    {
+      "source": "Network Protocols",
+      "target": "UDP"
+    },
+    {
       "source": "Networking",
       "target": "OSI Model"
     },
@@ -4718,11 +5280,39 @@
     },
     {
       "source": "Networking",
-      "target": "HTTP"
+      "target": "MAC-address"
     },
     {
       "source": "Networking",
-      "target": "MAC-address"
+      "target": "Network Protocols"
+    },
+    {
+      "source": "Networking",
+      "target": "Sockets"
+    },
+    {
+      "source": "Networking",
+      "target": "Wires"
+    },
+    {
+      "source": "Networking",
+      "target": "NAT"
+    },
+    {
+      "source": "Networking",
+      "target": "Time To Live"
+    },
+    {
+      "source": "Networking",
+      "target": "Port"
+    },
+    {
+      "source": "Networking",
+      "target": "Local Area Network"
+    },
+    {
+      "source": "Networking",
+      "target": "Wide Area Network"
     },
     {
       "source": "Networking",
@@ -4734,15 +5324,15 @@
     },
     {
       "source": "Networking",
-      "target": "TCP"
-    },
-    {
-      "source": "Networking",
-      "target": "UDP"
-    },
-    {
-      "source": "Networking",
       "target": "TLS"
+    },
+    {
+      "source": "Node.js",
+      "target": "Streams (Node)"
+    },
+    {
+      "source": "Node.js",
+      "target": "Data Fetching"
     },
     {
       "source": "Notable Pages",
@@ -4841,12 +5431,52 @@
       "target": "Bitmap"
     },
     {
+      "source": "Practical tasks",
+      "target": "Frontend Architecture"
+    },
+    {
+      "source": "Practical tasks",
+      "target": "Authentication & Authorization"
+    },
+    {
+      "source": "Practical tasks",
+      "target": "I18n"
+    },
+    {
+      "source": "Practical tasks",
+      "target": "Web Animation"
+    },
+    {
+      "source": "Practical tasks",
+      "target": "Routing"
+    },
+    {
+      "source": "Practical tasks",
+      "target": "Data Fetching"
+    },
+    {
+      "source": "Practical tasks",
+      "target": "Web Analytics"
+    },
+    {
+      "source": "Practical tasks",
+      "target": "Feature flags"
+    },
+    {
+      "source": "Practical tasks",
+      "target": "Deployment"
+    },
+    {
       "source": "Probability",
       "target": "Deck of cards"
     },
     {
       "source": "Probability",
       "target": "Poker probability"
+    },
+    {
+      "source": "Problem solving",
+      "target": "Conceptual computation"
     },
     {
       "source": "Processes",
@@ -4863,6 +5493,14 @@
     {
       "source": "Productivity",
       "target": "Magical number 7"
+    },
+    {
+      "source": "Productivity",
+      "target": "Learning"
+    },
+    {
+      "source": "Productivity",
+      "target": "Problem solving"
     },
     {
       "source": "Productivity",
@@ -4887,6 +5525,14 @@
     {
       "source": "React",
       "target": "Component, Instance & Element"
+    },
+    {
+      "source": "React",
+      "target": "Reconciliation"
+    },
+    {
+      "source": "React",
+      "target": "Hooks"
     },
     {
       "source": "Readme",
@@ -5291,6 +5937,30 @@
     {
       "source": "Vector",
       "target": "Matrix"
+    },
+    {
+      "source": "Web Animation",
+      "target": "requestAnimationFrame"
+    },
+    {
+      "source": "Web Performance",
+      "target": "Web vitals"
+    },
+    {
+      "source": "Web Performance",
+      "target": "Web Dev Tools"
+    },
+    {
+      "source": "Wide Area Network",
+      "target": "Router"
+    },
+    {
+      "source": "Wires",
+      "target": "CAT-5 Cable"
+    },
+    {
+      "source": "Wires",
+      "target": "RJ-45 Connector"
     },
     {
       "source": "Важно уметь задавать правильные вопросы",

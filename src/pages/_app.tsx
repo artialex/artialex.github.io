@@ -1,19 +1,12 @@
-// -- Styles ---------------------------------------------------------------------------------------
 import 'normalize.css'
 import '@/ui/styles/global.scss'
-import { AppProps } from 'next/app'
 import Head from 'next/head'
+import type { FC } from 'react'
 import { QueryClientProvider } from '@/api'
-import { Provider } from 'react-redux'
-import { FC } from 'react'
+import type { AppProps } from 'next/app'
 import { NextQueryParamProvider } from 'next-query-params'
-
-import { store } from '@/redux'
-
-// let Providers = flow([
-//   QueryClientProvider, //
-//   () => <Provider store={store} />,
-// ])
+import { DndProvider } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend'
 
 /**
  * This file is used for global logic
@@ -24,12 +17,10 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <QueryClientProvider>
       <NextQueryParamProvider>
-        <Provider store={store}>
-          <Head>
-            <title>Alex The Artisan</title>
-          </Head>
-          <Component {...pageProps} />
-        </Provider>
+        <Head>
+          <title>Alex The Artisan</title>
+        </Head>
+        <Component {...pageProps} />
       </NextQueryParamProvider>
     </QueryClientProvider>
   )

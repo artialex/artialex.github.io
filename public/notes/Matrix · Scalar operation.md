@@ -1,5 +1,6 @@
 ---
 tags: [linal, done]
+small: true
 ---
 
 # Matrix · Scalar operation

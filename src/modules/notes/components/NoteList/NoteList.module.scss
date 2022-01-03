@@ -1,0 +1,39 @@
+@use 'fonts';
+
+.root {
+  width: 320px;
+  position: relative;
+
+  @include fonts.primary-small-caps();
+}
+
+.list {
+  width: inherit;
+  list-style-type: none;
+  position: fixed;
+  padding-left: 1.5rem;
+}
+
+.item {
+  display: flex;
+  padding-right: 1rem;
+
+  span {
+    flex: 1;
+  }
+
+  button {
+    opacity: 0;
+    border: none;
+    cursor: pointer;
+    transition: opacity 200ms;
+
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+
+  &:hover button {
+    opacity: 0.8;
+  }
+}

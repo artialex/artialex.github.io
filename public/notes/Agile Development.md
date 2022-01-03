@@ -4,6 +4,7 @@ tags: [agile, index]
 
 # Agile Development
 
+Task <- Story <- Epic <- Project
 
 ## Daily meetings
 

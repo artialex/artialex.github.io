@@ -106,5 +106,7 @@ https://github.com/EbookFoundation/free-programming-books/blob/master/free-progr
 - https://github.com/nbro/understanding-math
 - http://www-math.mit.edu/~djk/calculus_beginners/
 - https://mathigon.org/
-
+- https://www.youtube.com/watch?v=pTnEG_WGd2Q
 -->
+
+

@@ -12,6 +12,8 @@ JavaScript language
 	- Event Loop
 - [[JavaScript Modules]]
 
+[[npm]]
+
 Libraries
 
 - React
@@ -162,6 +164,6 @@ https://itnext.io/nodejs-logging-made-right-117a19e8b4ce
 https://exploringjs.com/deep-js/ch_creating-class-instances.html
 
 https://exploringjs.com/tackling-ts/toc.html
-
+https://www.patterns.dev/
 https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#setting-realistic-goals
 

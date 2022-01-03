@@ -97,3 +97,9 @@ Dreyfus model
 
 
 [[Visuals]]
+
+
+
+
+- https://excalidraw.com/
+- https://www.tldraw.com/

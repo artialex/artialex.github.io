@@ -1,23 +1,21 @@
 ---
 tags: [linal, done]
+small: true
 ---
 
 # Identity matrix
 
 Square matrix with ones on the _main diagonal_
 
-2D
-
 $$
-I_2 = \BM 1 & 0 \\ 0 & 1 \EM
-$$
-
-3D
-
-$$
-I_3 = \BM 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \EM
+\begin{align}
+    I_2 = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} &&
+    I_3 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}
+\end{align}
 $$
 
-### Properties
+Properties
 
-- $\A I = I \A = \A$
+$$
+\A I = I \A = \A
+$$

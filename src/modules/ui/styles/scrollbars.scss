@@ -1,24 +1,10 @@
 ::-webkit-scrollbar {
-  width: 0.1rem;
-  height: 0.5rem;
-
-  background: var(--scrollbar-color);
-
-  //.theme-dark & {
-  //  background-color: var(--background-color-lighter);
-  //}
-  //.theme-light & {
-  //  background-color: var(--background-color-darker);
-  //}
+  //width: 0.1rem;
+  //height: 0.5rem;
+  //
+  //background: var(--scrollbar-color);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb-color);
-
-  //.theme-dark & {
-  //  background-color: var(--background-color-lighter);
-  //}
-  //.theme-light & {
-  //  background-color: var(--background-color-darker);
-  //}
+  //background: var(--scrollbar-thumb-color);
 }

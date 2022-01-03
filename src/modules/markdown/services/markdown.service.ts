@@ -16,7 +16,7 @@ import remarkRehype from 'remark-rehype'
 import remarkKatex from 'rehype-katex'
 import rehypeReact from 'rehype-react'
 
-import 'katex/dist/katex.min.css' // fixme?
+import 'katex/dist/katex.min.css' // ? FIXME
 
 let processor: Processor | null = null
 
@@ -81,18 +81,14 @@ export function configure(options: ConfigureOptions) {
    *   :::
    */
   processor.use(remarkDirective)
-  processor.use(() => {
-    function ondirective(node: any) {
+  processor.use(() => (tree) => {
+    visit(tree, ['textDirective', 'leafDirective', 'containerDirective'], (node: any) => {
       let data: any = node.data || (node.data = {})
       let hast: any = h(node.name, node.attributes)
 
       data.hName = hast.tagName
       data.hProperties = hast.properties
-    }
-
-    return function transform(tree) {
-      visit(tree, ['textDirective', 'leafDirective', 'containerDirective'], ondirective)
-    }
+    })
   })
 
   /** Additional remark plugins */
