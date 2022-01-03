@@ -1,0 +1,1 @@
+export { PaperPage } from './PaperPage'

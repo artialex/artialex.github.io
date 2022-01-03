@@ -1,0 +1,35 @@
+.root {
+  border: 1px solid lightgray;
+  padding: 0.75rem;
+  width: 600px;
+  background: white;
+
+  h1 {
+    display: none;
+  }
+
+  p {
+    margin: 0 0 1rem;
+    line-height: 120%;
+  }
+
+  &.small {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  a {
+    color: steelblue;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0 0 0 1rem;
+
+    li::before {
+      content: '- ';
+    }
+  }
+}
