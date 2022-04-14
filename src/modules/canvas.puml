@@ -1,0 +1,80 @@
+@startuml
+
+!include https://raw.githubusercontent.com/alextheartisan/plantuml-themes/master/src/themes/pretty.iuml
+
+hide empty members
+
+left to right direction
+
+/'
+package markdown {
+    class MarkdownService <<(S, orange) Service>> {
+        configure(options: ConfigurationOptions): void
+        process(text: string): VFile
+    }
+}
+
+package notes {
+    class Note <<(C, pink) Component>>
+
+    class NoteService {
+        async getNoteIds(): NoteId[]
+        async getRawNote(id: NoteId): string
+        async getProcessedNote(id: NoteId): VFileWithOutput<any>
+    }
+
+    class notes <<(S, lightblue) Slice>> {
+        opened: NoteId[]
+    }
+}
+'/
+package notes.aside {
+    rectangle a_notes as "notes" {
+        class OpenedStore as "notes.opened" <<(S, lightblue) Store>> {
+            NoteId[]
+        }
+    }
+}
+
+
+package notes.layout {
+    rectangle mode {
+        class ModeStore as "mode.mode" <<(S, lightblue) Store>> {
+            Mode
+        }
+    }
+
+    rectangle scroll {
+        class ScrollStore as "scroll.position" <<(S, lightblue) Store>> {
+            Position
+        }
+        class CenterStore as "center" <<(S, orange) Selector>> {
+            Position
+        }
+        class CurrentBucket as "currentBucket" <<(S, orange) Selector>> {
+            Bucket
+        }
+        ScrollStore <-- CenterStore
+        CenterStore <-- CurrentBucket
+    }
+
+    rectangle l_notes as "notes" {
+        class NotesStore as "notes.record" <<(S, lightblue) Store>> {
+            Record<NoteId, Position>
+        }
+        class SelectedNotesStore as "notes.selected" <<(S, lightblue) Store>> {
+            NoteId[]
+        }
+        class BucketedNotes as "bucketedNotes" <<(S, orange) Selector>> {
+            Record<Bucket, NoteId[]>
+        }
+        NotesStore <-- BucketedNotes
+        class VisibleNotes as "visibleNotes" <<(S, orange) Selector>> {
+            NoteId[]
+        }
+        BucketedNotes <-- VisibleNotes
+        CurrentBucket <- VisibleNotes
+    }
+}
+
+@enduml

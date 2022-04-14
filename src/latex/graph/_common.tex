@@ -1,15 +1,19 @@
 \documentclass[margin=16pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{tgbonum}
 \usepackage{tikz}
 \usetikzlibrary{arrows}
-
 \tikzset{
-    >=stealth' % Default arrow tip 
+    >=stealth' % Default arrow tip
+    %    node distance=2.8cm
 }
 
-\tikzstyle{every node}=[
+\tikzstyle{vertex}=[
     draw,
     circle,
     fill = black,
     inner sep = 0cm,
     minimum width = 0.12cm
 ]
+
+\tikzstyle{weight}=[fill=white]

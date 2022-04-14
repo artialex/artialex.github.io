@@ -1,0 +1,1 @@
+export { HorizontalPage } from './HorizontalPage'

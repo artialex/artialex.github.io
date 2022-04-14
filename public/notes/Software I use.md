@@ -1,5 +1,14 @@
 # Software I use
 
+Terminal -- Windows terminal, iTerm2
+
+Code editor -- Jetbrains Products and VS Code
+
+Markdown editor -- Obsidian
+
+<!--
+Powershell Snippets
+
 Организация удобной работы за компьютером
 
 - Lightshot for screenshots
@@ -111,3 +120,5 @@ What to use in code editors, IDEs, Obsidian, etc...
 - https://github.com/keithamus/sort-package-json#readme
 
 [[Keyboard shortcuts]]
+
+-->

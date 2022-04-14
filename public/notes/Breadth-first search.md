@@ -1,10 +1,9 @@
 ---
 tags: [algo, graph]
+aliases: [BFS]
 ---
 
 # Breadth-first search
-
-::aliases[BFS]
 
 ### Notes
 

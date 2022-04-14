@@ -1,7 +1,33 @@
+@use '../../styles/colors';
+
 .root {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  :global(.edit) & {
+    &.selected > div {
+      border: 1px solid colors.$note-selected-border-color;
+      background-color: colors.$note-selected-background-color;
+    }
+
+    &:hover {
+      .heading {
+        color: colors.$note-hovered-header-color;
+      }
+
+      > div {
+        border: 1px dashed colors.$note-hovered-border-color;
+      }
+    }
+  }
 }
 
 .heading {
   margin: 0;
+  order: 0;
+
+  .selected & {
+    color: colors.$note-selected-header-color;
+  }
 }

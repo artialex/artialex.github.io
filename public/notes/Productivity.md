@@ -7,7 +7,7 @@ tags: [productivity, index]
 - [[Top-down & bottom-up learning approaches]]
 - [[Cognitive biases]]
 	- [[Magical number 7]]
-- [[Learning]]
+- [[Learning & Note Taking]]
 - [[Problem solving]]
 	- Visualization
 		- [[UML]]

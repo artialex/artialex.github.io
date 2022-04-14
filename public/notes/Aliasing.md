@@ -1,5 +1,5 @@
 # Aliasing
 
-Aliasing is an effect that causes different signals to become indistiguishable when [[Sampling|sampled]]
+*Aliasing* is an effect that causes different signals to become indistinguishable when [[Sampling|sampled]]
 
-This effect is avoided by using antialiasing filters
+This effect is avoided by using *anti-aliasing filters*

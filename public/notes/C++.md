@@ -1,6 +1,5 @@
 # C++
 
-
 ```cpp
 std::cout << "Hello, world" << std::endl;
 ```
@@ -8,29 +7,27 @@ std::cout << "Hello, world" << std::endl;
 ## Types
 
 - Numbers
-	- Integers
-		- `char`, `unsigned char`
-		- `short`, `unsigned short`
-		- `int`, `unsigned int`
-		- `long`, `unsigned long`
-		- `long long`, `unsigned long long`
-	- Float / Double 
-		- `float`
-		- `double`
+  - Integers
+    - `char`, `unsigned char`
+    - `short`, `unsigned short`
+    - `int`, `unsigned int`
+    - `long`, `unsigned long`
+    - `long long`, `unsigned long long`
+  - Float / Double
+    - `float`
+    - `double`
 - `bool`
 - `string`
-	- C string as `char[]`
+  - C string as `char[]`
 
-* `auto` infers the type from a value
-* `const` makes the value immutable
-
+`auto` infers the type from a value, `const` makes the value immutable
 
 <!--
 * https://github.com/tuvtran/project-based-learning#cc
 
 ## How does the C++ program work?
 
-Проект на языке С состоит из файлов кода с расширением `.c` и файлов 
+Проект на языке С состоит из файлов кода с расширением `.c` и файлов
 заголовков с расширением `.h`
 
 ''Препроцессор'' обрабатывает директивы (`#include`, `#define`, ...)

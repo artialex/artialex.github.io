@@ -4,9 +4,7 @@ tags: [done]
 
 # CPU
 
-::aliases[Central Processor Unit]
-
-Every CPU has a predefined set of commands which it can execute and which is limited by its architecture. This means that programs written for x86 processors will not work on x64 processors
+Every Central Processor Unit (CPU) has a predefined set of commands which it can execute and which is limited by its architecture. This means that programs written for x86 processors will not work on x64 processors
 
 CPU has its own _memory registries_. They are used to keep intermediate calculations, for example: _command counter_, _stack pointer_, _program status word&nbsp;(PSW)_.
 
@@ -23,7 +21,7 @@ CPU has its own _memory registries_. They are used to keep intermediate calculat
 
 Every CPU has a set of instructions in assembly language, for example: `JMP, MOV, ADD, XOR, PUSH, INC`
 
-CPU has two modes, _kernel mode_ and _user mode_
+CPU has two modes: _kernel mode_ and _user mode_
 
 - [[Processes]]
 - [[Threads]]

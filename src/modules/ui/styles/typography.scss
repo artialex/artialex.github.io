@@ -1,0 +1,7 @@
+@use 'fonts';
+
+@mixin paper() {
+  background: linear-gradient(97.91deg, #ffffff 1.15%, #f8fbff 100%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+}

@@ -1,5 +1,6 @@
 ---
 tags: [linal, done]
+small: true
 ---
 
 # Matrix · Matrix operation
@@ -8,7 +9,7 @@ $$
 	Matrix \cdot Matrix \to Matrix
 $$
 
-Each element of resulting matrix is a [[Dot product]] of corresponding _row_ and _column_
+Each element of resulting matrix is a [[Dot product|dot product]] of corresponding _row_ and _column_
 
 When multiplying two matrices, $\Green a_{\Green r \times \Green c}$ and $\Blue b_{\Blue r \times \Blue c}$, $\Green c$ and $\Blue r$ should be the same
 
@@ -32,7 +33,7 @@ $$
 \EM
 $$
 
-### Properties
+## Properties
 
 $$
 \BA
@@ -46,7 +47,7 @@ $$
 \EA
 $$
 
-### Examples
+## Examples
 
 $$
 \BM -4 & 1 \\ 3 & 2 \\ 5 & 5 \EM
@@ -96,7 +97,7 @@ $$
 ```
 -->
 
-### Related
+## Related
 
 - [[Matrix · Vector operation]]
 - [[Linear transformations]]

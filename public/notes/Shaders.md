@@ -9,7 +9,7 @@ Shader is a program written for a videocard, that executes simultaneosly for eve
 This program is deterministic about the environment, i.e. each particular pixel transform doesn't know about other pixels and their transforms
 
 $$
-\text{Shader}:Pixel \to NewPixel
+Pixel \xrightarrow{Shader} NewPixel
 $$
 
 ## Types 

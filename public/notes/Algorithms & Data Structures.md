@@ -2,51 +2,158 @@
 
 <!--
 
-- [[Data Sctructures]]
-- [[Algorithms]]
+Data Structure состоит из Data Types
 
+| Data type                  | Data Structure                                           |
+| -------------------------- | -------------------------------------------------------- |
+| Variable                   | Collections                                              |
+| Abstract                   | Concrete                                                 |
+| Contains values, not data  | Contains various data types                              |
+| Can be reassigned directly | Values can be changes using special methods, e.g. `push` |
+| Integer, Character         | Stack, Queue, Tree                                       |
 
-Попытка выделить отдельно _алгоритмы_ и отдельно _структуры данных_
-проваливается -- они неотделимы друг от друга
 -->
+
+## Data Structures
+
+Data structure is a _way to store information_; it's _high-level abstraction over low-level data_
+
+Data structures can be _contiguous_ i.e. located in a single slab of a memory (array, matrix, heap, hash table)
+or they can be _linked_ i.e. located in a distinct chunks of memory bound by pointers (list, tree, graph)
+
 <!--
-## Алгоритмы
-- последовательность вычислений, преобразующая одни данные в другие
-- метод решения проблемы
 
-### Сортировка
-- Quicksort
-- Mergesort
-- Heapsort
+# Node
 
-### Поиск
-- BST
-- Red-Black BST
-- Hash table
+Basic data structure, a simple *container for a value* + pointer to the next node (can be `null`)
 
-### Графы
-- BFS
-- DFS
-- Prim
-- Kruskal
-- Dijkstra
+Nodes are used in linked lists, trees, graphs
 
-### Строки
-- Radix sort
-- Tries
-- KMP
-- Regexps
-- Data compression
+Узлы используются в [[Связные списки!связных списках]], [[Деревья!деревьях]], [[Графы!графах]]
 
-### Advanced
-- B-tree
-- Suffix array
-- Maxflow
+## Notes
+
+- Nodes can be *Child nodes* and *Parent nodes*
+- *Edge* is a connection between nodes
+- *Leaf node* has no children, *Root node* has no parent
+- *Sibling nodes* connected to the same parent node
+- *Vertex* is the same as Node
 
 
-## Структуры данных
-- высокоуровневая абстракция для организации низкоуровневых данных.
-- метод хранения информации
+- Node
+
+Collections
+
+- [[Array]], Typed Array
+- Buffer
+- [[List]], Linked List
+- Stack & [[Queue]] / Deque, Async Queue
+
+Node, Graph, Tree (Rotation & Balancing), Binary tree, Trie, Hierarchical tree
+
+
+Other, Heap, Automata
+
+-->
+
+## Algorithms
+
+Algorithm is a _way to solve a problem_; it's a _sequence of actions transforming one set of data to another_
+
+<!--
+
+Quicksort
+
+1. Choose an element in array, define it as a _pivot point_
+2. Compare the rest element with the pivot and make three arrays: one with element less than pivot,
+   one with elements equals to pivot, and one with elements bigger than pivot
+3. Recursively execute the same sequence of operations for arrays with lesser or higher elements, if their length is more than 1
+
+```js
+function quicksort(arr) {
+  if (arr.length <= 1) {
+    return arr
+  }
+
+  let pivot = arr[Math.floor(arr.length / 2)]
+
+  let fst = arr.filter((_) => _ < pivot)
+  let mid = arr.filter((_) => _ === pivot)
+  let lst = arr.filter((_) => _ > pivot)
+
+  return [...quicksort(fst), ...mid, ...quicksort(lst)]
+}
+```
+
+Types of algorithms:
+
+- Sorting: Quicksort, Mergesort, Heapsort
+- Searching: Binary search, Hash table, BST, Red-Black BST
+- Graph traversals: BFS, DFS, Prim, Kruskal, Dijkstra
+- Strings: Radix sort, Trie, KMP, Regexps, data compression
+- Advanced: B-tree, suffix array, maxflow
+- Pathfinding: A\* pathfinding, DFS (Bad), BFS (Bad),Dijkstra (Better), AStar Euclid (Best) AStar Manhattan (Best)
+
+- Histograms
+- Trees: balanced tree
+
+Greedy algorithms, Rucksack problem, Travelling salesman problem, Combinatorial explosion
+
+Strategies are:
+
+- brute force, iteration, pointer / two pointers
+- memoization, recursion (recursion vs while, fibonacci, tail-wind), divide & conquer, backtracking search (8 queens problem)
+- Dynamic programming, metaprogramming
+
+Every algorithm has a concept called _complexity_, O-notation, O(1), O(n), complexity analysis
+
+Algorithm effectiveness
+
+In Java collections already coupled with algorithms, in C++ it is not necessary true
+
+## Questions
+
+- Learn how memory works
+- Concept of _hash function_, hashtable, hashmap
+- lookup
+
+## Buzzworld
+
+- [[How to solve algorithmic tasks]]
+- [[Edge list]]
+- [[Heap]]
+- [[Pathfinding]], Path-following
+- [[Типы данных]]
+- Сложность по времени
+  - O-нотация
+- Сложность по памяти
+- Жадные алгоритмы, область применения
+- Рекурсия
+- "Разделяй и властвуй"
+- Представление в памяти
+- Битовые маски
+- Фильтр Блума
+- Алгоритм Хаффмана
+- [[Boolean]]
+- [[Character]]
+- [[Floating-point number]]
+- Fixed-point number
+- [[Integer]]
+- Reference / Pointer
+- Enumerated type
+- Date Time
+- Cmposite Types
+  - Array
+  - Record
+  - Union
+- [[Character]]
+
+* Binary Search Tree
+* Дерево 2-3-4
+* Обход графа
+* Поиск кратчайшего пути
+* [[Breadth-first search]]
+* [[Depth-first search]]
 
 ## Abstract data types
 
@@ -77,14 +184,7 @@
     - Double-ended Queue
       - [[Priority queue]]
 - Pile
-
-## Алгоритмы
-
 - [[Эффективность алгоритмов]]
-
-### [[Сортировка]]
-
-
 - Квадратичная
 - Пирамидальная
 - [[Insertion sort]]
@@ -93,106 +193,17 @@
 * [[Backtracking search]]
 * [[Поиск пути]]
 
-### Отличия типов данных и структур данных
-
-Data Structure состоит из Data Types
-
-| Data type                               | Data Structure                                            |
-| --------------------------------------- | --------------------------------------------------------- |
-| Переменные                              | Коллекции                                                 |
-| Абстрактные                             | Конкретные                                                |
-| Содержит значения, не данные            | Содержит разные типы данных                               |
-| Можно напрямую присвоить новые значение | Значение присваивается с помощьюопераций, например `push` |
-| Integer, Character                      | Stack, Queue, Tree                                        |
-
----
-
-- Container
-- List
-- Tuple
-- Set
-- Stack
-- Queue
-
-[[Character]]
-
-- ''Floating-point number'' или число с плавающей точкой
-- ''Integer'' или целое число
-
-Cmposite Types
-
-- Array
-- Record
-- Union
-
-# Primitive Types
-
-- [[Boolean]]
-- [[Character]]
-- [[Floating-point number]]
-- Fixed-point number
-- [[Integer]]
-- Reference / Pointer
-- Enumerated type
-- Date Time
-
-* Binary Search Tree
-* Дерево 2-3-4
-* Обход графа
-* Поиск кратчайшего пути
-* [[Breadth-first search]]
-* [[Depth-first search]]
-
-### Заметки
-
-- Сложность по времени
-  - O-нотация
-- Сложность по памяти
-- Жадные алгоритмы, область применения
-- Рекурсия
-- "Разделяй и властвуй"
-- Представление в памяти
-
-- Битовые маски
-- Фильтр Блума
-- Алгоритм Хаффмана
-
-''Заметки''
-
-[[Отличия типов данных и структур данных]]
-
-- Contiguous - single slab of memory (array, matrix, heap, hash table)
-- Linked - distinct chunk of memory bound by pointers (list, tree, graph)
-
-
-- [[Типы данных]]
-
-
-- [[How to solve algorithmic tasks]]
+-->
 
 ---
 
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com)
 - [Visualizing Algorithms](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-- [Data Structures Easy to Advanced Course](https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC) 📺
-- [Data Structures & Algorithms by CS Dojo](https://www.youtube.com/watch?v=bum_19loj9A&list=PLBZBJbE_rGRV8D7XZ08LK6z-4zPoWzu5H) 📺
-
-* https://roadmap.sh/guides/big-o-notation
-* https://roadmap.sh/guides/asymptotic-notation
-* https://bost.ocks.org/mike/algorithms/
-
+- 📺 [Data Structures Easy to Advanced Course](https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC)
+- 📺 [Data Structures & Algorithms by CS Dojo](https://www.youtube.com/watch?v=bum_19loj9A&list=PLBZBJbE_rGRV8D7XZ08LK6z-4zPoWzu5H)
+- https://roadmap.sh/guides/big-o-notation
+- https://roadmap.sh/guides/asymptotic-notation
+- https://bost.ocks.org/mike/algorithms/
 - [Red Blob Games](https://www.redblobgames.com/) \- interactive visual explanations of math and algorithms, using motivating examples from computer games
-
-https://www.geeksforgeeks.org/data-structures
-https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md
-
-
-[[Edge list]]
-
-[[Heap]]
-
-
-[[Pathfinding]]
-
-
--->
+- https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md
+- [[RU] habr\:search=algorithms](https://habr.com/ru/search/?q=%5B%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%5D&target_type=posts&order=rating)

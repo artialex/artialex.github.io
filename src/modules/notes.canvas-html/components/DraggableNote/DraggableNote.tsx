@@ -1,31 +1,29 @@
 import cn from 'clsx'
-import { CSSProperties, FC, memo, useCallback, useEffect, useMemo } from 'react'
-import { DragSourceMonitor, useDrag } from 'react-dnd'
-import { Note } from '../Note'
-import type { Draggable } from '../../@types/Draggable'
+import { FC, memo } from 'react'
+import { Mode, selectMode, setBy, useSelectionState } from '@/notes.layout'
+import { Note } from '@/notes'
 import css from './DraggableNote.module.scss'
-import { useRecoilState } from 'recoil'
-import { Position } from '@/notes.canvas-html/@types/Position'
-import { useNote } from '@/notes.canvas-html/contexts/layout'
-import { subscribeWithSelector } from 'zustand/middleware'
+import _ from 'lodash'
+import { useAppDispatch, useAppSelector } from '@/core/core.hooks'
+import { selectNote, selectSelectedNotes, toggleSelection } from '@/notes.layout/contexts/notes'
+import { selectVisibleNotes } from '@/notes.layout/contexts/visible-notes'
+import { DragSourceMonitor, useDrag } from 'react-dnd'
 
 interface DraggableNoteProps {
   id: string
 }
 
 export const DraggableNote: FC<DraggableNoteProps> = memo(({ id }) => {
-  // let [{ x, y }, setNote] = useStore(layout.createNote(id))
-  // let [{ x, y }, setNote] = useEffectorState(layout.note(id))
-  let [{ x, y }, setNote, fetch] = useNote(id)((state) => [state.position, state.set, state.fetch])
+  let mode = useAppSelector(selectMode)
+  let visibleNotes = useAppSelector(selectVisibleNotes)
+  let selectedNotes = useAppSelector(selectSelectedNotes)
 
-  useEffect(() => {
-    console.log('DraggableNote :: 22', 'fetch')
-    fetch()
-    // console.log('NOTE:', x, y)
-  }, [])
+  let { x, y } = useAppSelector(selectNote(id))
+  let dispatch = useAppDispatch()
 
   let [{ isDragging }, dragRef] = useDrag(
     () => ({
+      canDrag: mode === Mode.Edit,
       type: 'note',
       item: { id, x, y },
       collect: (monitor) => ({
@@ -35,27 +33,52 @@ export const DraggableNote: FC<DraggableNoteProps> = memo(({ id }) => {
       end: (a, monitor: DragSourceMonitor) => {
         let result = monitor.getDropResult()
 
-        if (result) {
-          setNote({ x: result.x, y: result.y })
+        if (!result) {
+          return
+        }
+
+        if (_.includes(selectedNotes, id)) {
+          selectedNotes.forEach((id) => {
+            dispatch(setBy({ id, delta: result.delta }))
+          })
+        } else {
+          dispatch(setBy({ id, delta: result.delta }))
         }
       },
     }),
-    [id, x, y]
+    [id, x, y, mode, selectedNotes]
   )
+
+  let handleHeaderClick = (event) => {
+    event.stopPropagation()
+    event.bubbles = false
+
+    if (mode === Mode.Edit) {
+      dispatch(toggleSelection(id))
+    }
+  }
 
   return (
     <div
-      className={css.root}
+      ref={dragRef}
+      className={cn(css.root, {
+        [css.selected]: _.includes(selectedNotes, id),
+      })}
       style={{
-        transform: `translate3d(${x}px, ${y}px, 0)`,
-        // visibility: isDragging ? 'hidden' : 'visible',
-        // opacity: isDragging ? 0 : 1,
+        transform: `translate(${x}px, ${y}px)`,
       }}
+      onMouseUp={(event) => {
+        event.bubbles = false
+        event.stopPropagation()
+      }}
+      onMouseDown={(event) => {
+        event.bubbles = false
+        event.stopPropagation()
+      }}
+      onClick={handleHeaderClick}
     >
-      <h1 ref={dragRef} className={css.heading}>
-        {id}
-      </h1>
-      <Note id={id} />
+      <Note id={id} type="canvas" />
+      <h1 className={css.heading}>{id}</h1>
     </div>
   )
 })

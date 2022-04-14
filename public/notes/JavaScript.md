@@ -4,48 +4,56 @@ tags: [fe, js, index]
 
 # JavaScript
 
-JavaScript language
+## Language
 
-- [[Basic JavaScript]]
-- [[JavaScript Asynchronicity]]
-	- Promises
-	- Event Loop
-- [[JavaScript Modules]]
+[[Basic JavaScript]]
 
-[[npm]]
+[[JavaScript Asynchronicity|Asynchronicity, Promises and Event Loop]]
 
-Libraries
+Variuos [[npm]] tools that can be hepful
+
+## Libraries
 
 - React
 - Vue
 - Angular
 - Ember
 
-Architecture
+## Architecture principles
 
 - Flux
+
+## Module systems
+
+- CommonJS
+- AMD
+- ES6 Modules
 
 Elements
 
 - Forms
-	- How to write forms
-	- Form Data, urlencoded, etc...
+  - How to write forms
+  - Form Data, urlencoded, etc...
 
+## Data Fetching
 
-[[Node.js]]
+[[AJAX]], [[Websockets]], react-query
 
-<!-- 
+## Node
 
+[[Streams (Node)]]
+
+<!--
 
 [[Front-end performance checklist]]
 [[CSS Shorthands]]
 
 [[Next]]
 
-
 [[Node project cheatsheet]]
 
-
+- Event System
+- Width & Height
 
 ## Node
 
@@ -55,8 +63,8 @@ Elements
 - [[JavaScript Functions|Functions]]
 - [[JavaScript Asynchronicity|Asynchronicity]]
 
-Map, Set, WeakMap, WeakSet 
-[[JavaScript Functions|Functions]] 
+Map, Set, WeakMap, WeakSet
+[[JavaScript Functions|Functions]]
 
 - [[How browser works]]
 
@@ -64,22 +72,7 @@ Map, Set, WeakMap, WeakSet
 
 ## [[JavaScript Modules|Modules]]
 
-## Node
-
-- [[Streams (Node)]]
-
 ## Performance
-
-## Visualization
-
-- [Seeing circles, sines, and signals](https://jackschaedler.github.io/circles-sines-signals/index.html)
-- http://rokotyan.com/dataviz/
-- https://bl.ocks.org/
-- https://c82.net/
-- https://bost.ocks.org/mike/algorithms/
--->
-
-<!--
 
 ## Browser
 
@@ -136,13 +129,11 @@ https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/
 
 
 
--->
 
 - [[Windows & IFrames]]
+-->
 
 ---
-
-## Books
 
 - [You don't know JS](https://github.com/getify/You-Dont-Know-JS)
 - [learn.javascript.ru](http://learn.javascript.ru/)
@@ -160,10 +151,8 @@ https://itnext.io/nodejs-logging-made-right-117a19e8b4ce
 
 -->
 
-
 https://exploringjs.com/deep-js/ch_creating-class-instances.html
 
 https://exploringjs.com/tackling-ts/toc.html
 https://www.patterns.dev/
 https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#setting-realistic-goals
-

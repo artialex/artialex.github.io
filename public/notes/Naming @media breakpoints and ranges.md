@@ -2,6 +2,7 @@
 
 TODO
 
+<!--
 ```postcss
 .root {
   padding: 0;
@@ -17,7 +18,8 @@ TODO
   }
 }
 ```
+-->
 
 ---
 
--   [The 100% correct way to do CSS breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/) by David Gilbertson
+- [The 100% correct way to do CSS breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/) by David Gilbertson

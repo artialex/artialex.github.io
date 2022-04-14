@@ -1,8 +1,36 @@
+@use '../../styles/colors';
+
 .root {
   position: fixed;
-  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   padding: 1rem;
-  background: lightgray;
-  width: 100%;
+  width: 600px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   z-index: 100;
+  background-color: colors.$toolbar-view-color;
+  user-select: none;
+
+  &::before {
+    color: gray;
+    font-size: 10px;
+    padding: 0.5rem;
+  }
+
+  :global(.edit) & {
+    background-color: colors.$toolbar-edit-color;
+  }
+}
+
+.button {
+  margin-right: 0.5rem;
+  font-size: 20px;
+  border: 2px solid transparent;
+
+  &.active {
+    border: 2px solid blue;
+  }
 }

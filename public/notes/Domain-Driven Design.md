@@ -4,8 +4,6 @@ tags: [architecture]
 
 # Domain driven design
 
-::aliases[DDD]
-
 ## Entity
 
 ## Value object

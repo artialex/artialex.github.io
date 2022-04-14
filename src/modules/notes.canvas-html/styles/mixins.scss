@@ -1,0 +1,42 @@
+@use 'fonts';
+@use 'colors';
+
+@mixin window() {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  background: colors.$window-body-color;
+  border: 1px solid colors.$window-border-color;
+  backdrop-filter: blur(2px);
+
+  z-index: 100;
+}
+
+@mixin list() {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 0.33rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@mixin button {
+  border: none;
+  margin-right: 0.25rem;
+  background: transparent;
+  color: #484848;
+  padding: 0;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+@mixin table {
+  @include fonts.primary-small-caps(0.9rem, 1.1rem);
+
+  width: 100%;
+}

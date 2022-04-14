@@ -1,14 +1,9 @@
 ---
 tags: [linal]
+aliases: [Inner product, Scalar product]
 ---
 
 # Dot product
-
-::aliases[Inner product, Scalar product]
-
-$$
-	Vector \cdot Vector \to Scalar
-$$
 
 $$
 	\v \cdot \w
@@ -60,7 +55,7 @@ $$
 	\EM
 $$
 
-::vectordotproduct
+<!-- ::vectordotproduct -->
 
 ### Properties
 

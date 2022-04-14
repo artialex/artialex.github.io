@@ -1,15 +1,11 @@
 # TLS
 
-::aliases[Transport Layer Security]
+Transport Layer Security (TLS) is a cryptographic security protocol
 
-Cryptographic security protocol
-
-Successor of the revious realization, SSL (Secure Sockets Layer)
+TLS is the successor of the previous realization, SSL (Secure Sockets Layer)
 
 ---
 
-https://istlsfastyet.com/
-
-https://tls.ulfheim.net/
-
-https://roadmap.sh/guides/ssl-tls-https-ssh
+- [Is TLS fast yet?](https://istlsfastyet.com/)
+- [The Illustrated TLS Connection](https://tls.ulfheim.net/)
+- https://roadmap.sh/guides/ssl-tls-https-ssh

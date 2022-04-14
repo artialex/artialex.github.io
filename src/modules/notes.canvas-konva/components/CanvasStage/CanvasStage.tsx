@@ -1,6 +1,6 @@
 import { FC, MouseEventHandler, useCallback, useEffect, useState } from 'react'
 import css from './CanvasStage.module.scss'
-import { Layer, Stage, Rect } from 'react-konva'
+import { Layer, Stage, Rect, Group } from 'react-konva'
 import { Note } from '../Note'
 import { QueryClientProvider } from '@/api'
 import { configure } from '@/markdown'
@@ -21,13 +21,11 @@ export const CanvasStage: FC<CanvasStageProps> = (props) => {
     rel: { x: 0, y: 0 },
     scr: { x: 0, y: 0 },
   })
-  // let [rel, setRel] = useState({ x: 0, y: 0 })
-  // let [scr, setScr] = useState({ x: 0, y: 0 })
-  // let [isDragging, setDragging] = useState(false)
 
+  /*
   let handleDragStart = (event: HTMLElementEventMap['mousedown']) => {
     console.log('start')
-    setState((prev) => ({
+    setState(() => ({
       isDragging: true,
       rel: { x: event.x, y: event.y },
       scr: { x: window.scrollX, y: window.scrollY },
@@ -41,23 +39,18 @@ export const CanvasStage: FC<CanvasStageProps> = (props) => {
 
   let handleDragMove = useCallback(
     (event: HTMLElementEventMap['mousemove']) => {
-      // setState((prev) => (prev.isDragging ? {} : prev))
-
       if (state.isDragging) {
-        console.log('move')
-        // console.log(Math.round(window.scrollX), Math.round(rel.x), event.evt.clientX)
         window.scrollTo(
           state.scr.x + state.rel.x - event.clientX,
           state.scr.y + state.rel.y - event.clientY
         )
-        console.log('CanvasStage :: 37')
       }
     },
     [state]
   )
 
   useEffect(() => {
-    addEventListener('mousedown', handleDragStart)
+    addEventListener('mousedown', handleDragStart, false)
     addEventListener('mouseup', handleDragEnd)
     addEventListener('mousemove', handleDragMove)
 
@@ -67,6 +60,7 @@ export const CanvasStage: FC<CanvasStageProps> = (props) => {
       removeEventListener('mousemove', handleDragMove)
     }
   }, [handleDragMove])
+*/
 
   return (
     <>
@@ -74,10 +68,19 @@ export const CanvasStage: FC<CanvasStageProps> = (props) => {
         Dragging: {JSON.stringify(state.isDragging)}
       </div>
       <Stage
+        // draggable
         className="kek"
-        style={{ width: '300vw', height: '300vh' }}
-        width={window.outerWidth}
-        height={window.outerHeight}
+        onClick={() => {
+          console.log('click')
+        }}
+        onContextMenu={() => {
+          console.log('context menu')
+        }}
+        width={innerWidth}
+        height={innerHeight}
+        // style={{ width: '300vw', height: '300vh' }}
+        // width={window.outerWidth}
+        // height={window.outerHeight}
         /*
         onMouseDown={handleDragStart}
         onMouseUp={handleDragEnd}

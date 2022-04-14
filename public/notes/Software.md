@@ -6,20 +6,35 @@ tags: [map, ignore]
 
 ## Four pillars of software engineering:
 
-1. [[Operating Systems]]
-1. [[Programming Languages]]
-1. [[Algorithms & Data Structures]]
-1. [[Networking]]
+**Pillar #1** is [[Operating System]]
+
+- [[Processes]]
+- [[Threads]]
+
+**Pillar #2** is [[Networking]]
+
+- [[OSI Model]]
+
+**Pillar #3** is Programming Languages
+
+- [[JavaScript]]
+- [[Java]]
+- [[C++]]
+
+**Pillar #4** is [[Algorithms & Data Structures]]
 
 ## Other topics
 
+- [[Frontend]]
+- [[Data Access]]
 - [[Computer Science]]
 - [[Software Architecture]]
 - [[Computer Graphics]]
+- [[UML]]
 
 <!--
 - [[Как работает интернет?]]
-- [[Computer graphics]] и [[Computer vision]]
+- [[Computer vision]]
 - [[Digital signal processing]]
 - [[Buzzworld]]
 - [[Книги о програмной инженерии]]
@@ -31,11 +46,4 @@ tags: [map, ignore]
 - [Teach Yourself Computer Science](https://teachyourselfcs.com)
 - [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum)
 - [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know)
-
-<!--
-- http://cs.brown.edu/courses/cs173/2012/book/
-- http://stolyarov.info/books/programming_intro
-- https://newstar.rinet.ru/~goga/sicp/sicp-ru-screen.pdf
-- http://carlos.bueno.org/optimization/mature-optimization.pdf
-- https://www.intechopen.com/books/subject/computer-and-information-science
--->
+- [[RU] Programming: Introduction](http://stolyarov.info/i2.html)

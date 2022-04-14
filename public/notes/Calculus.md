@@ -1,4 +1,0 @@
-# Calculus
-
-- Derivatives
-- Integrals

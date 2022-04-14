@@ -1,16 +1,7 @@
 import _ from 'lodash'
-import { Position } from '../@types/Position'
 import { NoteId } from '@/notes/@types/Note'
-import create, {
-  GetState,
-  PartialState,
-  SetState,
-  StateCreator,
-  StoreApi,
-  UseBoundStore,
-} from 'zustand'
-import { subscribeWithSelector } from 'zustand/middleware'
-import { NoteLayout } from '../services/NoteLayoutService'
+import create, { GetState, SetState, StateCreator, StoreApi } from 'zustand'
+import { NoteLayout, Position } from '@/notes'
 
 interface NoteLayoutStore {
   notes: Array<NoteId>

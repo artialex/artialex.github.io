@@ -1,7 +1,0 @@
----
-tags: [fe]
----
-
-# AJAX
-
-- axios

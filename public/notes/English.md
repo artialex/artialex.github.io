@@ -2,25 +2,19 @@
 tags: [eng]
 ---
 
-https://translate.yandex.ru/
-
 # English
 
-- [[Idioms]]
-- [[Verbs]]
 - [[Tenses]]
 - [[Pronouns]]
+- [[Common phrases]]
 
-- [[Vocabulary]]
+## Tools
 
-https://dictionary.cambridge.org/
-https://wooordhunt.ru/
-https://www.ldoceonline.com/
-https://www.freecollocation.com/
-https://howjsay.com/
+- [Vocabulary.com](https://www.vocabulary.com/play) -- nice dictionary
+- [Reverso](https://www.reverso.net) -- nice translator, with context and synonyms
+- [Playphrase](https://playphrase.me) or [Youglish](https://youglish.com) -- find the phrase on youtube
 
-https://www.urbandictionary.com/
-https://context.reverso.net/translation/
-https://www.linguee.ru/
-https://ludwig.guru/
-https://playphrase.me
+Conversations
+
+- https://www.free4talk.com/
+- https://speak-peak.club/

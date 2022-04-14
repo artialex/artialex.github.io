@@ -13,7 +13,9 @@ Allows to solve tasks like sudoku, crosswords, 8 Queens, rucksack, and tasks wit
 - Is there a way to...
 - Is there an object like...
 
+<!--
 ::backtracking
+-->
 
 ---
 

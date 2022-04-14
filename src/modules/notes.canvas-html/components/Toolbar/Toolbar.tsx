@@ -1,12 +1,26 @@
-import { FC, MouseEventHandler, useCallback, useState } from 'react'
+import cn from 'clsx'
+import { Mode, selectMode, setMode } from '@/notes.layout'
+import { useAppDispatch, useAppSelector } from '@/core/core.hooks'
 import css from './Toolbar.module.scss'
 
-interface ToolbarProps {}
+export const Toolbar = () => {
+  let mode = useAppSelector(selectMode)
+  let dispatch = useAppDispatch()
 
-export const Toolbar: FC<ToolbarProps> = (props) => {
   return (
     <div className={css.root}>
-      <h3>Toolbar</h3>
+      <button
+        onClick={() => dispatch(setMode(Mode.View))}
+        className={cn(css.button, { [css.active]: mode === Mode.View })}
+      >
+        View
+      </button>
+      <button
+        onClick={() => dispatch(setMode(Mode.Edit))}
+        className={cn(css.button, { [css.active]: mode === Mode.Edit })}
+      >
+        Edit
+      </button>
     </div>
   )
 }

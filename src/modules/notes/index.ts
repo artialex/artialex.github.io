@@ -1,4 +1,3 @@
-export { AllNotesPage } from './components/_pages/AllNotesPage'
-
-export { Notes } from './services/NotesService'
-export { NoteLayout } from './services/NoteLayoutService'
+export type { NoteId } from './@types/Note'
+export { getProcessedNote, getRawNote, getNoteIds } from './services/notes.api'
+export { Note } from './components/Note'

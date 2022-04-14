@@ -6,31 +6,31 @@ tags: [done]
 
 There are multiple definitions of what process is:
 
-- _Program that is being executed_ (active entity) in contrast to source code (passive entity)
+- _Program that is being executed (active entity)_ in contrast to source code (passive entity)
 - _Abstraction defining the program_ that is being executed
 - _Container with information_ that is necessary for the program that is being executed
 - Operating system's _unit of work_
 
 Each process has a PID (process ID)
 
-## Structure of the process in memory
+Structure of the process in memory
 
 - Function _Stack_
 - _Heap_ is the memory for dynamic allocation
 - _Constants & Globals_ are variables
 - _Code_
 
-### Process states
+Process states
 
-- `New`: Process creation is started, resources are not yet allocated
-- `Ready`: Ready to run, OS hasn't run it yet
-- `Running`: Process is running
-- `Waiting/Blocked`:
-- `Terminated`: Process is finished, may require OS cleanup
+- `NEW`: Process creation is started, resources are not yet allocated
+- `READY`: Ready to run, OS hasn't run it yet
+- `RUNNING`: Process is running
+- `WAITING/BLOCKED`:
+- `TERMINATED`: Process is finished, may require OS cleanup
 
-Only one process can be in a `Running` state on a single CPU core. There could be many processes in a `Ready` and `Waiting/Blocked` states
+Only one process can be in a `RUNNING` state on a single CPU core. There can be many processes in a `READY` and `WAITING/BLOCKED` states
 
-A process can have many [[Threads|threads]]
+One process can have many [[Threads|threads]]
 
 <!--
 

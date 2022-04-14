@@ -7,16 +7,16 @@ import { FC } from 'react'
  *
  * It is rendered on the server and not re-rendered on the client
  */
-const MyDocument: FC<DocumentProps> = () => {
-  return (
-    <Html>
-      <Head>{/*<link rel="stylesheet" href="/fonts/FontinSans_Cyrillic_R_46b.otf" />*/}</Head>
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  )
-}
+const MyDocument: FC<DocumentProps> = () => (
+  <Html>
+    <Head>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik" rel="stylesheet" />
+    </Head>
+    <body className="light-theme">
+      <Main />
+      <NextScript />
+    </body>
+  </Html>
+)
 
 export default MyDocument

@@ -1,10 +1,10 @@
 ---
 tags: [linal, done]
+aliases: [Vector product]
 ---
 
 # Cross product
 
-::aliases[Vector product]
 
 Cross product is a vector that is perpendicular to both of the multiplied vectors. Vector's length equals to the area of the parallelogram obtained by duplicating and shifting the two multiplied vectors
 
@@ -76,5 +76,5 @@ $$
 - The resulting vector is perpendicular to the original ones
 - Cross product is a method for calculating a surface normal given two tangent vectors
 - $\v \times \w$ gives a straight vector and $\w \times \v$ gives a reverse vector
-- Используется для получения нормали плоскости, которая задается векторами
-- _Аналогия._ Первый вектор - направление дула танка, второй - направление на место, куда надо выстрелить. Итоговый вектор показывает ось вращения башни танка
+- Used for getting the normal of the surface that is set by two initial vectors
+- _Analogy._ First vector is the direction of the tank cannon. Second vector is the direction to shoot. Resulting vector is the axis of cannon rotation

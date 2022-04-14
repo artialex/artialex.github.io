@@ -1,5 +1,0 @@
----
-tags: [java]
----
-
-# Functional interfaces

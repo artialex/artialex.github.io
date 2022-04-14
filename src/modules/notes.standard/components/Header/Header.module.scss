@@ -1,0 +1,27 @@
+.root {
+  height: 3rem;
+  border-bottom: 1px solid var(--header-border-color);
+  position: fixed;
+  width: 100%;
+
+  ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    &:last-of-type {
+      //margin-left: auto;
+    }
+  }
+
+  a {
+    margin-left: 0.5rem;
+    padding: 0 0.5rem;
+    text-decoration: none;
+  }
+}

@@ -7,26 +7,22 @@ aliases: [entrypoint]
 
 I'm Alex
 
-This is my _"second brain"_ where I write about things that are interesting to me. Many of these things are related to software development, especially the visible side of it, GUI and graphics
+This is my _"second brain"_ or _"digital garden"_ where I write about things that are interesting to me. Many of these things are related to software development, especially the visible side of it, GUI and graphics
 
 <!--
 [[My resume]]
 -->
 
 If it's your first time here, then you might find helpful getting familiar
-with [[The way I write these notes]] to understand why some of them look as
+with [[The way I write these notes|the way I write these notes]] to understand why some of them look as
 they look
 
-All the notes are divided into several sections:
+Here are some starting points to explore:
 
-- [[Learning]]
-- [[Linear algebra]]
-- [[Algorithms & Data Structures]]
-- [[Software Architecture]]
-- [[Frontend]]
-- [[Java]]
-- [[Strings (CSharp)]]
-- [[Data Access]]
+- [[Software]]
+- [[UI Design]]
+- [[Mathematics]]
+- [[Learning & Note Taking]]
 
 <!--
 - [[Knowledge]] & [[Guides]]

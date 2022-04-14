@@ -1,6 +1,31 @@
+@use '../../styles/mixins';
+
 .root {
+  @include mixins.window();
+
   position: fixed;
-  right: 0;
-  height: 100%;
-  z-index: 100;
+  left: 0;
+}
+
+.list {
+  @include mixins.list();
+  margin-top: 1rem;
+}
+
+.container {
+  overflow: auto;
+  max-height: 600px;
+  margin-top: 1rem;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.table {
+  @include mixins.table();
+}
+
+.button {
+  @include mixins.button();
 }

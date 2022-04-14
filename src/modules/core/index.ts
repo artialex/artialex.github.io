@@ -1,3 +1,3 @@
-export { RootComponent } from './components/RootComponent'
+export { Toolbar } from './components/Toolbar'
 
-export { Header } from './components/Header'
+export { PageLayout } from './layouts/PageLayout'

@@ -3,6 +3,7 @@ tags: [architecture]
 ---
 
 # Design patterns
+
 ![[DesignPatterns.svg]]
 
 http://gameprogrammingpatterns.com/contents.html
@@ -92,6 +93,5 @@ https://github.com/nnupoor/js_designpatterns
 ---
 
 - https://refactoring.guru/
-- [Are Design Patterns Missing Language Features?](http://wiki.c2.com/?AreDesignPatternsMissingLanguageFeatures)
 
 [[Patterns]]

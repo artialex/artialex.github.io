@@ -7,6 +7,16 @@ module.exports = withNextCircularDeps({
   sassOptions: {
     includePaths: [resolve(__dirname, 'src/modules/ui/styles')],
   },
+
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/Hi',
+        permanent: false,
+      },
+    ]
+  },
 })
 
 /*

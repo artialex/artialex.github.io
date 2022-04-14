@@ -1,1 +1,1 @@
-export { configure, process } from './services/markdown.service'
+export { configure, process } from './markdown.service'

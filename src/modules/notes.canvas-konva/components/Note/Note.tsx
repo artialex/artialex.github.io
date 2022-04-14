@@ -3,6 +3,7 @@ import css from './Note.module.scss'
 import { useQuery } from 'react-query'
 import { Notes } from '@/notes'
 import { Html } from 'react-konva-utils'
+import { Group, Text } from 'react-konva'
 
 interface NoteProps {
   id: string
@@ -20,8 +21,11 @@ export const Note: FC<NoteProps> = ({ id, x, y }) => {
   // console.log('Note :: 18', data)
 
   return (
-    <Html groupProps={{ x, y }} divProps={{ className: css.root }}>
-      {data.result}
-    </Html>
+    <Group x={x} y={y} draggable preventDefault>
+      <Text text={id} />
+      <Html groupProps={{ y: 30 }} divProps={{ className: css.root }}>
+        {data.result}
+      </Html>
+    </Group>
   )
 }

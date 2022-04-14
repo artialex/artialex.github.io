@@ -1,17 +1,18 @@
 # Angles
 
-## Types:
+Angle types:
 
 - Acute angle: 1-89 deg
 - Right angle: 90 deg
 - Obtuse angle: 91-179 deg
 - Straight angle: 180 deg
 
+<!--
 * Adjacent angle
 * Vertical angle
+-->
 
-
-## Converting between radians and degrees
+Converting between radians and degrees:
 
 $$
 \BA
@@ -25,6 +26,9 @@ $$
 ## Notation
 
 - Angles: $\angle ABC$, $\alpha$, $\theta$
+
+<!--
 ---
 
 complementary, supplementary, conjugate (explementary)
+-->

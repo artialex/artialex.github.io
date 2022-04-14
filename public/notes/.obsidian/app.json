@@ -14,6 +14,12 @@
     "eng",
     "Anki",
     "enums",
-    "CSharp"
-  ]
+    "CSharp",
+    "Omnidirectional",
+    "interpretator"
+  ],
+  "foldHeading": false,
+  "legacyEditor": true,
+  "foldIndent": false,
+  "showIndentGuide": false
 }

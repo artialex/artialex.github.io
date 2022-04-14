@@ -13,8 +13,9 @@ tags: [ds]
 ## as Data Structure
 -->
 
-A sequence of indexed elements
+*Array* is a sequence of indexed elements
 
+<!--
 viz:
 :::
 graph {
@@ -23,6 +24,7 @@ bgcolor = transparent
 node [shape = plain fontname = "Arial"]
 
 mem [ fontsize="10" label = <
+
 
 <table border="0" cellborder="1" cellspacing="0">
 	<tr>
@@ -85,6 +87,7 @@ arr[ label = <
 }
 }
 :::
+-->
 
 $$
 \def\arraystretch{1.5}
@@ -110,7 +113,7 @@ $$
 - !mark[](info) Используются как сами по себе, так и в рамках других структур данных, таких как список, стек, куча, очередь с приоритетом, хэш-таблица
 
 -->
-
+<!--
 ## Resizeable Array
 
 aliases:
@@ -123,3 +126,4 @@ Array List
 
 ## Multi dimensional array
 
+-->

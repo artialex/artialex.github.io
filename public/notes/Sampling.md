@@ -1,7 +1,7 @@
 # Sampling
 
-Sampling is a process of mapping a continious function to a discrete one
+*Sampling* is a process of mapping a continuous function to a discrete one
 
 $$
-Continous \ Signal \xrightarrow{Sampling} Discrete \ Signal
+\text{Sampling}: Continous \ Signal \to Discrete \ Signal
 $$

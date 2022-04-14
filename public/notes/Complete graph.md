@@ -10,6 +10,8 @@ $$
 K_n
 $$
 
+<!--
+
 viz: circo
 :::
 graph {
@@ -68,11 +70,12 @@ g6 -- {g7}
 
 }
 :::
-
+-->
 ## Complement graph
 
 A complement graph completes a graph to complete graph
 
+<!--
 ```latex complementary_graph
 \tikzstyle{every node} = [
 	fill,
@@ -118,3 +121,4 @@ A complement graph completes a graph to complete graph
     ;
 \end{tikzpicture}
 ```
+-->

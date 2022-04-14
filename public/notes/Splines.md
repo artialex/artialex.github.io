@@ -7,7 +7,7 @@ tags: [cg]
 **Spline** is a curve defined by a special function using *control points*. 
 
 $$
-	Control \ points \xrightarrow{} Curve
+\text{Spline}: Control \ points \to Curve
 $$
 
 When a curve passes through all control poiints it is called *interpolating curve*. When it passes near to the control points then it's called *approximating curve*

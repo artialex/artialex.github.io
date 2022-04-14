@@ -2,6 +2,8 @@
 tags: [spring, index]
 ---
 
+# Spring
+
 **Spring** *or* **Spring framework** is divided into **modules** 
 
 Notable ones:

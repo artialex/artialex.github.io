@@ -1,3 +1,0 @@
-describe('notes', () => {
-  it.skip('')
-})

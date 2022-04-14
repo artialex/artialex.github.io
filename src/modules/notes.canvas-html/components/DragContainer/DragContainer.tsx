@@ -1,75 +1,40 @@
-import { FC, useCallback, useEffect, useMemo, useState } from 'react'
 import { useDrop } from 'react-dnd'
 import { Draggable } from '../../@types/Draggable'
-import { Position } from '../../@types/Position'
-import { DraggableNote } from '../DraggableNote'
 import css from './DragContainer.module.scss'
-import { useMutation, useQuery } from 'react-query'
-import { NoteId } from '@/notes/@types/Note'
-import { useRecoilState, useSetRecoilState } from 'recoil'
-import { useNote, useNoteLayout } from '@/notes.canvas-html/contexts/layout'
-import { NoteLayout } from '@/notes.canvas-html/services/NoteLayoutService'
-// import { createNoteAtom, noteListState } from '@/notes.canvas/contexts/layout'
+import { Position } from '@/notes.layout/@types/Posiiton'
+import { selectNotes, useSelectionState } from '@/notes.layout'
+import { useAppSelector } from '@/core/core.hooks'
+import { selectVisibleNotes } from '@/notes.layout/contexts/visible-notes'
+import { DraggableNote } from '@/notes.canvas-html/components/DraggableNote'
+import { CANVAS_SIZE } from '@/notes.canvas-html/services/canvas.service'
 
 export const DragContainer = () => {
-  // let { data: positions } = useQuery('positions', () => getAllNotePositions(), {
-  //   keepPreviousData: true,
-  // })
-
-  // let save = useMutation(({ id, pos }) => saveNotePosition(id, pos).then(() => refetch()))
-
-  // console.log(positions)
-
-  /*
-  let [boxes, setBoxes] = useState<Record<string, Omit<Draggable, 'type'>>>({
-    Vector: { top: 20, left: 80, id: 'Vector' },
-    Matrix: { top: 180, left: 20, id: 'Matrix' },
-  })
-*/
-
-  /*
-  let move = useCallback(
-    (id, left, top) => {
-      setBoxes((prev) => ({ ...prev, [id]: { left, top, id } }))
-    },
-    [boxes]
-  )
-*/
-  let [notes, fetchNotes] = useNoteLayout((state) => [state.notes, state.fetch])
-  // let state = useMemo(() => useNote('Vector'), [])((state) => state.position) //.subscribe((state) => state.position)
-  let state = useNote('Vector')((_) => _.position)
-
-  useEffect(() => {
-    void fetchNotes()
-  }, [])
+  let visibleNotes = useAppSelector(selectVisibleNotes)
+  let deselectAll = useSelectionState((state) => state.deselectAll)
 
   let [, containerRef] = useDrop(
     () => ({
       accept: 'note',
-      drop: (item: Draggable, monitor) => {
-        let delta = monitor.getDifferenceFromInitialOffset() as Position
-
-        return {
-          x: Math.round(item.x + delta.x),
-          y: Math.round(item.y + delta.y),
-        }
-      },
+      drop: (item: Draggable, monitor) => ({
+        delta: monitor.getDifferenceFromInitialOffset() as Position,
+      }),
     }),
     []
   )
 
-  /*
-  if (!positions) {
-    return <span>Loading</span>
+  function handleContainerClick(event) {
+    deselectAll()
   }
-*/
 
   return (
-    <div ref={containerRef} className={css.root}>
-      {JSON.stringify(notes)}
-      {JSON.stringify(state)}
-      {notes.map((note) => (
-        <DraggableNote key={note} id={note} />
+    <div
+      ref={containerRef}
+      className={css.root}
+      onClick={handleContainerClick}
+      style={{ width: CANVAS_SIZE, height: CANVAS_SIZE }}
+    >
+      {visibleNotes.map((id) => (
+        <DraggableNote key={id} id={id} />
       ))}
     </div>
   )

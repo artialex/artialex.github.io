@@ -1,10 +1,9 @@
 ---
 tags: [algo, graph]
+aliases: [DFS]
 ---
 
 # Depth-first search
-
-::aliases[DFS]
 
 _TODO_
 
@@ -31,8 +30,4 @@ functon start():
     if color[vertex]
 ```
 
-### Notes
-
-- Tries to find the way _as fast as possible_ but does not guarantee this way will be the shortest
-
-* Пытается найти путь как можно быстрее, но не дает гарантии что этот путь будет кратчайшим
+Tries to find the way _as fast as possible_ but does not guarantee this way will be the shortest

@@ -12,13 +12,11 @@ tags: [cg]
 
 ## Sources of light
 
-### Point light
-
-::aliases[Omnidirectional]
+### Point light (Omnidirectional light)
 
 Radiates light _equally in all directions from a fixed position_ in 3D space. They have an intensity
 
-Examples: a light blub or a candle.
+Examples: a light bulb or a candle.
 
 ### Directional light
 

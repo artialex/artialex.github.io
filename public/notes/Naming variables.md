@@ -15,9 +15,9 @@ Choosing a right name for a variable is just as important as choosing the right 
   - `x`, `y`, `z` for point coordinates
   - `a`, `b` for `.sort()` parameters
 
-## Acronyms
-
-If an ancronym contains two letters use UPPER_CASE. Note the words "id" and "ok" are not acronyms
+If a variable has an acronym in its name, and this acronym contains two letters use `UPPER_CASE`.
+Otherwise, use `PascalCase`.
+Note the words `id` and `ok` are not acronyms
 
 | 💚 Good        | 💔 Bad         |
 | :------------- | :------------- |
@@ -28,11 +28,16 @@ If an ancronym contains two letters use UPPER_CASE. Note the words "id" and "ok"
 | `getVRContext` | `getVrContext` |
 | `ResponseOk`   | `ResponseOK`   |
 
-- [[Naming collections]]
+For collections use the most appropriate plural noun. Avoid `<x>List` and `<x>Coll` patterns
 
-## Countable
+| 💚 Good    | 💔 Bad              |
+| :--------- | :------------------ |
+| `messages` | `msgs`              |
+|            | `messageList`       |
+|            | `messageColl`       |
+|            | `messageCollection` |
 
-- Use `<x>Count` pattern
+Use `<x>Count` pattern for countable
 
 | 💚 Good     | 💔 Bad         |
 | :---------- | :------------- |
@@ -41,9 +46,7 @@ If an ancronym contains two letters use UPPER_CASE. Note the words "id" and "ok"
 |             | `userQuantity` |
 |             | `userNumber`   |
 
-## RegExps
-
-- Use `re`, `re<X>`, patterns
+Use `re` or `re<X>`, patterns for RegExps
 
 | 💚 Good   | 💔 Bad   |
 | :-------- | :------- |
@@ -52,21 +55,37 @@ If an ancronym contains two letters use UPPER_CASE. Note the words "id" and "ok"
 |           | `regex`  |
 |           | `rEmail` |
 
-## Functions
+For functions use `<verb><X>` pattern (`<verb>` for general utility functions). Use `set<X>` for a function that sets a boolean variable.
 
-Use `<verb><X>` pattern (`<verb>` for general utility functions). Use `set<X>` for a function that sets a boolean variable.
+| 💚 Good                                  | 💔 Bad                                  |
+| :--------------------------------------- | :-------------------------------------- |
+| `getUser()`, `authorizeUser()`           | `user()`                                |
+| `formatPrice()`                          | `priceFormat()`                         |
+| `handleClick()`                          | `clickHandler()`                        |
+| `convertHexToRgb()`, `getRgb()`          | `hexToRgb()`, `toRGB()`, `rgbFromHex()` |
+| `convertBirthdateToAge()`                |                                         |
+| `ensureDataSaved()`, `saveDataIfNeeded() | `saveDataIfHaveTo()`                    |
+| `ensureChecked()`, `checkIfNeeded()`     | `checkIfExistsUnchecked()`              |
+| `isManualTemplate()`                     | `checkIfManualTemplate()`               |
+| `setVisible()`                           | `setIsVisible()`                        |
 
-💔 Bad: `user()`, `priceFormat()`, `clickHandler()`, `hexToRgb()`, `toRGB()`, `rgbFromHex()`, `saveDataIfHaveTo`, `checkIfExistsUnchecked`, `checkIfManualTemplate`, `setIsVisible`
+For booleans use `<verb><X>` pattern. Should be positive (not reversed like `isNotFound`). Name should be a question that can be answered with "Yes" or "No": `is<X>`, `has<X>`, `can<X>`, `should<X>`, etc.
 
-💚 Good: `getUser()`, `authorizeUser()`, `formatPrice()`, `handleClick()`, `convertHexToRgb()`, `getRgb()`, `convertBirthdateToAge()`, `ensureDataSaved`, `saveDataIfNeeded`, `ensureChecked`, `checkIfNeeded`, `isManualTemplate`, `setVisible`
+| 💚 Good             | 💔 Bad            |
+| :------------------ | :---------------- |
+| `isFound`           | `isNotFound`      |
+| `isDenied`          | `isNotAuthorized` |
+| `isGranted`         |                   |
+| `hasUsers`          |                   |
+| `canAuthorize`      |                   |
+| `shouldAccept`      |                   |
+| `isReady`           |                   |
+| `includes`          |                   |
+| `matchesValue`      | `valueMatches`    |
+| `equals`, `isEqual` |                   |
+| `isFetching`        | `fetching`        |
 
-## Booleans
-
-Use `<verb><X>` pattern. Should be positive (not reversed like `isNotFound`). Name should be a question that could be answered with "Yes" or "No": `is<X>`, `has<X>`, `can<X>`, `should<X>`, etc...
-
-💔 Bad: `isNotFound`, `isNotAuthorized`, `valueMatches`, `fetching`
-
-💚 Good: `isFound`, `isDenied`, `isGranted`, `hasUsers`, `canAuthorize`, `shouldAccept`, `isReady`, `includes`, `matchesValue`, `equals` (or `isEqual`), `isFetching`
+<!--
 
 Exception?: React component props (linter-rule) -- use HTML approach
 
@@ -74,11 +93,9 @@ Exception?: React component props (linter-rule) -- use HTML approach
 
 💚 Good: `disabled`, `open`, `fetching`
 
-## Constants & Enums
+-->
 
-- Use `UPPER_CASE` for constants
-- Don't use `UPPER_CASE` for objects holding constants
-- Use `PascalCase` for enums (in TypeScript, as said [here](https://www.typescriptlang.org/docs/handbook/enums.html))
+For constants & enums use: `UPPER_CASE` for constants (don't use `UPPER_CASE` for objects holding constants) and `PascalCase` for enums (in TypeScript, as said [here](https://www.typescriptlang.org/docs/handbook/enums.html))
 
 | 💚 Good           | 💔 Bad            |
 | :---------------- | :---------------- |
@@ -87,9 +104,7 @@ Exception?: React component props (linter-rule) -- use HTML approach
 | `api.VERSION`     | `API.VERSION`     |
 | `TimeUnit.Second` | `TimeUnit.SECOND` |
 
----
-
-### Common conventions
+Common conventions
 
 | 💚 Good                                      | 💔 Bad                  |
 | :------------------------------------------- | :---------------------- |
@@ -101,7 +116,7 @@ Exception?: React component props (linter-rule) -- use HTML approach
 | `calculate`                                  | `calc`                  |
 | `container`                                  | `cnt`                   |
 | `center`                                     | `cnt`                   |
-| `col` along with row                         | `column`                |
+| `col` together with `row`                    | `column`                |
 | `cur`                                        | `current`               |
 | `class_`                                     | `cls`, `klass`, `clazz` |
 | `digit`                                      | `dgt`                   |
@@ -129,9 +144,7 @@ Exception?: React component props (linter-rule) -- use HTML approach
 | `cb`                                         | `callback`              |
 | `util`, `utils`                              | `tools`, `helpers`      |
 
-### Name symmetry
-
-This is not a strict list, just a recommendation
+Name symmetry. This is not a strict list, just a recommendation
 
 | Name                | Symmetric name           |
 | :------------------ | :----------------------- |
@@ -217,7 +230,7 @@ No `&__element` and `&--modifier` nonsense!
 ```
 
 - [[Naming @media breakpoints and ranges]]
-- [[How do I write unit tests|Naming in unit tests]]
+- [[How I write unit tests|Naming in unit tests]]
 
 ---
 

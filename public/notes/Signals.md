@@ -1,8 +1,7 @@
 # Signals
 
-Сигналы --- это програмные аналоги аппаратных прерываний
+Signals are software _analogues of hardware interrupts_
 
-Примеры сигналов --- дочерний проект завершен, програмный канал закрыт, неверная инструкция, время на таймере истекло, ошибка сегментации
+Examples of a signal: child project is finished, program channel is closed, wrong instruction, timer expired, segment fault
 
-Сигналы посылает ядро linux
-
+Signals are sent by a linux kernel

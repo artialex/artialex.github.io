@@ -2,11 +2,10 @@
 tags: [architecture]
 ---
 
-**IoC (Inversion of Control) Container**
+## Dependency Injection
 
-**Dependency Injection**
-
-**Dependency Inversion**
+- What is IoC?
+- What is dependency inversion?
 
 ---
 

@@ -4,10 +4,11 @@ tags: [java]
 
 # Java Objects
 
-- Fixed-size area inside *Java Heap*
-	- This is why arrays are of fixed size
-- Object properties can't be referenced
-- Every object has its own identity
+Java objects has fixed-size area inside *Java Heap*. This is why arrays are of fixed size
+
+Object properties can't be referenced
+
+Every object has its own identity
 
 ## Memory representation
 
@@ -35,10 +36,13 @@ p1.x = 7
 
 
 
+`equals()` has following properties: 
 
-[[equals() and hashCode()]]
+- `a.equals(a) == true` (reflexivity)
+- `a.equals(b) == b.equals(a)` (symmetry)
+- `a.equals(b) && b.equals(c) == a.equals(c)` (transitivity)
+- `a.equals(null) == false`
 
-[[toString()]]
 
 
-
+*Records* have pretty `toString()` implementation by default

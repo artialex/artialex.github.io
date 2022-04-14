@@ -1,7 +1,0 @@
-# Serialization
-
-*TODO*
-
-### Related
-
-- [[Marshalling]]

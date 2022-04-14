@@ -1,41 +1,27 @@
 # Git
 
-Как организовать удобную работу с гитом?
+Version Control System. Looks simple but under the hood there are a lot of nuances and non-obvious things
 
-Глобальный .gitignore, содержащий
+It's good and practical to use global `.gitignore` containing entries like
 
 ```
 .vscode
 .idea
 ```
 
-#git
+Core of git is _repository_. Basically it's a key-value storage containig among other things:
+
+- _Blobs_, most basic git type. Just a bunch of bytes, usually it's a binary file representation
+- _Tree objects_ similar to directories. Contain pointers to blobs and other tree objects
+- _Commit objects_ pointing to the concrete tree object, containing metadata including commit's author and parent commits
+- _Tag objects_ pointing to the concrete commit object containing some metadata
+- _References_, pointing to the concrete object, usually to commit object or tag object
 
 ---
 
-# Git
-
-Система контроля версий.
-Выглядит просто, но под капотом множество нюансов и неочевидных вещей. Здесь же я попытаюсь пойти глубже базового использования и рассказать о тонкостях строения гита
-
-Ядро гита - репозиторий (_repository_). По сути это простое key-value хранилище, в котором помиомо прочего хранятся:
-
-- **[[Blob|Blobs]]**, самый базовый _data type_ в гите. Это просто кучка байтов, обычно [[Binary representation|бинарное представление]] файла
-- **Tree objects**, похожи на директории. Они содержат указатели на _blobs_ и другие _tree objects_
-- **Commit objects**, которые указывают на конкретный _tree object_ и содержат метаданные, включающие автора коммита и родительские коммиты
-- **Tag objects**, которые указывают на конкретный _commit object_, содержат некоторые метаданные
-- **References**, которые указывают на конкретный объект, обычно на _commit object_ или _tag object_
-
----
-
-- https://wildlyinaccurate.com/a-hackers-guide-to-git/
-- https://www.intracto.com/nl-be/blog/how-to-save-a-puppy-by-creating-a-clean-git-repo
-
-https://marklodato.github.io/visual-git-guide/index-en.html
-http://blog.anvard.org/conversational-git/
-
-https://jwiegley.github.io/git-from-the-bottom-up/
-
-https://gitimmersion.com/lab_09.html
-
-- https://github.com/toplenboren/simple-git-hooks
+- [A Hacker's Guide to Git](https://wildlyinaccurate.com/a-hackers-guide-to-git/)
+- [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
+- [Conversational Git](http://blog.anvard.org/conversational-git/)
+- [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
+- [Git Immersion](https://gitimmersion.com/lab_09.html)
+- [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)

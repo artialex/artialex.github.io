@@ -1,6 +1,6 @@
 # About feedback
 
-Feedback is the most important thing in any kind of work
+*Feedback* is the most important thing in any kind of work
 
 If there is no feedback there is no way to know what is going wrong
 

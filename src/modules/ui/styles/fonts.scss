@@ -1,54 +1,20 @@
-/*
-@font-face {
-  font-family: 'Fontin Sans CR';
-  src: url('/public/fonts/FontinSans_Cyrillic_R_46b.otf');
-}
-
-@font-face {
-  font-family: 'Fontin Sans CR';
-  font-weight: bold;
-  src: url('/public/fonts/FontinSans_Cyrillic_B_46b.otf');
-}
-
-@font-face {
-  font-family: 'Fontin Sans CR';
-  font-style: italic;
-  src: url('/public/fonts/FontinSans_Cyrillic_I_46b.otf');
-}
-
-@font-face {
-  font-family: 'Fontin Sans CR';
-  font-style: italic;
-  font-weight: bold;
-  src: url('/public/fonts/FontinSans_Cyrillic_BI_46b.otf');
-}
-
-@font-face {
-  font-family: 'Fontin Sans CR';
-  font-variant: small-caps;
-  src: url('/public/fonts/FontinSans_Cyrillic_SC_46b.otf');
-}
-*/
-
-@mixin primary($font-size: 1.1rem, $line-height: 1.5rem, $font-weight: 400) {
-  font-family: 'Fontin Sans', Arial, Helvetica, sans-serif;
+@mixin primary($font-size: 1rem, $line-height: 1.5rem, $font-weight: 500) {
+  font-family: Rubik, Candara, Arial, Helvetica, sans-serif;
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
 }
 
 @mixin primary-small-caps($font-size: 1.1rem, $line-height: 1.5rem, $font-weight: 400) {
-  font-family: 'Fontin Sans Small Caps', Arial, Helvetica, sans-serif;
-  //font-variant: small-caps;
+  font-family: 'Nunito SemiBold', Arial, Helvetica, sans-serif;
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
 }
 
-$mono: 'Iosevka SS08', monospace;
-
-@mixin mono($font-size: 1rem, $line-height: 1.5rem, $font-weight: 500) {
-  font-family: $mono;
+@mixin mono($font-size: 1rem, $line-height: 1.5rem, $font-weight: 400) {
+  font-family: 'Iosevka SS08 Medium', Consolas, monospace;
+  //font-stretch: expanded;
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;

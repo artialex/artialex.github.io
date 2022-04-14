@@ -16,14 +16,14 @@ $$
 
 ### $n = 4$
 
-::combinatorics[permutations, 4, 4]
-::combinatorics[permutations, 4, 3]
-::combinatorics[permutations, 4, 2]
+::combinatorics{type=permutations n=4 k=4}
+::combinatorics{type=permutations n=4 k=3}
+::combinatorics{type=permutations n=4 k=2}
 
 ### $n = 3$
 
-::combinatorics[permutations, 3, 3]
-::combinatorics[permutations, 3, 2]
+::combinatorics{type=permutations n=3 k=3}
+::combinatorics{type=permutations n=3 k=2}
 
 ## K-multipermutation
 
@@ -35,18 +35,18 @@ $$
 
 ### $n = 4$
 
-::combinatorics[multipermutations, 4, 4]
-::combinatorics[multipermutations, 4, 3]
-::combinatorics[multipermutations, 4, 2]
+::combinatorics{type=multipermutations n=4 k=4}
+::combinatorics{type=multipermutations n=4 k=3}
+::combinatorics{type=multipermutations n=4 k=2}
 
 ### $n = 3$
 
-::combinatorics[multipermutations, 3, 3]
-::combinatorics[multipermutations, 3, 2]
+::combinatorics{type=multipermutations n=3 k=3}
+::combinatorics{type=multipermutations n=3 k=2}
 
 ## Multiset permutation
 
 $$
-\begin{pmatrix} n \\ k_1, k_2, \cdots, k_m \end{pmatrix} =
-\frac{n!}{k_1! \times k_2! \times \cdots \times k_m!}
+	\begin{pmatrix} n \\ k_1, k_2, \cdots, k_m \end{pmatrix} =
+	\frac{n!}{k_1! \times k_2! \times \cdots \times k_m!}
 $$

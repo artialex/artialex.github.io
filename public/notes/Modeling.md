@@ -4,6 +4,15 @@ tags: [cg]
 
 # Modeling
 
+What is a mesh?
+
+$$
+	Mesh = (Vertices, Edges, Faces)
+$$
+
+Mesh is a collection of vertices, edges and faces
+
+
 (Meshes)
 	- Geometry
 	- Materials
@@ -11,7 +20,7 @@ tags: [cg]
 		
 		
 
-# Modeling
+## First
 
 - Models
 	- Implicit models
@@ -19,6 +28,7 @@ tags: [cg]
 - Geometry
 - Materials
 
+## Second
 
 - Implicit
 - Parametric

@@ -4,11 +4,17 @@ tags: [linal, index]
 
 # Linear algebra
 
-- [[Coordinate space]]
-- [[Vector]]
-- [[Matrix]]
+What is a [[Coordinate space|coordinate space]]
 
----
+Two major linear algebra primitives: [[Vector]] & [[Matrix]], and [[Vector & Matrix Operations|their operations]]
+
+- Vector: $\vv$, $\vw$; unit-vectors: $\uv$, $\uw$
+  - Magnitude: $\|\vv\|$
+- Matrix: $\A$, $\B$
+  - Matrix transposition: $\A^T$
+  - Matrix determinant: $\det \A$ or $|\A|$
+
+Various [[Linear transformations|linear transformations]]
 
 <!--
 - [[Spaces]]
@@ -22,26 +28,13 @@ tags: [linal, index]
 ---
 
 
--->
-- [[Vector & Matrix Operations]]
+## Notation
 
-
----
-
-- [[Linear transformations]]
-
-### Notation:
-
-- Scalars: $x, t$
-  - Floor rounding: $\lfloor x \rfloor$
-  - Ceil rounding: $\lceil x \rceil$
+- Scalars: $\x, \t$
+  - Floor rounding: $\lfloor \x \rfloor$
+  - Ceil rounding: $\lceil \x \rceil$
 - Angles: $\alpha, \theta$
-- Vectors: $\vec{\Green v}, \vec{\Blue w}$
-  - Unit-vectors: $\hat{\Green v}, \hat{\Blue w}$
-  - Vector magnitude: $\|\vec{\Green v}\|$
-- Matrices: $\A, \B$
-  - Matrix transposition: $\A^T$
-  - Matrix determinant: $\det \A$ or $|\A|$
+
 - Quarternions: $\Green q_1, \Blue q_2$
   - Conjugate of a complex number or quaternion: $\bar{z}, \bar{q}$
 - Sets
@@ -50,6 +43,7 @@ tags: [linal, index]
   - Ordered pairs in the real 2D plane: $\R^2$
   - Integers: $\Z$
   - Quaternions: $ℍ$
+-->
 
 <!--
 - Множество действительных чисел: $\Reals$
@@ -75,15 +69,10 @@ tags: [linal, index]
 
 ---
 
-### Links
-
-- https://betterexplained.com/articles/linear-algebra-guide/
-- https://gabrielgambetta.com/computer-graphics-from-scratch/A0-linear-algebra.html
-
-### References
-
 - [Linear Algebra PDF](http://joshua.smcvt.edu/linearalgebra/book.pdf)
 - [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/)
 - [Immersive Linear Algebra](http://immersivemath.com/ila/index.html)
 - [The Applications of Matrices](https://www.youtube.com/watch?v=rowWM-MijXU) 📺
 - [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) 📺
+- https://betterexplained.com/articles/linear-algebra-guide/
+- https://gabrielgambetta.com/computer-graphics-from-scratch/A0-linear-algebra.html

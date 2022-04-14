@@ -1,3 +1,3 @@
-# State Machine
+# State machine
 
 https://statecharts.dev/

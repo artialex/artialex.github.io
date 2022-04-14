@@ -4,8 +4,9 @@ tags: [cg]
 
 # Lighting
 
-Light in software differs from the light of the real world. It's not much about physics, waves and particles and more about. It's more about _how light appears on an object_
+Light in software differs from the light of the real world. It's not much about physics, waves and particles and more about _how light appears on an object_
 
+<!--
 ```plantuml
 scale 1.2
 hide empty members
@@ -21,12 +22,9 @@ Ambient <-- PhongReflection
 Diffuse <-- PhongReflection
 Specular <-- PhongReflection
 ```
+-->
 
-## Ligthing Components
-
-- Ambient component
-- Diffuse component
-- Specular component
+Lighting contains of different components: Ambient, Diffuse and Specular
 
 ## Lambertian lighting
 

@@ -1,11 +1,6 @@
 @use 'colors';
 @use 'fonts';
-@use 'headings';
-@use 'lists';
-@use 'elements';
-@use 'tables';
 @use 'scrollbars';
-@use 'code';
 
 * {
   box-sizing: border-box;
@@ -13,22 +8,159 @@
 
 html {
   font-size: 16px;
-  height: 100vh;
 }
 
 body {
   @include fonts.primary();
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  //min-height: 100vh;
-  //background-color: var(--background-color);
-  background-color: #e5e5e5;
+
+  background-color: #f6f7fb;
   color: var(--text-color);
 }
 
-#__next {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+// -- Headings -----------------------------------------------------------------
+
+h1 {
+  @include fonts.primary(2rem, 2rem);
+}
+
+h2 {
+  @include fonts.primary(1.2rem, 1.8rem);
+  margin: 2rem 0 0;
+}
+
+// -- Paragraphs & Blockquotes -------------------------------------------------
+
+p {
+  //margin: 0 0 1rem 0.5rem;
+  position: relative;
+  counter-increment: paragraph;
+
+  &::before {
+    position: absolute;
+    content: counter(paragraph);
+    left: -2rem;
+    opacity: 0.3;
+    font-size: 0.8rem;
+  }
+}
+
+// -- Emphasized, Bold, Code, Mark Text ----------------------------------------------
+
+i,
+em {
+  color: var(--emphasized-color);
+  font-style: normal;
+  //text-decoration: underline;
+  //font-weight: bold;
+  //font-size: 1.1rem;
+  //padding-bottom: 2px;
+  //border-bottom: 1px dashed var(--subtle-color);
+}
+
+b,
+strong {
+}
+
+code {
+  @include fonts.mono();
+  color: var(--code-color);
+  tab-size: 4;
+  border-radius: 2px;
+  padding: 0 4px;
+  background-color: var(--code-background-color);
+
+  pre & {
+    font-size: 0.9rem;
+    color: var(--pre-color);
+  }
+}
+
+pre {
+  margin: 0 0 0 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  background-color: var(--pre-background-color);
+}
+
+// -- Links --------------------------------------------------------------------
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    //opacity: 0.8;
+    filter: brightness(80%);
+    //text-decoration: underline;
+  }
+
+  &.external {
+    color: var(--external-link-color);
+  }
+
+  &.internal {
+    color: var(--internal-link-color);
+  }
+}
+
+// -- Lists --------------------------------------------------------------------
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 2rem;
+  counter-reset: li;
+
+  ul,
+  ol {
+    margin-bottom: 0;
+  }
+
+  li {
+    position: relative;
+    counter-increment: li;
+  }
+}
+
+ul li::before {
+  position: relative;
+  top: 1px;
+  left: -0.4rem;
+  content: '‧';
+  color: var(--list-symbol-color);
+}
+
+ol li::before {
+  position: relative;
+  top: -2px;
+  left: -8px;
+  font-size: 0.8rem;
+  content: counter(li);
+}
+
+// -- Tables -------------------------------------------------------------------
+
+table {
+  width: 100%;
+  margin: 1rem 0 0 2rem;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+// -- Horizontal line ----------------------------------------------------------
+
+hr {
+  width: 3rem;
+  margin: 0.5rem auto;
+  border: 0;
+  border-top: 1px solid var(--hr-color);
+}
+
+// -- KaTeX --------------------------------------------------------------------
+
+.math-display {
+  .katex,
+  .katex-display {
+    text-align: left !important;
+    padding-left: 1rem !important;
+  }
 }

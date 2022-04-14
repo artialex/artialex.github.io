@@ -10,23 +10,20 @@ $$
 Geometry, \ Lightning, \ Camera \xrightarrow{Rendering} Image
 $$
 
-There a two types of a rendering:
+Types of rendering:
 
 - Real-time rendering - best speed; interactive graphics, video games
 - Pre-rendering - best quality; animation, movies, video effects, photorealism
 
-And there are several methods or techniques of rendering
+Methods or techniques of rendering:
 
 - [[Rasterization]] <!--and Scanline rendering --> is very fast and is a good option for real-time rendering
 - [[Ray tracing]] which looks far more realistic
-	- Path tracing
+  - Path tracing
 - [[Ray casting]]
 - Radiosity (rather a light trasport technique than a rendering)
 
-## Most common renderers
-
-- [[OpenGL]]
-- [[WebGL]]
+Most common renderers are [[OpenGL]] and [[WebGL]]
 
 <!--
 Shading – how the color and brightness of a surface varies with lighting

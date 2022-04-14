@@ -1,4 +1,7 @@
 {
   "baseFontSize": 15,
-  "cssTheme": "Clair de Lune"
+  "cssTheme": "Clair de Lune",
+  "theme": "obsidian",
+  "textFontFamily": "",
+  "interfaceFontFamily": ""
 }

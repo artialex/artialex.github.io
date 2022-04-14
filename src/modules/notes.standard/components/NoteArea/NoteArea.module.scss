@@ -1,0 +1,16 @@
+.root {
+  display: inline-flex;
+  padding-top: 3rem;
+
+  &.horizontal {
+    height: calc(100vh - 3rem);
+    flex-direction: row;
+  }
+
+  &.vertical {
+    //flex-direction: column;
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+  }
+}

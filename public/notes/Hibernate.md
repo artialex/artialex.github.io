@@ -2,13 +2,18 @@
 tags: [java]
 ---
 
-**Hibernate** is not only an ORM but a complete solution for data storage in Java
+# Hibernate
 
-Java Objects <- **Hibernate** -> Database
+*Hibernate* is not only an *ORM* but a complete solution for data storage in Java
 
-- Located inside `org.hibernate.*`
-- [[JPA]] Implementation
-- Productive, maintenance, performant, provider-agnostic
+The relation is like this:
+
+$$
+\text{Java Objects} \gets \text{Hibernate} \to \text{Database}
+$$
+
+
+Hibernate productive, maintainable, performant, provider-agnostic [[Java Persistence API]] Implementation. Located inside `org.hibernate.*` package
 
 Hibernate includes:
 

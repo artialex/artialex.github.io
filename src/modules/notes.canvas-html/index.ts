@@ -1,4 +1,5 @@
-export { CanvasPage } from './components/_pages/CanvasPage'
+export { CanvasPage } from './pages/CanvasPage'
 
-export { Toolbar } from './components/Toolbar'
-export { NoteOutliner } from './components/NoteOutliner'
+export { DebugWindow } from './components/DebugWindow'
+export { SelectionWindow } from './components/SelectionWindow'
+export { DynamicMinimap } from './components/Minimap'

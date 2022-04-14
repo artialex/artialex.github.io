@@ -10,11 +10,10 @@ tags: [architecture]
 
 ## API Design
 
-Интсрументы:
+Tools:
+
 - https://raml.org/
 - https://swagger.io/
-
-asd
 
 - https://blog.qmo.io/ultimate-guide-to-api-design/?utm_source=forwebdev_tlgrm&utm_medium=announcement&utm_campaign=polnoe-rukovodstvo-po-dizaynu-api-crud
   Learn
@@ -23,12 +22,12 @@ asd
 
 ### Links
 
-* [API Design]
-(https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf)
-* У Rails хороший подход к дизайну API
-* https://w3ctag.github.io/design-principles/
+- [API Design]
+  (https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf)
+- У Rails хороший подход к дизайну API
+- https://w3ctag.github.io/design-principles/
 
-- http://jsonapi.org/
+* http://jsonapi.org/
   https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9
 
 https://github.com/marmelab/awesome-rest
@@ -66,14 +65,14 @@ The purpose of an URI (i.e. https://api.example.com/customers) is to uniquely id
 
 Use these checks when you design your URI:
 
-* Use a **noun** for the resource name (i.e. `customer`) and not a verb (i.e. `createCustomer`) to make it resource-oriented.
-* Use **plural** for the resource name (i.e. `/customers`) to show it is a collection. Use an identifier at the end of the path to identify a specific element in the collection (i.e. `/customers/{id}`).
-* Don’t use a **trailing forward slash** (i.e. `/customers/` or `/customers/{id}/`).
-* Don’t use **filename extensions** for the content type (i.e. `/customers.json` or `/customers.xml`) as part of the URI. Use the Content-Type header instead.
-* Keep the URI **cool** (i.e. [Cool URIs don’t change](https://www.w3.org/Provider/Style/URI)) by using an immutable value for the identifier (i.e. `/customers/{id}`). For example, a primary key in a database table.
-* Prefer a **concrete name** (i.e. `customers`) to an abstract name (i.e. `people`) to make it easier to understand what the URI is identifying.
-* Only use a **subresource** (i.e. `/customers/{id}/orders`) if it will never be necessary to access the subresource outside of the parent resource’s scope. For example, it will not be necessary to find orders across customers.
-* Follow the **convention** below to make it easy to use it in JavaScript frameworks (i.e. Backbone, Oracle JET, Angular, etc.):
+- Use a **noun** for the resource name (i.e. `customer`) and not a verb (i.e. `createCustomer`) to make it resource-oriented.
+- Use **plural** for the resource name (i.e. `/customers`) to show it is a collection. Use an identifier at the end of the path to identify a specific element in the collection (i.e. `/customers/{id}`).
+- Don’t use a **trailing forward slash** (i.e. `/customers/` or `/customers/{id}/`).
+- Don’t use **filename extensions** for the content type (i.e. `/customers.json` or `/customers.xml`) as part of the URI. Use the Content-Type header instead.
+- Keep the URI **cool** (i.e. [Cool URIs don’t change](https://www.w3.org/Provider/Style/URI)) by using an immutable value for the identifier (i.e. `/customers/{id}`). For example, a primary key in a database table.
+- Prefer a **concrete name** (i.e. `customers`) to an abstract name (i.e. `people`) to make it easier to understand what the URI is identifying.
+- Only use a **subresource** (i.e. `/customers/{id}/orders`) if it will never be necessary to access the subresource outside of the parent resource’s scope. For example, it will not be necessary to find orders across customers.
+- Follow the **convention** below to make it easy to use it in JavaScript frameworks (i.e. Backbone, Oracle JET, Angular, etc.):
 
 | Task                        | Method | Path            |
 | --------------------------- | ------ | --------------- |
@@ -95,25 +94,25 @@ The purpose of the resource representation is to show relevant data from the ser
 
 Use these checks when designing your resource representation:
 
-* Think **outside-in** (or Design for Intent). Don’t simply expose your underlying data model, but think through what the clients want to achieve and design for that.
-* Only include **relevant data** that client needs, because it will reduce the bandwidth usage and make the representation easier to understand. For example, there might be audit columns on a database table, which are irrelevant for clients.
-* Use **JSON** as the Content-Type, so JavaScript clients don’t need to parse the response. Most of the popular RESTful APIs, like Twitter’s, dropped XML many years ago, and modern JavaScript frameworks aren’t really using XML anyway, so only support XML if you really need to. See Mark Nottingham’s JSON or XML: Just Decide to learn why you should only support one content type.
-* Use the **Content-Type** header, so clients know how to parse the body. If you support multiple types, let the client pick one in the Accept header. If the client only wants an unsupported media type, return “415 Unsupported Media Type” as the status code.
-* Use the **Content-Length** header to specify the length of the response.
-* Include the **Resource’s ID** both in the URI (i.e. `/customers/123`) and as an attribute in the resource representation (i.e. `{"id":123}`). The reason is that some JavaScript frameworks rely on being able to access the ID as an attribute.
-* Use **camelCase** (i.e. companyName) for your attribute names. Camel case is used in JavaScript, so you will minimize the conversion effort of the client, if you return the attribute with this convention.
-* For **Date** (and DateTime) fields, use ISO-8601 format (i.e. 2016-07-16T19:20:30.45+01:00).
-* If you have **magic numbers** (i.e. `{"orderStatus":"4"}`) then create a metadata service where it can be lookup automatically, so front-end engineers don’t need to look through out-of-band documentation. Alternatively, auto-translate the magic number in the representation (i.e. `{"orderStatus":"Cancelled"}`).
-* If you have a field that has a **list of values** (i.e. a bonusLevel field) provide a metadata service where clients can see potential values, so it won’t be necessary to hard-code values in client code.
-* If you support **multiple languages** in your representation, let the client use the Accept-Language header to decide which language to use.
-* Provide **links** so clients can easily navigate to related resources (HATEOAS). For example, in a customer representation you could provide a link to the customer’s orders and other related resources. Poorly constructed links on the client side is one of the most common errors in REST API, so by providing complete links to the client you eliminate this source of errors.
-* Use the **Link** header (from RFC-5988) for metadata links. For example, for previous and next links in a paginated search result.
-* Use **embedded links** inside the resource representation for links specific to that resource. For example, a link to the customer’s orders. The reason for not using the Link header for both link types is that when you need to return a collection of resources where each item needs it own version a link (for example, a canonical link to itself) you cannot do this in the Link header.
-* For **link relations**, seek to use the [standard relation types](https://www.iana.org/assignments/link-relations/link-relations.xhtml) before inventing your own.
-* Use **meaningful name for links** so that the client can guess if GET or POST should be used. For example, a “Reject Draft” link sounds like an unsafe operation where POST should be used, but a “Customer” link sounds like GET can be used.
-* Don’t do **pretty print** by default. Expect that casual clients will use a nice extension like Postman and save the bandwidth.
-* Use [JSON Lint](https://jsonlint.com/) to **validate** your proposed resource representation.
-* If a client sends a request with a resource representation with an **unknown field** then ignore that field. This as per Postel’s law, “Be liberal in what you accept, and conservative in what you send.”
+- Think **outside-in** (or Design for Intent). Don’t simply expose your underlying data model, but think through what the clients want to achieve and design for that.
+- Only include **relevant data** that client needs, because it will reduce the bandwidth usage and make the representation easier to understand. For example, there might be audit columns on a database table, which are irrelevant for clients.
+- Use **JSON** as the Content-Type, so JavaScript clients don’t need to parse the response. Most of the popular RESTful APIs, like Twitter’s, dropped XML many years ago, and modern JavaScript frameworks aren’t really using XML anyway, so only support XML if you really need to. See Mark Nottingham’s JSON or XML: Just Decide to learn why you should only support one content type.
+- Use the **Content-Type** header, so clients know how to parse the body. If you support multiple types, let the client pick one in the Accept header. If the client only wants an unsupported media type, return “415 Unsupported Media Type” as the status code.
+- Use the **Content-Length** header to specify the length of the response.
+- Include the **Resource’s ID** both in the URI (i.e. `/customers/123`) and as an attribute in the resource representation (i.e. `{"id":123}`). The reason is that some JavaScript frameworks rely on being able to access the ID as an attribute.
+- Use **camelCase** (i.e. companyName) for your attribute names. Camel case is used in JavaScript, so you will minimize the conversion effort of the client, if you return the attribute with this convention.
+- For **Date** (and DateTime) fields, use ISO-8601 format (i.e. 2016-07-16T19:20:30.45+01:00).
+- If you have **magic numbers** (i.e. `{"orderStatus":"4"}`) then create a metadata service where it can be lookup automatically, so front-end engineers don’t need to look through out-of-band documentation. Alternatively, auto-translate the magic number in the representation (i.e. `{"orderStatus":"Cancelled"}`).
+- If you have a field that has a **list of values** (i.e. a bonusLevel field) provide a metadata service where clients can see potential values, so it won’t be necessary to hard-code values in client code.
+- If you support **multiple languages** in your representation, let the client use the Accept-Language header to decide which language to use.
+- Provide **links** so clients can easily navigate to related resources (HATEOAS). For example, in a customer representation you could provide a link to the customer’s orders and other related resources. Poorly constructed links on the client side is one of the most common errors in REST API, so by providing complete links to the client you eliminate this source of errors.
+- Use the **Link** header (from RFC-5988) for metadata links. For example, for previous and next links in a paginated search result.
+- Use **embedded links** inside the resource representation for links specific to that resource. For example, a link to the customer’s orders. The reason for not using the Link header for both link types is that when you need to return a collection of resources where each item needs it own version a link (for example, a canonical link to itself) you cannot do this in the Link header.
+- For **link relations**, seek to use the [standard relation types](https://www.iana.org/assignments/link-relations/link-relations.xhtml) before inventing your own.
+- Use **meaningful name for links** so that the client can guess if GET or POST should be used. For example, a “Reject Draft” link sounds like an unsafe operation where POST should be used, but a “Customer” link sounds like GET can be used.
+- Don’t do **pretty print** by default. Expect that casual clients will use a nice extension like Postman and save the bandwidth.
+- Use [JSON Lint](https://jsonlint.com/) to **validate** your proposed resource representation.
+- If a client sends a request with a resource representation with an **unknown field** then ignore that field. This as per Postel’s law, “Be liberal in what you accept, and conservative in what you send.”
 
 ### HTTP Methods
 
@@ -123,49 +122,49 @@ The purpose of the GET method is to retrieve resources. If GET is performed agai
 
 The checks below are the same whether GET is used for search or lookup:
 
-* The GET method must be **safe**, which means that when the client calls the method it will never update anything in the resource representation. In other words, only use it for data retrieval and never for altering the state.
-* Use the **Cache-Control** header to explicitly state if the response can be cached, or not. If yes, state for how long it can be cached (see my [cache post](http://www.kennethlange.com/posts/Boost-Your-REST-API-with-HTTP-Caching.html) for some rules of thumb).
-* Use the **ETags** header (if your REST API allows multiple users to work on the same data) to help protect the data integrity (see PUT, PATCH and DELETE for more details).
-* If you want to support **Conditional GETs** (to reduce network traffic), remember to support the “If-None-Match” header where clients can specify the latest ETag they have received. If ETag is still the latest, return “304 Not Modified” else return “412 Precondition Failed”.
-* If you allow **partial responses** (i.e. only include some attributes in the response) to improve performance, use a fields entry in the query string to let the client specify which fields should be returned. For example, `/customers?fields=firstName,lastName`. This is beneficial for mobile clients with small screens (where they can’t show all data) and don’t have a lot of bandwidth available.
-* Consider allowing clients to get linked resources **embedded** in the response. For example, `/customers/123?embed=orders` will include the customer’s orders in the customer response. This is to reduce the number of service calls and improve the performance. You can see nice implementations of this in the WordPress API and in the JIRA REST API.
+- The GET method must be **safe**, which means that when the client calls the method it will never update anything in the resource representation. In other words, only use it for data retrieval and never for altering the state.
+- Use the **Cache-Control** header to explicitly state if the response can be cached, or not. If yes, state for how long it can be cached (see my [cache post](http://www.kennethlange.com/posts/Boost-Your-REST-API-with-HTTP-Caching.html) for some rules of thumb).
+- Use the **ETags** header (if your REST API allows multiple users to work on the same data) to help protect the data integrity (see PUT, PATCH and DELETE for more details).
+- If you want to support **Conditional GETs** (to reduce network traffic), remember to support the “If-None-Match” header where clients can specify the latest ETag they have received. If ETag is still the latest, return “304 Not Modified” else return “412 Precondition Failed”.
+- If you allow **partial responses** (i.e. only include some attributes in the response) to improve performance, use a fields entry in the query string to let the client specify which fields should be returned. For example, `/customers?fields=firstName,lastName`. This is beneficial for mobile clients with small screens (where they can’t show all data) and don’t have a lot of bandwidth available.
+- Consider allowing clients to get linked resources **embedded** in the response. For example, `/customers/123?embed=orders` will include the customer’s orders in the customer response. This is to reduce the number of service calls and improve the performance. You can see nice implementations of this in the WordPress API and in the JIRA REST API.
 
 The following checks are only relevant when GET is used for search:
 
-* Use the **query string** to let the clients search the collection. For example, `/customers?lastName=skywalker&gender=female`.
-* If you allow **sorting** of the search results, use a sortBy entry in the query string. For example, `/customers?sortBy=lastName`. Allow a minus (-) in front of the sortBy attribute to change the sort order. For example, `/customers?sortBy=lastName,-firstName`.
-* Consider **aliases** for common queries. For example, `/customers/recent`.
-* If the search can return a very high number results, use **paging** to divide the search result into multiple pages (like a Google search). For example, `/customers?page=6&pageSize=50`. Provide Link headers as per RFC-5988 (i.e. next, previous, first, last) to make it easy for the client to navigate through the result set. Remember to have default values (i.e. `page=1&pageSize=50`).
-* If the search was successful, return “200 OK” as the status code, and a wrap-free collection of the search results. Return the search results as a JavaScript collection (i.e. [{"id":"1"},{"id":"2"}]) and avoid wrapping it (for instance, {data: [{"id":"1"},{"id":"2"}]}) as wrapping makes it more difficult to parse for JavaScript frameworks.
-* If the search **found nothing**, return “200 OK” and an empty collection.
+- Use the **query string** to let the clients search the collection. For example, `/customers?lastName=skywalker&gender=female`.
+- If you allow **sorting** of the search results, use a sortBy entry in the query string. For example, `/customers?sortBy=lastName`. Allow a minus (-) in front of the sortBy attribute to change the sort order. For example, `/customers?sortBy=lastName,-firstName`.
+- Consider **aliases** for common queries. For example, `/customers/recent`.
+- If the search can return a very high number results, use **paging** to divide the search result into multiple pages (like a Google search). For example, `/customers?page=6&pageSize=50`. Provide Link headers as per RFC-5988 (i.e. next, previous, first, last) to make it easy for the client to navigate through the result set. Remember to have default values (i.e. `page=1&pageSize=50`).
+- If the search was successful, return “200 OK” as the status code, and a wrap-free collection of the search results. Return the search results as a JavaScript collection (i.e. [{"id":"1"},{"id":"2"}]) and avoid wrapping it (for instance, {data: [{"id":"1"},{"id":"2"}]}) as wrapping makes it more difficult to parse for JavaScript frameworks.
+- If the search **found nothing**, return “200 OK” and an empty collection.
 
 The following checks are for when GET is used for looking up a single element:
 
-* If the item is **found**, return “200 OK” as the status code and the item in the response body.
-* If the item is **not found**, return “404 Not Found” as the status code.
+- If the item is **found**, return “200 OK” as the status code and the item in the response body.
+- If the item is **not found**, return “404 Not Found” as the status code.
 
 #### POST
 
 The purpose of the POST method is to add a new element to a collection resource. For example, add a new customer to a customers collection.
 
-* The server should **automatically generate** the resource id (i.e. /customers/{id}) for new resources (i.e. don’t expect clients to give it as input).
-* Don’t use a **query string** with POST. If you have input parameters add them as part of the request body, or alternatively, use a (custom) HTTP header.
-* If the resource is **successfully created**, return “201 Created” as the status code.
-* Use the **Location** header in the response to tell the client the URI of the newly created resource.
-* If the newly created resource will contain much more data than what the client gave as input (see GitHub for an example), you should return the newly created resource in the **response body** to save the client from a round-trip (use the same decision for PUT and PATCH to keep things consistent).
-* If newly created resources will look like what clients gave as input, return an **empty response body**.
+- The server should **automatically generate** the resource id (i.e. /customers/{id}) for new resources (i.e. don’t expect clients to give it as input).
+- Don’t use a **query string** with POST. If you have input parameters add them as part of the request body, or alternatively, use a (custom) HTTP header.
+- If the resource is **successfully created**, return “201 Created” as the status code.
+- Use the **Location** header in the response to tell the client the URI of the newly created resource.
+- If the newly created resource will contain much more data than what the client gave as input (see GitHub for an example), you should return the newly created resource in the **response body** to save the client from a round-trip (use the same decision for PUT and PATCH to keep things consistent).
+- If newly created resources will look like what clients gave as input, return an **empty response body**.
 
 #### PUT
 
 The purpose of the PUT method is normally to overwrite/update an existing resource (i.e. it’s a complete update where every field in the resource representation is updated).
 
-* Don’t use a **query string** (see POST).
-* Make sure clients can use POST with the **X-HTTP-Method-Override** header to fake a PUT request, because some proxies only know GET and POST and will reject PUT requests.
-* The PUT method must be **idempotent**, which means that the result must be always be the same no matter if it is called one or many times. This makes transmission easier, because if it fails, it can just send the request again without worrying about messing up the resource’s state.
-* Don’t use PUT for **partial updates**. If PUT is given a partial resource as input (i.e. `{"firstName":"Han"}`) it should update those attributes specified in the input, and set all other attributes to null. If you want partial updates, use PATCH instead.
-* Use **If-Match** header (and ETags) to avoid lost updates (see Etags post for practical details).
-* If the resource is **successfully updated**, return “204 No Content” and an empty response body. However, if you return the updated resource representation, use “200 OK” instead.
-* Avoid using PUT to **create new resources**. While this is perfectly legal, it is not all clients who are aware of this, so it will make your API less intuitive.
+- Don’t use a **query string** (see POST).
+- Make sure clients can use POST with the **X-HTTP-Method-Override** header to fake a PUT request, because some proxies only know GET and POST and will reject PUT requests.
+- The PUT method must be **idempotent**, which means that the result must be always be the same no matter if it is called one or many times. This makes transmission easier, because if it fails, it can just send the request again without worrying about messing up the resource’s state.
+- Don’t use PUT for **partial updates**. If PUT is given a partial resource as input (i.e. `{"firstName":"Han"}`) it should update those attributes specified in the input, and set all other attributes to null. If you want partial updates, use PATCH instead.
+- Use **If-Match** header (and ETags) to avoid lost updates (see Etags post for practical details).
+- If the resource is **successfully updated**, return “204 No Content” and an empty response body. However, if you return the updated resource representation, use “200 OK” instead.
+- Avoid using PUT to **create new resources**. While this is perfectly legal, it is not all clients who are aware of this, so it will make your API less intuitive.
 
 #### PATCH
 
@@ -175,28 +174,28 @@ It is a comparatively new method, which was introduced in RFC-5789, and it is no
 
 If you support PATCH, make sure it satisfy these checks:
 
-* Make sure clients can use POST with the **X-HTTP-Method-Override** header to fake a PATCH request, because not all firewalls and other middlemen know PATCH and might reject it.
-* Don’t use a **simple JSON object** (i.e. `{"firstName":"Leia","lastName":"Organa"}`) as input to PATCH. The reason is that you cannot address attributes on child objects, or individual elements in arrays.
-* Use the **JSON Patch** format specified in RFC-6902 to let the client specify what should be updated. Remember that the Content-Type for this is “application/json-patch+json”.
-* If you use PATCH consider using more **coarse-grained** resources. For instance, instead of a `/orders` and a `/orders/{id}/lines` then just have an `/orders` resource where the order lines are an array within the orders resource. The benefit of a single resource is reduced latency.
-* If a client wants to patch a **read-only** (or system generated) attribute, respond with “400 Bad Request”.
-* Use **If-Match** header (and ETags) to avoid lost updates (see Etags post for practical details). Remember that PATCH is neither safe nor idempotent, so ETags are extra important here (compared to PUT) to avoid messing up the resource.
-* If the partial update is **successful**, return “204 No Content” and no response body. Mobile apps and other low-bandwidth clients prefer PATCH (due to the small payload), so returning the full resource in the response is undermining their need for speed. But keep it consistent with POST, so if POST returns the newly created resource, then PATCH should also return the updated resource and “200 OK” as status code.
-* Make sure that your clients will **actually use** PATCH, and not make full updates with PUT even when a partial update would have been sufficient. Many JavaScript frameworks supports PUT out of the box, which indirectly encourage its users to prefer this method. If you support PATCH, consider not supporting PUT, and vice versa.
+- Make sure clients can use POST with the **X-HTTP-Method-Override** header to fake a PATCH request, because not all firewalls and other middlemen know PATCH and might reject it.
+- Don’t use a **simple JSON object** (i.e. `{"firstName":"Leia","lastName":"Organa"}`) as input to PATCH. The reason is that you cannot address attributes on child objects, or individual elements in arrays.
+- Use the **JSON Patch** format specified in RFC-6902 to let the client specify what should be updated. Remember that the Content-Type for this is “application/json-patch+json”.
+- If you use PATCH consider using more **coarse-grained** resources. For instance, instead of a `/orders` and a `/orders/{id}/lines` then just have an `/orders` resource where the order lines are an array within the orders resource. The benefit of a single resource is reduced latency.
+- If a client wants to patch a **read-only** (or system generated) attribute, respond with “400 Bad Request”.
+- Use **If-Match** header (and ETags) to avoid lost updates (see Etags post for practical details). Remember that PATCH is neither safe nor idempotent, so ETags are extra important here (compared to PUT) to avoid messing up the resource.
+- If the partial update is **successful**, return “204 No Content” and no response body. Mobile apps and other low-bandwidth clients prefer PATCH (due to the small payload), so returning the full resource in the response is undermining their need for speed. But keep it consistent with POST, so if POST returns the newly created resource, then PATCH should also return the updated resource and “200 OK” as status code.
+- Make sure that your clients will **actually use** PATCH, and not make full updates with PUT even when a partial update would have been sufficient. Many JavaScript frameworks supports PUT out of the box, which indirectly encourage its users to prefer this method. If you support PATCH, consider not supporting PUT, and vice versa.
 
 #### DELETE
 
 The purpose of delete is to delete a resource on the server:
 
-* Don’t use a **query string** (see POST).
-* Make sure clients can use POST with the **X-HTTP-Method-Override** header to fake a DELETE request, because some proxies only know GET and POST and will reject DELETE requests.
-* The DELETE method must be **idempotent**, which means that the result must be the same no matter how many times it is called.
-* Use **If-Match** header (and ETags) to avoid stalled deletes (see Etags post for practical details).
-* Don’t use DELETE as a **soft delete** (i.e. update the resource’s status to cancelled, expired, deleted, or similar). If you want a soft delete, use PUT or PATCH to update the appropriate field.
-* In many business software applications, you don’t want to delete data (for audit reasons), so **no DELETE method** is needed.
-* If the resource was **successfully** deleted (or it has already been deleted), return “204 No Content” and an empty body (to ensure that DELETE is idempotent).
-* If the resource can **no longer be deleted** (for example, you cannot delete an order after it has been shipped) respond with “405 Method Not Allowed” (and set the Allow header with the allow methods on the resource).
-* Don’t allow **delete on collections** (i.e. DELETE /customers) unless you really know what you are doing!
+- Don’t use a **query string** (see POST).
+- Make sure clients can use POST with the **X-HTTP-Method-Override** header to fake a DELETE request, because some proxies only know GET and POST and will reject DELETE requests.
+- The DELETE method must be **idempotent**, which means that the result must be the same no matter how many times it is called.
+- Use **If-Match** header (and ETags) to avoid stalled deletes (see Etags post for practical details).
+- Don’t use DELETE as a **soft delete** (i.e. update the resource’s status to cancelled, expired, deleted, or similar). If you want a soft delete, use PUT or PATCH to update the appropriate field.
+- In many business software applications, you don’t want to delete data (for audit reasons), so **no DELETE method** is needed.
+- If the resource was **successfully** deleted (or it has already been deleted), return “204 No Content” and an empty body (to ensure that DELETE is idempotent).
+- If the resource can **no longer be deleted** (for example, you cannot delete an order after it has been shipped) respond with “405 Method Not Allowed” (and set the Allow header with the allow methods on the resource).
+- Don’t allow **delete on collections** (i.e. DELETE /customers) unless you really know what you are doing!
 
 ### Errors
 
@@ -204,46 +203,46 @@ When a request goes wrong, the server should provide a helpful response to the c
 
 Here is a list of checks to help with that:
 
-* If the request failed, **never return** “200 OK”. Not even if you provide an error message in the response body.
-* Beside the HTTP **Status Codes** already mentioned in the other sections, use these:
-  * **400 Bad Request**: Failure due to a client-side problem. For example, missing mandatory header, poorly formed JSON, or failed (business) validation like a negative number in a quantity field.
-  * **500 Internal Server Error**: Failure due to a server-side problem. For example, the server cannot connect to the database (often used in the a catch-all exception block).
-* In the response body, provide a **description** of the error to help the client. For example, “Mandatory field Delivery Date is missing”.
-* Make sure that the description can be shown directly **end-users**, so the front-end engineer won’t need to rewrite them. Alternatively, have one message for end-users and another for developers (see [here](https://github.com/WhiteHouse/api-standards#error-handling) for an example).
-* Consider returning an **array of errors**, so you can return multiple errors in one response, which is useful in business application that has lots of validations (see GitHub and Google for examples of returning multiple errors).
-* Be careful not to incidentally reveal detailed technical information in the error description (for instance, a raw stack trace) that might help a **potential intruder**.
+- If the request failed, **never return** “200 OK”. Not even if you provide an error message in the response body.
+- Beside the HTTP **Status Codes** already mentioned in the other sections, use these:
+  - **400 Bad Request**: Failure due to a client-side problem. For example, missing mandatory header, poorly formed JSON, or failed (business) validation like a negative number in a quantity field.
+  - **500 Internal Server Error**: Failure due to a server-side problem. For example, the server cannot connect to the database (often used in the a catch-all exception block).
+- In the response body, provide a **description** of the error to help the client. For example, “Mandatory field Delivery Date is missing”.
+- Make sure that the description can be shown directly **end-users**, so the front-end engineer won’t need to rewrite them. Alternatively, have one message for end-users and another for developers (see [here](https://github.com/WhiteHouse/api-standards#error-handling) for an example).
+- Consider returning an **array of errors**, so you can return multiple errors in one response, which is useful in business application that has lots of validations (see GitHub and Google for examples of returning multiple errors).
+- Be careful not to incidentally reveal detailed technical information in the error description (for instance, a raw stack trace) that might help a **potential intruder**.
 
 ### Security
 
 Here are some checks related to security:
 
-* Use all the normal **security practices** (validate all input, reject bad input, protect against SQL injections, etc.) Expect that your API will live in a hostile world where people want to misuse it.
-* **Encrypt all traffic** to the server with HTTPs (and don’t allow any request without it). If you use HTTP Basic Authentication for security, it is highly insecure not to use HTTPs as basic auth doesn’t encrypt the client’s password when sending it over the wire, so it’s highly sniff’able.
-* If you develop both the API and the client, you can use **HTTP Basic Authentication**. The benefit is that practically every HTTP client (and REST framework) support it.
-* If clients will be developed by third parties, who end-users may not want to share their credentials with, use **OAuth2** (which is the de-facto standard for most REST APIs).
-* Remember it is not easy to **switch authentication method** in a production API (just ask Twitter about OAuthcalypse), so if in doubt use OAuth2.
-* Provide **useful examples** of how to do the authentication. Don’t start your relationship with the front-end engineer with a frustrating experience about trying to figure out authentication.
+- Use all the normal **security practices** (validate all input, reject bad input, protect against SQL injections, etc.) Expect that your API will live in a hostile world where people want to misuse it.
+- **Encrypt all traffic** to the server with HTTPs (and don’t allow any request without it). If you use HTTP Basic Authentication for security, it is highly insecure not to use HTTPs as basic auth doesn’t encrypt the client’s password when sending it over the wire, so it’s highly sniff’able.
+- If you develop both the API and the client, you can use **HTTP Basic Authentication**. The benefit is that practically every HTTP client (and REST framework) support it.
+- If clients will be developed by third parties, who end-users may not want to share their credentials with, use **OAuth2** (which is the de-facto standard for most REST APIs).
+- Remember it is not easy to **switch authentication method** in a production API (just ask Twitter about OAuthcalypse), so if in doubt use OAuth2.
+- Provide **useful examples** of how to do the authentication. Don’t start your relationship with the front-end engineer with a frustrating experience about trying to figure out authentication.
 
 ### Misc
 
 Here are a couple of tips that didn’t really fit into the other sections:
 
-* Use the Accept-Encoding header to compress responses with **GZIP**, which will reduce bandwidth usage and improve transfer speed.
-* If you have a (semi) public API consider implementing **Rate Limits** with the X-RateLimit-Limit and X-RateLimit-Remaining headers to avoid some clients making excessive requests. If the limit is exceeded return “403 Forbidden”.
+- Use the Accept-Encoding header to compress responses with **GZIP**, which will reduce bandwidth usage and improve transfer speed.
+- If you have a (semi) public API consider implementing **Rate Limits** with the X-RateLimit-Limit and X-RateLimit-Remaining headers to avoid some clients making excessive requests. If the limit is exceeded return “403 Forbidden”.
 
 ### Other Guides
 
-* https://github.com/WhiteHouse/api-standards#error-handling
-* https://github.com/paypal/api-standards/blob/master/api-style-guide.md
-* http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
-* https://zalando.github.io/restful-api-guidelines/
-* https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md
+- https://github.com/WhiteHouse/api-standards#error-handling
+- https://github.com/paypal/api-standards/blob/master/api-style-guide.md
+- http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+- https://zalando.github.io/restful-api-guidelines/
+- https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md
 
 ### Documentation Examples
 
-* https://developers.digitalocean.com/documentation/v2/
-* https://developer.github.com/v3/
-* https://github.com/basecamp/bc3-api
+- https://developers.digitalocean.com/documentation/v2/
+- https://developer.github.com/v3/
+- https://github.com/basecamp/bc3-api
 
 ### 3. Избегайте Query-параметров
 
@@ -497,11 +496,7 @@ import { starAttachment } from './actions/attachments.js'
 class MyComponent extends React.Component {
   doStarAttachment = (id, starred) => {
     // now all the "boilerplate" for starring the attachment
-    const {
-      projectId,
-      collectionsId,
-      itemId
-    } = this.props.entities.attachments[id]
+    const { projectId, collectionsId, itemId } = this.props.entities.attachments[id]
     // now actually plugging in all that information
     starAttachment(projectId, collectionId, itemId, id, starred)
   }

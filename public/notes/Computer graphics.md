@@ -4,174 +4,163 @@ tags: [cg, index]
 
 # Computer Graphics
 
-[[Linear algebra]]
+## Questions
 
-[[How to start learning computer graphics programming]]
+- How does GPU work?
+- What is CG in general
+- What is the rendering pipeline?
+- How do rendering engines (OpenGL, DirectX) differ?
+- What rendering engines are?
 
 ## Scene
 
 - [[Modeling]]
-- [[Lighting]]
-- Viewport or Camera
+- [[Lighting]], Shading
+  - Reflections
+    - Planar reflection
+- Viewport / Camera
 
 ## [[Rendering]]
 
-- [[Tesselation]]
+- [[Subdivision]]
+  - [[Tessellation]]
+- [[Z-buffer]]
+- [[Shaders]]
+- [[Color]]
+- [[Lights & Shadows]]
+- [[Post-processing]]
+
+## CG API Platforms
+
+- [[OpenGL]]
+- [[WebGL]]
+- Vulkan
+- Apple Metal
+- Microsoft Direct3D (DirectX component)
+
+## OpenGL rendering pipeline
+
+- Vertex processing
+- Stencil processing
+- Pixel processing
+- Shading
+  - Deferred Shading
 
 ## Common
 
-<!--
-- [[Linear transformations]]
--->
 - [[Spaces]]
   - Views
   - Cameras
+- Level of detail
+
+## Textures
+
+- Texel
+- Texture mapping
+  - Bump-mapping
+- UV
+
+## Formats
+
+- [[OBJ File Format]]
+
+## 2D
+
+- Vector graphics
+- Raster graphics
+- Fractal graphics
+
+## 3D
+
+- Polygonal
+- Voxel
 
 ---
 
+## [[Linear algebra]]
+
+- [[Linear transformations]]
+
+## [[Physics (CG)|Physics]]
+
+- Collision detection
+
+---
+
+## Books
+
+- Fundamentals of Computer Graphics, 3rd Edition. P. Shirley, S. Marschner
 - 3D Math Primer for Graphics and Game Development
 - Game Engine Architecture
 - Physically Based Rendering
 - Real-time Rendering
+- [GPU Gems 1/2/3](https://developer.nvidia.com/gpugems/gpugems/contributors)
+- [Graphics Programming Black Book](https://www.jagregory.com/abrash-black-book/)
+- [The Direct3D Graphics Pipeline](http://user.xmission.com/~legalize/book/index.html)
+- [Learning Modern 3D Graphics Programming](https://paroj.github.io/gltut/)
+- [Computer Graphics from Scratch](https://gabrielgambetta.com/computer-graphics-from-scratch/)
 
-<!--
-- [[3D Graphics Class Structure]]
-- [[Shaders]]
-- [[Mathematics (CG)]]
-- [[Mathematics (CG)|Mathematics]]
-- [[Color]]
-- [[Animation]]
-- [[Physics (CG)|Physics]]
-- Particle systems
-	- [[Partial differential equation]]
-- Camera
-	- Projection systems
-	- Specification
-- Post Processing
+## Articles
 
+- [[How to start learning computer graphics programming]]
+- [Building 3d Render Engine](http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html)
+- http://fragmentbuffer.com/gpu-performance-for-game-artists/
+- [A trip through the Graphics Pipeline 2011](https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/)
 
-* Level of detail
+## Resources
 
-Texture mapping
----
-
-* Scene
-	* [[Lighting]]
-	* Light & Shading
-		* Bump-mapping
-	* Shadows
-	* Reflections & преломление света
-	* Camera
-* Collision detection
-
----
-
-* Vertex processing
-* Stencil processing
-* Pixel processing
-* Shading
-	* Deferred Shading
-* Physics
-
----
-
-[[Building 3d Render Engine|http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html]]
-
-http://fragmentbuffer.com/gpu-performance-for-game-artists/
-
-Растеризация --- это подобие реальной отрисовки (аппроксимация), а трассировка лучей --- это более сложный и более реально выглядящий алгоритм (канонический)
-
----
-
-* https://people.cs.clemson.edu/~dhouse/courses/405/
-* GPU Gems
-* GPU Gems 2 - ch 8,14,18,29,30 as pdf
-* GPU Gems 3
-* Graphics Programming Black Book
-* ShaderX series
-* DirectX manual (draft) https://user.xmission.com/~legalize/book/download/index.html
-* Learning Modern 3D Graphics Programming (draft)
-* https://gabrielgambetta.com/computer-graphics-from-scratch/introduction.html
-* https://github.com/ElArtista/Bookmarks/blob/28baded3f80941f4c5c848c8dcdae9140666a327/README.md#cg
-* https://paroj.github.io/gltut/
-* https://sakibsaikia.github.io/graphics/2019/09/10/Deriving-Lambertian-BRDF-From-First-Principles.html
-* https://cglearn.codelight.eu/pub/computer-graphics
-* http://webglinsights.com/
-* http://www.opengl-tutorial.org/
-* http://www.realtimerendering.com/resources/shaderx/
-* http://ogldev.atspace.co.uk/
-* http://www.songho.ca/opengl/index.html
-* https://web.archive.org/web/20150225192611/http://www.arcsynthesis.org/gltut/index.html
-* https://leanpub.com/introductiontotouchdesigner/
-* http://www.realtimerendering.com/index.html#gpu
-* https://paroj.github.io/gltut/
-* http://pixelshaders.com/
-* http://stephaniehurlburt.com/blog/2016/10/28/casual-introduction-to-low-level-graphics-programming
-*
-- http://immersivemath.com/ila/index.html
+- [Learn Computer Graphics From Scratch](https://www.scratchapixel.com/index.php?redirect)
+- [ShaderX/GPU Pro/GPU Zen Books](https://www.realtimerendering.com/resources/shaderx/)
+- [CPSC Computer Graphics course](https://people.cs.clemson.edu/~dhouse/courses/405/)
+- [Computer Graphics Learning Materials](https://cglearn.codelight.eu/pub/computer-graphics)
+- [Real-Time Rendering Resources](http://www.realtimerendering.com/index.html#gpu)
+- [Pixel Shaders](http://pixelshaders.com)
+- [Immersive linear algebra](http://immersivemath.com/ila/index.html)
 - [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) 📺
 - [The Graphics Codex](http://graphicscodex.com/)
+- [Euclidian space](http://www.euclideanspace.com/threed/index.htm)
+- [Coding Math](https://www.youtube.com/watch?v=zm9bqSSiIdo&list=PL7wAPgl1JVvUEb0dIygHzO4698tmcwLk9&index=1)
+- [Fun with computer graphics](https://github.com/zheng95z/fun-with-computer-graphics)
+- [Awesome CG resources](https://csjourney.com/awesome-computer-graphics-resources/)
+- [Graphics](https://bartwronski.com/articles-blog-posts-index/#graphics)
+- [Game Developer roadmap](https://github.com/miloyip/game-programmer)
+- [Computer Graphics Wiki](https://graphics.fandom.com/wiki/Computer_graphics)
 
-- Fundamentals of Computer Graphics, 3rd Edition. P. Shirley, S. Marschner
-- https://www.scratchapixel.com/index.php?redirect
+## Blogs
 
-## Applications
+- [Alain Galvan](https://alain.xyz/)
+- [Inigo Quilez](https://www.iquilezles.org/index.html)
+- [Adrian Courreges](http://www.adriancourreges.com/blog/)
+- [Evan Wallace](https://madebyevan.com/)
+- [Various RTR blogs](http://svenandersson.se/2014/realtime-rendering-blogs.html)
+- :mark[video] [TheCherno](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw)
+- :mark[video] [Inigo Quilzez](https://www.youtube.com/user/mari1234mari)
 
-- 3D modelling
-- 3D rendering
-- Animation
-- Virtual Reality
-- Visualization
+---
 
-- 3D scanning
-- Video games
-- Cartoons
-- Visual effects
-- CAD/CAM
-- Simulations
-- Medical imaging
-- Information visuzalization
-
-
-- RGBD algorithms
-- visual SLAM
-- sensor calibration
-- multi-view geometry
-- tracking and pose estimation
-
-- python3
-- numpy
-- tensorflow
-- pytorch
-
-## 2D
-
-- Vector, Raster & Fractal
-
-### 3D
-
-- Polygonal & Voxel
-
-
-## Map
+<!--
 
 ### Approximation
+
 - Gaussian distribution
 - Quadratic curves
 - Quadric surfaces
 - Polynomials
 
 ### Containment
+
 Containment of point sets by rectangles, boxes, capsules, cylinders, ellipses, ellipsoids, lozenges, spheres
 
 ### Curves
 
 ### Distance
+
 Between pairs of objects of type point, segment, ray, line, trangle, ellipse ,ellipsoid, quardratic curve, quadric surface
 
 ### Geometry
 
 ### Graphics
+
 - Scene graph management
 	- Tree structures
 	- Internal nodes
@@ -195,7 +184,6 @@ Between pairs of objects of type point, segment, ray, line, trangle, ellipse ,el
 - High-level effects
 	- Bump maps
 	- Gloss maps
-	- Planar reflection
 	- Planar shadows
 	- Projected textures
 - Vertex and pixel shader infrastracture
@@ -207,11 +195,13 @@ Between pairs of objects of type point, segment, ray, line, trangle, ellipse ,el
 - Terrain (continuous level of detail)
 
 ### Image analysis
+
 - 2D and 3D image analysis and processing
 - Level curve extraction from 2D images
 - Level surface extraction from 3D images
 
 ### Interpolation
+
 - Akima
 - Bilinear
 - Bicubic
@@ -224,11 +214,12 @@ Between pairs of objects of type point, segment, ray, line, trangle, ellipse ,el
 - Vector field
 - Scattered data interpolation (Delaunay triangulation/tetrahedralization)
 
-
 ### Intersection
+
 - Test queries (does it exist? what is the set?)
 
 ### Math
+
 - Points
 - Vectors
 - Matrices
@@ -237,6 +228,7 @@ Between pairs of objects of type point, segment, ray, line, trangle, ellipse ,el
 - Fast function evaluation
 
 ### Meshes
+
 - Imlementations of vertex/edge/triangle tables
 
 ### Physics
@@ -255,8 +247,6 @@ Between pairs of objects of type point, segment, ray, line, trangle, ellipse ,el
 -   Binormal
 -   BRDF
 -   Bresenham
--   Butterfly subdivision
--   Catmull-Clark subdivision
 -   Catmull-Rom spline
 -   Caustics
 -   Clipping plane
@@ -349,7 +339,6 @@ Between pairs of objects of type point, segment, ray, line, trangle, ellipse ,el
 -   Specular
 -   Spline curve
 -   Subdivision
--   [Texel](https://graphics.fandom.com/wiki/Texel "Texel")
 -   Text
 -   Translation
 -   Vector display
@@ -357,56 +346,25 @@ Between pairs of objects of type point, segment, ray, line, trangle, ellipse ,el
 -   Virtual reality
 -   [Voxel](https://graphics.fandom.com/wiki/Voxel "Voxel")
 
-https://paroj.github.io/gltut/index.html
+- [[3D Graphics Class Structure]]
+- [[Mathematics (CG)]]
+- [[Mathematics (CG)|Mathematics]]
+- [[Animation]]
+- Particle systems
+	- [[Partial differential equation]]
+- Camera
+	- Projection systems
+	- Specification
+- Post Processing
 
-http://www.euclideanspace.com/
-https://www.youtube.com/playlist?list=PL7wAPgl1JVvUEb0dIygHzO4698tmcwLk9
-https://www.realtimerendering.com/portal.html
-http://svenandersson.se/
-http://svenandersson.se/2014/realtime-rendering-blogs.html
+## Advanced shit
 
-https://github.com/zheng95z/fun-with-computer-graphics
-https://alain.xyz/
+- [[Partial differential equation]], particles
+- [[Bidirectional reflectance distribution function]]
+
+
+https://agraphicsguynotes.com/
 https://csjourney.com/awesome-computer-graphics-resources/
-https://github.com/ssloy/tinyrenderer
-https://learnopengl.com/
-https://www.iquilezles.org/index.html
-https://bartwronski.com/articles-blog-posts-index/#audio
-http://www.adriancourreges.com/projects/
-http://madebyevan.com/
-http://www.songho.ca/math/index.html
-- [GPU Gems](https://developer.nvidia.com/gpugems/gpugems/contributors)
-- [open.gl](https://open.gl)
-- http://erich.realtimerendering.com
-- :mark[video] [TheCherno](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw)
-- :mark[video] [Inigo Quilzez](https://www.youtube.com/user/mari1234mari)
-- [A trip through the Graphics Pipeline 2011](https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/)
-- [Game Developer roadmap](https://github.com/miloyip/game-programmer)
-- https://telegra.ph/Poleznye-resursy-11-08
-- https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc
 -->
 
-
-
-[[OBJ File Format]]
-
-[[3D Graphics Class Structure]]
-
-
-[[Physics]]
-
-[[Color]]
-
-[[Partial differential equation]]
-
-[[Shaders]]
-
-[[Lights & Shadows]]
-
-[[Bidirectional reflectance distribution function]]
-
-
-[[Post Processing]]
-
-
-[[Сортировка]]
+_Z-buffer_ or _depth buffer_ contains data about pixel depth

@@ -4,12 +4,14 @@ tags: [ds, graph]
 
 # Graph types
 
+
 - [[Tree]]
-
 - [[Complete graph]]
-	- Турнир !en[](Tournament) -- это полный ориентированный граф
-
+	- Tournament -- это полный ориентированный граф
+<!--
 - [[Cool graphs]]
+
+
 
 ## Типы графов
 
@@ -26,7 +28,6 @@ tags: [ds, graph]
 - Multigraph allow adjacent nodes have more than one link
 
 
-<!--
 
 |Циклы|Макс.<br />дочерних<br />узлов у узла|Макс.<br />родительских<br />узлов у узла|Структура|
 |:--:|:--:|:--:|:--:|

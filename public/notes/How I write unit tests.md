@@ -1,4 +1,4 @@
-# How do I write unit tests
+# How I write unit tests
 
 - Use jest for unit testing
 - Write tests in `*.test.js` files
@@ -8,13 +8,13 @@
 
 ## Naming conventions
 
-```javascript
+```js
 describe('<filename>', () => {
   describe('<function|method>', () => {
     it('should [<do something>] when [<doing something>]', () => {
       ...
     })
-	
+
   	describe('when [<doing something>]', () => {
 	  it('should [<do something>]', () => {
       	...
@@ -26,7 +26,7 @@ describe('<filename>', () => {
 
 ### Example
 
-```javascript
+```js
 import { getAge } from './datetime.utils.js'
 
 describe('datetime.utils', () => {
@@ -41,11 +41,3 @@ describe('datetime.utils', () => {
   })
 })
 ```
-
----
-
-### TODO 
-
--  mrm 
--  codemod 
--   TDD

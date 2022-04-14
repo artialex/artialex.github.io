@@ -30,39 +30,15 @@ Then I used Workflowy, but the idea of having a lot of lists quickly became not 
 _Maybe my mindset led me the way of lists and categories instead of
 the way of links and connections_
 
-Finally I discovered [Zettelkasten method](https://zettelkasten.de/posts/overview/) and now I think that it's the most appropriate way of writing notes for me. It has no overhead, no extra burden. It drove me back to simple markdown files and I can view them in any form I like, In the editor or web-based.
+Finally, I discovered [Zettelkasten method](https://zettelkasten.de/posts/overview/) and now I think that it's the most appropriate way of writing notes for me. It has no overhead, no extra burden. It drove me back to simple markdown files and I can view them in any form I like, In the editor or web-based.
 
-This web version is inspired by:
-
-- [Max Stoiber's notes](https://notes.mxstbr.com/About_these_notes)
-- [Andy Matuschak's notes](https://notes.andymatuschak.org/About_these_notes)
+[[Collection of various digital gardens]], for inspiration and research:
 
 ---
 
-- [RU] [Картотека Лумана: 10 принципов идеального конспекта для писателей, исследователей и студентов](https://zeh.media/praktika/instruktsiya/4796135-10-printsipov-idealnogo-konspekta)
-
-
-<!--
-* https://braindump.jethro.dev/
-* https://exobrain.sean.fish/sitemap/
-* https://publish.obsidian.md/myquantumwell
-* https://braindump.rasen.dev/
--->
+- [[RU] Картотека Лумана: 10 принципов идеального конспекта для писателей, исследователей и студентов](https://zeh.media/praktika/instruktsiya/4796135-10-printsipov-idealnogo-konspekta)
 
 <!--
-- https://paul.copplest.one/
--->
-
-<!--
-Возможно, мышление программиста вело меня путем списков и категорий, а не путем
-связей и пересечений.
-
-После этого я использовал системы типа ведения заметок в markdown'е и хранения
-их в дропбоксе, я спользовал Notion, Things 3, Workflowy, Obsidian, пока не
-наткнулся на систему ведения заметок Zettelkasten. И что-то в ней мне так
-понравилось, что я сразу понял что она будет гораздо более эффективной
-
-Как и многие другие
 
 Я выработал некоторые правила которые хорошо работают в моем случае
 
@@ -168,14 +144,6 @@ This web version is inspired by:
 
 - https://fs.blog/mental-models/
 
-!!! Примеры ведения:
-
-- [[Andy Matuschak|https://notes.andymatuschak.org/About_these_notes]]
-- https://www.mentalnodes.com/
-- https://fortelabs.co/blog/how-to-take-smart-notes/
-- https://ryanholiday.net/the-notecard-system-the-key-for-remembering-organizing-and-using-everything-you-read/
-- https://nesslabs.com/mind-garden
-
 #gtd
 
 ---
@@ -189,4 +157,3 @@ This web version is inspired by:
 - [[Zettelkasten: как один немецкий учёный стал невероятно
   продуктивным|https://habr.com/ru/post/508672/]]
 -->
-
