@@ -1,8 +1,8 @@
 ---
-tags: [architecture]
+tags: [architecture, spring]
 ---
 
-## Dependency Injection
+# Dependency Injection
 
 - What is IoC?
 - What is dependency inversion?

@@ -193,14 +193,14 @@ collection.map((val, ind, arr) => {})
 
 No `&__element` and `&--modifier` nonsense!
 
-```postcss
+```css
 /* Root element always has root class */
-
 .root {
   padding: 0;
 }
 
-/* Block, element, inner component, etc... should be a simple noun, singular or plural */
+/* Block, element, inner component, etc... 
+   should be a simple noun, singular or plural */
 .header {
   margin-top: 20px;
 }

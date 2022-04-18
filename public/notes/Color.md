@@ -4,14 +4,13 @@ tags: [cg]
 
 # Color
 
-#TODO
+## HSV: Hue, Saturation, Value
+
+*Hue* is a dominant color name, *saturation* is the purity of color and *value* is the brightness on gray scale
 
 <!--
 ## Color spaces
 
-### HSV: Hue, Saturation, Value
-
-**Hue** is a dominant color name, **saturation** is the purity of color and **value** is the brightness on grey scale
 
 ### RGB: Red, Green, Blue
 

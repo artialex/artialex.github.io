@@ -7,7 +7,7 @@ tags: [done]
 *Natural* numbers
 
 $$
-\N = 1, 2, 3, 4, 5, ...
+\natnums = 1, 2, 3, 4, 5, ...
 $$
 
 *Integers*
@@ -19,17 +19,17 @@ $$
 *Rational* numbers
 
 $$
--7, \frac{1}{2}, 2.32, ...
+ℚ = -7, \frac{1}{2}, 2.32, ...
 $$
 
 *Real* numbers
 
 $$
--4\pi, \sqrt{2}, e
+\R = -4\pi, \sqrt{2}, e
 $$
 
 *Complex* numbers
 
 $$
-3, i, 4+3i, -4i
+\Complex = 3, i, 4+3i, -4i
 $$

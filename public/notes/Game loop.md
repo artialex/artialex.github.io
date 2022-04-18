@@ -1,9 +1,15 @@
+---
+tags: [architecture, wip]
+---
+
 # Game loop
 
 - Batch mode (Response is finished, work is done)
 - Interactive mode (Response is finished, computer waiting for a request)
 - Game loop (Response is finished, Program not waiting for a request). Loop is always working 
 
+
+Conceptually game loop looks like this:
 
 ```js
 while (true) {

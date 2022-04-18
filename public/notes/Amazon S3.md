@@ -1,6 +1,6 @@
 # Amazon S3
 
-S3 stands for _Simple Storage Service_
+S3 stands for **S**imple **S**torage **S**ervice
 
 *Buckets* are containers for _objects_. Example: `awsexamplebucket1`
 

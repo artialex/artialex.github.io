@@ -1,5 +1,5 @@
 ---
-tags: [java]
+tags: [java, db]
 ---
 
 # Hibernate
@@ -13,7 +13,7 @@ $$
 $$
 
 
-Hibernate productive, maintainable, performant, provider-agnostic [[Java Persistence API]] Implementation. Located inside `org.hibernate.*` package
+Hibernate productive, maintainable, performant, provider-agnostic [[JPA]] Implementation. Located inside `org.hibernate.*` package
 
 Hibernate includes:
 

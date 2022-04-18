@@ -1,10 +1,9 @@
 import { resolve } from 'path'
-import { writeFile, readFile, readdir } from 'fs/promises'
+import { readdir, readFile, writeFile } from 'fs/promises'
 import { unified } from 'unified'
 import { fileURLToPath } from 'url'
 import { load } from 'js-yaml'
 import remarkParse from 'remark-parse'
-import remarkRehype from 'remark-rehype'
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkExtractFrontmatter from 'remark-extract-frontmatter'
 import remarkWikiLink from 'remark-wiki-link'
@@ -38,7 +37,6 @@ async function run() {
 
     let notes = (await readdir(noteDir)).filter((_) => _.endsWith('md'))
 
-    // console.log('test :: 44', notes)
     for (let note of notes) {
       let file = await readFile(`${noteDir}/${note}`, 'utf8')
 
@@ -50,21 +48,25 @@ async function run() {
       graph.nodes.push(node)
 
       // Adding links
-      visit(tree, 'wikiLink', (node) => {
-        graph.links.push({
-          source: note.replace('.md', ''),
-          target: node.value,
-        })
-
-        if (!graph[node.value]) {
-          graph.nodes.push({
-            id: node.value,
-          })
-        }
-      })
+      // visit(tree, 'wikiLink', (node) => {
+      //   graph.links.push({
+      //     source: note.replace('.md', ''),
+      //     target: node.value,
+      //   })
+      //
+      //   console.log('test :: 60', node)
+      //
+      //   if (!graph.nodes.find((_) => _.id === node.value)) {
+      //     graph.nodes.push({
+      //       id: node.value,
+      //     })
+      //   }
+      // })
     }
 
-    await writeFile(resolve('../public/graph.json'), JSON.stringify(graph, null, 2))
+    // console.log('graph :: 67', resolve('./public/graph.json'))
+
+    await writeFile(resolve('./public/graph.json'), JSON.stringify(graph, null, 2))
   } catch (e) {
     console.log(e)
   }

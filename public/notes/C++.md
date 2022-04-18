@@ -1,24 +1,33 @@
 # C++
 
+Hello, world (Yes, let it be here for a while)
+
 ```cpp
-std::cout << "Hello, world" << std::endl;
+int main() {
+	std::cout << "Hello, world" << std::endl;
+	return 0
+}
 ```
 
-## Types
+Symbols `<<` are overloaded operators
 
-- Numbers
-  - Integers
-    - `char`, `unsigned char`
-    - `short`, `unsigned short`
-    - `int`, `unsigned int`
-    - `long`, `unsigned long`
-    - `long long`, `unsigned long long`
-  - Float / Double
-    - `float`
-    - `double`
-- `bool`
-- `string`
-  - C string as `char[]`
+## C++ Types
+
+Numbers
+
+- Integers
+	- `char`, `unsigned char`
+	- `short`, `unsigned short`
+	- `int`, `unsigned int`
+	- `long`, `unsigned long`
+	- `long long`, `unsigned long long`
+- Float / Double
+	- `float`
+	- `double`
+
+Boolean is `bool`
+
+Strings, C++ string is `string`, C string as `char[]`
 
 `auto` infers the type from a value, `const` makes the value immutable
 

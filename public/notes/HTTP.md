@@ -1,9 +1,10 @@
 ---
-tags: [networking]
-aliases: [HyperText Transfer Protocol]
+tags: [networking, wip]
 ---
 
 # HTTP
+
+Stands for **H**yper**T**ext **T**ransfer **P**rotocol
 
 Исторически HTTP/1.1 имел некоторые проблемы - чувствительность к [[RTT]], конвейерная обработка запросов,
 блокировка начала очереди, необходимость домен-шардинга. Поэтому была начата разработка HTTP2,
@@ -71,3 +72,54 @@ https://proselyte.net/tutorials/http-tutorial/
 **3xx**: Перенаправление
 **4xx**: Ошибка на стороне клиента
 **5xx**: Ошибка на стороне сервера
+
+
+
+HTTP (Java)
+
+- #read [HTTP Specification](https://datatracker.ietf.org/doc/html/rfc2616)
+
+
+Request
+
+```bash
+POST /boxes?color=red HTTP/1.1    # Method + Path & Query params + Version
+
+host: www.example.com             # Headers
+accept: application/json
+content-type: application/json
+
+{                                 # Response Body (ex: JSON)
+	"size": "small"
+}
+```
+
+Response
+
+```bash
+HTTP/1.1 200 OK                   # HTTP Version + Status code + Reason Phrase
+
+etag: "511GaciaHb28"              # Headers
+content-length: 23
+content-type: application/json
+
+{				                  # Response Body (ex: JSON)
+	"success": true
+}
+```
+
+[[HTTP Headers]]
+
+
+
+
+- Authorization
+- Content-Type
+- Accept
+- Content-Length
+- Cache
+- ETag
+
+"x-*" prefix
+
+- #todo Learn more about headers

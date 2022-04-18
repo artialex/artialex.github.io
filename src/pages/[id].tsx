@@ -6,6 +6,8 @@ import { Spinner } from '@/ui'
 import { configure, process } from '@/markdown'
 import Link from 'next/link'
 import { Combinatorics, Insertion } from '@/insertions'
+import { Tags } from '@/notes'
+import _ from 'lodash'
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => ({
   props: {
@@ -43,7 +45,25 @@ export const IndexPage: FC<IndexPageProps> = (props) => {
     return <div>Error: {JSON.stringify(error)}</div>
   }
 
-  return <PageLayout>{!data || isLoading ? <Spinner /> : process(data).result}</PageLayout>
+  if (!data || isLoading) {
+    return <Spinner />
+  }
+
+  let processed = process(data)
+
+  let tags: Record<string, number> = _.reduce(
+    // @ts-ignore
+    processed.data.tags,
+    (acc, cur: string) => ({ ...acc, [cur]: 1 }),
+    {}
+  )
+
+  return (
+    <PageLayout>
+      <Tags tags={tags} />
+      {processed.result}
+    </PageLayout>
+  )
 }
 
 export default IndexPage

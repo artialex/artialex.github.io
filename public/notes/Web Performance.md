@@ -6,7 +6,7 @@ tags: [fe]
 
 - [[Web vitals]]
 - [[Web Dev Tools]]
-- [[Front-end performance checklist]]
+- [[Frontend performance checklist]]
 
 ---
 

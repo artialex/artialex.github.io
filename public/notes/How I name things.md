@@ -1,10 +1,10 @@
 ---
-tags: [wip]
+tags: [guide, wip]
 ---
 
 # How I name things
 
-[[Common Sense Style Guide]]
+Firstly, to avoid bike-shedding I have a [[Common Sense Style Guide]]
 
 ## [[Naming variables]]
 
@@ -67,4 +67,4 @@ These files usually export multiple functions, so use pseudoextensions indicatin
 - https://github.com/kettanaito/naming-cheatsheet
 
 
-[[Naming projects]]
+[[How I name projects]]

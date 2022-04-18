@@ -20,7 +20,7 @@ Use _patterns_ reasonably: event emitter, event bus, observables, state machines
 
 ## Big picture
 
-Approaching the big picture, learn [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html), [[Clean Architecture]], and [[Domain-Driven Design]]
+Approaching the big picture, learn [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html), [[Clean Architecture]], and [[Notes on DDD]]
 
 Treat applications like big functions, containerize them, write [[12-factor application|12-factor applications]]
 

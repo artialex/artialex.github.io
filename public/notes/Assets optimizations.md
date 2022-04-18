@@ -1,3 +1,7 @@
+---
+tags: [fe]
+---
+
 # Assets optimizations
 
 Use `brotli` for plain text compression. It's faster than `gzip` and `deflate`. Pre-compress static assets with `brotli+gzip`, compress dynamic assets (HTML) with `brotli` at level 1-4. Check for brotli support on CDNs. Make sure the server handles content processed with `brotli`
@@ -24,7 +28,7 @@ Make sure that your MP4s are processed with a multipass-encoding, blurred with t
 
 ## Fonts
 
-Prefer WOFF2, use a WOFF fallback, and display context in the fallback font right away
+Prefer `WOFF2`, use a `WOFF` fallback, and display context in the fallback font right away
 
 Preload 1-2 fonts of each family
 
@@ -33,7 +37,5 @@ Include `font-display: optional`
 Use *Font Load Events* for group repaints
 
 Use *Web Font Reflow Count* and *Time To Real Italics* metrics
-
----
 
 - [Front-End Performance Checklist 2021](https://www.dropbox.com/s/34noajrbm324iai/performance-checklist-1.4.pdf?dl=0)

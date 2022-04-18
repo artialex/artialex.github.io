@@ -1,3 +1,5 @@
+# Factory method
+
 - Modern approach for creating instances
 - Useful for hiding constructor implementation
 - Useful for reusing instances
@@ -12,9 +14,6 @@ class Vector {
 		}
 		return new Vector(x, y, z);
 	}
-	private Vector(...) {
-		...
-	}
-	...
+	private Vector(...) {...}
 }
 ```

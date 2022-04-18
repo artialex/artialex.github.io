@@ -7,24 +7,24 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 body {
   @include fonts.primary();
 
-  background-color: #f6f7fb;
+  background-color: var(--body-color);
   color: var(--text-color);
 }
 
 // -- Headings -----------------------------------------------------------------
 
 h1 {
-  @include fonts.primary(2rem, 2rem);
+  @include fonts.primary-small-caps(2rem, 2rem);
 }
 
 h2 {
-  @include fonts.primary(1.2rem, 1.8rem);
+  @include fonts.primary-small-caps(1.2rem, 1.8rem);
   margin: 2rem 0 0;
 }
 
@@ -39,8 +39,23 @@ p {
     position: absolute;
     content: counter(paragraph);
     left: -2rem;
-    opacity: 0.3;
+    opacity: 0.2;
     font-size: 0.8rem;
+  }
+}
+
+blockquote {
+  //border-bottom: 1px solid var(--subtle-color);
+  //padding-left: 0.5rem;
+
+  p {
+    counter-increment: reset;
+    font-style: italic;
+    margin-bottom: 0.2rem;
+
+    &::before {
+      content: '';
+    }
   }
 }
 
@@ -48,9 +63,14 @@ p {
 
 i,
 em {
-  color: var(--emphasized-color);
-  font-style: normal;
-  //text-decoration: underline;
+  font-style: italic;
+
+  // color: var(--emphasized-color);
+  // font-style: normal;
+  // text-decoration: underline;
+  // text-decoration-color: white;
+  // text-decoration-thickness: 1px;
+
   //font-weight: bold;
   //font-size: 1.1rem;
   //padding-bottom: 2px;
@@ -66,8 +86,8 @@ code {
   color: var(--code-color);
   tab-size: 4;
   border-radius: 2px;
-  padding: 0 4px;
-  background-color: var(--code-background-color);
+  //padding: 0 4px;
+  //background-color: var(--code-background-color);
 
   pre & {
     font-size: 0.9rem;
@@ -79,7 +99,7 @@ pre {
   margin: 0 0 0 1.5rem;
   padding: 0.5rem;
   border-radius: 0.1rem;
-  background-color: var(--pre-background-color);
+  //background-color: var(--pre-background-color);
 }
 
 // -- Links --------------------------------------------------------------------
@@ -140,10 +160,14 @@ ol li::before {
 // -- Tables -------------------------------------------------------------------
 
 table {
-  width: 100%;
   margin: 1rem 0 0 2rem;
-  table-layout: fixed;
+  table-layout: auto;
   border-collapse: collapse;
+
+  th,
+  td {
+    padding: 0.2rem;
+  }
 }
 
 // -- Horizontal line ----------------------------------------------------------

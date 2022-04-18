@@ -2,7 +2,7 @@
 tags: [cg, index]
 ---
 
-# Computer Graphics
+# Computer graphics
 
 ## Questions
 
@@ -14,7 +14,7 @@ tags: [cg, index]
 
 ## Scene
 
-- [[Modeling]]
+- [[What is a Mesh]]
 - [[Lighting]], Shading
   - Reflections
     - Planar reflection
@@ -125,16 +125,6 @@ tags: [cg, index]
 - [Graphics](https://bartwronski.com/articles-blog-posts-index/#graphics)
 - [Game Developer roadmap](https://github.com/miloyip/game-programmer)
 - [Computer Graphics Wiki](https://graphics.fandom.com/wiki/Computer_graphics)
-
-## Blogs
-
-- [Alain Galvan](https://alain.xyz/)
-- [Inigo Quilez](https://www.iquilezles.org/index.html)
-- [Adrian Courreges](http://www.adriancourreges.com/blog/)
-- [Evan Wallace](https://madebyevan.com/)
-- [Various RTR blogs](http://svenandersson.se/2014/realtime-rendering-blogs.html)
-- :mark[video] [TheCherno](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw)
-- :mark[video] [Inigo Quilzez](https://www.youtube.com/user/mari1234mari)
 
 ---
 
@@ -368,3 +358,54 @@ https://csjourney.com/awesome-computer-graphics-resources/
 -->
 
 _Z-buffer_ or _depth buffer_ contains data about pixel depth
+
+
+
+# Curves & Surfaces
+
+- [[Bezier curves]]
+- [[Splines]]
+
+<!--
+
+---
+
+https://people.cs.clemson.edu/~dhouse/courses/405/notes/splines.pdf
+https://people.cs.clemson.edu/~dhouse/courses/405/notes/implicit-parametric.pdf
+
+-->
+
+
+
+# Mathematics (CG)
+
+- [[Homogenous coordinates]]
+- [[ODE]]
+- [[Aliasing]]
+- [[Monte-Carlo integration]]
+- [[Differential equations]]
+
+<!--
+### [[Linear algebra]]
+- [[Vector]]
+- [[Dot product]]
+- [[Cross product]]
+-->
+
+### [[Curves & Surfaces]]
+
+- [[Splines]]
+- [[Bezier curves]]
+
+
+
+ <!--
+### [[Mathematics]]
+
+* [[Linear algebra]]
+	* [[Vector]]
+	* [[Matrix]]
+	* [[Quarternion]]
+* Trigonometry
+* Geometry
+-->

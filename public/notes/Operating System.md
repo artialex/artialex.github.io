@@ -1,5 +1,5 @@
 ---
-tags: [os, index]
+tags: [os]
 ---
 
 # Operating System

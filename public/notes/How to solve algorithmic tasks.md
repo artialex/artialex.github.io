@@ -14,21 +14,21 @@ tags: [algo]
 
 ## Tips from [Sean Prashad](https://seanprashad.com/leetcode-patterns/)
 
-### If input is...
+If input is...
 
 - _Sorted array_ - binary search, two pointers
 - _Linked list_ - two pointers
-- _Graph, Tree_ - [[Depth-first search|DFS]], [[Breadth-first search|BFS]]
+- _Graph, Tree_ - [[DFS|DFS]], [[BFS|BFS]]
 
-### If asked for...
+If asked for...
 
 - _Permutations, subsets_ - [[Backtracking search]]
 - _Solving in-place_ - swapping values, storing in the same pointer
 - _Max/Min subarray/subset/options_ - dynamic programming
 - _Top/least k items_ - heap
-- _Common strings_ - map, trie
+- _Common (sub)strings_ - map, trie
 
-### Else...
+Else...
 
 - Map/Set for $O(1)$ time and $O(n)$ space
 - Sort input for $O(n \log n)$ time and $O(1)$ space

@@ -1,10 +1,10 @@
 ---
-aliases: [DIP]
+aliases: [dip]
 ---
 
 # Digital image processing
 
-**DIP** is a manipulation of digital images, processing them through an algorithm. Various applications include: motion detection, face tracking
+Digital image processing is a manipulation of digital images, processing them through an algorithm. Various applications include: motion detection, face tracking
 
 First [[Sampling]], then [[Quantization]]
 

@@ -6,7 +6,7 @@ tags: [architecture]
 
 Ideas should be _easy to test_, should _not be UI Framework driven_, should _not be database driven_
 
-Usually split in 4 layers: [[Domain Layer]], [[Application layer]], [[Adapters Layer]], [[Infrastructure Layer]]
+Classical clean architecture outlines 4 layers: domain, application, adapters and infrastructure
 
 ## Domain layer
 
@@ -20,7 +20,7 @@ Example: User entity, its type & errors, price convertation & format logic, date
 
 ## Application layer
 
-Contains _application-specific_ business logic: use Cases, operations, commands / queries, interactors
+Contains _application-specific_ business logic: use cases, operations, commands / queries, interactors
 
 Mostly written in _vanilla_ language, no _UI_, no _database_, no _frameworks_. Development of new features often starts from this layer
 
@@ -60,8 +60,6 @@ _React_
 
 Contains device logic, UI, rest API providers, database connections, storage connectors (in-memory, local storage, IndexedDB),
 API Calls (Rest API, Apollo), various services (SMS Service, for example)
-
----
 
 - [DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together)
 

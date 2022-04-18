@@ -1,3 +1,7 @@
+---
+tags: [react]
+---
+
 # Events
 
 ## Synthetic Event

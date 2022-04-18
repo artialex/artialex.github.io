@@ -16,7 +16,9 @@
     "enums",
     "CSharp",
     "Omnidirectional",
-    "interpretator"
+    "interpretator",
+    "Embeddable",
+    "embeddable"
   ],
   "foldHeading": false,
   "legacyEditor": true,

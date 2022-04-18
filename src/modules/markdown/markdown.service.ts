@@ -12,6 +12,7 @@ import remarkSmartypants from '@silvenon/remark-smartypants'
 import remarkWikiLink from 'remark-wiki-link'
 import remarkMath from 'remark-math'
 import remarkDirective from 'remark-directive'
+import rehypeHighlight from 'rehype-highlight'
 import remarkRehype from 'remark-rehype'
 import remarkKatex from 'rehype-katex'
 import rehypeReact from 'rehype-react'
@@ -19,6 +20,7 @@ import rehypeReact from 'rehype-react'
 import remarkShortcodes from 'remark-shortcodes'
 
 import 'katex/dist/katex.min.css'
+import 'highlight.js/styles/stackoverflow-light.css'
 import _ from 'lodash' // ? FIXME
 
 let processor: Processor | null = null
@@ -194,6 +196,8 @@ export function configure(options: ConfigureOptions) {
       '\\EA': '\\end{aligned}',
     },
   })
+
+  processor.use(rehypeHighlight)
 
   /**
    * Converting to React Element

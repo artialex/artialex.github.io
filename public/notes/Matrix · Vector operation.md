@@ -1,5 +1,5 @@
 ---
-tags: [linal, done]
+tags: [linal]
 small: true
 ---
 

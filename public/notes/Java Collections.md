@@ -31,13 +31,13 @@ List is a sequence of elements: Various list examples:
 | `Vector`               | Obsolete and not used                                     |
 | `CopyOnWriteArrayList` | Creates a copy of itself on every change (multi-threaded) |
 
-Creating an immutable list
+Creating an immutable list:
 
 ```java
 var list = List.of("Java", "JavaScript", "Python")
 ```
 
-Creating a mutable list
+Creating a mutable list:
 
 ```java
 var list = new ArrayList(List.of("Java", "JavaScript", "Python"))
@@ -52,18 +52,18 @@ Set is a sequence of _unique_ elements. `SortedSet` allows sorting. `NavigableSe
 | `HashSet`               | Backed by hashtable. Widely used                             |
 | `LinkedHashSet`         | Backed by _linked list and hashtable_. Keeps insertion order |
 | `TreeSet`               | Backed by red-black tree. Sorted                             |
-| `EnumSet`               | Set containing enums                                           |
+| `EnumSet`               | Set containing enums                                         |
 | `CopyOnWriteArraySet`   | Multi-threaded                                               |
 | `ConcurrentSkipListSet` | Thread-safe alternative to `TreeSet`. Multi-threaded         |
 | `BitSet`                | Special case. Does not actually implement `Set`              |
 
-Creating an immutable set
+Creating an immutable set:
 
 ```java
 var set = Set.of("JavaScript", "Java", "Kotlin");
 ```
 
-Creating a mutable set
+Creating a mutable set:
 
 ```java
 var set = new HashSet(Set.of("JavaScript", "Java", "Kotlin"));
@@ -73,24 +73,24 @@ var set = new HashSet(Set.of("JavaScript", "Java", "Kotlin"));
 
 `Map` is a sequence of key-value entries. `SortedMap` allows sorting. `NavigableMap` has methods for quick navigation. Map examples:
 
-|                   |                                                                                |
-| :---------------- | :----------------------------------------------------------------------------- |
-| `HashMap`         | Backed by hashtable. Widely used                                               |
-| `IdentityHashMap` | Like a `HashMap` but keys are compared with `==`. Graph friendly. Spoof attack |
-| `WeakHashMap`     | Like a `HashMap` but keys are _weak references_. Cache friendly                |
-| `LinkedHashMap`   | Backed by linked list & hash-table. Keeps insertion order                      |
-| `TreeMap`         | Backed by red-black tree. Sorted by keys                                       |
-| `EnumMap`         | Has enums as keys                                                              |
-| `hashTable`       | Obsolete and not used                                                          |
+|                   |                                                                                          |
+| :---------------- | :--------------------------------------------------------------------------------------- |
+| `HashMap`         | Backed by hashtable. Widely used                                                         |
+| `IdentityHashMap` | Like a `HashMap` but keys are compared using `==` operator. Graph friendly. Spoof attack |
+| `WeakHashMap`     | Like a `HashMap` but keys are _weak references_. Cache friendly                          |
+| `LinkedHashMap`   | Backed by linked list & hash-table. Keeps insertion order                                |
+| `TreeMap`         | Backed by red-black tree. Sorted by keys                                                 |
+| `EnumMap`         | Has enums as keys                                                                        |
+| `hashTable`       | Obsolete and not used                                                                    |
 
-Creating an immutable map
+Creating an immutable map:
 
 ```java
 var map1 = Map.of("name", "Alex", "location", "Moscow");
 var map2 = Map.ofEntries(Map.entry("name", "Alex"),	Map.entry("location", "Moscow"));
 ```
 
-Creating a mutable map
+Creating a mutable map:
 
 ```java
 var map1 = new HashMap(Map.of("name", "Alex", "location", "Moscow"));
@@ -117,13 +117,13 @@ Other collections include:
 - `RangeSet`, `RangeMap` for storing disjoint ranges
 - `LoadingCache` allows to have a timer for elements
 
-There are also concurrent collections
+There are also concurrent collections:
 
 - `BlockingQueue` - multi-threading, supports conditional locks
-	- `TransferQueue` - allows to block inserting thread
-	- `BlockingDeque`
+  - `TransferQueue` - allows to block inserting thread
+  - `BlockingDeque`
 - `ConcurrentMap` - thread-safe map
-	- `ConcurrentNavigableMap`
+  - `ConcurrentNavigableMap`
 
 ## TODO
 

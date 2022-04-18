@@ -1,10 +1,10 @@
 ---
-tags: [ds]
+tags: [ds, graph, wip]
 ---
 
 # Complete graph
 
-Graph where every vertex has an edge with every other vertex
+Graph where every node has a link with every other node
 
 $$
 K_n

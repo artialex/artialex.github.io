@@ -2,7 +2,7 @@
 tags: [fe, js]
 ---
 
-# JavaScript Asynchronicity
+# JavaScript asynchronicity
 
 _Functions_ in JavaScript are synchronous
 

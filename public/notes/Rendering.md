@@ -12,10 +12,10 @@ $$
 
 Types of rendering:
 
-- Real-time rendering - best speed; interactive graphics, video games
-- Pre-rendering - best quality; animation, movies, video effects, photorealism
+- Real-time rendering - best speed; used in interactive graphics, video games
+- Pre-rendering - best quality; used in animation, movies, video effects, photorealism
 
-Methods or techniques of rendering:
+Methods / techniques of rendering:
 
 - [[Rasterization]] <!--and Scanline rendering --> is very fast and is a good option for real-time rendering
 - [[Ray tracing]] which looks far more realistic

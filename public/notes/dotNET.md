@@ -1,6 +1,10 @@
+---
+tags: [csharp, wip]
+---
+
 # dotNET
 
-**.NET** is a platform for building applications
+.NET is a platform for building applications
 
 |Project|Java|
 |--|--|

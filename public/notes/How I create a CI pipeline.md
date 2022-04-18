@@ -1,9 +1,12 @@
 ---
-tags: [devops]
+tags: [devops, wip, guide]
 ---
 
 # How I create a CI pipeline
 
+#TODO
+
+<!--
 ## Simple pipeline
 
 Useful for simple packages
@@ -23,7 +26,6 @@ Danger
 
 Create Image
 
-<!--
 Как я работаю с пайплайнами
 
 Стадии пайплайна:

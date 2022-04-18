@@ -1,3 +1,7 @@
+---
+tags: [orphan]
+---
+
 # Homogeneity
 
 Homogenous coordinates

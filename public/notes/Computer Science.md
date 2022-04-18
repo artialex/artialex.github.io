@@ -1,18 +1,18 @@
 ---
-tags: [map]
+tags: [wip]
 ---
 
 # Computer science
 
-## Buzzworld
+Some buzzwords here with no particular meaning
 
 - [[Serialization]]
   - [[Marshalling]]
 - Streams?
 - [[Multiplexing]]
-- [[What are different function types]]
-- [[Encoding]]
-- [[Round Trip Time]]
+- [[Different function types]]
+- Encoding
+- Round Trip Time
 - Symbols
 - Proxy
 - Deferred

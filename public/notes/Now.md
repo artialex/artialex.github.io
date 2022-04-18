@@ -3,7 +3,7 @@
 Short-term
 
 - Keep learning JavaScript APIs, tools, utils & quirks, including Node.js
-- Check [[Collection of various digital gardens]]
+- Check [[Resources worth to peek into]]
 - Check websites in [[UI Design]]
 
 Long-term

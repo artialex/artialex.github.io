@@ -2,6 +2,6 @@
   "baseFontSize": 15,
   "cssTheme": "Clair de Lune",
   "theme": "obsidian",
-  "textFontFamily": "",
-  "interfaceFontFamily": ""
+  "textFontFamily": "Rubik",
+  "interfaceFontFamily": "Rubik"
 }

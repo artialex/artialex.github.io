@@ -1,5 +1,5 @@
 ---
-tags: [linal, index]
+tags: [linal]
 ---
 
 # Linear algebra

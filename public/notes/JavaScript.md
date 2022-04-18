@@ -8,7 +8,7 @@ tags: [fe, js, index]
 
 [[Basic JavaScript]]
 
-[[JavaScript Asynchronicity|Asynchronicity, Promises and Event Loop]]
+[[JavaScript asynchronicity|Asynchronicity, Promises and Event Loop]]
 
 Variuos [[npm]] tools that can be hepful
 
@@ -41,7 +41,7 @@ Elements
 
 ## Node
 
-[[Streams (Node)]]
+[[Node Streams]]
 
 <!--
 
@@ -148,7 +148,7 @@ https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/
 
 https://itnext.io/nodejs-logging-made-right-117a19e8b4ce
 
-
+https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/
 -->
 
 https://exploringjs.com/deep-js/ch_creating-class-instances.html

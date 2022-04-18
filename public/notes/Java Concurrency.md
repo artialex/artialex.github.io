@@ -4,16 +4,16 @@ tags: [java]
 
 # Java Concurrency
 
-##### `Thread`, `Runnable`
+`Thread`, `Runnable`
 
-##### Thread Pool
+What is a thread pool?
 
-##### `volatile`
+## What are `volatile` and `synchronized` keywords?
 
-`volatile` is used for Cache Coherency problem. This keyword means that variable should not be cached in the processor cache
+`volatile` is used for *Cache Coherency* problem. This keyword means that variable should not be cached in the processor cache
 
-##### `synchronized`
 
+<!--
 ##### Also
 
 - Concurrency vs Parallelism vs Concurrent Parallelism
@@ -32,3 +32,4 @@ tags: [java]
 
 
 [[Java Concurrency]]
+-->

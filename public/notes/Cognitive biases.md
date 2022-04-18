@@ -4,7 +4,7 @@ tags: [productivity, map]
 
 # Cognitive biases
 
-_Fundamental attribution error_ or _correspondence bias_ is a tendency for people to believe that _what people do reflects who they are_, probably, the most important cognitive bias
+_Fundamental attribution error_ or _correspondence bias_ is a tendency for people to believe that _what people do reflects who they are_. Probably, the most important cognitive bias
 
 _Bike-shedding effect_ or _Parkinson's law of triviality_ says that _time spent discussing some point is inversely proportional to the importance of that point_.
 Example: Code review -- the change set of 10 lines will contain more comments than a change set of 1000 lines
@@ -23,5 +23,5 @@ That felling when already taken actions and efforts make it difficult to stop th
 ## Common fallacies
 
 - False analogy
-- Collector's fallacy
+- [Collector's fallacy](https://zettelkasten.de/posts/collectors-fallacy/)
 - Vicious circle

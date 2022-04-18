@@ -1,10 +1,10 @@
 ---
-tags: [fe]
+tags: [fe, wip]
 ---
 
 # Frontend Persistence
 
 
-- [[Web storage]]
-- [[IndexedDB]]
+- Web storage
+- IndexedDB
 

@@ -1,3 +1,7 @@
+---
+tags: [orphan]
+---
+
 # Code search
 
 - https://searchcode.com/?q=stbi_write_png

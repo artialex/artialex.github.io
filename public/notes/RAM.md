@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [hardware]
 ---
 
 # RAM

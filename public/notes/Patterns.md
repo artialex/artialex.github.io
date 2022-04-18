@@ -6,7 +6,7 @@ tags: [map]
 
 - Dependency Injection
 - Factories
-- [[Factory Method]]
+- [[Factory method]]
 - Singleton
 - Concurrency
 - Messaging

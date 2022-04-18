@@ -1,3 +1,5 @@
+# JavaScript GitHub Applications
+
 - [jitsi-meet](https://github.dev/jitsi/jitsi-meet)
 - [bank-client](https://github.dev/pietrzakadrian/bank-client)
 - [fullstack-javascript-architecture](https://github.dev/atulmy/fullstack-javascript-architecture/blob/master/frontend/app/web/src/modules/auth/RoutePrivate.js)

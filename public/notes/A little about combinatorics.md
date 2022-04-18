@@ -1,5 +1,5 @@
 ---
-tags: [map]
+tags: [combinatorics]
 ---
 
 # A little about combinatorics

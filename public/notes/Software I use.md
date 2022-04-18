@@ -6,6 +6,9 @@ Code editor -- Jetbrains Products and VS Code
 
 Markdown editor -- Obsidian
 
+
+[Pennywise](https://github.com/kamranahmedse/pennywise) for floating browser page
+
 <!--
 Powershell Snippets
 

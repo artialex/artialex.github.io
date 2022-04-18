@@ -6,7 +6,7 @@ small: true
 # Matrix transposition
 
 $$
-    {\A_{ij}}^T = \A_{ji}
+	{\A_{nm}}^T = \A_{mn}
 $$
 
 $$
@@ -35,6 +35,7 @@ $$
 \EM
 $$
 
+<!--
 Properties
 
 $$
@@ -46,3 +47,4 @@ $$
 $$
 
 - $D$: Diagonal matrix
+-->

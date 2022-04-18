@@ -1,5 +1,5 @@
 ---
-tags: [fe]
+tags: [fe, devops, wip]
 ---
 
 # Deployment
@@ -9,7 +9,7 @@ tags: [fe]
 - Create a Docker Image
 - Connect external dependencies
 
+---
+
 - [[12-factor application]]
-
-
 - Env variables

@@ -29,7 +29,7 @@ tags: [map, ignore]
 - [[Data Access]]
 - [[Computer Science]]
 - [[Software Architecture]]
-- [[Computer Graphics]]
+- [[Computer graphics]]
 - [[UML]]
 
 <!--

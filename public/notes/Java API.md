@@ -3,7 +3,7 @@ tags: [java]
 ---
 
 # Java API
-- [[Files API]]
+- [[Reading and writing files in Java]]
 - [[DateTime API]]
 - [[Stream API]]
 - IO

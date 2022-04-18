@@ -27,12 +27,11 @@ time to launch I forgot what I wanted to
 
 Then I used Workflowy, but the idea of having a lot of lists quickly became not handy
 
-_Maybe my mindset led me the way of lists and categories instead of
-the way of links and connections_
+> Maybe my mindset led me the way of lists and categories instead of
+the way of links and connections
 
 Finally, I discovered [Zettelkasten method](https://zettelkasten.de/posts/overview/) and now I think that it's the most appropriate way of writing notes for me. It has no overhead, no extra burden. It drove me back to simple markdown files and I can view them in any form I like, In the editor or web-based.
 
-[[Collection of various digital gardens]], for inspiration and research:
 
 ---
 

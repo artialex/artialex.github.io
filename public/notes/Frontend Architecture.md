@@ -1,5 +1,5 @@
 ---
-tags: [fe, architecture]
+tags: [fe, architecture, wip]
 ---
 
 # Frontend Architecture

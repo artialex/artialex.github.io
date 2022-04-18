@@ -1,11 +1,15 @@
+---
+tags: [geometry]
+---
+
 # Angles
 
-Angle types:
+Angles denoted as $\angle ABC$, $\alpha$, $\theta$. Types of angles:
 
-- Acute angle: 1-89 deg
-- Right angle: 90 deg
-- Obtuse angle: 91-179 deg
-- Straight angle: 180 deg
+- *Acute* angle: 1-89 deg
+- *Right* angle: 90 deg
+- *Obtuse* angle: 91-179 deg
+- *Straight* angle: 180 deg
 
 <!--
 * Adjacent angle
@@ -22,10 +26,6 @@ $$
 	\frac{\pi}{180} \ \text{rad} \approx \ \text{0.01745329 rad}
 \EA
 $$
-
-## Notation
-
-- Angles: $\angle ABC$, $\alpha$, $\theta$
 
 <!--
 ---

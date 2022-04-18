@@ -1,5 +1,5 @@
 ---
-tags: [agile, index]
+tags: [agile, management]
 ---
 
 # Agile Development
@@ -10,7 +10,7 @@ $$
 
 ## Tasks
 
-_Tasks_ are concrete actions which can be performed straight away without further thinking and research. Tasks should meet these 4 criteria:
+Tasks are concrete actions which can be performed straight away without further thinking and research. Tasks should meet these 4 criteria:
 
 - Wording should sound like an answer on the question _"What should I do next?"_
 - Wording should _start with a verb in the infinite form_
@@ -35,7 +35,7 @@ Organizing _tasks by hierarchy is a bad choice_ as it's too complex
 
 Organizing _tasks by priority is a bad choice_ as well as it involves additional thinking. The best priority system is to put important tasks higher in the list
 
-## User story
+## User stories
 
 _User Stories_ are written using the following pattern: As a _X_ I can _Y_ so that _Z_
 

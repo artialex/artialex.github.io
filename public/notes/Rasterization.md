@@ -4,7 +4,7 @@ tags: [cg]
 
 # Rasterization
 
-_Rasterization_ is the process of filling in the horizontal spans of pixels belonging to a primitive
+Rasterization is the process of filling in the horizontal spans of pixels belonging to a primitive
 
 $$
 \BA

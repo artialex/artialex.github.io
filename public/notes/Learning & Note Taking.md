@@ -6,13 +6,13 @@ tags: [productivity, learning]
 
 There is a term _free learning_ which describes that student is _free to choose the direction or domain_ they want to study
 
-_"Don't learn what you can't understand"_
+> "Don't learn what you can't understand"
 
 Start from _basics_ and proceed to _complex_ things
 
 _Redundancy_ is good (using different perspectives and approaches to learning)
 
-- [[How to write useful notes]]
+- [[How I write useful notes]]
 
 ---
 
@@ -59,5 +59,5 @@ Live lectures are the worst format for getting information. They can't be stoppe
 # Zettelkasten resources
 
 - https://fedorovpishet.ru/gtd-things/
-
+https://www.supermemo.com/en/archives1990-2015/articles/20rules
 -->

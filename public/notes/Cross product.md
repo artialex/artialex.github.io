@@ -1,10 +1,13 @@
 ---
-tags: [linal, done]
+tags: [linal]
 aliases: [Vector product]
 ---
 
 # Cross product
 
+$$
+	Vector \times Vector \to Vector
+$$
 
 Cross product is a vector that is perpendicular to both of the multiplied vectors. Vector's length equals to the area of the parallelogram obtained by duplicating and shifting the two multiplied vectors
 
@@ -13,10 +16,6 @@ Cross product only makes sense in 3D space, using
 vectors representing 3D points. It returns a vector
 that is perpendicular to both of the multiplied vectors
 -->
-
-$$
-	Vector \times Vector \to Vector
-$$
 
 $$
 	\BA
@@ -43,6 +42,7 @@ $$
 \BM w_1 \\ w_2 \\ w_3 \EM
 $$
 
+<!--
 ### Properties
 
 $$
@@ -54,6 +54,7 @@ $$
     (\v \times \w) \times \u & \neq \v\times(\w\times\u)
 \EA
 $$
+-->
 
 ### Notes
 

@@ -1,13 +1,13 @@
 ---
-tags: [fe]
+tags: [fe, wip]
 ---
 
 # Forms
 
-- [[Controls]]
-- [[Validation]]
-- final-form
+There are *Controls* and *Fields*
 
+- Validation
+- final-form
 - #todo Learn more about events
 - #todo Learn more about measures
 

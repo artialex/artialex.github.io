@@ -4,21 +4,21 @@ tags: [ds, graph, index]
 
 # Graph
 
-Graph ($G$) is a structure containing vertices (or nodes) and edges (or links)
+Graph ($G$) is a structure containing nodes (or vetices) and links (or edges)
 
 - Graph: $G$
 
-Vertices have _degree_ or _valency_ -- number of edges coming out from this vertex.
-_Leaf_ or _End vertex_ is a vertex with degree of 1.
-_Isolated vertex_ is a vertex with degree of 0.
+Nodes have _degree_ or _valency_ -- number of links coming out from this node.
+_Leaf_ or _End node_ is a node with degree of 1.
+_Isolated node_ is a node with degree of 0.
 
-- Vertex: $u$
-- Set of vertices: $V$
+- Node: $u$
+- Set of nodes: $V$
 
-Edges can be _arcs_ or directed edges
+Links can be _arcs_ or directed links
 
-- Edge: $(u, v)$, $(u, v, w)$ -- latter with weight
-- Set of edges, arcs: $E$, $A$
+- Link: $(u, v)$, $(u, v, w)$ -- latter with weight
+- Set of links, arcs: $E$, $A$
 
 ## Properties
 
@@ -48,7 +48,7 @@ Walk (Trail, Path), Cycle, Slef-loop
 
 ## Algorithms
 
-Pathfinding, [[Depth-first search]], [[Breadth-first search]]
+Pathfinding, [[DFS]], [[BFS]]
 
 <!--
 ### Понятия
@@ -60,8 +60,6 @@ Pathfinding, [[Depth-first search]], [[Breadth-first search]]
 
 https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/
 -->
-
----
 
 - [Graph Theory](https://www.youtube.com/watch?v=09_LlHjoEiY) 📺
 - [Some cool Graph game](http://pulzed.com/demo/tronix2/) 🎮

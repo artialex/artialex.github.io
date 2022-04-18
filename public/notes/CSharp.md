@@ -1,3 +1,7 @@
+---
+tags: [csharp, wip]
+---
+
 # CSharp
 
 Basics
@@ -50,3 +54,16 @@ Expert
 **Extension methods**
 
 **Delegates**
+
+
+
+# Interfaces
+
+- Interfaces can define `static` method which should be implemented
+- Interfaces can define `default` method implementation
+
+
+
+# Methods
+
+Methods in C# are _final_ by default

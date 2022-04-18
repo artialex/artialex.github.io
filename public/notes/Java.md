@@ -17,7 +17,7 @@ Advanced knowledge:
 - Using [[Java OOP Elements|OOP elements]]
 - Grouping elements using [[Java Arrays|arrays]] or [[Java Collections|collections]]
 - Working with [[Java Concurrency|concurrency]]
-- [[Functional elements]]
+- [[Functional elements in Java]]
 - [[Java API]]
 
 ## Platform
@@ -31,6 +31,8 @@ _Java Development Kit (JDK)_ includes **JRE** and _Dev Tools_
 Java has several editions: Java SE (Standard Edition), Java ME (Micro Edition, used for mold mobile devices), Jakarta EE (Enterprise Edition, former Java EE), JavaFX, and special Android version
 
 Java has a REPL, which is `jshell`. Build tools are `maven` and `gradle`
+
+[[Working with Spring]]
 
 ## Libraries
 

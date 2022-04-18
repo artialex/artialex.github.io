@@ -8,7 +8,7 @@ tags: [db, index]
 
 Java Database Connectivity (JDBC) is a specification for working with a database. Located inside `java.sql.*` and `javax.sql.*` packages. It is old, made in 1997
 
-[[Java Persistence API]] (JPA) is a newer standard (newer than JDBC) that is used widely now
+[[JPA]] (JPA) is a newer standard (newer than JDBC) that is used widely now
 
 ## ORM
 

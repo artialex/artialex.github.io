@@ -1,3 +1,1 @@
-# Mind Garden
-
-Structure
+# My digital garden

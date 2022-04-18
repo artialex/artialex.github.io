@@ -4,7 +4,7 @@ tags: [fe, js]
 
 # Basic JavaScript
 
-Reminder to myself: *No point of copy-pasting documentation*
+> Reminder to myself: No point of copy-pasting documentation
 
 JavaScript has *8 data types*:
 
@@ -22,17 +22,14 @@ Arrays are basically _Objects_. Differences are:
 
 - they have `length` property
 - they inherit from `Array.prototype`, which has a [lot of methods](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#methods)
-- they are created using arrray literal (`[]`)
+- they are created using array literal (`[]`)
 - they have differences when used in JSON
 
 There are confusing methods `slice()` and `splice()`: `slice()` is immutable, `splice()` is mutable
 
-Arrays can be used as Stacks (when using `push` and `pop` methods) & Queues (when using `push` and `shift` methods)
+Arrays can be used as Stacks (when using `push` and `pop` methods) or Queues (when using `push` and `shift` methods). But `shift` and `unshift` are considered slow
 
 |        | start              | end             |
 | ------ | ------------------ | --------------- |
 | add    | `unshift()` (slow) | `push()` (fast) |
 | remove | `shift()` (slow)   | `pop()` (fast)  |
-
-
-

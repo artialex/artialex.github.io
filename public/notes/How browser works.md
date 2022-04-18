@@ -1,5 +1,12 @@
+---
+tags: [fe, wip]
+---
+
 # How browser works
 
+#todo 
+
+<!--
 - Bindings
 - Rendering
 
@@ -48,3 +55,5 @@ https://thisisyuu.github.io/ebook/
 https://hpbn.co/
 
 https://www.bookofspeed.com/
+
+-->

@@ -10,7 +10,8 @@ import { FC } from 'react'
 const MyDocument: FC<DocumentProps> = () => (
   <Html>
     <Head>
-      <link href="https://fonts.googleapis.com/css2?family=Rubik" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Vollkorn" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC" rel="stylesheet" />
     </Head>
     <body className="light-theme">
       <Main />

@@ -1,12 +1,19 @@
+---
+tags: [wip]
+---
+
 # Management
 
-There are multiple points of view on a management process, none of them are the only truth, all of them should be treated equally 
+One can see on the management from different points of view
 
 Widely speaking, management is a way to achieve some *output* from an *input* via some *process*
 
 $$
 Input \xrightarrow{Process} Output
 $$
+
+
+[[Management mental model by Oleg Soroka]]
 
 <!--
 Examples:
@@ -17,28 +24,6 @@ Produced \ Value \xrightarrow{Feedback} New \ Input \\
 Produced \ Value \xrightarrow{Feedback} New \ Process \\
 $$
 -->
-
-## Terms
-
-### Scientific
-
-- [[Streams (Management)|Streams]]
-- [[Levels]]
-- [[Systems]]
-- [[Contexts]]
-- [[Histories]]
-
-### Social
-
-- [[People]]
-- [[Ideas]]
-- [[Goals]]
-
-## Examples
-
-Communications are [[Streams (Management)|streams]] of [[Ideas|ideas]] between [[People|people]]
-
----
 
 ## Who has to be considered a manager?
 
@@ -65,7 +50,9 @@ $$
 - *Output* is a desired result of the *process*
 - *Feedback* is needed to improve the *process*
 
-### Anomaly: No feedback
+Anomaly: *No feedback*. 
+In this case the *process* never changes, even if there are new tools on a market
+
 
 $$
 \def\arraystretch{1.5}\begin{array}{ccc}
@@ -73,9 +60,9 @@ $$
 \end{array}
 $$
 
-In this case the *process* never changes, even if there are new tools on a market
 
-### Anomaly: No Input
+Anomaly: *No Input*.
+In this case the *output* is not based on someone's needs. This happens when the team is deaf to *environment*
 
 $$
 \def\arraystretch{1.5}\begin{array}{cc}
@@ -83,13 +70,9 @@ $$
 \end{array}
 $$
 
-In this case the *output* is not based on someone's needs. This happens when the team is deaf to *environment*
+Anomaly: *Imbalance*. What if the team focuses more on an *input* than on other parts? It leads to losing focus on the other parts
 
-### Anomaly: Disbalance
-
-What if the team focuses more on an *input* than ob other parts? It leads to losing focus on the other parts
-
-- Example: Focus on the backend, when forntend is
+- Example: Focus on the backend, when frontend is of low quality
 
 Understanding of this basic block leads to understanding things like:
 - Development Flow
@@ -98,7 +81,7 @@ Understanding of this basic block leads to understanding things like:
 * Technical things: Hardware, Software
 * Non-technical: People, their interaction
 
-### Artifacts
+## Artifacts
 
 - *Input*: Design thinking sessions, product vision notes
 - *Process*: Task Tracker, scrum/kanban boards

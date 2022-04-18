@@ -94,12 +94,13 @@ label = "Out-tree"
 - :mark[!] Любое дерево является [[Двудольный граф|двудольным графом]]
 -->
 
+
+
+*Trie* is a type of a [[Tree|tree]] that is used for storing characters
+
+::insertion[graph]{type=trie}
+
+
 ---
 
 - [Introduction to Trees](https://www.youtube.com/watch?v=1-l_UOFi1Xw)
-
-# Trie
-
-Trie is a type of a [[Tree|tree]] that is used for storing characters
-
-::insertion[graph]{type=trie}

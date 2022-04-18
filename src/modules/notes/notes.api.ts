@@ -1,4 +1,5 @@
-import { process } from '@/markdown'
+import _ from 'lodash'
+
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 export let notesApi = createApi({
@@ -6,14 +7,22 @@ export let notesApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: '/' }),
 
   endpoints: (builder) => ({
-    getNoteIds: builder.query<any, void>({
+    /**
+     *
+     * Returns note graph
+     */
+    getGraph: builder.query<GetGraphResponse, void>({
       query: () => `graph.json`,
-      transformResponse: (response: { nodes: any[] }) => {
-        console.log('notes.api :: 12', response)
-
-        return response.nodes.map((node) => node.id)
-      },
+      transformResponse: (response: GetGraphRawResponse) => ({
+        nodes: response.nodes,
+        tags: _.countBy(_.compact(_.flatMap(response.nodes, 'tags'))),
+      }),
     }),
+
+    /**
+     *
+     * Returns a note by its id
+     */
     getProcessedNoteById: builder.query({
       query: (id) => ({
         url: `notes/${id}.md`,
@@ -22,10 +31,24 @@ export let notesApi = createApi({
         },
         responseHandler: 'text',
       }),
-
-      // transformResponse: process,
     }),
   }),
 })
 
-export let { useGetProcessedNoteByIdQuery, useGetNoteIdsQuery } = notesApi
+export let { useGetProcessedNoteByIdQuery, useGetGraphQuery } = notesApi
+
+// -- Types ----------------------------------------------------------------------------------------
+
+interface Node {
+  id: string
+  tags: string[]
+}
+
+interface GetGraphRawResponse {
+  nodes: Node[]
+}
+
+interface GetGraphResponse {
+  nodes: Node[]
+  tags: Record<string, number>
+}
