@@ -10,6 +10,7 @@ import { Tags } from '@/notes'
 import _ from 'lodash'
 import { useRouter } from 'next/router'
 import { slugify, unslugify } from '@/platform/slug.utils'
+import Head from 'next/head'
 
 configure({
   components: {
@@ -31,25 +32,31 @@ configure({
 })
 
 export const IndexPage: FC = () => {
-  let { query, replace } = useRouter()
-
-  // let id = query.open || 'Hi'
+  let { query, isReady, replace } = useRouter()
 
   useEffect(() => {
-    if (!query.id) {
+    if (isReady && !query.id) {
       void replace({
         query: {
           id: 'Hi',
         },
       })
     }
-  }, [query.id])
+  }, [isReady, query.id])
 
   if (!query.id) {
     return null
   }
 
-  return <Note id={unslugify(query.id as string)} />
+  return (
+    <>
+      <Head>
+        <title>Garden {query.id && `• ${query.id}`}</title>
+      </Head>
+
+      <Note id={unslugify(query.id as string)} />
+    </>
+  )
 }
 
 interface NoteProps {
@@ -57,7 +64,7 @@ interface NoteProps {
 }
 
 const Note: FC<NoteProps> = ({ id }) => {
-  console.log('index :: 60', id)
+  // console.log('index :: 60', id)
 
   let { data, error, isLoading } = useGetProcessedNoteByIdQuery(id)
 

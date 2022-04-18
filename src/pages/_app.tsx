@@ -1,9 +1,7 @@
 import 'normalize.css'
 import '@/ui/styles/global.scss'
-import Head from 'next/head'
 import type { FC } from 'react'
 import type { AppProps } from 'next/app'
-import { NextQueryParamProvider } from 'next-query-params'
 import { Provider } from 'react-redux'
 
 import { persistor, store } from '@/core/core.store'
@@ -19,9 +17,6 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => (
   <Provider store={store}>
     {/* @ts-ignore Waiting for fix */}
     <PersistGate loading={null} persistor={persistor}>
-      <Head>
-        <title>Garden {pageProps.id && `• ${pageProps.id}`}</title>
-      </Head>
       {/* @ts-ignore Waiting for fix */}
       <Component {...pageProps} />
     </PersistGate>
