@@ -48,5 +48,12 @@ jobs:
     steps:
       - uses: alextheartisan/notify-action@v1
         with:
-          integromat_key: ${{ secrets.INTEGROMAT_KEY }}
-          status: ${{ needs.build.result }}
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            ${{ github.actor }} created commit:
+            Commit message: ${{ github.event.commits[0].message }}
+            
+            Repository: ${{ github.repository }}
+            
+            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
