@@ -8,16 +8,7 @@ import Link from 'next/link'
 import { Combinatorics, Insertion } from '@/insertions'
 import { Tags } from '@/notes'
 import _ from 'lodash'
-
-export const getServerSideProps: GetServerSideProps = async ({ query }) => ({
-  props: {
-    id: query.id,
-  },
-})
-
-interface IndexPageProps {
-  id: string
-}
+import { useRouter } from 'next/router'
 
 configure({
   components: {
@@ -38,8 +29,10 @@ configure({
   },
 })
 
-export const IndexPage: FC<IndexPageProps> = (props) => {
-  let { data, error, isLoading } = useGetProcessedNoteByIdQuery(props.id)
+export const IndexPage: FC = () => {
+  let { query } = useRouter()
+
+  let { data, error, isLoading } = useGetProcessedNoteByIdQuery(query.id)
 
   if (error) {
     return <div>Error: {JSON.stringify(error)}</div>
