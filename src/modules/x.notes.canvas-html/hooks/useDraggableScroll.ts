@@ -2,8 +2,14 @@ import { MouseEventHandler, RefObject, useCallback, useEffect, useRef, useState 
 import { Position } from '@/notes.layout/@types/Posiiton'
 import _ from 'lodash'
 
-export function useDraggableScroll(ref: RefObject<HTMLDivElement>, { onNonDragClick }) {
-  let state = useRef({
+export function useDraggableScroll(ref: RefObject<HTMLDivElement>, { onNonDragClick }: any) {
+  let state = useRef<{
+    startMouseX: number | null
+    startMouseY: number | null
+
+    isDragging: boolean
+    isMouseDown: boolean
+  }>({
     startMouseX: null,
     startMouseY: null,
 
@@ -14,8 +20,8 @@ export function useDraggableScroll(ref: RefObject<HTMLDivElement>, { onNonDragCl
   let [isDragging, setDragging] = useState(false)
 
   let scroll = useCallback((position: Position) => {
-    ref.current.scrollLeft += position.x
-    ref.current.scrollTop += position.y
+    ref.current!.scrollLeft += position.x
+    ref.current!.scrollTop += position.y
   }, [])
 
   let handleMouseDown: MouseEventHandler<HTMLDivElement> = (event) => {
@@ -55,8 +61,8 @@ export function useDraggableScroll(ref: RefObject<HTMLDivElement>, { onNonDragCl
     }
     console.log('move')
 
-    let x = -(event.clientX - state.current.startMouseX)
-    let y = -(event.clientY - state.current.startMouseY)
+    let x = -(event.clientX - state.current.startMouseX!)
+    let y = -(event.clientY - state.current.startMouseY!)
 
     state.current.startMouseX = event.clientX
     state.current.startMouseY = event.clientY

@@ -1,3 +1,5 @@
+export let a = 'nothing'
+/*
 import _ from 'lodash'
 import { NoteId } from '@/notes/@types/Note'
 import create, { GetState, SetState, StateCreator, StoreApi } from 'zustand'
@@ -52,7 +54,7 @@ export const onSet =
       api
     )
 
-/*
+/!*
 export function mw<T extends object>() {
   return function (fn) {
     return function (creator) {
@@ -69,7 +71,7 @@ export function mw<T extends object>() {
     }
   }
 }
-*/
+*!/
 
 // const middleware: Middleware<NoteStore> =
 //   (fn: (state: T) => void) =>
@@ -104,7 +106,7 @@ export const useNote = _.memoize((id: NoteId) =>
   }))
 )
 
-/*
+/!*
 export const useNote =  _.memoize<(id: NoteId) => UseBoundStore<NoteStore>>((id) =>
   create<NoteStore>(
     onNoteUpdate((set) => ({
@@ -114,4 +116,5 @@ export const useNote =  _.memoize<(id: NoteId) => UseBoundStore<NoteStore>>((id)
     }))
   )
 )
+*!/
 */

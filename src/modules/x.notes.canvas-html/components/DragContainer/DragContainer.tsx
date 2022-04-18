@@ -22,7 +22,7 @@ export const DragContainer = () => {
     []
   )
 
-  function handleContainerClick(event) {
+  function handleContainerClick(event: any) {
     deselectAll()
   }
 

@@ -31,14 +31,14 @@ export const DraggableNote: FC<DraggableNoteProps> = memo(({ id }) => {
       }),
 
       end: (a, monitor: DragSourceMonitor) => {
-        let result = monitor.getDropResult()
+        let result = monitor.getDropResult() as any
 
         if (!result) {
           return
         }
 
         if (_.includes(selectedNotes, id)) {
-          selectedNotes.forEach((id) => {
+          selectedNotes.forEach((id: any) => {
             dispatch(setBy({ id, delta: result.delta }))
           })
         } else {
@@ -49,7 +49,7 @@ export const DraggableNote: FC<DraggableNoteProps> = memo(({ id }) => {
     [id, x, y, mode, selectedNotes]
   )
 
-  let handleHeaderClick = (event) => {
+  let handleHeaderClick = (event: any) => {
     event.stopPropagation()
     event.bubbles = false
 
@@ -77,7 +77,7 @@ export const DraggableNote: FC<DraggableNoteProps> = memo(({ id }) => {
       }}
       onClick={handleHeaderClick}
     >
-      <Note id={id} type="canvas" />
+      {/*<Note id={id} type="canvas" />*/}
       <h1 className={css.heading}>{id}</h1>
     </div>
   )

@@ -63,7 +63,7 @@ const FilterTable = (props: any) => {
   )
 }
 
-const insertionMap = {
+const insertionMap: Record<any, any> = {
   backtracking: BacktrackingSearch,
   filtertable: FilterTable,
   observable: Observable,

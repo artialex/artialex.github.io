@@ -17,14 +17,13 @@ import { PersistGate } from 'redux-persist/integration/react'
  */
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => (
   <Provider store={store}>
-    <PersistGate persistor={persistor} loading={<span>Loading...</span>}>
-      <NextQueryParamProvider>
-        <Head>
-          <title>Garden {pageProps.id && `• ${pageProps.id}`}</title>
-        </Head>
-        {/*<Toolbar />*/}
-        <Component {...pageProps} />
-      </NextQueryParamProvider>
+    {/* @ts-ignore Waiting for fix */}
+    <PersistGate loading={null} persistor={persistor}>
+      <Head>
+        <title>Garden {pageProps.id && `• ${pageProps.id}`}</title>
+      </Head>
+      {/* @ts-ignore Waiting for fix */}
+      <Component {...pageProps} />
     </PersistGate>
   </Provider>
 )

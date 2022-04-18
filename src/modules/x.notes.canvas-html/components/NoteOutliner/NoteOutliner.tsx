@@ -15,7 +15,7 @@ export const NoteOutliner = () => {
   let handleAddClick = useCallback(() => dispatch(set({ id: val, position: center })), [val])
   let handleRemoveClick = useCallback((id) => dispatch(remove(id)), [])
   let handleMoveToClick = useCallback((id) => {
-    let [, position] = notes.find(([key]) => key === id)!
+    let [, position] = notes.find(([key]) => key === id)! as any
 
     let element = document.getElementById('container')
 

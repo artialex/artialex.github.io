@@ -1,10 +1,11 @@
 import { FC, memo, useEffect, useState } from 'react'
 import css from './NoteDragPreview.module.scss'
 
-import { Note } from '@/notes.canvas/components/Note'
+// import { Note } from '../c'
 
 interface NoteDragPreviewProps {
   title: string
+  preview: any
 }
 
 export const NoteDragPreview: FC<NoteDragPreviewProps> = memo(({ title }) => {
@@ -18,9 +19,5 @@ export const NoteDragPreview: FC<NoteDragPreviewProps> = memo(({ title }) => {
   }, [])
 */
 
-  return (
-    <div className={css.root}>
-      <Note title={title} preview />
-    </div>
-  )
+  return <div className={css.root}>{/*<Note title={title} preview />*/}</div>
 })

@@ -15,7 +15,7 @@ export const Minimap: FC<MinimapProps> = (props) => {
   let dispatch = useAppDispatch()
   let [open, setOpen] = useState(true)
 
-  let handleMapClick = ({ evt }) => {
+  let handleMapClick = ({ evt }: any) => {
     let element = document.getElementById('container')
 
     element!.scrollLeft = evt.offsetX * MULTIPLIER - window.innerWidth / 2
@@ -30,7 +30,7 @@ export const Minimap: FC<MinimapProps> = (props) => {
       {open && (
         <Stage width={MINIMAP_SIZE} height={MINIMAP_SIZE} onClick={handleMapClick}>
           <Layer>
-            {notes.map(([key, pos]) => (
+            {notes.map(([key, pos]: any) => (
               <Rect
                 key={key}
                 x={pos.x / MULTIPLIER}

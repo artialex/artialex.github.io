@@ -14,12 +14,12 @@ import { PersistConfig } from 'redux-persist/es/types'
 import storage from 'redux-persist/lib/storage'
 
 import { core } from './core.slice'
-import { notes, notesMiddleware } from '@/notes.standard'
+// import { notes, notesMiddleware } from '@/notes.standard'
 import { notesApi } from '@/notes/notes.api'
 
 let reducer = combineReducers({
-  core: core.reducer,
-  notes: notes.reducer,
+  // core: core.reducer,
+  // notes: notes.reducer,
   [notesApi.reducerPath]: notesApi.reducer,
 })
 
@@ -40,7 +40,9 @@ export let store = configureStore({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-    }).concat([notesMiddleware.middleware]),
+    }).concat([
+      // notesMiddleware.middleware
+    ]),
 })
 
 export type AppState = ReturnType<typeof reducer>

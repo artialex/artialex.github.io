@@ -12,7 +12,7 @@ interface TagsProps {
 }
 
 export const Tags: FC<TagsProps> = ({ tags, direction = 'horizontal' }) => {
-  let { data, error, isLoading } = useGetGraphQuery()
+  const { data, error, isLoading } = useGetGraphQuery()
 
   if (!data || isLoading) {
     return <div>Loading...</div>
@@ -20,8 +20,11 @@ export const Tags: FC<TagsProps> = ({ tags, direction = 'horizontal' }) => {
 
   return (
     <ul className={cn(css.root, css[direction])}>
+      {data.tags['2']}
+      {data.tags.map}
+
       {_.difference(_.keys(tags), ignoredTags)
-        .sort((a, b) => data?.tags[b] - data?.tags[a])
+        .sort((a, b) => data.tags[b] - data.tags[a])
         .map((tag) => (
           <li className={css.item} key={tag}>
             <Tag>{tag}</Tag>

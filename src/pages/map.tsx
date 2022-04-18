@@ -4,11 +4,10 @@ import { PageLayout } from '@/core'
 import _ from 'lodash'
 import { useRouter } from 'next/router'
 import { getPrettyTagName, Tags } from '@/notes'
-import { ParsedUrlQuery } from 'querystring'
 
 const MapPage = () => {
-  let { data, error, isLoading } = useGetGraphQuery()
-  let { query } = useRouter()
+  const { data, error, isLoading } = useGetGraphQuery()
+  const { query } = useRouter()
 
   if (!data || isLoading) {
     return <div>Loading...</div>
@@ -27,7 +26,7 @@ const MapPage = () => {
             {query.tag ? (
               <span>
                 <b>{nodes.length}</b> of <b>{data.nodes.length}</b> pages have{' '}
-                <b>#{getPrettyTagName(query.tag)}</b> tag
+                <b>#{getPrettyTagName(query.tag as string)}</b> tag
               </span>
             ) : (
               <span>
