@@ -6,3 +6,6 @@ node_modules
 *.gz
 
 *.private.md
+
+.aux
+.log
