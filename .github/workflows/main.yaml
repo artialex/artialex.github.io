@@ -39,3 +39,14 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./out
           publish_branch: master
+
+  notify:
+    if: always()
+    needs: [ build ]
+    name: Send notification
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: alextheartisan/notify-action@v1
+        with:
+          integromat_key: ${{ secrets.INTEGROMAT_KEY }}
+          status: ${{ needs.build.result }}
