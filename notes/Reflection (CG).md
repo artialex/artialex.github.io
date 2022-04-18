@@ -1,3 +1,7 @@
+---
+tags: [cg]
+---
+
 # Reflection (CG)
 
 There are two kinds of objects, from the perspective of reflecting light: *matte* and *shiny*

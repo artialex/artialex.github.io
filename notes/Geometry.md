@@ -1,3 +1,7 @@
+---
+tags: [geometry]
+---
+
 # Geometry
 
 https://polyhedra.tessera.li/#cuboctahedron

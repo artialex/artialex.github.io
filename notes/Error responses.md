@@ -1,4 +1,10 @@
-**Error responses** should be unified across the applicaiton
+---
+tags: []
+---
+
+# Error responses
+
+Error responses should be unified across the application
 
 
 401 - Unauthorized

@@ -1,11 +1,12 @@
 ---
-tags: [done]
+tags: [linal, done]
+small: true
 ---
 
 # Matrix transposition
 
 $$
-    {\A_{ij}}^T = \A_{ji}
+	{\A_{nm}}^T = \A_{mn}
 $$
 
 $$
@@ -34,7 +35,8 @@ $$
 \EM
 $$
 
-### Properties
+<!--
+Properties
 
 $$
 \BA
@@ -45,3 +47,4 @@ $$
 $$
 
 - $D$: Diagonal matrix
+-->

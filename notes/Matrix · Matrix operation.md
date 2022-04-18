@@ -1,5 +1,6 @@
 ---
-tags: [done]
+tags: [linal, done]
+small: true
 ---
 
 # Matrix · Matrix operation
@@ -8,18 +9,19 @@ $$
 	Matrix \cdot Matrix \to Matrix
 $$
 
-Each element of resulting matrix is a [[Dot product]] of corresponding _row_ and _column_
+Each element of resulting matrix is a [[Dot product|dot product]] of corresponding _row_ and _column_
 
 When multiplying two matrices, $\Green a_{\Green r \times \Green c}$ and $\Blue b_{\Blue r \times \Blue c}$, $\Green c$ and $\Blue r$ should be the same
 
 $$
-\BA
-    \A_{\Green r \times c} \B_{r \times \Blue c} & = \C_{\Green r \times \Blue c}
-    \\
-    c_{ij} &= \sum^b_{k=1} a_{ik}b_{kj}
-\EA
+\A_{\Green r \times c} \B_{r \times \Blue c}  
+= 
+\C_{\Green r \times \Blue c}
 $$
+<!--
+    c_{ij} &= \sum^b_{k=1} a_{ik}b_{kj}
 
+-->
 For square 2D matrices
 
 $$
@@ -32,7 +34,8 @@ $$
 \EM
 $$
 
-### Properties
+<!--
+## Properties
 
 $$
 \BA
@@ -45,14 +48,22 @@ $$
   (\A_1\A_1 \dots \A_n)^T & = {\A_n}^T \dots {\A_2}^T{\A_1}^T
 \EA
 $$
+-->
 
-### Examples
+## Examples
 
 $$
 \BM -4 & 1 \\ 3 & 2 \\ 5 & 5 \EM
 \BM 1 & 3 & 0 \\ 2 & 2 & 5 \EM
  =
 \BM -2 & -10 & 5 \\ 7 & 13 & 10 \\ 15 & 25 & 25 \EM
+$$
+
+$$
+\BM 1 & 3 & 0 \\ 2 & 2 & 5 \EM
+\BM -4 & 1 \\ 3 & 2 \\ 5 & 5 \EM
+=
+undefined
 $$
 
 <!--
@@ -96,7 +107,7 @@ $$
 ```
 -->
 
-### Related
+## Related
 
 - [[Matrix · Vector operation]]
 - [[Linear transformations]]

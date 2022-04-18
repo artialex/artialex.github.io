@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [combinatorics]
 ---
 
 # Combinatorics Tasks
@@ -12,11 +12,9 @@ tags: [done]
 
 3-digit number is ABC, then:
 
-ABC where A is 7 and B is 0-9 and C is 0-9 = $1 * 9 * 9 = 81$
-
-ABC where B is 7 and A is 1-9 and C is 0-9 = $8 * 1 * 9 = 72$
-
-ABC where C is 7 and A is 1-9 and B is 0-9 = $8 * 1 * 9 = 72$
+- ABC where A is 7 and B is 0-6, 8, 9 and C is 0-6, 8, 9 = $1 * 9 * 9 = 81$
+- ABC where B is 7 and A is 1-6, 8, 9 and C is 0-6, 8, 9 = $8 * 1 * 9 = 72$
+- ABC where C is 7 and A is 1-6, 8, 9 and B is 0-6, 8, 9 = $8 * 1 * 9 = 72$
 
 Total is $81 + 72 + 72 = 225$
 

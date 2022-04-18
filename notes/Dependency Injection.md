@@ -1,8 +1,11 @@
-**IoC (Inversion of Control) Container**
+---
+tags: [architecture, spring]
+---
 
-**Dependency Injection**
+# Dependency Injection
 
-**Dependency Inversion**
+- What is IoC?
+- What is dependency inversion?
 
 ---
 

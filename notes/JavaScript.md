@@ -1,32 +1,59 @@
 ---
-tags: [index]
+tags: [fe, js, index]
 ---
 
 # JavaScript
 
-- [[Basic JavaScript]]
-- Asynchronicity
-	- Promises
-	- Event Loop
-- Module systems
-- [[React]]
+## Language
+
+[[Basic JavaScript]]
+
+[[JavaScript asynchronicity|Asynchronicity, Promises and Event Loop]]
+
+Variuos [[npm]] tools that can be hepful
+
+## Libraries
+
+- React
+- Vue
+- Angular
+- Ember
+
+## Architecture principles
+
 - Flux
 
+## Module systems
 
-<!-- 
+- CommonJS
+- AMD
+- ES6 Modules
 
-[[Promises]]
+Elements
+
+- Forms
+  - How to write forms
+  - Form Data, urlencoded, etc...
+
+## Data Fetching
+
+[[AJAX]], [[Websockets]], react-query
+
+## Node
+
+[[Node Streams]]
+
+<!--
 
 [[Front-end performance checklist]]
 [[CSS Shorthands]]
 
 [[Next]]
-[[Web vitals]]
-
 
 [[Node project cheatsheet]]
 
-
+- Event System
+- Width & Height
 
 ## Node
 
@@ -34,11 +61,10 @@ tags: [index]
 
 - [[JavaScript Arrays|Arrays]]
 - [[JavaScript Functions|Functions]]
-- [[JavaScript Modules|Modules]]
 - [[JavaScript Asynchronicity|Asynchronicity]]
 
-Map, Set, WeakMap, WeakSet 
-[[JavaScript Functions|Functions]] 
+Map, Set, WeakMap, WeakSet
+[[JavaScript Functions|Functions]]
 
 - [[How browser works]]
 
@@ -46,44 +72,7 @@ Map, Set, WeakMap, WeakSet
 
 ## [[JavaScript Modules|Modules]]
 
-## Asynchronicity
-
-- [[Event loop]]
-- [[Promises]]
-- Timers
-
-#### So, now, we have 5 ways of controlling code flow:
-
-1.  **Vanilla**. Lots of callbacks. Poor error handling.
-1.  **Promises**. Reduces nesting. Separates success and error callbacks.
-1.  **Rx Observables**. Promises with more chaining. Looks more familiar to
-    functional programmers.
-1.  **Fibers**. Linearizes callbacks. Only works server-side in Node. Meteor and
-    others took this approach. This basically allows you to write async code as
-    if it were synchronous. I couldn't figure out how they worked until I just
-    now when I realized it's actually a C extension.
-1.  **ES6 generators & async/await**. Like fibers. Works in Node 0.11 w/ special
-    flag. Might work in Firefox. Should be supported by all browsers eventually.
-    Supported now through an ES6 transpiler/shim which probably introduces
-    significant overhead to make work. Good error handling.
-
-
-## Node
-
-- [[Streams (Node)]]
-
 ## Performance
-
-## Visualization
-
-- [Seeing circles, sines, and signals](https://jackschaedler.github.io/circles-sines-signals/index.html)
-- http://rokotyan.com/dataviz/
-- https://bl.ocks.org/
-- https://c82.net/
-- https://bost.ocks.org/mike/algorithms/
--->
-
-<!--
 
 ## Browser
 
@@ -139,53 +128,12 @@ https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/
 ---
 
 
-## Окна
 
-Попапы откравыются с помощью `window.open()`
 
-```js
-window.open('http://example.com')
-```
-
-Эти попапы могут менять свой URL и посылать сообщения окну
-
-''Доступ к попапу из окна''
-
-Должно соблюдаться //same origin policy//
-
-```js
-let popup = window.open('about:blank', 'hello', 'width=200;height=200')
-
-popup.document.write("Hello, world!")
-popup.onload = function () {
-	// Do something
-}
-```
-
-''Доступ к окну из попапа''
-
-Делается с помощью `window.opener`
-
-''Закрытие попапа''
-
-Делается с помощью `window.close()`
-
-''Доп. методы''
-
-```js
-window.moveBy()
-window.moveTo()
-window.resizeBy()
-window.resizeTo()
-window.scrollBy()
-window.scrollTo()
-```
-
+- [[Windows & IFrames]]
 -->
 
 ---
-
-## Books
 
 - [You don't know JS](https://github.com/getify/You-Dont-Know-JS)
 - [learn.javascript.ru](http://learn.javascript.ru/)
@@ -200,5 +148,11 @@ window.scrollTo()
 
 https://itnext.io/nodejs-logging-made-right-117a19e8b4ce
 
-
+https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/
 -->
+
+https://exploringjs.com/deep-js/ch_creating-class-instances.html
+
+https://exploringjs.com/tackling-ts/toc.html
+https://www.patterns.dev/
+https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#setting-realistic-goals

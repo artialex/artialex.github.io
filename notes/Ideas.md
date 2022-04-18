@@ -1,8 +1,21 @@
 # Ideas
 
-Идеи целенаправленно отделены от людей (человек ушел из компании, а идея живет)
+## Projects
 
-Какие идеи превалируют -- на таком вы и *уровне* (Лалу)
-Носители идей, идеологи, вирусация идей
+*Auto Pomodoro* timer that is always active
 
-- Идеологии (Agile is an ideology of some kind)
+- No need to automatically turn on
+- Ability to set up schedule
+- 25-5, 50-10
+
+*History* - view at the history with a timeline, ability to compare different events in the history
+
+*Boox* for working with books, documents, annotations, and notes
+
+*Limbo* is a project for testing various approaches, basically a frankenstein
+
+*Diagrams* for quick drawing of simple diagrams
+
+## Technical
+
+*Generators* is a collection of variuos shortcuts to quickly create a project, module or component, or to add prettier support, etc.

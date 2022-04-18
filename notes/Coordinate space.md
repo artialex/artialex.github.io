@@ -1,5 +1,6 @@
 ---
-tags: [done]
+tags: [linal, done]
+small: true
 ---
 
 # Coordinate space

@@ -1,3 +1,7 @@
+---
+tags: [fe]
+---
+
 # Web vitals
 
 ## First Input Delay (FID)

@@ -1,10 +1,14 @@
-**Exceptions** can be throwed:
+---
+tags: [java]
+---
 
-- explicitly using `throw` keyword
-- by method or constructor
-- by JVM itself
+# Exceptions
 
-Hierarchy
+Difference between Errors and Exceptions: Exception is something unexpected, Error is something expected
+
+*Exceptions* can be throwed explicitly using `throw` keyword or by method or constructor or by JVM itself
+
+Exceptions hierarchy
 
 - `Throwable` is a base class for all exceptions
 	- `Exception` is the superclass of all *normal* exceptions

@@ -1,3 +1,7 @@
+---
+tags: [db]
+---
+
 # SQL
 
 - Scheme

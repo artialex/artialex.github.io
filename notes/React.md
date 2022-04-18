@@ -1,4 +1,6 @@
-
+---
+tags: [fe, js]
+---
 
 # React
 
@@ -8,7 +10,7 @@ $$
 
 ## [[Component, Instance & Element]]
 
-## Reconciliation
+## [[Reconciliation]]
 Reconciliation is a process of finding the diff between old node tree and new node tree
 
 $$
@@ -25,3 +27,6 @@ They provide a way to schedule, pause and abort the work
 $$
 	\text{Render}(diff): VDOM \to DOM
 $$
+
+
+## [[Hooks]]

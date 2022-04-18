@@ -1,8 +1,16 @@
+---
+tags: [ds, graph, tree, wip]
+---
+
 # Binary tree
 
-Двоичное дерево -- это дерево, у узлов которых максимум два дочерних узла
+Nodes in a _binary tree_ contain maximum two child nodes
 
-Также соответствующая структура данных
+Unbalanced tree
+
+<!--
+::insertion[observable]{src="https://observablehq.com/embed/@xlvl/untitled/2?cells=a"}
+-->
 
 ```
 class Node<T> {
@@ -12,25 +20,9 @@ class Node<T> {
 }
 ```
 
-viz:
-:::
-graph {
-bgcolor = transparent
-fontname = Nunito
-fontsize = 10
-node [
-fixedsize = true
-shape = circle
-width = .3
-fontname = Nunito
-fontsize = 0
-]
-a -- {b c}
-b -- {d e}
-c -- {f g}
-}
-:::
+Universal value tree
 
-### Типы
 
-- Universal value tree
+---
+
+- https://adrianmejia.com/self-balanced-binary-search-trees-with-avl-tree-data-structure-for-beginners/

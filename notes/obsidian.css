@@ -1,5 +1,4 @@
-.theme-light
-{
+.theme-light {
   --background-inline-code: rgb(240, 240, 240);
   --background-nav-alt: rgb(58, 62, 63);
   --background-nav-file-tag: rgb(203, 77, 73);
@@ -10,8 +9,12 @@
   --border-inline-code: rgb(215, 215, 215);
   --code-block-background: #ffffff;
   --code-block-border: #92a1a17a;
-  --font-family-editor: Avenir, "Avenir Next", "Avenir Next Cyr", 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
-  --font-family-preview: Avenir, "Avenir Next", "Avenir Next Cyr", 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+  --font-family-editor: Avenir, 'Avenir Next', 'Avenir Next Cyr', 'Inter', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Microsoft YaHei Light', sans-serif;
+  --font-family-preview: Avenir, 'Avenir Next', 'Avenir Next Cyr', 'Inter', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Microsoft YaHei Light', sans-serif;
   --interactive-accent: rgb(203, 77, 73);
   --text-accent: rgb(203, 77, 73);
   --text-faint: rgb(150, 150, 150);
@@ -34,8 +37,8 @@
   --border-inline-code: rgb(76, 76, 76);
   --code-block-background: rgb(32, 32, 32);
   --code-block-border: rgb(77, 77, 77);
-  --font-family-editor: Avenir, "Avenir Next";
-  --font-family-preview: Avenir, "Avenir Next";
+  --font-family-editor: Avenir, 'Avenir Next';
+  --font-family-preview: Avenir, 'Avenir Next';
   --interactive-accent: rgb(116, 190, 247);
   --text-accent: rgb(116, 190, 247);
   --text-faint: rgb(150, 150, 150);
@@ -48,7 +51,7 @@
 }
 
 /* header colors */
-.cm-header, 
+.cm-header,
 .markdown-preview-view h1,
 .markdown-preview-view h2,
 .markdown-preview-view h3,
@@ -60,7 +63,7 @@
 
 /* Changing size/color of the header hashtags ## */
 .cm-formatting-header {
-	color: var(--text-faint);
+  color: var(--text-faint);
   font-size: 0.6em;
 }
 
@@ -71,9 +74,9 @@
 
 /* Headers in editor - hide the #'s */
 /* .cm-formatting-header-1, .cm-formatting-header-2, .cm-formatting-header-3, .cm-formatting-header-4, .cm-formatting-header-5, .cm-formatting-header-6, .cm-formatting-header-7 {
-  visibility: hidden; 
-  position: relative; 
-  width: 20px; 
+  visibility: hidden;
+  position: relative;
+  width: 20px;
   display: inline-block;
 } */
 
@@ -114,14 +117,9 @@
   font-size: 0.6em;
 }
 
-
-
-
-
-
-
 /* Wrap long nav text */
-.nav-file-title, .nav-folder-title {
+.nav-file-title,
+.nav-folder-title {
   white-space: normal;
 }
 
@@ -137,15 +135,16 @@
 }
 
 /* The name of the vault */
-.nav-folder.mod-root > .nav-file-title, .nav-folder.mod-root > .nav-folder-title {
+.nav-folder.mod-root > .nav-file-title,
+.nav-folder.mod-root > .nav-folder-title {
   color: var(--text-nav);
 }
 
 /* Color of left nav tree text */
-.nav-file-title, .nav-folder-title {
+.nav-file-title,
+.nav-folder-title {
   color: var(--text-nav);
 }
-
 
 /* New top tabs */
 .workspace-tabs {
@@ -165,9 +164,9 @@
 }
 
 /* Background color of unselected tabs */
-.workspace-tab-container-before.is-before-active .workspace-tab-header-inner, 
-.workspace-tab-container-after.is-after-active .workspace-tab-header-inner, 
-.workspace-tab-header.is-before-active .workspace-tab-header-inner, 
+.workspace-tab-container-before.is-before-active .workspace-tab-header-inner,
+.workspace-tab-container-after.is-after-active .workspace-tab-header-inner,
+.workspace-tab-header.is-before-active .workspace-tab-header-inner,
 .workspace-tab-header.is-after-active .workspace-tab-header-inner {
   background-color: var(--background-nav-alt);
 }
@@ -178,7 +177,7 @@
 }
 
 /* resize handle coloring */
-.workspace-leaf-resize-handle {;
+.workspace-leaf-resize-handle {
   background-color: transparent;
 }
 
@@ -211,17 +210,17 @@
 }
 
 /* Left nav ribbon background-color */
-.side-dock-ribbon-before.is-before-active, 
-.side-dock-ribbon-after.is-after-active, 
-.side-dock-ribbon-tab.is-before-active, 
+.side-dock-ribbon-before.is-before-active,
+.side-dock-ribbon-after.is-after-active,
+.side-dock-ribbon-tab.is-before-active,
 .side-dock-ribbon-tab.is-after-active {
   background-color: var(--background-nav);
 }
 
 /* Left nav ribbon background-color */
-.side-dock-ribbon-before.is-before-active .side-dock-ribbon-tab-inner, 
-.side-dock-ribbon-after.is-after-active .side-dock-ribbon-tab-inner, 
-.side-dock-ribbon-tab.is-before-active .side-dock-ribbon-tab-inner, 
+.side-dock-ribbon-before.is-before-active .side-dock-ribbon-tab-inner,
+.side-dock-ribbon-after.is-after-active .side-dock-ribbon-tab-inner,
+.side-dock-ribbon-tab.is-before-active .side-dock-ribbon-tab-inner,
 .side-dock-ribbon-tab.is-after-active .side-dock-ribbon-tab-inner {
   background-color: var(--background-nav-alt);
 }
@@ -243,29 +242,29 @@
 }
 
 /* Background and text color of selected item in left nav tree */
-.nav-file.is-active > .nav-file-title, 
-.nav-file.is-active > .nav-folder-title, 
-.nav-file.is-active > .nav-folder-collapse-indicator, 
-.nav-folder.is-active > .nav-file-title, 
-.nav-folder.is-active > .nav-folder-title, 
+.nav-file.is-active > .nav-file-title,
+.nav-file.is-active > .nav-folder-title,
+.nav-file.is-active > .nav-folder-collapse-indicator,
+.nav-folder.is-active > .nav-file-title,
+.nav-folder.is-active > .nav-folder-title,
 .nav-folder.is-active > .nav-folder-collapse-indicator {
   background-color: var(--background-nav-selected);
   color: var(--text-nav-selected);
 }
 
 /* Background and text color of selected item in left nav tree - when hovering */
-.nav-file.is-active > .nav-file-title:hover, 
-.nav-file.is-active > .nav-folder-title:hover, 
-.nav-file.is-active > .nav-folder-collapse-indicator:hover, 
-.nav-folder.is-active > .nav-file-title:hover, 
-.nav-folder.is-active > .nav-folder-title:hover, 
+.nav-file.is-active > .nav-file-title:hover,
+.nav-file.is-active > .nav-folder-title:hover,
+.nav-file.is-active > .nav-folder-collapse-indicator:hover,
+.nav-folder.is-active > .nav-file-title:hover,
+.nav-folder.is-active > .nav-folder-title:hover,
 .nav-folder.is-active > .nav-folder-collapse-indicator:hover {
   background-color: var(--text-accent);
   color: var(--text-nav-selected);
 }
 
 /* Background and text color of hovered item in left nav tree */
-body:not(.is-grabbing) .nav-file-title:hover, 
+body:not(.is-grabbing) .nav-file-title:hover,
 body:not(.is-grabbing) .nav-folder-title:hover {
   background-color: var(--background-secondary-alt);
   color: var(--text-nav-selected);
@@ -285,7 +284,7 @@ body:not(.is-grabbing) .nav-folder-title:hover {
 }
 
 /* Left Nav menu item - hover background color of the collapse/expand arrow */
-body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator, 
+body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator,
 body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
   background-color: var(--background-nav-alt);
 }
@@ -326,20 +325,19 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
   color: var(--text-accent);
 }
 
-
 /* Font for the markdown source panel */
 div.markdown-source-view {
-	font-family: var(--font-family-editor);
+  font-family: var(--font-family-editor);
 }
 
 /* Font for the markdown preview panel */
 div.markdown-preview-view {
-	font-family: var(--font-family-preview);
+  font-family: var(--font-family-preview);
 }
 
 /* Coloring the list bullets/numbers */
 .cm-s-obsidian span.cm-formatting-list {
-	color: var(--text-accent);
+  color: var(--text-accent);
   font-size: 0.85em;
   font-weight: 500;
   font-family: var(--font-monospace);
@@ -399,7 +397,7 @@ div.markdown-preview-view {
   border-radius: 4px;
   border: 1px solid var(--code-block-border);
   white-space: pre-wrap;
-  line-height: 1.0em;
+  line-height: 1em;
 }
 
 /* Unset the background and font weight from where we set it for inline code */
@@ -410,16 +408,16 @@ div.markdown-preview-view {
 
 /* Code block border color */
 .cm-s-obsidian div.HyperMD-codeblock-begin-bg {
-	border-top: 1px solid var(--code-block-border);
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
+  border-top: 1px solid var(--code-block-border);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 /* Code block border color */
 .cm-s-obsidian div.HyperMD-codeblock-end-bg {
-	border-bottom: 1px solid var(--code-block-border);
-	border-bottom-left-radius: 4px;
-	border-bottom-right-radius: 4px;
+  border-bottom: 1px solid var(--code-block-border);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 /* Code block background color */
@@ -435,23 +433,25 @@ div.markdown-preview-view {
 
 /* Code block top padding */
 .cm-s-obsidian pre.HyperMD-codeblock-begin {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 /* Code block bottom padding */
 .cm-s-obsidian pre.HyperMD-codeblock-end {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 /* Code block left and right border colors */
 .cm-s-obsidian div.HyperMD-codeblock-bg {
-	border-left: 1px solid var(--code-block-border);
-	border-right: 1px solid var(--code-block-border);
+  border-left: 1px solid var(--code-block-border);
+  border-right: 1px solid var(--code-block-border);
 }
 
 /* Enable wrapping of code blocks in the preview panel */
-.theme-light code[class*="language-"], .theme-light pre[class*="language-"],
-.theme-dark code[class*="language-"], .theme-dark pre[class*="language-"] {
+.theme-light code[class*='language-'],
+.theme-light pre[class*='language-'],
+.theme-dark code[class*='language-'],
+.theme-dark pre[class*='language-'] {
   white-space: pre-wrap;
   background-color: var(--code-block-background);
 }
@@ -462,40 +462,40 @@ div.markdown-preview-view {
 } */
 
 /* Tag pillbox - common settings for editor left, editor right and preview */
-.cm-s-obsidian span.cm-hashtag-begin, 
+.cm-s-obsidian span.cm-hashtag-begin,
 .cm-s-obsidian span.cm-hashtag-end,
 a.tag {
   background-color: var(--background-tag);
   color: var(--text-nav-selected);
   padding-bottom: 2px;
   padding-top: 2px;
-	text-decoration: none;
+  text-decoration: none;
   font-family: var(--font-family-editor);
   font-size: 0.9em;
 }
 
 /* Tag editor left side pillbox */
 .cm-s-obsidian span.cm-hashtag-begin {
-	border-top-left-radius: 25px;
-	border-bottom-left-radius: 25px;
-	padding-left: 8px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding-left: 8px;
 }
 
 /* Tag editor right side pillbox */
 .cm-s-obsidian span.cm-hashtag-end {
-	border-top-right-radius: 25px;
-	border-bottom-right-radius: 25px;
-	padding-right: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-right: 10px;
 }
 
 /* Tag preview pillbox */
 a.tag {
-	border-top-left-radius: 250px;
-	border-top-right-radius: 250px;
-	border-bottom-left-radius: 250px;
-	border-bottom-right-radius: 250px;
-	padding-left: 10px;
-	padding-right: 12px;
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
+  padding-left: 10px;
+  padding-right: 12px;
 }
 
 /* Add a tiny bit of padding to the link brackets and parenthesis */
@@ -568,7 +568,8 @@ a.tag {
 }
 
 /* Remove the border, padding, and margin for the transcludes/embeds */
-.markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
+.markdown-preview-view .markdown-embed,
+.markdown-preview-view .file-embed {
   border: 0px;
   padding: 0;
   margin: 0;
@@ -585,17 +586,14 @@ a.tag {
   padding-right: unset;
 }
 
-
-/* 
-Try to support content in the navs... this is difficult because this theme is a 
+/*
+Try to support content in the navs... this is difficult because this theme is a
 split of dark and light. So content in the main pane should be light mode, while content
 in the left pane should be dark mode
 */
 /* .workspace-tabs .view-content {
   color: var(--text-nav);
 } */
-
-
 
 /* input[type=checkbox] {
   -webkit-appearance: none;
@@ -615,7 +613,6 @@ input[type=checkbox]:checked {
   background-repeat: no-repeat;
   background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
 } */
-
 
 /* ======================================================== */
 /* Checkbox stuff,  */
@@ -637,9 +634,9 @@ input[type=checkbox]:checked {
   filter: grayscale(1);
 } */
 
-/* 
+/*
   Checked, set emoji icon to red to match red graphite accent
-  Note: 
+  Note:
     hue-rotate makes ✅ a red checkbox, but depends on source color,
     so you can't just swap in another emojie icon and have it be red
 */

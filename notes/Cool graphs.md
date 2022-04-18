@@ -1,3 +1,7 @@
+---
+tags: [graph]
+---
+
 # Cool graphs
 
 viz: neato

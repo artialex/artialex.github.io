@@ -1,17 +1,16 @@
 ---
-tags: [done]
+tags: [linal, done]
+aliases: [Mirroring]
 ---
 
 # Reflection
 
-::aliases[Mirroring]
-
-## 2D
+Reflection formula
 
 $$
 \BA
-	R_x = \BM 1 & 0 \\ 0 & -1 \EM \quad \quad
-	R_y = \BM -1 & 0 \\ 0 & 1 \EM
+	R_x = \BM 1 & \dn \\ \dn & -1 \EM \quad \quad
+	R_y = \BM -1 & \dn \\ \dn & 1 \EM
 \EA
 $$
 
@@ -24,7 +23,7 @@ $$
 />
 -->
 
-::reflection
+<!-- ::reflection -->
 
 <!--
 ## 3D

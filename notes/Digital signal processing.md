@@ -1,6 +1,8 @@
-# Digital Signal Processing
+---
+tags: [wip]
+---
 
-::aliases[DSP]
+# Digital Signal Processing
 
 **Signal** is the description of the *evolution of a physical phenomenon*. How to describe weather? Measure the temperature. How to describe a sound? Measure the pressure wave or a magnetic deviation. A black-white photograph is a light intensity of a gray levels on a paper
 
@@ -10,7 +12,7 @@
 
 <!-- Sampling Theorem -->
 
-### Discretization
+## Discretization
 
 - [[Sampling]] is the discretization of time
 - [[Quantization]] is the discretization of amplitude

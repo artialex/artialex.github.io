@@ -1,4 +1,10 @@
+---
+tags: [cg]
+---
+
 # Rasterization
+
+Rasterization is the process of filling in the horizontal spans of pixels belonging to a primitive
 
 $$
 \BA
@@ -7,8 +13,10 @@ $$
 \EA
 $$
 
-*Rasterization* is the process of filling in the horizontal spans of pixels belonging to a primitive
+Rasterization _fragment_ is the information about one pixel containing the depth, interpolated vertex colors, interpolated texture coordinates and location of the pixel
 
-## Rasterization fragment
+<!--
 
-Rasterization *fragment* is the information about one pixel containing the depth, interpolated vertex colors, interpolated texture coordinates and location of the pixel
+Растеризация --- это подобие реальной отрисовки (аппроксимация), а трассировка лучей --- это более сложный и более реально выглядящий алгоритм (канонический)
+
+-->

@@ -1,2 +1,0 @@
-# Cloth simulation
-- [[ODE]]

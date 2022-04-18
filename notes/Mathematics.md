@@ -1,33 +1,32 @@
 ---
-tags: [map]
+tags: [map, ignore]
 ---
 
 # Mathematics
 
-- [[Mathematical notation]]
+[[What are the numbers]]
 
-## Basics
+[[Linear algebra]]
 
-- [[Numbers]]
+[[A little about combinatorics]]
+
+<!--
 
 ## Spaces
 
 - [[Geometry]]
-	- [[Angles]]
+  - [[Angles]]
 
-<!--
 - [[Trigonometry]]
--->
-
 - [[Linear algebra]]
+
 
 ## Structures
 
-- [[Combinatorics]]
+
 - [[Set theory]]
 - [[Graph theory]]
 
-<!-- Propability theory -->
 
 ## Analysis
 
@@ -36,8 +35,6 @@ tags: [map]
 ## Applied
 
 - [[Probability]]
-
-<!--
 
 - Statistics
 - [[Computer Science]]
@@ -50,9 +47,6 @@ tags: [map]
 - Differential
 - Invariant/Countervariant/Covariant
 
--->
-
-<!--
 - Фракталы
 - Топология
 - Теория измерений
@@ -105,5 +99,5 @@ https://github.com/EbookFoundation/free-programming-books/blob/master/free-progr
 - https://github.com/nbro/understanding-math
 - http://www-math.mit.edu/~djk/calculus_beginners/
 - https://mathigon.org/
-
+- https://www.youtube.com/watch?v=pTnEG_WGd2Q
 -->

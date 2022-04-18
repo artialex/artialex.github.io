@@ -1,3 +1,7 @@
+---
+tags: [management]
+---
+
 # Fifth Discipline. Summary
 
 - Today's problems are the result of yesterday's decisions

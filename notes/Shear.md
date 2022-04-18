@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [linal, done]
 ---
 
 # Shear
@@ -9,12 +9,12 @@ tags: [done]
 $$
 H_x(\lambda) =
 \begin{bmatrix}
-1 & \lambda \\ 0 & 1
+1 & \lambda \\ \dn & 1
 \end{bmatrix}
 ;
 H_y(\lambda) =
 \begin{bmatrix}
-1 & 0 \\ \lambda & 1
+1 & \dn \\ \lambda & 1
 \end{bmatrix}
 $$
 
@@ -30,8 +30,8 @@ $$
 $$
 H_{xz}(\lambda) =
 \begin{bmatrix}
-1 & 0 & \lambda \\
-0 & 1 & 0 \\
-0 & 0 & 1 \\
+1 & \dn & \lambda \\
+\dn & 1 & \dn \\
+\dn & \dn & 1 \\
 \end{bmatrix}
 $$

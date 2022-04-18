@@ -2,7 +2,7 @@
 tags: [done]
 ---
 
-# Package by feature, not layer
+# Package by feature not layer
 
 One of the most sacred knowledge I obtained in my first year on the job. Every tutorial back then used file structure that contained directories `html`, `css` and `js` (with variations like `styles` and `scripts`) thus having a _layer-as-first-level_ architecture. This is also the structure that most modern frameworks offer by default
 
@@ -26,5 +26,5 @@ This is one of the most important architectural patterns
 - [Structuring React and Redux applications](https://blog.sapegin.me/all/react-structure) by Artyom Sapegin
 - [Learning Code Readability](https://medium.com/@egonelbre/learning-code-readability-a80e311d3a20)
 - [PBF (Package by Feature), no more PBL (Package by Layer)](https://medium.com/mindorks/pbf-package-by-feature-no-more-pbl-package-by-layer-50b8a9d54ae8)
-- [🇷🇺]&nbsp;[Организация файлов по фичам, а не техническим аспектам](http://andrew-r.ru/notes/features-not-tech-aspects/) by Andrew Romanov
-- [Hexagonal architecture](https://www.youtube.com/watch?v=sOaS83Ir8Ck) 📽
+- [[RU] Organizing files by features and not by technical aspects](http://andrew-r.ru/notes/features-not-tech-aspects/) by Andrew Romanov
+- [📺 Hexagonal architecture](https://www.youtube.com/watch?v=sOaS83Ir8Ck)

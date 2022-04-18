@@ -1,3 +1,7 @@
+---
+tags: [algo]
+---
+
 # Backtracking search
 
 Method of solving tasks where the check of all possible options is required (brute force)
@@ -9,8 +13,14 @@ Allows to solve tasks like sudoku, crosswords, 8 Queens, rucksack, and tasks wit
 - Is there a way to...
 - Is there an object like...
 
+<!--
 ::backtracking
+-->
 
----
+Example: Eight Queens puzzle
 
+::insertion[backtracking]
+
+<!--
 - http://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf
+-->

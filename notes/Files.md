@@ -1,12 +1,14 @@
 ---
-tags: [wip]
+tags: [os, wip]
 ---
 
 # Files
 
-There are directories, common files and executable files
+There are _directories_, _common files_ and _executable files_
 
 Files have 3 types of operations: _reading_ (`r`), _writing_ (`w`) and _executing_ (`x`). For directories executing means permission to enter it and search its files
+
+<!--
 
 ## File descriptors
 
@@ -33,3 +35,5 @@ Directories are the way of grouping files
 ## Channels
 
 {{Каналы}}
+
+-->

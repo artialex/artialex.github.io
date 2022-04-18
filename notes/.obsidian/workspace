@@ -1,15 +1,38 @@
 {
   "main": {
-    "id": "18eb2bc40aa43555",
+    "id": "a728d7222303ca63",
     "type": "split",
     "children": [
       {
-        "id": "fc3d69663d74ca0e",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
+        "id": "e9e2566dc8e7498e",
+        "type": "split",
+        "children": [
+          {
+            "id": "5915c14ef20b1e3d",
+            "type": "leaf",
+            "dimension": 19.635036496350363,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Дух.private.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "2c068b4e304cc0c9",
+            "type": "leaf",
+            "dimension": 80.36496350364963,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Different function types.md",
+                "mode": "source"
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -36,11 +59,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#index",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -50,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280,
+    "width": 337,
     "collapsed": true
   },
   "right": {
@@ -67,14 +90,31 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Different function types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
+            }
+          },
+          {
+            "id": "762c28d12a40146e",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f675b10f3ba19e2a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
@@ -84,17 +124,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fc3d69663d74ca0e",
+  "active": "2c068b4e304cc0c9",
   "lastOpenFiles": [
-    "JavaScript.md",
-    "How I write Front-End.md",
-    "Front-end Programming.md",
-    "Basic JavaScript.md",
-    "JavaScript Arrays.md",
-    "Naming variables.md",
-    "JavaScript Types.md",
-    "React.md",
-    "Productivity.md",
-    "Java.md"
+    "Different function types.md",
+    "What are the numbers.md",
+    "Дух.private.md",
+    "Loudest guy driven decisions.md",
+    "Rule of one new thing.md",
+    "JPA.md",
+    "Notes on DDD.md",
+    "Open-source applications.md",
+    "Backend Github Applications.md",
+    "JavaScript asynchronicity.md"
   ]
 }

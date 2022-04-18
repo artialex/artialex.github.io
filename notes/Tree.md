@@ -1,8 +1,14 @@
+---
+tags: [ds, graph, tree]
+---
+
 # Tree
 
-Tree is a graph
+Tree is a sub-type of a [[Graph|graph]]
 
-Forest is a set of trees
+_Forest_ is a set of trees
+
+[[Binary tree]] is a common data structure
 
 <!--
 
@@ -82,11 +88,18 @@ label = "Out-tree"
 }
 }
 :::
--->
 
 ### Заметки
 
 - :mark[!] Любое дерево является [[Двудольный граф|двудольным графом]]
+-->
+
+
+
+*Trie* is a type of a [[Tree|tree]] that is used for storing characters
+
+::insertion[graph]{type=trie}
+
 
 ---
 

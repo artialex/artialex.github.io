@@ -1,5 +1,6 @@
 ---
-tags: [done]
+tags: [linal]
+small: true
 ---
 
 # Matrix · Vector operation
@@ -24,39 +25,37 @@ A x = \BM
 \EM
 $$
 
-For 2D matrix
-
 $$
-    \BM
-        a_{11} &a_{12} \\
-        a_{21} & a_{22}
-    \EM
-    \BM x_1 \\ x_2 \EM
-    =
-    \BM
-        a_{11}  x_1 + a_{12}  x_2 \\
-        a_{21}  x_1 + a_{22}  x_2
-    \EM
-$$
-
-For 3D matrix
-
-$$
-    \BM
-        a_{11} & a_{12} & a_{13} \\
-        a_{21} & a_{22} & a_{23} \\
-        a_{31} & a_{32} & a_{33}
-    \EM
-    \BM x_1 \\ x_2 \\ x_3 \EM
-    =
-    \BM
-        a_{11} x_1 + a_{12} x_2 + a_{13} x_3 \\
-        a_{21} x_1 + a_{22} x_2 + a_{23} x_3 \\
-        a_{31} x_1 + a_{32} x_2 + a_{33} x_3
-    \EM
+\text{2D: }
+\BM
+    a_{11} &a_{12} \\
+    a_{21} & a_{22}
+\EM
+\BM x_1 \\ x_2 \EM
+=
+\BM
+    a_{11}  x_1 + a_{12}  x_2 \\
+    a_{21}  x_1 + a_{22}  x_2
+\EM
+\quad
+\quad
+\quad
+\text{3D: }
+\BM
+    a_{11} & a_{12} & a_{13} \\
+    a_{21} & a_{22} & a_{23} \\
+    a_{31} & a_{32} & a_{33}
+\EM
+\BM x_1 \\ x_2 \\ x_3 \EM
+=
+\BM
+    a_{11} x_1 + a_{12} x_2 + a_{13} x_3 \\
+    a_{21} x_1 + a_{22} x_2 + a_{23} x_3 \\
+    a_{31} x_1 + a_{32} x_2 + a_{33} x_3
+\EM
 $$
 
-### Impossible operations
+## Impossible operations
 
 Number of _rows_ does not match with the number of _columns_
 
@@ -72,6 +71,6 @@ $$
     \EA
 $$
 
-### Related
+## Related
 
 - [[Matrix · Matrix operation]]

@@ -1,10 +1,12 @@
-::tags[#done]
+---
+tags: [wip]
+---
+
 # Cartesian product
 
 $$
 Set_{\{x\}} \times Set_{\{y\}} \rightarrow Set_{\{x, y\}}
 $$
-
 
 $$
 A \times B
@@ -27,13 +29,4 @@ $$
 \end{array}
 $$
 
-### Properties
-
-$$
-	A \times B \neq B \times A
-$$
-
-### Examples 
-
-- a deck of cards
-- a 2D-coordinate system
+Examples: a deck of cards, a 2D-coordinate system

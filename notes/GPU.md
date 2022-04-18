@@ -1,6 +1,10 @@
+---
+tags: [hardware]
+---
+
 # GPU
 
-::aliases[Graphic Processor Unit]
+Stands for **G**raphic **P**rocessor **U**nit
 
 - Shader processors
 - Cache

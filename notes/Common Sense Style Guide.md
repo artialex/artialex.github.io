@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [orphan]
 ---
 
 # Common Sense Style Guide

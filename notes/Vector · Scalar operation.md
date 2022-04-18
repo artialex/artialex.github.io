@@ -1,5 +1,6 @@
 ---
-tags: [done]
+tags: [linal, done]
+small: true
 ---
 
 # Vector · Scalar operation
@@ -26,7 +27,7 @@ $$
 />
 -->
 
-### Properties
+Properties
 
 $$
 \BA

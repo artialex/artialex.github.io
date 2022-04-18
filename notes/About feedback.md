@@ -1,8 +1,13 @@
+---
+tags: [management, wip]
+---
+
 # About feedback
 
-Feedback is the most important thing in any kind of work
+Collecting feedback is a very important process in any kind of work
 
-If there is no feedback there is no way to know what is going wrong
+> If there is no feedback there is no way to know what is going wrong
+<!--
 
 - [[PDCA]]
 
@@ -28,7 +33,6 @@ If there is no feedback there is no way to know what is going wrong
 
 [One Hacker Way](https://youtu.be/2u0sNRO-QKQ?t=696)
 
-<!--
 ## Как мы даем "обратную связь"
 
 В нашей компании 2 типа игроков - новички (меньше 3 месяцев в компании) и старожилы (соответственно, больше 3 месяцев)

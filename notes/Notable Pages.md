@@ -1,3 +1,7 @@
+---
+tags: [ignore]
+---
+
 # Notable Pages
 
 - [[Dot product]]

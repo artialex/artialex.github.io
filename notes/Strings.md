@@ -1,7 +1,7 @@
 # Strings
 
 - Strings are _immutable_
-- Literals could be compared with `==`
+- Literals can be compared with `==`
   - Non-literals should be compared with `equals()`
   - `equalsIgnoreCase()`
 - Literals are created inside _String Pool_

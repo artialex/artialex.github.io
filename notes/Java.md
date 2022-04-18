@@ -1,122 +1,73 @@
 ---
-tags: [index]
+tags: [java, index]
 ---
 
 # Java
 
-- Basic Java
-	- Collections
-	- Functional elements
-- Concurrency
-	- Threads & Runnable
-- Data Access
-	- JDBC & JPA
-	- Hibernate
-- Spring Framework
-	- Spring Boot
-- Advanced concepts
-	- Deployment
+## Language
 
-Java is _multi-paradigm_ (but OOP focused) _statically typed_ _general purpose_ language
+Basic knowledge:
 
-- [[Java Abbreviations|JVM]] includes _Interpreter_, _JIT-compiler_, _Verifier_, etc...
-  - Oracle JVM is named "HotSpot"
-- [[Java Abbreviations|JRE]] includes **JVM** and _Standard Library_ (or _ClassLib_)
-- [[Java Abbreviations|JDK]] includes **JRE** and _Dev Tools_
+- Various [[Values & Value Types|value types]] Java has
+- How [[Java Objects|objects]] work
+- How to deal with [[Exceptions|exceptions]]
 
-## Basics
+Advanced knowledge:
 
-- [[Values & Value Types]]
-- [[Arrays]]
-- Value types
-  - [[Numbers (Java)]]
-  - [[Strings]]
-  - [[Booleans]]
-- Inheritance
-  - [[Methods]]
-    - Overriding
-  - [[Classes]]
-  - [[Interfaces]]
-  - [[Enums]]
-- [[Collections]]
-- [[Concurrency]]
-  - [[Threads]]
-- [[Functional elements]]
-  - [[Functional interfaces]]
-  - [[Optionals]]
-  - [[Streams (Java)]]
-- IO
-  - Files
-  - Networking
-  - Sockets
+- Using [[Java OOP Elements|OOP elements]]
+- Grouping elements using [[Java Arrays|arrays]] or [[Java Collections|collections]]
+- Working with [[Java Concurrency|concurrency]]
+- [[Functional elements in Java]]
+- [[Java API]]
 
-## Advanced
+## Platform
 
-- JAR
-- RPC, RMI
-- Security
-- Deployment
-- Unsafe
-- Reflection
+_Java Virtual Machine (JVM)_ includes _Interpreter_, _JIT-compiler_, _Verifier_, etc.... Oracle JVM is named "HotSpot"
 
-%%
+_Java Runtime Environment (JRE)_ includes **JVM** and _Standard Library_ (or _ClassLib_)
 
-## Variable Level
+_Java Development Kit (JDK)_ includes **JRE** and _Dev Tools_
 
-- Literals
+Java has several editions: Java SE (Standard Edition), Java ME (Micro Edition, used for mold mobile devices), Jakarta EE (Enterprise Edition, former Java EE), JavaFX, and special Android version
 
-- [[Strings]]
-  - `String` / `char`
-  - Concatenation
-  - Interpolation
-  - String.format
-  - Guids
+Java has a REPL, which is `jshell`. Build tools are `maven` and `gradle`
 
-#### To do
+[[Working with Spring]]
 
-- Compilation process (stages, representations, ...)
-- Garbage collector
-  - Links, Values & References
-- Classloader
+## Libraries
 
-%%
+The main framework in Java ecosystem is [[Spring]]; including its sub-libraries: [[Spring Boot]], [[Spring MVC]], etc.
+
+_Apache Commons_ libraries contain a lot of various everyday utilities and tools
+
+_Lombok_ is a general usage library that adds many syntactic sugar features
+
+For unit testing [JUnit](https://junit.org/junit5/docs/current/user-guide/),
+[Mockito](https://site.mockito.org/) and [Testcontainers](https://www.testcontainers.org/) are used
+
+JSON support with Jackson, JSONAssert
+
+For HTTP Apache HttpCore, HttpClient, OkHttp, Retrofit
+
+[[Data Access]] libraries include [[Hibernate]], JOOQ, MyBatis
+
+## Advanced Java
+
+Advanced Java knowledge include: Compilation process (stages, representations, ...), Garbage collector (Links, Values & References), Classloader, Deployment, JAR, RPC, RMI, Security, Deployment, Unsafe, Reflection
 
 ---
 
 - [[RU] Programming in Java](https://www.youtube.com/watch?v=ygEo5LHHXSI&list=PLlb7e2G7aSpRZSRZxANkvpYC82BXUzCTY)
 - [JUG.ru Youtube Channel](https://www.youtube.com/channel/UCYrGYT7BswsJGkmG7-IAF8g)
 
+Blogs
 
+- #read [Marco Behler](https://www.marcobehler.com/)
 
-[[equals() and hashCode()]]
+In Russian
 
-[[Parallel run]]
+- #read [Java Master](https://java-master.com/)
 
-[[Java Tools]]
+---
 
-
-
-[[Java Code Snippets]]
-
-[[Java Platforms]]
-
-[[Domain-Driven Design]]
-
-[[HTTP (Java)]]
-
-[[Websites to learn Java]]
-
-[[toString()]]
-
-
-
-[[Creating sets]]
-[[Creating maps]]
-[[Creating lists]]
-
-[[Files API]]
-
-[[DateTime API]]
-
-
-[[Objects]]
+- [[Open-source applications]]

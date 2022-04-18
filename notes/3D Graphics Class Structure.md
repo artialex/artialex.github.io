@@ -1,36 +1,23 @@
+---
+tags: [cg]
+---
+
 # 3D Graphics Class Structure
 
 Using `three.js` library as an example
 
-## Renderer
+`Renderer` is a main object. It draws a `Scene` according to the `Camera`
 
-Renderer is a main object. It draws a *Scene* according to the *Camera*
+`Scene` is a tree structure containing `Mesh`'es, `Light`'s, `Group`'s, ` 3DObject`'s and `Camera`'s
 
-## Scene
+Commonly `Camera` object belongs to the `Scene`
 
-Scene is a tree structure containing *Meshes*, *Lights*, *Groups*, *3D objects* and *Cameras*
+`Mesh`'es represent a compound object of a `Geometry` object and a `Material` object
 
-### Camera
+`Light` objects contain sources of light
 
-Commonly camera object belongs to the *scene*
+`Geometry` objects are _vertex data of some geometry_
 
-### Mesh / Object3D / Group
+`Material` is an object with the _surface properties_
 
-Meshes represent a compound object of a *Geometry* object and a *Material* object
-
-### Light
-
-Light objects
-
-## Geometry
-
-Geometry objects are *vertex data of some geometry*
-
-## Material
-
-Material is an object with the *surface properties*
-
-- Color
-
-### Texture
-Texture objects represent *images*: loaded, generated or rendered
+`Texture` objects represent _images_: loaded, generated or rendered

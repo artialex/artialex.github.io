@@ -1,18 +1,20 @@
 # Spaces
+
 - Object space
-	- World space
+  - World space
 - Camera space
 - Homogenous Clip space
 - Window space
 
 ### Vertices transformations
-1. *Model-view transformation* allows to transform model vertices directly from *object space* to *camera space* without going through *world space* first
-1. *Projection*
-1. *Viewport transformation*
 
-* Upright space
-* Per-vertex lighting
-	* Per-pixel lighting
+1. _Model-view transformation_ allows to transform model vertices directly from _object space_ to _camera space_ without going through _world space_ first
+1. _Projection_
+1. _Viewport transformation_
+
+- Upright space
+- Per-vertex lighting
+  - Per-pixel lighting
 
 ### Primitives to rasterization fragments pipeline
 
@@ -32,20 +34,20 @@ $$
 - [[Rasterization]]
 - Fragment shading (Pixel shading)
 - Fragment operations
-	- Pixel ownership test
-	- Scissor test
-	- Alpha test
-	- Stencil test
-	- Depth test
-	- Blending
+  - Pixel ownership test
+  - Scissor test
+  - Alpha test
+  - Stencil test
+  - Depth test
+  - Blending
 
 ## Face culling
 
-Face culling removes polygonal graphical primitives that either facing away from the camera (*backfacing*) or those that are facing toward the camera
+Face culling removes polygonal graphical primitives that either facing away from the camera (_backfacing_) or those that are facing toward the camera
 
 ## Fragment shading
 
-Fragment shading specifies how fthe fragment data is used to determine the final color and final depth of each pixel during rasterization. It might simply be a product of vertex color and a value from a texture map, or it could be the result of a complex lighting calculation
+Fragment shading specifies how fthe fragment data is used to determine the final color and final depth of each pixel during rasterization. It might simply be a product of vertex color and a value from a texture map, or it can be the result of a complex lighting calculation
 
 ## Fragment operations
 
@@ -55,7 +57,7 @@ Determines whether a fragment lies in the region of the viewport that is current
 
 ### Scissor test
 
-Determines wheteher a fragment lies in the *scissor rectangle*
+Determines wheteher a fragment lies in the _scissor rectangle_
 
 ### Alpha test
 

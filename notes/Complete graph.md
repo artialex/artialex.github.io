@@ -1,10 +1,16 @@
+---
+tags: [ds, graph, wip]
+---
+
 # Complete graph
 
-Graph where every vertex has an edge with every other vertex
+Graph where every node has a link with every other node
 
 $$
 K_n
 $$
+
+<!--
 
 viz: circo
 :::
@@ -64,11 +70,12 @@ g6 -- {g7}
 
 }
 :::
-
+-->
 ## Complement graph
 
 A complement graph completes a graph to complete graph
 
+<!--
 ```latex complementary_graph
 \tikzstyle{every node} = [
 	fill,
@@ -114,3 +121,4 @@ A complement graph completes a graph to complete graph
     ;
 \end{tikzpicture}
 ```
+-->

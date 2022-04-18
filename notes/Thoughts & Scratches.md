@@ -1,5 +1,5 @@
 ---
-tags: [map]
+tags: [map, ignore]
 ---
 
 # Thoughts & Scratches
@@ -12,7 +12,7 @@ Some links are external, that means that they match my own thoughts and for clar
 
 <!-- * [[About feedback]] -->
 
-- [[First two things I do when joining a new team]]
+- [[Two things I do when joining a new team]]
 - [Acronyms Seriously Suck](https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764)
 
 <!--
@@ -148,4 +148,4 @@ Some links are external, that means that they match my own thoughts and for clar
 
 [[Concrete examples better than abstract ones]]
 
-[['I have no time' problem]]
+[['I have no time' real meaning]]

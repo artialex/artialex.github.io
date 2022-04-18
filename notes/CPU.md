@@ -1,14 +1,13 @@
 ---
-tags: [done]
+tags: [hardware]
 ---
 
 # CPU
-
-::aliases[Central Processor Unit]
+Stands for **C**entral **P**rocessor **U**nit 
 
 Every CPU has a predefined set of commands which it can execute and which is limited by its architecture. This means that programs written for x86 processors will not work on x64 processors
 
-CPU has its own _memory registries_. They are used to keep intermediate calculations, for example: _command counter_, _stack pointer_, _program status word&nbsp;(PSW)_.
+CPU has its own _memory registries_. They are used to keep intermediate calculations, for example: command counter, stack pointer, program status word (PSW).
 
 <!--
 32-bit processors allow keeping up to 32x32bit of memory, 64-bit processors -- up to 64x64 bit. Both can't exceed 1 kb
@@ -23,7 +22,7 @@ CPU has its own _memory registries_. They are used to keep intermediate calculat
 
 Every CPU has a set of instructions in assembly language, for example: `JMP, MOV, ADD, XOR, PUSH, INC`
 
-CPU has two modes, _kernel mode_ and _user mode_
+CPU has two modes: _kernel mode_ and _user mode_
 
 - [[Processes]]
 - [[Threads]]

@@ -1,3 +1,27 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "showFrontmatter": false,
+  "showLineNumber": false,
+  "spellcheckDictionary": [
+    "axios",
+    "fe",
+    "js",
+    "Frontend",
+    "Combobox",
+    "npm",
+    "json",
+    "eng",
+    "Anki",
+    "enums",
+    "CSharp",
+    "Omnidirectional",
+    "interpretator",
+    "Embeddable",
+    "embeddable"
+  ],
+  "foldHeading": false,
+  "legacyEditor": true,
+  "foldIndent": false,
+  "showIndentGuide": false
 }

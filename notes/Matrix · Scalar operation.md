@@ -1,5 +1,6 @@
 ---
-tags: [done]
+tags: [linal, done]
+small: true
 ---
 
 # Matrix · Scalar operation
@@ -16,6 +17,7 @@ $$
 	\BM	\x a_{11} & \x a_{12} \\ \x a_{21} & \x a_{22} \EM
 $$
 
+<!--
 ### Properties
 
 $$
@@ -26,3 +28,4 @@ $$
 	\x( \A+ \B) &= \x \A + \x \B \\
 \EA
 $$
+-->

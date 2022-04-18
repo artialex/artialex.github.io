@@ -1,39 +1,17 @@
 # Amazon S3
 
-S3 stands for _Simple Storage Service_
+S3 stands for **S**imple **S**torage **S**ervice
 
-## Buckets
-
-Bucket is a container for _objects_
+*Buckets* are containers for _objects_. Example: `awsexamplebucket1`
 
 - Used as a namespace
 - Used in permissions
 - Used in reports
 
-### Examples
+*Objects* contain object data and metadata. Example: `photos/puppy.jpg`
 
-- `awsexamplebucket1`
+Keys are identifiers for an _object_
 
-## Objects
+Regions are regions. Example: `us-west-2`
 
-Contains object data and metadata
-
-### Examples
-
-- `photos/puppy.jpg`
-
-## Keys
-
-A key is an identifier for an _object_
-
-## Regions
-
-### Example
-
-- `us-west-2`
-
-
-
-URL will be
-
-`https://awsexamplebucket1.s3.us-west-2.amazonaws.com/photos/puppy.jpg`.
+Resulting URL will be `https://awsexamplebucket1.s3.us-west-2.amazonaws.com/photos/puppy.jpg`.
