@@ -4,6 +4,7 @@ import { PageLayout } from '@/core'
 import _ from 'lodash'
 import { useRouter } from 'next/router'
 import { getPrettyTagName, Tags } from '@/notes'
+import { slugify } from '@/platform/slug.utils'
 
 const MapPage = () => {
   const { data, error, isLoading } = useGetGraphQuery()
@@ -37,7 +38,7 @@ const MapPage = () => {
           <ul>
             {nodes.map((node: any) => (
               <li key={node.id}>
-                <Link href={node.id}>
+                <Link href={`/?id=${slugify(node.id)}`}>
                   <a className="internal">{node.id}</a>
                 </Link>
               </li>

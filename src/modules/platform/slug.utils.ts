@@ -6,7 +6,7 @@
  * @param str
  */
 export function slugify(str: string) {
-  return str.replace(/\s/g, '_')
+  return encodeURIComponent(str)
 }
 
 /**
@@ -17,5 +17,5 @@ export function slugify(str: string) {
  * @param str
  */
 export function unslugify(str: string) {
-  return decodeURIComponent(str).replace(/_/g, ' ')
+  return decodeURIComponent(str)
 }

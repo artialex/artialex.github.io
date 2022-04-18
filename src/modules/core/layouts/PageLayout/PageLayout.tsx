@@ -27,7 +27,7 @@ export const PageLayout: FC<PageLayoutProps> = ({ children }) => (
     <footer className={css.footer}>
       <hr />
       <div>
-        <Link href="/Hi">
+        <Link href="/?id=Hi">
           <a className="internal">Homepage</a>
         </Link>
         <Link href="/map">
