@@ -1,0 +1,20 @@
+@use '../../styles/mixins';
+
+.root {
+  position: fixed;
+
+  @include mixins.window();
+}
+
+.list {
+  @include mixins.list();
+  margin-top: 1rem;
+}
+
+.table {
+  @include mixins.table();
+}
+
+.button {
+  @include mixins.button();
+}

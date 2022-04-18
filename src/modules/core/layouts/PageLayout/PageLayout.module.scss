@@ -1,0 +1,33 @@
+.root {
+  width: 800px;
+  margin: 4rem auto;
+  padding-bottom: 10rem;
+  // position: relative;
+}
+
+.header {
+  // position: absolute;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+
+    li {
+      &::before {
+        content: '';
+      }
+    }
+  }
+}
+
+.footer {
+  margin-top: 8rem;
+
+  div {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+}

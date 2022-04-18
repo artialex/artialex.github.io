@@ -1,0 +1,21 @@
+.root {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 0.4rem;
+
+  &.horizontal {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  &.vertical {
+    flex-direction: column;
+  }
+}
+
+.item {
+  &::before {
+    display: none;
+  }
+}

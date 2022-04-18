@@ -1,0 +1,17 @@
+@use '../../styles/mixins';
+
+.root {
+  @include mixins.window();
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+}
+
+.button {
+  position: absolute;
+  bottom: 0.25rem;
+  right: 0.25rem;
+  z-index: 150;
+}
