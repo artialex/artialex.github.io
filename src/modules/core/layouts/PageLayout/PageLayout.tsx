@@ -1,29 +1,37 @@
 import Link from 'next/link'
 import { FC } from 'react'
 import css from './PageLayout.module.scss'
+import { ThemeSwitcher } from '@/ui.theme'
+import { Archive, Home } from 'react-feather'
 
 interface PageLayoutProps {}
 
 export const PageLayout: FC<PageLayoutProps> = ({ children }) => (
   <div className={css.root}>
-    {/*
     <header className={css.header}>
       <ul>
         <li>
-          <Link href="/Hi">
-            <a className="internal">🏠</a>
+          <Link href="/?id=Hi">
+            <span style={{ cursor: 'pointer' }}>
+              <Home />
+            </span>
           </Link>
         </li>
         <li>
           <Link href="/map">
-            <a className="internal">📃</a>
+            <span style={{ cursor: 'pointer' }}>
+              <Archive />
+            </span>
           </Link>
+        </li>
+        <li>
+          <ThemeSwitcher />
         </li>
       </ul>
     </header>
-    */}
 
     {children}
+
     <footer className={css.footer}>
       <hr />
       <div>

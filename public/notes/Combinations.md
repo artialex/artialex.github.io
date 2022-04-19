@@ -6,7 +6,7 @@ tags: [combinatorics]
 
 Combination is a selection of items from a set in which _order is not important_ .
 
-Combination of all items -- $C(n,n)$, does not make mathematical sense because it's always equals 1 (one possible way to combine all items in a set) so mostly _combination_ is an informal way to say _k-combination_
+Combination of all items -- $C(n,n)$, does not make mathematical sense because it's always equals&nbsp;1 (one possible way to combine all items in a set) so mostly _combination_ is an informal way to say _k-combination_
 
 ## K-combination
 

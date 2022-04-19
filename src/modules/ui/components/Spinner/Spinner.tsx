@@ -16,3 +16,9 @@ export const Spinner = () => (
     </div>
   </div>
 )
+
+Spinner.Centered = () => (
+  <div style={{ height: '100vh', display: 'flex' }}>
+    <Spinner />
+  </div>
+)

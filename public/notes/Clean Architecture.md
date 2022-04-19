@@ -2,7 +2,7 @@
 tags: [architecture]
 ---
 
-# Clean Architecture
+# Clean architecture
 
 Ideas should be _easy to test_, should _not be UI Framework driven_, should _not be database driven_
 

@@ -10,6 +10,7 @@ import { FC } from 'react'
 const MyDocument: FC<DocumentProps> = () => (
   <Html>
     <Head>
+      <link rel="shortcut icon" href="favicons/favicon-32x32.png" />
       <link href="https://fonts.googleapis.com/css2?family=Vollkorn" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC" rel="stylesheet" />
     </Head>

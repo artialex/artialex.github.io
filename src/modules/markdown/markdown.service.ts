@@ -20,7 +20,7 @@ import rehypeReact from 'rehype-react'
 import remarkShortcodes from 'remark-shortcodes'
 
 import 'katex/dist/katex.min.css'
-import 'highlight.js/styles/stackoverflow-light.css'
+// import '@matejmazur/react-katex/dist/katex.min.css'
 import _ from 'lodash' // ? FIXME
 
 let processor: Processor | null = null

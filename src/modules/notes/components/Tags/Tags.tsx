@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import Link from 'next/link'
 import { Tag } from '../Tag'
 import css from './Tags.module.scss'
 import cn from 'clsx'

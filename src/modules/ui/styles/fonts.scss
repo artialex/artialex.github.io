@@ -1,11 +1,11 @@
-@mixin primary($font-size: 1rem, $line-height: 1.5rem, $font-weight: 500) {
+@mixin primary($font-size: 1rem, $line-height: 1.5rem, $font-weight: 400) {
   font-family: 'Vollkorn', Candara, Arial, Helvetica, sans-serif;
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
 }
 
-@mixin primary-small-caps($font-size: 1.1rem, $line-height: 1.5rem, $font-weight: 400) {
+@mixin headers($font-size: 1.1rem, $line-height: 1.5rem, $font-weight: 400) {
   font-family: 'Vollkorn SC', Arial, Helvetica, sans-serif;
   font-size: $font-size;
   font-weight: $font-weight;
@@ -13,10 +13,7 @@
 }
 
 @mixin mono($font-size: 0.9rem, $line-height: 1.5rem, $font-weight: 400) {
-  //font-family: 'Anonymous Pro Minus', Consolas, monospace;
   font-family: 'Iosevka SS17 Medium', Consolas, monospace;
-  // font-family: 'Jetbrains', Consolas, monospace;
-  //font-stretch: expanded;
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;

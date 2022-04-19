@@ -20,11 +20,11 @@ body {
 // -- Headings -----------------------------------------------------------------
 
 h1 {
-  @include fonts.primary-small-caps(2rem, 2rem);
+  @include fonts.headers(2rem, 2rem);
 }
 
 h2 {
-  @include fonts.primary-small-caps(1.2rem, 1.8rem);
+  @include fonts.headers(1.2rem, 1.8rem);
   margin: 2rem 0 0;
 }
 

@@ -5,12 +5,12 @@
   @include fonts.primary(1rem, 1.5rem);
 
   h1 {
-    @include fonts.primary-small-caps(1.5rem, 2rem);
+    @include fonts.headers(1.5rem, 2rem);
   }
 
   h2,
   h3 {
-    @include fonts.primary-small-caps(1rem, 1.5rem);
+    @include fonts.headers(1rem, 1.5rem);
   }
 
   p {
@@ -92,7 +92,7 @@
 
     h2,
     h3 {
-      @include fonts.primary-small-caps(1.1rem, 1.5rem);
+      @include fonts.headers(1.1rem, 1.5rem);
     }
   }
 

@@ -11,16 +11,20 @@ import _ from 'lodash'
 import { useRouter } from 'next/router'
 import { slugify, unslugify } from '@/platform/slug.utils'
 import Head from 'next/head'
+import { useSpring, animated } from '@react-spring/web'
 
+// todo: handle md configuration better?
 configure({
   components: {
     a: (props: any) => {
+      const isInternal = props.className?.includes
+      const href = isInternal ? `/?id=${slugify(props.href)}` : props.href
+      const target = isInternal ? '_self' : '_blank'
+      const className = isInternal ? 'internal' : 'external'
+
       return (
-        <Link href={`/?id=${slugify(props.href)}`}>
-          <a
-            target={props.className?.includes ? '' : '_blank'}
-            className={props.className?.includes ? 'internal' : 'external'}
-          >
+        <Link href={href}>
+          <a target={target} className={className}>
             {props.children[0]}
           </a>
         </Link>
@@ -73,7 +77,7 @@ const Note: FC<NoteProps> = ({ id }) => {
   }
 
   if (!data || isLoading) {
-    return <Spinner />
+    return <Spinner.Centered />
   }
 
   let processed = process(data)

@@ -5,6 +5,6 @@ module.exports = withNextCircularDeps({
   exclude: /a\.js|node_modules/,
 
   sassOptions: {
-    includePaths: [resolve(__dirname, 'src/modules/ui/styles')],
+    includePaths: ['node_modules', resolve(__dirname, 'src/modules/ui/styles')],
   },
 })

@@ -2,11 +2,13 @@
   width: 800px;
   margin: 4rem auto;
   padding-bottom: 10rem;
-  // position: relative;
+  position: relative;
 }
 
 .header {
-  // position: absolute;
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
   ul {
     list-style-type: none;
     padding: 0;

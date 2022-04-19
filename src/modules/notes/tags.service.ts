@@ -17,6 +17,8 @@ export const tagMap: Record<string, string> = {
   guide: 'Guides',
   tree: 'Trees',
   eng: 'English language',
+  thought: 'Thoughts',
+  scratch: 'Scratches',
 }
 
 export const ignoredTags = ['done', 'index', 'map', 'ignore']

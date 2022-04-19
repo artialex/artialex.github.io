@@ -1,6 +1,6 @@
 import { FC } from 'react'
 // @ts-ignore
-import { InlineMath } from 'react-katex'
+import Tex from '@matejmazur/react-katex'
 import 'lodash.combinations'
 import 'lodash.multicombinations'
 import 'lodash.permutations'
@@ -33,7 +33,8 @@ export const Combinatorics: FC<CombinatoricsProps> = ({ type, k, n }) => {
 
   return (
     <div className={css.root}>
-      <InlineMath>{String.raw`${letter}( \ `}</InlineMath>
+      <Tex math={String.raw`${letter}( \ `} />
+      {/*<InlineMath>{}</InlineMath>*/}
 
       <div className={css.selection}>
         {arr.map((el) => (
@@ -45,10 +46,10 @@ export const Combinatorics: FC<CombinatoricsProps> = ({ type, k, n }) => {
         ))}
       </div>
 
-      <InlineMath>{String.raw` \ , ${_k}) = \ `}</InlineMath>
+      <Tex math={String.raw` \ , ${_k}) = \ `} />
 
       {selections.length > 40 ? (
-        <InlineMath>{String.raw`${selections.length} \ \text{selections}`}</InlineMath>
+        <Tex math={String.raw`${selections.length} \ \text{selections}`} />
       ) : (
         selections.map((selection) => (
           <div key={Math.random()} className={css.selection}>

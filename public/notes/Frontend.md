@@ -16,7 +16,7 @@ Libraries
 
 ## Practical tasks
 
-- [[Frontend Architecture]]
+- [[Frontend architecture]]
 - [[Authentication & Authorization]]
 - [[I18n]]
 - [[Routing]]

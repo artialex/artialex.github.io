@@ -4,7 +4,7 @@
   width: 320px;
   position: relative;
 
-  @include fonts.primary-small-caps();
+  @include fonts.headers();
 }
 
 .list {

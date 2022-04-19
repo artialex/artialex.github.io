@@ -36,7 +36,7 @@
 }
 
 @mixin table {
-  @include fonts.primary-small-caps(0.9rem, 1.1rem);
+  @include fonts.headers(0.9rem, 1.1rem);
 
   width: 100%;
 }

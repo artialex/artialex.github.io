@@ -28,14 +28,13 @@ time to launch I forgot what I wanted to
 Then I used Workflowy, but the idea of having a lot of lists quickly became not handy
 
 > Maybe my mindset led me the way of lists and categories instead of
-the way of links and connections
+> the way of links and connections
 
 Finally, I discovered [Zettelkasten method](https://zettelkasten.de/posts/overview/) and now I think that it's the most appropriate way of writing notes for me. It has no overhead, no extra burden. It drove me back to simple markdown files and I can view them in any form I like, In the editor or web-based.
 
-
 ---
 
-- [[RU] Картотека Лумана: 10 принципов идеального конспекта для писателей, исследователей и студентов](https://zeh.media/praktika/instruktsiya/4796135-10-printsipov-idealnogo-konspekta)
+- [[RU] Luhman's system](https://zeh.media/praktika/instruktsiya/4796135-10-printsipov-idealnogo-konspekta)
 
 <!--
 

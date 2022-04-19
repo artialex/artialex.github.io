@@ -3,15 +3,16 @@ import { useGetGraphQuery } from '@/notes/notes.api'
 import { PageLayout } from '@/core'
 import _ from 'lodash'
 import { useRouter } from 'next/router'
-import { getPrettyTagName, Tags } from '@/notes'
+import { getPrettyTagName, Tag, Tags } from '@/notes'
 import { slugify } from '@/platform/slug.utils'
+import { Spinner } from '@/ui'
 
 const MapPage = () => {
   const { data, error, isLoading } = useGetGraphQuery()
   const { query } = useRouter()
 
   if (!data || isLoading) {
-    return <div>Loading...</div>
+    return <Spinner.Centered />
   }
 
   let nodes = query.tag ? _.filter(data.nodes, { tags: [query.tag] }) : data.nodes
@@ -20,6 +21,7 @@ const MapPage = () => {
     <PageLayout>
       <div style={{ display: 'flex' }}>
         <section style={{ width: 280 }}>
+          Narrow by tag:
           <Tags tags={data.tags} direction="vertical" />
         </section>
         <section>
