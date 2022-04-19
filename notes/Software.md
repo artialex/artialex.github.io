@@ -28,7 +28,7 @@ tags: [map, ignore]
 - [[Frontend]]
 - [[Data Access]]
 - [[Computer Science]]
-- [[Software Architecture]]
+- [[Software architecture]]
 - [[Computer graphics]]
 - [[UML]]
 

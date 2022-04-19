@@ -2,7 +2,7 @@
 tags: [fe, architecture, wip]
 ---
 
-# Frontend Architecture
+# Frontend architecture
 
 - [[State Management]]
 - [[Server-Side Rendering]]

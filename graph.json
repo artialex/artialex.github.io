@@ -1,7 +1,10 @@
 {
   "nodes": [
     {
-      "id": "'I have no time' real meaning"
+      "id": "'I have no time' real meaning",
+      "tags": [
+        "thought"
+      ]
     },
     {
       "id": "12-factor application",
@@ -1256,9 +1259,6 @@
     },
     {
       "id": "TLS"
-    },
-    {
-      "id": "TODO"
     },
     {
       "id": "Tasks"
