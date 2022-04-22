@@ -134,7 +134,7 @@ Long-running code can block the user interface. It's avoidable by:
 
 ---
 
-- [If Javascript Is Single Threaded, How Is It Asynchronous?](https://dev.to/steelvoltage/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd#:~:text=Javascript%20is%20a%20single%20threaded,before%20moving%20onto%20the%20next.&text=Once%20those%20tasks%20are%20finished,the%20stack%20as%20a%20callback.)
+- 
 
 <!--
 * Как устроен Event Loop?
@@ -207,30 +207,14 @@ Promises
 
 # Однопоточность JavaScript
 
-
 > So how do we get asynchronous code with Javascript then?
 > Well, we can thank the Javascript engine (V8, Spidermonkey, JavaScriptCore, etc...) for that, which has Web API that handle these tasks in the background. The call stack recognizes functions of the Web API and hands them off to be handled by the browser.[^1]
 
 То есть нужно благодарить Web API, все асинхронные задачи выполняет браузер (или внутренние библиотеки Node.js), а не JavaScript
--->
 
----
-
-- [If Javascript Is Single Threaded, How Is It Asynchronous?](https://dev.to/steelvoltage/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd#:~:text=Javascript%20is%20a%20single%20threaded,before%20moving%20onto%20the%20next.&text=Once%20those%20tasks%20are%20finished,the%20stack%20as%20a%20callback.)
-
-<!--
 * Как устроен Event Loop?
 ** Rewatch Sorax Spotlight
 ** Read Streams Handbook
-https://blog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810
--->
-
----
-
-- 📽 [What the heck is the event loop anyway](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-- 📽 [In The Loop](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
-
-<!--
 
 ## V8
 

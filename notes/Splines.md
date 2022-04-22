@@ -1,5 +1,5 @@
 ---
-tags: [cg]
+tags: [cg, curves]
 ---
 
 # Splines

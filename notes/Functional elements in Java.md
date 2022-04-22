@@ -75,9 +75,3 @@ Optionals should not be used as object properties
 Optionals should not be used as list elements
 
 Optionals can be used as return type
-
----
-
-- [[RU] Quirks of Stream API](https://youtu.be/1_Zj3gS_a3E)
-- [Optional as Return Type](https://www.baeldung.com/java-optional-return)
-- [Functional Exceptions In Java](https://8thlight.com/blog/brian-gerstle/2019/01/22/fnl-exceptions-in-java.html)

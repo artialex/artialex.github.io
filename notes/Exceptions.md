@@ -22,6 +22,3 @@ Exceptions hierarchy
 **Unchecked exceptions** are not anticipated, like a bug in a program
 
 --- 
-
-- [Functional Exceptions In Java](https://8thlight.com/blog/brian-gerstle/2019/01/22/fnl-exceptions-in-java.html)
-- [Lambda Exceptions](https://www.baeldung.com/java-lambda-exceptions)

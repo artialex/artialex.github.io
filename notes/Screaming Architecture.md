@@ -1,5 +1,5 @@
 ---
-tags: [architecture]
+tags: [architecture, pbm, file-structure]
 ---
 
 # Screaming architecture

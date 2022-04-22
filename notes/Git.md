@@ -26,10 +26,3 @@ Core of git is _repository_. Basically it's a key-value storage containig among 
 -->
 
 ---
-
-- [A Hacker's Guide to Git](https://wildlyinaccurate.com/a-hackers-guide-to-git/)
-- [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
-- [Conversational Git](http://blog.anvard.org/conversational-git/)
-- [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
-- [Git Immersion](https://gitimmersion.com/lab_09.html)
-- [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)

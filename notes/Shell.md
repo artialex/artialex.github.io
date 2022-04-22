@@ -21,7 +21,3 @@ Redirecting `stdout` of one program to `stdin` of another program:
 ```bash
 date | sort
 ```
-
----
-
-- [[RU] Bash-scripts](https://habr.com/ru/company/ruvds/blog/325522/)

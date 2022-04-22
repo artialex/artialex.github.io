@@ -37,5 +37,3 @@ Include `font-display: optional`
 Use *Font Load Events* for group repaints
 
 Use *Web Font Reflow Count* and *Time To Real Italics* metrics
-
-- [Front-End Performance Checklist 2021](https://www.dropbox.com/s/34noajrbm324iai/performance-checklist-1.4.pdf?dl=0)

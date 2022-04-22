@@ -31,6 +31,4 @@ _Aggregation_ represents a _Container-Contained_ relationship
 
 ## Inheritance
 
----
-
-- https://braindump.jethro.dev/posts/software_engineering/
+#TODO

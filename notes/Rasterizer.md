@@ -8,7 +8,3 @@ size: double
 Simple rasterizer
 
 ::rasterizer
-
-<!-- 
-Rasterizer 
--->

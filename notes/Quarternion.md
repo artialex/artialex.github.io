@@ -30,7 +30,3 @@ $$
 $$
 (x, \vec{v}) (y, \vec{w}) = (xy - \vec{v} \cdot \vec{w}, x\vec{v} + y\vec{w} + \vec{v} \times \vec{w})
 $$
-
----
-
-- [Visualizing quaternions](https://eater.net/quaternions)

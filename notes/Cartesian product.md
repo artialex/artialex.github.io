@@ -9,23 +9,19 @@ Set_{\{x\}} \times Set_{\{y\}} \rightarrow Set_{\{x, y\}}
 $$
 
 $$
-A \times B
-$$
-
-$$
 \BA
-\{A, B\} \times \{C, D\} \rightarrow \ &\{A, C\} \\
-& \{A, D\} \\
-& \{B, C\} \\
-& \{B, D\}
+\{a, b\} \times \{c, d\} \rightarrow \ &\{a, c\} \\
+& \{a, d\} \\
+& \{b, c\} \\
+& \{b, d\}
 \EA
 $$
 
 $$
 \begin{array}{ccc}
-	\times & A & B \\
-	C & \{A,C\} & \{B,C\} \\
-	D & \{A,D\} & \{B,D\} \\
+	\times & a & b \\
+	c & \{a,c\} & \{b,c\} \\
+	d & \{a,d\} & \{b,d\} \\
 \end{array}
 $$
 

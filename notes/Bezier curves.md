@@ -1,9 +1,9 @@
 ---
-tags: [cg, wip]
+tags: [cg, curves]
 ---
 
 # Bezier curves
 
-Cubic Bezier curves have 4 control points: :mark[red]{text=start}, :mark[green]{text="handler 1"}, :mark[blue]{text="handler 2"}, :mark[yellow]{text=end}
+Cubic Bézier curves have 4 control points: :mark[*start*]{color=red}, :mark[_handler 1_]{color=green}, :mark[_handler 2_]{color=blue}, and :mark[_end_]{color=yellow}
 
-::cubicbezier
+::insertion[beziercurves]

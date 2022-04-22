@@ -57,6 +57,3 @@ tags: [fe, wip]
 	- Perf Diagnostic CSS
 
 ---
-
-- https://iamakulov.com/
-- https://indepth.dev/posts/1324/the-journey-to-isomorphic-rendering-performance

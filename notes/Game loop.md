@@ -1,5 +1,5 @@
 ---
-tags: [architecture, wip]
+tags: [architecture, wip, patterns]
 ---
 
 # Game loop
@@ -21,11 +21,7 @@ while (true) {
 
 - `processInput` processes user events and actions
 - `update` processes game simulation (AI, physics, etc)
-	- Place for an [[Update method]] pattern
+	- Place for an *Update method* pattern
 - `render` renders the visuals
 
 One iteration of game loop is _tick_ or _frame_
-
----
-
-- [Game Programming Patterns](http://gameprogrammingpatterns.com/contents.html)

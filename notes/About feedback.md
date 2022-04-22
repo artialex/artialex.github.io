@@ -7,15 +7,18 @@ tags: [management, wip]
 Collecting feedback is a very important process in any kind of work
 
 > If there is no feedback there is no way to know what is going wrong
+
 <!--
 
 - [[PDCA]]
 
 ## Product Feedback
+
 - Are we making a right product?
 - Do customers understand our product?
 
 ### Instruments
+
 - UX Metrics
 - Logs
 
@@ -31,7 +34,7 @@ Collecting feedback is a very important process in any kind of work
 ## Development feedback
 - Unit Testing
 
-[One Hacker Way](https://youtu.be/2u0sNRO-QKQ?t=696)
+
 
 ## Как мы даем "обратную связь"
 
@@ -69,4 +72,5 @@ Collecting feedback is a very important process in any kind of work
 
 - Не доёбываться
 - Смотрть сначала на недостатки, и только потом на достоинства
+
 -->

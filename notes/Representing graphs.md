@@ -19,9 +19,9 @@ $$
 \EM
 $$
 
-- Pros: The structure is very simple, it's memory-wise effective for dense graphs,
+- Pros: the structure is very simple, it's memory-wise effective for dense graphs,
   quick search of edge weight $O(1)$
-- Cons: INeffective edge iteration, ineffective for big graphs (takes a lot of memory), impossible to represent a multigraph
+- Cons: ineffective edge iteration, ineffective for big graphs (takes a lot of memory), impossible to represent a multigraph
 
 Adjacency list is an array of linked lists
 
@@ -36,7 +36,7 @@ $$
 $$
 
 - Pros: memory-wise effective for sparse graphs, effective edge iteration
-- Cons: Ineffective search of edge weight $O(E)$, relatively complex structure
+- Cons: ineffective search of edge weight $O(E)$, relatively complex structure
 
 Less common representations are:
 

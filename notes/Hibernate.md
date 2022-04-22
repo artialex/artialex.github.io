@@ -49,16 +49,8 @@ Sessions are *First Level Cache*
 
 *Second Level Cache* is optional
 
-
 Query Cache
-
-
-zomg
 
 - Queries 
 - Configuration
 - Criteria
-
----
-
-- https://www.youtube.com/watch?v=C-wEZjEOhWc

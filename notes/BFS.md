@@ -1,6 +1,5 @@
 ---
-tags: [algo, graph, wip]
-aliases: [BFS]
+tags: [algo, graph]
 ---
 
 # BFS

@@ -128,7 +128,3 @@ There are also concurrent collections:
 ## TODO
 
 - Unmodifiable collections
-
----
-
-- [[RU] Collections](https://habr.com/ru/company/luxoft/blog/256877/)

@@ -1,12 +1,12 @@
 ---
-tags: [architecture, wip]
+tags: [architecture, wip, patterns]
 ---
 
 # Design patterns
 
 ![[DesignPatterns.svg]]
 
-http://gameprogrammingpatterns.com/contents.html
+
 
 https://roadmap.sh/guides/design-patterns-for-humans
 

@@ -1,12 +1,12 @@
 ---
-tags: [map, ignore]
+tags: [map, ignore, cs]
 ---
 
 # Software
 
 ## Four pillars of software engineering:
 
-**Pillar #1** is [[Operating System]]
+**Pillar #1** is [[Operating system]]
 
 - [[Processes]]
 - [[Threads]]
@@ -40,10 +40,3 @@ tags: [map, ignore]
 - [[Книги о програмной инженерии]]
 - [[Дорожная карта разработчика]]
 -->
-
----
-
-- [Teach Yourself Computer Science](https://teachyourselfcs.com)
-- [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum)
-- [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know)
-- [[RU] Programming: Introduction](http://stolyarov.info/i2.html)

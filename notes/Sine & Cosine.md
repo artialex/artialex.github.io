@@ -14,10 +14,5 @@ A couple of observations that could help to understand their nature
 - В-четвертых, например `cos(t + 2pi) == cos(t - 2pi) == cos(t)`, т. к по сути это один угол
 
 [Визуализация](https://jackschaedler.github.io/circles-sines-signals/sincos.html) периодичности синуса и косинуса
+
 Еще одна [визуализация](https://setosa.io/ev/sine-and-cosine/)
-
-- ![](http://matematicascercanas.com/wp-content/uploads/2016/07/VarC3A1zsceruza.gif)
-
-https://demoman.net/?a=trig-for-games
-
-- #todo Insert visualization here

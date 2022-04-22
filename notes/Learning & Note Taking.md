@@ -14,11 +14,6 @@ _Redundancy_ is good (using different perspectives and approaches to learning)
 
 - [[How I write useful notes]]
 
----
-
-- [SuperMemo Wiki](https://supermemo.guru/wiki/SuperMemo_Guru)
-- Anki
-
 <!--
 # Чтение книг и просмотр лекций не помогают учить новое
 

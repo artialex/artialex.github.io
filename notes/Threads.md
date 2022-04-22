@@ -24,6 +24,7 @@ then it is logical to put all these functions into different threads to make the
 The implementation of processes and threads in different operating systems may differ from each other.
 But mostly threads area located within processes
 
+<!--
 #todo Multi-threading
 
 #todo Mutexes
@@ -33,3 +34,4 @@ But mostly threads area located within processes
 #todo Green threads
 
 #todo Blocking / Non-blocking
+-->

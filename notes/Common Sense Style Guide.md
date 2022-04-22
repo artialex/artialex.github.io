@@ -1,5 +1,5 @@
 ---
-tags: [orphan]
+tags: [guide]
 ---
 
 # Common Sense Style Guide

@@ -55,7 +55,3 @@ def calc(numbers1, numbers2):
 Exponential time: $O(2^n)$
 
 Factorial time: $O(n!)$
-
-## Space complexity
-
-- [Big-O Cheat Sheet](https://www.bigocheatsheet.com)

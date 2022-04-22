@@ -1,5 +1,5 @@
 ---
-tags: [cg]
+tags: [cg, opengl]
 ---
 
 # OpenGL
@@ -52,12 +52,3 @@ VRAM contains
 - *Stencil buffer* contains an integer mask for each pixel in the image and used for enabling or isabling drawing on a per-pixel basis
 - *Texture maps*
 	- *Bump map* contains vectors that represent varying slopes in different locations on an object's surface
-
----
-
-- [open.gl](https://open.gl)
-- [Learn OpenGL](https://learnopengl.com/)
-- [Modern OpenGL Tutorials](https://ogldev.org/)
-- [OpenGL Tutorials](http://www.opengl-tutorial.org/)
-- [OpenGL](http://www.songho.ca/opengl/index.html)
-- [Tiny Renderer](https://github.com/ssloy/tinyrenderer)

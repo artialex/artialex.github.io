@@ -6,12 +6,38 @@ tags: [networking, wip]
 
 Stands for **H**yper**T**ext **T**ransfer **P**rotocol
 
+Request
+
+```bash
+POST /boxes?color=red HTTP/1.1    # Method + Path & Query params + Version
+host: www.example.com             # Headers
+accept: application/json
+content-type: application/json
+{                                 # Response Body (ex: JSON)
+	"size": "small"
+}
+```
+
+Response
+
+```bash
+HTTP/1.1 200 OK                   # HTTP Version + Status code + Reason Phrase
+etag: "511GaciaHb28"              # Headers
+content-length: 23
+content-type: application/json
+{				                  # Response Body (ex: JSON)
+	"success": true
+}
+```
+
+<!--
 Исторически HTTP/1.1 имел некоторые проблемы - чувствительность к [[RTT]], конвейерная обработка запросов,
 блокировка начала очереди, необходимость домен-шардинга. Поэтому была начата разработка HTTP2,
 которая началась с протокола SPDY. Концептуально HTTP2 поддерживал стандарты HTTP/1.1,
 это по-прежнему протокол, базирующийся на TCP, это по-прежнему схемы http:// и https://.
 TLS-расширения NPN и [ALPN](https://en.wikipedia.org/wiki/Application-Layer_Protocol_Negotiation)
 позволяют клиенту и серверу договориться какой протокол использовать
+
 
 Вкратце, HTTP2 уменьшает количество необходимых приемов-передач, избегает дилеммы блокировки
 начала очереди за счет [[Multiplexing|мультиплексирования]] и быстрого отклонения нежелательных
@@ -49,9 +75,6 @@ No-Cache
 
 ---
 
-https://roadmap.sh/guides/http-caching
-https://proselyte.net/tutorials/http-tutorial/caching/
-
 ---
 
 !! Вопросы
@@ -63,7 +86,6 @@ https://proselyte.net/tutorials/http-tutorial/caching/
 
 ---
 
-https://proselyte.net/tutorials/http-tutorial/
 
 # HTTP Status Codes
 
@@ -73,40 +95,6 @@ https://proselyte.net/tutorials/http-tutorial/
 **4xx**: Ошибка на стороне клиента
 **5xx**: Ошибка на стороне сервера
 
-
-
-HTTP (Java)
-
-- #read [HTTP Specification](https://datatracker.ietf.org/doc/html/rfc2616)
-
-
-Request
-
-```bash
-POST /boxes?color=red HTTP/1.1    # Method + Path & Query params + Version
-
-host: www.example.com             # Headers
-accept: application/json
-content-type: application/json
-
-{                                 # Response Body (ex: JSON)
-	"size": "small"
-}
-```
-
-Response
-
-```bash
-HTTP/1.1 200 OK                   # HTTP Version + Status code + Reason Phrase
-
-etag: "511GaciaHb28"              # Headers
-content-length: 23
-content-type: application/json
-
-{				                  # Response Body (ex: JSON)
-	"success": true
-}
-```
 
 [[HTTP Headers]]
 
@@ -123,3 +111,5 @@ content-type: application/json
 "x-*" prefix
 
 - #todo Learn more about headers
+
+-->

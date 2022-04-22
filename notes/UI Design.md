@@ -1,5 +1,5 @@
 ---
-tags: [done]
+tags: [ui]
 ---
 
 # UI Design
@@ -17,6 +17,3 @@ Guides & Tutorials
 - [8-Point Grid: Typography On The Web](https://www.freecodecamp.org/news/8-point-grid-typography-on-the-web-be5dc97db6bc/)
 - [[RU] Therules](http://therules.ru/) -- rules of Russian language
 - [Photoshop Etiquette](https://photoshopetiquette.com/) -- pretty much applied to Figma too
-
-[[Resources worth to peek into]]
-

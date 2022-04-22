@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 # Strings
 
 - Strings are _immutable_

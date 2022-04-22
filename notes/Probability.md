@@ -1,3 +1,7 @@
+---
+tags: [probability]
+---
+
 # Probability
 
 Probability is always between 0 and 1 (or 0% and 100%)

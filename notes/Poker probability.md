@@ -1,3 +1,6 @@
+---
+tags: [probability]
+---
 
 # Deck of cards
 

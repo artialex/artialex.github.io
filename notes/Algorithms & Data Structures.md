@@ -200,15 +200,3 @@ In Java collections already coupled with algorithms, in C++ it is not necessary 
 * [[Поиск пути]]
 
 -->
-
----
-
-- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-- 📺 [Data Structures Easy to Advanced Course](https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC)
-- 📺 [Data Structures & Algorithms by CS Dojo](https://www.youtube.com/watch?v=bum_19loj9A&list=PLBZBJbE_rGRV8D7XZ08LK6z-4zPoWzu5H)
-- https://roadmap.sh/guides/big-o-notation
-- https://roadmap.sh/guides/asymptotic-notation
-- [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms) by Mike Bostock
-- [Red Blob Games](https://www.redblobgames.com/) \- interactive visual explanations of math and algorithms, using motivating examples from computer games
-- https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md
-- [[RU] habr\:search=algorithms](https://habr.com/ru/search/?q=%5B%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%5D&target_type=posts&order=rating)

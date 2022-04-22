@@ -61,8 +61,6 @@ _React_
 Contains device logic, UI, rest API providers, database connections, storage connectors (in-memory, local storage, IndexedDB),
 API Calls (Rest API, Apollo), various services (SMS Service, for example)
 
-- [DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together)
-
 <!--
 
 При проектировании сервисов и систем очень важно обращать внимание на такие моменты:

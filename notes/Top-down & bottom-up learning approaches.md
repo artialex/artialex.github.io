@@ -1,3 +1,7 @@
+---
+tags: [learning]
+---
+
 # Top-down & bottom-up learning approaches
 
 Top-down is about practical knowledge here & now: tutorials, "How-To" guides, `jQuery` before JavaScript then you move back to the theory when you need to know how it works and how it's all connected

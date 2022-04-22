@@ -1,10 +1,16 @@
 ---
-tags: [guide, wip]
+tags: [guide, wip, naming]
 ---
 
 # How I name projects
 
+Firstly, to avoid bike-shedding I have a [[Common Sense Style Guide]]
+
 - I use `kebab-case` for names
+- I use prefixes if it's a company project:
+	- `app-*` for applications
+	- `config-*` for config packages
+	- `lib-*` for libraries
 
 <!--
 

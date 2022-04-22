@@ -66,13 +66,3 @@ Various [[Linear transformations|linear transformations]]
 - распознавание жестов
 
 -->
-
----
-
-- [Linear Algebra PDF](http://joshua.smcvt.edu/linearalgebra/book.pdf)
-- [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/)
-- [Immersive Linear Algebra](http://immersivemath.com/ila/index.html)
-- [The Applications of Matrices](https://www.youtube.com/watch?v=rowWM-MijXU) 📺
-- [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) 📺
-- https://betterexplained.com/articles/linear-algebra-guide/
-- https://gabrielgambetta.com/computer-graphics-from-scratch/A0-linear-algebra.html

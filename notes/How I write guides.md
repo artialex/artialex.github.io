@@ -10,9 +10,8 @@ Links to guides:
 
 - How I write guides (this page)
 - [[How I write frontend]]
-- [[How I name things]]
+- [[How I name files]]
 - [[How I write unit tests]]
-<!-- - [[How I create a CI pipeline]] -->
 
 <!--
 - [[How I create a CI pipeline]]

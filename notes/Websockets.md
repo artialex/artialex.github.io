@@ -1,3 +1,7 @@
+---
+tags: [ws]
+---
+
 # Websockets
 
 - Web socket URIs
