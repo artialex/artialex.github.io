@@ -1,17 +1,13 @@
-import { PageLayout } from '@/core'
-import { GetServerSideProps } from 'next'
-import { useGetProcessedNoteByIdQuery } from '@/notes/notes.api'
 import { FC, useEffect } from 'react'
-import { Spinner } from '@/ui'
-import { configure, process } from '@/markdown'
+import { RoughMark } from '@/ui'
+import { configure } from '@/markdown'
 import Link from 'next/link'
 import { Combinatorics, Insertion } from '@/insertions'
-import { Tags } from '@/notes'
-import _ from 'lodash'
+import { Note } from '@/notes'
 import { useRouter } from 'next/router'
 import { slugify, unslugify } from '@/platform/slug.utils'
 import Head from 'next/head'
-import { useSpring, animated } from '@react-spring/web'
+import { PageLayout } from '@/core'
 
 // todo: handle md configuration better?
 configure({
@@ -32,6 +28,7 @@ configure({
     },
     insertion: Insertion,
     combinatorics: Combinatorics,
+    mark: RoughMark,
   },
 })
 
@@ -58,42 +55,10 @@ export const IndexPage: FC = () => {
         <title>Garden {query.id && `• ${query.id}`}</title>
       </Head>
 
-      <Note id={unslugify(query.id as string)} />
+      <PageLayout>
+        <Note id={unslugify(query.id as string)} />
+      </PageLayout>
     </>
-  )
-}
-
-interface NoteProps {
-  id: string
-}
-
-const Note: FC<NoteProps> = ({ id }) => {
-  // console.log('index :: 60', id)
-
-  let { data, error, isLoading } = useGetProcessedNoteByIdQuery(id)
-
-  if (error) {
-    return <div>Error: {JSON.stringify(error)}</div>
-  }
-
-  if (!data || isLoading) {
-    return <Spinner.Centered />
-  }
-
-  let processed = process(data)
-
-  let tags: Record<string, number> = _.reduce(
-    // @ts-ignore
-    processed.data.tags,
-    (acc, cur: string) => ({ ...acc, [cur]: 1 }),
-    {}
-  )
-
-  return (
-    <PageLayout>
-      <Tags tags={tags} />
-      {processed.result}
-    </PageLayout>
   )
 }
 

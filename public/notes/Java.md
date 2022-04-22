@@ -57,17 +57,4 @@ Advanced Java knowledge include: Compilation process (stages, representations, .
 
 ---
 
-- [[RU] Programming in Java](https://www.youtube.com/watch?v=ygEo5LHHXSI&list=PLlb7e2G7aSpRZSRZxANkvpYC82BXUzCTY)
-- [JUG.ru Youtube Channel](https://www.youtube.com/channel/UCYrGYT7BswsJGkmG7-IAF8g)
-
-Blogs
-
-- #read [Marco Behler](https://www.marcobehler.com/)
-
-In Russian
-
-- #read [Java Master](https://java-master.com/)
-
----
-
 - [[Open-source applications]]

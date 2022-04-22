@@ -43,5 +43,7 @@ I use [unified](https://github.com/unifiedjs/unified) to render markdown and a n
 - Checkers
   - English grammar
 - Compile LaTeX images? (extra tools should be installed for that)
-
+- LinkVault
 - Hemingway editor features?
+- icons for links like github, mdn, etc...
+- error page

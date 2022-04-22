@@ -1,17 +1,21 @@
+---
+tags: [guide, notetaking]
+---
+
 # How I write useful notes
 
 It's very important to extract valuable pieces from the flow of information around us.
-I follow this approximate algorithm:
+I&nbsp;follow this approximate algorithm:
 
 **Step 0**, which does not really imply any actions: _Populating inbox._
 In order to make a note, the information should be found first.
 It is important to control the sources of such information
 
-- Active searching: Youtube, Feedly, informate.club, books
+- Active searching: Youtube, Feedly, books
 - Passive searching: podcasts, talks with coworkers, just thoughts that occasionally come to mind, saved messages in Telegram
 
 **Step 1**: _Importance assessment_.
-This point is _critical_ because it prevents from information overflow.
+This point is :mark[critical]{color=red} because it prevents from information overflow.
 Ask yourself these questions:
 
 - Is that information _important_ for me somehow?
@@ -20,7 +24,7 @@ Ask yourself these questions:
 It is possible that during this step I realize that this information is not really important for me despite its popularity.
 That means it's not necessary to summarize it, and I could just keep a link to that or even remove it completely
 
-Of course sometimes important information could become unimportant and vice verse. It's normal and there is no need to worry about that
+Of course sometimes important information could become unimportant and vice versa. It's normal and there is no need to worry about that
 
 **Step 3:** _Understanding & Rethinking_
 

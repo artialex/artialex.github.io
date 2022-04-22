@@ -9,5 +9,3 @@ small: true
 A vector with a [[Vector magnitude|magnitude]] of 1.
 
 <!-- ::vectors{type=unit-vector} -->
-
-### Notes

@@ -131,10 +131,5 @@ JPA caches
 
 **Criteria API**
 
----
-
-- [JPA vs JDBC](https://www.baeldung.com/jpa-vs-jdbc)
-- [[RU] JPA Entities](https://habr.com/ru/post/265061/)
-
 - [[SQL]] -> [[JPQL]] -> [[SpEL]]
   Collections

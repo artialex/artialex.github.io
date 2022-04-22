@@ -1,3 +1,7 @@
+---
+tags: [management]
+---
+
 # Two types of feedback
 
 - **Improving** feedback is a way to _grow_

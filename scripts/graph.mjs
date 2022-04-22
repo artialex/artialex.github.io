@@ -8,80 +8,77 @@ import remarkFrontmatter from 'remark-frontmatter'
 import remarkExtractFrontmatter from 'remark-extract-frontmatter'
 import remarkWikiLink from 'remark-wiki-link'
 import { visit } from 'unist-util-visit'
+import { processor } from './_utils.mjs'
+import _ from 'lodash'
 
 let noteDir = resolve(fileURLToPath(import.meta.url), '../../public/notes')
 
 async function run() {
   try {
-    let processor = createProcessor()
-
-    let graph = {
-      nodes: [],
-      links: [],
+    const graph = {
+      nodes: {}, // { NodeId: { backlinks: NodeId[] } }
+      tags: {}, // { TagId: NodeId[] }
+    }
+    const vault = {
+      links: {}, // { NodeId: { backlinks: NodeId[] } }
+      tags: {}, // { TagId: NodeId[] }
     }
 
-    async function getNodeInfo(tree, id) {
-      return new Promise((resolve, reject) => {
-        let result = { id }
-        visit(tree, 'yaml', (node) => {
-          let { tags } = load(node.value)
+    const notes = (await readdir(noteDir)).filter((_) => _.endsWith('md'))
 
-          result.tags = tags
+    for (const note of notes) {
+      const file = await readFile(`${noteDir}/${note}`, 'utf8')
+      const tree = await processor.parse(file)
+      const id = note.replace('.md', '')
 
-          return resolve(result)
-        })
+      // Extracting tags
+      visit(tree, 'yaml', (node) => {
+        let { tags } = load(node.value)
 
-        resolve(result)
+        if (tags) {
+          for (const tag of tags) {
+            _.update(graph, ['tags', tag], (tags) => (tags ? tags.concat(id) : [id]))
+          }
+        }
       })
+
+      // Extracting backlinks
+      visit(tree, 'wikiLink', (node) => {
+        _.update(graph, ['nodes', node.value, 'backlinks'], (backlinks) =>
+          backlinks ? _.union(backlinks, [id]) : [id]
+        )
+      })
+
+      if (id === 'Link Vault') {
+        visit(tree, 'tableRow', (node) => {
+          // Skip Header row
+          if (node.children.every((inner) => _.isEmpty(inner.children))) {
+            return
+          }
+
+          const link = node.children[0].children[0]
+          const url = link.url
+          const title = link.children[0].value
+
+          _.set(vault, ['links', title], { url })
+
+          for (const tag of node.children[1].children[0].value.split(',').map((_) => _.trim())) {
+            _.update(vault, ['tags', tag], (ids) => (ids ? ids.concat(title) : [title]))
+          }
+
+          const description = node.children[2].children[0]
+
+          if (description) {
+            _.set(vault, ['links', title, 'description'], description.value)
+          }
+        })
+      }
     }
 
-    let notes = (await readdir(noteDir)).filter((_) => _.endsWith('md'))
-
-    for (let note of notes) {
-      let file = await readFile(`${noteDir}/${note}`, 'utf8')
-
-      let tree = await processor.parse(file)
-
-      let node = await getNodeInfo(tree, note.replace('.md', ''))
-
-      // Adding links
-      graph.nodes.push(node)
-
-      // Adding links
-      // visit(tree, 'wikiLink', (node) => {
-      //   graph.links.push({
-      //     source: note.replace('.md', ''),
-      //     target: node.value,
-      //   })
-      //
-      //   console.log('test :: 60', node)
-      //
-      //   if (!graph.nodes.find((_) => _.id === node.value)) {
-      //     graph.nodes.push({
-      //       id: node.value,
-      //     })
-      //   }
-      // })
-    }
-
-    // console.log('graph :: 67', resolve('./public/graph.json'))
-
-    await writeFile(resolve('./public/graph.json'), JSON.stringify(graph, null, 2))
+    await writeFile(resolve('./public/graph.json'), JSON.stringify({ graph, vault }, null, 2))
   } catch (e) {
     console.log(e)
   }
-}
-
-function createProcessor() {
-  return unified() //
-    .use(remarkParse)
-    .use(remarkFrontmatter, [{ type: 'yaml', marker: '-' }])
-    .use(remarkExtractFrontmatter, { yaml: load })
-    .use(remarkWikiLink, {
-      pageResolver: (name) => [name],
-      hrefTemplate: (permalink) => permalink,
-      aliasDivider: '|',
-    })
 }
 
 void run()

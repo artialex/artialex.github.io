@@ -64,9 +64,3 @@ $$
 - initial vector $\vec{v}$
 - scaling matrix $S$
 - rotation matrix $R$
-
----
-
-## Related
-
-- [[Affine transformations]]

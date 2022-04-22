@@ -4,18 +4,23 @@ tags: [done]
 
 # Set theory
 
-Set is a group of unordered elements
+Set is a group of *unordered* elements
 
 $$
 \BA
 	A & = \{1, 2\} \\
 	B & = \{1, 2, 3\} \\
 	C & = \{3, 4, 5\} \\
-	\empty & = \{\}
 \EA
 $$
 
-### Membership
+Empty set
+
+$$
+	\empty = \{\}
+$$
+
+Membership ($5$ exists in $C$, but not in $A$)
 
 $$
 \BA
@@ -24,9 +29,7 @@ $$
 \EA
 $$
 
-## Operations
-
-### Subset & Superset
+Subset & Superset
 
 $$
 \BA
@@ -35,19 +38,19 @@ $$
 \EA
 $$
 
-### Union
+Union
 
 $$
 	B \cup C = C \cup B = \{1,2,3,4,5\}
 $$
 
-### Intersection
+Intersection
 
 $$
 	B \cap C = C \cap B = \{3\}
 $$
 
-### Set difference
+Set difference
 
 $$
 \BA
@@ -56,13 +59,13 @@ $$
 \EA
 $$
 
-### Symmetric difference
+*Symmetric* difference
 
 $$
 A \bigtriangleup B = A \ominus B = \{1,2,4,5\}
 $$
 
-### [[Cartesian product]]
+[[Cartesian product]]
 
 $$
 	A \times B = \{
@@ -77,7 +80,7 @@ $$
 
 ---
 
-### Special sets
+## Special sets
 
 - All primes: $ℙ$
 - All natural numbers: $\natnums$

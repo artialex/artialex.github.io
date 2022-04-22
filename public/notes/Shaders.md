@@ -21,9 +21,3 @@ $$
 ## Buzz
 
 - GLSL
-
-### Links
-
-- [The Book of Shaders](https://thebookofshaders.com)
-- Shadertoy
-- [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)

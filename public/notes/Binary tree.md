@@ -21,8 +21,3 @@ class Node<T> {
 ```
 
 Universal value tree
-
-
----
-
-- https://adrianmejia.com/self-balanced-binary-search-trees-with-avl-tree-data-structure-for-beginners/

@@ -4,7 +4,7 @@ import type { FC } from 'react'
 import type { AppProps } from 'next/app'
 import { Provider } from 'react-redux'
 
-import { persistor, store } from '@/core/core.store'
+import { persistor, store } from '@/core'
 
 import { PersistGate } from 'redux-persist/integration/react'
 

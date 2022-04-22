@@ -1,19 +1,16 @@
 ---
-tags: [map, ignore]
+tags: [map, ignore, thought, scratch]
 ---
 
 # Thoughts & Scratches
 
-Some links are external, that means that they match my own thoughts and for clarity I left only external links
-
-- [[Overused terms]]
+[[Overused terms]]
 
 ## Development process
 
 <!-- * [[About feedback]] -->
 
 - [[Two things I do when joining a new team]]
-- [Acronyms Seriously Suck](https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764)
 
 <!--
 * Two things that newbie should know (donesti mysl) new Две вещи, которые должен уметь делать новичок
@@ -94,12 +91,6 @@ Some links are external, that means that they match my own thoughts and for clar
 
 [['I have no time' problem]]
 -->
-
-## Good external one-line answers
-
-- [No hello](https://nohello.net/)
-- [XY problem](http://xyproblem.info/)
-- [Don't ask to ask](https://dontasktoask.com/)
 
 <!--
 

@@ -2,7 +2,7 @@
 tags: [os]
 ---
 
-# Operating System
+# Operating system
 
 Operating systems can be viewed _from above_ or _from below_
 
@@ -46,10 +46,6 @@ _User space_
 
 [[Shell]] is not the part of the OS, it's a separate very handy application
 
----
-
-- https://braindump.jethro.dev/posts/operating_systems/
-
 <!--
 [[Взаимодествие процессов]]
 
@@ -73,23 +69,6 @@ _User space_
 Вопросы
 
 * [[Как работает операционная система?]]
-
-
----
-
-https://vseloved.github.io/pdf/os-ru.pdf
-
-
-https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#operating-systems
-
-### Ссылки
-
-* Operating System Concepts 📖
-* Modern Operating Systems 📖
-* UNIX Operating System 📖
-
-
-
 
 
 # Мьютексы

@@ -1,24 +1,22 @@
 ---
-tags: [guide, wip]
+tags: [guide, wip, naming]
 ---
 
-# How I name things
+# How I name files
 
 Firstly, to avoid bike-shedding I have a [[Common Sense Style Guide]]
-
-## [[Naming variables]]
 
 ## Naming files
 
 - use `PascalCase` for React components, services, constructors, etc...
 - use `kebab-case` for everything else
-- never use `snake_case`
+- never ever use `snake_case`
 
-### React components
+## React components
 
 With supporting files:
 
-```
+```bash
 └── components
     └── Faq                 # Directory
         ├── index.ts        # `export { Faq } from './Faq'`
@@ -30,24 +28,26 @@ With supporting files:
 
 Without supporting files:
 
-```
+```bash
 └── components              # Component directory
     └── Button.jsx          # Component without supporting files
 ```
 
-### Classes, Singletons
+<!--
+## Classes, Singletons
 
 Name the file as the name of the class
 
-```
+```bash
 └── modules
     └── user
         ├── ...
         ├── User.js         # `export class User`
         └── UserService.js  # `export default new UserService()`
 ```
+-->
 
-### Redux bundles, Tools
+## Redux bundles, Tools
 
 These files usually export multiple functions, so use pseudoextensions indicating the contents of the file
 
@@ -61,10 +61,3 @@ These files usually export multiple functions, so use pseudoextensions indicatin
         ├── currency.tools.js
         └── datetime.tools.js
 ```
-
----
-
-- https://github.com/kettanaito/naming-cheatsheet
-
-
-[[How I name projects]]

@@ -4,7 +4,7 @@ tags: [architecture, index]
 
 # Software architecture
 
-_Not every system needs an architecture_
+> Not every system needs an architecture
 
 ## Small picture
 
@@ -27,15 +27,3 @@ Treat applications like big functions, containerize them, write [[12-factor appl
 Keeping the architecture in one's head can be tedious, use PlantUML and [C4 Model](https://c4model.com/) for visualizations
 
 Be wary of [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law)
-
----
-
-- [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
-- [Application Architecture Guide 2.0](https://archive.codeplex.com/?p=AppArchGuide)
-- [Архитектура приложений с открытым исходным кодом](http://rus-linux.net/MyLDP/BOOKS/Architecture-Open-Source-Applications/index.html)
-- [FPB, Software Architecture](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#software-architecture)
-
-<!--
-## Command Query Separation (CQS )
-- https://martinfowler.com/bliki/CommandQuerySeparation.html
--->

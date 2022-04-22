@@ -11,7 +11,3 @@ tags: [architecture]
 *Liskov Substitution* principle
 
 *Interface Segregation* states that entites *should not depend on the interfaces they don't use*
-
----
-
-- https://ota-solid.vercel.app/isp

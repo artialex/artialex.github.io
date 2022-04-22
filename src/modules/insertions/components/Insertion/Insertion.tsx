@@ -1,7 +1,6 @@
-import _, { divide } from 'lodash'
-import { loadGetInitialProps } from 'next/dist/shared/lib/utils'
 import React, { FC, useMemo, useState } from 'react'
 import { BacktrackingSearch } from '../BacktrackingSearch'
+import { BezierCurves } from '../BezierCurves'
 
 interface InsertionProps {
   type: string
@@ -65,6 +64,7 @@ const FilterTable = (props: any) => {
 
 const insertionMap: Record<any, any> = {
   backtracking: BacktrackingSearch,
+  beziercurves: BezierCurves,
   filtertable: FilterTable,
   observable: Observable,
 }

@@ -4,12 +4,13 @@ tags: [fe]
 
 # Web Performance
 
-- [[Web vitals]]
-- [[Web Dev Tools]]
 - [[Frontend performance checklist]]
 
 ---
+tags: [fe]
+---
 
-- [MDN | Web Performance](https://developer.mozilla.org/en-US/docs/Web/Performance)
+# Web vitals
 
-
+## First Input Delay (FID)
+- https://twitter.com/iamakulov/status/1425104939991379988

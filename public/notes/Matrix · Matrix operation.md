@@ -106,8 +106,3 @@ $$
 \end{document}
 ```
 -->
-
-## Related
-
-- [[Matrix · Vector operation]]
-- [[Linear transformations]]

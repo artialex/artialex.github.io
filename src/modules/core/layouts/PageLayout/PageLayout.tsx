@@ -32,6 +32,7 @@ export const PageLayout: FC<PageLayoutProps> = ({ children }) => (
 
     {children}
 
+    {/*
     <footer className={css.footer}>
       <hr />
       <div>
@@ -43,5 +44,6 @@ export const PageLayout: FC<PageLayoutProps> = ({ children }) => (
         </Link>
       </div>
     </footer>
+*/}
   </div>
 )

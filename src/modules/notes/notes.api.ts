@@ -1,5 +1,3 @@
-import _ from 'lodash'
-
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 export let notesApi = createApi({
@@ -13,10 +11,6 @@ export let notesApi = createApi({
      */
     getGraph: builder.query<GetGraphResponse, void>({
       query: () => `graph.json`,
-      transformResponse: (response: GetGraphRawResponse) => ({
-        nodes: response.nodes,
-        tags: _.countBy(_.compact(_.flatMap(response.nodes, 'tags'))),
-      }),
     }),
 
     /**
@@ -39,16 +33,24 @@ export let { useGetProcessedNoteByIdQuery, useGetGraphQuery } = notesApi
 
 // -- Types ----------------------------------------------------------------------------------------
 
+export type NodeId = string
+export type TagId = string
+
 interface Node {
-  id: string
-  tags: string[]
+  backlinks: NodeId[]
 }
 
 interface GetGraphRawResponse {
-  nodes: Node[]
+  nodes: { id: NodeId; tags: TagId[] }[]
 }
 
 interface GetGraphResponse {
-  nodes: Node[]
-  tags: Record<string, number>
+  graph: {
+    nodes: Record<NodeId, Node>
+    tags: Record<TagId, NodeId[]>
+  }
+  vault: {
+    links: Record<string, { url: string; description?: string }>
+    tags: Record<string, string[]>
+  }
 }

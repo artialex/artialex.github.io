@@ -1,5 +1,5 @@
 ---
-tags: [wip]
+tags: [scratch]
 ---
 
 # Three books for every developer

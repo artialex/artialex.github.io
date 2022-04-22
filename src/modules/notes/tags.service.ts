@@ -10,6 +10,9 @@ export const tagMap: Record<string, string> = {
   fe: 'Frontend',
   wip: 'WIP',
   os: 'Operating system',
+  cs: 'Computer science',
+  ui: 'UI',
+  zk: 'Zettelkasten',
   math: 'Mathematics',
   graph: 'Graphs',
   devops: 'DevOps',
@@ -18,10 +21,12 @@ export const tagMap: Record<string, string> = {
   tree: 'Trees',
   eng: 'English language',
   thought: 'Thoughts',
+  pbm: 'Package-By-Module',
+  'file-structure': 'File structure',
   scratch: 'Scratches',
 }
 
-export const ignoredTags = ['done', 'index', 'map', 'ignore']
+export const ignoredTags = ['done', 'index', 'map', 'ignore', 'wip']
 
 export function getPrettyTagName(tag: string) {
   return tagMap[tag] || _.capitalize(tag)

@@ -46,17 +46,11 @@ This way structure can look like this
 ## Tools I prefer
 
 - I use [TypeScript](https://www.typescriptlang.org/). All the modern frameworks and server-side JS support TypeScript. I avoid using pure JS except simple scripts
-- I use [prettier](https://prettier.io/). I think the experience of writing code in JS/TS can be divided into _before_ and _after_ inventing `prettier`.
-- I use [css-modules](https://github.com/css-modules/css-modules). Without BEM naming convention as it becomes unneeded in isolated CSS
-- I use [plop](https://plopjs.com/) as a code generation tool. It helps me to create modules and components on the fly
+- I use [Prettier](https://prettier.io/). I think the experience of writing code in JS/TS can be divided into _before_ and _after_ inventing `prettier`.
+- I use [CSS Modules](https://github.com/css-modules/css-modules). Without BEM naming convention as it becomes unneeded in isolated CSS
+- I use [Plop](https://plopjs.com/) as a code generation tool. It helps me to create modules and components on the fly. I even have my own [reusable set of tasks](https://github.com/alextheartisan/tasks)
 - I use [C4 Model](https://c4model.com/) for visualizing the big picture of the system I work on
 - I use PlantUML when it's necessary
 - I use madge when it's helpful
-- [[How I write unit tests|I use jest]] for unit-testing (with the help of `testing-library`)
+- [[How I write unit tests|I use Jest]] for unit-testing (with the help of `testing-library`)
 - I use cypress for e2e-testing
-
-<!--
----
-
-- [Requirements for front-end developers](https://livetyping.com/en/blog/requirements-for-front-end-developer)
--->

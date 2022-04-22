@@ -1,3 +1,7 @@
+---
+tags: [guide, learning]
+---
+
 # Tips for beginner programmers
 
 ## Start with two questions:

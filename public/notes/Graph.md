@@ -59,12 +59,6 @@ Pathfinding, [[DFS]], [[BFS]]
 - [[Notes graph]]
 
 https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/
--->
-
-- [Graph Theory](https://www.youtube.com/watch?v=09_LlHjoEiY) 📺
-- [Some cool Graph game](http://pulzed.com/demo/tronix2/) 🎮
-
-<!--
 
 # Двудольный граф, биграф
 

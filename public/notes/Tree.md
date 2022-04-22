@@ -95,12 +95,6 @@ label = "Out-tree"
 -->
 
 
-
-*Trie* is a type of a [[Tree|tree]] that is used for storing characters
+*Trie* is a type of a tree that is used for storing characters
 
 ::insertion[graph]{type=trie}
-
-
----
-
-- [Introduction to Trees](https://www.youtube.com/watch?v=1-l_UOFi1Xw)

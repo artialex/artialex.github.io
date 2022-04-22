@@ -1,12 +1,14 @@
 ---
-tags: [wip]
+tags: [guide, naming, wip]
 ---
 
-# Naming variables
+# How I name variables
+
+Firstly, to avoid bike-shedding I have a [[Common Sense Style Guide]]
 
 Choosing a right name for a variable is just as important as choosing the right architecture, both lead to quicker diving into the project
 
-**Rule #1:** Avoid overusing name `data`, because it's not explicit what kind of data it contains
+:mark[**Rule #1:**]{color=red} Avoid overusing name `data`, because it's not explicit what kind of data it contains
 
 - Use grammar checker, it helps to avoid cases like `isMaked`, `isShowed`
 - Avoid naming it `list`, `collection`, `entry`, `item` except for general utility functions
@@ -231,7 +233,3 @@ No `&__element` and `&--modifier` nonsense!
 
 - [[Naming @media breakpoints and ranges]]
 - [[How I write unit tests|Naming in unit tests]]
-
----
-
-- https://javascript.info/ninja-code

@@ -40,10 +40,6 @@ Advanced
 
 ---
 
-- https://css-tricks.com/
-- https://www.smashingmagazine.com/
-- https://doka.guide/
-
 # Build optimizations
 
 ## Webpack

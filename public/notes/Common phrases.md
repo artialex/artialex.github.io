@@ -69,7 +69,7 @@ Introductury words
 | Также как                            | As well as                                 |
 | Без разницы                          | As the same                                |
 | С одной стороны ... с другой стороны | On one hand ... on the other hand          |
-| Несмотря на                          | In spite of / Despite of / Notwithstanding |
+| Несмотря на                          | In spite of / Despite of / Notwithstanding / Even though / Regardless of|
 | Не говоря уже о ...                  | Not to mention ...                         |
 |                                      | Actually / In fact                         |
 |                                      | Obviously / Evidently / Apparently         |

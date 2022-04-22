@@ -1,1504 +1,3345 @@
 {
-  "nodes": [
-    {
-      "id": "'I have no time' real meaning",
-      "tags": [
-        "thought"
+  "graph": {
+    "nodes": {
+      "Set theory": {
+        "backlinks": [
+          "A little about combinatorics"
+        ]
+      },
+      "Combinations": {
+        "backlinks": [
+          "A little about combinatorics",
+          "Notable Pages",
+          "Permutations"
+        ]
+      },
+      "Permutations": {
+        "backlinks": [
+          "A little about combinatorics",
+          "Notable Pages"
+        ]
+      },
+      "Combinatorics Tasks": {
+        "backlinks": [
+          "A little about combinatorics"
+        ]
+      },
+      "Scaling": {
+        "backlinks": [
+          "Affine transformations",
+          "Linear transformations"
+        ]
+      },
+      "Reflection": {
+        "backlinks": [
+          "Affine transformations",
+          "Linear transformations"
+        ]
+      },
+      "Rotation": {
+        "backlinks": [
+          "Affine transformations",
+          "Linear transformations"
+        ]
+      },
+      "PDCA": {
+        "backlinks": [
+          "Agile Development"
+        ]
+      },
+      "Kaizen": {
+        "backlinks": [
+          "Agile Development"
+        ]
+      },
+      "Algorithm complexity": {
+        "backlinks": [
+          "Algorithms & Data Structures"
+        ]
+      },
+      "Sampling": {
+        "backlinks": [
+          "Aliasing",
+          "Digital image processing",
+          "Digital signal processing",
+          "Images"
+        ]
+      },
+      "What is a Mesh": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Lighting": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Rendering": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Subdivision": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Tessellation": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Z-buffer": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Shaders": {
+        "backlinks": [
+          "Computer graphics",
+          "Post-processing"
+        ]
+      },
+      "Color": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Lights & Shadows": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Post-processing": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "OpenGL": {
+        "backlinks": [
+          "Computer graphics",
+          "Rendering"
+        ]
+      },
+      "WebGL": {
+        "backlinks": [
+          "Computer graphics",
+          "Rendering"
+        ]
+      },
+      "Spaces": {
+        "backlinks": [
+          "Computer graphics",
+          "Rendering Pipeline"
+        ]
+      },
+      "OBJ File Format": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Linear algebra": {
+        "backlinks": [
+          "Computer graphics",
+          "Mathematics"
+        ]
+      },
+      "Linear transformations": {
+        "backlinks": [
+          "Computer graphics",
+          "Linear algebra"
+        ]
+      },
+      "Physics (CG)": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "How to start learning computer graphics programming": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Bezier curves": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Splines": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Homogenous coordinates": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "ODE": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Aliasing": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Monte-Carlo integration": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Differential equations": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Curves & Surfaces": {
+        "backlinks": [
+          "Computer graphics"
+        ]
+      },
+      "Serialization": {
+        "backlinks": [
+          "Computer Science"
+        ]
+      },
+      "Marshalling": {
+        "backlinks": [
+          "Computer Science"
+        ]
+      },
+      "Multiplexing": {
+        "backlinks": [
+          "Computer Science",
+          "How I write useful notes"
+        ]
+      },
+      "Different function types": {
+        "backlinks": [
+          "Computer Science"
+        ]
+      },
+      "Processes": {
+        "backlinks": [
+          "CPU",
+          "Operating system",
+          "Software",
+          "Threads"
+        ]
+      },
+      "Threads": {
+        "backlinks": [
+          "CPU",
+          "Operating system",
+          "Processes",
+          "Software"
+        ]
+      },
+      "Unit vector": {
+        "backlinks": [
+          "Cross product"
+        ]
+      },
+      "Java Collections": {
+        "backlinks": [
+          "CSharp",
+          "Java"
+        ]
+      },
+      "Namespaces": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Enums (CSharp)": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Methods (CSharp)": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Extension methods": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Structs": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Concurrency": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Delegates": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "LINQ": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "dotNET": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Strings (CSharp)": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Common Intermediate Language": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Common Language Runtime": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Exception handling": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Types (CSharp)": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Garbage collector": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Interfaces (CSharp)": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "DateTime API": {
+        "backlinks": [
+          "CSharp",
+          "Java API"
+        ]
+      },
+      "Memory model": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Enums": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Passing by reference and value": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Boxing and Unboxing": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "IO": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Optionals": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Pattern matching": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Collections (CSharp)": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Nullable types (CSharp)": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "Type conversion (CSharp)": {
+        "backlinks": [
+          "CSharp"
+        ]
+      },
+      "JPA": {
+        "backlinks": [
+          "Data Access",
+          "Hibernate"
+        ]
+      },
+      "Hibernate": {
+        "backlinks": [
+          "Data Access",
+          "Java",
+          "Spring Data"
+        ]
+      },
+      "Spring Data": {
+        "backlinks": [
+          "Data Access",
+          "Spring"
+        ]
+      },
+      "PostgreSQL": {
+        "backlinks": [
+          "Data Access"
+        ]
+      },
+      "SQL": {
+        "backlinks": [
+          "Data Access",
+          "JPA"
+        ]
+      },
+      "12-factor application": {
+        "backlinks": [
+          "Deployment",
+          "Software architecture"
+        ]
+      },
+      "Patterns": {
+        "backlinks": [
+          "Design patterns"
+        ]
+      },
+      "Amazon S3": {
+        "backlinks": [
+          "DevOps"
+        ]
+      },
+      "Docker": {
+        "backlinks": [
+          "DevOps"
+        ]
+      },
+      "Quantization": {
+        "backlinks": [
+          "Digital image processing",
+          "Digital signal processing"
+        ]
+      },
+      "Digital image processing": {
+        "backlinks": [
+          "Digital signal processing"
+        ]
+      },
+      "Matrix · Matrix operation": {
+        "backlinks": [
+          "Dot product",
+          "Matrix · Vector operation",
+          "Matrix",
+          "Vector & Matrix Operations"
+        ]
+      },
+      "Tenses": {
+        "backlinks": [
+          "English"
+        ]
+      },
+      "Pronouns": {
+        "backlinks": [
+          "English"
+        ]
+      },
+      "Common phrases": {
+        "backlinks": [
+          "English"
+        ]
+      },
+      "Two types of Feedback": {
+        "backlinks": [
+          "Fifth Discipline. Summary"
+        ]
+      },
+      "State Management": {
+        "backlinks": [
+          "Frontend architecture"
+        ]
+      },
+      "Server-Side Rendering": {
+        "backlinks": [
+          "Frontend architecture"
+        ]
+      },
+      "Assets optimizations": {
+        "backlinks": [
+          "Frontend performance checklist",
+          "Frontend"
+        ]
+      },
+      "Build optimizations": {
+        "backlinks": [
+          "Frontend performance checklist"
+        ]
+      },
+      "JavaScript": {
+        "backlinks": [
+          "Frontend",
+          "Software"
+        ]
+      },
+      "CSS": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Next": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "React": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Frontend Persistence": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Practical tasks": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Frontend architecture": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Authentication & Authorization": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "I18n": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Routing": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Data Fetching": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Web Analytics": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Feature flags": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Web Animation": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Forms": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Deployment": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Web Performance": {
+        "backlinks": [
+          "Frontend"
+        ]
+      },
+      "Tree": {
+        "backlinks": [
+          "Graph types",
+          "Graph"
+        ]
+      },
+      "Complete graph": {
+        "backlinks": [
+          "Graph types",
+          "Graph"
+        ]
+      },
+      "Graph orientation": {
+        "backlinks": [
+          "Graph"
+        ]
+      },
+      "Graph cyclicity": {
+        "backlinks": [
+          "Graph"
+        ]
+      },
+      "Graph weight": {
+        "backlinks": [
+          "Graph"
+        ]
+      },
+      "Graph connectivity": {
+        "backlinks": [
+          "Graph"
+        ]
+      },
+      "Adjacency matrix": {
+        "backlinks": [
+          "Graph"
+        ]
+      },
+      "Adjacency list": {
+        "backlinks": [
+          "Graph"
+        ]
+      },
+      "Edge list": {
+        "backlinks": [
+          "Graph"
+        ]
+      },
+      "Graph joining": {
+        "backlinks": [
+          "Graph"
+        ]
+      },
+      "DFS": {
+        "backlinks": [
+          "Graph",
+          "How to solve algorithmic tasks"
+        ]
+      },
+      "BFS": {
+        "backlinks": [
+          "Graph",
+          "How to solve algorithmic tasks"
+        ]
+      },
+      "CPU": {
+        "backlinks": [
+          "Hardware"
+        ]
+      },
+      "RAM": {
+        "backlinks": [
+          "Hardware"
+        ]
+      },
+      "GPU": {
+        "backlinks": [
+          "Hardware"
+        ]
+      },
+      "The way I write these notes": {
+        "backlinks": [
+          "Hi"
+        ]
+      },
+      "Software": {
+        "backlinks": [
+          "Hi"
+        ]
+      },
+      "UI Design": {
+        "backlinks": [
+          "Hi",
+          "Now"
+        ]
+      },
+      "Mathematics": {
+        "backlinks": [
+          "Hi"
+        ]
+      },
+      "Learning & Note Taking": {
+        "backlinks": [
+          "Hi"
+        ]
+      },
+      "Common Sense Style Guide": {
+        "backlinks": [
+          "How I name files",
+          "How I name projects",
+          "How I name variables"
+        ]
+      },
+      "Naming @media breakpoints and ranges": {
+        "backlinks": [
+          "How I name variables"
+        ]
+      },
+      "How I write unit tests": {
+        "backlinks": [
+          "How I name variables",
+          "How I write frontend",
+          "How I write guides"
+        ]
+      },
+      "Package by feature not layer": {
+        "backlinks": [
+          "How I write frontend",
+          "Software architecture",
+          "Thoughts & Scratches"
+        ]
+      },
+      "How I write frontend": {
+        "backlinks": [
+          "How I write guides"
+        ]
+      },
+      "How I name files": {
+        "backlinks": [
+          "How I write guides"
+        ]
+      },
+      "Backtracking search": {
+        "backlinks": [
+          "How to solve algorithmic tasks"
+        ]
+      },
+      "Rasterizer": {
+        "backlinks": [
+          "How to start learning computer graphics programming",
+          "Notable Pages"
+        ]
+      },
+      "Quarternion": {
+        "backlinks": [
+          "How to start learning computer graphics programming"
+        ]
+      },
+      "Reading and writing files in Java": {
+        "backlinks": [
+          "Java API"
+        ]
+      },
+      "Stream API": {
+        "backlinks": [
+          "Java API"
+        ]
+      },
+      "Parallel run": {
+        "backlinks": [
+          "Java vs CSharp"
+        ]
+      },
+      "Values & Value Types": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Java Objects": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Exceptions": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Java OOP Elements": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Java Arrays": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Java Concurrency": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Functional elements in Java": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Java API": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Working with Spring": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Spring": {
+        "backlinks": [
+          "Java",
+          "Spring Data",
+          "Spring MVC"
+        ]
+      },
+      "Spring Boot": {
+        "backlinks": [
+          "Java",
+          "Spring"
+        ]
+      },
+      "Spring MVC": {
+        "backlinks": [
+          "Java",
+          "Spring Boot",
+          "Spring"
+        ]
+      },
+      "Data Access": {
+        "backlinks": [
+          "Java",
+          "Software",
+          "Spring Data"
+        ]
+      },
+      "Open-source applications": {
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "JavaScript Projects Terminology": {
+        "backlinks": [
+          "JavaScript asynchronicity"
+        ]
+      },
+      "Call stack": {
+        "backlinks": [
+          "JavaScript asynchronicity"
+        ]
+      },
+      "Task queue": {
+        "backlinks": [
+          "JavaScript asynchronicity"
+        ]
+      },
+      "Basic JavaScript": {
+        "backlinks": [
+          "JavaScript"
+        ]
+      },
+      "JavaScript asynchronicity": {
+        "backlinks": [
+          "JavaScript"
+        ]
+      },
+      "npm": {
+        "backlinks": [
+          "JavaScript"
+        ]
+      },
+      "AJAX": {
+        "backlinks": [
+          "JavaScript"
+        ]
+      },
+      "Websockets": {
+        "backlinks": [
+          "JavaScript"
+        ]
+      },
+      "Node Streams": {
+        "backlinks": [
+          "JavaScript"
+        ]
+      },
+      "JPQL": {
+        "backlinks": [
+          "JPA"
+        ]
+      },
+      "SpEL": {
+        "backlinks": [
+          "JPA"
+        ]
+      },
+      "Элементы кайдзен": {
+        "backlinks": [
+          "Kaizen"
+        ]
+      },
+      "Принципы кайдзен": {
+        "backlinks": [
+          "Kaizen"
+        ]
+      },
+      "Применение кайдзен": {
+        "backlinks": [
+          "Kaizen"
+        ]
+      },
+      "How I write useful notes": {
+        "backlinks": [
+          "Learning & Note Taking"
+        ]
+      },
+      "Coordinate space": {
+        "backlinks": [
+          "Linear algebra"
+        ]
+      },
+      "Vector": {
+        "backlinks": [
+          "Linear algebra"
+        ]
+      },
+      "Matrix": {
+        "backlinks": [
+          "Linear algebra",
+          "Linear transformations",
+          "Vector"
+        ]
+      },
+      "Vector & Matrix Operations": {
+        "backlinks": [
+          "Linear algebra"
+        ]
+      },
+      "Shear": {
+        "backlinks": [
+          "Linear transformations"
+        ]
+      },
+      "Projection": {
+        "backlinks": [
+          "Linear transformations"
+        ]
+      },
+      "Streams (Management)": {
+        "backlinks": [
+          "Management mental model by Oleg Soroka"
+        ]
+      },
+      "Ideas": {
+        "backlinks": [
+          "Management mental model by Oleg Soroka"
+        ]
+      },
+      "People": {
+        "backlinks": [
+          "Management mental model by Oleg Soroka"
+        ]
+      },
+      "Management mental model by Oleg Soroka": {
+        "backlinks": [
+          "Management"
+        ]
+      },
+      "About feedback": {
+        "backlinks": [
+          "Management"
+        ]
+      },
+      "Management Checklist": {
+        "backlinks": [
+          "Management"
+        ]
+      },
+      "Fifth Discipline. Summary": {
+        "backlinks": [
+          "Management"
+        ]
+      },
+      "Laws & Principles": {
+        "backlinks": [
+          "Management"
+        ]
+      },
+      "Tasks": {
+        "backlinks": [
+          "Management"
+        ]
+      },
+      "What are the numbers": {
+        "backlinks": [
+          "Mathematics"
+        ]
+      },
+      "A little about combinatorics": {
+        "backlinks": [
+          "Mathematics"
+        ]
+      },
+      "Dot product": {
+        "backlinks": [
+          "Matrix · Matrix operation",
+          "Notable Pages",
+          "Triple product"
+        ]
+      },
+      "Matrix · Vector operation": {
+        "backlinks": [
+          "Matrix",
+          "Vector & Matrix Operations"
+        ]
+      },
+      "Matrix addition": {
+        "backlinks": [
+          "Matrix"
+        ]
+      },
+      "Matrix transposition": {
+        "backlinks": [
+          "Matrix"
+        ]
+      },
+      "Matrix · Scalar operation": {
+        "backlinks": [
+          "Matrix",
+          "Vector & Matrix Operations"
+        ]
+      },
+      "OSI Model": {
+        "backlinks": [
+          "Networking",
+          "Software"
+        ]
+      },
+      "Trigonometric Functions": {
+        "backlinks": [
+          "Notable Pages"
+        ]
+      },
+      "Link Vault": {
+        "backlinks": [
+          "Now"
+        ]
+      },
+      "State machine": {
+        "backlinks": [
+          "OpenGL"
+        ]
+      },
+      "Files": {
+        "backlinks": [
+          "Operating system"
+        ]
+      },
+      "Signals": {
+        "backlinks": [
+          "Operating system"
+        ]
+      },
+      "System Calls": {
+        "backlinks": [
+          "Operating system"
+        ]
+      },
+      "Shell": {
+        "backlinks": [
+          "Operating system"
+        ]
+      },
+      "Unix": {
+        "backlinks": [
+          "Operating system"
+        ]
+      },
+      "Factory method": {
+        "backlinks": [
+          "Patterns"
+        ]
+      },
+      "Game loop": {
+        "backlinks": [
+          "Patterns"
+        ]
+      },
+      "Deck of cards": {
+        "backlinks": [
+          "Probability"
+        ]
+      },
+      "Poker probability": {
+        "backlinks": [
+          "Probability"
+        ]
+      },
+      "Conceptual computation": {
+        "backlinks": [
+          "Problem solving"
+        ]
+      },
+      "Ray tracing": {
+        "backlinks": [
+          "Ray casting",
+          "Rendering"
+        ]
+      },
+      "Component, Instance & Element": {
+        "backlinks": [
+          "React"
+        ]
+      },
+      "Reconciliation": {
+        "backlinks": [
+          "React"
+        ]
+      },
+      "Hooks": {
+        "backlinks": [
+          "React"
+        ]
+      },
+      "Clipping": {
+        "backlinks": [
+          "Rendering Pipeline"
+        ]
+      },
+      "Rasterization": {
+        "backlinks": [
+          "Rendering",
+          "Spaces"
+        ]
+      },
+      "Ray casting": {
+        "backlinks": [
+          "Rendering"
+        ]
+      },
+      "HTTP": {
+        "backlinks": [
+          "REST API"
+        ]
+      },
+      "Sorting algorithms": {
+        "backlinks": [
+          "REST API"
+        ]
+      },
+      "Pagination": {
+        "backlinks": [
+          "REST API"
+        ]
+      },
+      "Including & Excluding fields": {
+        "backlinks": [
+          "REST API"
+        ]
+      },
+      "Data Integrity": {
+        "backlinks": [
+          "REST API"
+        ]
+      },
+      "Conditional requests": {
+        "backlinks": [
+          "REST API"
+        ]
+      },
+      "Searching": {
+        "backlinks": [
+          "REST API"
+        ]
+      },
+      "Diagnostics & Tracing": {
+        "backlinks": [
+          "REST API"
+        ]
+      },
+      "Error responses": {
+        "backlinks": [
+          "REST API"
+        ]
+      },
+      "Cartesian product": {
+        "backlinks": [
+          "Set theory"
+        ]
+      },
+      "Function": {
+        "backlinks": [
+          "Sine & Cosine"
+        ]
+      },
+      "SOLID": {
+        "backlinks": [
+          "Software architecture"
+        ]
+      },
+      "Clean architecture": {
+        "backlinks": [
+          "Software architecture"
+        ]
+      },
+      "Notes on DDD": {
+        "backlinks": [
+          "Software architecture"
+        ]
+      },
+      "Operating system": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "Networking": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "Java": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "C++": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "Algorithms & Data Structures": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "Frontend": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "Computer Science": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "Software architecture": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "Computer graphics": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "UML": {
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "Spring Framework": {
+        "backlinks": [
+          "Spring Boot",
+          "Spring"
+        ]
+      },
+      "Dependency Injection": {
+        "backlinks": [
+          "Spring Framework"
+        ]
+      },
+      "JDBC": {
+        "backlinks": [
+          "Spring"
+        ]
+      },
+      "Spring Boot Starters": {
+        "backlinks": [
+          "Spring"
+        ]
+      },
+      "Spring Cloud": {
+        "backlinks": [
+          "Spring"
+        ]
+      },
+      "Images": {
+        "backlinks": [
+          "Textures"
+        ]
+      },
+      "Overused terms": {
+        "backlinks": [
+          "Thoughts & Scratches"
+        ]
+      },
+      "Two things I do when joining a new team": {
+        "backlinks": [
+          "Thoughts & Scratches"
+        ]
+      },
+      "Three books for every developer": {
+        "backlinks": [
+          "Thoughts & Scratches"
+        ]
+      },
+      "Concrete examples better than abstract ones": {
+        "backlinks": [
+          "Thoughts & Scratches"
+        ]
+      },
+      "'I have no time' real meaning": {
+        "backlinks": [
+          "Thoughts & Scratches"
+        ]
+      },
+      "Top-down & bottom-up learning approaches": {
+        "backlinks": [
+          "Tips for beginner programmers"
+        ]
+      },
+      "Graph": {
+        "backlinks": [
+          "Tree"
+        ]
+      },
+      "Binary tree": {
+        "backlinks": [
+          "Tree"
+        ]
+      },
+      "Sine & Cosine": {
+        "backlinks": [
+          "Trigonometric Functions"
+        ]
+      },
+      "Cross product": {
+        "backlinks": [
+          "Triple product",
+          "Vector & Matrix Operations"
+        ]
+      },
+      "Vector magnitude": {
+        "backlinks": [
+          "Unit vector"
+        ]
+      },
+      "Outer product": {
+        "backlinks": [
+          "Vector & Matrix Operations"
+        ]
+      },
+      "Triple product": {
+        "backlinks": [
+          "Vector & Matrix Operations"
+        ]
+      },
+      "Vector · Scalar operation": {
+        "backlinks": [
+          "Vector & Matrix Operations"
+        ]
+      },
+      "Frontend performance checklist": {
+        "backlinks": [
+          "Web Performance"
+        ]
+      },
+      "CAT-5 Cable": {
+        "backlinks": [
+          "Wires"
+        ]
+      },
+      "RJ-45 Connector": {
+        "backlinks": [
+          "Wires"
+        ]
+      }
+    },
+    "tags": {
+      "thought": [
+        "'I have no time' real meaning",
+        "Thoughts & Scratches",
+        "Two things I do when joining a new team"
+      ],
+      "architecture": [
+        "12-factor application",
+        "Clean architecture",
+        "Dependency Injection",
+        "Design patterns",
+        "Frontend architecture",
+        "Game loop",
+        "Notes on DDD",
+        "Project structure",
+        "REST API",
+        "Screaming architecture",
+        "Software architecture",
+        "SOLID"
+      ],
+      "cg": [
+        "3D Graphics Class Structure",
+        "Bezier curves",
+        "Clipping",
+        "Color",
+        "Computer graphics",
+        "Images",
+        "Lighting",
+        "Lights & Shadows",
+        "OBJ File Format",
+        "OpenGL",
+        "Post-processing",
+        "Rasterization",
+        "Rasterizer",
+        "Ray casting",
+        "Ray tracing",
+        "Reflection (CG)",
+        "Rendering Pipeline",
+        "Rendering",
+        "Shaders",
+        "Shadows",
+        "Spaces",
+        "Splines",
+        "Subdivision",
+        "Tessellation",
+        "Textures",
+        "What is a Mesh"
+      ],
+      "combinatorics": [
+        "A little about combinatorics",
+        "Combinations",
+        "Combinatorics Tasks",
+        "Permutations"
+      ],
+      "management": [
+        "About feedback",
+        "Agile Development",
+        "Fifth Discipline. Summary",
+        "Kaizen",
+        "Management",
+        "Two things I do when joining a new team",
+        "Two types of feedback"
+      ],
+      "wip": [
+        "About feedback",
+        "Algorithms & Data Structures",
+        "Array",
+        "Authentication & Authorization",
+        "Binary tree",
+        "Cartesian product",
+        "Clipping",
+        "Complete graph",
+        "Computer Science",
+        "CSharp",
+        "Deployment",
+        "Design patterns",
+        "DevOps",
+        "Digital signal processing",
+        "dotNET",
+        "Forms",
+        "Frontend architecture",
+        "Frontend performance checklist",
+        "Frontend Persistence",
+        "Game loop",
+        "Hardware",
+        "How browser works",
+        "How I create a CI pipeline",
+        "How I name files",
+        "How I name projects",
+        "How I name variables",
+        "HTTP",
+        "Kaizen",
+        "Management",
+        "Notes on DDD",
+        "Projection",
+        "REST API",
+        "Sorting algorithms"
+      ],
+      "linal": [
+        "Affine transformations",
+        "Coordinate space",
+        "Cross product",
+        "Dot product",
+        "Linear algebra",
+        "Linear transformations",
+        "Matrix transposition",
+        "Matrix · Matrix operation",
+        "Matrix · Scalar operation",
+        "Matrix · Vector operation",
+        "Matrix",
+        "Outer product",
+        "Projection",
+        "Reflection",
+        "Rotation",
+        "Scaling",
+        "Shear",
+        "Triple product",
+        "Unit vector",
+        "Vector & Matrix Operations",
+        "Vector · Scalar operation",
+        "Vector"
+      ],
+      "done": [
+        "Affine transformations",
+        "Coordinate space",
+        "Matrix transposition",
+        "Matrix · Matrix operation",
+        "Matrix · Scalar operation",
+        "Matrix",
+        "Multiplexing",
+        "Outer product",
+        "Package by feature not layer",
+        "Reflection",
+        "Rotation",
+        "Scaling",
+        "Set theory",
+        "Shear",
+        "Triple product",
+        "Unit vector",
+        "Vector & Matrix Operations",
+        "Vector · Scalar operation",
+        "Vector",
+        "What are the numbers"
+      ],
+      "agile": [
+        "Agile Development"
+      ],
+      "algo": [
+        "Algorithm complexity",
+        "Algorithms & Data Structures",
+        "Backtracking search",
+        "BFS",
+        "DFS",
+        "How to solve algorithmic tasks",
+        "Sorting algorithms"
+      ],
+      "ds": [
+        "Algorithms & Data Structures",
+        "Array",
+        "Binary tree",
+        "Complete graph",
+        "Graph connectivity",
+        "Graph cyclicity",
+        "Graph joining",
+        "Graph orientation",
+        "Graph traversals",
+        "Graph types",
+        "Graph weight",
+        "Graph",
+        "Heap",
+        "Linked List",
+        "List",
+        "Representing graphs",
+        "Tree"
+      ],
+      "geometry": [
+        "Angles",
+        "Geometry"
+      ],
+      "fe": [
+        "Assets optimizations",
+        "Authentication & Authorization",
+        "Basic JavaScript",
+        "Component, Instance & Element",
+        "Deployment",
+        "Forms",
+        "Frontend architecture",
+        "Frontend performance checklist",
+        "Frontend Persistence",
+        "Frontend",
+        "How browser works",
+        "How I write frontend",
+        "How I write unit tests",
+        "JavaScript asynchronicity",
+        "JavaScript",
+        "npm",
+        "React",
+        "Web Animation",
+        "Web Performance",
+        "Windows & IFrames"
+      ],
+      "auth": [
+        "Authentication & Authorization"
+      ],
+      "js": [
+        "Basic JavaScript",
+        "Component, Instance & Element",
+        "JavaScript asynchronicity",
+        "JavaScript",
+        "Node Streams",
+        "npm",
+        "React"
+      ],
+      "curves": [
+        "Bezier curves",
+        "Splines"
+      ],
+      "graph": [
+        "BFS",
+        "Binary tree",
+        "Complete graph",
+        "Cool graphs",
+        "DFS",
+        "Graph connectivity",
+        "Graph cyclicity",
+        "Graph joining",
+        "Graph orientation",
+        "Graph traversals",
+        "Graph types",
+        "Graph weight",
+        "Graph",
+        "Representing graphs",
+        "Tree"
+      ],
+      "tree": [
+        "Binary tree",
+        "Tree"
+      ],
+      "orphan": [
+        "Code search",
+        "Homogeneity"
+      ],
+      "productivity": [
+        "Cognitive biases",
+        "Learning & Note Taking",
+        "Problem solving"
+      ],
+      "map": [
+        "Cognitive biases",
+        "Hardware",
+        "Mathematics",
+        "Patterns",
+        "Software",
+        "Thoughts & Scratches"
+      ],
+      "eng": [
+        "Common phrases",
+        "English",
+        "Pronouns",
+        "Tenses"
+      ],
+      "guide": [
+        "Common Sense Style Guide",
+        "How I create a CI pipeline",
+        "How I name files",
+        "How I name projects",
+        "How I name variables",
+        "How I write frontend",
+        "How I write guides",
+        "How I write unit tests",
+        "How I write useful notes",
+        "Tips for beginner programmers"
+      ],
+      "react": [
+        "Component, Instance & Element",
+        "Events",
+        "React"
+      ],
+      "index": [
+        "Computer graphics",
+        "Data Access",
+        "Graph",
+        "Java",
+        "JavaScript",
+        "Linear transformations",
+        "Networking",
+        "Software architecture",
+        "Spring"
+      ],
+      "hardware": [
+        "CPU",
+        "GPU",
+        "RAM"
+      ],
+      "csharp": [
+        "CSharp",
+        "dotNET",
+        "Entity framework",
+        "Extension methods"
+      ],
+      "db": [
+        "Data Access",
+        "Hibernate",
+        "SQL"
+      ],
+      "java": [
+        "DateTime API",
+        "Exceptions",
+        "Functional elements in Java",
+        "Hibernate",
+        "Java API",
+        "Java Arrays",
+        "Java Collections",
+        "Java Concurrency",
+        "Java Objects",
+        "Java",
+        "JPA",
+        "Reading and writing files in Java",
+        "Strings",
+        "Values & Value Types"
+      ],
+      "spring": [
+        "Dependency Injection",
+        "Spring Boot Starters",
+        "Spring Boot",
+        "Spring Data",
+        "Spring Framework",
+        "Spring MVC",
+        "Spring"
+      ],
+      "devops": [
+        "Deployment",
+        "DevOps",
+        "Docker",
+        "How I create a CI pipeline"
+      ],
+      "patterns": [
+        "Design patterns",
+        "Game loop"
+      ],
+      "dsp": [
+        "Digital signal processing"
+      ],
+      "git": [
+        "Everyday git commands",
+        "Git"
+      ],
+      "os": [
+        "Files",
+        "Operating system",
+        "Processes",
+        "Threads"
+      ],
+      "ignore": [
+        "Hi",
+        "Mathematics",
+        "Notable Pages",
+        "Software",
+        "Thoughts & Scratches"
+      ],
+      "naming": [
+        "How I name files",
+        "How I name projects",
+        "How I name variables"
+      ],
+      "notetaking": [
+        "How I write useful notes",
+        "The way I write these notes"
+      ],
+      "networking": [
+        "HTTP",
+        "Networking",
+        "OSI Model",
+        "Wires"
+      ],
+      "learning": [
+        "Learning & Note Taking",
+        "Tips for beginner programmers",
+        "Top-down & bottom-up learning approaches"
+      ],
+      "scratch": [
+        "Loudest guy driven decisions",
+        "Rule of one new thing",
+        "Thoughts & Scratches",
+        "Three books for every developer"
+      ],
+      "math": [
+        "Mathematics",
+        "Statistics"
+      ],
+      "opengl": [
+        "OpenGL"
+      ],
+      "pbm": [
+        "Package by feature not layer",
+        "Screaming architecture"
+      ],
+      "probability": [
+        "Poker probability",
+        "Probability"
+      ],
+      "file-structure": [
+        "Project structure",
+        "Screaming architecture"
+      ],
+      "rest": [
+        "REST API"
+      ],
+      "cs": [
+        "Software"
+      ],
+      "sound": [
+        "Sound"
+      ],
+      "subdivision": [
+        "Subdivision",
+        "Tessellation"
+      ],
+      "zk": [
+        "The way I write these notes"
+      ],
+      "ui": [
+        "UI Design"
+      ],
+      "ws": [
+        "Websockets"
       ]
-    },
-    {
-      "id": "12-factor application",
-      "tags": [
-        "architecture"
-      ]
-    },
-    {
-      "id": "3D Graphics Class Structure",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "A little about combinatorics",
-      "tags": [
-        "combinatorics"
-      ]
-    },
-    {
-      "id": "About feedback",
-      "tags": [
-        "management",
-        "wip"
-      ]
-    },
-    {
-      "id": "Affine transformations",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Agile Development",
-      "tags": [
-        "agile",
-        "management"
-      ]
-    },
-    {
-      "id": "Algorithm complexity",
-      "tags": [
-        "algo"
-      ]
-    },
-    {
-      "id": "Algorithms & Data Structures",
-      "tags": [
-        "algo",
-        "ds",
-        "wip"
-      ]
-    },
-    {
-      "id": "Aliasing"
-    },
-    {
-      "id": "Amazon S3"
-    },
-    {
-      "id": "Angles",
-      "tags": [
-        "geometry"
-      ]
-    },
-    {
-      "id": "Array",
-      "tags": [
-        "ds",
-        "wip"
-      ]
-    },
-    {
-      "id": "Assets optimizations",
-      "tags": [
-        "fe"
-      ]
-    },
-    {
-      "id": "Authentication & Authorization",
-      "tags": [
-        "fe",
-        "wip"
-      ]
-    },
-    {
-      "id": "Backtracking search",
-      "tags": [
-        "algo"
-      ]
-    },
-    {
-      "id": "Basic JavaScript",
-      "tags": [
-        "fe",
-        "js"
-      ]
-    },
-    {
-      "id": "Bezier curves",
-      "tags": [
-        "cg",
-        "wip"
-      ]
-    },
-    {
-      "id": "BFS",
-      "tags": [
-        "algo",
-        "graph",
-        "wip"
-      ]
-    },
-    {
-      "id": "Binary tree",
-      "tags": [
-        "ds",
-        "graph",
-        "tree",
-        "wip"
-      ]
-    },
-    {
-      "id": "C++"
-    },
-    {
-      "id": "Cartesian product",
-      "tags": [
-        "wip"
-      ]
-    },
-    {
-      "id": "Clean Architecture",
-      "tags": [
-        "architecture"
-      ]
-    },
-    {
-      "id": "Clipping",
-      "tags": [
-        "cg",
-        "wip"
-      ]
-    },
-    {
-      "id": "Code search",
-      "tags": [
-        "orphan"
-      ]
-    },
-    {
-      "id": "Cognitive biases",
-      "tags": [
-        "productivity",
-        "map"
-      ]
-    },
-    {
-      "id": "Color",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Combinations",
-      "tags": [
-        "combinatorics"
-      ]
-    },
-    {
-      "id": "Combinatorics Tasks",
-      "tags": [
-        "combinatorics"
-      ]
-    },
-    {
-      "id": "Common phrases",
-      "tags": [
-        "eng"
-      ]
-    },
-    {
-      "id": "Common Sense Style Guide",
-      "tags": [
-        "orphan"
-      ]
-    },
-    {
-      "id": "Complete graph",
-      "tags": [
-        "ds",
-        "graph",
-        "wip"
-      ]
-    },
-    {
-      "id": "Component, Instance & Element",
-      "tags": [
-        "fe",
-        "js",
-        "react"
-      ]
-    },
-    {
-      "id": "Computer graphics",
-      "tags": [
-        "cg",
-        "index"
-      ]
-    },
-    {
-      "id": "Computer Science",
-      "tags": [
-        "wip"
-      ]
-    },
-    {
-      "id": "Cool graphs",
-      "tags": [
-        "graph"
-      ]
-    },
-    {
-      "id": "Coordinate space",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Cover Letter.private"
-    },
-    {
-      "id": "CPU",
-      "tags": [
-        "hardware"
-      ]
-    },
-    {
-      "id": "Cross product",
-      "tags": [
-        "linal"
-      ]
-    },
-    {
-      "id": "CSharp",
-      "tags": [
-        "csharp",
-        "wip"
-      ]
-    },
-    {
-      "id": "Dashboard.private"
-    },
-    {
-      "id": "Data Access",
-      "tags": [
-        "db",
-        "index"
-      ]
-    },
-    {
-      "id": "DateTime API",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Dependency Injection",
-      "tags": [
-        "architecture",
-        "spring"
-      ]
-    },
-    {
-      "id": "Deployment",
-      "tags": [
-        "fe",
-        "devops",
-        "wip"
-      ]
-    },
-    {
-      "id": "Design patterns",
-      "tags": [
-        "architecture",
-        "wip"
-      ]
-    },
-    {
-      "id": "DevOps",
-      "tags": [
-        "devops",
-        "wip"
-      ]
-    },
-    {
-      "id": "DFS",
-      "tags": [
-        "algo",
-        "graph",
-        "wip"
-      ]
-    },
-    {
-      "id": "Different function types"
-    },
-    {
-      "id": "Digital image processing"
-    },
-    {
-      "id": "Digital signal processing",
-      "tags": [
-        "wip"
-      ]
-    },
-    {
-      "id": "Docker",
-      "tags": [
-        "devops"
-      ]
-    },
-    {
-      "id": "Dot product",
-      "tags": [
-        "linal"
-      ]
-    },
-    {
-      "id": "dotNET",
-      "tags": [
-        "csharp",
-        "wip"
-      ]
-    },
-    {
-      "id": "English",
-      "tags": [
-        "eng"
-      ]
-    },
-    {
-      "id": "Entity framework",
-      "tags": [
-        "csharp"
-      ]
-    },
-    {
-      "id": "Error handling",
-      "tags": [
-        "wip"
-      ]
-    },
-    {
-      "id": "Error responses",
-      "tags": []
-    },
-    {
-      "id": "Events",
-      "tags": [
-        "react"
-      ]
-    },
-    {
-      "id": "Everyday git commands",
-      "tags": [
-        "git"
-      ]
-    },
-    {
-      "id": "Exceptions",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Extension methods",
-      "tags": [
-        "csharp"
-      ]
-    },
-    {
-      "id": "Factory method"
-    },
-    {
-      "id": "Fifth Discipline. Summary",
-      "tags": [
-        "management"
-      ]
-    },
-    {
-      "id": "Files",
-      "tags": [
-        "os",
-        "wip"
-      ]
-    },
-    {
-      "id": "Forms",
-      "tags": [
-        "fe",
-        "wip"
-      ]
-    },
-    {
-      "id": "Frontend Architecture",
-      "tags": [
-        "fe",
-        "architecture",
-        "wip"
-      ]
-    },
-    {
-      "id": "Frontend performance checklist",
-      "tags": [
-        "fe",
-        "wip"
-      ]
-    },
-    {
-      "id": "Frontend Persistence",
-      "tags": [
-        "fe",
-        "wip"
-      ]
-    },
-    {
-      "id": "Frontend",
-      "tags": [
-        "fe"
-      ]
-    },
-    {
-      "id": "Functional elements in Java",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Game loop",
-      "tags": [
-        "architecture",
-        "wip"
-      ]
-    },
-    {
-      "id": "Geometry",
-      "tags": [
-        "geometry"
-      ]
-    },
-    {
-      "id": "Git",
-      "tags": [
-        "git"
-      ]
-    },
-    {
-      "id": "GPU",
-      "tags": [
-        "hardware"
-      ]
-    },
-    {
-      "id": "Graph algorithms",
-      "tags": [
-        "algo",
-        "graph"
-      ]
-    },
-    {
-      "id": "Graph connectivity",
-      "tags": [
-        "ds",
-        "graph"
-      ]
-    },
-    {
-      "id": "Graph cyclicity",
-      "tags": [
-        "ds",
-        "graph"
-      ]
-    },
-    {
-      "id": "Graph joining",
-      "tags": [
-        "ds",
-        "graph"
-      ]
-    },
-    {
-      "id": "Graph orientation",
-      "tags": [
-        "ds",
-        "graph"
-      ]
-    },
-    {
-      "id": "Graph traversals",
-      "tags": [
-        "ds",
-        "graph"
-      ]
-    },
-    {
-      "id": "Graph types",
-      "tags": [
-        "ds",
-        "graph"
-      ]
-    },
-    {
-      "id": "Graph weight",
-      "tags": [
-        "ds",
-        "graph"
-      ]
-    },
-    {
-      "id": "Graph",
-      "tags": [
-        "ds",
-        "graph",
-        "index"
-      ]
-    },
-    {
-      "id": "Hardware",
-      "tags": [
-        "map",
-        "wip"
-      ]
-    },
-    {
-      "id": "Heap",
-      "tags": [
-        "ds"
-      ]
-    },
-    {
-      "id": "Hi",
-      "tags": [
-        "ignore"
-      ]
-    },
-    {
-      "id": "Hibernate",
-      "tags": [
-        "java",
-        "db"
-      ]
-    },
-    {
-      "id": "Homogeneity",
-      "tags": [
-        "orphan"
-      ]
-    },
-    {
-      "id": "How browser works",
-      "tags": [
-        "fe",
-        "wip"
-      ]
-    },
-    {
-      "id": "How I create a CI pipeline",
-      "tags": [
-        "devops",
-        "wip",
-        "guide"
-      ]
-    },
-    {
-      "id": "How I measure application complexity"
-    },
-    {
-      "id": "How I name projects",
-      "tags": [
-        "guide",
-        "wip"
-      ]
-    },
-    {
-      "id": "How I name things",
-      "tags": [
-        "guide",
-        "wip"
-      ]
-    },
-    {
-      "id": "How I write frontend",
-      "tags": [
-        "fe",
-        "guide"
-      ]
-    },
-    {
-      "id": "How I write guides",
-      "tags": [
-        "guide"
-      ]
-    },
-    {
-      "id": "How I write unit tests",
-      "tags": [
-        "fe",
-        "guide"
-      ]
-    },
-    {
-      "id": "How I write useful notes"
-    },
-    {
-      "id": "How to google efficiently"
-    },
-    {
-      "id": "How to solve algorithmic tasks",
-      "tags": [
-        "algo"
-      ]
-    },
-    {
-      "id": "How to start learning computer graphics programming"
-    },
-    {
-      "id": "How would you rewrite this code"
-    },
-    {
-      "id": "HTTP",
-      "tags": [
-        "networking",
-        "wip"
-      ]
-    },
-    {
-      "id": "Ideas"
-    },
-    {
-      "id": "Images",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Java API",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Java Arrays",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Java Code Snippets"
-    },
-    {
-      "id": "Java Collections",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Java Concurrency",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Java Objects",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Java OOP Elements"
-    },
-    {
-      "id": "Java vs CSharp"
-    },
-    {
-      "id": "Java",
-      "tags": [
-        "java",
-        "index"
-      ]
-    },
-    {
-      "id": "JavaScript asynchronicity",
-      "tags": [
-        "fe",
-        "js"
-      ]
-    },
-    {
-      "id": "JavaScript GitHub Applications"
-    },
-    {
-      "id": "JavaScript Projects Terminology"
-    },
-    {
-      "id": "JavaScript",
-      "tags": [
-        "fe",
-        "js",
-        "index"
-      ]
-    },
-    {
-      "id": "JPA",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Kaizen",
-      "tags": [
-        "management",
-        "wip"
-      ]
-    },
-    {
-      "id": "Learning & Note Taking",
-      "tags": [
-        "productivity",
-        "learning"
-      ]
-    },
-    {
-      "id": "Lighting",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Lights & Shadows",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Limbo.private",
-      "tags": []
-    },
-    {
-      "id": "Linear algebra",
-      "tags": [
-        "linal"
-      ]
-    },
-    {
-      "id": "Linear transformations",
-      "tags": [
-        "linal",
-        "index"
-      ]
-    },
-    {
-      "id": "Linked List",
-      "tags": [
-        "ds"
-      ]
-    },
-    {
-      "id": "List",
-      "tags": [
-        "ds"
-      ]
-    },
-    {
-      "id": "Loudest guy driven decisions",
-      "tags": [
-        "scratch"
-      ]
-    },
-    {
-      "id": "Management Checklist"
-    },
-    {
-      "id": "Management mental model by Oleg Soroka"
-    },
-    {
-      "id": "Management",
-      "tags": [
-        "wip"
-      ]
-    },
-    {
-      "id": "Mathematics",
-      "tags": [
-        "map",
-        "ignore"
-      ]
-    },
-    {
-      "id": "Matrix transposition",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Matrix · Matrix operation",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Matrix · Scalar operation",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Matrix · Vector operation",
-      "tags": [
-        "linal"
-      ]
-    },
-    {
-      "id": "Matrix",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Multiplexing",
-      "tags": [
-        "done"
-      ]
-    },
-    {
-      "id": "Naming variables",
-      "tags": [
-        "wip"
-      ]
-    },
-    {
-      "id": "Networking",
-      "tags": [
-        "networking",
-        "index"
-      ]
-    },
-    {
-      "id": "Next"
-    },
-    {
-      "id": "Node Streams",
-      "tags": [
-        "js"
-      ]
-    },
-    {
-      "id": "Notable Pages",
-      "tags": [
-        "ignore"
-      ]
-    },
-    {
-      "id": "Notes on DDD",
-      "tags": [
-        "architecture",
-        "wip"
-      ]
-    },
-    {
-      "id": "Now"
-    },
-    {
-      "id": "npm",
-      "tags": [
-        "fe",
-        "js"
-      ]
-    },
-    {
-      "id": "Numbers (Java)"
-    },
-    {
-      "id": "OBJ File Format",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Open-source applications"
-    },
-    {
-      "id": "OpenGL",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Operating System",
-      "tags": [
-        "os"
-      ]
-    },
-    {
-      "id": "OSI Model",
-      "tags": [
-        "networking"
-      ]
-    },
-    {
-      "id": "Outer product",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Overused terms"
-    },
-    {
-      "id": "Package by feature not layer",
-      "tags": [
-        "done"
-      ]
-    },
-    {
-      "id": "Pagination"
-    },
-    {
-      "id": "Parallel run"
-    },
-    {
-      "id": "Patterns",
-      "tags": [
-        "map"
-      ]
-    },
-    {
-      "id": "PDCA"
-    },
-    {
-      "id": "Permutations",
-      "tags": [
-        "combinatorics"
-      ]
-    },
-    {
-      "id": "Poker probability"
-    },
-    {
-      "id": "Post-processing",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Probability"
-    },
-    {
-      "id": "Problem solving",
-      "tags": [
-        "productivity"
-      ]
-    },
-    {
-      "id": "Processes",
-      "tags": [
-        "os"
-      ]
-    },
-    {
-      "id": "Processing"
-    },
-    {
-      "id": "Productivity",
-      "tags": [
-        "productivity",
-        "index"
-      ]
-    },
-    {
-      "id": "Project structure"
-    },
-    {
-      "id": "Projection",
-      "tags": [
-        "linal",
-        "wip"
-      ]
-    },
-    {
-      "id": "Pronouns",
-      "tags": [
-        "eng"
-      ]
-    },
-    {
-      "id": "Quarternion"
-    },
-    {
-      "id": "Quotes.private"
-    },
-    {
-      "id": "RAM",
-      "tags": [
-        "hardware"
-      ]
-    },
-    {
-      "id": "Rasterization",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Rasterizer",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Ray casting",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Ray tracing",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "React",
-      "tags": [
-        "fe",
-        "js"
-      ]
-    },
-    {
-      "id": "Reading and writing files in Java",
-      "tags": [
-        "java"
-      ]
-    },
-    {
-      "id": "Reconciliation"
-    },
-    {
-      "id": "Reflection (CG)",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Reflection",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Rendering Pipeline",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Rendering",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Representing graphs",
-      "tags": [
-        "ds",
-        "graph"
-      ]
-    },
-    {
-      "id": "Resources worth to peek into"
-    },
-    {
-      "id": "Rest API Design",
-      "tags": [
-        "architecture"
-      ]
-    },
-    {
-      "id": "REST API Inluding & Excluding fields"
-    },
-    {
-      "id": "REST API",
-      "tags": [
-        "architecture",
-        "wip"
-      ]
-    },
-    {
-      "id": "Rotation",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Rule of one new thing",
-      "tags": [
-        "scratch"
-      ]
-    },
-    {
-      "id": "Sampling"
-    },
-    {
-      "id": "Scaling",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Screaming Architecture",
-      "tags": [
-        "architecture"
-      ]
-    },
-    {
-      "id": "Set theory",
-      "tags": [
-        "done"
-      ]
-    },
-    {
-      "id": "Shaders",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Shadows",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Shear",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Shell"
-    },
-    {
-      "id": "Signals"
-    },
-    {
-      "id": "Sine & Cosine"
-    },
-    {
-      "id": "Software Architecture",
-      "tags": [
-        "architecture",
-        "index"
-      ]
-    },
-    {
-      "id": "Software I use"
-    },
-    {
-      "id": "Software",
-      "tags": [
-        "map",
-        "ignore"
-      ]
-    },
-    {
-      "id": "SOLID",
-      "tags": [
-        "architecture"
-      ]
-    },
-    {
-      "id": "Sorting algorithms",
-      "tags": [
-        "algo",
-        "wip"
-      ]
-    },
-    {
-      "id": "Sound",
-      "tags": [
-        "sound"
-      ]
-    },
-    {
-      "id": "Spaces"
-    },
-    {
-      "id": "Splines",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Spring Boot Starters",
-      "tags": [
-        "spring"
-      ]
-    },
-    {
-      "id": "Spring Boot",
-      "tags": [
-        "spring"
-      ]
-    },
-    {
-      "id": "Spring Data",
-      "tags": [
-        "spring"
-      ]
-    },
-    {
-      "id": "Spring Framework",
-      "tags": [
-        "spring"
-      ]
-    },
-    {
-      "id": "Spring MVC",
-      "tags": [
-        "spring"
-      ]
-    },
-    {
-      "id": "Spring",
-      "tags": [
-        "spring",
-        "index"
-      ]
-    },
-    {
-      "id": "SQL",
-      "tags": [
-        "db"
-      ]
-    },
-    {
-      "id": "State machine"
-    },
-    {
-      "id": "Statistics",
-      "tags": [
-        "map"
-      ]
-    },
-    {
-      "id": "Strings (CSharp)"
-    },
-    {
-      "id": "Strings"
-    },
-    {
-      "id": "Subdivision"
-    },
-    {
-      "id": "System Calls"
-    },
-    {
-      "id": "Tasks"
-    },
-    {
-      "id": "TCP"
-    },
-    {
-      "id": "Tenses",
-      "tags": [
-        "eng"
-      ]
-    },
-    {
-      "id": "Tessellation",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Textures",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "The way I write these notes",
-      "tags": [
-        "notetaking"
-      ]
-    },
-    {
-      "id": "Thoughts & Scratches",
-      "tags": [
-        "map",
-        "ignore"
-      ]
-    },
-    {
-      "id": "Threads",
-      "tags": [
-        "os"
-      ]
-    },
-    {
-      "id": "Three books for every developer",
-      "tags": [
-        "wip"
-      ]
-    },
-    {
-      "id": "Tips for beginner programmers"
-    },
-    {
-      "id": "TLS"
-    },
-    {
-      "id": "TODO"
-    },
-    {
-      "id": "Top-down & bottom-up learning approaches"
-    },
-    {
-      "id": "Tree",
-      "tags": [
-        "ds",
-        "graph",
-        "tree"
-      ]
-    },
-    {
-      "id": "Trigonometric Functions"
-    },
-    {
-      "id": "Triple product",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Tufte Style"
-    },
-    {
-      "id": "Two things I do when joining a new team",
-      "tags": [
-        "management",
-        "thoughts"
-      ]
-    },
-    {
-      "id": "Two types of feedback"
-    },
-    {
-      "id": "Types (CSharp)"
-    },
-    {
-      "id": "UDP"
-    },
-    {
-      "id": "UI Design",
-      "tags": [
-        "done"
-      ]
-    },
-    {
-      "id": "UML",
-      "tags": []
-    },
-    {
-      "id": "Unit vector",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Unix",
-      "tags": [
-        "map"
-      ]
-    },
-    {
-      "id": "Values & Value Types"
-    },
-    {
-      "id": "Vector & Matrix Operations",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Vector addition",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Vector · Scalar operation",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Vector",
-      "tags": [
-        "linal",
-        "done"
-      ]
-    },
-    {
-      "id": "Web Animation",
-      "tags": [
-        "fe"
-      ]
-    },
-    {
-      "id": "Web Performance",
-      "tags": [
-        "fe"
-      ]
-    },
-    {
-      "id": "Web vitals",
-      "tags": [
-        "fe"
-      ]
-    },
-    {
-      "id": "WebGL",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Websockets"
-    },
-    {
-      "id": "What are the numbers",
-      "tags": [
-        "done"
-      ]
-    },
-    {
-      "id": "What is a Mesh",
-      "tags": [
-        "cg"
-      ]
-    },
-    {
-      "id": "Windows & IFrames",
-      "tags": [
-        "fe"
-      ]
-    },
-    {
-      "id": "Wires",
-      "tags": [
-        "networking"
-      ]
-    },
-    {
-      "id": "Wisdom"
-    },
-    {
-      "id": "Working with Spring"
-    },
-    {
-      "id": "Дух.private"
-    },
-    {
-      "id": "Мой путь в IT.private"
-    },
-    {
-      "id": "Ты продавал фотоаппарат самому себе"
     }
-  ],
-  "links": []
+  },
+  "vault": {
+    "links": {
+      "Jethro's Braindump": {
+        "url": "https://braindump.jethro.dev/"
+      },
+      "Sean Fish exobrain": {
+        "url": "https://exobrain.sean.fish/"
+      },
+      "beepb00p": {
+        "url": "https://beepb00p.xyz/",
+        "description": "Neat articles"
+      },
+      "Alexey Shmalko": {
+        "url": "https://www.alexeyshmalko.com/"
+      },
+      "Andy Matuschak": {
+        "url": "https://notes.andymatuschak.org",
+        "description": "Most influential ZK"
+      },
+      "Gwern Branwen": {
+        "url": "https://www.gwern.net/",
+        "description": "Nice visuals"
+      },
+      "Brendan Schlagel": {
+        "url": "https://www.brendanschlagel.com/",
+        "description": "Concept of personal canon"
+      },
+      "Joshua's garden": {
+        "url": "https://joschuasgarden.com",
+        "description": "Usage of Dewie system"
+      },
+      "Alexis Rondeau": {
+        "url": "https://publish.obsidian.md/alexisrondeau/"
+      },
+      "Mister Chad": {
+        "url": "https://mister-chad.com/welcome"
+      },
+      "Gordon Brander": {
+        "url": "https://gordonbrander.com/pattern/"
+      },
+      "Maggie Appleton": {
+        "url": "https://maggieappleton.com/programmatic-notes",
+        "description": "Nice visuals"
+      },
+      "Artem Sapegin": {
+        "url": "https://blog.sapegin.me/",
+        "description": "Testing, refactoring"
+      },
+      "Alain Galvan": {
+        "url": "https://alain.xyz/"
+      },
+      "Inigo Quilez": {
+        "url": "https://www.iquilezles.org/index.html"
+      },
+      "Adrian Courreges": {
+        "url": "http://www.adriancourreges.com/blog/"
+      },
+      "Evan Wallace": {
+        "url": "https://madebyevan.com/"
+      },
+      "[RU] Ilya Birman": {
+        "url": "https://ilyabirman.ru/",
+        "description": "Many articles about design"
+      },
+      "[RU] Art.Lebedev": {
+        "url": "https://www.artlebedev.ru/interface/",
+        "description": "Design studio"
+      },
+      "[RU] Art.Gorbunov": {
+        "url": "https://bureau.ru/projects/ui-online/",
+        "description": "Design studio"
+      },
+      "Russian Design systems": {
+        "url": "http://designsystemsclub.ru/"
+      },
+      "Collect UI": {
+        "url": "https://collectui.com",
+        "description": "Collection of well-structured design blocks"
+      },
+      "umami": {
+        "url": "https://app.umami.is/share/8rmHaheU/umami.is"
+      },
+      "Netdata": {
+        "url": "https://learn.netdata.cloud/docs/cloud/visualize/overview"
+      },
+      "Tabler": {
+        "url": "https://preview.tabler.io/"
+      },
+      "[RU] Doka.guide": {
+        "url": "https://doka.guide/"
+      },
+      "Blueprint.js": {
+        "url": "https://blueprintjs.com/"
+      },
+      "Nicholas Rougeux": {
+        "url": "https://c82.net",
+        "description": "Digital art"
+      },
+      "Michael Fogleman": {
+        "url": "https://www.michaelfogleman.com/"
+      },
+      "Mike Bostock": {
+        "url": "https://bost.ocks.org/mike",
+        "description": "Creator of d3"
+      },
+      "Jason Davies": {
+        "url": "https://www.jasondavies.com/"
+      },
+      "Nikita Rokotyan": {
+        "url": "http://rokotyan.com/dataviz/"
+      },
+      "Seeing circles, sines, and signals": {
+        "url": "https://jackschaedler.github.io/circles-sines-signals/index.html"
+      },
+      "October CMS": {
+        "url": "https://docs.octobercms.com/2.x/setup/installation.html#minimum-system-requirements"
+      },
+      "Laravel Docs": {
+        "url": "https://laravel.com/docs/9.x/installation#installation-via-composer"
+      },
+      "Ghost Docs": {
+        "url": "https://ghost.org"
+      },
+      "Opinionated Guides": {
+        "url": "https://opguides.info"
+      },
+      "Tufte Handout Example": {
+        "url": "https://rstudio.github.io/tufte"
+      },
+      "HTML color codes": {
+        "url": "https://htmlcolorcodes.com"
+      },
+      "Processing": {
+        "url": "https://p5js.org/"
+      },
+      "Observable HQ": {
+        "url": "https://observablehq.com"
+      },
+      "Same Energy": {
+        "url": "https://same.energy",
+        "description": "Smart image search"
+      },
+      "James Daly": {
+        "url": "https://2d4.dev",
+        "description": "Nice resume"
+      },
+      "Szymon Kaliski": {
+        "url": "https://szymonkaliski.com",
+        "description": "NIce projects"
+      },
+      "Jendrik Poloczek": {
+        "url": "https://www.madewithtea.com"
+      },
+      "Patrick Monaghan": {
+        "url": "https://patrick-is.cool"
+      },
+      "Wesley’s Notebook": {
+        "url": "https://notebook.wesleyac.com"
+      },
+      "weakty": {
+        "url": "https://weakty.com"
+      },
+      "Bad Diode": {
+        "url": "https://badd10de.dev"
+      },
+      "30 seconds of code": {
+        "url": "https://www.30secondsofcode.org"
+      },
+      "Compression Decompressed": {
+        "url": "https://unwttng.com/compression-decompressed"
+      },
+      "Steven Wittens": {
+        "url": "http://acko.net"
+      },
+      "Excalidraw": {
+        "url": "https://excalidraw.com"
+      },
+      "4 Types of documentation": {
+        "url": "https://documentation.divio.com/"
+      },
+      "Streams, The definitive guide": {
+        "url": "https://web.dev/streams"
+      },
+      "Web Browser Engineering": {
+        "url": "https://browser.engineering"
+      },
+      "[RU] Product Architecture Framework": {
+        "url": "http://productframework.ru"
+      },
+      "TSConfig bases": {
+        "url": "https://github.com/tsconfig/bases"
+      },
+      "Full-Stack Software Design and Architecture Roadmap": {
+        "url": "https://github.com/stemmlerjs/software-design-and-architecture-roadmap"
+      },
+      "Build your own X": {
+        "url": "https://github.com/danistefanovic/build-your-own-x"
+      },
+      "Project based learning": {
+        "url": "https://github.com/tuvtran/project-based-learning"
+      },
+      "[RU] How to write technical articles": {
+        "url": "https://habr.com/ru/company/cardsmobile/blog/509388/"
+      },
+      "Various RTR blogs": {
+        "url": "http://svenandersson.se/2014/realtime-rendering-blogs.html"
+      },
+      "TheCherno": {
+        "url": "https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw"
+      },
+      "Inigo Quilzez": {
+        "url": "https://www.youtube.com/user/mari1234mari"
+      },
+      "[RU] Node.js app monitoring": {
+        "url": "https://habr.com/ru/company/domclick/blog/521584/"
+      },
+      "Ten modern layouts in one line of CSS": {
+        "url": "https://web.dev/one-line-layouts"
+      },
+      "JavaScript algorithms": {
+        "url": "https://github.com/trekhleb/javascript-algorithms"
+      },
+      "Mitigate cross-site scripting with a strict Content Security Policy": {
+        "url": "https://web.dev/strict-csp/"
+      },
+      "DDD, Hexagonal, Onion, Clean, CQRS, How I put it all together": {
+        "url": "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/"
+      },
+      "Building Resilient Frontend Architecture": {
+        "url": "https://www.youtube.com/watch?v=TqfbAXCCVwE"
+      },
+      "[RU] Shaders & Cyberpunk": {
+        "url": "https://habr.com/ru/post/542698"
+      },
+      "JavaScript performance beyond bundle size": {
+        "url": "https://nolanlawson.com/2021/02/23/javascript-performance-beyond-bundle-size"
+      },
+      "De Voorhoede": {
+        "url": "https://www.voorhoede.nl/en/blog/"
+      },
+      "Figma": {
+        "url": "https://www.figma.com/blog/inside-figma-a-case-study-on-strict-null-checks"
+      },
+      "Kamyshev": {
+        "url": "https://blog.kamyshev.me/"
+      },
+      "Julio Biason": {
+        "url": "https://blog.juliobiason.me/thoughts/things-i-learnt-the-hard-way/"
+      },
+      "To design and develop an interactive globe": {
+        "url": "https://stripe.com/blog/globe"
+      },
+      "A primer on functional architecture": {
+        "url": "https://increment.com/software-architecture/primer-on-functional-architecture/"
+      },
+      "Writing Technical Articles": {
+        "url": "https://chrisshort.net/writing-technical-articles"
+      },
+      "https://robertheaton.com/2018/12/06/a-blogging-style-guide": {
+        "url": "https://robertheaton.com/2018/12/06/a-blogging-style-guide"
+      },
+      "https://www.drmaciver.com/2019/05/how-to-do-hard-things": {
+        "url": "https://www.drmaciver.com/2019/05/how-to-do-hard-things"
+      },
+      "http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer": {
+        "url": "http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer"
+      },
+      "http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer": {
+        "url": "http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer"
+      },
+      "Learn CSS Grid": {
+        "url": "https://learncssgrid.com/"
+      },
+      "Complete Guide to Flexbox": {
+        "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+      },
+      "The 100% correct way to do CSS breakpoints": {
+        "url": "https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/#.ioazjk440"
+      },
+      "CSS Modules. Welcome to the Future": {
+        "url": "https://glenmaddern.com/articles/css-modules"
+      },
+      "Introduction to Trees": {
+        "url": "https://www.youtube.com/watch?v=1-l_UOFi1Xw"
+      },
+      "Graph Theory": {
+        "url": "https://www.youtube.com/watch?v=09_LlHjoEiY"
+      },
+      "Some cool Graph game": {
+        "url": "http://pulzed.com/demo/tronix2/"
+      },
+      "Maths is Fun": {
+        "url": "https://www.mathsisfun.com"
+      },
+      "The Map of Mathematics": {
+        "url": "https://www.youtube.com/watch?v=OmJ-4B-mS-Y",
+        "description": "📺"
+      },
+      "College Algebra": {
+        "url": "https://www.youtube.com/watch?v=LwCRRUa8yTU&list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v",
+        "description": "📺"
+      },
+      "Maths for Programmers": {
+        "url": "https://www.youtube.com/watch?v=2SpuBqvNjHI",
+        "description": "📺"
+      },
+      "Linear Algebra PDF": {
+        "url": "http://joshua.smcvt.edu/linearalgebra/book.pdf"
+      },
+      "Interactive Linear Algebra": {
+        "url": "https://textbooks.math.gatech.edu/ila/"
+      },
+      "Immersive Linear Algebra": {
+        "url": "http://immersivemath.com/ila/index.html"
+      },
+      "The Applications of Matrices": {
+        "url": "https://www.youtube.com/watch?v=rowWM-MijXU",
+        "description": "📺"
+      },
+      "Essence of Linear Algebra": {
+        "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+        "description": "📺"
+      },
+      "https://betterexplained.com/articles/linear-algebra-guide/": {
+        "url": "https://betterexplained.com/articles/linear-algebra-guide/"
+      },
+      "https://gabrielgambetta.com/computer-graphics-from-scratch/A0-linear-algebra.html": {
+        "url": "https://gabrielgambetta.com/computer-graphics-from-scratch/A0-linear-algebra.html"
+      },
+      "Teach Yourself Computer Science": {
+        "url": "https://teachyourselfcs.com"
+      },
+      "A Self-Learning, Modern Computer Science Curriculum": {
+        "url": "https://functionalcs.github.io/curriculum"
+      },
+      "What every computer science major should know": {
+        "url": "http://matt.might.net/articles/what-cs-majors-should-know"
+      },
+      "[RU] Programming: Introduction": {
+        "url": "http://stolyarov.info/i2.html"
+      },
+      "High Performance Browser Networking": {
+        "url": "https://hpbn.co/"
+      },
+      "You don't know JS": {
+        "url": "https://github.com/getify/You-Dont-Know-JS"
+      },
+      "learn.javascript.ru": {
+        "url": "http://learn.javascript.ru/"
+      },
+      "Calculator": {
+        "url": "https://www.mathsisfun.com/combinatorics/combinations-permutations-calculator.html"
+      },
+      "Combinatorics algorithms": {
+        "url": "http://intuit.valrkl.ru/course-147/index.html#ID.1.lecture"
+      },
+      "https://www.jasondavies.com/set-partitions/": {
+        "url": "https://www.jasondavies.com/set-partitions/"
+      },
+      "https://www.jasondavies.com/necklaces/": {
+        "url": "https://www.jasondavies.com/necklaces/"
+      },
+      "https://people.cs.clemson.edu/~dhouse/courses/405/notes/affines-matrices.pdf": {
+        "url": "https://people.cs.clemson.edu/~dhouse/courses/405/notes/affines-matrices.pdf"
+      },
+      "Big-O Cheat Sheet": {
+        "url": "https://www.bigocheatsheet.com"
+      },
+      "Data Structure Visualizations": {
+        "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+      },
+      "Data Structures Easy to Advanced Course": {
+        "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC",
+        "description": "📺"
+      },
+      "Data Structures & Algorithms by CS Dojo": {
+        "url": "https://www.youtube.com/watch?v=bum_19loj9A&list=PLBZBJbE_rGRV8D7XZ08LK6z-4zPoWzu5H",
+        "description": "📺"
+      },
+      "https://roadmap.sh/guides/big-o-notation": {
+        "url": "https://roadmap.sh/guides/big-o-notation"
+      },
+      "https://roadmap.sh/guides/asymptotic-notation": {
+        "url": "https://roadmap.sh/guides/asymptotic-notation"
+      },
+      "Visualizing Algorithms": {
+        "url": "https://bost.ocks.org/mike/algorithms"
+      },
+      "Red Blob Games": {
+        "url": "https://www.redblobgames.com/"
+      },
+      "https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md": {
+        "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md"
+      },
+      "[RU] habr:search=algorithms": {
+        "url": "https://habr.com/ru/search/?q=%5B%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%5D&target_type=posts&order=rating"
+      },
+      "Front-End Performance Checklist 2021": {
+        "url": "https://www.dropbox.com/s/34noajrbm324iai/performance-checklist-1.4.pdf?dl=0"
+      },
+      "https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc": {
+        "url": "https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc"
+      },
+      "Single Sign-On": {
+        "url": "https://roadmap.sh/guides/sso"
+      },
+      "http://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf": {
+        "url": "http://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf"
+      },
+      "https://adrianmejia.com/self-balanced-binary-search-trees-with-avl-tree-data-structure-for-beginners/": {
+        "url": "https://adrianmejia.com/self-balanced-binary-search-trees-with-avl-tree-data-structure-for-beginners/"
+      },
+      "DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together": {
+        "url": "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together"
+      },
+      "Game Programming patterns": {
+        "url": "http://gameprogrammingpatterns.com/contents.html"
+      },
+      "DFS at Algorithms and Technologies": {
+        "url": "https://www.algorithms-and-technologies.com/dfs/javascript"
+      },
+      "What is digital signal processing?": {
+        "url": "https://www.coursera.org/lecture/dsp1/1-1-1-what-is-digital-signal-processing-ioZFl"
+      },
+      "http://www.dspguide.com/pdfbook.htm": {
+        "url": "http://www.dspguide.com/pdfbook.htm"
+      },
+      "https://www.sp4comm.org/webversion.html": {
+        "url": "https://www.sp4comm.org/webversion.html"
+      },
+      "Stack Exchange Roadmap": {
+        "url": "https://dsp.stackexchange.com/questions/9194/learning-roadmap-for-the-audio-signal-processing-beginner"
+      },
+      "Physical Audio Signal Processing for virtual musical instruments and audio effects": {
+        "url": "https://ccrma.stanford.edu/~jos/pasp/"
+      },
+      "What": {
+        "url": "https://i.stack.imgur.com/nICLa.png"
+      },
+      "https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/dsp-articles/": {
+        "url": "https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/dsp-articles/"
+      },
+      "https://github.com/capitanov/dsp-theory": {
+        "url": "https://github.com/capitanov/dsp-theory"
+      },
+      "https://doka.guide/tools/docker/": {
+        "url": "https://doka.guide/tools/docker/"
+      },
+      "https://doka.guide/tools/docker-compose/": {
+        "url": "https://doka.guide/tools/docker-compose/"
+      },
+      "https://doka.guide/tools/docker-data-management/": {
+        "url": "https://doka.guide/tools/docker-data-management/"
+      },
+      "https://doka.guide/tools/dockerfile/": {
+        "url": "https://doka.guide/tools/dockerfile/"
+      },
+      "https://github.com/docker/awesome-compose": {
+        "url": "https://github.com/docker/awesome-compose"
+      },
+      "Vocabulary.com": {
+        "url": "https://www.vocabulary.com/play",
+        "description": "nice dictionary"
+      },
+      "Reverso": {
+        "url": "https://www.reverso.net",
+        "description": "nice translator, with context and synonyms"
+      },
+      "Playphrase": {
+        "url": "https://playphrase.me",
+        "description": "find the phrase on youtube"
+      },
+      "Functional Exceptions In Java": {
+        "url": "https://8thlight.com/blog/brian-gerstle/2019/01/22/fnl-exceptions-in-java.html"
+      },
+      "Lambda Exceptions": {
+        "url": "https://www.baeldung.com/java-lambda-exceptions"
+      },
+      "https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8": {
+        "url": "https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8"
+      },
+      "https://css-tricks.com/": {
+        "url": "https://css-tricks.com/"
+      },
+      "https://www.smashingmagazine.com/": {
+        "url": "https://www.smashingmagazine.com/"
+      },
+      "[RU] Doka": {
+        "url": "https://doka.guide"
+      },
+      "http://codewinds.com/blog/2016-08-16-business-logic-redux.html": {
+        "url": "http://codewinds.com/blog/2016-08-16-business-logic-redux.html"
+      },
+      "Solving Circular Dependencies in Modular Redux": {
+        "url": "https://randycoulman.com/blog/2018/06/12/solving-circular-dependencies-in-modular-redux/"
+      },
+      "https://addyosmani.com/largescalejavascript/": {
+        "url": "https://addyosmani.com/largescalejavascript/"
+      },
+      "https://iamakulov.com/": {
+        "url": "https://iamakulov.com/"
+      },
+      "https://indepth.dev/posts/1324/the-journey-to-isomorphic-rendering-performance": {
+        "url": "https://indepth.dev/posts/1324/the-journey-to-isomorphic-rendering-performance"
+      },
+      "[RU] Quirks of Stream API": {
+        "url": "https://youtu.be/1_Zj3gS_a3E"
+      },
+      "Optional as Return Type": {
+        "url": "https://www.baeldung.com/java-optional-return"
+      },
+      "A Hacker's Guide to Git": {
+        "url": "https://wildlyinaccurate.com/a-hackers-guide-to-git/"
+      },
+      "A Visual Git Reference": {
+        "url": "https://marklodato.github.io/visual-git-guide/index-en.html"
+      },
+      "Conversational Git": {
+        "url": "http://blog.anvard.org/conversational-git/"
+      },
+      "Git from the Bottom Up": {
+        "url": "https://jwiegley.github.io/git-from-the-bottom-up/"
+      },
+      "Git Immersion": {
+        "url": "https://gitimmersion.com/lab_09.html"
+      },
+      "simple-git-hooks": {
+        "url": "https://github.com/toplenboren/simple-git-hooks"
+      },
+      "https://www.youtube.com/watch?v=C-wEZjEOhWc": {
+        "url": "https://www.youtube.com/watch?v=C-wEZjEOhWc"
+      },
+      "https://github.com/kettanaito/naming-cheatsheet": {
+        "url": "https://github.com/kettanaito/naming-cheatsheet"
+      },
+      "Requirements for front-end developers": {
+        "url": "https://livetyping.com/en/blog/requirements-for-front-end-developer"
+      },
+      "https://roadmap.sh/guides/http-caching": {
+        "url": "https://roadmap.sh/guides/http-caching"
+      },
+      "https://proselyte.net/tutorials/http-tutorial/caching/": {
+        "url": "https://proselyte.net/tutorials/http-tutorial/caching/"
+      },
+      "https://proselyte.net/tutorials/http-tutorial/": {
+        "url": "https://proselyte.net/tutorials/http-tutorial/"
+      },
+      "HTTP Specification": {
+        "url": "https://datatracker.ietf.org/doc/html/rfc2616"
+      },
+      "[RU] Programming in Java": {
+        "url": "https://www.youtube.com/watch?v=ygEo5LHHXSI&list=PLlb7e2G7aSpRZSRZxANkvpYC82BXUzCTY"
+      },
+      "JUG.ru Youtube Channel": {
+        "url": "https://www.youtube.com/channel/UCYrGYT7BswsJGkmG7-IAF8g"
+      },
+      "Marco Behler": {
+        "url": "https://www.marcobehler.com/"
+      },
+      "Java Master": {
+        "url": "https://java-master.com/"
+      },
+      "[RU] Collections": {
+        "url": "https://habr.com/ru/company/luxoft/blog/256877/"
+      },
+      "What forces layout / reflow": {
+        "url": "https://gist.github.com/paulirish/5d52fb081b3570c81e3a"
+      },
+      "The Nature of Code": {
+        "url": "https://natureofcode.com"
+      },
+      "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961": {
+        "url": "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961"
+      },
+      "https://redux.js.org/introduction/learning-resources": {
+        "url": "https://redux.js.org/introduction/learning-resources"
+      },
+      "Docs": {
+        "url": "https://redux.js.org/"
+      },
+      "Style Guide": {
+        "url": "https://redux.js.org/style-guide/style-guide#introduction"
+      },
+      "https://github.com/markerikson/react-redux-links/blob/master/basic-concepts.md": {
+        "url": "https://github.com/markerikson/react-redux-links/blob/master/basic-concepts.md"
+      },
+      "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7": {
+        "url": "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7"
+      },
+      "https://frontendmasters.com/books/front-end-handbook/2019/#1": {
+        "url": "https://frontendmasters.com/books/front-end-handbook/2019/#1"
+      },
+      "https://exploringjs.com/impatient-js/toc.html": {
+        "url": "https://exploringjs.com/impatient-js/toc.html"
+      },
+      "https://exploringjs.com/deep-js/toc.html": {
+        "url": "https://exploringjs.com/deep-js/toc.html"
+      },
+      "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html": {
+        "url": "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html"
+      },
+      "https://github.com/getify/Functional-Light-JS": {
+        "url": "https://github.com/getify/Functional-Light-JS"
+      },
+      "http://largescalejs.ru/": {
+        "url": "http://largescalejs.ru/"
+      },
+      "https://github.com/MostlyAdequate/mostly-adequate-guide": {
+        "url": "https://github.com/MostlyAdequate/mostly-adequate-guide"
+      },
+      "http://thenodeway.io/introduction/#build-small-single-purpose-modules": {
+        "url": "http://thenodeway.io/introduction/#build-small-single-purpose-modules"
+      },
+      "https://nikhilm.github.io/uvbook/": {
+        "url": "https://nikhilm.github.io/uvbook/"
+      },
+      "http://book.mixu.net/node/": {
+        "url": "http://book.mixu.net/node/"
+      },
+      "https://nodejs.org/en/docs/": {
+        "url": "https://nodejs.org/en/docs/"
+      },
+      "https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/": {
+        "url": "https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/"
+      },
+      "Ecmascript Language Types": {
+        "url": "https://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types"
+      },
+      "Javascript Garden": {
+        "url": "http://shamansir.github.io/JavaScript-Garden/"
+      },
+      "MDN": {
+        "url": "https://developer.mozilla.org/en-US/"
+      },
+      "JavaScript The Right Way": {
+        "url": "http://jstherightway.org/"
+      },
+      "Eloquent JavaScript": {
+        "url": "http://eloquentjavascript.net/"
+      },
+      "SuperHero.js": {
+        "url": "http://superherojs.com/"
+      },
+      "https://itnext.io/nodejs-logging-made-right-117a19e8b4ce": {
+        "url": "https://itnext.io/nodejs-logging-made-right-117a19e8b4ce"
+      },
+      "https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/": {
+        "url": "https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/"
+      },
+      "https://exploringjs.com/deep-js/ch_creating-class-instances.html": {
+        "url": "https://exploringjs.com/deep-js/ch_creating-class-instances.html"
+      },
+      "https://exploringjs.com/tackling-ts/toc.html": {
+        "url": "https://exploringjs.com/tackling-ts/toc.html"
+      },
+      "https://www.patterns.dev/": {
+        "url": "https://www.patterns.dev/"
+      },
+      "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#setting-realistic-goals": {
+        "url": "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#setting-realistic-goals"
+      },
+      "If Javascript Is Single Threaded, How Is It Asynchronous?": {
+        "url": "https://dev.to/bbarbour/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd"
+      },
+      "What the heck is the event loop anyway": {
+        "url": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
+      },
+      "In The Loop": {
+        "url": "https://www.youtube.com/watch?v=cCOL7MC4Pl0"
+      },
+      "https://blog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810": {
+        "url": "https://blog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810"
+      },
+      "JPA vs JDBC": {
+        "url": "https://www.baeldung.com/jpa-vs-jdbc"
+      },
+      "[RU] JPA Entities": {
+        "url": "https://habr.com/ru/post/265061/"
+      },
+      "SuperMemo Wiki": {
+        "url": "https://supermemo.guru/wiki/SuperMemo_Guru"
+      },
+      "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#mathematics": {
+        "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#mathematics"
+      },
+      "http://www.mathwords.com/d/dot_product.htm": {
+        "url": "http://www.mathwords.com/d/dot_product.htm"
+      },
+      "https://www.wolframalpha.com/": {
+        "url": "https://www.wolframalpha.com/"
+      },
+      "https://betterexplained.com/articles/intuitive-trigonometry/": {
+        "url": "https://betterexplained.com/articles/intuitive-trigonometry/"
+      },
+      "https://github.com/nbro/understanding-math": {
+        "url": "https://github.com/nbro/understanding-math"
+      },
+      "http://www-math.mit.edu/~djk/calculus_beginners/": {
+        "url": "http://www-math.mit.edu/~djk/calculus_beginners/"
+      },
+      "https://mathigon.org/": {
+        "url": "https://mathigon.org/"
+      },
+      "https://www.youtube.com/watch?v=pTnEG_WGd2Q": {
+        "url": "https://www.youtube.com/watch?v=pTnEG_WGd2Q"
+      },
+      "https://javascript.info/ninja-code": {
+        "url": "https://javascript.info/ninja-code"
+      },
+      "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#networking": {
+        "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#networking"
+      },
+      "Stream Handbook": {
+        "url": "https://github.com/substack/stream-handbook"
+      },
+      "Node.js Streams: Everything you need to know": {
+        "url": "https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/"
+      },
+      "https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/": {
+        "url": "https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/"
+      },
+      "https://nodejs.org/en/docs/guides/": {
+        "url": "https://nodejs.org/en/docs/guides/"
+      },
+      "https://nodejs.org/api/stream.html": {
+        "url": "https://nodejs.org/api/stream.html"
+      },
+      "https://livebook.manning.com/book/node-js-in-practice/chapter-5/": {
+        "url": "https://livebook.manning.com/book/node-js-in-practice/chapter-5/"
+      },
+      "https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/": {
+        "url": "https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/"
+      },
+      "https://flaviocopes.com/nodejs-streams/": {
+        "url": "https://flaviocopes.com/nodejs-streams/"
+      },
+      "https://github.com/ddd-by-examples": {
+        "url": "https://github.com/ddd-by-examples"
+      },
+      "open.gl": {
+        "url": "https://open.gl"
+      },
+      "Learn OpenGL": {
+        "url": "https://learnopengl.com/"
+      },
+      "Modern OpenGL Tutorials": {
+        "url": "https://ogldev.org/"
+      },
+      "OpenGL Tutorials": {
+        "url": "http://www.opengl-tutorial.org/"
+      },
+      "OpenGL": {
+        "url": "http://www.songho.ca/opengl/index.html"
+      },
+      "Tiny Renderer": {
+        "url": "https://github.com/ssloy/tinyrenderer"
+      },
+      "https://braindump.jethro.dev/posts/operating_systems/": {
+        "url": "https://braindump.jethro.dev/posts/operating_systems/"
+      },
+      "https://vseloved.github.io/pdf/os-ru.pdf": {
+        "url": "https://vseloved.github.io/pdf/os-ru.pdf"
+      },
+      "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#operating-systems": {
+        "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#operating-systems"
+      },
+      "Package by feature, not layer": {
+        "url": "http://www.javapractices.com/topic/TopicAction.do?Id=205"
+      },
+      "Structuring React and Redux applications": {
+        "url": "https://blog.sapegin.me/all/react-structure",
+        "description": "by Artyom Sapegin"
+      },
+      "Learning Code Readability": {
+        "url": "https://medium.com/@egonelbre/learning-code-readability-a80e311d3a20"
+      },
+      "PBF (Package by Feature), no more PBL (Package by Layer)": {
+        "url": "https://medium.com/mindorks/pbf-package-by-feature-no-more-pbl-package-by-layer-50b8a9d54ae8"
+      },
+      "[RU] Organizing files by features and not by technical aspects": {
+        "url": "http://andrew-r.ru/notes/features-not-tech-aspects/",
+        "description": "by Andrew Romanov"
+      },
+      "📺 Hexagonal architecture": {
+        "url": "https://www.youtube.com/watch?v=sOaS83Ir8Ck"
+      },
+      "Learning Library": {
+        "url": "https://www.notion.so/moritz42w/Learning-Library-2ecb646b5e1e4d5c8274c73c3fbb2541"
+      },
+      "https://medium.com/the-resonant-web/spring-boot-2-0-starter-kit-part-1-23ddff0c7da2": {
+        "url": "https://medium.com/the-resonant-web/spring-boot-2-0-starter-kit-part-1-23ddff0c7da2"
+      },
+      "https://medium.com/the-resonant-web/spring-boot-2-0-project-structure-and-best-practices-part-2-7137bdcba7d3": {
+        "url": "https://medium.com/the-resonant-web/spring-boot-2-0-project-structure-and-best-practices-part-2-7137bdcba7d3"
+      },
+      "http://dolszewski.com/java/project-package-organization/": {
+        "url": "http://dolszewski.com/java/project-package-organization/"
+      },
+      "Visualizing quaternions": {
+        "url": "https://eater.net/quaternions"
+      },
+      "Pointers and Memory": {
+        "url": "http://cslibrary.stanford.edu/102/PointersAndMemory.pdf"
+      },
+      "https://people.cs.clemson.edu/~dhouse/courses/405/notes/raycast.pdf": {
+        "url": "https://people.cs.clemson.edu/~dhouse/courses/405/notes/raycast.pdf"
+      },
+      "https://gabrielgambetta.com/computer-graphics-from-scratch/02-basic-raytracing.html": {
+        "url": "https://gabrielgambetta.com/computer-graphics-from-scratch/02-basic-raytracing.html"
+      },
+      "https://www.marcobehler.com/guides/java-files": {
+        "url": "https://www.marcobehler.com/guides/java-files"
+      },
+      "https://www.wikiwand.com/en/Hidden-surface_determination": {
+        "url": "https://www.wikiwand.com/en/Hidden-surface_determination"
+      },
+      "https://www.google.com/search?q=Geometry+pipeline&newwindow=1&sxsrf=ALeKk02jsk77KcoFBmyJytv_cBCH8oQarA:1615661586709&source=lnms&tbm=isch&biw=1503&bih=1212#imgrc=az5EavcgfE2lOM": {
+        "url": "https://www.google.com/search?q=Geometry+pipeline&newwindow=1&sxsrf=ALeKk02jsk77KcoFBmyJytv_cBCH8oQarA:1615661586709&source=lnms&tbm=isch&biw=1503&bih=1212#imgrc=az5EavcgfE2lOM"
+      },
+      "https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview": {
+        "url": "https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview"
+      },
+      "https://developer.nvidia.com/gpugems/gpugems/part-v-performance-and-practicalities/chapter-28-graphics-pipeline-performance": {
+        "url": "https://developer.nvidia.com/gpugems/gpugems/part-v-performance-and-practicalities/chapter-28-graphics-pipeline-performance"
+      },
+      "https://stanford.edu/class/ee267/lectures/lecture2.pdf": {
+        "url": "https://stanford.edu/class/ee267/lectures/lecture2.pdf"
+      },
+      "https://www.seas.upenn.edu/~cis565/LECTURES/Lecture2%20New.pdf": {
+        "url": "https://www.seas.upenn.edu/~cis565/LECTURES/Lecture2%20New.pdf"
+      },
+      "https://restfulapi.net/": {
+        "url": "https://restfulapi.net/"
+      },
+      "https://www.toptal.com/java/spring-boot-rest-api-error-handling": {
+        "url": "https://www.toptal.com/java/spring-boot-rest-api-error-handling"
+      },
+      "https://jsonapi.org/": {
+        "url": "https://jsonapi.org/"
+      },
+      "https://github.com/darrin/yaras": {
+        "url": "https://github.com/darrin/yaras"
+      },
+      "https://google.github.io/styleguide/jsoncstyleguide.xml": {
+        "url": "https://google.github.io/styleguide/jsoncstyleguide.xml"
+      },
+      "https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md": {
+        "url": "https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md"
+      },
+      "https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design": {
+        "url": "https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design"
+      },
+      "http://apistylebook.com/design/guidelines/": {
+        "url": "http://apistylebook.com/design/guidelines/"
+      },
+      "https://opensource.zalando.com/restful-api-guidelines/": {
+        "url": "https://opensource.zalando.com/restful-api-guidelines/"
+      },
+      "https://github.com/Trust1Team/api-styleguide": {
+        "url": "https://github.com/Trust1Team/api-styleguide"
+      },
+      "https://docs.python-eve.org/en/stable/": {
+        "url": "https://docs.python-eve.org/en/stable/"
+      },
+      "https://developer.paypal.com/docs/api/overview/": {
+        "url": "https://developer.paypal.com/docs/api/overview/"
+      },
+      "https://docs.github.com/en/rest": {
+        "url": "https://docs.github.com/en/rest"
+      },
+      "https://github.com/WhiteHouse/api-standards": {
+        "url": "https://github.com/WhiteHouse/api-standards"
+      },
+      "The Book of Shaders": {
+        "url": "https://thebookofshaders.com"
+      },
+      "Shadertoy": {
+        "url": "https://www.shadertoy.com/"
+      },
+      "3D Game Shaders For Beginners": {
+        "url": "https://github.com/lettier/3d-game-shaders-for-beginners"
+      },
+      "[RU] Bash-scripts": {
+        "url": "https://habr.com/ru/company/ruvds/blog/325522/"
+      },
+      "https://demoman.net/?a=trig-for-games": {
+        "url": "https://demoman.net/?a=trig-for-games"
+      },
+      "The Architecture of Open Source Applications": {
+        "url": "https://aosabook.org/en/index.html"
+      },
+      "Application Architecture Guide 2.0": {
+        "url": "https://archive.codeplex.com/?p=AppArchGuide"
+      },
+      "FPB, Software Architecture": {
+        "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#software-architecture"
+      },
+      "Command-Query Separation": {
+        "url": "https://martinfowler.com/bliki/CommandQuerySeparation.html"
+      },
+      "https://ota-solid.vercel.app/isp": {
+        "url": "https://ota-solid.vercel.app/isp"
+      },
+      "https://statecharts.dev/": {
+        "url": "https://statecharts.dev/"
+      },
+      "Stanford": {
+        "url": "https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/10_Subdivision.pdf"
+      },
+      "Science Direct": {
+        "url": "https://www.sciencedirect.com/topics/mathematics/subdivision-surface"
+      },
+      "What is Tessellation in computer graphics?": {
+        "url": "https://computergraphics.stackexchange.com/questions/2018/what-is-tessellation-in-computer-graphics"
+      },
+      "[RU] Luhman's system": {
+        "url": "https://zeh.media/praktika/instruktsiya/4796135-10-printsipov-idealnogo-konspekta"
+      },
+      "Acronyms Seriously Suck": {
+        "url": "https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764"
+      },
+      "No hello": {
+        "url": "https://nohello.net/"
+      },
+      "XY problem": {
+        "url": "http://xyproblem.info/"
+      },
+      "Don't ask to ask": {
+        "url": "https://dontasktoask.com/"
+      },
+      "Is TLS fast yet?": {
+        "url": "https://istlsfastyet.com/"
+      },
+      "The Illustrated TLS Connection": {
+        "url": "https://tls.ulfheim.net/"
+      },
+      "https://roadmap.sh/guides/ssl-tls-https-ssh": {
+        "url": "https://roadmap.sh/guides/ssl-tls-https-ssh"
+      },
+      "https://braindump.jethro.dev/posts/software_engineering/": {
+        "url": "https://braindump.jethro.dev/posts/software_engineering/"
+      },
+      "UNIX Tutorial for Beginners": {
+        "url": "http://www.ee.surrey.ac.uk/Teaching/Unix/"
+      },
+      "An Introduction to the Command-Line (on Unix-like systems)": {
+        "url": "http://oliverelliott.org/article/computing/tut_unix/"
+      },
+      "https://people.cs.clemson.edu/~dhouse/courses/405/notes/vectors.pdf": {
+        "url": "https://people.cs.clemson.edu/~dhouse/courses/405/notes/vectors.pdf"
+      },
+      "https://guillaumegouessan.com/talk/move/": {
+        "url": "https://guillaumegouessan.com/talk/move/"
+      },
+      "Web Animation Infographics": {
+        "url": "https://www.awwwards.com/web-animation-infographics-a-map-of-the-best-animation-libraries-for-javascript-and-css3-plus-performance-tips.html"
+      },
+      "Easing functions": {
+        "url": "https://easings.net"
+      },
+      "MDN Web Performance": {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Performance"
+      },
+      "https://alain.xyz/blog/raw-webgl": {
+        "url": "https://alain.xyz/blog/raw-webgl"
+      },
+      "https://metanit.com/web/webgl/": {
+        "url": "https://metanit.com/web/webgl/"
+      },
+      "https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc": {
+        "url": "https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc"
+      },
+      "WebGL Insights": {
+        "url": "http://webglinsights.com/"
+      },
+      "https://telegra.ph/Poleznye-resursy-11-08": {
+        "url": "https://telegra.ph/Poleznye-resursy-11-08"
+      },
+      "One Hacker Way": {
+        "url": "https://youtu.be/2u0sNRO-QKQ?t=696"
+      }
+    },
+    "tags": {
+      "networking": [
+        "Jethro's Braindump",
+        "High Performance Browser Networking",
+        "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#networking",
+        "Is TLS fast yet?",
+        "The Illustrated TLS Connection",
+        "https://roadmap.sh/guides/ssl-tls-https-ssh"
+      ],
+      "uml": [
+        "Jethro's Braindump",
+        "https://braindump.jethro.dev/posts/software_engineering/"
+      ],
+      "ds": [
+        "Jethro's Braindump",
+        "30 seconds of code"
+      ],
+      "algo": [
+        "Jethro's Braindump",
+        "30 seconds of code",
+        "Compression Decompressed",
+        "Big-O Cheat Sheet",
+        "Data Structure Visualizations",
+        "Data Structures Easy to Advanced Course",
+        "Data Structures & Algorithms by CS Dojo",
+        "https://roadmap.sh/guides/big-o-notation",
+        "https://roadmap.sh/guides/asymptotic-notation",
+        "Visualizing Algorithms",
+        "Red Blob Games",
+        "https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md",
+        "[RU] habr:search=algorithms",
+        "http://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf",
+        "DFS at Algorithms and Technologies"
+      ],
+      "linal": [
+        "Jethro's Braindump",
+        "Linear Algebra PDF",
+        "Interactive Linear Algebra",
+        "Immersive Linear Algebra",
+        "The Applications of Matrices",
+        "Essence of Linear Algebra",
+        "https://betterexplained.com/articles/linear-algebra-guide/",
+        "https://gabrielgambetta.com/computer-graphics-from-scratch/A0-linear-algebra.html",
+        "https://people.cs.clemson.edu/~dhouse/courses/405/notes/affines-matrices.pdf",
+        "Visualizing quaternions",
+        "https://people.cs.clemson.edu/~dhouse/courses/405/notes/vectors.pdf"
+      ],
+      "notetaking": [
+        "Jethro's Braindump",
+        "Maggie Appleton",
+        "[RU] Luhman's system"
+      ],
+      "react": [
+        "Jethro's Braindump"
+      ],
+      "db": [
+        "Jethro's Braindump"
+      ],
+      "zk": [
+        "Jethro's Braindump",
+        "Sean Fish exobrain",
+        "beepb00p",
+        "Alexey Shmalko",
+        "Andy Matuschak",
+        "Gwern Branwen",
+        "Joshua's garden",
+        "Alexis Rondeau",
+        "[RU] Luhman's system"
+      ],
+      "ui": [
+        "Jethro's Braindump",
+        "beepb00p",
+        "Alexey Shmalko",
+        "Gwern Branwen",
+        "Brendan Schlagel",
+        "Maggie Appleton",
+        "Artem Sapegin",
+        "[RU] Ilya Birman",
+        "[RU] Art.Lebedev",
+        "[RU] Art.Gorbunov",
+        "Russian Design systems",
+        "Collect UI",
+        "umami",
+        "Netdata",
+        "Tabler",
+        "[RU] Doka.guide",
+        "Blueprint.js",
+        "Seeing circles, sines, and signals",
+        "October CMS",
+        "Laravel Docs",
+        "Ghost Docs",
+        "Opinionated Guides",
+        "Tufte Handout Example",
+        "Observable HQ",
+        "James Daly",
+        "Jendrik Poloczek",
+        "Wesley’s Notebook",
+        "weakty"
+      ],
+      "programming": [
+        "Sean Fish exobrain",
+        "Alexey Shmalko",
+        "Artem Sapegin",
+        "weakty",
+        "Bad Diode"
+      ],
+      "web": [
+        "Sean Fish exobrain"
+      ],
+      "python": [
+        "Sean Fish exobrain"
+      ],
+      "tufte": [
+        "Gwern Branwen",
+        "Tufte Handout Example",
+        "Wesley’s Notebook"
+      ],
+      "graphic design": [
+        "Mister Chad"
+      ],
+      "learning": [
+        "Gordon Brander",
+        "SuperMemo Wiki",
+        "Learning Library"
+      ],
+      "design": [
+        "Maggie Appleton",
+        "[RU] Ilya Birman",
+        "[RU] Art.Lebedev",
+        "[RU] Art.Gorbunov",
+        "Russian Design systems",
+        "Collect UI"
+      ],
+      "cg": [
+        "Alain Galvan",
+        "Inigo Quilez",
+        "Adrian Courreges",
+        "Evan Wallace",
+        "Bad Diode",
+        "[RU] Shaders & Cyberpunk",
+        "To design and develop an interactive globe",
+        "open.gl",
+        "Learn OpenGL",
+        "Modern OpenGL Tutorials",
+        "OpenGL Tutorials",
+        "OpenGL",
+        "Tiny Renderer",
+        "https://people.cs.clemson.edu/~dhouse/courses/405/notes/raycast.pdf",
+        "https://gabrielgambetta.com/computer-graphics-from-scratch/02-basic-raytracing.html",
+        "https://www.wikiwand.com/en/Hidden-surface_determination",
+        "https://www.google.com/search?q=Geometry+pipeline&newwindow=1&sxsrf=ALeKk02jsk77KcoFBmyJytv_cBCH8oQarA:1615661586709&source=lnms&tbm=isch&biw=1503&bih=1212#imgrc=az5EavcgfE2lOM",
+        "https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview",
+        "https://developer.nvidia.com/gpugems/gpugems/part-v-performance-and-practicalities/chapter-28-graphics-pipeline-performance",
+        "https://stanford.edu/class/ee267/lectures/lecture2.pdf",
+        "https://www.seas.upenn.edu/~cis565/LECTURES/Lecture2%20New.pdf",
+        "The Book of Shaders",
+        "Shadertoy",
+        "3D Game Shaders For Beginners",
+        "Stanford",
+        "Science Direct",
+        "What is Tessellation in computer graphics?",
+        "https://alain.xyz/blog/raw-webgl",
+        "https://metanit.com/web/webgl/",
+        "https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc",
+        "WebGL Insights",
+        "https://telegra.ph/Poleznye-resursy-11-08"
+      ],
+      "dashboard": [
+        "umami",
+        "Netdata",
+        "Tabler"
+      ],
+      "viz": [
+        "Nicholas Rougeux",
+        "Michael Fogleman",
+        "Mike Bostock",
+        "Jason Davies",
+        "Nikita Rokotyan",
+        "Steven Wittens"
+      ],
+      "3d": [
+        "Michael Fogleman",
+        "[RU] Shaders & Cyberpunk",
+        "To design and develop an interactive globe"
+      ],
+      "d3": [
+        "Mike Bostock",
+        "Jason Davies"
+      ],
+      "dsp": [
+        "Seeing circles, sines, and signals",
+        "What is digital signal processing?",
+        "http://www.dspguide.com/pdfbook.htm",
+        "https://www.sp4comm.org/webversion.html",
+        "Stack Exchange Roadmap",
+        "Physical Audio Signal Processing for virtual musical instruments and audio effects",
+        "What",
+        "https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/dsp-articles/",
+        "https://github.com/capitanov/dsp-theory"
+      ],
+      "docs": [
+        "October CMS",
+        "Laravel Docs",
+        "Ghost Docs",
+        "Opinionated Guides",
+        "4 Types of documentation"
+      ],
+      "tool": [
+        "HTML color codes",
+        "Processing",
+        "Observable HQ",
+        "Same Energy",
+        "Excalidraw"
+      ],
+      "blog": [
+        "Szymon Kaliski",
+        "De Voorhoede",
+        "Figma",
+        "Kamyshev",
+        "Julio Biason"
+      ],
+      "rust": [
+        "Patrick Monaghan",
+        "weakty"
+      ],
+      "js": [
+        "30 seconds of code",
+        "Streams, The definitive guide",
+        "JavaScript performance beyond bundle size",
+        "You don't know JS",
+        "learn.javascript.ru",
+        "What forces layout / reflow",
+        "The Nature of Code",
+        "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961",
+        "https://redux.js.org/introduction/learning-resources",
+        "Docs",
+        "Style Guide",
+        "https://github.com/markerikson/react-redux-links/blob/master/basic-concepts.md",
+        "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7",
+        "https://frontendmasters.com/books/front-end-handbook/2019/#1",
+        "https://exploringjs.com/impatient-js/toc.html",
+        "https://exploringjs.com/deep-js/toc.html",
+        "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html",
+        "https://github.com/getify/Functional-Light-JS",
+        "http://largescalejs.ru/",
+        "https://github.com/MostlyAdequate/mostly-adequate-guide",
+        "http://thenodeway.io/introduction/#build-small-single-purpose-modules",
+        "https://nikhilm.github.io/uvbook/",
+        "http://book.mixu.net/node/",
+        "https://nodejs.org/en/docs/",
+        "https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/",
+        "Ecmascript Language Types",
+        "Javascript Garden",
+        "MDN",
+        "JavaScript The Right Way",
+        "Eloquent JavaScript",
+        "SuperHero.js",
+        "https://itnext.io/nodejs-logging-made-right-117a19e8b4ce",
+        "https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/",
+        "https://exploringjs.com/deep-js/ch_creating-class-instances.html",
+        "https://exploringjs.com/tackling-ts/toc.html",
+        "https://www.patterns.dev/",
+        "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#setting-realistic-goals",
+        "If Javascript Is Single Threaded, How Is It Asynchronous?",
+        "What the heck is the event loop anyway",
+        "In The Loop",
+        "https://blog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810",
+        "https://javascript.info/ninja-code",
+        "Stream Handbook",
+        "Node.js Streams: Everything you need to know",
+        "https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/",
+        "https://nodejs.org/en/docs/guides/",
+        "https://nodejs.org/api/stream.html",
+        "https://livebook.manning.com/book/node-js-in-practice/chapter-5/",
+        "https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/",
+        "https://flaviocopes.com/nodejs-streams/"
+      ],
+      "compression": [
+        "Compression Decompressed"
+      ],
+      "drawing": [
+        "Excalidraw"
+      ],
+      "streams": [
+        "Streams, The definitive guide"
+      ],
+      "todo": [
+        "Web Browser Engineering",
+        "TSConfig bases",
+        "Full-Stack Software Design and Architecture Roadmap",
+        "Build your own X",
+        "Project based learning",
+        "[RU] How to write technical articles",
+        "Various RTR blogs",
+        "TheCherno",
+        "Inigo Quilzez",
+        "[RU] Node.js app monitoring",
+        "Ten modern layouts in one line of CSS",
+        "JavaScript algorithms",
+        "Mitigate cross-site scripting with a strict Content Security Policy",
+        "DDD, Hexagonal, Onion, Clean, CQRS, How I put it all together",
+        "Building Resilient Frontend Architecture",
+        "Writing Technical Articles",
+        "http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer",
+        "http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer"
+      ],
+      "management": [
+        "[RU] Product Architecture Framework"
+      ],
+      "fp": [
+        "A primer on functional architecture"
+      ],
+      "architecture": [
+        "A primer on functional architecture",
+        "DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together",
+        "Game Programming patterns",
+        "https://github.com/ddd-by-examples",
+        "Package by feature, not layer",
+        "Structuring React and Redux applications",
+        "Learning Code Readability",
+        "PBF (Package by Feature), no more PBL (Package by Layer)",
+        "[RU] Organizing files by features and not by technical aspects",
+        "📺 Hexagonal architecture",
+        "https://medium.com/the-resonant-web/spring-boot-2-0-starter-kit-part-1-23ddff0c7da2",
+        "https://medium.com/the-resonant-web/spring-boot-2-0-project-structure-and-best-practices-part-2-7137bdcba7d3",
+        "http://dolszewski.com/java/project-package-organization/",
+        "The Architecture of Open Source Applications",
+        "Application Architecture Guide 2.0",
+        "FPB, Software Architecture",
+        "Command-Query Separation",
+        "https://ota-solid.vercel.app/isp"
+      ],
+      "writing": [
+        "https://robertheaton.com/2018/12/06/a-blogging-style-guide",
+        "https://www.drmaciver.com/2019/05/how-to-do-hard-things"
+      ],
+      "css": [
+        "Learn CSS Grid",
+        "Complete Guide to Flexbox",
+        "The 100% correct way to do CSS breakpoints",
+        "CSS Modules. Welcome to the Future"
+      ],
+      "tree": [
+        "Introduction to Trees",
+        "https://adrianmejia.com/self-balanced-binary-search-trees-with-avl-tree-data-structure-for-beginners/"
+      ],
+      "graph": [
+        "Graph Theory",
+        "Some cool Graph game"
+      ],
+      "math": [
+        "Maths is Fun",
+        "The Map of Mathematics",
+        "College Algebra",
+        "Maths for Programmers",
+        "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#mathematics",
+        "http://www.mathwords.com/d/dot_product.htm",
+        "https://www.wolframalpha.com/",
+        "https://betterexplained.com/articles/intuitive-trigonometry/",
+        "https://github.com/nbro/understanding-math",
+        "http://www-math.mit.edu/~djk/calculus_beginners/",
+        "https://mathigon.org/",
+        "https://www.youtube.com/watch?v=pTnEG_WGd2Q",
+        "https://demoman.net/?a=trig-for-games"
+      ],
+      "cs": [
+        "Teach Yourself Computer Science",
+        "A Self-Learning, Modern Computer Science Curriculum",
+        "What every computer science major should know",
+        "[RU] Programming: Introduction"
+      ],
+      "combinatorics": [
+        "Calculator",
+        "Combinatorics algorithms",
+        "https://www.jasondavies.com/set-partitions/",
+        "https://www.jasondavies.com/necklaces/"
+      ],
+      "fe": [
+        "Front-End Performance Checklist 2021",
+        "https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8",
+        "https://css-tricks.com/",
+        "https://www.smashingmagazine.com/",
+        "[RU] Doka",
+        "http://codewinds.com/blog/2016-08-16-business-logic-redux.html",
+        "Solving Circular Dependencies in Modular Redux",
+        "https://addyosmani.com/largescalejavascript/",
+        "https://iamakulov.com/",
+        "https://indepth.dev/posts/1324/the-journey-to-isomorphic-rendering-performance",
+        "Requirements for front-end developers",
+        "https://guillaumegouessan.com/talk/move/",
+        "Web Animation Infographics",
+        "Easing functions",
+        "MDN Web Performance"
+      ],
+      "auth": [
+        "https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc",
+        "Single Sign-On"
+      ],
+      "patterns": [
+        "Game Programming patterns",
+        "https://statecharts.dev/"
+      ],
+      "devops": [
+        "https://doka.guide/tools/docker/",
+        "https://doka.guide/tools/docker-compose/",
+        "https://doka.guide/tools/docker-data-management/",
+        "https://doka.guide/tools/dockerfile/",
+        "https://github.com/docker/awesome-compose"
+      ],
+      "eng": [
+        "Vocabulary.com",
+        "Reverso",
+        "Playphrase"
+      ],
+      "java": [
+        "Functional Exceptions In Java",
+        "Lambda Exceptions",
+        "[RU] Quirks of Stream API",
+        "Optional as Return Type",
+        "Functional Exceptions In Java",
+        "https://www.youtube.com/watch?v=C-wEZjEOhWc",
+        "[RU] Programming in Java",
+        "JUG.ru Youtube Channel",
+        "Marco Behler",
+        "Java Master",
+        "[RU] Collections",
+        "JPA vs JDBC",
+        "[RU] JPA Entities",
+        "https://www.marcobehler.com/guides/java-files"
+      ],
+      "git": [
+        "A Hacker's Guide to Git",
+        "A Visual Git Reference",
+        "Conversational Git",
+        "Git from the Bottom Up",
+        "Git Immersion",
+        "simple-git-hooks"
+      ],
+      "naming": [
+        "https://github.com/kettanaito/naming-cheatsheet",
+        "https://javascript.info/ninja-code"
+      ],
+      "http": [
+        "https://roadmap.sh/guides/http-caching",
+        "https://proselyte.net/tutorials/http-tutorial/caching/",
+        "https://proselyte.net/tutorials/http-tutorial/",
+        "HTTP Specification"
+      ],
+      "redux": [
+        "https://redux.js.org/introduction/learning-resources",
+        "Docs",
+        "Style Guide"
+      ],
+      "node-streams": [
+        "Stream Handbook",
+        "Node.js Streams: Everything you need to know",
+        "https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/",
+        "https://nodejs.org/en/docs/guides/",
+        "https://nodejs.org/api/stream.html",
+        "https://livebook.manning.com/book/node-js-in-practice/chapter-5/",
+        "https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/",
+        "https://flaviocopes.com/nodejs-streams/"
+      ],
+      "ddd": [
+        "https://github.com/ddd-by-examples"
+      ],
+      "opengl": [
+        "open.gl",
+        "Learn OpenGL",
+        "Modern OpenGL Tutorials",
+        "OpenGL Tutorials",
+        "OpenGL",
+        "Tiny Renderer"
+      ],
+      "os": [
+        "https://braindump.jethro.dev/posts/operating_systems/",
+        "https://vseloved.github.io/pdf/os-ru.pdf",
+        "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#operating-systems"
+      ],
+      "pbm": [
+        "Package by feature, not layer",
+        "Structuring React and Redux applications",
+        "Learning Code Readability",
+        "PBF (Package by Feature), no more PBL (Package by Layer)",
+        "[RU] Organizing files by features and not by technical aspects",
+        "📺 Hexagonal architecture"
+      ],
+      "file-structure": [
+        "https://medium.com/the-resonant-web/spring-boot-2-0-starter-kit-part-1-23ddff0c7da2",
+        "https://medium.com/the-resonant-web/spring-boot-2-0-project-structure-and-best-practices-part-2-7137bdcba7d3",
+        "http://dolszewski.com/java/project-package-organization/"
+      ],
+      "hardware": [
+        "Pointers and Memory"
+      ],
+      "rest": [
+        "https://restfulapi.net/",
+        "https://www.toptal.com/java/spring-boot-rest-api-error-handling",
+        "https://jsonapi.org/",
+        "https://github.com/darrin/yaras",
+        "https://google.github.io/styleguide/jsoncstyleguide.xml",
+        "https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md",
+        "https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "http://apistylebook.com/design/guidelines/",
+        "https://opensource.zalando.com/restful-api-guidelines/",
+        "https://github.com/Trust1Team/api-styleguide",
+        "https://docs.python-eve.org/en/stable/",
+        "https://developer.paypal.com/docs/api/overview/",
+        "https://docs.github.com/en/rest",
+        "https://github.com/WhiteHouse/api-standards"
+      ],
+      "shaders": [
+        "The Book of Shaders",
+        "Shadertoy",
+        "3D Game Shaders For Beginners"
+      ],
+      "shell": [
+        "[RU] Bash-scripts"
+      ],
+      "game": [
+        "https://demoman.net/?a=trig-for-games"
+      ],
+      "cqrs": [
+        "Command-Query Separation"
+      ],
+      "solid": [
+        "https://ota-solid.vercel.app/isp"
+      ],
+      "subdivision": [
+        "Stanford",
+        "Science Direct",
+        "What is Tessellation in computer graphics?"
+      ],
+      "thought": [
+        "Acronyms Seriously Suck",
+        "No hello",
+        "XY problem",
+        "Don't ask to ask"
+      ],
+      "unix": [
+        "UNIX Tutorial for Beginners",
+        "An Introduction to the Command-Line (on Unix-like systems)"
+      ],
+      "animation": [
+        "https://guillaumegouessan.com/talk/move/",
+        "Web Animation Infographics",
+        "Easing functions"
+      ],
+      "performance": [
+        "MDN Web Performance"
+      ],
+      "webgl": [
+        "https://alain.xyz/blog/raw-webgl",
+        "https://metanit.com/web/webgl/",
+        "https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc",
+        "WebGL Insights",
+        "https://telegra.ph/Poleznye-resursy-11-08"
+      ],
+      "agile": [
+        "One Hacker Way"
+      ]
+    }
+  }
 }

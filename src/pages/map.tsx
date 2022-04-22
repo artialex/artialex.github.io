@@ -6,6 +6,7 @@ import { useRouter } from 'next/router'
 import { getPrettyTagName, Tag, Tags } from '@/notes'
 import { slugify } from '@/platform/slug.utils'
 import { Spinner } from '@/ui'
+import Head from 'next/head'
 
 const MapPage = () => {
   const { data, error, isLoading } = useGetGraphQuery()
@@ -15,37 +16,39 @@ const MapPage = () => {
     return <Spinner.Centered />
   }
 
-  let nodes = query.tag ? _.filter(data.nodes, { tags: [query.tag] }) : data.nodes
-
   return (
     <PageLayout>
-      <div style={{ display: 'flex' }}>
-        <section style={{ width: 280 }}>
-          Narrow by tag:
-          <Tags tags={data.tags} direction="vertical" />
-        </section>
-        <section>
-          <span>
+      <Head>
+        <title>Garden • Map</title>
+      </Head>
+      <div style={{ display: 'flex', gap: '6rem' }}>
+        <section style={{ width: 800 }}>
+          <h2>
             {query.tag ? (
               <span>
-                <b>{nodes.length}</b> of <b>{data.nodes.length}</b> pages have{' '}
-                <b>#{getPrettyTagName(query.tag as string)}</b> tag
+                {_.size(_.get(data.graph.tags, query.tag))} of {_.size(data.graph.nodes)} pages have{' '}
+                <Tag>{query.tag as string}</Tag>tag
               </span>
             ) : (
               <span>
-                <b>{data?.nodes.length}</b> pages
+                <b>{_.size(data.graph.nodes)}</b> pages
               </span>
             )}
-          </span>
+          </h2>
           <ul>
-            {nodes.map((node: any) => (
-              <li key={node.id}>
-                <Link href={`/?id=${slugify(node.id)}`}>
-                  <a className="internal">{node.id}</a>
-                </Link>
-              </li>
-            ))}
+            {(query.tag ? data.graph.tags[query.tag as string] : _.keys(data.graph.nodes)).map(
+              (node: any) => (
+                <li key={node}>
+                  <Link href={`/?id=${slugify(node)}`}>
+                    <a className="internal">{node}</a>
+                  </Link>
+                </li>
+              )
+            )}
           </ul>
+        </section>
+        <section>
+          <Tags tags={_.keys(data.graph.tags)} direction="vertical" />
         </section>
       </div>
     </PageLayout>

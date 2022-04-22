@@ -119,9 +119,4 @@ What to use in code editors, IDEs, Obsidian, etc...
 - #todo Make better shortcuts
 
 
-- https://tsdx.io/
-- https://github.com/keithamus/sort-package-json#readme
-
-[[Keyboard shortcuts]]
-
 -->

@@ -1,5 +1,5 @@
 ---
-tags: [cg]
+tags: [cg, subdivision]
 ---
 
 # Tessellation
@@ -12,7 +12,3 @@ Vertex \ Set \xrightarrow{Tesselation} Subdivided \ Vertex \ Set
 $$
 
 Tessellation is a *rendering stage*
-
----
-
-- [What is Tessellation in computer graphics?](https://computergraphics.stackexchange.com/questions/2018/what-is-tessellation-in-computer-graphics)

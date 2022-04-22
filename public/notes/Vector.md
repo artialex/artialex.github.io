@@ -163,5 +163,5 @@ Vector
 
 - [[Vector & Matrix Operations|Operations]]
 
-https://people.cs.clemson.edu/~dhouse/courses/405/notes/vectors.pdf
+
 -->

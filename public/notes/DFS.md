@@ -1,5 +1,5 @@
 ---
-tags: [algo, graph, wip]
+tags: [algo, graph]
 ---
 
 # DFS
@@ -43,5 +43,3 @@ function dfs<T>(start: Node<T>, target: T) {
 ```
 
 ---
-
-- [DFS at Algorithms and Technologies](https://www.algorithms-and-technologies.com/dfs/javascript)

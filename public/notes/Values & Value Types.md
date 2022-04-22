@@ -1,3 +1,7 @@
+---
+tags: [java]
+---
+
 # Values & Value Types
 
 Java has 8 primitive value types:

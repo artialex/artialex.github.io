@@ -1,5 +1,5 @@
 ---
-tags: [management, thoughts]
+tags: [management, thought]
 ---
 
 # Two things I do when joining a new team

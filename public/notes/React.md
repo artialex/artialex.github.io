@@ -1,5 +1,5 @@
 ---
-tags: [fe, js]
+tags: [fe, js, react]
 ---
 
 # React

@@ -33,7 +33,7 @@ Summary of [this](https://erkaman.github.io/posts/beginner_computer_graphics.htm
 - [[Quarternion]]
 - Orthonormal Basis Matrix
 - Intersection calculations
-- ! Column-major order и row-major order ([[1|https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/geometry/row-major-vs-column-major-vector]])
+- ! Column-major order и row-major order https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/geometry/row-major-vs-column-major-vector
 - How to model camera, with the view matrix and perspective transformation matrix 
 <!--
 

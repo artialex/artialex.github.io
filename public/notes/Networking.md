@@ -58,12 +58,29 @@ Routers allow connecting LANs to the global _Wide Area Network_ (WAN, Internet)
 
 Сетевые сообщения могут быть двух видов - [[Frame|фреймы]] и [[Network Packet|пакеты]]
 
-- https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#networking
-- Компьютерные сети. Нисходящий подход. (Куроуз, Росс) 📖
-- Компьютерные сети. (Танненбаум) 📖
+
+# TLS
+
+Stands for **T**ransport **L**ayer **S**ecurity 
+
+TLS is a cryptographic security protocol
+
+TLS is the successor of the previous realization, SSL (Secure Sockets Layer)
+
+
+# UDP
+
+User Datagram Protocol
+
+Протокол транспортного<sup>4</sup> уровня. Позволяет посылать сообщения без
+установки специальных каналов передачи и не имеет механизмов
+гарантированной доставки пакетов
+
+### Notes
+
+- Used for real-time data that is not required receive confirmation like streaming audio and video
+
 
 -->
 
----
 
-- [High Performance Browser Networking](https://hpbn.co/)

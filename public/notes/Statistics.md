@@ -1,5 +1,5 @@
 ---
-tags: [map]
+tags: [math]
 ---
 
 # Statistics
@@ -10,7 +10,7 @@ tags: [map]
 - P value
 - Null hypothesis
 
-### [[Queueing theory]]
+### Queueing theory
 
 ## Regression
 

@@ -10,10 +10,7 @@ import {
   REGISTER,
   REHYDRATE,
 } from 'redux-persist'
-import { PersistConfig } from 'redux-persist/es/types'
 import storage from 'redux-persist/lib/storage'
-
-import { core } from './core.slice'
 // import { notes, notesMiddleware } from '@/notes.standard'
 import { notesApi } from '@/notes/notes.api'
 

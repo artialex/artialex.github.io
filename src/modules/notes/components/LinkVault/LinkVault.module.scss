@@ -1,0 +1,10 @@
+.root {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  &::before {
+    display: none;
+  }
+}

@@ -1,5 +1,5 @@
 ---
-tags: [notetaking]
+tags: [notetaking, zk]
 ---
 
 # The way I write these notes
@@ -15,15 +15,15 @@ about [collector's fallacy](https://zettelkasten.de/posts/collectors-fallacy/)
 and when the number of bookmarks was close to 1000 I noticed that I don't use
 most of them and will never do
 
-Then I made multiple attempts to keep my notes as markdown files editing them
-in VSCode (with [MPE](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) extension)
+Then I had multiple attempts to keep my notes as markdown files editing them
+in VS Code (with [MPE](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) extension) and
 syncing them via Dropbox. These attempts were somewhat convenient, but
 they lack structure and system, so they always turned out to be a pile
 of disconnected pieces of work
 
 After that I tried Notion. I like the design but dislike its lack of speed.
 Sometimes I wanted to store some piece of information but Notion took so much
-time to launch I forgot what I wanted to
+time to launch I forgot what I wanted to do
 
 Then I used Workflowy, but the idea of having a lot of lists quickly became not handy
 
@@ -31,10 +31,6 @@ Then I used Workflowy, but the idea of having a lot of lists quickly became not 
 > the way of links and connections
 
 Finally, I discovered [Zettelkasten method](https://zettelkasten.de/posts/overview/) and now I think that it's the most appropriate way of writing notes for me. It has no overhead, no extra burden. It drove me back to simple markdown files and I can view them in any form I like, In the editor or web-based.
-
----
-
-- [[RU] Luhman's system](https://zeh.media/praktika/instruktsiya/4796135-10-printsipov-idealnogo-konspekta)
 
 <!--
 

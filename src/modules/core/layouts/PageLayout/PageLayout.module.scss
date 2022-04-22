@@ -1,8 +1,11 @@
 .root {
-  width: 800px;
-  margin: 4rem auto;
+  margin: 4rem 8rem;
   padding-bottom: 10rem;
   position: relative;
+
+  .main {
+    width: 800px;
+  }
 }
 
 .header {
