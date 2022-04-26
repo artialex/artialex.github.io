@@ -2366,41 +2366,35 @@
       "The Nature of Code": {
         "url": "https://natureofcode.com"
       },
-      "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961": {
+      "Make services a natural part of Redux architecture": {
         "url": "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961"
       },
-      "https://redux.js.org/introduction/learning-resources": {
-        "url": "https://redux.js.org/introduction/learning-resources"
-      },
-      "Docs": {
+      "Redux: Docs": {
         "url": "https://redux.js.org/"
+      },
+      "Redux: Learning resources": {
+        "url": "https://redux.js.org/introduction/learning-resources"
       },
       "Style Guide": {
         "url": "https://redux.js.org/style-guide/style-guide#introduction"
       },
-      "https://github.com/markerikson/react-redux-links/blob/master/basic-concepts.md": {
-        "url": "https://github.com/markerikson/react-redux-links/blob/master/basic-concepts.md"
+      "React/Redux Links": {
+        "url": "https://github.com/markerikson/react-redux-links"
       },
-      "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7": {
+      "Redux is half of a pattern": {
         "url": "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7"
       },
       "https://frontendmasters.com/books/front-end-handbook/2019/#1": {
         "url": "https://frontendmasters.com/books/front-end-handbook/2019/#1"
       },
-      "https://exploringjs.com/impatient-js/toc.html": {
-        "url": "https://exploringjs.com/impatient-js/toc.html"
+      "Books by Dr. Axel Rauschmayer": {
+        "url": "https://exploringjs.com/"
       },
-      "https://exploringjs.com/deep-js/toc.html": {
-        "url": "https://exploringjs.com/deep-js/toc.html"
-      },
-      "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html": {
-        "url": "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html"
-      },
-      "https://github.com/getify/Functional-Light-JS": {
+      "Functional-Light JavaScript": {
         "url": "https://github.com/getify/Functional-Light-JS"
       },
-      "http://largescalejs.ru/": {
-        "url": "http://largescalejs.ru/"
+      "[RU] LargeScaleJS": {
+        "url": "http://largescalejs.ru"
       },
       "https://github.com/MostlyAdequate/mostly-adequate-guide": {
         "url": "https://github.com/MostlyAdequate/mostly-adequate-guide"
@@ -2823,6 +2817,12 @@
       },
       "Freeablo": {
         "url": "https://freeablo.org/"
+      },
+      "https://bordio.com": {
+        "url": "https://bordio.com"
+      },
+      "https://dev.targetprocess.com": {
+        "url": "https://dev.targetprocess.com"
       }
     },
     "tags": {
@@ -2879,6 +2879,7 @@
       ],
       "react": [
         "Jethro's Braindump",
+        "React/Redux Links",
         "jitsi-meet",
         "bank-client",
         "fullstack-javascript-architecture",
@@ -2932,7 +2933,9 @@
         "James Daly",
         "Jendrik Poloczek",
         "Wesley’s Notebook",
-        "weakty"
+        "weakty",
+        "https://bordio.com",
+        "https://dev.targetprocess.com"
       ],
       "programming": [
         "Sean Fish exobrain",
@@ -3069,18 +3072,16 @@
         "learn.javascript.ru",
         "What forces layout / reflow",
         "The Nature of Code",
-        "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961",
-        "https://redux.js.org/introduction/learning-resources",
-        "Docs",
+        "Make services a natural part of Redux architecture",
+        "Redux: Docs",
+        "Redux: Learning resources",
         "Style Guide",
-        "https://github.com/markerikson/react-redux-links/blob/master/basic-concepts.md",
-        "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7",
+        "React/Redux Links",
+        "Redux is half of a pattern",
         "https://frontendmasters.com/books/front-end-handbook/2019/#1",
-        "https://exploringjs.com/impatient-js/toc.html",
-        "https://exploringjs.com/deep-js/toc.html",
-        "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html",
-        "https://github.com/getify/Functional-Light-JS",
-        "http://largescalejs.ru/",
+        "Books by Dr. Axel Rauschmayer",
+        "Functional-Light JavaScript",
+        "[RU] LargeScaleJS",
         "https://github.com/MostlyAdequate/mostly-adequate-guide",
         "http://thenodeway.io/introduction/#build-small-single-purpose-modules",
         "https://nikhilm.github.io/uvbook/",
@@ -3148,6 +3149,8 @@
         "DDD, Hexagonal, Onion, Clean, CQRS, How I put it all together",
         "A primer on functional architecture",
         "Game Programming patterns",
+        "Make services a natural part of Redux architecture",
+        "[RU] LargeScaleJS",
         "https://github.com/ddd-by-examples",
         "Package by feature, not layer",
         "Structuring React and Redux applications",
@@ -3184,7 +3187,8 @@
         "MDN Web Performance"
       ],
       "fp": [
-        "A primer on functional architecture"
+        "A primer on functional architecture",
+        "Functional-Light JavaScript"
       ],
       "writing": [
         "https://robertheaton.com/2018/12/06/a-blogging-style-guide",
@@ -3286,9 +3290,12 @@
         "HTTP Specification"
       ],
       "redux": [
-        "https://redux.js.org/introduction/learning-resources",
-        "Docs",
+        "Make services a natural part of Redux architecture",
+        "Redux: Docs",
+        "Redux: Learning resources",
         "Style Guide",
+        "React/Redux Links",
+        "Redux is half of a pattern",
         "jitsi-meet",
         "bank-client",
         "fullstack-javascript-architecture",
