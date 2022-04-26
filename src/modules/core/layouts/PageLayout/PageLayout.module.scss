@@ -1,14 +1,23 @@
-.root {
-  margin: 4rem 8rem;
-  padding-bottom: 10rem;
-  position: relative;
+@use 'media';
 
-  .main {
-    width: 800px;
+.root {
+  padding: 1rem;
+
+  @include media.desktop-up {
+    margin: 4rem 8rem;
+    padding-bottom: 10rem;
   }
+
+  //width: 100%;
+  //position: relative;
+  //.main {
+  //  width: 800px;
+  //}
 }
 
 .header {
+  display: none;
+
   position: fixed;
   top: 1rem;
   right: 2rem;

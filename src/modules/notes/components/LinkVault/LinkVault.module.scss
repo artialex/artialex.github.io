@@ -1,10 +1,15 @@
 .root {
-  list-style-type: none;
-  padding: 0;
+  overflow: hidden;
 }
 
-.item {
-  &::before {
-    display: none;
+.list {
+  list-style-type: none;
+  padding: 0;
+
+  a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }

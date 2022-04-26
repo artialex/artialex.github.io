@@ -1,11 +1,17 @@
+@use 'media';
+
 .root {
-  display: flex;
-  gap: 6rem;
+  @include media.desktop-up {
+    display: flex;
+    gap: 6rem;
+  }
 }
 
 .main {
-  flex: 0 0 800px;
-  //width: 800px;
+  @include media.desktop-up {
+    flex: 0 0 60%;
+    max-width: 800px;
+  }
 }
 
 .aside {

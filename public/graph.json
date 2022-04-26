@@ -1948,7 +1948,8 @@
         "description": "NIce projects"
       },
       "Jendrik Poloczek": {
-        "url": "https://www.madewithtea.com"
+        "url": "https://www.madewithtea.com",
+        "description": "kafka"
       },
       "Patrick Monaghan": {
         "url": "https://patrick-is.cool"
@@ -2209,9 +2210,6 @@
       "https://adrianmejia.com/self-balanced-binary-search-trees-with-avl-tree-data-structure-for-beginners/": {
         "url": "https://adrianmejia.com/self-balanced-binary-search-trees-with-avl-tree-data-structure-for-beginners/"
       },
-      "DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together": {
-        "url": "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together"
-      },
       "Game Programming patterns": {
         "url": "http://gameprogrammingpatterns.com/contents.html"
       },
@@ -2269,9 +2267,6 @@
         "url": "https://playphrase.me",
         "description": "find the phrase on youtube"
       },
-      "Functional Exceptions In Java": {
-        "url": "https://8thlight.com/blog/brian-gerstle/2019/01/22/fnl-exceptions-in-java.html"
-      },
       "Lambda Exceptions": {
         "url": "https://www.baeldung.com/java-lambda-exceptions"
       },
@@ -2307,6 +2302,9 @@
       },
       "Optional as Return Type": {
         "url": "https://www.baeldung.com/java-optional-return"
+      },
+      "Functional Exceptions In Java": {
+        "url": "https://8thlight.com/blog/brian-gerstle/2019/01/22/fnl-exceptions-in-java.html"
       },
       "A Hacker's Guide to Git": {
         "url": "https://wildlyinaccurate.com/a-hackers-guide-to-git/"
@@ -2368,41 +2366,35 @@
       "The Nature of Code": {
         "url": "https://natureofcode.com"
       },
-      "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961": {
+      "Make services a natural part of Redux architecture": {
         "url": "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961"
       },
-      "https://redux.js.org/introduction/learning-resources": {
-        "url": "https://redux.js.org/introduction/learning-resources"
-      },
-      "Docs": {
+      "Redux: Docs": {
         "url": "https://redux.js.org/"
+      },
+      "Redux: Learning resources": {
+        "url": "https://redux.js.org/introduction/learning-resources"
       },
       "Style Guide": {
         "url": "https://redux.js.org/style-guide/style-guide#introduction"
       },
-      "https://github.com/markerikson/react-redux-links/blob/master/basic-concepts.md": {
-        "url": "https://github.com/markerikson/react-redux-links/blob/master/basic-concepts.md"
+      "React/Redux Links": {
+        "url": "https://github.com/markerikson/react-redux-links"
       },
-      "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7": {
+      "Redux is half of a pattern": {
         "url": "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7"
       },
       "https://frontendmasters.com/books/front-end-handbook/2019/#1": {
         "url": "https://frontendmasters.com/books/front-end-handbook/2019/#1"
       },
-      "https://exploringjs.com/impatient-js/toc.html": {
-        "url": "https://exploringjs.com/impatient-js/toc.html"
+      "Books by Dr. Axel Rauschmayer": {
+        "url": "https://exploringjs.com/"
       },
-      "https://exploringjs.com/deep-js/toc.html": {
-        "url": "https://exploringjs.com/deep-js/toc.html"
-      },
-      "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html": {
-        "url": "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html"
-      },
-      "https://github.com/getify/Functional-Light-JS": {
+      "Functional-Light JavaScript": {
         "url": "https://github.com/getify/Functional-Light-JS"
       },
-      "http://largescalejs.ru/": {
-        "url": "http://largescalejs.ru/"
+      "[RU] LargeScaleJS": {
+        "url": "http://largescalejs.ru"
       },
       "https://github.com/MostlyAdequate/mostly-adequate-guide": {
         "url": "https://github.com/MostlyAdequate/mostly-adequate-guide"
@@ -2777,6 +2769,60 @@
       },
       "One Hacker Way": {
         "url": "https://youtu.be/2u0sNRO-QKQ?t=696"
+      },
+      "openscope": {
+        "url": "https://github.dev/openscope/openscope"
+      },
+      "delaford": {
+        "url": "https://github.dev/delaford/game"
+      },
+      "jitsi-meet": {
+        "url": "https://github.dev/jitsi/jitsi-meet"
+      },
+      "bank-client": {
+        "url": "https://github.dev/pietrzakadrian/bank-client"
+      },
+      "fullstack-javascript-architecture": {
+        "url": "https://github.dev/atulmy/fullstack-javascript-architecture"
+      },
+      "grafana": {
+        "url": "https://github.dev/grafana/grafana"
+      },
+      "deck.gl": {
+        "url": "https://github.dev/visgl/deck.gl"
+      },
+      "strapi": {
+        "url": "https://github.dev/strapi/strapi"
+      },
+      "directus": {
+        "url": "https://github.dev/directus/directus"
+      },
+      "mattermost": {
+        "url": "https://github.dev/mattermost/mattermost-webapp"
+      },
+      "peppermint": {
+        "url": "https://github.dev/Peppermint-Lab/peppermint"
+      },
+      "tinacms": {
+        "url": "https://github.com/tinacms/tinacms"
+      },
+      "erxes": {
+        "url": "https://github.dev/erxes/erxes"
+      },
+      "joust": {
+        "url": "https://github.dev/HearthSim/Joust"
+      },
+      "Mindustry": {
+        "url": "https://github.dev/Anuken/Mindustry"
+      },
+      "Freeablo": {
+        "url": "https://freeablo.org/"
+      },
+      "https://bordio.com": {
+        "url": "https://bordio.com"
+      },
+      "https://dev.targetprocess.com": {
+        "url": "https://dev.targetprocess.com"
       }
     },
     "tags": {
@@ -2832,7 +2878,18 @@
         "[RU] Luhman's system"
       ],
       "react": [
-        "Jethro's Braindump"
+        "Jethro's Braindump",
+        "React/Redux Links",
+        "jitsi-meet",
+        "bank-client",
+        "fullstack-javascript-architecture",
+        "grafana",
+        "deck.gl",
+        "mattermost",
+        "peppermint",
+        "tinacms",
+        "erxes",
+        "joust"
       ],
       "db": [
         "Jethro's Braindump"
@@ -2876,7 +2933,9 @@
         "James Daly",
         "Jendrik Poloczek",
         "Wesley’s Notebook",
-        "weakty"
+        "weakty",
+        "https://bordio.com",
+        "https://dev.targetprocess.com"
       ],
       "programming": [
         "Sean Fish exobrain",
@@ -2944,7 +3003,8 @@
         "https://metanit.com/web/webgl/",
         "https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc",
         "WebGL Insights",
-        "https://telegra.ph/Poleznye-resursy-11-08"
+        "https://telegra.ph/Poleznye-resursy-11-08",
+        "Freeablo"
       ],
       "dashboard": [
         "umami",
@@ -3012,18 +3072,16 @@
         "learn.javascript.ru",
         "What forces layout / reflow",
         "The Nature of Code",
-        "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961",
-        "https://redux.js.org/introduction/learning-resources",
-        "Docs",
+        "Make services a natural part of Redux architecture",
+        "Redux: Docs",
+        "Redux: Learning resources",
         "Style Guide",
-        "https://github.com/markerikson/react-redux-links/blob/master/basic-concepts.md",
-        "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7",
+        "React/Redux Links",
+        "Redux is half of a pattern",
         "https://frontendmasters.com/books/front-end-handbook/2019/#1",
-        "https://exploringjs.com/impatient-js/toc.html",
-        "https://exploringjs.com/deep-js/toc.html",
-        "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html",
-        "https://github.com/getify/Functional-Light-JS",
-        "http://largescalejs.ru/",
+        "Books by Dr. Axel Rauschmayer",
+        "Functional-Light JavaScript",
+        "[RU] LargeScaleJS",
         "https://github.com/MostlyAdequate/mostly-adequate-guide",
         "http://thenodeway.io/introduction/#build-small-single-purpose-modules",
         "https://nikhilm.github.io/uvbook/",
@@ -3079,7 +3137,6 @@
         "Ten modern layouts in one line of CSS",
         "JavaScript algorithms",
         "Mitigate cross-site scripting with a strict Content Security Policy",
-        "DDD, Hexagonal, Onion, Clean, CQRS, How I put it all together",
         "Building Resilient Frontend Architecture",
         "Writing Technical Articles",
         "http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer",
@@ -3088,13 +3145,12 @@
       "management": [
         "[RU] Product Architecture Framework"
       ],
-      "fp": [
-        "A primer on functional architecture"
-      ],
       "architecture": [
+        "DDD, Hexagonal, Onion, Clean, CQRS, How I put it all together",
         "A primer on functional architecture",
-        "DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together",
         "Game Programming patterns",
+        "Make services a natural part of Redux architecture",
+        "[RU] LargeScaleJS",
         "https://github.com/ddd-by-examples",
         "Package by feature, not layer",
         "Structuring React and Redux applications",
@@ -3109,7 +3165,30 @@
         "Application Architecture Guide 2.0",
         "FPB, Software Architecture",
         "Command-Query Separation",
-        "https://ota-solid.vercel.app/isp"
+        "https://ota-solid.vercel.app/isp",
+        "jitsi-meet"
+      ],
+      "fe": [
+        "Kamyshev",
+        "Front-End Performance Checklist 2021",
+        "https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8",
+        "https://css-tricks.com/",
+        "https://www.smashingmagazine.com/",
+        "[RU] Doka",
+        "http://codewinds.com/blog/2016-08-16-business-logic-redux.html",
+        "Solving Circular Dependencies in Modular Redux",
+        "https://addyosmani.com/largescalejavascript/",
+        "https://iamakulov.com/",
+        "https://indepth.dev/posts/1324/the-journey-to-isomorphic-rendering-performance",
+        "Requirements for front-end developers",
+        "https://guillaumegouessan.com/talk/move/",
+        "Web Animation Infographics",
+        "Easing functions",
+        "MDN Web Performance"
+      ],
+      "fp": [
+        "A primer on functional architecture",
+        "Functional-Light JavaScript"
       ],
       "writing": [
         "https://robertheaton.com/2018/12/06/a-blogging-style-guide",
@@ -3156,23 +3235,6 @@
         "https://www.jasondavies.com/set-partitions/",
         "https://www.jasondavies.com/necklaces/"
       ],
-      "fe": [
-        "Front-End Performance Checklist 2021",
-        "https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8",
-        "https://css-tricks.com/",
-        "https://www.smashingmagazine.com/",
-        "[RU] Doka",
-        "http://codewinds.com/blog/2016-08-16-business-logic-redux.html",
-        "Solving Circular Dependencies in Modular Redux",
-        "https://addyosmani.com/largescalejavascript/",
-        "https://iamakulov.com/",
-        "https://indepth.dev/posts/1324/the-journey-to-isomorphic-rendering-performance",
-        "Requirements for front-end developers",
-        "https://guillaumegouessan.com/talk/move/",
-        "Web Animation Infographics",
-        "Easing functions",
-        "MDN Web Performance"
-      ],
       "auth": [
         "https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc",
         "Single Sign-On"
@@ -3194,7 +3256,6 @@
         "Playphrase"
       ],
       "java": [
-        "Functional Exceptions In Java",
         "Lambda Exceptions",
         "[RU] Quirks of Stream API",
         "Optional as Return Type",
@@ -3207,7 +3268,8 @@
         "[RU] Collections",
         "JPA vs JDBC",
         "[RU] JPA Entities",
-        "https://www.marcobehler.com/guides/java-files"
+        "https://www.marcobehler.com/guides/java-files",
+        "Mindustry"
       ],
       "git": [
         "A Hacker's Guide to Git",
@@ -3228,9 +3290,17 @@
         "HTTP Specification"
       ],
       "redux": [
-        "https://redux.js.org/introduction/learning-resources",
-        "Docs",
-        "Style Guide"
+        "Make services a natural part of Redux architecture",
+        "Redux: Docs",
+        "Redux: Learning resources",
+        "Style Guide",
+        "React/Redux Links",
+        "Redux is half of a pattern",
+        "jitsi-meet",
+        "bank-client",
+        "fullstack-javascript-architecture",
+        "grafana",
+        "mattermost"
       ],
       "node-streams": [
         "Stream Handbook",
@@ -3299,7 +3369,11 @@
         "[RU] Bash-scripts"
       ],
       "game": [
-        "https://demoman.net/?a=trig-for-games"
+        "https://demoman.net/?a=trig-for-games",
+        "openscope",
+        "delaford",
+        "Mindustry",
+        "Freeablo"
       ],
       "cqrs": [
         "Command-Query Separation"
@@ -3335,10 +3409,55 @@
         "https://metanit.com/web/webgl/",
         "https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc",
         "WebGL Insights",
-        "https://telegra.ph/Poleznye-resursy-11-08"
+        "https://telegra.ph/Poleznye-resursy-11-08",
+        "deck.gl"
       ],
       "agile": [
         "One Hacker Way"
+      ],
+      "repo": [
+        "openscope",
+        "delaford",
+        "jitsi-meet",
+        "bank-client",
+        "fullstack-javascript-architecture",
+        "grafana",
+        "deck.gl",
+        "strapi",
+        "directus",
+        "mattermost",
+        "peppermint",
+        "tinacms",
+        "erxes",
+        "joust",
+        "Mindustry",
+        "Freeablo"
+      ],
+      "jquery": [
+        "openscope"
+      ],
+      "vue": [
+        "delaford",
+        "directus"
+      ],
+      "vis": [
+        "deck.gl"
+      ],
+      "koa": [
+        "strapi"
+      ],
+      "query": [
+        "peppermint"
+      ],
+      "next": [
+        "peppermint",
+        "tinacms"
+      ],
+      "apollo": [
+        "erxes"
+      ],
+      "gradle": [
+        "Mindustry"
       ]
     }
   }

@@ -3,6 +3,7 @@ import { useGetGraphQuery } from '../../notes.api'
 import { Spinner } from '@/ui'
 import { Tag } from '../Tag'
 import Link from 'next/link'
+import css from './LinkVault.module.scss'
 
 interface LinkVaultProps {
   tags: string[]
@@ -20,11 +21,11 @@ export const LinkVault: FC<LinkVaultProps> = ({ tags }) => {
   }
 
   return (
-    <div>
+    <div className={css.root}>
       <Link href="/?id=Link Vault">
         <h2>Link Vault</h2>
       </Link>
-      <div>
+      <div className={css.list}>
         {tags.map(
           (tag) =>
             tag in data.vault.tags && (

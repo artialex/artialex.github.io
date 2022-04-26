@@ -82,3 +82,10 @@ tags: [wip, dsp]
 - Bilinear transform
 - Discrete Fourier Transform
 - Fast Fourier Transform
+
+## Video streaming
+	
+- HLS, DASH Live, VOD, H.264 AAC
+- HTML5 Video element
+- Media Source Extension, Encrypted Media Extensions
+- shakaplayer, dash.js, hls.js, clappr, jwplayer
