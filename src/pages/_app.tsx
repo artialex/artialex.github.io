@@ -13,6 +13,7 @@ import { ReactRelayContext } from 'react-relay'
 
 import 'highlight.js/styles/github.css'
 import '@/ui/styles/global.css'
+import App from 'next/app'
 
 // TODO: handle md configuration better?
 configure({
@@ -44,14 +45,22 @@ configure({
  * that should spread across the application, e.g.
  * custom <Provider>'s, settings, etc...
  */
-const MyApp: FC<AppProps> = ({ Component, pageProps }) => (
+const MyApp = ({ Component, pageProps }: AppProps) => (
   <ReactRelayContext.Provider value={{ environment: getEnv() }}>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
+    {/* eslint-disable-next-line */}
     {/* @ts-ignore Waiting for fix */}
     <Component {...pageProps} />
   </ReactRelayContext.Provider>
 )
+
+MyApp.getInitialProps = async (appContext: any) => {
+  // calls page's `getInitialProps` and fills `appProps.pageProps`
+  const appProps = await App.getInitialProps(appContext)
+
+  return { ...appProps }
+}
 
 export default MyApp

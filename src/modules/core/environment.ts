@@ -4,7 +4,7 @@ import { createFetch } from './schema'
 
 let _environment: Environment
 
-// eslint-disable-line no-unused-vars
+// eslint-disable-next-line no-unused-vars
 function createEnvironment(initialRecords: any) {
   return new Environment({
     network: Network.create(createFetch as any),

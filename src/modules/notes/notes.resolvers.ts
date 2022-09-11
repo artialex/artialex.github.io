@@ -9,7 +9,7 @@ const loadGraph = (() => {
   let data: any
   return async function () {
     if (!data) {
-      data = await fetch('http://localhost:1337/graph.json').then((r) => r.json())
+      data = await fetch('/graph.json').then((r) => r.json())
     }
 
     return data as { data: any }
@@ -18,7 +18,7 @@ const loadGraph = (() => {
 
 const notes = new DataLoader(async (notes) => {
   return notes.map((id) => {
-    return fetch(`http://localhost:1337/notes/${id}.md`).then((r) => r.text().catch(() => null))
+    return fetch(`/notes/${id}.md`).then((r) => r.text().catch(() => null))
   })
 })
 

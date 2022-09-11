@@ -64,7 +64,8 @@ export function withRelay(ComposedComponent: NextPage) {
 
     return (
       <RelayEnvironmentProvider environment={environment}>
-        {/* @ts-ignore */}
+        {/*eslint-disable-next-line*/}
+        {/*@ts-ignore*/}
         <ComposedComponent {...props} />
       </RelayEnvironmentProvider>
     )

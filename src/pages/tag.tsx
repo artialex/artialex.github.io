@@ -10,7 +10,7 @@ const TagPage = () => {
     if (isReady && !query.id) {
       void replace('/tag?id=linal')
     }
-  }, [query.id])
+  }, [query.id, isReady, replace])
 
   if (!query.id) {
     return null

@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import { Processor, unified, VFileWithOutput } from 'unified'
 import React, { ReactElement } from 'react'
 import { h } from 'hastscript'
@@ -6,8 +7,10 @@ import remarkParse from 'remark-parse'
 import remarkGfm from 'remark-gfm'
 import remarkFrontmatter from 'remark-frontmatter'
 import remarkExtractFrontmatter from 'remark-extract-frontmatter'
+// eslint-disable-next-line
 // @ts-ignore
 import remarkSmartypants from '@silvenon/remark-smartypants'
+// eslint-disable-next-line
 // @ts-ignore
 import remarkWikiLink from 'remark-wiki-link'
 import remarkMath from 'remark-math'
@@ -16,6 +19,8 @@ import rehypeHighlight from 'rehype-highlight'
 import remarkRehype from 'remark-rehype'
 import remarkKatex from 'rehype-katex'
 import rehypeReact from 'rehype-react'
+import { load } from 'js-yaml'
+// eslint-disable-next-line
 // @ts-ignore
 // import remarkShortcodes from 'remark-shortcodes'
 
@@ -56,7 +61,7 @@ export function configure(options: ConfigureOptions) {
    */
   processor.use(remarkFrontmatter, [{ type: 'yaml', marker: '-' }])
   processor.use(remarkExtractFrontmatter, {
-    yaml: require('js-yaml').load,
+    yaml: load,
   })
 
   /**
@@ -218,9 +223,9 @@ export function process(str: string) {
   }
 
   if (!processor.data('inline')) {
-    str = str.replace(/\!\[\[/g, '- [[')
+    str = str.replace(/!\[\[/g, '- [[')
   } else {
-    str = str.replace(/\!\[\[(.*?)\]\]/g, (_, matched: string) => {
+    str = str.replace(/!\[\[(.*?)\]\]/g, (_, matched: string) => {
       if (matched.includes('|')) {
         const [name, alias] = matched.split('|')
 

@@ -1,27 +1,31 @@
-import { useEffect, useRef } from 'react'
+import { FC, useEffect, useRef } from 'react'
 import { annotate } from 'rough-notation'
 import { RoughAnnotation } from 'rough-notation/lib/model'
 
-export const RoughMark = (props: any) => {
-    const ref = useRef(null)
+interface Props {
+  color: string
+}
 
-    useEffect(() => {
-        let annotated: RoughAnnotation
-        if (ref.current) {
-            annotated = annotate(ref.current, {
-                type: 'underline',
-                color: `var(--${props.color}-color)`,
-                animate: false,
-                padding: -2,
-            })
+export const RoughMark: FC<Props> = (props) => {
+  const ref = useRef(null)
 
-            annotated.show()
-        }
+  useEffect(() => {
+    let annotated: RoughAnnotation
+    if (ref.current) {
+      annotated = annotate(ref.current, {
+        type: 'underline',
+        color: `var(--${props.color}-color)`,
+        animate: false,
+        padding: -2,
+      })
 
-        return () => {
-            annotated.remove()
-        }
-    }, [props.children])
+      annotated.show()
+    }
 
-    return <span ref={ref}>{props.children}</span>
+    return () => {
+      annotated.remove()
+    }
+  }, [props.children])
+
+  return <span ref={ref}>{props.children}</span>
 }

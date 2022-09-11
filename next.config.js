@@ -1,11 +1,7 @@
 const { resolve } = require('path')
-const withNextCircularDeps = require('next-circular-dependency')
-const withGraphQL = require('next-plugin-graphql')
 
 /** @type {import('next').NextConfig} */
 const config = {
-  exclude: /a\.js|node_modules/,
-
   sassOptions: {
     includePaths: ['node_modules', resolve(__dirname, 'src/modules/ui/styles')],
   },
@@ -30,8 +26,6 @@ const config = {
   compiler: {
     relay: require('./relay.config'),
   },
-
-  extends: ['plugin:@next/next/recommended'],
 }
 
-module.exports = withNextCircularDeps(config)
+module.exports = config

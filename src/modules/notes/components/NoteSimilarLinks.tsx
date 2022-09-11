@@ -70,7 +70,7 @@ export const NoteSimilarLinks: FC<Props> = ({ note }) => {
             <ul className="list-bullet pl-6">
               {tag.vaultLinks.map((link) => (
                 <li key={link.name}>
-                  <a href={link.link} className="text-pink-500" target="_blank">
+                  <a href={link.link} className="text-pink-500" target="_blank" rel="noreferrer">
                     {link.name}
                   </a>
                 </li>

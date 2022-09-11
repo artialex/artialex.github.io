@@ -1,9 +1,8 @@
-import { makeExecutableSchema } from '@graphql-tools/schema'
-import typeDefs from './schema.gql'
-
 import { graphql } from 'graphql'
+import { makeExecutableSchema } from '@graphql-tools/schema'
 import { mergeResolvers } from '@graphql-tools/merge'
 import { notesResolvers } from '@/notes/notes.resolvers'
+import typeDefs from './schema.gql'
 
 export const schema = makeExecutableSchema({
   typeDefs,

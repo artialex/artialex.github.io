@@ -7,35 +7,35 @@ import { mockResolvers } from '../services/mock-resolvers'
 const env = createMockEnvironment()
 
 interface RendererProps {
-    query: GraphQLTaggedNode
-    children: (data: any) => JSX.Element
+  query: GraphQLTaggedNode
+  children: (data: any) => any
 }
 
 const RelayRenderer = (props: RendererProps) => {
-    const data = useLazyLoadQuery<any>(props.query, {})
+  const data = useLazyLoadQuery<any>(props.query, {})
 
-    return <>{props.children(data)}</>
+  return <>{props.children(data)}</>
 }
 
 interface RelayTestContainerProps {
-    query: GraphQLTaggedNode
-    children: (data: any) => JSX.Element
+  query: GraphQLTaggedNode
+  children: (data: any) => any
 }
 
 export const RelayTestContainer = (props: RelayTestContainerProps) => {
-    useEffect(() => {
-        try {
-            env.mock.resolveMostRecentOperation((op) => MockPayloadGenerator.generate(op, mockResolvers))
-        } catch (e) {
-            // console.error(e);
-        }
-    }, [])
+  useEffect(() => {
+    try {
+      env.mock.resolveMostRecentOperation((op) => MockPayloadGenerator.generate(op, mockResolvers))
+    } catch (e) {
+      // console.error(e);
+    }
+  }, [])
 
-    return (
-        <RelayEnvironmentProvider environment={env}>
-            <Suspense fallback="Loading">
-                <RelayRenderer query={props.query}>{props.children}</RelayRenderer>
-            </Suspense>
-        </RelayEnvironmentProvider>
-    )
+  return (
+    <RelayEnvironmentProvider environment={env}>
+      <Suspense fallback="Loading">
+        <RelayRenderer query={props.query}>{props.children}</RelayRenderer>
+      </Suspense>
+    </RelayEnvironmentProvider>
+  )
 }

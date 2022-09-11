@@ -56,7 +56,7 @@ export const TagPageContent = (props: Props) => {
       <ul className="list-bullet pl-6">
         {tag.vaultLinks.map((link) => (
           <li key={link.name} className="flex">
-            <a href={link.link} className="mr-auto text-pink-500" target="_blank">
+            <a href={link.link} className="mr-auto text-pink-500" target="_blank" rel="noreferrer">
               {link.name}
             </a>
 
