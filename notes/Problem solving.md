@@ -12,7 +12,7 @@ Problem solving failure factors:
 
 Tools & techinques that help solving problems
 
-- [[Conceptual computation]]
+- Conceptual computation
 
 Problem solving success factors:
 

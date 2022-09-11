@@ -2,7 +2,7 @@
 tags: [java]
 ---
 
-# Strings
+# Java Strings
 
 - Strings are _immutable_
 - Literals can be compared with `==`

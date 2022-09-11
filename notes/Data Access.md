@@ -20,7 +20,7 @@ Java Database Connectivity (JDBC) is a specification for working with a database
 
 ## Databases
 
-[[PostgreSQL]] is a relational database and de-facto standard for a RDBMS
+PostgreSQL is a relational database and de-facto standard for a RDBMS
 
 H2 is a relational database, it allows In-memory and Disk-based tables, it can be *embedded* in the Java application, supports subset of SQL and widely used in test environments
 

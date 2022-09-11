@@ -45,13 +45,13 @@ Special numbers
 - `BigDecimal`
 - `BigEnteger`
 
-Character is half-Number-like value type
+Character is *half-Number-like* value type
 
 | Value Type | Range               | Range Bin              |
 | ---------- | ------------------- | ---------------------- |
 | `char`     | $0 \ \dots \ 65535$ | $0 \ \dots \ 2^{16}-1$ |
 
-Java has 1 referential value types: `null` or _reference_
+Java has 1 referential value types -- `null` which is also called _reference_
 
 Java has a special value type of `void`
 

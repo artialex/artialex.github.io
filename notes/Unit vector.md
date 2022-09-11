@@ -6,6 +6,6 @@ small: true
 
 # Unit vector
 
-A vector with a [[Vector magnitude|magnitude]] of 1.
+A vector with a magnitude of 1.
 
 <!-- ::vectors{type=unit-vector} -->

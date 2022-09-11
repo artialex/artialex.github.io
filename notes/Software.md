@@ -6,31 +6,31 @@ tags: [map, ignore, cs]
 
 ## Four pillars of software engineering:
 
-**Pillar #1** is [[Operating system]]
+**#1** is [[Operating system]]
 
-- [[Processes]]
-- [[Threads]]
+-   [[Processes]]
+-   [[Threads]]
 
-**Pillar #2** is [[Networking]]
+**#2** is [[Networking]]
 
-- [[OSI Model]]
+-   [[OSI Model]]
 
-**Pillar #3** is Programming Languages
+**#3** is Programming Languages
 
-- [[JavaScript]]
-- [[Java]]
-- [[C++]]
+-   [[JavaScript]]
+-   [[Java]]
+-   [[C++]]
 
-**Pillar #4** is [[Algorithms & Data Structures]]
+**#4** is [[Algorithms & Data Structures]]
 
 ## Other topics
 
-- [[Frontend]]
-- [[Data Access]]
-- [[Computer Science]]
-- [[Software architecture]]
-- [[Computer graphics]]
-- [[UML]]
+-   [[Frontend]]
+-   [[Data Access]]
+-   [[Computer Science]]
+-   [[Software architecture]]
+-   [[Computer graphics]]
+-   [[UML]]
 
 <!--
 - [[Как работает интернет?]]

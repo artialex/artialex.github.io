@@ -8,17 +8,17 @@ Basics
 
 - `Main()` method [can be omitted](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/) since C# 9
 - [[Java Collections]]
-- [[Namespaces]]
-- [[Enums (CSharp)]]
-- [[Methods (CSharp)]]
+- Namespaces
+- Enums (CSharp)
+- Methods (CSharp)
   - [[Extension methods]]
 
 Advanced
 
-- [[Structs]]
-- [[Concurrency]]
-- [[Delegates]]
-- [[LINQ]]
+- Structs
+- Concurrency
+- Delegates
+- LINQ
 
 Expert
 
@@ -26,26 +26,26 @@ Expert
 
 - [[dotNET]]
 
-- [[Strings (CSharp)]]
-- [[Common Intermediate Language]]
-- [[Common Language Runtime]]
-- [[Exception handling]]
-- [[Types (CSharp)]]
-- [[Garbage collector]]
+- Strings (CSharp)
+- Common Intermediate Language
+- Common Language Runtime
+- Exception handling
+- Types (CSharp)
+- Garbage collector
 
-- [[Interfaces (CSharp)]]
+- Interfaces (CSharp)
 
 - [[Java Collections]]
 - [[DateTime API]]
-- [[Memory model]]
-- [[Enums]]
-- [[Passing by reference and value]]
+- Memory model
+- Enums
+- Passing by reference and value
 - [[Java Collections]]
-- [[Boxing and Unboxing]]
-- [[IO]]
-- [[Optionals]]
-- [[Pattern matching]]
-- [[Collections (CSharp)]]
+- Boxing and Unboxing
+- IO
+- Optionals
+- Pattern matching
+- Collections (CSharp)
 
 **Method group** instead of _method reference_
 
@@ -75,8 +75,8 @@ Methods in C# are _final_ by default
 - Types can be derived from _base types_
 - **Common Type System** defines how types are used in the CLR
 - All the built-in numeric types are _structs_
-- [[Nullable types (CSharp)|Nullable types]] 
-- [[Type conversion (CSharp)|Type conversion]]
+- Nullable types (CSharp)
+- Type conversion (CSharp)
 
 
 All C# types are either *Reference types* or *Value types*. 

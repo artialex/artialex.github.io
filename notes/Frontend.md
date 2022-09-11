@@ -5,27 +5,28 @@ tags: [fe]
 # Frontend
 
 - [[JavaScript]]
-- [[CSS]]
+- CSS
 
 Libraries
 
 - [[Next]]
 - [[React]]
 - [[Frontend Persistence]]
-- [[Practical tasks]]
+- Practical tasks
 
 ## Practical tasks
 
 - [[Frontend architecture]]
 - [[Authentication & Authorization]]
-- [[I18n]]
-- [[Routing]]
-- [[Data Fetching]]
-- [[Web Analytics]]
-- [[Feature flags]]
+- I18n
+- Routing
+- Data Fetching
+- Web Analytics
+- Feature flags
 - [[Web Animation]]
 - [[Forms]]
-
+- [[Code splitting]]
+- Component reuse (web components, lit)
 ---
 
 - [[Deployment]]

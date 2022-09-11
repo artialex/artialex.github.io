@@ -109,14 +109,14 @@ Understanding of this basic block leads to understanding things like:
 
 ---
 
-- [[Laws & Principles]]
+- Laws & Principles
 
 ---
 
 - [Culture Eats Strategy for Breakfast](https://www.managementcentre.co.uk/big-ideas/culture-eats-strategy-for-breakfast/)
 
 
-- [[Tasks]]
+- Tasks
 
 <!--
 

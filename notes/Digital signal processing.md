@@ -15,7 +15,7 @@ tags: [wip, dsp]
 ## Discretization
 
 - [[Sampling]] is the discretization of time
-- [[Quantization]] is the discretization of amplitude
+- Quantization is the discretization of amplitude
 
 ## Transforms
 

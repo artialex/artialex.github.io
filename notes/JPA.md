@@ -131,5 +131,5 @@ JPA caches
 
 **Criteria API**
 
-- [[SQL]] -> [[JPQL]] -> [[SpEL]]
+- [[SQL]] -> JPQL -> SpEL
   Collections

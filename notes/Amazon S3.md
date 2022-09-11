@@ -1,14 +1,18 @@
+---
+tags: [devops]
+---
+
 # Amazon S3
 
 S3 stands for **S**imple **S**torage **S**ervice
 
-*Buckets* are containers for _objects_. Example: `awsexamplebucket1`
+_Buckets_ are containers for _objects_. Example: `awsexamplebucket1`
 
 - Used as a namespace
 - Used in permissions
 - Used in reports
 
-*Objects* contain object data and metadata. Example: `photos/puppy.jpg`
+_Objects_ contain object data and metadata. Example: `photos/puppy.jpg`
 
 Keys are identifiers for an _object_
 

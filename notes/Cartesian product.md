@@ -1,5 +1,5 @@
 ---
-tags: [wip]
+tags: [wip, set]
 ---
 
 # Cartesian product

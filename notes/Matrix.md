@@ -121,6 +121,6 @@ Orthogonal matrix ($M^{-1} = M^T$)
 
 ## Operations
 
-_Matrix operations_ include [[Matrix addition|addition]], [[Matrix transposition|transposition]], variuos matrix multiplications ([[Matrix · Scalar operation|Matrix · Scalar]], [[Matrix · Matrix operation|Matrix · Matrix]], [[Matrix · Vector operation|Matrix · Vector]])
+_Matrix operations_ include Matrix addition, [[Matrix transposition|transposition]], variuos matrix multiplications ([[Matrix · Scalar operation|Matrix · Scalar]], [[Matrix · Matrix operation|Matrix · Matrix]], [[Matrix · Vector operation|Matrix · Vector]])
 
 <!--* Разложение матриц -- представление матрицы в виде произведения матриц-->

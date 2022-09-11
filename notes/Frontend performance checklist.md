@@ -42,7 +42,7 @@ tags: [fe, wip]
 
 ## [[Assets optimizations]]
 
-## [[Build optimizations]]
+## Build optimizations
 
 ## Delivery
 

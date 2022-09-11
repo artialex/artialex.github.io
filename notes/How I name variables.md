@@ -59,17 +59,17 @@ Use `re` or `re<X>`, patterns for RegExps
 
 For functions use `<verb><X>` pattern (`<verb>` for general utility functions). Use `set<X>` for a function that sets a boolean variable.
 
-| 💚 Good                                  | 💔 Bad                                  |
-| :--------------------------------------- | :-------------------------------------- |
-| `getUser()`, `authorizeUser()`           | `user()`                                |
-| `formatPrice()`                          | `priceFormat()`                         |
-| `handleClick()`                          | `clickHandler()`                        |
-| `convertHexToRgb()`, `getRgb()`          | `hexToRgb()`, `toRGB()`, `rgbFromHex()` |
-| `convertBirthdateToAge()`                |                                         |
-| `ensureDataSaved()`, `saveDataIfNeeded() | `saveDataIfHaveTo()`                    |
-| `ensureChecked()`, `checkIfNeeded()`     | `checkIfExistsUnchecked()`              |
-| `isManualTemplate()`                     | `checkIfManualTemplate()`               |
-| `setVisible()`                           | `setIsVisible()`                        |
+| 💚 Good                                   | 💔 Bad                                  |
+| :---------------------------------------- | :-------------------------------------- |
+| `getUser()`, `authorizeUser()`            | `user()`                                |
+| `formatPrice()`                           | `priceFormat()`                         |
+| `handleClick()`                           | `clickHandler()`                        |
+| `convertHexToRgb()`, `getRgb()`           | `hexToRgb()`, `toRGB()`, `rgbFromHex()` |
+| `convertBirthdateToAge()`                 |                                         |
+| `ensureDataSaved()`, `saveDataIfNeeded()` | `saveDataIfHaveTo()`                    |
+| `ensureChecked()`, `checkIfNeeded()`      | `checkIfExistsUnchecked()`              |
+| `isManualTemplate()`                      | `checkIfManualTemplate()`               |
+| `setVisible()`                            | `setIsVisible()`                        |
 
 For booleans use `<verb><X>` pattern. Should be positive (not reversed like `isNotFound`). Name should be a question that can be answered with "Yes" or "No": `is<X>`, `has<X>`, `can<X>`, `should<X>`, etc.
 
@@ -231,5 +231,5 @@ No `&__element` and `&--modifier` nonsense!
 }
 ```
 
-- [[Naming @media breakpoints and ranges]]
+- *Naming @media breakpoints and ranges*
 - [[How I write unit tests|Naming in unit tests]]

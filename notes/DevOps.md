@@ -2,15 +2,12 @@
 tags: [devops, wip]
 ---
 
-Docker
-
-Kubernetes
-
-Terraform
-
-Amazon
-
 # DevOps
+
+- Docker
+- Kubernetes
+- Terraform
+- Amazon
 
 ## Terraform
 

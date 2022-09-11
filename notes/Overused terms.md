@@ -1,15 +1,15 @@
+---
+tags: [thought]
+---
+
 # Overused terms
 
-- Module
-- Component
-- Container
-- Widget
+Words like _Module_, _Component_, _Container_, _Widget_
 
-## Examples
-
-### Release
+## Release
 
 What is a release?
+
 - Event?
 - Data?
 - Artifact?
