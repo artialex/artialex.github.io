@@ -26,7 +26,7 @@ Here are some cool interactive widgets
 
 My other web resources
 
-- My [Github](https://github.com/alextheartisan)
+- My [Github](https://github.com/artialex)
 - My [Twitter](https://twitter.com/alextheartisan)
 - My [Dribble](https://dribbble.com/alextheartisan/likes) (Likes)
 - My Behance
