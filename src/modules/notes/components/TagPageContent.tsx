@@ -1,4 +1,3 @@
-import { Tag } from '../components/Tag'
 import { graphql, useLazyLoadQuery } from 'react-relay/hooks'
 import type { TagPageContentQuery } from './__generated__/TagPageContentQuery.graphql'
 import Link from 'next/link'

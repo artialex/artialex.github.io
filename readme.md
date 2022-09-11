@@ -33,7 +33,7 @@ I use [unified](https://github.com/unifiedjs/unified) to render markdown and a n
 - `develop` branch has the source code
 - `master` branch has gh-pages build (via GitHub Actions)
 
-## Other GH projects related to ZettelKasten
+## Other GH projects that help to manage ZettelKasten notes
 
 - [mdzk](https://github.com/mdzk-rs/mdzk)
 

@@ -1,6 +1,5 @@
 import { TagPageContent } from '@/notes'
 import { PageLayout } from '@/core'
-import Head from 'next/head'
 import { Suspense, useEffect } from 'react'
 import { useRouter } from 'next/router'
 

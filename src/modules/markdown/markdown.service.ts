@@ -17,7 +17,7 @@ import remarkRehype from 'remark-rehype'
 import remarkKatex from 'rehype-katex'
 import rehypeReact from 'rehype-react'
 // @ts-ignore
-import remarkShortcodes from 'remark-shortcodes'
+// import remarkShortcodes from 'remark-shortcodes'
 
 import 'katex/dist/katex.min.css'
 // import '@matejmazur/react-katex/dist/katex.min.css'
@@ -97,8 +97,8 @@ export function configure(options: ConfigureOptions) {
   processor.use(remarkDirective)
   processor.use(() => (tree) => {
     visit(tree, ['textDirective', 'leafDirective', 'containerDirective'], (node: any) => {
-      let data: any = node.data || (node.data = {})
-      let hast: any = h(node.name, node.attributes)
+      const data: any = node.data || (node.data = {})
+      const hast: any = h(node.name, node.attributes)
 
       data.hName = hast.tagName
       data.hProperties = hast.properties
@@ -222,7 +222,7 @@ export function process(str: string) {
   } else {
     str = str.replace(/\!\[\[(.*?)\]\]/g, (_, matched: string) => {
       if (matched.includes('|')) {
-        let [name, alias] = matched.split('|')
+        const [name, alias] = matched.split('|')
 
         console.log('markdown.service :: 180', name, alias)
         return `::note[${name}]{alias=${alias}}`

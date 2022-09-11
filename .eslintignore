@@ -1,2 +1,5 @@
 .eslintrc.js
 tailwind.config.js
+src/modules/x.*
+src/modules/insertions
+*.types.ts

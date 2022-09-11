@@ -30,6 +30,8 @@ const config = {
   compiler: {
     relay: require('./relay.config'),
   },
+
+  extends: ['plugin:@next/next/recommended'],
 }
 
 module.exports = withNextCircularDeps(config)
