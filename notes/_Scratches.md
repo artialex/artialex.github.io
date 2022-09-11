@@ -227,3 +227,5 @@ CEO and CTO
 https://habrahabr.ru/post/350988/
 
 https://neprivet.ru/
+
+Programmins should be applicative topic only
