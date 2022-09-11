@@ -1,6 +1,6 @@
 # My digital garden
 
-Take a look here: [alextheartisan.github.io](https://alextheartisan.github.io)
+Take a look here: [artialex.github.io](https://artialex.github.io)
 
 ## Architecture
 
