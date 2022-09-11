@@ -1,5 +1,5 @@
 ---
-tags: [java]
+tags: [java, io]
 ---
 
 # Reading and writing files in Java

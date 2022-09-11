@@ -15,11 +15,8 @@ import remarkGfm from 'remark-gfm'
  */
 export const noteDir = resolve(fileURLToPath(import.meta.url), '../../public/notes')
 
-console.log(noteDir)
-
 /**
  * Creates lightweight markdown processor
- *
  */
 export const processor = unified() //
   .use(remarkParse)

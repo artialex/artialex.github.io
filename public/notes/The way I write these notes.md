@@ -4,8 +4,8 @@ tags: [notetaking, zk]
 
 # The way I write these notes
 
-When I started to learn programming I quickly realized that the amount of
-information I have to work with is very high. So I needed a system to store
+When I started to learn programming, after some time I realized that the amount of
+information I have to work with is high. Thus I needed a system to store
 any valuable information
 
 The first idea was to save everything I needed as browser bookmarks. I thought
@@ -15,7 +15,7 @@ about [collector's fallacy](https://zettelkasten.de/posts/collectors-fallacy/)
 and when the number of bookmarks was close to 1000 I noticed that I don't use
 most of them and will never do
 
-Then I had multiple attempts to keep my notes as markdown files editing them
+Then I had several attempts to keep my notes as markdown files editing them
 in VS Code (with [MPE](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) extension) and
 syncing them via Dropbox. These attempts were somewhat convenient, but
 they lack structure and system, so they always turned out to be a pile
@@ -25,12 +25,12 @@ After that I tried Notion. I like the design but dislike its lack of speed.
 Sometimes I wanted to store some piece of information but Notion took so much
 time to launch I forgot what I wanted to do
 
-Then I used Workflowy, but the idea of having a lot of lists quickly became not handy
+Then I used Workflowy, but the idea of having a lot of lists dit not work in my case
 
 > Maybe my mindset led me the way of lists and categories instead of
 > the way of links and connections
 
-Finally, I discovered [Zettelkasten method](https://zettelkasten.de/posts/overview/) and now I think that it's the most appropriate way of writing notes for me. It has no overhead, no extra burden. It drove me back to simple markdown files and I can view them in any form I like, In the editor or web-based.
+At the end, I discovered [Zettelkasten method](https://zettelkasten.de/posts/overview/) and now I think that it's the most appropriate way of writing notes for me. It has no overhead, no extra burden. It drove me back to plain markdown files and I can view them in any form I like, In the editor or web-based.
 
 <!--
 

@@ -1,0 +1,7 @@
+schema: ./src/modules/core/schema.gql
+generates:
+  src/modules/notes/notes.types.ts:
+    plugins:
+      - typescript
+      - typescript-resolvers
+

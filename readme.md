@@ -1,20 +1,22 @@
 # My digital garden
 
-Take a look here: https://alextheartisan.github.io
+Take a look here: [alextheartisan.github.io](https://alextheartisan.github.io)
 
 ## Architecture
 
-### Markdown notes
+![](src/modules//core/docs/architecture.png)
+
+### 1. Markdown notes
 
 Notes are the _core_ of the website. I write them using [Obsidian](https://obsidian.md/). They are located inside `public/notes` folder
 
-### Helpful scripts
+### 2. Helpful scripts
 
 Convenient note scripts help to check something
 
-- `npm run graph`: Creates graph like data structure which helps with tags and moving between pages
+- `npm run preprocess`: Creates graph like data structure which helps with tags and moving between pages
 
-### Next.js application
+### 3. Next.js application
 
 With the help of `Next.js` I can create a static pages that are handled by GutHub Pages.
 I use [unified](https://github.com/unifiedjs/unified) to render markdown and a number of plugins (wiki-links, frontmatter, etc.)
@@ -24,26 +26,37 @@ I use [unified](https://github.com/unifiedjs/unified) to render markdown and a n
   - [ ] Dot product
   - [ ] Bezier curves
   - [ ] Sine & Cosine
-- Code highlighting
+- [] Code highlighting
 
 ## Notes
 
 - `develop` branch has the source code
 - `master` branch has gh-pages build (via GitHub Actions)
 
+## Other GH projects related to ZettelKasten
+
+- [mdzk](https://github.com/mdzk-rs/mdzk)
+
 ## TODO
 
-- Animation? Transitions between pages?
-- Better visuals for TODO labels
-- Linters
-  - JS/TS
-  - CSS/Sass
+- [ ] Add omnibox for searching
+- [ ] Fix code highlighting
+- [ ] Add animation & Transitions between pages?
+- [ ] Better visuals for TODO labels
+- [ ] #read tags
+- [ ] Show random note functionality
+- [ ] Linters
+  - [ ] JS/TS
   - Markdown
   - Latex?
-- Checkers
-  - English grammar
-- Compile LaTeX images? (extra tools should be installed for that)
-- LinkVault
-- Hemingway editor features?
-- icons for links like github, mdn, etc...
-- error page
+  - English prose & grammar
+- [x] LinkVault
+- [ ] Hemingway editor features?
+- [ ] Graph view
+- [ ] Andy Matuschak view (horizontal)
+- [ ] Tiddly wiki view (vertical)
+- [ ] Composed view
+- [ ] icons for links like github, mdn, etc...
+- [ ] icons for tags
+- [ ] error page
+- [ ] Why I use LaTeX?

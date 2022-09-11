@@ -40,6 +40,7 @@ export function configure(options: ConfigureOptions) {
   processor.use(remarkParse)
 
   /*
+
   processor.use(() => (tree) => {
     console.log('markdown.service :: 45', tree)
   })
@@ -87,10 +88,10 @@ export function configure(options: ConfigureOptions) {
    *   :name[content]{key=val}
    *
    * Leaf Block
-   *   :: name [content] {key=val}
+   *   ::name [content] {key=val}
    *
    * Container Block
-   *   ::: name [inline-content] {key=val}
+   *   :::name [inline-content] {key=val}
    *   :::
    */
   processor.use(remarkDirective)
@@ -104,17 +105,20 @@ export function configure(options: ConfigureOptions) {
     })
   })
 
-  /** Additional remark plugins */
+  /**
+   * Additional remark plugins
+   */
   options.remarkPlugins?.forEach((plugin) => processor?.use(plugin))
 
   processor.use(remarkRehype)
 
-  /** Additional rehype plugins */
+  /**
+   * Additional rehype plugins
+   */
   options.rehypePlugins?.forEach((plugin) => processor?.use(plugin))
 
   /**
    * Aliases for some katex expressions
-   *
    */
   processor.use(remarkKatex, {
     trust: true,

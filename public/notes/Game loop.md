@@ -19,6 +19,10 @@ while (true) {
 }
 ```
 
+## Phases
+
+- Input: 
+
 - `processInput` processes user events and actions
 - `update` processes game simulation (AI, physics, etc)
 	- Place for an *Update method* pattern

@@ -3,9 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "src/modules/*"
-      ]
+      "@/*": ["src/modules/*"]
     },
     "target": "es5",
     "allowJs": true,
@@ -19,13 +17,9 @@
     "downlevelIteration": true,
     "incremental": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": [
     "node_modules",
-    "src/modules/x.*"
+    "src/modules/x.*" // Disable experimental modules
   ]
 }

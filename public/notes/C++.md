@@ -1,3 +1,7 @@
+---
+[tags: cpp]
+---
+
 # C++
 
 Hello, world (Yes, let it be here for a while)
@@ -16,14 +20,14 @@ Symbols `<<` are overloaded operators
 Numbers
 
 - Integers
-	- `char`, `unsigned char`
-	- `short`, `unsigned short`
-	- `int`, `unsigned int`
-	- `long`, `unsigned long`
-	- `long long`, `unsigned long long`
+  - `char`, `unsigned char`
+  - `short`, `unsigned short`
+  - `int`, `unsigned int`
+  - `long`, `unsigned long`
+  - `long long`, `unsigned long long`
 - Float / Double
-	- `float`
-	- `double`
+  - `float`
+  - `double`
 
 Boolean is `bool`
 

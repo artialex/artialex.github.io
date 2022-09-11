@@ -44,7 +44,7 @@ Probability of independent events is the _product_ of their probabilities
 		- $\underbrace{1/2 \times 1/2 \times 1/2 \times \ldots \times 1/2}_{\text{10 times}} = 1/2^{10} \approx 0.097\%$
 
 
-[[Deck of cards]]
+Deck of cards
 
 
 ### 3 microservices

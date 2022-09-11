@@ -36,7 +36,7 @@ There are many _types_ of a graph such as [[Tree|tree]], [[Complete graph| compl
 
 ## Representations
 
-Graph can be _represented_ in code as [[Adjacency matrix|adjacency matrix]], [[Adjacency list|adjacency list]], [[Edge list|edge list]]
+Graph can be _represented_ in code as adjacency matrix, adjacency list, edge list
 
 ## Operations
 
@@ -100,5 +100,9 @@ graph {
 	{a b c} -- {d e}
 }
 :::
+
+
+
+https://condor.depaul.edu/ichu/csc383/notes/notes9/Graph.html
 
 -->

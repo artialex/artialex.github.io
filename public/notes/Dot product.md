@@ -5,6 +5,8 @@ aliases: [Inner product, Scalar product]
 
 # Dot product
 
+Common formula
+
 $$
 	\v \cdot \w
 	=
@@ -57,7 +59,7 @@ $$
 
 <!-- ::vectordotproduct -->
 
-### Properties
+## Properties
 
 $$
 \BA
@@ -68,11 +70,11 @@ $$
 \EA
 $$
 
-### Notes
+## Notes
 
-- Dot product can be represented as $\|\text{proj} \ \vec{x}\| \|\vec{x}\|$
-- :mark[info] Dot product shows how similar two sequences of numbers representing a vector. It lets meassure their divergence
-- :mark[info] If dot product is 0, then vectors are perpendicular
-- :mark[info] Unit vector is a vector with the magnitude of 1
-- _Analogy_. Solar panels. The energy gain depends on their relative position to the sun
-- _Analogy_. Boosting platforms in race games. Approaching them at the angle will give a lesser speed boost than going right behind them
+-   Dot product can be represented as $\|\text{proj} \ \vec{x}\| \|\vec{x}\|$
+-   :mark[info] Dot product shows how similar two sequences of numbers representing a vector. It lets meassure their divergence
+-   :mark[info] If dot product is 0, then vectors are perpendicular
+-   :mark[info] Unit vector is a vector with the magnitude of 1
+-   _Analogy_. Solar panels. The energy gain depends on their relative position to the sun
+-   _Analogy_. Boosting platforms in race games. Approaching them at the angle will give a lesser speed boost than going right behind them

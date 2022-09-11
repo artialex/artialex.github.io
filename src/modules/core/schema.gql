@@ -1,0 +1,61 @@
+schema {
+  query: Query
+}
+
+type Query {
+  note(id: String!): Note!
+  notes: [Note!]!
+  tag(id: String!): Tag!
+  tags: [Tag!]!
+  vaultLinks(tag: String): [VaultLink!]!
+}
+
+"""
+Main object in schema, contains a note
+"""
+type Note {
+  """
+  Title of the note. Also its ID. Should be unique
+  """
+  title: String!
+
+  """
+  Content of the note in pure Markdown
+  """
+  content: String!
+
+  """
+  Array of tags
+  """
+  tags: [Tag!]!
+
+  """
+  Backlinks (where this note is used)
+  """
+  backlinks: [Note!]!
+
+  """
+  Forward links (usual links)
+  """
+  links: [Note]
+}
+
+type Tag {
+  id: String!
+  prettyName: String!
+  noteCount: Int!
+  notes: [Note!]!
+  vaultLinkCount: Int!
+  vaultLinks: [VaultLink!]!
+}
+
+type VaultLink {
+  name: String!
+  link: String!
+
+  """
+  Small comment on the link
+  """
+  comment: String
+  tags: [Tag!]!
+}

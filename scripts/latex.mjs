@@ -12,7 +12,7 @@ import { exec } from 'child_process'
 
 process.chdir('./src/latex/graph')
 
-let images = [
+const images = [
   // 'oriented',
   // 'unoriented',
   // 'mixed',
@@ -23,7 +23,7 @@ let images = [
   'trie',
 ]
 
-for (let image of images) {
+for (const image of images) {
   // console.log('latex :: 21', image)
   exec(`pdflatex ./${image}.tex`, () => {
     exec(`pdftocairo ./${image}.pdf ../../../public/images/graph/${image}.svg -svg`)

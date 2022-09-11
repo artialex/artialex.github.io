@@ -10,7 +10,7 @@ $$
 
 ## [[Component, Instance & Element]]
 
-## [[Reconciliation]]
+## Reconciliation
 Reconciliation is a process of finding the diff between old node tree and new node tree
 
 $$
@@ -29,4 +29,4 @@ $$
 $$
 
 
-## [[Hooks]]
+## Hooks

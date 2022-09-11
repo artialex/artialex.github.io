@@ -24,7 +24,7 @@ tags: [cg, index]
 
 - [[Subdivision]]
   - [[Tessellation]]
-- [[Z-buffer]]
+- Z-buffer
 - [[Shaders]]
 - [[Color]]
 - [[Lights & Shadows]]
@@ -33,7 +33,7 @@ tags: [cg, index]
 ## CG API Platforms
 
 - [[OpenGL]]
-- [[WebGL]]
+- WebGL
 - Vulkan
 - Apple Metal
 - Microsoft Direct3D (DirectX component)
@@ -81,7 +81,7 @@ tags: [cg, index]
 
 - [[Linear transformations]]
 
-## [[Physics (CG)|Physics]]
+## Physics
 
 - Collision detection
 
@@ -359,8 +359,6 @@ https://csjourney.com/awesome-computer-graphics-resources/
 
 _Z-buffer_ or _depth buffer_ contains data about pixel depth
 
-
-
 # Curves & Surfaces
 
 - [[Bezier curves]]
@@ -375,15 +373,13 @@ https://people.cs.clemson.edu/~dhouse/courses/405/notes/implicit-parametric.pdf
 
 -->
 
-
-
 # Mathematics (CG)
 
-- [[Homogenous coordinates]]
-- [[ODE]]
+- Homogenous coordinates
+- ODE
 - [[Aliasing]]
-- [[Monte-Carlo integration]]
-- [[Differential equations]]
+- Monte-Carlo integration
+- Differential equations
 
 <!--
 ### [[Linear algebra]]
@@ -392,12 +388,10 @@ https://people.cs.clemson.edu/~dhouse/courses/405/notes/implicit-parametric.pdf
 - [[Cross product]]
 -->
 
-### [[Curves & Surfaces]]
+### Curves & Surfaces
 
 - [[Splines]]
 - [[Bezier curves]]
-
-
 
  <!--
 ### [[Mathematics]]

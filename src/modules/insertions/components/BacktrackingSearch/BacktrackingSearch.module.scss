@@ -1,39 +1,39 @@
 .root {
-  display: flex;
-  margin-left: 2rem;
-  gap: 2rem;
+    display: flex;
+    margin-left: 2rem;
+    gap: 2rem;
 }
 
 .table {
-  width: initial;
-  table-layout: initial;
-  border-collapse: collapse;
-  border: 2px solid #222;
-  color: black;
-  margin: 0;
+    width: initial;
+    table-layout: initial;
+    border-collapse: collapse;
+    border: 2px solid #222;
+    color: black;
+    margin: 0;
 }
 
 .table td {
-  vertical-align: middle;
-  text-align: center;
-  font-size: 32px;
-  width: 48px;
-  height: 48px;
-  border: 1px solid gray;
-  padding: 0;
-  background: white;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 32px;
+    width: 48px;
+    height: 48px;
+    border: 1px solid gray;
+    padding: 0;
+    background: white;
 }
 
 .table tr:nth-of-type(2n + 1) td:nth-of-type(2n),
 .table tr:nth-of-type(2n) td:nth-of-type(2n + 1) {
-  background-color: lightgray;
+    background-color: lightgray;
 }
 
 .controls {
-  display: flex;
-  flex-direction: column;
-  //justify-content: flex-start;
-  //text-align: left;
-  align-items: flex-start;
-  gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    //justify-content: flex-start;
+    //text-align: left;
+    align-items: flex-start;
+    gap: 1rem;
 }

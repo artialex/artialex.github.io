@@ -137,6 +137,6 @@ tags: [map, ignore, thought, scratch]
 -->
 
 
-[[Concrete examples better than abstract ones]]
+Concrete examples better than abstract ones
 
 [['I have no time' real meaning]]

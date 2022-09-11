@@ -1,12 +1,43 @@
-import 'normalize.css'
-import '@/ui/styles/global.scss'
-import type { FC } from 'react'
+import { Combinatorics, Insertion } from '@/insertions'
+import { configure } from '@/markdown'
+import { slugify } from '@/utils.platform'
+import { getEnv } from '@/relay/relay.utils'
+import { RoughMark } from '@/ui'
 import type { AppProps } from 'next/app'
-import { Provider } from 'react-redux'
+import Head from 'next/head'
+import Link from 'next/link'
+import { FC } from 'react'
+import { ReactRelayContext } from 'react-relay'
 
-import { persistor, store } from '@/core'
+// Styling
 
-import { PersistGate } from 'redux-persist/integration/react'
+import 'highlight.js/styles/github.css'
+import '@/ui/styles/global.css'
+
+// TODO: handle md configuration better?
+configure({
+  components: {
+    a: (props: any) => {
+      const isInternal = props.className?.includes
+      const href = isInternal //
+        ? `/?id=${slugify(props.href)}`
+        : props.href
+      const target = isInternal ? '_self' : '_blank'
+      const className = isInternal ? 'internal' : 'external'
+
+      return (
+        <Link href={href}>
+          <a target={target} className={className}>
+            {props.children[0]}
+          </a>
+        </Link>
+      )
+    },
+    insertion: Insertion,
+    combinatorics: Combinatorics,
+    mark: RoughMark,
+  },
+})
 
 /**
  * This file is used for global logic
@@ -14,13 +45,13 @@ import { PersistGate } from 'redux-persist/integration/react'
  * custom <Provider>'s, settings, etc...
  */
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => (
-  <Provider store={store}>
+  <ReactRelayContext.Provider value={{ environment: getEnv() }}>
+    <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </Head>
     {/* @ts-ignore Waiting for fix */}
-    <PersistGate loading={null} persistor={persistor}>
-      {/* @ts-ignore Waiting for fix */}
-      <Component {...pageProps} />
-    </PersistGate>
-  </Provider>
+    <Component {...pageProps} />
+  </ReactRelayContext.Provider>
 )
 
 export default MyApp

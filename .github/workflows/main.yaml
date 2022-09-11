@@ -27,7 +27,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run graph
+      - run: npm run preprocess
 
       - run: npm run build
 
@@ -42,7 +42,7 @@ jobs:
 
   notify:
     if: always()
-    needs: [ build ]
+    needs: [build]
     name: Send notification
     runs-on: ubuntu-18.04
     steps:
@@ -53,7 +53,7 @@ jobs:
           message: |
             ${{ github.actor }} created commit:
             Commit message: ${{ github.event.commits[0].message }}
-            
+
             Repository: ${{ github.repository }}
-            
+
             See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}

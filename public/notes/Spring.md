@@ -20,7 +20,7 @@ Notable ones:
 	- `ResponseEntity`
 - `spring-webmvc` for MVC & REST based on servlets
 - `spring-test` with testing tools
-- `spring-jdbc` for working with [[JDBC]]
+- `spring-jdbc` for working with JDBC
 - `spring-jms`
 - `spring-messaging`
 - `spring-orm` with ORM support including JPA & Hibernate

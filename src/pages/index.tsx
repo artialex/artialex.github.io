@@ -1,65 +1,34 @@
-import { FC, useEffect } from 'react'
-import { RoughMark } from '@/ui'
-import { configure } from '@/markdown'
-import Link from 'next/link'
-import { Combinatorics, Insertion } from '@/insertions'
-import { Note } from '@/notes'
-import { useRouter } from 'next/router'
-import { slugify, unslugify } from '@/platform/slug.utils'
-import Head from 'next/head'
+import { NotePageContent } from '@/notes'
+import { unslugify } from '@/utils.platform'
+import { NextPage } from 'next'
+import { Suspense, useEffect } from 'react'
 import { PageLayout } from '@/core'
+import { useRouter } from 'next/router'
+import Head from 'next/head'
 
-// todo: handle md configuration better?
-configure({
-  components: {
-    a: (props: any) => {
-      const isInternal = props.className?.includes
-      const href = isInternal ? `/?id=${slugify(props.href)}` : props.href
-      const target = isInternal ? '_self' : '_blank'
-      const className = isInternal ? 'internal' : 'external'
-
-      return (
-        <Link href={href}>
-          <a target={target} className={className}>
-            {props.children[0]}
-          </a>
-        </Link>
-      )
-    },
-    insertion: Insertion,
-    combinatorics: Combinatorics,
-    mark: RoughMark,
-  },
-})
-
-export const IndexPage: FC = () => {
-  let { query, isReady, replace } = useRouter()
+export const IndexPage: NextPage = () => {
+  const { query, isReady, replace } = useRouter()
 
   useEffect(() => {
     if (isReady && !query.id) {
-      void replace({
-        query: {
-          id: 'Hi',
-        },
-      })
+      void replace('/?id=Hi')
     }
-  }, [isReady, query.id])
+  }, [query.id])
 
   if (!query.id) {
     return null
   }
 
   return (
-    <>
+    <PageLayout>
       <Head>
-        <title>Garden {query.id && `• ${query.id}`}</title>
+        <title>{query.id && `${query.id}`}</title>
       </Head>
-
-      <PageLayout>
-        <Note id={unslugify(query.id as string)} />
-      </PageLayout>
-    </>
+      <Suspense fallback={null}>
+        <NotePageContent id={unslugify(query.id as string)} />
+      </Suspense>
+    </PageLayout>
   )
 }
 
-export default IndexPage
+export default IndexPage as NextPage<any>

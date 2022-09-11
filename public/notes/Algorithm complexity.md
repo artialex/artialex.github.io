@@ -4,7 +4,7 @@ tags: [algo]
 
 # Algorithm complexity
 
-Only a *worst case* scenario complexity makes real sense  
+Only a _worst case_ scenario complexity makes real sense.
 
 ## Time complexity
 
@@ -15,7 +15,7 @@ def calc(numbers):
 	return numbers[0]
 ```
 
-Logarithmic time: $O(\lg n) \cdot O(1) = O(\lg n)$
+Logarithmic time: $O(\log n) \cdot O(1) = O(\log n)$
 
 ```python
 def calc(numbers):
@@ -31,6 +31,8 @@ def calc(numbers):
 	for num in numbers:
 		# do smth...
 ```
+
+Super linear time: $O(n) \cdot O(\log n) = O(n \log n)$
 
 Quadratic time: $O(n) \cdot O(n) = O(n^2)$
 

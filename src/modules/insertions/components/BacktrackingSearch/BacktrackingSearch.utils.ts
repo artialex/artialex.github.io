@@ -1,4 +1,4 @@
-import { sleep } from '@/lang/promise'
+import { sleep } from '@/utils.lang/promise'
 
 export class BS<V, D> {
   constraints: Map<any, any> = new Map<any, any>()

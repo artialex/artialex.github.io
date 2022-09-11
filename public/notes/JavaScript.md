@@ -12,32 +12,56 @@ tags: [fe, js, index]
 
 Variuos [[npm]] tools that can be hepful
 
+## Closures & Scopes
+
+Reference search: LHS (created if not found), RHS (`ReferenceError` if not found), strict mode, ReferenceError, TypeError
+
+## `this`
+
+```js
+function foo() {}
+
+foo() // Default binding
+obj.foo() // Implicit binding
+foo.call() // Excplicit binding
+new foo() // new binding
+```
+
+```js
+console.log(kek) // ReferenceError
+```
+
+```js
+var foo = 'Bar'
+console.log(foo()) // TypeError
+```
+
 ## Libraries
 
-- React
-- Vue
-- Angular
-- Ember
+-   React
+-   Vue
+-   Angular
+-   Ember
 
 ## Architecture principles
 
-- Flux
+-   Flux
 
 ## Module systems
 
-- CommonJS
-- AMD
-- ES6 Modules
+-   CommonJS
+-   AMD
+-   ES6 Modules
 
 Elements
 
-- Forms
-  - How to write forms
-  - Form Data, urlencoded, etc...
+-   Forms
+    -   How to write forms
+    -   Form Data, urlencoded, etc...
 
 ## Data Fetching
 
-[[AJAX]], [[Websockets]], react-query
+AJAX, [[Websockets]], react-query
 
 ## Node
 
@@ -47,9 +71,7 @@ Elements
 
 [[Front-end performance checklist]]
 [[CSS Shorthands]]
-
 [[Next]]
-
 [[Node project cheatsheet]]
 
 - Event System

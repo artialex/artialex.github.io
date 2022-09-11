@@ -1,5 +1,5 @@
 ---
-tags: [java]
+tags: [java, fp]
 ---
 
 # Functional elements in Java

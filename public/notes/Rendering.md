@@ -23,7 +23,7 @@ Methods / techniques of rendering:
 - [[Ray casting]]
 - Radiosity (rather a light trasport technique than a rendering)
 
-Most common renderers are [[OpenGL]] and [[WebGL]]
+Most common renderers are [[OpenGL]] and WebGL
 
 <!--
 Shading – how the color and brightness of a surface varies with lighting

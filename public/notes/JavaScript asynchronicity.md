@@ -42,7 +42,7 @@ Javascript is a single threaded language. This means it has one call stack and o
 
 Blocking means that some function in a call stack is making heavy computations
 
-Event loop has two meaningful containers: the [[Call stack|call stack]] and the [[Task queue|task queue]]
+Event loop has two meaningful containers: the *call stack* and the *task queue*
 
 JavaScript performs its tasks sequentially _inside a one process_ that is called _event loop_. Event loop has a _call stack_ controlling executing of functions. The call stack is syncronous
 

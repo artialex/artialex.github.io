@@ -82,7 +82,7 @@ Contexts are the snapshots of the *system* at the particular moment (like a git 
 
 ## Stories
 
-Histories are the _chains of context changes_, their [[Streams (Management)|stream]] or their evolution
+Histories are the _chains of context changes_, their *stream* or their evolution
 
 People are communicating using stories
 
@@ -147,6 +147,6 @@ There are two sources of events on the planet
 
 ## Examples
 
-Communications are [[Streams (Management)|streams]] of [[Ideas|ideas]] between [[People|people]]
+Communications are *streams* of [[Ideas|ideas]] between *people*
 
 ---

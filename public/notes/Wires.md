@@ -5,8 +5,8 @@ tags: [networking]
 # Wires
 
 - Витая пара
-	- [[CAT-5 Cable|Кабель CAT-5]]
-	- [[RJ-45 Connector|Коннектор RJ-45]]
+	- CAT-5 Cable
+	- RJ-45 Connector
 - Оптика
 - Коаксиал (legacy)
 

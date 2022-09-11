@@ -7,19 +7,20 @@ import { FC } from 'react'
  *
  * It is rendered on the server and not re-rendered on the client
  */
-const MyDocument: FC<DocumentProps> = () => (
-  <Html>
-    <Head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="shortcut icon" href="favicons/favicon-32x32.png" />
-      <link href="https://fonts.googleapis.com/css2?family=Vollkorn" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC" rel="stylesheet" />
-    </Head>
-    <body className="light-theme">
-      <Main />
-      <NextScript />
-    </body>
-  </Html>
-)
+const MyDocument: FC<DocumentProps> = () => {
+  return (
+    <Html>
+      <Head>
+        <link rel="shortcut icon" href="favicons/favicon-32x32.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC" rel="stylesheet" />
+      </Head>
+      <body className="light-theme">
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  )
+}
 
 export default MyDocument

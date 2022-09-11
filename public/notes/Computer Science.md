@@ -6,8 +6,8 @@ tags: [wip]
 
 Some buzzwords here with no particular meaning
 
-- [[Serialization]]
-  - [[Marshalling]]
+- Serialization
+  - Marshalling
 - Streams?
 - [[Multiplexing]]
 - [[Different function types]]

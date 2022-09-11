@@ -54,7 +54,3 @@ For HTTP Apache HttpCore, HttpClient, OkHttp, Retrofit
 ## Advanced Java
 
 Advanced Java knowledge include: Compilation process (stages, representations, ...), Garbage collector (Links, Values & References), Classloader, Deployment, JAR, RPC, RMI, Security, Deployment, Unsafe, Reflection
-
----
-
-- [[Open-source applications]]

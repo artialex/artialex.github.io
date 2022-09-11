@@ -67,17 +67,17 @@ GET /notes?created_at=after:22-05-2021
 GET /notes?$filter=created_at gt '22-05-2021' and created_at lt '23-05-2021'
 ```
 
-- [[Pagination]]
-- [[Including & Excluding fields]]
+- Pagination
+- Including & Excluding fields
 
 ```js
 GET /notes?excludes=author_id
 ```
 
-- [[Data Integrity]]
-- [[Conditional requests]]
-- [[Searching]]
-- [[Diagnostics & Tracing]]
+- Data Integrity
+- Conditional requests
+- Searching
+- Diagnostics & Tracing
 
 - [[Error responses]]
 
