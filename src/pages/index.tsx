@@ -1,21 +1,24 @@
 import { NotePageContent } from '@/notes'
 import { unslugify } from '@/utils.platform'
 import { NextPage } from 'next'
-import { Suspense, useEffect } from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import { PageLayout } from '@/core'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 export const IndexPage: NextPage = () => {
-  const { asPath, route, query, isReady, replace } = useRouter()
-
-  console.log(asPath !== route)
+  const { query, isReady, replace } = useRouter()
+  const [isMounted, setMounted] = useState(false)
 
   useEffect(() => {
-    if (isReady && !query.id) {
+    if (isMounted && isReady && !query.id) {
       void replace('/?id=Hi')
     }
-  }, [isReady, query.id, replace])
+  }, [isMounted, isReady, query.id, replace])
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   if (!query.id) {
     return null
