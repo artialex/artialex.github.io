@@ -27,10 +27,16 @@ Here are some cool interactive widgets
 My other web resources
 
 - My [Github](https://github.com/artialex)
-- My [Twitter](https://twitter.com/alextheartisan)
-- My [Dribble](https://dribbble.com/alextheartisan/likes) (Likes)
-- My Behance
-- My Pinteres
 - My [Codepen](https://codepen.io/your-work?item_type=pen&grid_type=grid)
+- My [Twitter](https://twitter.com/alextheartisan)
 
-<!-- Here are some of my projects -->
+<!--
+
+Likes, Bookmarks & Collections on [Stack Overflow](https://stackoverflow.com/users/4382572/alexey-selivanov?tab=bookmarks), [Dribble](https://dribbble.com/alextheartisan/likes), Behance, Pinterest, Artstation, Itchi
+
+- [Vocabulary.com](https://www.vocabulary.com/profiles/B0HJ0T7QOW9BJS)
+- https://libreddit.spike.codes/r/pathofexile
+- https://www.troddit.com/r/pathofexile
+- https://viewtube.io/watch?v=imbIsNAvUpM
+
+-->

@@ -5,11 +5,15 @@ import _ from 'lodash'
 export type NodeId = string
 export type TagId = string
 
+const dev = process.env.NODE_ENV !== 'production'
+
+const URL = dev ? 'http://localhost:1337' : ''
+
 const loadGraph = (() => {
   let data: any
   return async function () {
     if (!data) {
-      data = await fetch('/graph.json').then((r) => r.json())
+      data = await fetch(URL + '/graph.json').then((r) => r.json())
     }
 
     return data as { data: any }
@@ -18,7 +22,7 @@ const loadGraph = (() => {
 
 const notes = new DataLoader(async (notes) => {
   return notes.map((id) => {
-    return fetch(`/notes/${id}.md`).then((r) => r.text().catch(() => null))
+    return fetch(URL + `/notes/${id}.md`).then((r) => r.text().catch(() => null))
   })
 })
 

@@ -54,4 +54,8 @@
     @apply inline-block -rotate-12 pl-1;
     content: '⤻';
   }
+
+  pre {
+    tab-size: 2;
+  }
 }

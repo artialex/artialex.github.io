@@ -1,14 +1,35 @@
 # Now
 
-Short-term
+Short-term, what I plan to research soon
 
 - Keep learning JavaScript APIs, tools, utils & quirks, including Node.js
-- Check websites in [[UI Design]]
+	- ~~Check Radash?~~
+	- Check repos using GraphQL
+	- Check Nest.js, find repos
+	- Check repos using MongoDB
+	- Check repos using auth via passport?
+	- Check repos using Next.js
 
-Long-term
+Mid-term (1-6 months)
 
+- Learn linux/unix systems better, Gnome shell extension, customize it a bit?
+- Learn basics of Blender?
+
+Long-term (6-12 months+)
+
+- Learn basics of Rust?
 - Get better with some statically-typed language, preferably Java
-- Learn Computer Graphics?
+- Further learn Computer Graphics?
 - Learn Multimedia technologies (Audio / Video / WebRTC)?
 - Learn Digital signal processing?
-- Learn linux/unix systems better
+
+<!--
+
+12 month plan for learning new things? or is it stupid?
+- CG
+- Blender
+- NLP
+- DSP
+- Rust?
+
+-->

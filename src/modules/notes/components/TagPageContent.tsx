@@ -42,6 +42,8 @@ export const TagPageContent = (props: Props) => {
       </Head>
 
       <h1 className="mt-4 mb-2 text-2xl font-medium text-orange-600">{tag.prettyName}</h1>
+      <p>From my notes</p>
+
       {/* <p className="text-lg">{tag.noteCount} notes</p> */}
       <ul className="list-bullet my-4 pl-6">
         {tag.notes.map((n) => (
@@ -53,6 +55,8 @@ export const TagPageContent = (props: Props) => {
         ))}
       </ul>
       {/* <p className="text-lg">{tag.vaultLinkCount} ext. links</p> */}
+
+      <p>From bookmarks</p>
       <ul className="list-bullet pl-6">
         {tag.vaultLinks.map((link) => (
           <li key={link.name} className="flex">
@@ -64,6 +68,8 @@ export const TagPageContent = (props: Props) => {
           </li>
         ))}
       </ul>
+
+      <p>From RSS</p>
     </main>
   )
 }

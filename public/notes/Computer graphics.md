@@ -12,6 +12,28 @@ tags: [cg, index]
 - How do rendering engines (OpenGL, DirectX) differ?
 - What rendering engines are?
 
+## [[Linear algebra]]
+
+- Vector
+- Matrix
+- [[Dot product]]
+- [[Cross product]]
+- Projection
+  - Perspective
+  - Orthogonal
+- Orientation
+  - Euler angle
+  - Quarternion
+- [[Linear transformations]]
+  - Geometry
+  - Affine space
+  - Affine transportation
+- Curves & Surfaces
+  - [[Splines]]
+    - Catmull-Rom
+    - Hermite
+    - [[Bezier curves]]
+
 ## Scene
 
 - [[What is a Mesh]]
@@ -33,7 +55,7 @@ tags: [cg, index]
 ## CG API Platforms
 
 - [[OpenGL]]
-- WebGL
+  - WebGL
 - Vulkan
 - Apple Metal
 - Microsoft Direct3D (DirectX component)
@@ -77,13 +99,40 @@ tags: [cg, index]
 
 ---
 
-## [[Linear algebra]]
-
-- [[Linear transformations]]
-
 ## Physics
 
+- Motion
+  - Linear velocity
+  - Angular velocity
+  - Force
+  - Acceleration
+  - Center of mass
+  - Moment of inertia
+- Dynamics
+  - Joints
+  - Buoyancy
+  - Restitution
+  - Friction
 - Collision detection
+  - Broad phase
+    - Spatial partitioning
+      - Sort and sweep
+      - BVH
+        - DBVT
+    - Bounding volume
+      - AABB
+      - OBB
+  - CCD
+  - Narrow phase
+    - Convexity
+      - Convex
+        - Convex hull
+      - Concave
+        - Concave decomposition
+    - Intersection
+      - SAT
+      - GJK
+      - EPA
 
 ---
 
@@ -359,18 +408,13 @@ https://csjourney.com/awesome-computer-graphics-resources/
 
 _Z-buffer_ or _depth buffer_ contains data about pixel depth
 
-# Curves & Surfaces
-
-- [[Bezier curves]]
-- [[Splines]]
-
 <!--
 
 ---
 
 https://people.cs.clemson.edu/~dhouse/courses/405/notes/splines.pdf
 https://people.cs.clemson.edu/~dhouse/courses/405/notes/implicit-parametric.pdf
-
+https://www.youtube.com/watch?v=2h5NX9tIdno
 -->
 
 # Mathematics (CG)
@@ -382,18 +426,7 @@ https://people.cs.clemson.edu/~dhouse/courses/405/notes/implicit-parametric.pdf
 - Differential equations
 
 <!--
-### [[Linear algebra]]
-- [[Vector]]
-- [[Dot product]]
-- [[Cross product]]
--->
 
-### Curves & Surfaces
-
-- [[Splines]]
-- [[Bezier curves]]
-
- <!--
 ### [[Mathematics]]
 
 * [[Linear algebra]]

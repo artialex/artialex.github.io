@@ -18,3 +18,15 @@ Resources
 - https://www.richardlord.net/ash/examples.html
 - https://github.com/lettier/3d-game-shaders-for-beginners
 - https://github.com/terkelg/awesome-creative-coding
+
+
+Languages
+
+- + Rust
+- + TypeScript
+- + GDScript
+- FSharp
+- + Python
+- ~~Clojure~~
+- ~~OCaml~~
+
