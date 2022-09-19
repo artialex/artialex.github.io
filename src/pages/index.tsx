@@ -8,19 +8,18 @@ import Head from 'next/head'
 
 export const IndexPage: NextPage = () => {
   const router = useRouter()
-  const [isMounted, setMounted] = useState(false)
 
   console.log(router.isFallback)
 
   useEffect(() => {
-    if (isMounted && router.isReady && !router.query.id) {
+    if (!router.isReady) {
+      return
+    }
+
+    if (!router.query.id) {
       void router.replace('/?id=Hi')
     }
-  }, [isMounted, router.isReady, router.query.id, router.replace])
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
+  }, [router.isReady, router.query.id, router.replace])
 
   if (!router.query.id) {
     return null
