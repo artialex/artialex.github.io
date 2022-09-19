@@ -16,6 +16,10 @@ _Limbo_ is a project for testing various approaches, basically a frankenstein
 
 _Diagrams_ for quick drawing of simple diagrams
 
+Search different websites for tech articles
+
+- Code visualizer like *madge*, *arkit*
+
 ## Technical
 
 _Generators_ is a collection of variuos shortcuts to quickly create a project, module or component, or to add prettier support, etc.

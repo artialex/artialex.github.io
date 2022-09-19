@@ -11,10 +11,10 @@ $$
 ## Subdivision schemes
 
 - Approximation
-	- Catmull-Clark subdivision
+  - Catmull-Clark subdivision
 - Interpolation
-	- Butterfly subdivision
+  - Butterfly subdivision
 
 ## Subdivision algorithms
 
-- *TODO*
+- _TODO_

@@ -1418,3 +1418,23 @@ Prose linter
 ### [Kontur.Guides](https://guides.kontur.ru)
 
 #design-system #ru
+
+### [MyJavaScript](https://my-js.org/docs/guide/intro-guide)
+
+#ru #guide 
+
+### [r/proceduralgeneration](https://www.reddit.com/r/proceduralgeneration/top/?t=all)
+
+#vis 
+
+### [How do you visualize code](https://alexanderell.is/posts/visualizing-code/)
+
+#vis
+
+### [infomate.club](https://infomate.club/)
+
+#index
+
+### [Boockstack](https://demo.bookstackapp.com/)
+
+#book #ui 

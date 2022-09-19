@@ -2652,6 +2652,43 @@
           "design-system",
           "ru"
         ]
+      },
+      "MyJavaScript": {
+        "name": "MyJavaScript",
+        "link": "https://my-js.org/docs/guide/intro-guide",
+        "tags": [
+          "ru",
+          "guide"
+        ]
+      },
+      "r/proceduralgeneration": {
+        "name": "r/proceduralgeneration",
+        "link": "https://www.reddit.com/r/proceduralgeneration/top/?t=all",
+        "tags": [
+          "vis"
+        ]
+      },
+      "How do you visualize code": {
+        "name": "How do you visualize code",
+        "link": "https://alexanderell.is/posts/visualizing-code/",
+        "tags": [
+          "vis"
+        ]
+      },
+      "infomate.club": {
+        "name": "infomate.club",
+        "link": "https://infomate.club/",
+        "tags": [
+          "index"
+        ]
+      },
+      "Boockstack": {
+        "name": "Boockstack",
+        "link": "https://demo.bookstackapp.com/",
+        "tags": [
+          "book",
+          "ui"
+        ]
       }
     },
     "tags": {
@@ -2839,7 +2876,7 @@
       "ui": {
         "id": "ui",
         "prettyName": "UI",
-        "vaultLinkCount": 39,
+        "vaultLinkCount": 40,
         "vaultLinks": [
           "Jethro's Braindump",
           "beepb00p",
@@ -2879,7 +2916,8 @@
           "Scaleway Storybook",
           "Ableton Redesign",
           "Luxe",
-          "My Note Taking moodboard @ Dribbble"
+          "My Note Taking moodboard @ Dribbble",
+          "Boockstack"
         ],
         "noteCount": 1,
         "notes": [
@@ -3040,7 +3078,7 @@
       "ru": {
         "id": "ru",
         "prettyName": "Ru",
-        "vaultLinkCount": 24,
+        "vaultLinkCount": 25,
         "vaultLinks": [
           "Ilya Birman",
           "Art.Lebedev",
@@ -3065,7 +3103,8 @@
           "SOLID Book",
           "Luhman's system",
           "WebGL Online",
-          "Kontur.Guides"
+          "Kontur.Guides",
+          "MyJavaScript"
         ],
         "noteCount": 1,
         "notes": [
@@ -3821,11 +3860,12 @@
       "book": {
         "id": "book",
         "prettyName": "Book",
-        "vaultLinkCount": 3,
+        "vaultLinkCount": 4,
         "vaultLinks": [
           "An Introduction to libuv",
           "Mixu's Node book",
-          "Eloquent JavaScript"
+          "Eloquent JavaScript",
+          "Boockstack"
         ]
       },
       "logging": {
@@ -4206,9 +4246,11 @@
       "vis": {
         "id": "vis",
         "prettyName": "Vis",
-        "vaultLinkCount": 1,
+        "vaultLinkCount": 3,
         "vaultLinks": [
-          "deck.gl"
+          "deck.gl",
+          "r/proceduralgeneration",
+          "How do you visualize code"
         ]
       },
       "koa": {
@@ -4466,6 +4508,27 @@
           "CPP MidiEditor"
         ]
       },
+      "guide": {
+        "id": "guide",
+        "prettyName": "Guides",
+        "vaultLinkCount": 1,
+        "vaultLinks": [
+          "MyJavaScript"
+        ],
+        "noteCount": 10,
+        "notes": [
+          "Common Sense Style Guide",
+          "How I create a CI pipeline",
+          "How I name files",
+          "How I name projects",
+          "How I name variables",
+          "How I write frontend",
+          "How I write guides",
+          "How I write unit tests",
+          "How I write useful notes",
+          "Tips for beginner programmers"
+        ]
+      },
       "devops": {
         "id": "devops",
         "prettyName": "DevOps",
@@ -4537,23 +4600,6 @@
           "Patterns",
           "Software",
           "Thoughts & Scratches"
-        ]
-      },
-      "guide": {
-        "id": "guide",
-        "prettyName": "Guides",
-        "noteCount": 10,
-        "notes": [
-          "Common Sense Style Guide",
-          "How I create a CI pipeline",
-          "How I name files",
-          "How I name projects",
-          "How I name variables",
-          "How I write frontend",
-          "How I write guides",
-          "How I write unit tests",
-          "How I write useful notes",
-          "Tips for beginner programmers"
         ]
       },
       "spring": {
@@ -5090,6 +5136,59 @@
           "Software"
         ]
       },
+      "Linear algebra": {
+        "backlinks": [
+          "Computer graphics",
+          "Mathematics"
+        ],
+        "title": "Linear algebra",
+        "tags": [
+          "linal"
+        ]
+      },
+      "Dot product": {
+        "backlinks": [
+          "Computer graphics",
+          "Matrix · Matrix operation",
+          "Notable Pages",
+          "Triple product"
+        ],
+        "title": "Dot product",
+        "tags": [
+          "linal"
+        ]
+      },
+      "Cross product": {
+        "backlinks": [
+          "Computer graphics",
+          "Triple product",
+          "Vector & Matrix Operations"
+        ],
+        "title": "Cross product",
+        "tags": [
+          "linal"
+        ]
+      },
+      "Linear transformations": {
+        "backlinks": [
+          "Computer graphics",
+          "Linear algebra"
+        ],
+        "title": "Linear transformations",
+        "tags": [
+          "linal"
+        ]
+      },
+      "Splines": {
+        "backlinks": [
+          "Computer graphics"
+        ],
+        "title": "Splines",
+        "tags": [
+          "cg",
+          "curves"
+        ]
+      },
       "What is a Mesh": {
         "backlinks": [
           "Computer graphics"
@@ -5195,41 +5294,11 @@
           "cg"
         ]
       },
-      "Linear algebra": {
-        "backlinks": [
-          "Computer graphics",
-          "Mathematics"
-        ],
-        "title": "Linear algebra",
-        "tags": [
-          "linal"
-        ]
-      },
-      "Linear transformations": {
-        "backlinks": [
-          "Computer graphics",
-          "Linear algebra"
-        ],
-        "title": "Linear transformations",
-        "tags": [
-          "linal"
-        ]
-      },
       "How to start learning computer graphics programming": {
         "backlinks": [
           "Computer graphics"
         ],
         "title": "How to start learning computer graphics programming"
-      },
-      "Splines": {
-        "backlinks": [
-          "Computer graphics"
-        ],
-        "title": "Splines",
-        "tags": [
-          "cg",
-          "curves"
-        ]
       },
       "Cool graphs": {
         "title": "Cool graphs",
@@ -5244,16 +5313,6 @@
         ],
         "backlinks": [
           "Linear algebra"
-        ]
-      },
-      "Cross product": {
-        "title": "Cross product",
-        "tags": [
-          "linal"
-        ],
-        "backlinks": [
-          "Triple product",
-          "Vector & Matrix Operations"
         ]
       },
       "Unit vector": {
@@ -5402,17 +5461,6 @@
         "title": "Directory structure",
         "tags": [
           "file-structure"
-        ]
-      },
-      "Dot product": {
-        "title": "Dot product",
-        "tags": [
-          "linal"
-        ],
-        "backlinks": [
-          "Matrix · Matrix operation",
-          "Notable Pages",
-          "Triple product"
         ]
       },
       "Matrix · Matrix operation": {
@@ -5802,8 +5850,7 @@
       },
       "UI Design": {
         "backlinks": [
-          "Hi",
-          "Now"
+          "Hi"
         ],
         "title": "UI Design",
         "tags": [
@@ -6624,6 +6671,9 @@
         "backlinks": [
           "Vector & Matrix Operations"
         ]
+      },
+      "TypeScript": {
+        "title": "TypeScript"
       },
       "Vector · Scalar operation": {
         "backlinks": [
