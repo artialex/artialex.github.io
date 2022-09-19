@@ -7,9 +7,9 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 export const IndexPage: NextPage = () => {
-  const { query, isReady, replace } = useRouter()
+  const { asPath, route, query, isReady, replace } = useRouter()
 
-  console.log(query, isReady)
+  console.log(asPath !== route)
 
   useEffect(() => {
     if (isReady && !query.id) {
