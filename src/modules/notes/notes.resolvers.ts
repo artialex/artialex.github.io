@@ -7,7 +7,7 @@ export type TagId = string
 
 const dev = process.env.NODE_ENV !== 'production'
 
-const URL = dev ? 'http://localhost:1337' : 'https:/artialex.github.io'
+const URL = dev ? 'http://localhost:1337' : 'https://artialex.github.io'
 
 const loadGraph = (() => {
   let data: any
