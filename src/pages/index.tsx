@@ -15,7 +15,7 @@ export const IndexPage: NextPage = () => {
     if (isReady && !query.id) {
       void replace('/?id=Hi')
     }
-  }, [])
+  }, [isReady, query.id, replace])
 
   if (!query.id) {
     return null
