@@ -9,6 +9,8 @@ import Head from 'next/head'
 export const IndexPage: NextPage = () => {
   const { query, isReady, replace } = useRouter()
 
+  console.log(query, isReady)
+
   useEffect(() => {
     if (isReady && !query.id) {
       void replace('/?id=Hi')
