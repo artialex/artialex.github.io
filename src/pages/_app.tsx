@@ -6,14 +6,12 @@ import { RoughMark } from '@/ui'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Link from 'next/link'
-import { FC } from 'react'
 import { ReactRelayContext } from 'react-relay'
 
 // Styling
 
 import 'highlight.js/styles/github.css'
 import '@/ui/styles/global.css'
-import App from 'next/app'
 
 // TODO: handle md configuration better?
 configure({
@@ -55,12 +53,5 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
     <Component {...pageProps} />
   </ReactRelayContext.Provider>
 )
-
-MyApp.getInitialProps = async (appContext: any) => {
-  // calls page's `getInitialProps` and fills `appProps.pageProps`
-  const appProps = await App.getInitialProps(appContext)
-
-  return { ...appProps }
-}
 
 export default MyApp

@@ -1,7 +1,7 @@
 import { NotePageContent } from '@/notes'
 import { unslugify } from '@/utils.platform'
 import { NextPage } from 'next'
-import { Suspense, useEffect, useState } from 'react'
+import { Suspense, useEffect } from 'react'
 import { PageLayout } from '@/core'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
