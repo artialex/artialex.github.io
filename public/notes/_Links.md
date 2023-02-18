@@ -1,53 +1,3 @@
-# Links
-
-### [Jethro's Braindump](https://braindump.jethro.dev)
-
-#networking #uml #ds #algo #linal #notetaking #db #zk #ui
-
-Lot of stuff
-
-### [Sean Fish exobrain](https://exobrain.sean.fish)
-
-#programming #web #python #zk
-
-### [beepb00p](https://beepb00p.xyz)
-
-#zk #ui
-
-Neat articles
-
-### [Alexey Shmalko](https://www.alexeyshmalko.com)
-
-#programming #zk #ui
-
-### [Andy Matuschak](https://notes.andymatuschak.org)
-
-#zk
-
-Most influential ZK
-
-### [Gwern Branwen](https://www.gwern.net)
-
-#zk #ui #tufte
-
-Nice visuals
-
-### [Brendan Schlagel](https://www.brendanschlagel.com)
-
-#ui
-
-Concept of personal canon
-
-### [Joshua's garden](https://joschuasgarden.com)
-
-#zk
-
-Uses Dewie system
-
-### [Alexis Rondeau](https://publish.obsidian.md/alexisrondeau)
-
-#zk
-
 ### [Mister Chad](https://mister-chad.com/welcome)
 
 #graphic design
@@ -344,10 +294,6 @@ kafka
 
 #blog
 
-### [Kamyshev](https://kamyshev.me)
-
-#fe #blog
-
 ### [Julio Biason](https://blog.juliobiason.me/thoughts/things-i-learnt-the-hard-way)
 
 #blog
@@ -372,10 +318,6 @@ kafka
 
 #learning #writing
 
-### [Learn CSS Grid](https://learncssgrid.com)
-
-#css
-
 ### [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
 
 #css
@@ -399,62 +341,6 @@ kafka
 ### [Some cool Graph game](http://pulzed.com/demo/tronix2)
 
 #graph
-
-### [Maths is Fun](https://www.mathsisfun.com)
-
-#math
-
-### [The Map of Mathematics](https://www.youtube.com/watch?v=OmJ-4B-mS-Y)
-
-#math #video
-
-### [College Algebra](https://www.youtube.com/watch?v=LwCRRUa8yTU/list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v)
-
-#math #video
-
-### [Maths for Programmers](https://www.youtube.com/watch?v=2SpuBqvNjHI)
-
-#math #video
-
-### [Linear Algebra PDF](http://joshua.smcvt.edu/linearalgebra/book.pdf)
-
-#linal
-
-### [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila)
-
-#linal
-
-### [Immersive Linear Algebra](http://immersivemath.com/ila/index.html)
-
-#linal
-
-### [The Applications of Matrices](https://www.youtube.com/watch?v=rowWM-MijXU)
-
-#linal #video
-
-### [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-
-#linal #video
-
-### [An Intuitive Guide to Linear Algebra](https://betterexplained.com/articles/linear-algebra-guide)
-
-#linal
-
-### [Linear Algebra](https://gabrielgambetta.com/computer-graphics-from-scratch/A0-linear-algebra.htm)
-
-#linal
-
-### [Teach Yourself Computer Science](https://teachyourselfcs.com)
-
-#cs
-
-### ['A Self-Learning, Modern Computer Science Curriculum'](https://functionalcs.github.io/curriculum)
-
-#cs
-
-### [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know)
-
-#cs
 
 ### [Programming - Introduction](http://stolyarov.info/i2.html)
 
@@ -492,10 +378,6 @@ kafka
 
 #algo #complexity
 
-### [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-
-#algo
-
 ### [Data Structures Easy to Advanced Course](https://www.youtube.com/watch?v=RBSGKlAvoiM/list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC)
 
 #algo #video
@@ -508,21 +390,6 @@ kafka
 
 #algo #complexity
 
-### [Asymptotic Notation](https://roadmap.sh/guides/asymptotic-notation)
-
-#algo #complexity
-
-### [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms)
-
-#algo
-
-### [Red Blob Games](https://www.redblobgames.com)
-
-#algo
-
-Visual explanations of math and algorithms, using motivating examples from
-computer games
-
 ### [Algorithms and Data Structures in JavaScript](https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md)
 
 #algo #js #ds #ru
@@ -534,14 +401,6 @@ computer games
 ### [Front-End Performance Checklist 2021](https://www.dropbox.com/s/34noajrbm324iai/performance-checklist-1.4.pdf?dl=0)
 
 #fe
-
-### ['Auth, Tokens, and JWT'](https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc)
-
-#auth #jwt
-
-### [Single Sign-On](https://roadmap.sh/guides/sso)
-
-#auth
 
 ### [Backtracking-Search](ttp://www.cs.toronto.edu/~hojjat/384w09/Lectures/Lecture-04-Backtracking-Search.pdf)
 
@@ -590,30 +449,6 @@ computer games
 ### [DSP Theory](https://github.com/capitanov/dsp-theory)
 
 #dsp #ru
-
-### [Vocabulary.com](https://www.vocabulary.com/play)
-
-#eng
-
-nice dictionary
-
-### [Reverso](https://www.reverso.net)
-
-#eng
-
-nice translator, with context and synonyms
-
-### [Playphrase](https://playphrase.me)
-
-#eng
-
-find the phrase on youtube
-
-### [Youglish](https://youglish.com)
-
-#eng
-
-find the phrase on youtube
 
 ### [Lambda Exceptions](https://www.baeldung.com/java-lambda-exceptions)
 
@@ -683,14 +518,6 @@ find the phrase on youtube
 
 #git
 
-### [Git Immersion](https://gitimmersion.com/lab_09.html)
-
-#git
-
-### [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)
-
-#git
-
 ### [Hibernate Introduction](https://www.youtube.com/watch?v=C-wEZjEOhWc)
 
 #java #hibernate
@@ -739,13 +566,9 @@ find the phrase on youtube
 
 #js
 
-### [Make services a natural part of Redux architecture](https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961)
+### []()
 
 #js #redux #architecture
-
-### [Redux - Docs](https://redux.js.org)
-
-#js #redux
 
 ### [Redux - Learning resources](https://redux.js.org/introduction/learning-resources)
 
@@ -765,19 +588,7 @@ find the phrase on youtube
 
 ### [Books by Dr. Axel Rauschmayer](https://exploringjs.com)
 
-#js
-
-### [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS)
-
-#js #fp
-
-### [LargeScaleJS](http://largescalejs.ru)
-
 #js #architecture #ru
-
-### [Guide to FP in JS](https://github.com/MostlyAdequate/mostly-adequate-guide)
-
-#js #fp
 
 ### [the-node-way](https://github.com/FredKSchott/the-node-way)
 
@@ -795,25 +606,9 @@ find the phrase on youtube
 
 #js #node
 
-### [Metaprogramming in ES6 Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols)
-
-#js
-
-### [Ecmascript Language Types](https://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types)
-
-#js
-
-### [Javascript Garden](http://shamansir.github.io/JavaScript-Garden)
-
-#js
-
 ### [MDN](https://developer.mozilla.org/en-US)
 
 #js
-
-### [Eloquent JavaScript](http://eloquentjavascript.net)
-
-#js #book
 
 ### [NodeJS logging made right](https://itnext.io/nodejs-logging-made-right-117a19e8b4ce)
 
@@ -1003,22 +798,6 @@ find the phrase on youtube
 
 #cg
 
-### [Understanding the graphics pipeline](https://www.seas.upenn.edu/~cis565/LECTURES/Lecture2%20New/pdf)
-
-#cg
-
-### [What is REST](https://restfulapi.net)
-
-#rest
-
-### [Guide to Spring Boot REST API Error Handling](https://www.toptal.com/java/spring-boot-rest-api-error-handling)
-
-#rest #spring-boot
-
-### ['JSON:API'](https://jsonapi.org)
-
-#rest
-
 ### [Design Guidelines](http://apistylebook.com/design/guidelines)
 
 #rest
@@ -1027,45 +806,9 @@ find the phrase on youtube
 
 #rest
 
-### [The Book of Shaders](https://thebookofshaders.com)
-
-#cg #shaders
-
-### [Shadertoy](https://www.shadertoy.com)
-
-#cg #shaders
-
-### [3D Game Shaders For Beginners](https://github.com/lettier/3d-game-shaders-for-beginners)
-
-#cg #shaders
-
 ### [Bash-scripts](https://habr.com/ru/company/ruvds/blog/325522)
 
 #shell #ru
-
-### [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
-
-#architecture
-
-### [Application Architecture Guide 2.0](https://archive.codeplex.com/?p=AppArchGuide)
-
-#architecture
-
-### ['FPB, Software Architecture'](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#software-architecture)
-
-#architecture
-
-### [Command-Query Separation](https://martinfowler.com/bliki/CommandQuerySeparation.html)
-
-#architecture #cqrs
-
-### [SOLID Book](https://ota-solid.vercel.app)
-
-#architecture #solid #ru
-
-### [Welcome to the world of Statecharts](https://statecharts.dev)
-
-#patterns
 
 ### [Stanford](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/10_Subdivision.pd)
 
@@ -1083,42 +826,6 @@ find the phrase on youtube
 
 #notetaking #zk #ru
 
-### [Acronyms Seriously Suck](https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764)
-
-#thought
-
-### [No hello](https://nohello.net)
-
-#thought
-
-### [XY problem](http://xyproblem.info)
-
-#thought
-
-### [Don't ask to ask](https://dontasktoask.com)
-
-#thought
-
-### [Is TLS fast yet?](https://istlsfastyet.com)
-
-#networking
-
-### [The Illustrated TLS Connection](https://tls.ulfheim.net)
-
-#networking
-
-### [SSL vs TLS vs SSH](https://roadmap.sh/guides/ssl-tls-https-ssh)
-
-#networking
-
-### [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix)
-
-#unix
-
-### [An Introduction to the Command-Line (on Unix-like systems)](http://oliverelliott.org/article/computing/tut_unix)
-
-#unix
-
 ### [Making Things Move](https://guillaumegouessan.com/talk/move)
 
 #fe #animation
@@ -1126,10 +833,6 @@ find the phrase on youtube
 ### [Web Animation Infographics](https://www.awwwards.com/web-animation-infographics-a-map-of-the-best-animation-libraries-for-javascript-and-css3-plus-performance-tips.html)
 
 #fe #animation
-
-### [Easing functions](https://easings.net)
-
-#fe,animation
 
 ### [MDN Web Performance](https://developer.mozilla.org/en-US/docs/Web/Performance)
 
@@ -1154,10 +857,6 @@ find the phrase on youtube
 ### [WebGL Resources](https://telegra.ph/Poleznye-resursy-11-08)
 
 #cg #webgl
-
-### [One Hacker Way](https://youtu.be/2u0sNRO-QKQ?t=696)
-
-#agile
 
 ### [openscope](https://github.dev/openscope/openscope)
 
@@ -1211,23 +910,11 @@ find the phrase on youtube
 
 #repo #react #apollo
 
-### [joust](https://github.dev/HearthSim/Joust)
+### [joust](https://github.com/HearthSim/Joust)
 
 #repo #react
 
-### [Mindustry](https://github.dev/Anuken/Mindustry)
-
-#repo #game #java #gradle
-
-### [Freeablo](https://freeablo.org)
-
-#repo #cg #game
-
 ### [Bordio](https://bordio.com)
-
-#ui
-
-### [Targetprocess](https://dev.targetprocess.com)
 
 #ui
 
@@ -1277,26 +964,6 @@ Nice UI
 
 #storybook #ui
 
-### [Orbit Storybook](https://orbit.sharegate.design)
-
-#storybook
-
-### [Carbon Storybook](https://react.carbondesignsystem.com)
-
-#storybook
-
-### [Artsy / Force](https://github.dev/artsy/force)
-
-#repo #react #graphql #relay
-
-### [tldraw](https://github.dev/tldraw/tldraw)
-
-#repo #canvas #react #monorepo
-
-### [Excalidraw](https://github.dev/excalidraw/excalidraw)
-
-#repo #canvas #react
-
 ### [Grafana](https://github.dev/grafana/grafana)
 
 #repo #react #monorepo
@@ -1304,10 +971,6 @@ Nice UI
 ### [Erxes](https://github.dev/erxes/erxes)
 
 #repo #react #styled-components #monorepo
-
-### [CoralProject](https://github.dev/coralproject/talk)
-
-#repo #react #graphql #relay
 
 ### [Spectrum.chat](https://github.dev/withspectrum/spectrum)
 
@@ -1321,10 +984,6 @@ Nice UI
 
 #repo #react #nestjs
 
-### [Anuken / Mindustry](https://github.dev/Anuken/Mindustry)
-
-#repo #game #java
-
 ### [BrowserQuest](https://github.dev/mozilla/BrowserQuest)
 
 #repo #game #js #multiplayer
@@ -1332,14 +991,6 @@ Nice UI
 ### [Glide](https://github.dev/cocoatoucher/Glide)
 
 #repo #game-engine #swift
-
-### [Tiled editor](https://www.mapeditor.org)
-
-#game #tool
-
-### [LDTK](https://ldtk.io/api)
-
-#repo #game #haxe #tool
 
 ### [Embark Studios](https://www.embark-studios.com)
 
@@ -1349,25 +1000,9 @@ Nice UI
 
 #repo #game-engine #js #pixi
 
-### [Pixi](https://pixijs.com)
-
-#pixi #cg #js
-
-### [LibGDX](https://libgdx.com)
-
-#repo #java
-
 ### [Ange Yaghi](https://github.com/ange-yaghi)
 
 #repo #cpp
-
-### [Frontend Case Studies](https://github.com/andrew--r/frontend-case-studies)
-
-#read #fe
-
-### [Shapez.io](https://github.com/tobspr/shapez.io)
-
-#repo #game
 
 ### [Scaleway Gihub](https://github.com/scaleway)
 
@@ -1377,19 +1012,9 @@ Nice UI
 
 #repo
 
-### [Vale](https://vale.sh)
-
-#tool
-
-Prose linter
-
 ### [Jitsi Meet](https://github.com/jitsi/jitsi-meet)
 
 #repo #react #webrtc
-
-### [A guide to unit testing in JavaScript](https://github.com/mawrkus/js-unit-testing-guide#-use-dependency-injection)
-
-#testing
 
 ### [Mnemonist](https://yomguithereal.github.io/mnemonist)
 
@@ -1406,35 +1031,3 @@ Prose linter
 ### [My Note Taking moodboard @ Dribbble](https://dribbble.com/alextheartisan/collections/5877426-Note-taking)
 
 #ui
-
-### [Gridsound](https://github.com/gridsound)
-
-#repo #midi
-
-### [CPP MidiEditor](https://github.dev/markusschwenk/midieditor)
-
-#repo #cpp #midi
-
-### [Kontur.Guides](https://guides.kontur.ru)
-
-#design-system #ru
-
-### [MyJavaScript](https://my-js.org/docs/guide/intro-guide)
-
-#ru #guide 
-
-### [r/proceduralgeneration](https://www.reddit.com/r/proceduralgeneration/top/?t=all)
-
-#vis 
-
-### [How do you visualize code](https://alexanderell.is/posts/visualizing-code/)
-
-#vis
-
-### [infomate.club](https://infomate.club/)
-
-#index
-
-### [Boockstack](https://demo.bookstackapp.com/)
-
-#book #ui 

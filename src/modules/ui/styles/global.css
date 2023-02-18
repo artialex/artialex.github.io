@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --red-color: #ef4444;
+    --yellow-color: #eab308;
+    --green-color: #22c55e;
+    --blue-color: #3b82f6;
+
+    --orange-color: #f97316;
+    --cyan-color: #06b6d4;
+    --magenta-color: #d946ef;
+    --violet-color: #8b5cf6;
+  }
+
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+  }
+}
+
 @layer components {
   .list-bullet > li {
     position: relative;
@@ -17,7 +38,6 @@
   }
 
   /* TODO: where to put this? */
-
   .note h1 {
     @apply mt-4 mb-2 text-2xl font-medium;
   }

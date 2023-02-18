@@ -1,1 +1,0 @@
-export { Combinatorics } from './Combinatorics'

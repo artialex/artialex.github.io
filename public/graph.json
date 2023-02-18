@@ -2652,6 +2652,43 @@
           "design-system",
           "ru"
         ]
+      },
+      "MyJavaScript": {
+        "name": "MyJavaScript",
+        "link": "https://my-js.org/docs/guide/intro-guide",
+        "tags": [
+          "ru",
+          "guide"
+        ]
+      },
+      "r/proceduralgeneration": {
+        "name": "r/proceduralgeneration",
+        "link": "https://www.reddit.com/r/proceduralgeneration/top/?t=all",
+        "tags": [
+          "vis"
+        ]
+      },
+      "How do you visualize code": {
+        "name": "How do you visualize code",
+        "link": "https://alexanderell.is/posts/visualizing-code/",
+        "tags": [
+          "vis"
+        ]
+      },
+      "infomate.club": {
+        "name": "infomate.club",
+        "link": "https://infomate.club/",
+        "tags": [
+          "index"
+        ]
+      },
+      "Boockstack": {
+        "name": "Boockstack",
+        "link": "https://demo.bookstackapp.com/",
+        "tags": [
+          "book",
+          "ui"
+        ]
       }
     },
     "tags": {
@@ -2739,8 +2776,8 @@
         "notes": [
           "Algorithm complexity",
           "Algorithms & Data Structures",
-          "BFS",
           "Backtracking search",
+          "BFS",
           "DFS",
           "How to solve algorithmic tasks",
           "Sorting algorithms"
@@ -2839,7 +2876,7 @@
       "ui": {
         "id": "ui",
         "prettyName": "UI",
-        "vaultLinkCount": 39,
+        "vaultLinkCount": 40,
         "vaultLinks": [
           "Jethro's Braindump",
           "beepb00p",
@@ -2879,7 +2916,8 @@
           "Scaleway Storybook",
           "Ableton Redesign",
           "Luxe",
-          "My Note Taking moodboard @ Dribbble"
+          "My Note Taking moodboard @ Dribbble",
+          "Boockstack"
         ],
         "noteCount": 1,
         "notes": [
@@ -3040,7 +3078,7 @@
       "ru": {
         "id": "ru",
         "prettyName": "Ru",
-        "vaultLinkCount": 24,
+        "vaultLinkCount": 25,
         "vaultLinks": [
           "Ilya Birman",
           "Art.Lebedev",
@@ -3065,7 +3103,8 @@
           "SOLID Book",
           "Luhman's system",
           "WebGL Online",
-          "Kontur.Guides"
+          "Kontur.Guides",
+          "MyJavaScript"
         ],
         "noteCount": 1,
         "notes": [
@@ -3253,8 +3292,8 @@
           "JavaScript asynchronicity",
           "JavaScript",
           "Node Streams",
-          "React",
-          "npm"
+          "npm",
+          "React"
         ]
       },
       "compression": {
@@ -3361,9 +3400,9 @@
           "Notes on DDD",
           "Project structure",
           "REST API",
-          "SOLID",
           "Screaming Architecture",
-          "Software Architecture"
+          "Software Architecture",
+          "SOLID"
         ]
       },
       "fe": {
@@ -3395,19 +3434,19 @@
           "Deployment",
           "Forms",
           "Frontend Architecture",
-          "Frontend Persistence",
           "Frontend performance checklist",
+          "Frontend Persistence",
           "Frontend",
+          "How browser works",
           "How I write frontend",
           "How I write unit tests",
-          "How browser works",
           "JavaScript asynchronicity",
           "JavaScript",
+          "npm",
           "React",
           "Web Animation",
           "Web Performance",
-          "Windows & IFrames",
-          "npm"
+          "Windows & IFrames"
         ]
       },
       "fp": {
@@ -3670,7 +3709,6 @@
           "Exceptions",
           "Functional elements in Java",
           "Hibernate",
-          "JPA",
           "Java API",
           "Java Arrays",
           "Java Collections",
@@ -3678,6 +3716,7 @@
           "Java Objects",
           "Java Strings",
           "Java",
+          "JPA",
           "Reading and writing files in Java",
           "Values & Value Types"
         ]
@@ -3821,11 +3860,12 @@
       "book": {
         "id": "book",
         "prettyName": "Book",
-        "vaultLinkCount": 3,
+        "vaultLinkCount": 4,
         "vaultLinks": [
           "An Introduction to libuv",
           "Mixu's Node book",
-          "Eloquent JavaScript"
+          "Eloquent JavaScript",
+          "Boockstack"
         ]
       },
       "logging": {
@@ -4206,9 +4246,11 @@
       "vis": {
         "id": "vis",
         "prettyName": "Vis",
-        "vaultLinkCount": 1,
+        "vaultLinkCount": 3,
         "vaultLinks": [
-          "deck.gl"
+          "deck.gl",
+          "r/proceduralgeneration",
+          "How do you visualize code"
         ]
       },
       "koa": {
@@ -4466,6 +4508,27 @@
           "CPP MidiEditor"
         ]
       },
+      "guide": {
+        "id": "guide",
+        "prettyName": "Guides",
+        "vaultLinkCount": 1,
+        "vaultLinks": [
+          "MyJavaScript"
+        ],
+        "noteCount": 10,
+        "notes": [
+          "Common Sense Style Guide",
+          "How I create a CI pipeline",
+          "How I name files",
+          "How I name projects",
+          "How I name variables",
+          "How I write frontend",
+          "How I write guides",
+          "How I write unit tests",
+          "How I write useful notes",
+          "Tips for beginner programmers"
+        ]
+      },
       "devops": {
         "id": "devops",
         "prettyName": "DevOps",
@@ -4494,17 +4557,6 @@
         "notes": [
           "Bezier curves",
           "Splines"
-        ]
-      },
-      "csharp": {
-        "id": "csharp",
-        "prettyName": "CSharp",
-        "noteCount": 4,
-        "notes": [
-          "CSharp",
-          "Entity framework",
-          "Extension methods",
-          "dotNET"
         ]
       },
       "orphan": {
@@ -4539,21 +4591,15 @@
           "Thoughts & Scratches"
         ]
       },
-      "guide": {
-        "id": "guide",
-        "prettyName": "Guides",
-        "noteCount": 10,
+      "csharp": {
+        "id": "csharp",
+        "prettyName": "CSharp",
+        "noteCount": 4,
         "notes": [
-          "Common Sense Style Guide",
-          "How I create a CI pipeline",
-          "How I name files",
-          "How I name projects",
-          "How I name variables",
-          "How I write frontend",
-          "How I write guides",
-          "How I write unit tests",
-          "How I write useful notes",
-          "Tips for beginner programmers"
+          "CSharp",
+          "dotNET",
+          "Entity framework",
+          "Extension methods"
         ]
       },
       "spring": {
@@ -4832,17 +4878,6 @@
           "Frontend"
         ]
       },
-      "BFS": {
-        "title": "BFS",
-        "tags": [
-          "algo",
-          "graph"
-        ],
-        "backlinks": [
-          "Graph",
-          "How to solve algorithmic tasks"
-        ]
-      },
       "Backtracking search": {
         "title": "Backtracking search",
         "tags": [
@@ -4874,6 +4909,17 @@
           "Hi"
         ]
       },
+      "BFS": {
+        "title": "BFS",
+        "tags": [
+          "algo",
+          "graph"
+        ],
+        "backlinks": [
+          "Graph",
+          "How to solve algorithmic tasks"
+        ]
+      },
       "Binary tree": {
         "title": "Binary tree",
         "tags": [
@@ -4889,83 +4935,6 @@
         "title": "C++",
         "backlinks": [
           "Software"
-        ]
-      },
-      "CPU": {
-        "title": "CPU",
-        "tags": [
-          "hardware"
-        ],
-        "backlinks": [
-          "Hardware"
-        ]
-      },
-      "Processes": {
-        "backlinks": [
-          "CPU",
-          "Operating System",
-          "Software",
-          "Threads"
-        ],
-        "title": "Processes",
-        "tags": [
-          "os"
-        ]
-      },
-      "Threads": {
-        "backlinks": [
-          "CPU",
-          "Operating System",
-          "Processes",
-          "Software"
-        ],
-        "title": "Threads",
-        "tags": [
-          "os"
-        ]
-      },
-      "CSharp": {
-        "title": "CSharp",
-        "tags": [
-          "csharp"
-        ]
-      },
-      "Java Collections": {
-        "backlinks": [
-          "CSharp",
-          "Java"
-        ],
-        "title": "Java Collections",
-        "tags": [
-          "java"
-        ]
-      },
-      "Extension methods": {
-        "backlinks": [
-          "CSharp"
-        ],
-        "title": "Extension methods",
-        "tags": [
-          "csharp"
-        ]
-      },
-      "dotNET": {
-        "backlinks": [
-          "CSharp"
-        ],
-        "title": "dotNET",
-        "tags": [
-          "csharp"
-        ]
-      },
-      "DateTime API": {
-        "backlinks": [
-          "CSharp",
-          "Java API"
-        ],
-        "title": "DateTime API",
-        "tags": [
-          "java"
         ]
       },
       "Cartesian product": {
@@ -5020,6 +4989,15 @@
           "Computer graphics"
         ]
       },
+      "Common phrases": {
+        "title": "Common phrases",
+        "tags": [
+          "eng"
+        ],
+        "backlinks": [
+          "English"
+        ]
+      },
       "Common Sense Style Guide": {
         "title": "Common Sense Style Guide",
         "tags": [
@@ -5029,15 +5007,6 @@
           "How I name files",
           "How I name projects",
           "How I name variables"
-        ]
-      },
-      "Common phrases": {
-        "title": "Common phrases",
-        "tags": [
-          "eng"
-        ],
-        "backlinks": [
-          "English"
         ]
       },
       "Complete graph": {
@@ -5061,25 +5030,6 @@
         "backlinks": [
           "React"
         ]
-      },
-      "Computer Science": {
-        "title": "Computer Science",
-        "backlinks": [
-          "Software"
-        ]
-      },
-      "Multiplexing": {
-        "backlinks": [
-          "Computer Science",
-          "How I write useful notes"
-        ],
-        "title": "Multiplexing"
-      },
-      "Different function types": {
-        "backlinks": [
-          "Computer Science"
-        ],
-        "title": "Different function types"
       },
       "Computer graphics": {
         "title": "Computer graphics",
@@ -5254,6 +5204,25 @@
         ],
         "title": "How to start learning computer graphics programming"
       },
+      "Computer Science": {
+        "title": "Computer Science",
+        "backlinks": [
+          "Software"
+        ]
+      },
+      "Multiplexing": {
+        "backlinks": [
+          "Computer Science",
+          "How I write useful notes"
+        ],
+        "title": "Multiplexing"
+      },
+      "Different function types": {
+        "backlinks": [
+          "Computer Science"
+        ],
+        "title": "Different function types"
+      },
       "Cool graphs": {
         "title": "Cool graphs",
         "tags": [
@@ -5269,6 +5238,39 @@
           "Linear algebra"
         ]
       },
+      "CPU": {
+        "title": "CPU",
+        "tags": [
+          "hardware"
+        ],
+        "backlinks": [
+          "Hardware"
+        ]
+      },
+      "Processes": {
+        "backlinks": [
+          "CPU",
+          "Operating System",
+          "Software",
+          "Threads"
+        ],
+        "title": "Processes",
+        "tags": [
+          "os"
+        ]
+      },
+      "Threads": {
+        "backlinks": [
+          "CPU",
+          "Operating System",
+          "Processes",
+          "Software"
+        ],
+        "title": "Threads",
+        "tags": [
+          "os"
+        ]
+      },
       "Unit vector": {
         "backlinks": [
           "Cross product"
@@ -5278,19 +5280,49 @@
           "linal"
         ]
       },
-      "DFS": {
-        "title": "DFS",
+      "CSharp": {
+        "title": "CSharp",
         "tags": [
-          "algo",
-          "graph"
-        ],
-        "backlinks": [
-          "Graph",
-          "How to solve algorithmic tasks"
+          "csharp"
         ]
       },
-      "DIagrams": {
-        "title": "DIagrams"
+      "Java Collections": {
+        "backlinks": [
+          "CSharp",
+          "Java"
+        ],
+        "title": "Java Collections",
+        "tags": [
+          "java"
+        ]
+      },
+      "Extension methods": {
+        "backlinks": [
+          "CSharp"
+        ],
+        "title": "Extension methods",
+        "tags": [
+          "csharp"
+        ]
+      },
+      "dotNET": {
+        "backlinks": [
+          "CSharp"
+        ],
+        "title": "dotNET",
+        "tags": [
+          "csharp"
+        ]
+      },
+      "DateTime API": {
+        "backlinks": [
+          "CSharp",
+          "Java API"
+        ],
+        "title": "DateTime API",
+        "tags": [
+          "java"
+        ]
       },
       "Data Access": {
         "title": "Data Access",
@@ -5395,6 +5427,20 @@
         "tags": [
           "devops"
         ]
+      },
+      "DFS": {
+        "title": "DFS",
+        "tags": [
+          "algo",
+          "graph"
+        ],
+        "backlinks": [
+          "Graph",
+          "How to solve algorithmic tasks"
+        ]
+      },
+      "DIagrams": {
+        "title": "DIagrams"
       },
       "Digital image processing": {
         "title": "Digital image processing",
@@ -5532,15 +5578,6 @@
           "architecture"
         ]
       },
-      "Frontend Persistence": {
-        "title": "Frontend Persistence",
-        "tags": [
-          "fe"
-        ],
-        "backlinks": [
-          "Frontend"
-        ]
-      },
       "Frontend performance checklist": {
         "title": "Frontend performance checklist",
         "tags": [
@@ -5548,6 +5585,15 @@
         ],
         "backlinks": [
           "Web Performance"
+        ]
+      },
+      "Frontend Persistence": {
+        "title": "Frontend Persistence",
+        "tags": [
+          "fe"
+        ],
+        "backlinks": [
+          "Frontend"
         ]
       },
       "Frontend": {
@@ -5620,15 +5666,6 @@
           "Java"
         ]
       },
-      "GPU": {
-        "title": "GPU",
-        "tags": [
-          "hardware"
-        ],
-        "backlinks": [
-          "Hardware"
-        ]
-      },
       "Game loop": {
         "title": "Game loop",
         "tags": [
@@ -5652,6 +5689,15 @@
         "title": "Git",
         "tags": [
           "git"
+        ]
+      },
+      "GPU": {
+        "title": "GPU",
+        "tags": [
+          "hardware"
+        ],
+        "backlinks": [
+          "Hardware"
         ]
       },
       "Graph connectivity": {
@@ -5749,15 +5795,6 @@
           "Research"
         ]
       },
-      "HTTP": {
-        "title": "HTTP",
-        "tags": [
-          "networking"
-        ],
-        "backlinks": [
-          "REST API"
-        ]
-      },
       "Hardware": {
         "title": "Hardware",
         "tags": [
@@ -5804,8 +5841,7 @@
       },
       "UI Design": {
         "backlinks": [
-          "Hi",
-          "Now"
+          "Hi"
         ],
         "title": "UI Design",
         "tags": [
@@ -5836,6 +5872,12 @@
         "title": "Homogeneity",
         "tags": [
           "orphan"
+        ]
+      },
+      "How browser works": {
+        "title": "How browser works",
+        "tags": [
+          "fe"
         ]
       },
       "How I create a CI pipeline": {
@@ -5921,12 +5963,6 @@
           "Learning & Note Taking"
         ]
       },
-      "How browser works": {
-        "title": "How browser works",
-        "tags": [
-          "fe"
-        ]
-      },
       "How to google efficiently": {
         "title": "How to google efficiently"
       },
@@ -5954,6 +5990,15 @@
       },
       "How would you rewrite this code": {
         "title": "How would you rewrite this code"
+      },
+      "HTTP": {
+        "title": "HTTP",
+        "tags": [
+          "networking"
+        ],
+        "backlinks": [
+          "REST API"
+        ]
       },
       "Ideas": {
         "title": "Ideas",
@@ -6010,17 +6055,17 @@
           "Java"
         ]
       },
-      "Java OOP Elements": {
-        "title": "Java OOP Elements",
-        "backlinks": [
-          "Java"
-        ]
-      },
       "Java Objects": {
         "title": "Java Objects",
         "tags": [
           "java"
         ],
+        "backlinks": [
+          "Java"
+        ]
+      },
+      "Java OOP Elements": {
+        "title": "Java OOP Elements",
         "backlinks": [
           "Java"
         ]
@@ -6096,12 +6141,6 @@
           "spring"
         ]
       },
-      "JavaScript Projects Terminology": {
-        "title": "JavaScript Projects Terminology",
-        "backlinks": [
-          "JavaScript asynchronicity"
-        ]
-      },
       "JavaScript asynchronicity": {
         "title": "JavaScript asynchronicity",
         "tags": [
@@ -6111,6 +6150,12 @@
         "backlinks": [
           "JavaScript"
         ]
+      },
+      "JavaScript Projects Terminology": {
+        "backlinks": [
+          "JavaScript asynchronicity"
+        ],
+        "title": "JavaScript Projects Terminology"
       },
       "npm": {
         "backlinks": [
@@ -6208,9 +6253,6 @@
           "scratch"
         ]
       },
-      "MIDI": {
-        "title": "MIDI"
-      },
       "Management Checklist": {
         "title": "Management Checklist",
         "backlinks": [
@@ -6263,6 +6305,9 @@
           "Matrix",
           "Vector & Matrix Operations"
         ]
+      },
+      "MIDI": {
+        "title": "MIDI"
       },
       "My GitHub": {
         "title": "My GitHub"
@@ -6400,22 +6445,6 @@
       "Quotes": {
         "title": "Quotes"
       },
-      "REST API": {
-        "title": "REST API",
-        "tags": [
-          "architecture",
-          "rest"
-        ]
-      },
-      "Sorting algorithms": {
-        "backlinks": [
-          "REST API"
-        ],
-        "title": "Sorting algorithms",
-        "tags": [
-          "algo"
-        ]
-      },
       "Rasterization": {
         "title": "Rasterization",
         "tags": [
@@ -6467,19 +6496,26 @@
       "Research": {
         "title": "Research"
       },
+      "REST API": {
+        "title": "REST API",
+        "tags": [
+          "architecture",
+          "rest"
+        ]
+      },
+      "Sorting algorithms": {
+        "backlinks": [
+          "REST API"
+        ],
+        "title": "Sorting algorithms",
+        "tags": [
+          "algo"
+        ]
+      },
       "Rule of one new thing": {
         "title": "Rule of one new thing",
         "tags": [
           "scratch"
-        ]
-      },
-      "SOLID": {
-        "title": "SOLID",
-        "tags": [
-          "architecture"
-        ],
-        "backlinks": [
-          "Software Architecture"
         ]
       },
       "Screaming Architecture": {
@@ -6504,6 +6540,15 @@
       },
       "Software Architecture": {
         "title": "Software Architecture",
+        "tags": [
+          "architecture"
+        ]
+      },
+      "SOLID": {
+        "backlinks": [
+          "Software Architecture"
+        ],
+        "title": "SOLID",
         "tags": [
           "architecture"
         ]

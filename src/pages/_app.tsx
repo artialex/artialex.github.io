@@ -12,6 +12,7 @@ import { ReactRelayContext } from 'react-relay'
 
 import 'highlight.js/styles/github.css'
 import '@/ui/styles/global.css'
+import { DotProduct } from '@/maths/components/DotProduct'
 
 // TODO: handle md configuration better?
 configure({
@@ -35,6 +36,7 @@ configure({
     insertion: Insertion,
     combinatorics: Combinatorics,
     mark: RoughMark,
+    dotproduct: DotProduct,
   },
 })
 
