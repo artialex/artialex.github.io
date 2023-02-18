@@ -7,7 +7,7 @@ tags: [cg]
 Rendering is a process of creating an image from a set of geometrical objects, lighting sources and a viewport (camera). The image represents a pixel array where each pixel contains information about the color at the particular point
 
 $$
-Geometry, \ Lightning, \ Camera \xrightarrow{Rendering} Image
+Geometry, \ Lightning, \ Camera \xrightarrow{\text{Rendering}} Image
 $$
 
 Types of rendering:

@@ -1,91 +1,6 @@
 {
   "data": {
     "vaultLinks": {
-      "Jethro's Braindump": {
-        "name": "Jethro's Braindump",
-        "link": "https://braindump.jethro.dev",
-        "tags": [
-          "networking",
-          "uml",
-          "ds",
-          "algo",
-          "linal",
-          "notetaking",
-          "db",
-          "zk",
-          "ui"
-        ],
-        "comment": "Lot of stuff"
-      },
-      "Sean Fish exobrain": {
-        "name": "Sean Fish exobrain",
-        "link": "https://exobrain.sean.fish",
-        "tags": [
-          "programming",
-          "web",
-          "python",
-          "zk"
-        ]
-      },
-      "beepb00p": {
-        "name": "beepb00p",
-        "link": "https://beepb00p.xyz",
-        "tags": [
-          "zk",
-          "ui"
-        ],
-        "comment": "Neat articles"
-      },
-      "Alexey Shmalko": {
-        "name": "Alexey Shmalko",
-        "link": "https://www.alexeyshmalko.com",
-        "tags": [
-          "programming",
-          "zk",
-          "ui"
-        ]
-      },
-      "Andy Matuschak": {
-        "name": "Andy Matuschak",
-        "link": "https://notes.andymatuschak.org",
-        "tags": [
-          "zk"
-        ],
-        "comment": "Most influential ZK"
-      },
-      "Gwern Branwen": {
-        "name": "Gwern Branwen",
-        "link": "https://www.gwern.net",
-        "tags": [
-          "zk",
-          "ui",
-          "tufte"
-        ],
-        "comment": "Nice visuals"
-      },
-      "Brendan Schlagel": {
-        "name": "Brendan Schlagel",
-        "link": "https://www.brendanschlagel.com",
-        "tags": [
-          "ui"
-        ],
-        "comment": "Concept of personal canon"
-      },
-      "Joshua's garden": {
-        "name": "Joshua's garden",
-        "link": "https://joschuasgarden.com",
-        "tags": [
-          "zk"
-        ],
-        "comment": "Uses Dewie system"
-      },
-      "Alexis Rondeau": {
-        "name": "Alexis Rondeau",
-        "link": "https://publish.obsidian.md/alexisrondeau",
-        "tags": [
-          "zk"
-        ]
-      },
       "Mister Chad": {
         "name": "Mister Chad",
         "link": "https://mister-chad.com/welcome",
@@ -122,10 +37,9 @@
       },
       "Alain Galvan": {
         "name": "Alain Galvan",
-        "link": "https://alain.xyz/blog/raw-webgl",
+        "link": "https://alain.xyz",
         "tags": [
-          "cg",
-          "webgl"
+          "cg"
         ]
       },
       "Inigo Quilez": {
@@ -445,11 +359,10 @@
       },
       "Excalidraw": {
         "name": "Excalidraw",
-        "link": "https://github.dev/excalidraw/excalidraw",
+        "link": "https://excalidraw.com",
         "tags": [
-          "repo",
-          "canvas",
-          "react"
+          "tool",
+          "drawing"
         ]
       },
       "4 Types of documentation": {
@@ -612,14 +525,6 @@
           "blog"
         ]
       },
-      "Kamyshev": {
-        "name": "Kamyshev",
-        "link": "https://kamyshev.me",
-        "tags": [
-          "fe",
-          "blog"
-        ]
-      },
       "Julio Biason": {
         "name": "Julio Biason",
         "link": "https://blog.juliobiason.me/thoughts/things-i-learnt-the-hard-way",
@@ -665,13 +570,6 @@
           "writing"
         ]
       },
-      "Learn CSS Grid": {
-        "name": "Learn CSS Grid",
-        "link": "https://learncssgrid.com",
-        "tags": [
-          "css"
-        ]
-      },
       "Complete Guide to Flexbox": {
         "name": "Complete Guide to Flexbox",
         "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox",
@@ -712,109 +610,6 @@
         "link": "http://pulzed.com/demo/tronix2",
         "tags": [
           "graph"
-        ]
-      },
-      "Maths is Fun": {
-        "name": "Maths is Fun",
-        "link": "https://www.mathsisfun.com",
-        "tags": [
-          "math"
-        ]
-      },
-      "The Map of Mathematics": {
-        "name": "The Map of Mathematics",
-        "link": "https://www.youtube.com/watch?v=OmJ-4B-mS-Y",
-        "tags": [
-          "math",
-          "video"
-        ]
-      },
-      "College Algebra": {
-        "name": "College Algebra",
-        "link": "https://www.youtube.com/watch?v=LwCRRUa8yTU/list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v",
-        "tags": [
-          "math",
-          "video"
-        ]
-      },
-      "Maths for Programmers": {
-        "name": "Maths for Programmers",
-        "link": "https://www.youtube.com/watch?v=2SpuBqvNjHI",
-        "tags": [
-          "math",
-          "video"
-        ]
-      },
-      "Linear Algebra PDF": {
-        "name": "Linear Algebra PDF",
-        "link": "http://joshua.smcvt.edu/linearalgebra/book.pdf",
-        "tags": [
-          "linal"
-        ]
-      },
-      "Interactive Linear Algebra": {
-        "name": "Interactive Linear Algebra",
-        "link": "https://textbooks.math.gatech.edu/ila",
-        "tags": [
-          "linal"
-        ]
-      },
-      "Immersive Linear Algebra": {
-        "name": "Immersive Linear Algebra",
-        "link": "http://immersivemath.com/ila/index.html",
-        "tags": [
-          "linal"
-        ]
-      },
-      "The Applications of Matrices": {
-        "name": "The Applications of Matrices",
-        "link": "https://www.youtube.com/watch?v=rowWM-MijXU",
-        "tags": [
-          "linal",
-          "video"
-        ]
-      },
-      "Essence of Linear Algebra": {
-        "name": "Essence of Linear Algebra",
-        "link": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
-        "tags": [
-          "linal",
-          "video"
-        ]
-      },
-      "An Intuitive Guide to Linear Algebra": {
-        "name": "An Intuitive Guide to Linear Algebra",
-        "link": "https://betterexplained.com/articles/linear-algebra-guide",
-        "tags": [
-          "linal"
-        ]
-      },
-      "Linear Algebra": {
-        "name": "Linear Algebra",
-        "link": "https://gabrielgambetta.com/computer-graphics-from-scratch/A0-linear-algebra.htm",
-        "tags": [
-          "linal"
-        ]
-      },
-      "Teach Yourself Computer Science": {
-        "name": "Teach Yourself Computer Science",
-        "link": "https://teachyourselfcs.com",
-        "tags": [
-          "cs"
-        ]
-      },
-      "'A Self-Learning, Modern Computer Science Curriculum'": {
-        "name": "'A Self-Learning, Modern Computer Science Curriculum'",
-        "link": "https://functionalcs.github.io/curriculum",
-        "tags": [
-          "cs"
-        ]
-      },
-      "What every computer science major should know": {
-        "name": "What every computer science major should know",
-        "link": "http://matt.might.net/articles/what-cs-majors-should-know",
-        "tags": [
-          "cs"
         ]
       },
       "Programming - Introduction": {
@@ -885,13 +680,6 @@
           "complexity"
         ]
       },
-      "Data Structure Visualizations": {
-        "name": "Data Structure Visualizations",
-        "link": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html",
-        "tags": [
-          "algo"
-        ]
-      },
       "Data Structures Easy to Advanced Course": {
         "name": "Data Structures Easy to Advanced Course",
         "link": "https://www.youtube.com/watch?v=RBSGKlAvoiM/list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC",
@@ -916,29 +704,6 @@
           "complexity"
         ]
       },
-      "Asymptotic Notation": {
-        "name": "Asymptotic Notation",
-        "link": "https://roadmap.sh/guides/asymptotic-notation",
-        "tags": [
-          "algo",
-          "complexity"
-        ]
-      },
-      "Visualizing Algorithms": {
-        "name": "Visualizing Algorithms",
-        "link": "https://bost.ocks.org/mike/algorithms",
-        "tags": [
-          "algo"
-        ]
-      },
-      "Red Blob Games": {
-        "name": "Red Blob Games",
-        "link": "https://www.redblobgames.com",
-        "tags": [
-          "algo"
-        ],
-        "comment": "Visual explanations of math and algorithms, using motivating examples from\ncomputer games"
-      },
       "Algorithms and Data Structures in JavaScript": {
         "name": "Algorithms and Data Structures in JavaScript",
         "link": "https://github.com/trekhleb/javascript-algorithms/blob/master/README.ru-RU.md",
@@ -959,25 +724,9 @@
       },
       "Front-End Performance Checklist 2021": {
         "name": "Front-End Performance Checklist 2021",
-        "link": "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist",
+        "link": "https://www.dropbox.com/s/34noajrbm324iai/performance-checklist-1.4.pdf?dl=0",
         "tags": [
-          "js",
-          "performance"
-        ]
-      },
-      "'Auth, Tokens, and JWT'": {
-        "name": "'Auth, Tokens, and JWT'",
-        "link": "https://gist.github.com/zmts/802dc9c3510d79fd40f9dc38a12bccfc",
-        "tags": [
-          "auth",
-          "jwt"
-        ]
-      },
-      "Single Sign-On": {
-        "name": "Single Sign-On",
-        "link": "https://roadmap.sh/guides/sso",
-        "tags": [
-          "auth"
+          "fe"
         ]
       },
       "Backtracking-Search": {
@@ -1067,38 +816,6 @@
           "dsp",
           "ru"
         ]
-      },
-      "Vocabulary.com": {
-        "name": "Vocabulary.com",
-        "link": "https://www.vocabulary.com/play",
-        "tags": [
-          "eng"
-        ],
-        "comment": "nice dictionary"
-      },
-      "Reverso": {
-        "name": "Reverso",
-        "link": "https://www.reverso.net",
-        "tags": [
-          "eng"
-        ],
-        "comment": "nice translator, with context and synonyms"
-      },
-      "Playphrase": {
-        "name": "Playphrase",
-        "link": "https://playphrase.me",
-        "tags": [
-          "eng"
-        ],
-        "comment": "find the phrase on youtube"
-      },
-      "Youglish": {
-        "name": "Youglish",
-        "link": "https://youglish.com",
-        "tags": [
-          "eng"
-        ],
-        "comment": "find the phrase on youtube"
       },
       "Lambda Exceptions": {
         "name": "Lambda Exceptions",
@@ -1231,20 +948,6 @@
           "git"
         ]
       },
-      "Git Immersion": {
-        "name": "Git Immersion",
-        "link": "https://gitimmersion.com/lab_09.html",
-        "tags": [
-          "git"
-        ]
-      },
-      "simple-git-hooks": {
-        "name": "simple-git-hooks",
-        "link": "https://github.com/toplenboren/simple-git-hooks",
-        "tags": [
-          "git"
-        ]
-      },
       "Hibernate Introduction": {
         "name": "Hibernate Introduction",
         "link": "https://www.youtube.com/watch?v=C-wEZjEOhWc",
@@ -1331,1507 +1034,59 @@
         "tags": [
           "js"
         ]
-      },
-      "Make services a natural part of Redux architecture": {
-        "name": "Make services a natural part of Redux architecture",
-        "link": "https://itnext.io/make-services-a-natural-prt-of-redux-architecture-8a78b6a4b961",
-        "tags": [
-          "js",
-          "redux",
-          "architecture"
-        ]
-      },
-      "Redux - Docs": {
-        "name": "Redux - Docs",
-        "link": "https://redux.js.org",
-        "tags": [
-          "js",
-          "redux"
-        ]
-      },
-      "Redux - Learning resources": {
-        "name": "Redux - Learning resources",
-        "link": "https://redux.js.org/introduction/learning-resources",
-        "tags": [
-          "js",
-          "redux"
-        ]
-      },
-      "Style Guide": {
-        "name": "Style Guide",
-        "link": "https://redux.js.org/style-guide/style-guide#introduction",
-        "tags": [
-          "js",
-          "redux"
-        ]
-      },
-      "React/Redux Links": {
-        "name": "React/Redux Links",
-        "link": "https://github.com/markerikson/react-redux-links",
-        "tags": [
-          "js",
-          "react",
-          "redux"
-        ]
-      },
-      "Redux is half of a pattern": {
-        "name": "Redux is half of a pattern",
-        "link": "https://dev.to/davidkpiano/redux-is-half-of-a-pattern-1-2-1hd7",
-        "tags": [
-          "js",
-          "redux"
-        ]
-      },
-      "Books by Dr. Axel Rauschmayer": {
-        "name": "Books by Dr. Axel Rauschmayer",
-        "link": "https://exploringjs.com",
-        "tags": [
-          "js"
-        ]
-      },
-      "Functional-Light JavaScript": {
-        "name": "Functional-Light JavaScript",
-        "link": "https://github.com/getify/Functional-Light-JS",
-        "tags": [
-          "js",
-          "fp"
-        ]
-      },
-      "LargeScaleJS": {
-        "name": "LargeScaleJS",
-        "link": "http://largescalejs.ru",
-        "tags": [
-          "js",
-          "architecture",
-          "ru"
-        ]
-      },
-      "Guide to FP in JS": {
-        "name": "Guide to FP in JS",
-        "link": "https://github.com/MostlyAdequate/mostly-adequate-guide",
-        "tags": [
-          "js",
-          "fp"
-        ]
-      },
-      "the-node-way": {
-        "name": "the-node-way",
-        "link": "https://github.com/FredKSchott/the-node-way",
-        "tags": [
-          "js",
-          "node"
-        ]
-      },
-      "An Introduction to libuv": {
-        "name": "An Introduction to libuv",
-        "link": "https://nikhilm.github.io/uvbook",
-        "tags": [
-          "js",
-          "node",
-          "libuv",
-          "book"
-        ]
-      },
-      "Mixu's Node book": {
-        "name": "Mixu's Node book",
-        "link": "http://book.mixu.net/node",
-        "tags": [
-          "js",
-          "node",
-          "book"
-        ]
-      },
-      "Node.js Docs": {
-        "name": "Node.js Docs",
-        "link": "https://nodejs.org/en/docs",
-        "tags": [
-          "js",
-          "node"
-        ]
-      },
-      "Metaprogramming in ES6 Symbols and why they're awesome": {
-        "name": "Metaprogramming in ES6 Symbols and why they're awesome",
-        "link": "https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols",
-        "tags": [
-          "js"
-        ]
-      },
-      "Ecmascript Language Types": {
-        "name": "Ecmascript Language Types",
-        "link": "https://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types",
-        "tags": [
-          "js"
-        ]
-      },
-      "Javascript Garden": {
-        "name": "Javascript Garden",
-        "link": "http://shamansir.github.io/JavaScript-Garden",
-        "tags": [
-          "js"
-        ]
-      },
-      "MDN": {
-        "name": "MDN",
-        "link": "https://developer.mozilla.org/en-US",
-        "tags": [
-          "js"
-        ]
-      },
-      "Eloquent JavaScript": {
-        "name": "Eloquent JavaScript",
-        "link": "http://eloquentjavascript.net",
-        "tags": [
-          "js",
-          "book"
-        ]
-      },
-      "NodeJS logging made right": {
-        "name": "NodeJS logging made right",
-        "link": "https://itnext.io/nodejs-logging-made-right-117a19e8b4ce",
-        "tags": [
-          "node",
-          "logging"
-        ]
-      },
-      "Practical Ways to Write Better JavaScript": {
-        "name": "Practical Ways to Write Better JavaScript",
-        "link": "https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript",
-        "tags": [
-          "js"
-        ]
-      },
-      "Techniques for instantiating classes": {
-        "name": "Techniques for instantiating classes",
-        "link": "https://exploringjs.com/deep-js/ch_creating-class-instances.html",
-        "tags": [
-          "js"
-        ]
-      },
-      "Tackling TypeScript": {
-        "name": "Tackling TypeScript",
-        "link": "https://exploringjs.com/tackling-ts/toc.html",
-        "tags": [
-          "js",
-          "ts"
-        ]
-      },
-      "Improve how you architect webapps": {
-        "name": "Improve how you architect webapps",
-        "link": "https://www.patterns.dev",
-        "tags": [
-          "js",
-          "react",
-          "architecture"
-        ]
-      },
-      "'If Javascript Is Single Threaded, How Is It Asynchronous?'": {
-        "name": "'If Javascript Is Single Threaded, How Is It Asynchronous?'",
-        "link": "https://dev.to/bbarbour/if-javascript-is-single-threaded-how-is-it-asynchronous-56gd",
-        "tags": [
-          "js"
-        ]
-      },
-      "What the heck is the event loop anyway": {
-        "name": "What the heck is the event loop anyway",
-        "link": "https://www.youtube.com/watch?v=8aGhZQkoFbQ",
-        "tags": [
-          "js"
-        ]
-      },
-      "In The Loop": {
-        "name": "In The Loop",
-        "link": "https://www.youtube.com/watch?v=cCOL7MC4Pl0",
-        "tags": [
-          "js",
-          "event-loop"
-        ]
-      },
-      "Event Loop and the Big Picture": {
-        "name": "Event Loop and the Big Picture",
-        "link": "https://blog.insiderattack.net/event-loop-and-the-big-picture-nodejs-event-loop-part-1-1cb67a182810",
-        "tags": [
-          "js",
-          "event-loop"
-        ]
-      },
-      "JPA vs JDBC": {
-        "name": "JPA vs JDBC",
-        "link": "https://www.baeldung.com/jpa-vs-jdbc",
-        "tags": [
-          "java"
-        ]
-      },
-      "JPA Entities": {
-        "name": "JPA Entities",
-        "link": "https://habr.com/ru/post/265061",
-        "tags": [
-          "java",
-          "ru"
-        ]
-      },
-      "SuperMemo Wiki": {
-        "name": "SuperMemo Wiki",
-        "link": "https://supermemo.guru/wiki/SuperMemo_Guru",
-        "tags": [
-          "learning"
-        ]
-      },
-      "WolframAlpha": {
-        "name": "WolframAlpha",
-        "link": "https://www.wolframalpha.com",
-        "tags": [
-          "math"
-        ]
-      },
-      "How To Learn Trigonometry Intuitively": {
-        "name": "How To Learn Trigonometry Intuitively",
-        "link": "https://betterexplained.com/articles/intuitive-trigonometry",
-        "tags": [
-          "math",
-          "trigonometry"
-        ]
-      },
-      "Understanding Mathematics": {
-        "name": "Understanding Mathematics",
-        "link": "https://github.com/nbro/understanding-math",
-        "tags": [
-          "math"
-        ]
-      },
-      "Calculus for Beginners and Artists": {
-        "name": "Calculus for Beginners and Artists",
-        "link": "http://www-math.mit.edu/~djk/calculus_beginners",
-        "tags": [
-          "math",
-          "calculus"
-        ]
-      },
-      "Stream Handbook": {
-        "name": "Stream Handbook",
-        "link": "https://github.com/substack/stream-handbook",
-        "tags": [
-          "js",
-          "node-streams"
-        ]
-      },
-      "Node.js Streams - Everything you need to know": {
-        "name": "Node.js Streams - Everything you need to know",
-        "link": "https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93",
-        "tags": [
-          "js",
-          "node-streams"
-        ]
-      },
-      "The JavaScript Call Stack": {
-        "name": "The JavaScript Call Stack",
-        "link": "https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4",
-        "tags": [
-          "js",
-          "node-streams"
-        ]
-      },
-      "Node.js Docs - Streams": {
-        "name": "Node.js Docs - Streams",
-        "link": "https://nodejs.org/api/stream.html",
-        "tags": [
-          "js",
-          "node-streams"
-        ]
-      },
-      "Streams - Node’s most powerful and misunderstood feature": {
-        "name": "Streams - Node’s most powerful and misunderstood feature",
-        "link": "https://livebook.manning.com/book/node-js-in-practice/chapter-5",
-        "tags": [
-          "js",
-          "node-streams"
-        ]
-      },
-      "Node.js Streams": {
-        "name": "Node.js Streams",
-        "link": "https://flaviocopes.com/nodejs-streams",
-        "tags": [
-          "js",
-          "node-streams"
-        ]
-      },
-      "ddd-by-examples": {
-        "name": "ddd-by-examples",
-        "link": "https://github.com/ddd-by-examples",
-        "tags": [
-          "architecture",
-          "ddd"
-        ]
-      },
-      "open.gl": {
-        "name": "open.gl",
-        "link": "https://open.gl",
-        "tags": [
-          "cg",
-          "opengl"
-        ]
-      },
-      "Learn OpenGL": {
-        "name": "Learn OpenGL",
-        "link": "https://learnopengl.com",
-        "tags": [
-          "cg",
-          "opengl"
-        ]
-      },
-      "Modern OpenGL Tutorials": {
-        "name": "Modern OpenGL Tutorials",
-        "link": "https://ogldev.org",
-        "tags": [
-          "cg",
-          "opengl"
-        ]
-      },
-      "OpenGL Tutorials": {
-        "name": "OpenGL Tutorials",
-        "link": "http://www.opengl-tutorial.org",
-        "tags": [
-          "cg",
-          "opengl"
-        ]
-      },
-      "OpenGL": {
-        "name": "OpenGL",
-        "link": "http://www.songho.ca/opengl/index.html",
-        "tags": [
-          "cg",
-          "opengl"
-        ]
-      },
-      "Tiny Renderer": {
-        "name": "Tiny Renderer",
-        "link": "https://github.com/ssloy/tinyrenderer",
-        "tags": [
-          "cg",
-          "opengl"
-        ]
-      },
-      "Jethro OS": {
-        "name": "Jethro OS",
-        "link": "https://braindump.jethro.dev/posts/operating_systems",
-        "tags": [
-          "os"
-        ]
-      },
-      "'Package by feature, not layer'": {
-        "name": "'Package by feature, not layer'",
-        "link": "http://www.javapractices.com/topic/TopicAction.do?Id=205",
-        "tags": [
-          "architecture",
-          "pbm"
-        ]
-      },
-      "Structuring React and Redux applications": {
-        "name": "Structuring React and Redux applications",
-        "link": "https://blog.sapegin.me/all/react-structure",
-        "tags": [
-          "architecture",
-          "pbm"
-        ]
-      },
-      "Learning Code Readability": {
-        "name": "Learning Code Readability",
-        "link": "https://medium.com/@egonelbre/learning-code-readability-a80e311d3a20",
-        "tags": [
-          "architecture",
-          "pbm"
-        ]
-      },
-      "PBF (Package by Feature), no more PBL (Package by Layer)": {
-        "name": "PBF (Package by Feature), no more PBL (Package by Layer)",
-        "link": "https://medium.com/mindorks/pbf-package-by-feature-no-more-pbl-package-by-layer-50b8a9d54ae8",
-        "tags": [
-          "architecture",
-          "pbm"
-        ]
-      },
-      "Organizing files by features and not by technical aspects": {
-        "name": "Organizing files by features and not by technical aspects",
-        "link": "http://andrew-r.ru/notes/features-not-tech-aspects",
-        "tags": [
-          "architecture",
-          "pbm",
-          "ru"
-        ]
-      },
-      "Hexagonal architecture": {
-        "name": "Hexagonal architecture",
-        "link": "https://www.youtube.com/watch?v=sOaS83Ir8Ck",
-        "tags": [
-          "architecture",
-          "pbm",
-          "video"
-        ]
-      },
-      "Learning Library": {
-        "name": "Learning Library",
-        "link": "https://www.notion.so/moritz42w/Learning-Library-2ecb646b5e1e4d5c8274c73c3fbb254",
-        "tags": [
-          "learning"
-        ]
-      },
-      "Spring Boot 2.0 — Project Structure and Best Practices": {
-        "name": "Spring Boot 2.0 — Project Structure and Best Practices",
-        "link": "https://medium.com/the-resonant-web/spring-boot-2-0-starter-kit-part-1-23ddff0c7da2",
-        "tags": [
-          "architecture",
-          "file-structure"
-        ]
-      },
-      "Java project package structure guidelines": {
-        "name": "Java project package structure guidelines",
-        "link": "http://dolszewski.com/java/project-package-organization",
-        "tags": [
-          "architecture",
-          "file-structure"
-        ]
-      },
-      "Visualizing quaternions": {
-        "name": "Visualizing quaternions",
-        "link": "https://eater.net/quaternions",
-        "tags": [
-          "linal"
-        ]
-      },
-      "Pointers and Memory": {
-        "name": "Pointers and Memory",
-        "link": "http://cslibrary.stanford.edu/102/PointersAndMemory.pdf",
-        "tags": [
-          "hardware"
-        ]
-      },
-      "Computer Graphics from Scratch": {
-        "name": "Computer Graphics from Scratch",
-        "link": "https://gabrielgambetta.com/computer-graphics-from-scratch",
-        "tags": [
-          "cg"
-        ]
-      },
-      "How To Work With Files In Java": {
-        "name": "How To Work With Files In Java",
-        "link": "https://www.marcobehler.com/guides/java-files",
-        "tags": [
-          "java",
-          "io"
-        ]
-      },
-      "GPU Gems": {
-        "name": "GPU Gems",
-        "link": "https://developer.nvidia.com/gpugems/gpugems/contributors",
-        "tags": [
-          "cg"
-        ]
-      },
-      "Rendering Pipeline Overview": {
-        "name": "Rendering Pipeline Overview",
-        "link": "https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview",
-        "tags": [
-          "cg"
-        ]
-      },
-      "Understanding the graphics pipeline": {
-        "name": "Understanding the graphics pipeline",
-        "link": "https://www.seas.upenn.edu/~cis565/LECTURES/Lecture2%20New/pdf",
-        "tags": [
-          "cg"
-        ]
-      },
-      "What is REST": {
-        "name": "What is REST",
-        "link": "https://restfulapi.net",
-        "tags": [
-          "rest"
-        ]
-      },
-      "Guide to Spring Boot REST API Error Handling": {
-        "name": "Guide to Spring Boot REST API Error Handling",
-        "link": "https://www.toptal.com/java/spring-boot-rest-api-error-handling",
-        "tags": [
-          "rest",
-          "spring-boot"
-        ]
-      },
-      "'JSON:API'": {
-        "name": "'JSON:API'",
-        "link": "https://jsonapi.org",
-        "tags": [
-          "rest"
-        ]
-      },
-      "Design Guidelines": {
-        "name": "Design Guidelines",
-        "link": "http://apistylebook.com/design/guidelines",
-        "tags": [
-          "rest"
-        ]
-      },
-      "Zalando RESTful API and Event Guidelines": {
-        "name": "Zalando RESTful API and Event Guidelines",
-        "link": "https://opensource.zalando.com/restful-api-guidelines",
-        "tags": [
-          "rest"
-        ]
-      },
-      "The Book of Shaders": {
-        "name": "The Book of Shaders",
-        "link": "https://thebookofshaders.com",
-        "tags": [
-          "cg",
-          "shaders"
-        ]
-      },
-      "Shadertoy": {
-        "name": "Shadertoy",
-        "link": "https://www.shadertoy.com",
-        "tags": [
-          "cg",
-          "shaders"
-        ]
-      },
-      "3D Game Shaders For Beginners": {
-        "name": "3D Game Shaders For Beginners",
-        "link": "https://github.com/lettier/3d-game-shaders-for-beginners",
-        "tags": [
-          "cg",
-          "shaders"
-        ]
-      },
-      "Bash-scripts": {
-        "name": "Bash-scripts",
-        "link": "https://habr.com/ru/company/ruvds/blog/325522",
-        "tags": [
-          "shell",
-          "ru"
-        ]
-      },
-      "The Architecture of Open Source Applications": {
-        "name": "The Architecture of Open Source Applications",
-        "link": "https://aosabook.org/en/index.html",
-        "tags": [
-          "architecture"
-        ]
-      },
-      "Application Architecture Guide 2.0": {
-        "name": "Application Architecture Guide 2.0",
-        "link": "https://archive.codeplex.com/?p=AppArchGuide",
-        "tags": [
-          "architecture"
-        ]
-      },
-      "'FPB, Software Architecture'": {
-        "name": "'FPB, Software Architecture'",
-        "link": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#software-architecture",
-        "tags": [
-          "architecture"
-        ]
-      },
-      "Command-Query Separation": {
-        "name": "Command-Query Separation",
-        "link": "https://martinfowler.com/bliki/CommandQuerySeparation.html",
-        "tags": [
-          "architecture",
-          "cqrs"
-        ]
-      },
-      "SOLID Book": {
-        "name": "SOLID Book",
-        "link": "https://ota-solid.vercel.app",
-        "tags": [
-          "architecture",
-          "solid",
-          "ru"
-        ]
-      },
-      "Welcome to the world of Statecharts": {
-        "name": "Welcome to the world of Statecharts",
-        "link": "https://statecharts.dev",
-        "tags": [
-          "patterns"
-        ]
-      },
-      "Stanford": {
-        "name": "Stanford",
-        "link": "https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/10_Subdivision.pd",
-        "tags": [
-          "cg",
-          "subdivision"
-        ]
-      },
-      "Science Direct": {
-        "name": "Science Direct",
-        "link": "https://www.sciencedirect.com/topics/mathematics/subdivision-surface",
-        "tags": [
-          "cg",
-          "subdivision"
-        ]
-      },
-      "What is Tessellation in computer graphics?": {
-        "name": "What is Tessellation in computer graphics?",
-        "link": "https://computergraphics.stackexchange.com/questions/2018/what-is-tessellation-in-computer-graphics",
-        "tags": [
-          "cg",
-          "subdivision"
-        ]
-      },
-      "Luhman's system": {
-        "name": "Luhman's system",
-        "link": "https://zeh.media/praktika/instruktsiya/4796135-10-printsipov-idealnogo-konspekt",
-        "tags": [
-          "notetaking",
-          "zk",
-          "ru"
-        ]
-      },
-      "Acronyms Seriously Suck": {
-        "name": "Acronyms Seriously Suck",
-        "link": "https://gist.github.com/klaaspieter/12cd68f54bb71a3940eae5cdd4ea1764",
-        "tags": [
-          "thought"
-        ]
-      },
-      "No hello": {
-        "name": "No hello",
-        "link": "https://nohello.net",
-        "tags": [
-          "thought"
-        ]
-      },
-      "XY problem": {
-        "name": "XY problem",
-        "link": "http://xyproblem.info",
-        "tags": [
-          "thought"
-        ]
-      },
-      "Don't ask to ask": {
-        "name": "Don't ask to ask",
-        "link": "https://dontasktoask.com",
-        "tags": [
-          "thought"
-        ]
-      },
-      "Is TLS fast yet?": {
-        "name": "Is TLS fast yet?",
-        "link": "https://istlsfastyet.com",
-        "tags": [
-          "networking"
-        ]
-      },
-      "The Illustrated TLS Connection": {
-        "name": "The Illustrated TLS Connection",
-        "link": "https://tls.ulfheim.net",
-        "tags": [
-          "networking"
-        ]
-      },
-      "SSL vs TLS vs SSH": {
-        "name": "SSL vs TLS vs SSH",
-        "link": "https://roadmap.sh/guides/ssl-tls-https-ssh",
-        "tags": [
-          "networking"
-        ]
-      },
-      "UNIX Tutorial for Beginners": {
-        "name": "UNIX Tutorial for Beginners",
-        "link": "http://www.ee.surrey.ac.uk/Teaching/Unix",
-        "tags": [
-          "unix"
-        ]
-      },
-      "An Introduction to the Command-Line (on Unix-like systems)": {
-        "name": "An Introduction to the Command-Line (on Unix-like systems)",
-        "link": "http://oliverelliott.org/article/computing/tut_unix",
-        "tags": [
-          "unix"
-        ]
-      },
-      "Making Things Move": {
-        "name": "Making Things Move",
-        "link": "https://guillaumegouessan.com/talk/move",
-        "tags": [
-          "fe",
-          "animation"
-        ]
-      },
-      "Web Animation Infographics": {
-        "name": "Web Animation Infographics",
-        "link": "https://www.awwwards.com/web-animation-infographics-a-map-of-the-best-animation-libraries-for-javascript-and-css3-plus-performance-tips.html",
-        "tags": [
-          "fe",
-          "animation"
-        ]
-      },
-      "Easing functions": {
-        "name": "Easing functions",
-        "link": "https://easings.net",
-        "tags": [
-          "fe,animation"
-        ]
-      },
-      "MDN Web Performance": {
-        "name": "MDN Web Performance",
-        "link": "https://developer.mozilla.org/en-US/docs/Web/Performance",
-        "tags": [
-          "fe",
-          "performance"
-        ]
-      },
-      "WebGL Online": {
-        "name": "WebGL Online",
-        "link": "https://metanit.com/web/webgl",
-        "tags": [
-          "cg",
-          "webgl",
-          "ru"
-        ]
-      },
-      "WebGL Libraries": {
-        "name": "WebGL Libraries",
-        "link": "https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc",
-        "tags": [
-          "cg",
-          "webgl"
-        ]
-      },
-      "WebGL Insights": {
-        "name": "WebGL Insights",
-        "link": "http://webglinsights.com",
-        "tags": [
-          "cg",
-          "webgl"
-        ]
-      },
-      "WebGL Resources": {
-        "name": "WebGL Resources",
-        "link": "https://telegra.ph/Poleznye-resursy-11-08",
-        "tags": [
-          "cg",
-          "webgl"
-        ]
-      },
-      "One Hacker Way": {
-        "name": "One Hacker Way",
-        "link": "https://youtu.be/2u0sNRO-QKQ?t=696",
-        "tags": [
-          "agile"
-        ]
-      },
-      "openscope": {
-        "name": "openscope",
-        "link": "https://github.dev/openscope/openscope",
-        "tags": [
-          "repo",
-          "jquery",
-          "game"
-        ]
-      },
-      "delaford": {
-        "name": "delaford",
-        "link": "https://github.dev/delaford/game",
-        "tags": [
-          "repo",
-          "vue",
-          "game"
-        ]
-      },
-      "jitsi-meet": {
-        "name": "jitsi-meet",
-        "link": "https://github.dev/jitsi/jitsi-meet",
-        "tags": [
-          "repo",
-          "react",
-          "redux",
-          "architecture"
-        ]
-      },
-      "bank-client": {
-        "name": "bank-client",
-        "link": "https://github.dev/pietrzakadrian/bank-client",
-        "tags": [
-          "repo",
-          "react",
-          "redux"
-        ]
-      },
-      "fullstack-javascript-architecture": {
-        "name": "fullstack-javascript-architecture",
-        "link": "https://github.dev/atulmy/fullstack-javascript-architecture",
-        "tags": [
-          "repo",
-          "react",
-          "redux"
-        ]
-      },
-      "grafana": {
-        "name": "grafana",
-        "link": "https://github.dev/grafana/grafana",
-        "tags": [
-          "repo",
-          "react",
-          "redux"
-        ]
-      },
-      "deck.gl": {
-        "name": "deck.gl",
-        "link": "https://github.dev/visgl/deck.gl",
-        "tags": [
-          "repo",
-          "react",
-          "webgl",
-          "vis"
-        ]
-      },
-      "strapi": {
-        "name": "strapi",
-        "link": "https://github.dev/strapi/strapi",
-        "tags": [
-          "repo",
-          "koa"
-        ]
-      },
-      "directus": {
-        "name": "directus",
-        "link": "https://github.dev/directus/directus",
-        "tags": [
-          "repo",
-          "vue"
-        ]
-      },
-      "mattermost": {
-        "name": "mattermost",
-        "link": "https://github.dev/mattermost/mattermost-webapp",
-        "tags": [
-          "repo",
-          "react",
-          "redux"
-        ]
-      },
-      "peppermint": {
-        "name": "peppermint",
-        "link": "https://github.dev/Peppermint-Lab/peppermint",
-        "tags": [
-          "repo",
-          "react",
-          "query",
-          "next"
-        ]
-      },
-      "tinacms": {
-        "name": "tinacms",
-        "link": "https://github.com/tinacms/tinacms",
-        "tags": [
-          "repo",
-          "react",
-          "next"
-        ]
-      },
-      "erxes": {
-        "name": "erxes",
-        "link": "https://github.dev/erxes/erxes",
-        "tags": [
-          "repo",
-          "react",
-          "apollo"
-        ]
-      },
-      "joust": {
-        "name": "joust",
-        "link": "https://github.dev/HearthSim/Joust",
-        "tags": [
-          "repo",
-          "react"
-        ]
-      },
-      "Mindustry": {
-        "name": "Mindustry",
-        "link": "https://github.dev/Anuken/Mindustry",
-        "tags": [
-          "repo",
-          "game",
-          "java",
-          "gradle"
-        ]
-      },
-      "Freeablo": {
-        "name": "Freeablo",
-        "link": "https://freeablo.org",
-        "tags": [
-          "repo",
-          "cg",
-          "game"
-        ]
-      },
-      "Bordio": {
-        "name": "Bordio",
-        "link": "https://bordio.com",
-        "tags": [
-          "ui"
-        ]
-      },
-      "Targetprocess": {
-        "name": "Targetprocess",
-        "link": "https://dev.targetprocess.com",
-        "tags": [
-          "ui"
-        ]
-      },
-      "Some OS notes": {
-        "name": "Some OS notes",
-        "link": "https://github.com/blinky-z/OS-Learn",
-        "tags": [
-          "os"
-        ]
-      },
-      "Konux": {
-        "name": "Konux",
-        "link": "https://weare.tm/work/konux",
-        "tags": [
-          "case",
-          "ui"
-        ]
-      },
-      "Discover Three.js": {
-        "name": "Discover Three.js",
-        "link": "https://discoverthreejs.com/book/introduction",
-        "tags": [
-          "cg",
-          "three"
-        ]
-      },
-      "Attio": {
-        "name": "Attio",
-        "link": "https://attio.com",
-        "tags": [
-          "ui"
-        ]
-      },
-      "Drei Storybook": {
-        "name": "Drei Storybook",
-        "link": "https://drei.pmnd.rs",
-        "tags": [
-          "storybook",
-          "three"
-        ]
-      },
-      "Grafana Storybook": {
-        "name": "Grafana Storybook",
-        "link": "https://developers.grafana.com/ui/latest/index.html",
-        "tags": [
-          "storybook"
-        ],
-        "comment": "Typography elements"
-      },
-      "Gamut Storybook": {
-        "name": "Gamut Storybook",
-        "link": "https://gamut.codecademy.com",
-        "tags": [
-          "storybook"
-        ],
-        "comment": "Codeacademy storybook, Atomic design"
-      },
-      "Vibe Storybook": {
-        "name": "Vibe Storybook",
-        "link": "https://style.monday.com",
-        "tags": [
-          "storybook",
-          "ui"
-        ],
-        "comment": "Nice UI"
-      },
-      "Toptal Storybook": {
-        "name": "Toptal Storybook",
-        "link": "https://picasso.toptal.net",
-        "tags": [
-          "storybook"
-        ]
-      },
-      "Scaleway Storybook": {
-        "name": "Scaleway Storybook",
-        "link": "https://main.ui.scaleway.com",
-        "tags": [
-          "storybook",
-          "ui"
-        ]
-      },
-      "Orbit Storybook": {
-        "name": "Orbit Storybook",
-        "link": "https://orbit.sharegate.design",
-        "tags": [
-          "storybook"
-        ]
-      },
-      "Carbon Storybook": {
-        "name": "Carbon Storybook",
-        "link": "https://react.carbondesignsystem.com",
-        "tags": [
-          "storybook"
-        ]
-      },
-      "Artsy / Force": {
-        "name": "Artsy / Force",
-        "link": "https://github.dev/artsy/force",
-        "tags": [
-          "repo",
-          "react",
-          "graphql",
-          "relay"
-        ]
-      },
-      "tldraw": {
-        "name": "tldraw",
-        "link": "https://github.dev/tldraw/tldraw",
-        "tags": [
-          "repo",
-          "canvas",
-          "react",
-          "monorepo"
-        ]
-      },
-      "Grafana": {
-        "name": "Grafana",
-        "link": "https://github.dev/grafana/grafana",
-        "tags": [
-          "repo",
-          "react",
-          "monorepo"
-        ]
-      },
-      "Erxes": {
-        "name": "Erxes",
-        "link": "https://github.dev/erxes/erxes",
-        "tags": [
-          "repo",
-          "react",
-          "styled-components",
-          "monorepo"
-        ]
-      },
-      "CoralProject": {
-        "name": "CoralProject",
-        "link": "https://github.dev/coralproject/talk",
-        "tags": [
-          "repo",
-          "react",
-          "graphql",
-          "relay"
-        ]
-      },
-      "Spectrum.chat": {
-        "name": "Spectrum.chat",
-        "link": "https://github.dev/withspectrum/spectrum",
-        "tags": [
-          "repo",
-          "react",
-          "graphql",
-          "apollo",
-          "passport",
-          "redux",
-          "styled-components"
-        ]
-      },
-      "PayloadCMS": {
-        "name": "PayloadCMS",
-        "link": "https://github.dev/payloadcms/payload",
-        "tags": [
-          "repo",
-          "react",
-          "date-fns",
-          "graphql",
-          "passport",
-          "joi",
-          "jest"
-        ]
-      },
-      "Amplication": {
-        "name": "Amplication",
-        "link": "https://github.dev/amplication/amplication",
-        "tags": [
-          "repo",
-          "react",
-          "nestjs"
-        ]
-      },
-      "Anuken / Mindustry": {
-        "name": "Anuken / Mindustry",
-        "link": "https://github.dev/Anuken/Mindustry",
-        "tags": [
-          "repo",
-          "game",
-          "java"
-        ]
-      },
-      "BrowserQuest": {
-        "name": "BrowserQuest",
-        "link": "https://github.dev/mozilla/BrowserQuest",
-        "tags": [
-          "repo",
-          "game",
-          "js",
-          "multiplayer"
-        ]
-      },
-      "Glide": {
-        "name": "Glide",
-        "link": "https://github.dev/cocoatoucher/Glide",
-        "tags": [
-          "repo",
-          "game-engine",
-          "swift"
-        ]
-      },
-      "Tiled editor": {
-        "name": "Tiled editor",
-        "link": "https://www.mapeditor.org",
-        "tags": [
-          "game",
-          "tool"
-        ]
-      },
-      "LDTK": {
-        "name": "LDTK",
-        "link": "https://ldtk.io/api",
-        "tags": [
-          "repo",
-          "game",
-          "haxe",
-          "tool"
-        ]
-      },
-      "Embark Studios": {
-        "name": "Embark Studios",
-        "link": "https://www.embark-studios.com",
-        "tags": [
-          "game",
-          "rust"
-        ]
-      },
-      "Phaser.io": {
-        "name": "Phaser.io",
-        "link": "https://phaser.io",
-        "tags": [
-          "repo",
-          "game-engine",
-          "js",
-          "pixi"
-        ]
-      },
-      "Pixi": {
-        "name": "Pixi",
-        "link": "https://pixijs.com",
-        "tags": [
-          "pixi",
-          "cg",
-          "js"
-        ]
-      },
-      "LibGDX": {
-        "name": "LibGDX",
-        "link": "https://libgdx.com",
-        "tags": [
-          "repo",
-          "java"
-        ]
-      },
-      "Ange Yaghi": {
-        "name": "Ange Yaghi",
-        "link": "https://github.com/ange-yaghi",
-        "tags": [
-          "repo",
-          "cpp"
-        ]
-      },
-      "Frontend Case Studies": {
-        "name": "Frontend Case Studies",
-        "link": "https://github.com/andrew--r/frontend-case-studies",
-        "tags": [
-          "read",
-          "fe"
-        ]
-      },
-      "Shapez.io": {
-        "name": "Shapez.io",
-        "link": "https://github.com/tobspr/shapez.io",
-        "tags": [
-          "repo",
-          "game"
-        ]
-      },
-      "Scaleway Gihub": {
-        "name": "Scaleway Gihub",
-        "link": "https://github.com/scaleway",
-        "tags": [
-          "repo"
-        ]
-      },
-      "Supabase": {
-        "name": "Supabase",
-        "link": "https://github.com/supabase/supabase",
-        "tags": [
-          "repo"
-        ]
-      },
-      "Vale": {
-        "name": "Vale",
-        "link": "https://vale.sh",
-        "tags": [
-          "tool"
-        ],
-        "comment": "Prose linter"
-      },
-      "Jitsi Meet": {
-        "name": "Jitsi Meet",
-        "link": "https://github.com/jitsi/jitsi-meet",
-        "tags": [
-          "repo",
-          "react",
-          "webrtc"
-        ]
-      },
-      "A guide to unit testing in JavaScript": {
-        "name": "A guide to unit testing in JavaScript",
-        "link": "https://github.com/mawrkus/js-unit-testing-guide#-use-dependency-injection",
-        "tags": [
-          "testing"
-        ]
-      },
-      "Mnemonist": {
-        "name": "Mnemonist",
-        "link": "https://yomguithereal.github.io/mnemonist",
-        "tags": [
-          "ds",
-          "js",
-          "lib"
-        ]
-      },
-      "Ableton Redesign": {
-        "name": "Ableton Redesign",
-        "link": "https://www.behance.net/gallery/53789531/Ableton-Live-Redesign",
-        "tags": [
-          "ui"
-        ]
-      },
-      "Luxe": {
-        "name": "Luxe",
-        "link": "https://dribbble.com/luxu",
-        "tags": [
-          "ui"
-        ]
-      },
-      "My Note Taking moodboard @ Dribbble": {
-        "name": "My Note Taking moodboard @ Dribbble",
-        "link": "https://dribbble.com/alextheartisan/collections/5877426-Note-taking",
-        "tags": [
-          "ui"
-        ]
-      },
-      "Gridsound": {
-        "name": "Gridsound",
-        "link": "https://github.com/gridsound",
-        "tags": [
-          "repo",
-          "midi"
-        ]
-      },
-      "CPP MidiEditor": {
-        "name": "CPP MidiEditor",
-        "link": "https://github.dev/markusschwenk/midieditor",
-        "tags": [
-          "repo",
-          "cpp",
-          "midi"
-        ]
-      },
-      "Kontur.Guides": {
-        "name": "Kontur.Guides",
-        "link": "https://guides.kontur.ru",
-        "tags": [
-          "design-system",
-          "ru"
-        ]
-      },
-      "MyJavaScript": {
-        "name": "MyJavaScript",
-        "link": "https://my-js.org/docs/guide/intro-guide",
-        "tags": [
-          "ru",
-          "guide"
-        ]
-      },
-      "r/proceduralgeneration": {
-        "name": "r/proceduralgeneration",
-        "link": "https://www.reddit.com/r/proceduralgeneration/top/?t=all",
-        "tags": [
-          "vis"
-        ]
-      },
-      "How do you visualize code": {
-        "name": "How do you visualize code",
-        "link": "https://alexanderell.is/posts/visualizing-code/",
-        "tags": [
-          "vis"
-        ]
-      },
-      "infomate.club": {
-        "name": "infomate.club",
-        "link": "https://infomate.club/",
-        "tags": [
-          "index"
-        ]
-      },
-      "Boockstack": {
-        "name": "Boockstack",
-        "link": "https://demo.bookstackapp.com/",
-        "tags": [
-          "book",
-          "ui"
-        ]
       }
     },
     "tags": {
-      "networking": {
-        "id": "networking",
-        "prettyName": "Networking",
-        "vaultLinkCount": 5,
-        "vaultLinks": [
-          "Jethro's Braindump",
-          "High Performance Browser Networking",
-          "Is TLS fast yet?",
-          "The Illustrated TLS Connection",
-          "SSL vs TLS vs SSH"
-        ],
-        "noteCount": 4,
-        "notes": [
-          "HTTP",
-          "Networking",
-          "OSI Model",
-          "Wires"
-        ]
-      },
-      "uml": {
-        "id": "uml",
-        "prettyName": "UML",
+      "graphic": {
+        "id": "graphic",
+        "prettyName": "Graphic",
         "vaultLinkCount": 1,
         "vaultLinks": [
-          "Jethro's Braindump"
+          "Mister Chad"
         ]
       },
-      "ds": {
-        "id": "ds",
-        "prettyName": "Data structures",
-        "vaultLinkCount": 4,
+      "esign": {
+        "id": "esign",
+        "prettyName": "Esign",
+        "vaultLinkCount": 1,
         "vaultLinks": [
-          "Jethro's Braindump",
-          "30 seconds of code",
-          "Algorithms and Data Structures in JavaScript",
-          "Mnemonist"
-        ],
-        "noteCount": 17,
-        "notes": [
-          "Algorithms & Data Structures",
-          "Array",
-          "Binary tree",
-          "Complete graph",
-          "Graph connectivity",
-          "Graph cyclicity",
-          "Graph joining",
-          "Graph orientation",
-          "Graph traversals",
-          "Graph types",
-          "Graph weight",
-          "Graph",
-          "Heap",
-          "Linked List",
-          "List",
-          "Representing graphs",
-          "Tree"
+          "Mister Chad"
         ]
       },
-      "algo": {
-        "id": "algo",
-        "prettyName": "Algorithms",
-        "vaultLinkCount": 16,
+      "learning": {
+        "id": "learning",
+        "prettyName": "Learning",
+        "vaultLinkCount": 2,
         "vaultLinks": [
-          "Jethro's Braindump",
-          "30 seconds of code",
-          "Compression Decompressed",
-          "Big-O Cheat Sheet",
-          "Data Structure Visualizations",
-          "Data Structures Easy to Advanced Course",
-          "Data Structures & Algorithms by CS Dojo",
-          "Big-O Notation",
-          "Asymptotic Notation",
-          "Visualizing Algorithms",
-          "Red Blob Games",
-          "Algorithms and Data Structures in JavaScript",
-          "'habr - search=algorithms'",
-          "Backtracking-Search",
-          "Self-balanced Binary Search Trees with AVL in JavaScript",
-          "DFS at Algorithms and Technologies"
+          "Gordon Brander",
+          "How to do hard things"
         ],
-        "noteCount": 7,
+        "noteCount": 3,
         "notes": [
-          "Algorithm complexity",
-          "Algorithms & Data Structures",
-          "BFS",
-          "Backtracking search",
-          "DFS",
-          "How to solve algorithmic tasks",
-          "Sorting algorithms"
+          "Learning & Note Taking",
+          "Tips for beginner programmers",
+          "Top-down & bottom-up learning approaches"
         ]
       },
-      "linal": {
-        "id": "linal",
-        "prettyName": "Lineal algebra",
-        "vaultLinkCount": 9,
+      "design": {
+        "id": "design",
+        "prettyName": "Design",
+        "vaultLinkCount": 6,
         "vaultLinks": [
-          "Jethro's Braindump",
-          "Linear Algebra PDF",
-          "Interactive Linear Algebra",
-          "Immersive Linear Algebra",
-          "The Applications of Matrices",
-          "Essence of Linear Algebra",
-          "An Intuitive Guide to Linear Algebra",
-          "Linear Algebra",
-          "Visualizing quaternions"
-        ],
-        "noteCount": 22,
-        "notes": [
-          "Affine transformations",
-          "Coordinate space",
-          "Cross product",
-          "Dot product",
-          "Linear algebra",
-          "Linear transformations",
-          "Matrix transposition",
-          "Matrix · Matrix operation",
-          "Matrix · Scalar operation",
-          "Matrix · Vector operation",
-          "Matrix",
-          "Outer product",
-          "Projection",
-          "Reflection",
-          "Rotation",
-          "Scaling",
-          "Shear",
-          "Triple product",
-          "Unit vector",
-          "Vector & Matrix Operations",
-          "Vector · Scalar operation",
-          "Vector"
+          "Maggie Appleton",
+          "Ilya Birman",
+          "Art.Lebedev",
+          "Art.Gorbunov",
+          "Russian Design systems",
+          "Collect UI"
         ]
       },
       "notetaking": {
         "id": "notetaking",
         "prettyName": "Note-taking",
-        "vaultLinkCount": 3,
+        "vaultLinkCount": 1,
         "vaultLinks": [
-          "Jethro's Braindump",
-          "Maggie Appleton",
-          "Luhman's system"
+          "Maggie Appleton"
         ],
         "noteCount": 2,
         "notes": [
@@ -2839,50 +1094,11 @@
           "The way I write these notes"
         ]
       },
-      "db": {
-        "id": "db",
-        "prettyName": "Databases",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Jethro's Braindump"
-        ],
-        "noteCount": 3,
-        "notes": [
-          "Data Access",
-          "Hibernate",
-          "SQL"
-        ]
-      },
-      "zk": {
-        "id": "zk",
-        "prettyName": "Zettelkasten",
-        "vaultLinkCount": 9,
-        "vaultLinks": [
-          "Jethro's Braindump",
-          "Sean Fish exobrain",
-          "beepb00p",
-          "Alexey Shmalko",
-          "Andy Matuschak",
-          "Gwern Branwen",
-          "Joshua's garden",
-          "Alexis Rondeau",
-          "Luhman's system"
-        ],
-        "noteCount": 1,
-        "notes": [
-          "The way I write these notes"
-        ]
-      },
       "ui": {
         "id": "ui",
         "prettyName": "UI",
-        "vaultLinkCount": 40,
+        "vaultLinkCount": 25,
         "vaultLinks": [
-          "Jethro's Braindump",
-          "beepb00p",
-          "Alexey Shmalko",
-          "Gwern Branwen",
-          "Brendan Schlagel",
           "Maggie Appleton",
           "Artem Sapegin",
           "Ilya Birman",
@@ -2907,17 +1123,7 @@
           "Jendrik Poloczek",
           "Wesley’s Notebook",
           "weakty",
-          "Set Partitions",
-          "Bordio",
-          "Targetprocess",
-          "Konux",
-          "Attio",
-          "Vibe Storybook",
-          "Scaleway Storybook",
-          "Ableton Redesign",
-          "Luxe",
-          "My Note Taking moodboard @ Dribbble",
-          "Boockstack"
+          "Set Partitions"
         ],
         "noteCount": 1,
         "notes": [
@@ -2927,91 +1133,17 @@
       "programming": {
         "id": "programming",
         "prettyName": "Programming",
-        "vaultLinkCount": 5,
+        "vaultLinkCount": 3,
         "vaultLinks": [
-          "Sean Fish exobrain",
-          "Alexey Shmalko",
           "Artem Sapegin",
           "weakty",
           "Bad Diode"
         ]
       },
-      "web": {
-        "id": "web",
-        "prettyName": "Web",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Sean Fish exobrain"
-        ]
-      },
-      "python": {
-        "id": "python",
-        "prettyName": "Python",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Sean Fish exobrain"
-        ]
-      },
-      "tufte": {
-        "id": "tufte",
-        "prettyName": "Tufte",
-        "vaultLinkCount": 3,
-        "vaultLinks": [
-          "Gwern Branwen",
-          "Tufte Handout Example",
-          "Wesley’s Notebook"
-        ]
-      },
-      "graphic": {
-        "id": "graphic",
-        "prettyName": "Graphic",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Mister Chad"
-        ]
-      },
-      "esign": {
-        "id": "esign",
-        "prettyName": "Esign",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Mister Chad"
-        ]
-      },
-      "learning": {
-        "id": "learning",
-        "prettyName": "Learning",
-        "vaultLinkCount": 4,
-        "vaultLinks": [
-          "Gordon Brander",
-          "How to do hard things",
-          "SuperMemo Wiki",
-          "Learning Library"
-        ],
-        "noteCount": 3,
-        "notes": [
-          "Learning & Note Taking",
-          "Tips for beginner programmers",
-          "Top-down & bottom-up learning approaches"
-        ]
-      },
-      "design": {
-        "id": "design",
-        "prettyName": "Design",
-        "vaultLinkCount": 6,
-        "vaultLinks": [
-          "Maggie Appleton",
-          "Ilya Birman",
-          "Art.Lebedev",
-          "Art.Gorbunov",
-          "Russian Design systems",
-          "Collect UI"
-        ]
-      },
       "cg": {
         "id": "cg",
         "prettyName": "Computer graphics",
-        "vaultLinkCount": 31,
+        "vaultLinkCount": 7,
         "vaultLinks": [
           "Alain Galvan",
           "Inigo Quilez",
@@ -3019,30 +1151,7 @@
           "Evan Wallace",
           "Bad Diode",
           "Shaders & Cyberpunk",
-          "To design and develop an interactive globe",
-          "open.gl",
-          "Learn OpenGL",
-          "Modern OpenGL Tutorials",
-          "OpenGL Tutorials",
-          "OpenGL",
-          "Tiny Renderer",
-          "Computer Graphics from Scratch",
-          "GPU Gems",
-          "Rendering Pipeline Overview",
-          "Understanding the graphics pipeline",
-          "The Book of Shaders",
-          "Shadertoy",
-          "3D Game Shaders For Beginners",
-          "Stanford",
-          "Science Direct",
-          "What is Tessellation in computer graphics?",
-          "WebGL Online",
-          "WebGL Libraries",
-          "WebGL Insights",
-          "WebGL Resources",
-          "Freeablo",
-          "Discover Three.js",
-          "Pixi"
+          "To design and develop an interactive globe"
         ],
         "noteCount": 27,
         "notes": [
@@ -3078,7 +1187,7 @@
       "ru": {
         "id": "ru",
         "prettyName": "Ru",
-        "vaultLinkCount": 25,
+        "vaultLinkCount": 16,
         "vaultLinks": [
           "Ilya Birman",
           "Art.Lebedev",
@@ -3095,16 +1204,7 @@
           "Doka",
           "Quirks of Stream API",
           "Programming in Java",
-          "Collections",
-          "LargeScaleJS",
-          "JPA Entities",
-          "Organizing files by features and not by technical aspects",
-          "Bash-scripts",
-          "SOLID Book",
-          "Luhman's system",
-          "WebGL Online",
-          "Kontur.Guides",
-          "MyJavaScript"
+          "Collections"
         ],
         "noteCount": 1,
         "notes": [
@@ -3156,10 +1256,9 @@
       "design-system": {
         "id": "design-system",
         "prettyName": "Design-system",
-        "vaultLinkCount": 2,
+        "vaultLinkCount": 1,
         "vaultLinks": [
-          "Blueprint.js",
-          "Kontur.Guides"
+          "Blueprint.js"
         ]
       },
       "dsp": {
@@ -3195,47 +1294,51 @@
           "4 Types of documentation"
         ]
       },
+      "tufte": {
+        "id": "tufte",
+        "prettyName": "Tufte",
+        "vaultLinkCount": 2,
+        "vaultLinks": [
+          "Tufte Handout Example",
+          "Wesley’s Notebook"
+        ]
+      },
       "tool": {
         "id": "tool",
         "prettyName": "Tool",
-        "vaultLinkCount": 8,
+        "vaultLinkCount": 5,
         "vaultLinks": [
           "HTML color codes",
           "Processing",
           "Observable HQ",
           "Same Energy",
-          "Excalidraw",
-          "Tiled editor",
-          "LDTK",
-          "Vale"
+          "Excalidraw"
         ]
       },
       "blog": {
         "id": "blog",
         "prettyName": "Blog",
-        "vaultLinkCount": 5,
+        "vaultLinkCount": 4,
         "vaultLinks": [
           "Szymon Kaliski",
           "De Voorhoede",
           "Figma",
-          "Kamyshev",
           "Julio Biason"
         ]
       },
       "rust": {
         "id": "rust",
         "prettyName": "Rust",
-        "vaultLinkCount": 3,
+        "vaultLinkCount": 2,
         "vaultLinks": [
           "Patrick Monaghan",
-          "weakty",
-          "Embark Studios"
+          "weakty"
         ]
       },
       "js": {
         "id": "js",
         "prettyName": "JavaScript",
-        "vaultLinkCount": 48,
+        "vaultLinkCount": 9,
         "vaultLinks": [
           "30 seconds of code",
           "Streams: The definitive guide",
@@ -3245,45 +1348,7 @@
           "Algorithms and Data Structures in JavaScript",
           "Patterns For Large-Scale JavaScript Application Architecture",
           "What forces layout / reflow",
-          "The Nature of Code",
-          "Make services a natural part of Redux architecture",
-          "Redux - Docs",
-          "Redux - Learning resources",
-          "Style Guide",
-          "React/Redux Links",
-          "Redux is half of a pattern",
-          "Books by Dr. Axel Rauschmayer",
-          "Functional-Light JavaScript",
-          "LargeScaleJS",
-          "Guide to FP in JS",
-          "the-node-way",
-          "An Introduction to libuv",
-          "Mixu's Node book",
-          "Node.js Docs",
-          "Metaprogramming in ES6 Symbols and why they're awesome",
-          "Ecmascript Language Types",
-          "Javascript Garden",
-          "MDN",
-          "Eloquent JavaScript",
-          "Practical Ways to Write Better JavaScript",
-          "Techniques for instantiating classes",
-          "Tackling TypeScript",
-          "Improve how you architect webapps",
-          "Front-End Performance Checklist 2021",
-          "'If Javascript Is Single Threaded, How Is It Asynchronous?'",
-          "What the heck is the event loop anyway",
-          "In The Loop",
-          "Event Loop and the Big Picture",
-          "Stream Handbook",
-          "Node.js Streams - Everything you need to know",
-          "The JavaScript Call Stack",
-          "Node.js Docs - Streams",
-          "Streams - Node’s most powerful and misunderstood feature",
-          "Node.js Streams",
-          "BrowserQuest",
-          "Phaser.io",
-          "Pixi",
-          "Mnemonist"
+          "The Nature of Code"
         ],
         "noteCount": 7,
         "notes": [
@@ -3294,6 +1359,63 @@
           "Node Streams",
           "React",
           "npm"
+        ]
+      },
+      "ds": {
+        "id": "ds",
+        "prettyName": "Data structures",
+        "vaultLinkCount": 2,
+        "vaultLinks": [
+          "30 seconds of code",
+          "Algorithms and Data Structures in JavaScript"
+        ],
+        "noteCount": 17,
+        "notes": [
+          "Algorithms & Data Structures",
+          "Array",
+          "Binary tree",
+          "Complete graph",
+          "Graph connectivity",
+          "Graph cyclicity",
+          "Graph joining",
+          "Graph orientation",
+          "Graph traversals",
+          "Graph types",
+          "Graph weight",
+          "Graph",
+          "Heap",
+          "Linked List",
+          "List",
+          "Representing graphs",
+          "Tree"
+        ]
+      },
+      "algo": {
+        "id": "algo",
+        "prettyName": "Algorithms",
+        "vaultLinkCount": 11,
+        "vaultLinks": [
+          "30 seconds of code",
+          "Compression Decompressed",
+          "Big-O Cheat Sheet",
+          "Data Structures Easy to Advanced Course",
+          "Data Structures & Algorithms by CS Dojo",
+          "Big-O Notation",
+          "Algorithms and Data Structures in JavaScript",
+          "'habr - search=algorithms'",
+          "Backtracking-Search",
+          "Self-balanced Binary Search Trees with AVL in JavaScript",
+          "DFS at Algorithms and Technologies"
+        ],
+        "noteCount": 7,
+        "notes": [
+          "Algorithm complexity",
+          "Algorithms & Data Structures",
+          "BFS",
+          "Backtracking search",
+          "DFS",
+          "How to solve algorithmic tasks",
+          "Sorting algorithms"
         ]
       },
       "compression": {
@@ -3363,31 +1485,13 @@
       "architecture": {
         "id": "architecture",
         "prettyName": "Architecture",
-        "vaultLinkCount": 23,
+        "vaultLinkCount": 5,
         "vaultLinks": [
           "'DDD, Hexagonal, Onion, Clean, CQRS, How I put it all together'",
           "A primer on functional architecture",
           "Game Programming patterns",
           "Where do I put my business logic in a React Redux application",
-          "Patterns For Large-Scale JavaScript Application Architecture",
-          "Make services a natural part of Redux architecture",
-          "LargeScaleJS",
-          "Improve how you architect webapps",
-          "ddd-by-examples",
-          "'Package by feature, not layer'",
-          "Structuring React and Redux applications",
-          "Learning Code Readability",
-          "PBF (Package by Feature), no more PBL (Package by Layer)",
-          "Organizing files by features and not by technical aspects",
-          "Hexagonal architecture",
-          "Spring Boot 2.0 — Project Structure and Best Practices",
-          "Java project package structure guidelines",
-          "The Architecture of Open Source Applications",
-          "Application Architecture Guide 2.0",
-          "'FPB, Software Architecture'",
-          "Command-Query Separation",
-          "SOLID Book",
-          "jitsi-meet"
+          "Patterns For Large-Scale JavaScript Application Architecture"
         ],
         "noteCount": 12,
         "notes": [
@@ -3405,60 +1509,14 @@
           "Software Architecture"
         ]
       },
-      "fe": {
-        "id": "fe",
-        "prettyName": "Frontend",
-        "vaultLinkCount": 14,
-        "vaultLinks": [
-          "Kamyshev",
-          "Front-End Performance Checklist 2021",
-          "Checkbox vs Toggle Switch",
-          "CSS Tricks",
-          "Smashing magazine",
-          "Doka",
-          "Solving Circular Dependencies in Modular Redux",
-          "Ivan Akulov",
-          "The Journey to Isomorphic Rendering Performance",
-          "Requirements for front-end developers",
-          "Making Things Move",
-          "Web Animation Infographics",
-          "MDN Web Performance",
-          "Frontend Case Studies"
-        ],
-        "noteCount": 20,
-        "notes": [
-          "Assets optimizations",
-          "Authentication & Authorization",
-          "Basic JavaScript",
-          "Component, Instance & Element",
-          "Deployment",
-          "Forms",
-          "Frontend Architecture",
-          "Frontend Persistence",
-          "Frontend performance checklist",
-          "Frontend",
-          "How I write frontend",
-          "How I write unit tests",
-          "How browser works",
-          "JavaScript asynchronicity",
-          "JavaScript",
-          "React",
-          "Web Animation",
-          "Web Performance",
-          "Windows & IFrames",
-          "npm"
-        ]
-      },
       "fp": {
         "id": "fp",
         "prettyName": "Functional programming",
-        "vaultLinkCount": 5,
+        "vaultLinkCount": 3,
         "vaultLinks": [
           "A primer on functional architecture",
           "Optional as Return Type",
-          "Functional Exceptions In Java",
-          "Functional-Light JavaScript",
-          "Guide to FP in JS"
+          "Functional Exceptions In Java"
         ],
         "noteCount": 1,
         "notes": [
@@ -3477,9 +1535,8 @@
       "css": {
         "id": "css",
         "prettyName": "CSS",
-        "vaultLinkCount": 7,
+        "vaultLinkCount": 6,
         "vaultLinks": [
-          "Learn CSS Grid",
           "Complete Guide to Flexbox",
           "The 100% correct way to do CSS breakpoints",
           "CSS Modules. Welcome to the Future",
@@ -3529,54 +1586,31 @@
           "Tree"
         ]
       },
-      "math": {
-        "id": "math",
-        "prettyName": "Mathematics",
-        "vaultLinkCount": 8,
-        "vaultLinks": [
-          "Maths is Fun",
-          "The Map of Mathematics",
-          "College Algebra",
-          "Maths for Programmers",
-          "WolframAlpha",
-          "How To Learn Trigonometry Intuitively",
-          "Understanding Mathematics",
-          "Calculus for Beginners and Artists"
-        ],
-        "noteCount": 2,
-        "notes": [
-          "Mathematics",
-          "Statistics"
-        ]
-      },
-      "video": {
-        "id": "video",
-        "prettyName": "Video",
-        "vaultLinkCount": 8,
-        "vaultLinks": [
-          "The Map of Mathematics",
-          "College Algebra",
-          "Maths for Programmers",
-          "The Applications of Matrices",
-          "Essence of Linear Algebra",
-          "Data Structures Easy to Advanced Course",
-          "Data Structures & Algorithms by CS Dojo",
-          "Hexagonal architecture"
-        ]
-      },
       "cs": {
         "id": "cs",
         "prettyName": "Computer science",
-        "vaultLinkCount": 4,
+        "vaultLinkCount": 1,
         "vaultLinks": [
-          "Teach Yourself Computer Science",
-          "'A Self-Learning, Modern Computer Science Curriculum'",
-          "What every computer science major should know",
           "Programming - Introduction"
         ],
         "noteCount": 1,
         "notes": [
           "Software"
+        ]
+      },
+      "networking": {
+        "id": "networking",
+        "prettyName": "Networking",
+        "vaultLinkCount": 1,
+        "vaultLinks": [
+          "High Performance Browser Networking"
+        ],
+        "noteCount": 4,
+        "notes": [
+          "HTTP",
+          "Networking",
+          "OSI Model",
+          "Wires"
         ]
       },
       "combinatorics": {
@@ -3613,32 +1647,58 @@
       "complexity": {
         "id": "complexity",
         "prettyName": "Complexity",
-        "vaultLinkCount": 3,
-        "vaultLinks": [
-          "Big-O Cheat Sheet",
-          "Big-O Notation",
-          "Asymptotic Notation"
-        ]
-      },
-      "auth": {
-        "id": "auth",
-        "prettyName": "Auth",
         "vaultLinkCount": 2,
         "vaultLinks": [
-          "'Auth, Tokens, and JWT'",
-          "Single Sign-On"
-        ],
-        "noteCount": 1,
-        "notes": [
-          "Authentication & Authorization"
+          "Big-O Cheat Sheet",
+          "Big-O Notation"
         ]
       },
-      "jwt": {
-        "id": "jwt",
-        "prettyName": "Jwt",
-        "vaultLinkCount": 1,
+      "video": {
+        "id": "video",
+        "prettyName": "Video",
+        "vaultLinkCount": 2,
         "vaultLinks": [
-          "'Auth, Tokens, and JWT'"
+          "Data Structures Easy to Advanced Course",
+          "Data Structures & Algorithms by CS Dojo"
+        ]
+      },
+      "fe": {
+        "id": "fe",
+        "prettyName": "Frontend",
+        "vaultLinkCount": 9,
+        "vaultLinks": [
+          "Front-End Performance Checklist 2021",
+          "Checkbox vs Toggle Switch",
+          "CSS Tricks",
+          "Smashing magazine",
+          "Doka",
+          "Solving Circular Dependencies in Modular Redux",
+          "Ivan Akulov",
+          "The Journey to Isomorphic Rendering Performance",
+          "Requirements for front-end developers"
+        ],
+        "noteCount": 20,
+        "notes": [
+          "Assets optimizations",
+          "Authentication & Authorization",
+          "Basic JavaScript",
+          "Component, Instance & Element",
+          "Deployment",
+          "Forms",
+          "Frontend Architecture",
+          "Frontend Persistence",
+          "Frontend performance checklist",
+          "Frontend",
+          "How I write frontend",
+          "How I write unit tests",
+          "How browser works",
+          "JavaScript asynchronicity",
+          "JavaScript",
+          "React",
+          "Web Animation",
+          "Web Performance",
+          "Windows & IFrames",
+          "npm"
         ]
       },
       "backtracking": {
@@ -3652,10 +1712,9 @@
       "patterns": {
         "id": "patterns",
         "prettyName": "Patterns",
-        "vaultLinkCount": 2,
+        "vaultLinkCount": 1,
         "vaultLinks": [
-          "Game Programming patterns",
-          "Welcome to the world of Statecharts"
+          "Game Programming patterns"
         ],
         "noteCount": 2,
         "notes": [
@@ -3663,28 +1722,10 @@
           "Game loop"
         ]
       },
-      "eng": {
-        "id": "eng",
-        "prettyName": "English language",
-        "vaultLinkCount": 4,
-        "vaultLinks": [
-          "Vocabulary.com",
-          "Reverso",
-          "Playphrase",
-          "Youglish"
-        ],
-        "noteCount": 4,
-        "notes": [
-          "Common phrases",
-          "English",
-          "Pronouns",
-          "Tenses"
-        ]
-      },
       "java": {
         "id": "java",
         "prettyName": "Java",
-        "vaultLinkCount": 16,
+        "vaultLinkCount": 10,
         "vaultLinks": [
           "Lambda Exceptions",
           "Quirks of Stream API",
@@ -3695,13 +1736,7 @@
           "JUG.ru Youtube Channel",
           "Marco Behler",
           "Java Master",
-          "Collections",
-          "JPA vs JDBC",
-          "JPA Entities",
-          "How To Work With Files In Java",
-          "Mindustry",
-          "Anuken / Mindustry",
-          "LibGDX"
+          "Collections"
         ],
         "noteCount": 14,
         "notes": [
@@ -3724,46 +1759,30 @@
       "redux": {
         "id": "redux",
         "prettyName": "Redux",
-        "vaultLinkCount": 14,
+        "vaultLinkCount": 2,
         "vaultLinks": [
           "Where do I put my business logic in a React Redux application",
-          "Solving Circular Dependencies in Modular Redux",
-          "Make services a natural part of Redux architecture",
-          "Redux - Docs",
-          "Redux - Learning resources",
-          "Style Guide",
-          "React/Redux Links",
-          "Redux is half of a pattern",
-          "jitsi-meet",
-          "bank-client",
-          "fullstack-javascript-architecture",
-          "grafana",
-          "mattermost",
-          "Spectrum.chat"
+          "Solving Circular Dependencies in Modular Redux"
         ]
       },
       "performance": {
         "id": "performance",
         "prettyName": "Performance",
-        "vaultLinkCount": 4,
+        "vaultLinkCount": 2,
         "vaultLinks": [
           "Ivan Akulov",
-          "The Journey to Isomorphic Rendering Performance",
-          "Front-End Performance Checklist 2021",
-          "MDN Web Performance"
+          "The Journey to Isomorphic Rendering Performance"
         ]
       },
       "git": {
         "id": "git",
         "prettyName": "Git",
-        "vaultLinkCount": 6,
+        "vaultLinkCount": 4,
         "vaultLinks": [
           "A Hacker's Guide to Git",
           "A Visual Git Reference",
           "Conversational Git",
-          "Git from the Bottom Up",
-          "Git Immersion",
-          "simple-git-hooks"
+          "Git from the Bottom Up"
         ],
         "noteCount": 2,
         "notes": [
@@ -3802,309 +1821,9 @@
           "HTTP Specification"
         ]
       },
-      "react": {
-        "id": "react",
-        "prettyName": "React",
-        "vaultLinkCount": 22,
-        "vaultLinks": [
-          "React/Redux Links",
-          "Improve how you architect webapps",
-          "jitsi-meet",
-          "bank-client",
-          "fullstack-javascript-architecture",
-          "grafana",
-          "deck.gl",
-          "mattermost",
-          "peppermint",
-          "tinacms",
-          "erxes",
-          "joust",
-          "Artsy / Force",
-          "tldraw",
-          "Excalidraw",
-          "Grafana",
-          "Erxes",
-          "CoralProject",
-          "Spectrum.chat",
-          "PayloadCMS",
-          "Amplication",
-          "Jitsi Meet"
-        ],
-        "noteCount": 3,
-        "notes": [
-          "Component, Instance & Element",
-          "Events",
-          "React"
-        ]
-      },
-      "node": {
-        "id": "node",
-        "prettyName": "Node",
-        "vaultLinkCount": 5,
-        "vaultLinks": [
-          "the-node-way",
-          "An Introduction to libuv",
-          "Mixu's Node book",
-          "Node.js Docs",
-          "NodeJS logging made right"
-        ]
-      },
-      "libuv": {
-        "id": "libuv",
-        "prettyName": "Libuv",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "An Introduction to libuv"
-        ]
-      },
-      "book": {
-        "id": "book",
-        "prettyName": "Book",
-        "vaultLinkCount": 4,
-        "vaultLinks": [
-          "An Introduction to libuv",
-          "Mixu's Node book",
-          "Eloquent JavaScript",
-          "Boockstack"
-        ]
-      },
-      "logging": {
-        "id": "logging",
-        "prettyName": "Logging",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "NodeJS logging made right"
-        ]
-      },
-      "ts": {
-        "id": "ts",
-        "prettyName": "Ts",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Tackling TypeScript"
-        ]
-      },
-      "event-loop": {
-        "id": "event-loop",
-        "prettyName": "Event-loop",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "In The Loop",
-          "Event Loop and the Big Picture"
-        ]
-      },
-      "trigonometry": {
-        "id": "trigonometry",
-        "prettyName": "Trigonometry",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "How To Learn Trigonometry Intuitively"
-        ]
-      },
-      "calculus": {
-        "id": "calculus",
-        "prettyName": "Calculus",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Calculus for Beginners and Artists"
-        ]
-      },
-      "node-streams": {
-        "id": "node-streams",
-        "prettyName": "Node-streams",
-        "vaultLinkCount": 7,
-        "vaultLinks": [
-          "Stream Handbook",
-          "Node.js Streams - Everything you need to know",
-          "The JavaScript Call Stack",
-          "Node.js Docs - Streams",
-          "Streams - Node’s most powerful and misunderstood feature",
-          "Node.js Streams"
-        ]
-      },
-      "ddd": {
-        "id": "ddd",
-        "prettyName": "Ddd",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "ddd-by-examples"
-        ]
-      },
-      "opengl": {
-        "id": "opengl",
-        "prettyName": "Opengl",
-        "vaultLinkCount": 6,
-        "vaultLinks": [
-          "open.gl",
-          "Learn OpenGL",
-          "Modern OpenGL Tutorials",
-          "OpenGL Tutorials",
-          "OpenGL",
-          "Tiny Renderer"
-        ],
-        "noteCount": 1,
-        "notes": [
-          "OpenGL"
-        ]
-      },
-      "os": {
-        "id": "os",
-        "prettyName": "Operating system",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Jethro OS",
-          "Some OS notes"
-        ],
-        "noteCount": 4,
-        "notes": [
-          "Files",
-          "Operating System",
-          "Processes",
-          "Threads"
-        ]
-      },
-      "pbm": {
-        "id": "pbm",
-        "prettyName": "Package-By-Module",
-        "vaultLinkCount": 6,
-        "vaultLinks": [
-          "'Package by feature, not layer'",
-          "Structuring React and Redux applications",
-          "Learning Code Readability",
-          "PBF (Package by Feature), no more PBL (Package by Layer)",
-          "Organizing files by features and not by technical aspects",
-          "Hexagonal architecture"
-        ],
-        "noteCount": 2,
-        "notes": [
-          "Package by feature not layer",
-          "Screaming Architecture"
-        ]
-      },
-      "file-structure": {
-        "id": "file-structure",
-        "prettyName": "File structure",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Spring Boot 2.0 — Project Structure and Best Practices",
-          "Java project package structure guidelines"
-        ],
-        "noteCount": 3,
-        "notes": [
-          "Directory structure",
-          "Project structure",
-          "Screaming Architecture"
-        ]
-      },
-      "hardware": {
-        "id": "hardware",
-        "prettyName": "Hardware",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Pointers and Memory"
-        ],
-        "noteCount": 3,
-        "notes": [
-          "CPU",
-          "GPU",
-          "RAM"
-        ]
-      },
-      "io": {
-        "id": "io",
-        "prettyName": "Io",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "How To Work With Files In Java"
-        ],
-        "noteCount": 1,
-        "notes": [
-          "Reading and writing files in Java"
-        ]
-      },
-      "rest": {
-        "id": "rest",
-        "prettyName": "REST",
-        "vaultLinkCount": 5,
-        "vaultLinks": [
-          "What is REST",
-          "Guide to Spring Boot REST API Error Handling",
-          "'JSON:API'",
-          "Design Guidelines",
-          "Zalando RESTful API and Event Guidelines"
-        ],
-        "noteCount": 1,
-        "notes": [
-          "REST API"
-        ]
-      },
-      "spring-boot": {
-        "id": "spring-boot",
-        "prettyName": "Spring-boot",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Guide to Spring Boot REST API Error Handling"
-        ]
-      },
-      "shaders": {
-        "id": "shaders",
-        "prettyName": "Shaders",
-        "vaultLinkCount": 3,
-        "vaultLinks": [
-          "The Book of Shaders",
-          "Shadertoy",
-          "3D Game Shaders For Beginners"
-        ]
-      },
-      "shell": {
-        "id": "shell",
-        "prettyName": "Shell",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Bash-scripts"
-        ]
-      },
-      "cqrs": {
-        "id": "cqrs",
-        "prettyName": "Cqrs",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Command-Query Separation"
-        ]
-      },
-      "solid": {
-        "id": "solid",
-        "prettyName": "Solid",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "SOLID Book"
-        ]
-      },
-      "subdivision": {
-        "id": "subdivision",
-        "prettyName": "Subdivision",
-        "vaultLinkCount": 3,
-        "vaultLinks": [
-          "Stanford",
-          "Science Direct",
-          "What is Tessellation in computer graphics?"
-        ],
-        "noteCount": 2,
-        "notes": [
-          "Subdivision",
-          "Tessellation"
-        ]
-      },
       "thought": {
         "id": "thought",
         "prettyName": "Thoughts",
-        "vaultLinkCount": 4,
-        "vaultLinks": [
-          "Acronyms Seriously Suck",
-          "No hello",
-          "XY problem",
-          "Don't ask to ask"
-        ],
         "noteCount": 4,
         "notes": [
           "'I have no time' real meaning",
@@ -4113,420 +1832,41 @@
           "Two things I do when joining a new team"
         ]
       },
-      "unix": {
-        "id": "unix",
-        "prettyName": "Unix",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "UNIX Tutorial for Beginners",
-          "An Introduction to the Command-Line (on Unix-like systems)"
-        ]
-      },
-      "animation": {
-        "id": "animation",
-        "prettyName": "Animation",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Making Things Move",
-          "Web Animation Infographics"
-        ]
-      },
-      "fe,animation": {
-        "id": "fe,animation",
-        "prettyName": "Fe,animation",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Easing functions"
-        ]
-      },
-      "webgl": {
-        "id": "webgl",
-        "prettyName": "WebGL",
-        "vaultLinkCount": 6,
-        "vaultLinks": [
-          "Alain Galvan",
-          "WebGL Online",
-          "WebGL Libraries",
-          "WebGL Insights",
-          "WebGL Resources",
-          "deck.gl"
+      "linal": {
+        "id": "linal",
+        "prettyName": "Lineal algebra",
+        "noteCount": 22,
+        "notes": [
+          "Affine transformations",
+          "Coordinate space",
+          "Cross product",
+          "Dot product",
+          "Linear algebra",
+          "Linear transformations",
+          "Matrix transposition",
+          "Matrix · Matrix operation",
+          "Matrix · Scalar operation",
+          "Matrix · Vector operation",
+          "Matrix",
+          "Outer product",
+          "Projection",
+          "Reflection",
+          "Rotation",
+          "Scaling",
+          "Shear",
+          "Triple product",
+          "Unit vector",
+          "Vector & Matrix Operations",
+          "Vector · Scalar operation",
+          "Vector"
         ]
       },
       "agile": {
         "id": "agile",
         "prettyName": "Agile",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "One Hacker Way"
-        ],
         "noteCount": 1,
         "notes": [
           "Agile Development"
-        ]
-      },
-      "repo": {
-        "id": "repo",
-        "prettyName": "Repo",
-        "vaultLinkCount": 38,
-        "vaultLinks": [
-          "openscope",
-          "delaford",
-          "jitsi-meet",
-          "bank-client",
-          "fullstack-javascript-architecture",
-          "grafana",
-          "deck.gl",
-          "strapi",
-          "directus",
-          "mattermost",
-          "peppermint",
-          "tinacms",
-          "erxes",
-          "joust",
-          "Mindustry",
-          "Freeablo",
-          "Artsy / Force",
-          "tldraw",
-          "Excalidraw",
-          "Grafana",
-          "Erxes",
-          "CoralProject",
-          "Spectrum.chat",
-          "PayloadCMS",
-          "Amplication",
-          "Anuken / Mindustry",
-          "BrowserQuest",
-          "Glide",
-          "LDTK",
-          "Phaser.io",
-          "LibGDX",
-          "Ange Yaghi",
-          "Shapez.io",
-          "Scaleway Gihub",
-          "Supabase",
-          "Jitsi Meet",
-          "Gridsound",
-          "CPP MidiEditor"
-        ]
-      },
-      "jquery": {
-        "id": "jquery",
-        "prettyName": "Jquery",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "openscope"
-        ]
-      },
-      "game": {
-        "id": "game",
-        "prettyName": "Game",
-        "vaultLinkCount": 10,
-        "vaultLinks": [
-          "openscope",
-          "delaford",
-          "Mindustry",
-          "Freeablo",
-          "Anuken / Mindustry",
-          "BrowserQuest",
-          "Tiled editor",
-          "LDTK",
-          "Embark Studios",
-          "Shapez.io"
-        ]
-      },
-      "vue": {
-        "id": "vue",
-        "prettyName": "Vue",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "delaford",
-          "directus"
-        ]
-      },
-      "vis": {
-        "id": "vis",
-        "prettyName": "Vis",
-        "vaultLinkCount": 3,
-        "vaultLinks": [
-          "deck.gl",
-          "r/proceduralgeneration",
-          "How do you visualize code"
-        ]
-      },
-      "koa": {
-        "id": "koa",
-        "prettyName": "Koa",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "strapi"
-        ]
-      },
-      "query": {
-        "id": "query",
-        "prettyName": "Query",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "peppermint"
-        ]
-      },
-      "next": {
-        "id": "next",
-        "prettyName": "Next",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "peppermint",
-          "tinacms"
-        ]
-      },
-      "apollo": {
-        "id": "apollo",
-        "prettyName": "Apollo",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "erxes",
-          "Spectrum.chat"
-        ]
-      },
-      "gradle": {
-        "id": "gradle",
-        "prettyName": "Gradle",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Mindustry"
-        ]
-      },
-      "case": {
-        "id": "case",
-        "prettyName": "Case",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Konux"
-        ]
-      },
-      "three": {
-        "id": "three",
-        "prettyName": "Three",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Discover Three.js",
-          "Drei Storybook"
-        ]
-      },
-      "storybook": {
-        "id": "storybook",
-        "prettyName": "Storybook",
-        "vaultLinkCount": 8,
-        "vaultLinks": [
-          "Drei Storybook",
-          "Grafana Storybook",
-          "Gamut Storybook",
-          "Vibe Storybook",
-          "Toptal Storybook",
-          "Scaleway Storybook",
-          "Orbit Storybook",
-          "Carbon Storybook"
-        ]
-      },
-      "graphql": {
-        "id": "graphql",
-        "prettyName": "GraphQL",
-        "vaultLinkCount": 4,
-        "vaultLinks": [
-          "Artsy / Force",
-          "CoralProject",
-          "Spectrum.chat",
-          "PayloadCMS"
-        ]
-      },
-      "relay": {
-        "id": "relay",
-        "prettyName": "Relay",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Artsy / Force",
-          "CoralProject"
-        ]
-      },
-      "canvas": {
-        "id": "canvas",
-        "prettyName": "Canvas",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "tldraw",
-          "Excalidraw"
-        ]
-      },
-      "monorepo": {
-        "id": "monorepo",
-        "prettyName": "Monorepo",
-        "vaultLinkCount": 3,
-        "vaultLinks": [
-          "tldraw",
-          "Grafana",
-          "Erxes"
-        ]
-      },
-      "styled-components": {
-        "id": "styled-components",
-        "prettyName": "Styled-components",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Erxes",
-          "Spectrum.chat"
-        ]
-      },
-      "passport": {
-        "id": "passport",
-        "prettyName": "Passport",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Spectrum.chat",
-          "PayloadCMS"
-        ]
-      },
-      "date-fns": {
-        "id": "date-fns",
-        "prettyName": "Date-fns",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "PayloadCMS"
-        ]
-      },
-      "joi": {
-        "id": "joi",
-        "prettyName": "Joi",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "PayloadCMS"
-        ]
-      },
-      "jest": {
-        "id": "jest",
-        "prettyName": "Jest",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "PayloadCMS"
-        ]
-      },
-      "nestjs": {
-        "id": "nestjs",
-        "prettyName": "Nestjs",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Amplication"
-        ]
-      },
-      "multiplayer": {
-        "id": "multiplayer",
-        "prettyName": "Multiplayer",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "BrowserQuest"
-        ]
-      },
-      "game-engine": {
-        "id": "game-engine",
-        "prettyName": "Game-engine",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Glide",
-          "Phaser.io"
-        ]
-      },
-      "swift": {
-        "id": "swift",
-        "prettyName": "Swift",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Glide"
-        ]
-      },
-      "haxe": {
-        "id": "haxe",
-        "prettyName": "Haxe",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "LDTK"
-        ]
-      },
-      "pixi": {
-        "id": "pixi",
-        "prettyName": "Pixi",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Phaser.io",
-          "Pixi"
-        ]
-      },
-      "cpp": {
-        "id": "cpp",
-        "prettyName": "C++",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Ange Yaghi",
-          "CPP MidiEditor"
-        ]
-      },
-      "read": {
-        "id": "read",
-        "prettyName": "Read",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Frontend Case Studies"
-        ]
-      },
-      "webrtc": {
-        "id": "webrtc",
-        "prettyName": "Webrtc",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Jitsi Meet"
-        ]
-      },
-      "testing": {
-        "id": "testing",
-        "prettyName": "Testing",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "A guide to unit testing in JavaScript"
-        ]
-      },
-      "lib": {
-        "id": "lib",
-        "prettyName": "Lib",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "Mnemonist"
-        ]
-      },
-      "midi": {
-        "id": "midi",
-        "prettyName": "MIDI",
-        "vaultLinkCount": 2,
-        "vaultLinks": [
-          "Gridsound",
-          "CPP MidiEditor"
-        ]
-      },
-      "guide": {
-        "id": "guide",
-        "prettyName": "Guides",
-        "vaultLinkCount": 1,
-        "vaultLinks": [
-          "MyJavaScript"
-        ],
-        "noteCount": 10,
-        "notes": [
-          "Common Sense Style Guide",
-          "How I create a CI pipeline",
-          "How I name files",
-          "How I name projects",
-          "How I name variables",
-          "How I write frontend",
-          "How I write guides",
-          "How I write unit tests",
-          "How I write useful notes",
-          "Tips for beginner programmers"
         ]
       },
       "devops": {
@@ -4550,6 +1890,14 @@
           "Geometry"
         ]
       },
+      "auth": {
+        "id": "auth",
+        "prettyName": "Auth",
+        "noteCount": 1,
+        "notes": [
+          "Authentication & Authorization"
+        ]
+      },
       "curves": {
         "id": "curves",
         "prettyName": "Curves",
@@ -4557,6 +1905,16 @@
         "notes": [
           "Bezier curves",
           "Splines"
+        ]
+      },
+      "hardware": {
+        "id": "hardware",
+        "prettyName": "Hardware",
+        "noteCount": 3,
+        "notes": [
+          "CPU",
+          "GPU",
+          "RAM"
         ]
       },
       "csharp": {
@@ -4602,6 +1960,54 @@
           "Thoughts & Scratches"
         ]
       },
+      "guide": {
+        "id": "guide",
+        "prettyName": "Guides",
+        "noteCount": 10,
+        "notes": [
+          "Common Sense Style Guide",
+          "How I create a CI pipeline",
+          "How I name files",
+          "How I name projects",
+          "How I name variables",
+          "How I write frontend",
+          "How I write guides",
+          "How I write unit tests",
+          "How I write useful notes",
+          "Tips for beginner programmers"
+        ]
+      },
+      "eng": {
+        "id": "eng",
+        "prettyName": "English language",
+        "noteCount": 4,
+        "notes": [
+          "Common phrases",
+          "English",
+          "Pronouns",
+          "Tenses"
+        ]
+      },
+      "react": {
+        "id": "react",
+        "prettyName": "React",
+        "noteCount": 3,
+        "notes": [
+          "Component, Instance & Element",
+          "Events",
+          "React"
+        ]
+      },
+      "db": {
+        "id": "db",
+        "prettyName": "Databases",
+        "noteCount": 3,
+        "notes": [
+          "Data Access",
+          "Hibernate",
+          "SQL"
+        ]
+      },
       "spring": {
         "id": "spring",
         "prettyName": "Spring",
@@ -4614,6 +2020,27 @@
           "Spring Framework",
           "Spring MVC",
           "Spring"
+        ]
+      },
+      "file-structure": {
+        "id": "file-structure",
+        "prettyName": "File structure",
+        "noteCount": 3,
+        "notes": [
+          "Directory structure",
+          "Project structure",
+          "Screaming Architecture"
+        ]
+      },
+      "os": {
+        "id": "os",
+        "prettyName": "Operating system",
+        "noteCount": 4,
+        "notes": [
+          "Files",
+          "Operating System",
+          "Processes",
+          "Threads"
         ]
       },
       "grapqhl": {
@@ -4635,6 +2062,32 @@
           "Three books for every developer"
         ]
       },
+      "math": {
+        "id": "math",
+        "prettyName": "Mathematics",
+        "noteCount": 2,
+        "notes": [
+          "Mathematics",
+          "Statistics"
+        ]
+      },
+      "opengl": {
+        "id": "opengl",
+        "prettyName": "Opengl",
+        "noteCount": 1,
+        "notes": [
+          "OpenGL"
+        ]
+      },
+      "pbm": {
+        "id": "pbm",
+        "prettyName": "Package-By-Module",
+        "noteCount": 2,
+        "notes": [
+          "Package by feature not layer",
+          "Screaming Architecture"
+        ]
+      },
       "probability": {
         "id": "probability",
         "prettyName": "Probability",
@@ -4644,12 +2097,45 @@
           "Probability"
         ]
       },
+      "rest": {
+        "id": "rest",
+        "prettyName": "REST",
+        "noteCount": 1,
+        "notes": [
+          "REST API"
+        ]
+      },
+      "io": {
+        "id": "io",
+        "prettyName": "Io",
+        "noteCount": 1,
+        "notes": [
+          "Reading and writing files in Java"
+        ]
+      },
       "sound": {
         "id": "sound",
         "prettyName": "Sound",
         "noteCount": 1,
         "notes": [
           "Sound"
+        ]
+      },
+      "subdivision": {
+        "id": "subdivision",
+        "prettyName": "Subdivision",
+        "noteCount": 2,
+        "notes": [
+          "Subdivision",
+          "Tessellation"
+        ]
+      },
+      "zk": {
+        "id": "zk",
+        "prettyName": "Zettelkasten",
+        "noteCount": 1,
+        "notes": [
+          "The way I write these notes"
         ]
       },
       "ws": {
