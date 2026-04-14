@@ -154,3 +154,12 @@
 ::marker {
     content: "- ";
 }
+
+mark {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    /*border-bottom: 2px solid darkgray;*/
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: darkgray;
+}
