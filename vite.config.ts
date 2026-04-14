@@ -14,7 +14,6 @@ function persistence() {
         if (req.method !== "POST") return;
 
         const id = new URLSearchParams(req._parsedUrl.search).get("id");
-
         let body = "";
         req.on("data", (chunk: any) => (body += chunk));
         req.on("end", async () => {
@@ -28,6 +27,7 @@ function persistence() {
       server.middlewares.use("/api/load", async (req: any, res: any) => {
         console.log("Loading...");
         const id = new URLSearchParams(req._parsedUrl.search).get("id");
+        console.log(id);
 
         try {
           const filePath = join(process.cwd(), "public/data", `${id}.json`);

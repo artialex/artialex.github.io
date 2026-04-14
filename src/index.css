@@ -1,5 +1,6 @@
 @import "./styles/colors.css";
 @import "./styles/fonts.css";
+@import "./styles/code.css";
 
 :root {
     --text: #6b6375;
@@ -83,13 +84,12 @@
 @font-face {
     font-family: tldraw_draw;
     font-style: italic;
-    src: url("/fonts/MorningBreeze-Italic.otf");
+    src: url("/fonts/MorningBreeze-Light.otf");
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-weight: 400;
-
     src: url("/fonts/MorningBreeze-Light.otf");
 }
 
@@ -130,6 +130,7 @@
         :where(b, strong) {
             font-family: var(--playpen-font);
             font-weight: 500;
+            font-size: 90%;
         }
     }
 
@@ -138,8 +139,18 @@
         font-size: 150%;
     }
 
+    i,
+    em {
+        font-weight: 300;
+        font-style: italic;
+        font-family: "Morning Breeze Light";
+    }
     h2 {
         font-weight: 600;
         font-size: 125%;
     }
+}
+
+::marker {
+    content: "- ";
 }

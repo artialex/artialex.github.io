@@ -10,23 +10,31 @@ import {
   throttle,
 } from "tldraw";
 import "tldraw/tldraw.css";
+import defaultSnapshot from "../public/data/defaultSnapshot.json";
 
 const assetUrls: TldrawProps["assetUrls"] = {
   fonts: {
-    tldraw_draw: "/MorningBreeze-Light.otf",
-    tldraw_draw_italic: "/MorningBreeze-Italic.otf",
-    tldraw_draw_bold: "/PlaypenSans-Bold.ttf",
+    tldraw_draw: "/fonts/MorningBreeze-Light.otf",
+    tldraw_draw_italic: "/fonts/MorningBreeze-Light.otf",
+    tldraw_draw_bold: "/fonts/PlaypenSans-Bold.ttf",
 
-    tldraw_sans: "/YsabeauOffice-Regular.ttf",
-    tldraw_sans_bold: "/YsabeauOffice-SemiBold.ttf",
-    tldraw_sans_italic: "/YsabeauOffice-Regular.ttf",
-    tldraw_sans_italic_bold: "/YsabeauOffice-Regular.ttf",
+    // tldraw_sans: "/YsabeauOffice-Regular.ttf",
+    // tldraw_sans_bold: "/YsabeauOffice-SemiBold.ttf",
+    // tldraw_sans_italic: "/YsabeauOffice-Regular.ttf",
+    // tldraw_sans_italic_bold: "/YsabeauOffice-Regular.ttf",
+    //
+    tldraw_mono: "/fonts/Anonymous Pro Minus.ttf",
+    tldraw_mono_italic: "/fonts/Anonymous Pro Minus I.ttf",
+    tldraw_mono_bold: "/fonts/Anonymous Pro Minus B.ttf",
+    tldraw_mono_italic_bold: "/fonts/Anonymous Pro Minus BI.ttf",
   },
 };
 
 FONT_SIZES.m = 25;
 
 STROKE_SIZES.m = 3;
+
+// DefaultColorThemePalette.lightMode.grey.solid = "lightgray";
 
 DefaultColorThemePalette.darkMode["light-violet"].solid = "violet";
 DefaultColorThemePalette.darkMode.violet.solid = "hotpink";
@@ -44,17 +52,32 @@ DefaultColorThemePalette.darkMode.red.solid = "lightsalmon";
 
 DefaultColorThemePalette.darkMode.grey.solid = "dimgray";
 
-const id = location.pathname.replaceAll("/", "_");
+const id =
+  location.pathname === "/" ? "_index" : location.pathname.replaceAll("/", "_");
+
+const dict: Record<string, string> = {
+  _javascript: "JavaScript",
+  "_operating-systems": "Operating Systems",
+  "_algorithms-n-data-structures": "Algorithms & Data Structures",
+  "_computer-hardware-n-architecture": "Computer Hardware & Architecture",
+  _pkm: "PKM",
+  _index: "Pensieve",
+};
 
 export const App = () => {
   const [snapshot, setSnapshot] = useState(null);
 
   useEffect(() => {
     console.log(id);
+
     fetch(`/data/${id}.json`)
       .then((r) => r.json())
       .then((snapshot) => {
+        console.log(snapshot);
         setSnapshot(snapshot);
+      })
+      .catch(() => {
+        setSnapshot(defaultSnapshot);
       });
   }, []);
 
@@ -67,29 +90,35 @@ export const App = () => {
         assetUrls={assetUrls}
         onMount={(editor) => {
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
+
+          // Handle title
           const page = editor.getCurrentPage();
           const title = page?.name;
-          document.title = title;
+          document.title = dict[id] + " • " + title;
 
+          // Make stuff reaonly in PROD
           if (import.meta.env.PROD) {
             editor.updateInstanceState({ isReadonly: true });
           }
 
-          editor.store.listen(
-            throttle(() => {
-              const snapshot = getSnapshot(editor.store);
+          // Auto-save in DEV
+          if (import.meta.env.DEV) {
+            editor.store.listen(
+              throttle(() => {
+                const snapshot = getSnapshot(editor.store);
 
-              fetch(`/api/save?id=${id}`, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(snapshot),
-              });
-            }, 1000),
-            {
-              source: "user",
-              scope: "document",
-            },
-          );
+                fetch(`/api/save?id=${id}`, {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify(snapshot),
+                });
+              }, 1000),
+              {
+                source: "user",
+                scope: "document",
+              },
+            );
+          }
         }}
       />
     </div>
