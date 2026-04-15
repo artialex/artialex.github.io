@@ -9,7 +9,7 @@ function persistence() {
     name: "persistence",
     configureServer(server: any) {
       server.middlewares.use("/api/save", async (req: any, res: any) => {
-        console.log("Saving...");
+        // console.log("Saving...");
 
         if (req.method !== "POST") return;
 
@@ -25,9 +25,9 @@ function persistence() {
       });
 
       server.middlewares.use("/api/load", async (req: any, res: any) => {
-        console.log("Loading...");
+        // console.log("Loading...");
         const id = new URLSearchParams(req._parsedUrl.search).get("id");
-        console.log(id);
+        // console.log(id);
 
         try {
           const filePath = join(process.cwd(), "public/data", `${id}.json`);

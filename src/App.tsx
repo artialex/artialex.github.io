@@ -11,7 +11,7 @@ import {
   type TLEditorSnapshot,
 } from "tldraw";
 import "tldraw/tldraw.css";
-import defaultSnapshot from "../public/data/defaultSnapshot.json";
+import defaultSnapshot from "./defaultSnapshot.json";
 
 const assetUrls: TldrawProps["assetUrls"] = {
   fonts: {
@@ -73,13 +73,8 @@ export const App = () => {
 
   useEffect(() => {
     fetch(`/data/${id}.json`)
-      .then((r) => {
-        console.log(r);
-
-        return r.json();
-      })
+      .then((r) => r.json())
       .then((snapshot) => {
-        console.log(snapshot);
         setSnapshot(snapshot);
       })
       .catch((err) => {
@@ -110,6 +105,8 @@ export const App = () => {
           // Make stuff read-only in PROD
           if (import.meta.env.PROD) {
             editor.updateInstanceState({ isReadonly: true });
+
+            editor.zoomToFit();
           }
 
           // Auto-save in DEV
