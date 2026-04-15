@@ -94,7 +94,7 @@ export const App = () => {
   return (
     <div style={{ position: "fixed", inset: 0 }}>
       <Tldraw
-        // deepLinks
+        deepLinks
         snapshot={snapshot}
         persistenceKey={id}
         assetUrls={assetUrls}
