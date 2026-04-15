@@ -123,7 +123,7 @@ export const App = () => {
                   headers: { "Content-Type": "application/json" },
                   body: JSON.stringify(snapshot),
                 });
-              }, 1000),
+              }, 5000),
               {
                 source: "user",
                 scope: "document",
