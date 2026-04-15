@@ -147,7 +147,7 @@
 
 ul {
     ::marker {
-        /*content: "- ";*/
+        content: "- ";
     }
 }
 
