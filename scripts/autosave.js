@@ -1,3 +1,17 @@
-import { exec } from "node:child_process";
+import { execSync } from "node:child_process";
 
-exec('git diff --quiet || git commit -am "autosave"', () => {});
+const AUTOSAVE_INTERVAL = 1000 * 60 * 5; // 5 minutes
+
+setInterval(() => {
+  try {
+    execSync("git add -A", { stdio: "ignore" });
+
+    // check if there are changes
+    execSync("git diff --quiet && git diff --cached --quiet");
+  } catch {
+    // changes exist → commit
+    execSync(`git commit -m "auto-save ${new Date().toISOString()}"`, {
+      stdio: "ignore",
+    });
+  }
+}, AUTOSAVE_INTERVAL);
