@@ -69,6 +69,7 @@ const dict: Record<string, string> = {
 
 export const App = () => {
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
+  const [loadedWithError, setLoadedWithError] = useState(false);
 
   useEffect(() => {
     fetch(`/data/${id}.json`)
@@ -84,6 +85,7 @@ export const App = () => {
       .catch((err) => {
         console.log(err);
         setSnapshot(defaultSnapshot as unknown as TLEditorSnapshot);
+        setLoadedWithError(true);
       });
   }, []);
 
@@ -94,6 +96,7 @@ export const App = () => {
       <Tldraw
         // deepLinks
         snapshot={snapshot}
+        persistenceKey={id}
         assetUrls={assetUrls}
         onMount={(editor) => {
           // QoL features
@@ -110,7 +113,7 @@ export const App = () => {
           }
 
           // Auto-save in DEV
-          if (import.meta.env.DEV) {
+          if (import.meta.env.DEV && !loadedWithError) {
             editor.store.listen(
               throttle(() => {
                 const snapshot = getSnapshot(editor.store);
