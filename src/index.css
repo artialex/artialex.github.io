@@ -118,15 +118,9 @@
     h3 {
         font-family: var(--nerko-font), NerkoRussianFallback;
         font-weight: normal;
-        margin-bottom: 0.25rem;
-        line-height: 100%;
     }
 
     p {
-        margin: 0;
-        padding: 0;
-        line-height: 120%;
-
         :where(b, strong) {
             font-family: var(--playpen-font);
             font-weight: 500;
@@ -151,8 +145,10 @@
     }
 }
 
-::marker {
-    content: "- ";
+ul {
+    ::marker {
+        /*content: "- ";*/
+    }
 }
 
 mark {

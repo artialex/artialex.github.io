@@ -8,6 +8,7 @@ import {
   STROKE_SIZES,
   getSnapshot,
   throttle,
+  type TLEditorSnapshot,
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "../public/data/defaultSnapshot.json";
@@ -32,7 +33,7 @@ const assetUrls: TldrawProps["assetUrls"] = {
 
 FONT_SIZES.m = 25;
 
-STROKE_SIZES.m = 3;
+STROKE_SIZES.m = 2;
 
 // DefaultColorThemePalette.lightMode.grey.solid = "lightgray";
 
@@ -55,6 +56,8 @@ DefaultColorThemePalette.darkMode.grey.solid = "dimgray";
 const id =
   location.pathname === "/" ? "_index" : location.pathname.replaceAll("/", "_");
 
+console.log(id);
+
 const dict: Record<string, string> = {
   _javascript: "JavaScript",
   "_operating-systems": "Operating Systems",
@@ -65,19 +68,22 @@ const dict: Record<string, string> = {
 };
 
 export const App = () => {
-  const [snapshot, setSnapshot] = useState(null);
+  const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
 
   useEffect(() => {
-    console.log(id);
-
     fetch(`/data/${id}.json`)
-      .then((r) => r.json())
+      .then((r) => {
+        console.log(r);
+
+        return r.json();
+      })
       .then((snapshot) => {
         console.log(snapshot);
         setSnapshot(snapshot);
       })
-      .catch(() => {
-        setSnapshot(defaultSnapshot);
+      .catch((err) => {
+        console.log(err);
+        setSnapshot(defaultSnapshot as unknown as TLEditorSnapshot);
       });
   }, []);
 
@@ -86,9 +92,11 @@ export const App = () => {
   return (
     <div style={{ position: "fixed", inset: 0 }}>
       <Tldraw
+        // deepLinks
         snapshot={snapshot}
         assetUrls={assetUrls}
         onMount={(editor) => {
+          // QoL features
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
 
           // Handle title
@@ -96,7 +104,7 @@ export const App = () => {
           const title = page?.name;
           document.title = dict[id] + " • " + title;
 
-          // Make stuff reaonly in PROD
+          // Make stuff read-only in PROD
           if (import.meta.env.PROD) {
             editor.updateInstanceState({ isReadonly: true });
           }
