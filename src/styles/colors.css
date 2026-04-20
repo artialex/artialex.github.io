@@ -1,3 +1,8 @@
+:root {
+  --internal-link-color: plum;
+  --external-link-color: tomato;
+}
+
 :where(h1, h2, h3, h4) {
   color: var(--primary-color);
 }
