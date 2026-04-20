@@ -16,65 +16,8 @@ import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
 
 import Link from "@tiptap/extension-link";
-import { Editor } from "@tiptap/core";
+import { StarterKit } from "@tiptap/starter-kit";
 
-function normalizeHref(href: string) {
-  const value = href.trim();
-
-  if (!value) return value;
-
-  // keep local app routes untouched
-  if (value.startsWith("/")) return value;
-
-  // optional: keep anchors/mailto/tel untouched too
-  if (
-    value.startsWith("#") ||
-    value.startsWith("mailto:") ||
-    value.startsWith("tel:")
-  ) {
-    return value;
-  }
-
-  // if protocol already exists, keep it
-  if (/^[a-zA-Z][a-zA-Z\d+\-.]*:/.test(value)) {
-    return value;
-  }
-
-  // default external behavior
-  return `https://${value}`;
-}
-
-const CustomLink = Link.configure({
-  openOnClick: false,
-  autolink: true,
-  isAllowedUri: (url, ctx) => {
-    if (url.startsWith("/")) return true;
-    return ctx.defaultValidate(url);
-  },
-}).extend({
-  addCommands() {
-    return {
-      ...this.parent?.(),
-      setLink:
-        (attributes) =>
-        ({ commands }) => {
-          const href = normalizeHref(attributes.href ?? "");
-          return commands.setMark(this.name, { ...attributes, href });
-        },
-    };
-  },
-});
-
-const options = {
-  text: {
-    tipTapConfig: {
-      extensions: tipTapDefaultExtensions.map((ext) => {
-        const name = (ext as any)?.config?.name;
-        return name === "link" ? CustomLink : ext;
-      }),
-    },
-  },
-};
 const assetUrls: TldrawProps["assetUrls"] = {
   fonts: {
     tldraw_draw: "/fonts/MorningBreeze-Light.otf",
@@ -168,7 +111,11 @@ export const App = () => {
     <div style={{ position: "fixed", inset: 0 }}>
       <Tldraw
         deepLinks
-        options={options}
+        textOptions={{
+          tipTapConfig: {
+            extensions: [...tipTapDefaultExtensions, StarterKit],
+          },
+        }}
         snapshot={snapshot}
         assetUrls={assetUrls}
         onUiEvent={(name) => {
