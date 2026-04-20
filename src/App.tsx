@@ -9,14 +9,13 @@ import {
   debounce,
   type TLEditorSnapshot,
   Tldraw,
-  defaultAddFontsFromNode,
+  Editor,
   tipTapDefaultExtensions,
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
 
 import Link from "@tiptap/extension-link";
-import { StarterKit } from "@tiptap/starter-kit";
 
 const assetUrls: TldrawProps["assetUrls"] = {
   fonts: {
