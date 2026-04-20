@@ -102,6 +102,12 @@
     size-adjust: 80%;
 }
 
+@font-face {
+    font-family: tldraw_mono;
+    src: url("/fonts/fantasquesansmono-regular.otf");
+    size-adjust: 85%;
+}
+
 [data-font="sans"] {
     h1 {
         font-family: "Lilita One";
@@ -171,4 +177,8 @@ a {
     text-decoration-style: dashed !important;
     text-decoration-thickness: 1px !important;
     text-underline-offset: 4px !important;
+}
+
+code {
+    background-color: rgb(from currentColor, r g b 0.2);
 }
