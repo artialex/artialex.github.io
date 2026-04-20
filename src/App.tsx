@@ -117,10 +117,12 @@ export const App = () => {
               ...tipTapDefaultExtensions,
               Link.configure({
                 defaultProtocol: "",
+                autolink: false,
                 isAllowedUri: (url, ctx) => {
                   console.log(url, ctx);
+                  if (url.startsWith("/")) return true;
 
-                  return url.startsWith("/") || ctx.defaultValidate(url);
+                  return ctx.defaultValidate(url);
                 },
               }),
             ],
