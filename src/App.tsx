@@ -8,6 +8,7 @@ import {
   STROKE_SIZES,
   getSnapshot,
   throttle,
+  debounce,
   type TLEditorSnapshot,
 } from "tldraw";
 import "tldraw/tldraw.css";
@@ -118,7 +119,7 @@ export const App = () => {
           // Auto-save in DEV
           if (import.meta.env.DEV && !loadedWithError) {
             editor.store.listen(
-              throttle(() => {
+              debounce(() => {
                 const snapshot = getSnapshot(editor.store);
 
                 fetch(`/api/save?id=${id}`, {
