@@ -115,14 +115,17 @@ export const App = () => {
           tipTapConfig: {
             extensions: [
               ...tipTapDefaultExtensions,
-              Link.configure({
-                defaultProtocol: "",
-                autolink: false,
-                isAllowedUri: (url, ctx) => {
-                  console.log(url, ctx);
-                  if (url.startsWith("/")) return true;
-
-                  return ctx.defaultValidate(url);
+              Link.extend({
+                renderHTML({ HTMLAttributes }) {
+                  const href = HTMLAttributes.href ?? "";
+                  return [
+                    "a",
+                    {
+                      ...HTMLAttributes,
+                      href: href.startsWith("/") ? href : HTMLAttributes.href,
+                    },
+                    0,
+                  ];
                 },
               }),
             ],
