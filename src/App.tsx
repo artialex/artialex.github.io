@@ -99,6 +99,7 @@ export const App = () => {
         deepLinks
         snapshot={snapshot}
         assetUrls={assetUrls}
+        // on
         onMount={(editor) => {
           // QoL features
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
@@ -114,6 +115,10 @@ export const App = () => {
 
             editor.zoomToFit();
           }
+
+          editor.store.listen((entry) => {
+            console.log(entry);
+          });
 
           // Auto-save in DEV
           if (import.meta.env.DEV && !loadedWithError) {
