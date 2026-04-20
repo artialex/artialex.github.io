@@ -180,5 +180,6 @@ a {
 }
 
 code {
-    background-color: rgb(from currentColor, r g b 0.2);
+    background-color: rgb(from currentColor r g b / 10%);
+    border-radius: 4px;
 }
