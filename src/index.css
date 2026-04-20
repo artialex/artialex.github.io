@@ -122,17 +122,39 @@
     }
 }
 
-[data-font="draw"] {
+[data-font="mono"] {
+    h1 {
+        font-weight: 800;
+        font-size: 150%;
+        font-family: var(--playpen-sans-font);
+    }
+    h2 {
+        font-weight: 600;
+        font-size: 125%;
+        font-family: var(--playpen-sans-font);
+    }
     h3 {
         font-family: var(--nerko-font), NerkoRussianFallback;
         font-weight: normal;
     }
-
+    i,
+    em {
+        font-weight: var(--morning-breeze-font);
+    }
+}
+[data-font="draw"] {
     h1 {
         font-weight: 800;
         font-size: 150%;
     }
-
+    h2 {
+        font-weight: 600;
+        font-size: 125%;
+    }
+    h3 {
+        font-family: var(--nerko-font), NerkoRussianFallback;
+        font-weight: normal;
+    }
     p {
         font-family: var(--morning-breeze-font);
 
@@ -150,10 +172,10 @@
             font-family: var(--morning-breeze-font);
         }
     }
-
-    h2 {
-        font-weight: 600;
-        font-size: 125%;
+    code {
+        background-color: rgb(from currentColor r g b / 10%);
+        border-radius: 4px;
+        padding: 0 1px;
     }
 }
 
@@ -177,10 +199,4 @@ a {
     text-decoration-style: dashed !important;
     text-decoration-thickness: 1px !important;
     text-underline-offset: 4px !important;
-}
-
-code {
-    background-color: rgb(from currentColor r g b / 10%);
-    border-radius: 4px;
-    padding: 0 1px;
 }

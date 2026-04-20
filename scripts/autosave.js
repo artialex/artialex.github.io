@@ -9,8 +9,11 @@ setInterval(() => {
     // check if there are changes
     execSync("git diff --quiet && git diff --cached --quiet");
   } catch {
+    const timestring = new Date().toISOString();
+    console.log(`Autosaved: ${timestring}`);
+
     // changes exist → commit
-    execSync(`git commit -m "auto-save ${new Date().toISOString()}"`, {
+    execSync(`git commit -m "auto-save ${timestring}"`, {
       stdio: "ignore",
     });
   }
