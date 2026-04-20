@@ -113,7 +113,16 @@ export const App = () => {
         deepLinks
         textOptions={{
           tipTapConfig: {
-            extensions: [...tipTapDefaultExtensions, StarterKit],
+            extensions: [
+              ...tipTapDefaultExtensions.slice(1),
+              StarterKit.configure({
+                link: {
+                  defaultProtocol: "",
+                  isAllowedUri: (url, ctx) =>
+                    ctx.defaultValidate(url) || url.startsWith("/"),
+                },
+              }),
+            ],
           },
         }}
         snapshot={snapshot}
