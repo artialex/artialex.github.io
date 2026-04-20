@@ -116,6 +116,7 @@ export const App = () => {
         }}
         onMount={(editor) => {
           setEditor(editor);
+
           // QoL features
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
 
