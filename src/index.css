@@ -84,6 +84,7 @@
 @font-face {
     font-family: tldraw_draw;
     font-style: italic;
+    font-weight: 400;
     src: url("/fonts/MorningBreeze-Light.otf");
 }
 
@@ -120,27 +121,27 @@
         font-weight: normal;
     }
 
-    p {
-        font-family: var(--morning-breeze-font);
-
-        :where(b, strong) {
-            font-family: var(--playpen-font);
-            font-weight: 500;
-            font-size: 90%;
-        }
-    }
-
     h1 {
         font-weight: 800;
         font-size: 150%;
     }
 
-    i,
-    em {
-        font-weight: 300;
-        font-style: italic;
-        font-family: var(--morning-breeze-font);
+    p {
+        b,
+        strong {
+            font-family: var(--playpen-font);
+            font-weight: 500;
+            font-size: 90%;
+        }
+
+        i,
+        em {
+            font-weight: 200;
+            font-style: italic;
+            font-family: "Morning Breeze Light";
+        }
     }
+
     h2 {
         font-weight: 600;
         font-size: 125%;
