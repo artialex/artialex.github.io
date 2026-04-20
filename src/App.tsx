@@ -33,7 +33,7 @@ const assetUrls: TldrawProps["assetUrls"] = {
 
 FONT_SIZES.m = 25;
 
-STROKE_SIZES.m = 2;
+STROKE_SIZES.m = 3;
 
 // DefaultColorThemePalette.lightMode.grey.solid = "lightgray";
 
@@ -55,8 +55,6 @@ DefaultColorThemePalette.darkMode.grey.solid = "dimgray";
 
 const id =
   location.pathname === "/" ? "_index" : location.pathname.replaceAll("/", "_");
-
-console.log(id);
 
 const dict: Record<string, string> = {
   _javascript: "JavaScript",
