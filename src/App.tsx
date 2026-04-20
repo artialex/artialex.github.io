@@ -16,7 +16,7 @@ import defaultSnapshot from "./defaultSnapshot.json";
 const assetUrls: TldrawProps["assetUrls"] = {
   fonts: {
     tldraw_draw: "/fonts/MorningBreeze-Light.otf",
-    // tldraw_draw_italic: "/fonts/MorningBreeze-Light.otf",
+    tldraw_draw_italic: "/fonts/MorningBreeze-Light.otf",
     tldraw_draw_bold: "/fonts/PlaypenSans-Bold.ttf",
 
     // tldraw_sans: "/YsabeauOffice-Regular.ttf",

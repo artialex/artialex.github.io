@@ -83,14 +83,15 @@
 
 @font-face {
     font-family: tldraw_draw;
+    font-style: 400;
     font-style: italic;
-    font-weight: 400;
     src: url("/fonts/MorningBreeze-Light.otf");
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-weight: 400;
+    font-style: normal;
     src: url("/fonts/MorningBreeze-Light.otf");
 }
 
@@ -114,7 +115,12 @@
     h2 {
         font-family: "Cuprum";
     }
+
+    p {
+        font-family: "Ysabeau Office";
+    }
 }
+
 [data-font="draw"] {
     h3 {
         font-family: var(--nerko-font), NerkoRussianFallback;
@@ -136,9 +142,9 @@
 
         i,
         em {
-            font-weight: 200;
-            font-style: italic;
-            font-family: "Morning Breeze Light";
+            font-weight: 300;
+            font-style: italic !important;
+            font-family: var(--morning-breeze-font);
         }
     }
 
