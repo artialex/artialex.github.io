@@ -69,7 +69,7 @@ const dict: Record<string, string> = {
   "_algorithms-n-data-structures": "Algorithms & Data Structures",
   "_computer-hardware-n-architecture": "Computer Hardware & Architecture",
   _pkm: "PKM",
-  _index: "Pensieve",
+  _index: "ArtiAlex's Pensieve",
 };
 
 export const App = () => {
