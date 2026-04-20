@@ -7,7 +7,6 @@ import {
   FONT_SIZES,
   STROKE_SIZES,
   getSnapshot,
-  throttle,
   debounce,
   type TLEditorSnapshot,
 } from "tldraw";
