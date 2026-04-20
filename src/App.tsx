@@ -85,6 +85,20 @@ function setTitle(editor: Editor) {
   document.title = dict[id] + " • " + title;
 }
 
+const CustomLink = Link.extend({
+  renderHTML({ HTMLAttributes }) {
+    const href = HTMLAttributes.href ?? "";
+    return [
+      "a",
+      {
+        ...HTMLAttributes,
+        href: href.startsWith("/") ? href : HTMLAttributes.href,
+      },
+      0,
+    ];
+  },
+});
+
 export const App = () => {
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
@@ -107,6 +121,13 @@ export const App = () => {
 
   if (!snapshot) return null;
 
+  // console.log(tipTapDefaultExtensions);
+  const extensions = tipTapDefaultExtensions.filter(
+    (_) => !(_.type === "mark" && _.name === "link"),
+  );
+
+  console.log(extensions);
+
   return (
     <div style={{ position: "fixed", inset: 0 }}>
       <Tldraw
@@ -114,18 +135,12 @@ export const App = () => {
         textOptions={{
           tipTapConfig: {
             extensions: [
-              ...tipTapDefaultExtensions,
-              Link.extend({
-                renderHTML({ HTMLAttributes }) {
-                  const href = HTMLAttributes.href ?? "";
-                  return [
-                    "a",
-                    {
-                      ...HTMLAttributes,
-                      href: href.startsWith("/") ? href : HTMLAttributes.href,
-                    },
-                    0,
-                  ];
+              ...extensions,
+              CustomLink.configure({
+                autolink: false,
+                isAllowedUri: (url, ctx) => {
+                  if (url.startsWith("/")) return true;
+                  return ctx.defaultValidate(url);
                 },
               }),
             ],
