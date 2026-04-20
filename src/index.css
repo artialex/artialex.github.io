@@ -139,8 +139,12 @@
     }
     i,
     em {
-        font-weight: var(--morning-breeze-font);
+        font-family: var(--morning-breeze-font);
     }
+    code {
+        font-family: var(---mono-font);
+    }
+    tab-size: 4;
 }
 [data-font="draw"] {
     h1 {
@@ -175,7 +179,7 @@
     code {
         background-color: rgb(from currentColor r g b / 10%);
         border-radius: 4px;
-        padding: 0 1px;
+        /*padding: 0 1px;*/
     }
 }
 
