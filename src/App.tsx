@@ -35,7 +35,7 @@ FONT_SIZES.m = 25;
 
 STROKE_SIZES.m = 3;
 
-// DefaultColorThemePalette.lightMode.grey.solid = "lightgray";
+DefaultColorThemePalette.lightMode.grey.solid = "darkgray";
 
 DefaultColorThemePalette.darkMode["light-violet"].solid = "violet";
 DefaultColorThemePalette.darkMode.violet.solid = "hotpink";

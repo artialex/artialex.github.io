@@ -102,11 +102,6 @@
     size-adjust: 80%;
 }
 
-:root {
-    --playpen-font: "Playpen Sans";
-    --nerko-font: "Nerko One";
-}
-
 [data-font="sans"] {
     h1 {
         font-family: "Lilita One";
@@ -133,9 +128,11 @@
     }
 
     p {
+        font-family: var(--morning-breeze-font);
+
         b,
         strong {
-            font-family: var(--playpen-font);
+            font-family: var(--playpen-sans-font);
             font-weight: 500;
             font-size: 90%;
         }
