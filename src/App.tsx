@@ -9,6 +9,7 @@ import {
   getSnapshot,
   debounce,
   type TLEditorSnapshot,
+  Editor,
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
@@ -74,7 +75,14 @@ const dict: Record<string, string> = {
   _management: "Management",
 };
 
+function setTitle(editor: Editor) {
+  const page = editor.getCurrentPage();
+  const title = page?.name;
+  document.title = dict[id] + " • " + title;
+}
+
 export const App = () => {
+  const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
   const [loadedWithError, setLoadedWithError] = useState(false);
 
@@ -91,6 +99,8 @@ export const App = () => {
       });
   }, []);
 
+  // const editor = useEditor();
+
   if (!snapshot) return null;
 
   return (
@@ -99,23 +109,18 @@ export const App = () => {
         deepLinks
         snapshot={snapshot}
         assetUrls={assetUrls}
-        onUiEvent={(name, data, editor) => {
-          if (name === "change-page") {
-            console.log(name, data, editor);
-
-            // const page = editor.getCurrentPage();
-            // const title = page?.name;
-            // document.title = dict[id] + " • " + title;
+        onUiEvent={(name) => {
+          if (name === "change-page" && editor) {
+            setTitle(editor);
           }
         }}
         onMount={(editor) => {
+          setEditor(editor);
           // QoL features
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
 
           // Handle title
-          const page = editor.getCurrentPage();
-          const title = page?.name;
-          document.title = dict[id] + " • " + title;
+          setTitle(editor);
 
           // Make stuff read-only in PROD
           if (import.meta.env.PROD) {
