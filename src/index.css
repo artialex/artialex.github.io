@@ -203,4 +203,8 @@ a {
     text-decoration-style: dashed !important;
     text-decoration-thickness: 1px !important;
     text-underline-offset: 4px !important;
+
+    &[href~="/"] {
+        color: red !important;
+    }
 }

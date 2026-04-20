@@ -87,12 +87,14 @@ function setTitle(editor: Editor) {
 
 const CustomLink = Link.extend({
   renderHTML({ HTMLAttributes }) {
+    console.log(HTMLAttributes);
+
     const href = HTMLAttributes.href ?? "";
     return [
       "a",
       {
         ...HTMLAttributes,
-        href: href.startsWith("/") ? href : HTMLAttributes.href,
+        href: href.includes("///") ? href.replace("https://", "") : href,
       },
       0,
     ];
