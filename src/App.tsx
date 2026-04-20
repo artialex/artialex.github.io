@@ -71,6 +71,7 @@ const dict: Record<string, string> = {
   _pkm: "PKM",
   _index: "ArtiAlex's Pensieve",
   _random: "Random",
+  _management: "Management",
 };
 
 export const App = () => {
