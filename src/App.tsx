@@ -114,12 +114,13 @@ export const App = () => {
         textOptions={{
           tipTapConfig: {
             extensions: [
-              ...tipTapDefaultExtensions.slice(1),
-              StarterKit.configure({
-                link: {
-                  defaultProtocol: "",
-                  isAllowedUri: (url, ctx) =>
-                    ctx.defaultValidate(url) || url.startsWith("/"),
+              ...tipTapDefaultExtensions,
+              Link.configure({
+                defaultProtocol: "",
+                isAllowedUri: (url, ctx) => {
+                  console.log(url, ctx);
+
+                  return url.startsWith("/") || ctx.defaultValidate(url);
                 },
               }),
             ],
