@@ -70,6 +70,7 @@ const dict: Record<string, string> = {
   "_computer-hardware-n-architecture": "Computer Hardware & Architecture",
   _pkm: "PKM",
   _index: "ArtiAlex's Pensieve",
+  _random: "Random",
 };
 
 export const App = () => {
@@ -96,7 +97,6 @@ export const App = () => {
       <Tldraw
         deepLinks
         snapshot={snapshot}
-        persistenceKey={id}
         assetUrls={assetUrls}
         onMount={(editor) => {
           // QoL features

@@ -9,11 +9,10 @@ function persistence() {
     name: "persistence",
     configureServer(server: any) {
       server.middlewares.use("/api/save", async (req: any, res: any) => {
-        // console.log("Saving...");
-
         if (req.method !== "POST") return;
 
         const id = new URLSearchParams(req._parsedUrl.search).get("id");
+        // console.log("Saving...", id);
         let body = "";
         req.on("data", (chunk: any) => (body += chunk));
         req.on("end", async () => {
