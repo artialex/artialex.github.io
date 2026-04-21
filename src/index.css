@@ -184,8 +184,16 @@
 }
 
 ul {
+    padding-left: 0 !important;
+
     ::marker {
-        content: "- ";
+        content: "·  ";
+        font-size: 65%;
+        /*justify-content: center;*/
+        background-color: red;
+        width: 5px;
+        height: 5px;
+        /*display: block;*/
     }
 }
 
