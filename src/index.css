@@ -186,14 +186,16 @@
 ul {
     padding-left: 0 !important;
 
+    ul {
+        padding-left: 2rem !important;
+        ul {
+            padding-left: 4rem !important;
+        }
+    }
+
     ::marker {
         content: "·  ";
-        font-size: 65%;
-        /*justify-content: center;*/
-        background-color: red;
-        width: 5px;
-        height: 5px;
-        /*display: block;*/
+        font-size: 70%;
     }
 }
 

@@ -77,7 +77,7 @@ const dict: Record<string, string> = {
   _random: "Random",
   _management: "Management",
   _cg: "Computer Graphics",
-  _web: "Web Development",
+  _web: "Web Dev",
   _css: "CSS",
 };
 
