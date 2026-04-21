@@ -78,6 +78,7 @@ const dict: Record<string, string> = {
   _management: "Management",
   _cg: "Computer Graphics",
   _web: "Web Development",
+  _css: "CSS",
 };
 
 function setTitle(editor: Editor) {
