@@ -76,6 +76,7 @@ const dict: Record<string, string> = {
   _index: "ArtiAlex's Pensieve",
   _random: "Random",
   _management: "Management",
+  _cg: "Computer Graphics",
 };
 
 function setTitle(editor: Editor) {
@@ -118,16 +119,11 @@ export const App = () => {
       });
   }, []);
 
-  // const editor = useEditor();
-
   if (!snapshot) return null;
 
-  // console.log(tipTapDefaultExtensions);
   const extensions = tipTapDefaultExtensions.filter(
     (_) => !(_.type === "mark" && _.name === "link"),
   );
-
-  console.log(extensions);
 
   return (
     <div style={{ position: "fixed", inset: 0 }}>
