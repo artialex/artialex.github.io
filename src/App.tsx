@@ -77,6 +77,7 @@ const dict: Record<string, string> = {
   _random: "Random",
   _management: "Management",
   _cg: "Computer Graphics",
+  _web: "Web Development",
 };
 
 function setTitle(editor: Editor) {
