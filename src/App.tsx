@@ -202,6 +202,17 @@ export const App = () => {
             }
           }
 
+          if (import.meta.env.PROD) {
+            const style = document.createElement("style");
+            style.textContent = `
+              /* HACK to fix list height when skipping some pages */
+              [data-testid="page-menu.list"] {
+                  height: 100% !important;
+              }
+            `;
+            document.head.appendChild(style);
+          }
+
           // QoL features
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
 

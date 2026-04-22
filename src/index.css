@@ -154,9 +154,12 @@
     h2 {
         font-weight: 600;
         font-size: 125%;
+        position: relative;
+        display: inline-block;
+
         &::before {
             content: "";
-            bottom: 10%;
+            bottom: 0%;
             left: 10%;
             right: 10%;
             width: 80%;
@@ -236,9 +239,4 @@ h3 code {
     font-size: 78%;
     font-weight: bold;
     background-color: transparent !important;
-}
-
-/* HACK to fix list height when skipping some pages */
-[data-testid="page-menu.list"] {
-    height: 100% !important;
 }
