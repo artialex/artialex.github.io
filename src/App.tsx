@@ -13,6 +13,7 @@ import {
   tipTapDefaultExtensions,
 } from "tldraw";
 import "tldraw/tldraw.css";
+import { annotate, annotationGroup } from "rough-notation";
 import defaultSnapshot from "./defaultSnapshot.json";
 
 import Link from "@tiptap/extension-link";
@@ -168,6 +169,17 @@ export const App = () => {
 
             editor.zoomToFit();
           }
+
+          setTimeout(() => {
+            // rough notation
+            const headings = annotate(document.querySelector("h2")!, {
+              type: "underline",
+            });
+
+            console.log(headings);
+
+            annotationGroup([headings]).show();
+          }, 2000);
 
           // Auto-save in DEV
           if (import.meta.env.DEV && !loadedWithError) {
