@@ -87,6 +87,7 @@ const dict: Record<string, string> = {
   _chemistry: "Chemistry",
   _physics: "Physics",
   _gamedev: "Game Development",
+  _ai: "ML & AI",
 };
 
 function setTitle(editor: Editor) {
