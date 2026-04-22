@@ -154,6 +154,7 @@
     h2 {
         font-weight: 600;
         font-size: 125%;
+        border-bottom: 2px solid red;
     }
     h3 {
         font-family: var(--nerko-font), NerkoRussianFallback;
