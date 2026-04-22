@@ -152,6 +152,8 @@ export const App = () => {
         snapshot={snapshot}
         assetUrls={assetUrls}
         onUiEvent={(name) => {
+          console.log(name);
+
           if (name === "change-page" && editor) {
             setTitle(editor);
           }
@@ -188,13 +190,20 @@ export const App = () => {
             if (page.name.includes("❌")) {
               const style = document.createElement("style");
               style.textContent = `
-                [data-pageid="${page.id}""] {
+                [data-pageid="${page.id}"] {
                   color: red !important;
+                  display: none;
                 }
               `;
               document.head.appendChild(style);
             }
           }
+
+          const el = document.querySelector('[data-testid="page-menu.list"]');
+
+          console.log(el);
+
+          el?.removeAttribute("style");
 
           // QoL features
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");

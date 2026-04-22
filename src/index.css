@@ -238,3 +238,7 @@ h3 code {
     font-weight: bold;
     background-color: transparent !important;
 }
+
+[data-testid="page-menu.list"] {
+    height: 100% !important;
+}
