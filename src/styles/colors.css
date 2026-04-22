@@ -1,6 +1,7 @@
 :root {
     --internal-link-color: dodgerblue;
     --external-link-color: darkviolet;
+    --small-text-color: dimgray;
 }
 
 :where(h1, h2, h3, h4) {
