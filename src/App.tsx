@@ -65,7 +65,7 @@ DefaultColorThemePalette.darkMode["light-green"].solid = "mediumseagreen";
 DefaultColorThemePalette.darkMode["light-red"].solid = "crimson";
 DefaultColorThemePalette.darkMode.red.solid = "lightsalmon";
 
-DefaultColorThemePalette.darkMode.grey.solid = "dimgray";
+DefaultColorThemePalette.darkMode.grey.solid = "#64748b";
 
 const id =
   location.pathname === "/" ? "_index" : location.pathname.replaceAll("/", "_");
