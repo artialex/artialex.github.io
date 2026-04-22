@@ -180,9 +180,21 @@ export const App = () => {
         onMount={(editor) => {
           setEditor(editor);
 
+          // hide some pages
           const pages = editor.getPages();
-
           console.log(pages);
+
+          for (const page of pages) {
+            if (page.name.includes("❌")) {
+              const style = document.createElement("style");
+              style.textContent = `
+                [data-pageid="${page.id}""] {
+                  color: red !important;
+                }
+              `;
+              document.head.appendChild(style);
+            }
+          }
 
           // QoL features
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
