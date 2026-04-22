@@ -156,11 +156,6 @@ export const App = () => {
             setTitle(editor);
           }
         }}
-        components={{
-          PageMenu: () => {
-            return <DefaultPageMenu />;
-          },
-        }}
         // components={{
         //   PageMenu: () => {
         //     const editor = useEditor();
@@ -184,6 +179,10 @@ export const App = () => {
         // }}
         onMount={(editor) => {
           setEditor(editor);
+
+          const pages = editor.getPages();
+
+          console.log(pages);
 
           // QoL features
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
