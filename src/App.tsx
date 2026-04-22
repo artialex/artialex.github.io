@@ -107,6 +107,10 @@ const CustomLink = Link.extend({
   },
 });
 
+function hasEmoji(s: string) {
+  return /\p{Extended_Pictographic}/u.test(s);
+}
+
 export const App = () => {
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
@@ -187,23 +191,16 @@ export const App = () => {
           console.log(pages);
 
           for (const page of pages) {
-            if (page.name.includes("❌")) {
+            if (!hasEmoji(page.name)) {
               const style = document.createElement("style");
               style.textContent = `
                 [data-pageid="${page.id}"] {
-                  color: red !important;
-                  display: none;
+                  ${import.meta.env.DEV ? "opacity: 0.5;" : "display: none;"}
                 }
               `;
               document.head.appendChild(style);
             }
           }
-
-          const el = document.querySelector('[data-testid="page-menu.list"]');
-
-          console.log(el);
-
-          el?.removeAttribute("style");
 
           // QoL features
           editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
