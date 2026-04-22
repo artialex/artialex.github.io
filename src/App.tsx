@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import {
   DefaultColorThemePalette,
   DefaultTextAlignStyle,
+  DefaultPageMenu,
   type TldrawProps,
   FONT_SIZES,
   STROKE_SIZES,
@@ -157,25 +158,30 @@ export const App = () => {
         }}
         components={{
           PageMenu: () => {
-            const editor = useEditor();
-            const pages = useValue("pages", () => editor.getPages(), [editor]);
-
-            const visiblePages = pages;
-
-            return (
-              <div>
-                {visiblePages.map((page) => (
-                  <button
-                    key={page.id}
-                    onClick={() => editor.setCurrentPage(page.id)}
-                  >
-                    {page.name}
-                  </button>
-                ))}
-              </div>
-            );
+            return <DefaultPageMenu />;
           },
         }}
+        // components={{
+        //   PageMenu: () => {
+        //     const editor = useEditor();
+        //     const pages = useValue("pages", () => editor.getPages(), [editor]);
+
+        //     const visiblePages = pages;
+
+        //     return (
+        //       <div>
+        //         {visiblePages.map((page) => (
+        //           <button
+        //             key={page.id}
+        //             onClick={() => editor.setCurrentPage(page.id)}
+        //           >
+        //             {page.name}
+        //           </button>
+        //         ))}
+        //       </div>
+        //     );
+        //   },
+        // }}
         onMount={(editor) => {
           setEditor(editor);
 
