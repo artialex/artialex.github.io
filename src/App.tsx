@@ -83,6 +83,7 @@ const dict: Record<string, string> = {
   _web: "Web Dev",
   _css: "CSS",
   _algebra: "Algebra",
+  _trigonometry: "Trigonometry",
 };
 
 function setTitle(editor: Editor) {
