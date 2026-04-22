@@ -154,6 +154,19 @@
     h2 {
         font-weight: 600;
         font-size: 125%;
+        &::before {
+            content: "";
+            bottom: 10%;
+            left: 10%;
+            right: 10%;
+            width: 80%;
+            height: 50%;
+            background: rgb(from currentColor r g b / 15%);
+            display: block;
+            position: absolute;
+            border-radius: 50%;
+            z-index: -1;
+        }
     }
     h3 {
         font-family: var(--nerko-font), NerkoRussianFallback;
