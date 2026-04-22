@@ -172,13 +172,15 @@ export const App = () => {
 
           setTimeout(() => {
             // rough notation
-            const headings = annotate(document.querySelector("h2")!, {
-              type: "underline",
-            });
+            const headings = annotate(
+              document.querySelector(".tl-rich-text h2")!,
+              { type: "highlight", animate: false },
+            );
 
             console.log(headings);
+            headings.show();
 
-            annotationGroup([headings]).show();
+            // annotationGroup([headings]).show();
           }, 2000);
 
           // Auto-save in DEV
