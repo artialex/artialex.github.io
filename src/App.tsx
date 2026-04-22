@@ -11,6 +11,8 @@ import {
   Tldraw,
   Editor,
   tipTapDefaultExtensions,
+  useEditor,
+  useValue,
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
@@ -152,6 +154,27 @@ export const App = () => {
           if (name === "change-page" && editor) {
             setTitle(editor);
           }
+        }}
+        components={{
+          PageMenu: () => {
+            const editor = useEditor();
+            const pages = useValue("pages", () => editor.getPages(), [editor]);
+
+            const visiblePages = pages;
+
+            return (
+              <div>
+                {visiblePages.map((page) => (
+                  <button
+                    key={page.id}
+                    onClick={() => editor.setCurrentPage(page.id)}
+                  >
+                    {page.name}
+                  </button>
+                ))}
+              </div>
+            );
+          },
         }}
         onMount={(editor) => {
           setEditor(editor);
