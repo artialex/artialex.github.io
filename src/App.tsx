@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import {
   DefaultColorThemePalette,
   DefaultTextAlignStyle,
-  DefaultPageMenu,
   type TldrawProps,
   FONT_SIZES,
   STROKE_SIZES,
@@ -12,8 +11,6 @@ import {
   Tldraw,
   Editor,
   tipTapDefaultExtensions,
-  useEditor,
-  useValue,
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
@@ -90,6 +87,8 @@ const dict: Record<string, string> = {
   _ai: "ML & AI",
   _devops: "DevOps",
   _cs: "Computer Science",
+  _programming: "Programming",
+  _swe: "Software Engineering",
 };
 
 function setTitle(editor: Editor) {
