@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Lavishly Yours
+- Font Title: Nerko One
 - Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/lavishlyyours/v6/jizDREVIvGwH5OjiZmX9r5z_WxUY0TY7ikbI.ttf
+- Font Source: https://fonts.gstatic.com/s/nerkoone/v16/m8JQjfZSc7OXlB3ZMOjzcJ5BZmqa3A.ttf
 - Font License: undefined)
