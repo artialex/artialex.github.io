@@ -199,14 +199,7 @@
 }
 
 ul {
-    padding-left: 0 !important;
-
-    ul {
-        padding-left: 2rem !important;
-        ul {
-            padding-left: 4rem !important;
-        }
-    }
+    padding-left: 2rem !important;
 
     ::marker {
         content: "·  ";
