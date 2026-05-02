@@ -97,6 +97,7 @@ const dict: Record<string, string> = {
   _science: "Science",
   _finances: "Finances",
   _pde: "PDE",
+  _colors: "Colors",
 };
 
 function setTitle(editor: Editor) {
