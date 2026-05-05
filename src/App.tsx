@@ -41,9 +41,15 @@ const assetUrls: TldrawProps["assetUrls"] = {
   },
 };
 
-FONT_SIZES.m = 25;
+FONT_SIZES.s = 16;
+FONT_SIZES.m = 20;
+FONT_SIZES.l = 24;
+FONT_SIZES.xl = 28;
 
-STROKE_SIZES.m = 3;
+STROKE_SIZES.s = 2;
+STROKE_SIZES.m = 2;
+STROKE_SIZES.l = 3;
+STROKE_SIZES.xl = 4;
 
 DefaultColorThemePalette.lightMode.grey.solid = "darkgray";
 DefaultColorThemePalette.lightMode.yellow.solid = "#f59e0b";
