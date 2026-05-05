@@ -1,0 +1,10 @@
+a {
+    color: var(--external-link-color) !important;
+    text-decoration-style: dashed !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 4px !important;
+
+    &[href^="/"] {
+        color: var(--internal-link-color) !important;
+    }
+}

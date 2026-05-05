@@ -1,6 +1,7 @@
 @import "./styles/colors.css";
 @import "./styles/fonts.css";
 @import "./styles/code.css";
+@import "./styles/links.css";
 
 :root {
     --text: #6b6375;
@@ -215,17 +216,6 @@ mark {
     background-color: transparent !important;
     font-size: 80%;
     color: var(--small-text-color) !important;
-}
-
-a {
-    color: var(--external-link-color) !important;
-    text-decoration-style: dashed !important;
-    text-decoration-thickness: 1px !important;
-    text-underline-offset: 4px !important;
-
-    &[href^="/"] {
-        color: var(--internal-link-color) !important;
-    }
 }
 
 h3 code {
