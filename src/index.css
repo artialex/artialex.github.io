@@ -104,12 +104,6 @@
     size-adjust: 80%;
 }
 
-/*@font-face {
-    font-family: tldraw_mono;
-    src: url("/fonts/fantasquesansmono-regular.otf");
-    size-adjust: 85%;
-}*/
-
 [data-font="sans"] {
     h1 {
         font-family: "Lilita One";
@@ -152,7 +146,7 @@
     h3 {
         font-family: var(--nerko-font), NerkoRussianFallback;
         font-weight: normal;
-        /*font-size: 135%;*/
+        font-size: 120%;
     }
     p {
         font-family: var(--morning-breeze-font);
