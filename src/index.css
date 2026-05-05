@@ -2,6 +2,7 @@
 @import "./styles/fonts.css";
 @import "./styles/code.css";
 @import "./styles/links.css";
+@import "./styles/small-text.css";
 
 :root {
     --text: #6b6375;
@@ -103,11 +104,11 @@
     size-adjust: 80%;
 }
 
-@font-face {
+/*@font-face {
     font-family: tldraw_mono;
     src: url("/fonts/fantasquesansmono-regular.otf");
     size-adjust: 85%;
-}
+}*/
 
 [data-font="sans"] {
     h1 {
@@ -123,30 +124,6 @@
     }
 }
 
-[data-font="mono"] {
-    h1 {
-        font-weight: 800;
-        font-size: 150%;
-        font-family: var(--playpen-sans-font);
-    }
-    h2 {
-        font-weight: 600;
-        font-size: 125%;
-        font-family: var(--playpen-sans-font);
-    }
-    h3 {
-        font-family: var(--nerko-font), NerkoRussianFallback;
-        font-weight: normal;
-    }
-    i,
-    em {
-        font-family: var(--morning-breeze-font);
-    }
-    code {
-        font-family: var(---mono-font);
-    }
-    tab-size: 4;
-}
 [data-font="draw"] {
     h1 {
         font-weight: 800;
@@ -212,15 +189,27 @@ ul {
     }
 }
 
-mark {
-    background-color: transparent !important;
-    font-size: 80%;
-    color: var(--small-text-color) !important;
-}
-
-h3 code {
-    font-family: "Comic Shanns" !important;
-    font-size: 78%;
-    font-weight: bold;
-    background-color: transparent !important;
+[data-font="mono"] {
+    h1 {
+        font-weight: 800;
+        font-size: 150%;
+        font-family: var(--playpen-sans-font);
+    }
+    h2 {
+        font-weight: 600;
+        font-size: 125%;
+        font-family: var(--playpen-sans-font);
+    }
+    h3 {
+        font-family: var(--nerko-font), NerkoRussianFallback;
+        font-weight: normal;
+    }
+    i,
+    em {
+        font-family: var(--morning-breeze-font);
+    }
+    code {
+        font-family: var(---mono-font);
+    }
+    tab-size: 4;
 }

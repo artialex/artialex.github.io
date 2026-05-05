@@ -1,17 +1,3 @@
-[data-color-mode="dark"] {
-    --internal-link-color: #3b82f6;
-    --external-link-color: #8b5cf6;
-}
-
-[data-color-mode="light"] {
-    --internal-link-color: dodgerblue;
-    --external-link-color: darkviolet;
-}
-
-:root {
-    --small-text-color: dimgray;
-}
-
 :where(h1, h2, h3, h4) {
     color: var(--primary-color);
 }

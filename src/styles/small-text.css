@@ -1,0 +1,9 @@
+:root {
+    --small-text-color: dimgray;
+}
+
+mark {
+    background-color: transparent !important;
+    font-size: 80%;
+    color: var(--small-text-color) !important;
+}

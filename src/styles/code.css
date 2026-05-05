@@ -1,3 +1,10 @@
 code {
     border: 1px solid transparent;
+
+    h3 & {
+        font-family: "Comic Shanns" !important;
+        font-size: 78%;
+        font-weight: bold;
+        background-color: transparent !important;
+    }
 }
