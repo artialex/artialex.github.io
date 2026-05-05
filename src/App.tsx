@@ -48,7 +48,7 @@ FONT_SIZES.xl = 28;
 
 STROKE_SIZES.s = 2;
 STROKE_SIZES.m = 2;
-STROKE_SIZES.l = 3;
+STROKE_SIZES.l = 4;
 STROKE_SIZES.xl = 8;
 
 const id =
