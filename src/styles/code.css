@@ -1,5 +1,7 @@
 code {
     border: 1px solid transparent;
+    font-family: "Monofur" !important;
+    font-size-adjust: 90%;
 
     h3 & {
         font-family: "Comic Shanns" !important;
