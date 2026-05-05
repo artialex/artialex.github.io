@@ -152,7 +152,7 @@
     h3 {
         font-family: var(--nerko-font), NerkoRussianFallback;
         font-weight: normal;
-        font-size: 135%;
+        /*font-size: 135%;*/
     }
     p {
         font-family: var(--morning-breeze-font);
