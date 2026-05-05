@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import {
-  DefaultColorThemePalette,
   DefaultTextAlignStyle,
   type TldrawProps,
   FONT_SIZES,
@@ -14,6 +13,7 @@ import {
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
+import "./colors/colors";
 
 import Link from "@tiptap/extension-link";
 
@@ -50,25 +50,6 @@ STROKE_SIZES.s = 2;
 STROKE_SIZES.m = 2;
 STROKE_SIZES.l = 3;
 STROKE_SIZES.xl = 4;
-
-DefaultColorThemePalette.lightMode.grey.solid = "darkgray";
-DefaultColorThemePalette.lightMode.yellow.solid = "#f59e0b";
-
-DefaultColorThemePalette.darkMode["light-violet"].solid = "violet";
-DefaultColorThemePalette.darkMode.violet.solid = "hotpink";
-
-DefaultColorThemePalette.darkMode.blue.solid = "dodgerblue";
-DefaultColorThemePalette.darkMode["light-blue"].solid = "deepskyblue";
-DefaultColorThemePalette.darkMode.yellow.solid = "gold";
-DefaultColorThemePalette.darkMode.orange.solid = "darkorange";
-
-DefaultColorThemePalette.darkMode.green.solid = "green";
-DefaultColorThemePalette.darkMode["light-green"].solid = "mediumseagreen";
-
-DefaultColorThemePalette.darkMode["light-red"].solid = "crimson";
-DefaultColorThemePalette.darkMode.red.solid = "lightsalmon";
-
-DefaultColorThemePalette.darkMode.grey.solid = "#64748b";
 
 const id =
   location.pathname === "/" ? "_index" : location.pathname.replaceAll("/", "_");
