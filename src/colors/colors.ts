@@ -4,6 +4,9 @@ type TLColor = (typeof defaultColorNames)[number];
 
 // Dark Theme
 const colors: Record<TLColor, string> = {
+  black: "white",
+  white: "white",
+  grey: "oklch(55.4% 0.046 257.417)",
   "light-violet": "oklch(0.74 0.238 322.16)",
   violet: "oklch(0.714 0.203 305.504)",
 
