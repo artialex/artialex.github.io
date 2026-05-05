@@ -203,8 +203,6 @@ ul {
     em {
         font-family: var(--morning-breeze-font);
     }
-    code {
-        font-family: var(---mono-font);
-    }
+    font-family: "Monofur" !important;
     tab-size: 4;
 }
