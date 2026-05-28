@@ -1,0 +1,24 @@
+span[class^="icon"] {
+    font-size: 90%;
+    vertical-align: -15%;
+
+    h1 & {
+        vertical-align: -10%;
+    }
+
+    h2 & {
+        vertical-align: -10%;
+    }
+}
+
+p:has(.icon-square-check, .icon-circle-check) {
+    color: rgb(9, 146, 104);
+}
+
+p:has(.icon-square-slash) {
+    color: rgb(245, 158, 11);
+}
+
+p:has([class*="alert"]) {
+    color: rgb(248, 119, 119);
+}

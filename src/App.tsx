@@ -1,4 +1,8 @@
 import { useEffect, useState } from "react";
+import Typography from "@tiptap/extension-typography";
+import HorizontalRule from "@tiptap/extension-horizontal-rule";
+import "lucide-static/font/lucide.css";
+
 import {
   DefaultTextAlignStyle,
   type TldrawProps,
@@ -14,6 +18,7 @@ import {
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
 import "./colors/colors";
+import { extensions as iconExtensions } from "./modules/icons/icons";
 
 import Link from "@tiptap/extension-link";
 
@@ -156,6 +161,14 @@ export const App = () => {
                   return ctx.defaultValidate(url);
                 },
               }),
+              Typography.configure({
+                openDoubleQuote: false,
+                openSingleQuote: false,
+                closeDoubleQuote: false,
+                closeSingleQuote: false,
+              }),
+              HorizontalRule,
+              ...iconExtensions,
             ],
           },
         }}
