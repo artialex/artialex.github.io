@@ -1,12 +1,12 @@
-@import "./styles/colors.css";
-@import "./styles/fonts.css";
-@import "./styles/code.css";
-@import "./styles/links.css";
-@import "./styles/small-text.css";
-@import "./modules/blocks/block-backgrounds.css";
-@import "./modules/blocks/block-mono.css";
-@import "./modules/blocks/block-draw.css";
-@import "./modules/icons/icons.css";
+@import './styles/colors.css';
+@import './styles/fonts.css';
+@import './styles/code.css';
+@import './styles/links.css';
+@import './styles/small-text.css';
+@import './modules/blocks/block-backgrounds.css';
+@import './modules/blocks/block-mono.css';
+@import './modules/blocks/block-draw.css';
+@import './modules/icons/icons.css';
 
 :root {
     --text: #6b6375;
@@ -18,11 +18,10 @@
     --accent-bg: rgba(170, 59, 255, 0.1);
     --accent-border: rgba(170, 59, 255, 0.5);
     --social-bg: rgba(244, 243, 236, 0.5);
-    --shadow:
-        rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+    --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-    --sans: system-ui, "Segoe UI", Roboto, sans-serif;
-    --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+    --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
     --mono: ui-monospace, Consolas, monospace;
 
     font: 18px/145% var(--sans);
@@ -47,9 +46,7 @@
         --accent-bg: rgba(192, 132, 252, 0.15);
         --accent-border: rgba(192, 132, 252, 0.5);
         --social-bg: rgba(47, 48, 58, 0.5);
-        --shadow:
-            rgba(0, 0, 0, 0.4) 0 10px 15px -3px,
-            rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+        --shadow: rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
     }
 
     #social .button-icon {
@@ -60,69 +57,69 @@
 @font-face {
     font-family: tldraw_sans;
     font-weight: 400;
-    src: url("/fonts/YsabeauOffice-Regular.ttf");
+    src: url('/fonts/YsabeauOffice-Regular.ttf');
 }
 
 @font-face {
     font-family: tldraw_sans;
     font-weight: 600;
-    src: url("/fonts/YsabeauOffice-SemiBold.ttf");
+    src: url('/fonts/YsabeauOffice-SemiBold.ttf');
 }
 
 @font-face {
     font-family: tldraw_sans;
     font-weight: 800;
-    src: url("/fonts/YsabeauOffice-SemiBold.ttf");
+    src: url('/fonts/YsabeauOffice-SemiBold.ttf');
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-weight: 800;
-    src: url("/fonts/PlaypenSans-ExtraBold.ttf");
+    src: url('/fonts/PlaypenSans-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-weight: 600;
-    src: url("/fonts/PlaypenSans-Bold.ttf");
+    src: url('/fonts/PlaypenSans-Bold.ttf');
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-style: 400;
     font-style: italic;
-    src: url("/fonts/MorningBreeze-Light.otf");
+    src: url('/fonts/MorningBreeze-Light.otf');
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-weight: 400;
     font-style: normal;
-    src: url("/fonts/MorningBreeze-Light.otf");
+    src: url('/fonts/MorningBreeze-Light.otf');
 }
 
 @font-face {
     font-family: NerkoRussianFallback;
 
-    src: url("/fonts/PlaypenSans-SemiBold.ttf");
+    src: url('/fonts/PlaypenSans-SemiBold.ttf');
     size-adjust: 80%;
 }
 
-[data-font="sans"] {
+[data-font='sans'] {
     h1 {
-        font-family: "Lilita One";
+        font-family: 'Lilita One';
     }
 
     h2 {
-        font-family: "Cuprum";
+        font-family: 'Cuprum';
     }
 
     p {
-        font-family: "Ysabeau Office";
+        font-family: 'Ysabeau Office';
     }
 }
 
-[data-font="draw"] {
+[data-font='draw'] {
     h1 {
         font-weight: 800;
         font-size: 150%;
@@ -134,7 +131,7 @@
         display: inline-block;
 
         &::before {
-            content: "";
+            content: '';
             bottom: 0%;
             left: 10%;
             right: 10%;
@@ -183,7 +180,7 @@ ul {
     }
 
     ::marker {
-        content: "·  ";
+        content: '·  ';
         font-size: 70%;
     }
 }

@@ -150,12 +150,6 @@ const CustomMapMenu = () => {
       </TldrawUiDropdownMenuContent>
     </TldrawUiDropdownMenuRoot>
   );
-
-  return (
-    <select className="tlui-button" onPointerDown={(e) => e.stopPropagation()} onClick={(e) => e.stopPropagation()}>
-      <option value="/">Main Page</option>
-    </select>
-  );
 };
 
 const CustomMenuPanel = () => (
@@ -171,8 +165,6 @@ const CustomMenuPanel = () => (
       <DefaultMainMenu />
       <CustomMapMenu />
       <DefaultPageMenu />
-      {/*<DefaultToolbarContent />*/}
-      {/*<DefaultQuickActions />*/}
     </div>
   </div>
 );
