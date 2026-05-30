@@ -75,6 +75,7 @@ const dict: Record<string, string> = {
   _management: "Management",
 
   _javascript: "JavaScript",
+  _typescript: "TypeScript",
   _golang: "Golang",
   "_operating-systems": "Operating Systems",
   "_algorithms-n-data-structures": "Algorithms & Data Structures",
