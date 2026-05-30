@@ -2,7 +2,7 @@
 .tl-shape[style*="width: 480px"],
 .tl-shape[style*="width: 640px"],
 .tl-shape[style*="width: 800px"] {
-    --bg-color: rgba(255, 255, 255, 1.5%);
+    --bg-color: rgba(255, 255, 255, 3%);
     --radius: 4px;
     --padding: 6px;
 
