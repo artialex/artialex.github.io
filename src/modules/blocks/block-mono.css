@@ -1,12 +1,19 @@
-/*@font-face {
+@font-face {
     font-family: tldraw_mono;
-    font-weight: normal;
-    src: url('/fonts/Anonymous Pro Minus.ttf');
-}*/
+    font-weight: 400;
+    src: url('/fonts/mononoki-Regular.ttf');
+    size-adjust: 80%;
+}
+@font-face {
+    font-family: tldraw_mono;
+    font-weight: 400;
+    src: url('/fonts/mononoki-Regular.ttf');
+    size-adjust: 80%;
+}
 
 [data-font='mono'] {
     tab-size: 4;
-    font-family: 'Mononoki';
+    font-family: tldraw_mono;
 
     /*
     h1 {

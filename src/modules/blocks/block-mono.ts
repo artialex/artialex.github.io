@@ -11,10 +11,16 @@ export const mono: TldrawProps = {
       // tldraw_mono_italic: '/fonts/GeistMono-Regular.ttf',
       // tldraw_mono_bold: '/fonts/GeistMono-Medium.ttf',
       // tldraw_mono_italic_bold: '/fonts/GeistMono-Medium.ttf',
+
       // tldraw_mono: '/fonts/ShantellSans-Regular.ttf',
       // tldraw_mono_italic: '/fonts/ShantellSans-Italic.ttf',
       // tldraw_mono_bold: '/fonts/ShantellSans-Medium.ttf',
       // tldraw_mono_italic_bold: '/fonts/ShantellSans-MediumItalic.ttf',
+
+      tldraw_mono: '/fonts/mononoki-Regular.ttf',
+      tldraw_mono_italic: '/fonts/mononoki-Italic.ttf',
+      tldraw_mono_bold: '/fonts/mononoki-Medium.ttf',
+      tldraw_mono_italic_bold: '/fonts/mononoki-MediumItalic.ttf',
     },
   },
 };
