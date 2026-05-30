@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import Typography from "@tiptap/extension-typography";
-import HorizontalRule from "@tiptap/extension-horizontal-rule";
-import "lucide-static/font/lucide.css";
+import { useEffect, useState } from 'react';
+import Typography from '@tiptap/extension-typography';
+import HorizontalRule from '@tiptap/extension-horizontal-rule';
+import 'lucide-static/font/lucide.css';
 
 import {
   type TldrawProps,
@@ -22,35 +22,22 @@ import {
   TldrawUiDropdownMenuItem,
   TldrawUiDropdownMenuGroup,
   TldrawUiButtonLabel,
-} from "tldraw";
-import "tldraw/tldraw.css";
-import defaultSnapshot from "./defaultSnapshot.json";
-import "./colors/colors";
-import { extensions as iconExtensions } from "./modules/icons/icons";
+} from 'tldraw';
+import 'tldraw/tldraw.css';
+import defaultSnapshot from './defaultSnapshot.json';
+import './colors/colors';
+import { extensions as iconExtensions } from './modules/icons/icons';
 
-import Link from "@tiptap/extension-link";
+import Link from '@tiptap/extension-link';
+import { mono } from './modules/blocks/block-mono';
 
-const assetUrls: TldrawProps["assetUrls"] = {
+const assetUrls: TldrawProps['assetUrls'] = {
   fonts: {
-    tldraw_draw: "/fonts/MorningBreeze-Light.otf",
-    tldraw_draw_italic: "/fonts/MorningBreeze-Light.otf",
-    tldraw_draw_bold: "/fonts/PlaypenSans-Bold.ttf",
+    tldraw_draw: '/fonts/MorningBreeze-Light.otf',
+    tldraw_draw_italic: '/fonts/MorningBreeze-Light.otf',
+    tldraw_draw_bold: '/fonts/PlaypenSans-Bold.ttf',
 
-    // tldraw_sans: "/YsabeauOffice-Regular.ttf",
-    // tldraw_sans_bold: "/YsabeauOffice-SemiBold.ttf",
-    // tldraw_sans_italic: "/YsabeauOffice-Regular.ttf",
-    // tldraw_sans_italic_bold: "/YsabeauOffice-Regular.ttf",
-    //
-    //
-    tldraw_mono: "/fonts/fantasquesansmono-regular.otf",
-    tldraw_mono_italic: "/fonts/fantasquesansmono-italic.otf",
-    tldraw_mono_bold: "/fonts/fantasquesansmono-bold.otf",
-    tldraw_mono_italic_bold: "/fonts/fantasquesansmono-bolditalic.otf",
-
-    // tldraw_mono: "/fonts/Anonymous Pro Minus.ttf",
-    // tldraw_mono_italic: "/fonts/Anonymous Pro Minus I.ttf",
-    // tldraw_mono_bold: "/fonts/Anonymous Pro Minus B.ttf",
-    // tldraw_mono_italic_bold: "/fonts/Anonymous Pro Minus BI.ttf",
+    ...mono.assetUrls?.fonts,
   },
 };
 
@@ -64,64 +51,63 @@ STROKE_SIZES.m = 2;
 STROKE_SIZES.l = 4;
 STROKE_SIZES.xl = 8;
 
-const id =
-  location.pathname === "/" ? "_index" : location.pathname.replaceAll("/", "_");
+const id = location.pathname === '/' ? '_index' : location.pathname.replaceAll('/', '_');
 
 const dict: Record<string, string> = {
-  _pkm: "PKM",
+  _pkm: 'PKM',
   _index: "ArtiAlex's Pensieve",
-  _random: "Random",
-  _management: "Management",
+  _random: 'Random',
+  _management: 'Management',
 
-  _javascript: "JavaScript",
-  _typescript: "TypeScript",
-  _golang: "Golang",
-  "_operating-systems": "Operating Systems",
-  "_algorithms-n-data-structures": "Algorithms & Data Structures",
-  "_computer-hardware-n-architecture": "Hardware",
-  _cg: "Computer Graphics",
-  _web: "Web Dev",
-  _css: "CSS",
-  _ai: "ML & AI",
-  _devops: "DevOps",
-  _cs: "Computer Science",
-  _programming: "Programming",
-  _swe: "Software Engineering",
-  _networking: "Networking",
+  _javascript: 'JavaScript',
+  _typescript: 'TypeScript',
+  _golang: 'Golang',
+  '_operating-systems': 'Operating Systems',
+  '_algorithms-n-data-structures': 'Algorithms & Data Structures',
+  '_computer-hardware-n-architecture': 'Hardware',
+  _cg: 'Computer Graphics',
+  _web: 'Web Dev',
+  _css: 'CSS',
+  _ai: 'ML & AI',
+  _devops: 'DevOps',
+  _cs: 'Computer Science',
+  _programming: 'Programming',
+  _swe: 'Software Engineering',
+  _networking: 'Networking',
 
-  _algebra: "Algebra",
-  _trigonometry: "Trigonometry",
+  _algebra: 'Algebra',
+  _trigonometry: 'Trigonometry',
 
-  _chemistry: "Chemistry",
-  _physics: "Physics",
-  _biology: "Biology",
-  _science: "Science",
+  _chemistry: 'Chemistry',
+  _physics: 'Physics',
+  _biology: 'Biology',
+  _science: 'Science',
 
-  _gamedev: "Game Development",
-  _music: "Music",
-  _design: "Design",
-  _finances: "Finances",
-  _pde: "PDE",
-  _colors: "Colors",
-  _backend: "Backend",
+  _gamedev: 'Game Development',
+  _music: 'Music',
+  _design: 'Design',
+  _finances: 'Finances',
+  _pde: 'PDE',
+  _colors: 'Colors',
+  _backend: 'Backend',
 };
 
 function setTitle(editor: Editor) {
   const page = editor.getCurrentPage();
   const title = page?.name;
-  document.title = dict[id] + " • " + title;
+  document.title = dict[id] + ' • ' + title;
 }
 
 const CustomLink = Link.extend({
   renderHTML({ HTMLAttributes }) {
     console.log(HTMLAttributes);
 
-    const href = HTMLAttributes.href ?? "";
+    const href = HTMLAttributes.href ?? '';
     return [
-      "a",
+      'a',
       {
         ...HTMLAttributes,
-        href: href.includes("///") ? href.replace("https://", "") : href,
+        href: href.includes('///') ? href.replace('https://', '') : href,
       },
       0,
     ];
@@ -140,7 +126,7 @@ const CustomMapMenu = () => {
   return (
     <TldrawUiDropdownMenuRoot id="my-dropdown">
       <TldrawUiDropdownMenuTrigger>
-        <TldrawUiButton type="normal" style={{ width: "max-content" }}>
+        <TldrawUiButton type="normal" style={{ width: 'max-content' }}>
           <TldrawUiButtonLabel>{dict[id]}</TldrawUiButtonLabel>
         </TldrawUiButton>
       </TldrawUiDropdownMenuTrigger>
@@ -152,8 +138,7 @@ const CustomMapMenu = () => {
                 <TldrawUiButton
                   type="menu"
                   onClick={() => {
-                    location.pathname =
-                      key === "_index" ? "/" : key.replace("_", "/");
+                    location.pathname = key === '_index' ? '/' : key.replace('_', '/');
                   }}
                 >
                   <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
@@ -167,11 +152,7 @@ const CustomMapMenu = () => {
   );
 
   return (
-    <select
-      className="tlui-button"
-      onPointerDown={(e) => e.stopPropagation()}
-      onClick={(e) => e.stopPropagation()}
-    >
+    <select className="tlui-button" onPointerDown={(e) => e.stopPropagation()} onClick={(e) => e.stopPropagation()}>
       <option value="/">Main Page</option>
     </select>
   );
@@ -181,10 +162,10 @@ const CustomMenuPanel = () => (
   <div className="tlui-menu-zone">
     <div
       style={{
-        display: "flex",
-        alignItems: "center",
+        display: 'flex',
+        alignItems: 'center',
         gap: 4,
-        pointerEvents: "all",
+        pointerEvents: 'all',
       }}
     >
       <DefaultMainMenu />
@@ -216,12 +197,10 @@ export const App = () => {
 
   if (!snapshot) return null;
 
-  const extensions = tipTapDefaultExtensions.filter(
-    (_) => !(_.type === "mark" && _.name === "link"),
-  );
+  const extensions = tipTapDefaultExtensions.filter((_) => !(_.type === 'mark' && _.name === 'link'));
 
   return (
-    <div style={{ position: "fixed", inset: 0 }}>
+    <div style={{ position: 'fixed', inset: 0 }}>
       <Tldraw
         deepLinks
         components={{ MenuPanel: CustomMenuPanel }}
@@ -232,7 +211,7 @@ export const App = () => {
               CustomLink.configure({
                 autolink: false,
                 isAllowedUri: (url, ctx) => {
-                  if (url.startsWith("/")) return true;
+                  if (url.startsWith('/')) return true;
                   return ctx.defaultValidate(url);
                 },
               }),
@@ -252,7 +231,7 @@ export const App = () => {
         onUiEvent={(name) => {
           console.log(name);
 
-          if (name === "change-page" && editor) {
+          if (name === 'change-page' && editor) {
             setTitle(editor);
           }
         }}
@@ -286,10 +265,10 @@ export const App = () => {
 
           for (const page of pages) {
             if (!hasEmoji(page.name)) {
-              const style = document.createElement("style");
+              const style = document.createElement('style');
               style.textContent = `
                 [data-pageid="${page.id}"] {
-                  ${import.meta.env.DEV ? "opacity: 0.5;" : "display: none;"}
+                  ${import.meta.env.DEV ? 'opacity: 0.5;' : 'display: none;'}
                 }
               `;
               document.head.appendChild(style);
@@ -297,7 +276,7 @@ export const App = () => {
           }
 
           if (import.meta.env.PROD) {
-            const style = document.createElement("style");
+            const style = document.createElement('style');
             style.textContent = `
               /* HACK to fix list height when skipping some pages */
               [data-testid="page-menu.list"] {
@@ -324,14 +303,14 @@ export const App = () => {
                 const snapshot = getSnapshot(editor.store);
 
                 fetch(`/api/save?id=${id}`, {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json" },
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify(snapshot),
                 });
               }, 5000),
               {
-                source: "user",
-                scope: "document",
+                source: 'user',
+                scope: 'document',
               },
             );
           }

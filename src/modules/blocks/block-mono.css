@@ -1,4 +1,7 @@
-[data-font="mono"] {
+[data-font='mono'] {
+    /*tab-size: 4;*/
+
+    /*
     h1 {
         font-weight: 800;
         font-size: 150%;
@@ -22,5 +25,6 @@
     }
 
     font-family: "Monofur" !important;
-    tab-size: 4;
+
+    */
 }

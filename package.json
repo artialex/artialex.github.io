@@ -9,6 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120
+  },
   "dependencies": {
     "@tiptap/core": "^2.27.2",
     "@tiptap/extension-horizontal-rule": "^2.27.2",
