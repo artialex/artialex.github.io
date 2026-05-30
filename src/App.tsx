@@ -4,7 +4,6 @@ import HorizontalRule from "@tiptap/extension-horizontal-rule";
 import "lucide-static/font/lucide.css";
 
 import {
-  DefaultTextAlignStyle,
   type TldrawProps,
   FONT_SIZES,
   STROKE_SIZES,
@@ -43,10 +42,10 @@ const assetUrls: TldrawProps["assetUrls"] = {
     // tldraw_sans_italic_bold: "/YsabeauOffice-Regular.ttf",
     //
     //
-    // tldraw_mono: "/fonts/fantasquesansmono-regular.otf",
-    // tldraw_mono_italic: "/fonts/fantasquesansmono-italic.otf",
-    // tldraw_mono_bold: "/fonts/fantasquesansmono-bold.otf",
-    // tldraw_mono_italic_bold: "/fonts/fantasquesansmono-bolditalic.otf",
+    tldraw_mono: "/fonts/fantasquesansmono-regular.otf",
+    tldraw_mono_italic: "/fonts/fantasquesansmono-italic.otf",
+    tldraw_mono_bold: "/fonts/fantasquesansmono-bold.otf",
+    tldraw_mono_italic_bold: "/fonts/fantasquesansmono-bolditalic.otf",
 
     // tldraw_mono: "/fonts/Anonymous Pro Minus.ttf",
     // tldraw_mono_italic: "/fonts/Anonymous Pro Minus I.ttf",

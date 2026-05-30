@@ -4,6 +4,8 @@
 @import "./styles/links.css";
 @import "./styles/small-text.css";
 @import "./modules/blocks/block-backgrounds.css";
+@import "./modules/blocks/block-mono.css";
+@import "./modules/blocks/block-draw.css";
 @import "./modules/icons/icons.css";
 
 :root {
@@ -184,28 +186,4 @@ ul {
         content: "·  ";
         font-size: 70%;
     }
-}
-
-[data-font="mono"] {
-    h1 {
-        font-weight: 800;
-        font-size: 150%;
-        font-family: var(--playpen-sans-font);
-    }
-    h2 {
-        font-weight: 600;
-        font-size: 125%;
-        font-family: var(--playpen-sans-font);
-    }
-    h3 {
-        font-family: var(--nerko-font), NerkoRussianFallback;
-        font-weight: normal;
-    }
-    i,
-    em {
-        font-family: var(--morning-breeze-font);
-    }
-
-    font-family: "Monofur" !important;
-    tab-size: 4;
 }
