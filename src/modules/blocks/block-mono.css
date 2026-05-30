@@ -7,9 +7,9 @@
 }
 @font-face {
     font-family: tldraw_mono;
-    font-weight: bolder;
+    font-weight: bold;
     font-style: normal;
-    src: url('/fonts/mononoki-Medium.ttf');
+    src: url('/fonts/mononoki-Bold.ttf');
     size-adjust: 80%;
 }
 @font-face {
@@ -23,7 +23,7 @@
     font-family: tldraw_mono;
     font-weight: bold;
     font-style: italic;
-    src: url('/fonts/mononoki-MediumItalic.ttf');
+    src: url('/fonts/mononoki-BoldItalic.ttf');
     size-adjust: 80%;
 }
 [data-font='mono'] {
