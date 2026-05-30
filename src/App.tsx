@@ -307,9 +307,6 @@ export const App = () => {
             document.head.appendChild(style);
           }
 
-          // QoL features
-          editor.setStyleForNextShapes(DefaultTextAlignStyle, "middle");
-
           // Handle title
           setTitle(editor);
 
