@@ -20,6 +20,7 @@ import {
   DefaultPageMenu,
   DefaultToolbarContent,
   DefaultMainMenu,
+  TldrawUiMenuGroup,
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
@@ -129,12 +130,21 @@ function hasEmoji(s: string) {
 }
 
 const CustomMenuPanel = () => (
-  <div>
-    <DefaultMainMenu />
-    <DefaultMenuPanel />
-    <DefaultPageMenu />
-    {/*<DefaultToolbarContent />*/}
-    {/*<DefaultQuickActions />*/}
+  <div className="tlui-menu-zone">
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: 4,
+        pointerEvents: "all",
+      }}
+    >
+      <DefaultMainMenu />
+      {/*<DefaultMenuPanel />*/}
+      <DefaultPageMenu />
+      {/*<DefaultToolbarContent />*/}
+      {/*<DefaultQuickActions />*/}
+    </div>
   </div>
 );
 
