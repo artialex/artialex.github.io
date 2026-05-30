@@ -132,18 +132,19 @@ function hasEmoji(s: string) {
 }
 
 const CustomMapMenu = () => {
-  console.log(dict);
-  console.log(location.pathname);
+  // console.log(dict);
+  // console.log(location.pathname);
+  console.log(id);
 
   return (
     <TldrawUiDropdownMenuRoot id="my-dropdown">
       <TldrawUiDropdownMenuTrigger>
-        <TldrawUiButton type="normal">
-          <TldrawUiButtonLabel>Options</TldrawUiButtonLabel>
+        <TldrawUiButton type="normal" style={{ width: "max-content" }}>
+          <TldrawUiButtonLabel>{dict[id]}</TldrawUiButtonLabel>
         </TldrawUiButton>
       </TldrawUiDropdownMenuTrigger>
       <TldrawUiDropdownMenuContent>
-        <div className="columns-3">
+        <div style={{ columns: 3 }}>
           <TldrawUiDropdownMenuGroup>
             {Object.entries(dict).map(([key, value]) => (
               <TldrawUiDropdownMenuItem>
@@ -158,17 +159,6 @@ const CustomMapMenu = () => {
                 </TldrawUiButton>
               </TldrawUiDropdownMenuItem>
             ))}
-
-            {/*<TldrawUiDropdownMenuItem>
-            <TldrawUiButton type="menu" onClick={() => {}}>
-              <TldrawUiButtonLabel>Duplicate</TldrawUiButtonLabel>
-            </TldrawUiButton>
-          </TldrawUiDropdownMenuItem>
-          <TldrawUiDropdownMenuItem>
-            <TldrawUiButton type="menu" onClick={() => {}}>
-              <TldrawUiButtonLabel>Delete</TldrawUiButtonLabel>
-            </TldrawUiButton>
-          </TldrawUiDropdownMenuItem>*/}
           </TldrawUiDropdownMenuGroup>
         </div>
       </TldrawUiDropdownMenuContent>
