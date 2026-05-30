@@ -1,12 +1,12 @@
-import type { TldrawProps } from "tldraw";
+import type { TldrawProps } from 'tldraw';
 
 export const mono: TldrawProps = {
   assetUrls: {
     fonts: {
-      tldraw_mono: "/fonts/fantasquesansmono-regular.otf",
-      tldraw_mono_italic: "/fonts/fantasquesansmono-italic.otf",
-      tldraw_mono_bold: "/fonts/fantasquesansmono-bold.otf",
-      tldraw_mono_italic_bold: "/fonts/fantasquesansmono-bolditalic.otf",
+      tldraw_mono: '/fonts/fantasquesansmono-regular.otf',
+      tldraw_mono_italic: '/fonts/fantasquesansmono-italic.otf',
+      tldraw_mono_bold: '/fonts/fantasquesansmono-bold.otf',
+      tldraw_mono_italic_bold: '/fonts/fantasquesansmono-bolditalic.otf',
     },
   },
 };

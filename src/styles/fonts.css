@@ -1,13 +1,7 @@
 :root {
-    --playpen-sans-font:
-        "Playpen Sans", /* slash symbol = */ "Alkatra",
-        /* ↑↓→← symbols = */ "Vollda";
+    --playpen-sans-font: 'Playpen Sans', /* slash symbol = */ 'Alkatra', /* ↑↓→← symbols = */ 'Vollda';
 
-    --morning-breeze-font:
-        "Morning Breeze Light", /* slash symbol = */ "Alkatra",
-        /* ↑↓→← symbols = */ "Vollda";
+    --morning-breeze-font: 'Morning Breeze Light', /* slash symbol = */ 'Alkatra', /* ↑↓→← symbols = */ 'Vollda';
 
-    --nerko-font: "Nerko One";
-
-    --mono-font: "JetBrains Mono";
+    --nerko-font: 'Nerko One';
 }

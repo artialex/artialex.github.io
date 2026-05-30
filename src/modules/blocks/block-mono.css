@@ -1,5 +1,11 @@
+@font-face {
+    font-family: tldraw_mono;
+    font-weight: 400;
+    src: url('/fonts/fantasquesansmono-regular.otf');
+}
+
 [data-font='mono'] {
-    /*tab-size: 4;*/
+    tab-size: 4;
 
     /*
     h1 {
@@ -24,7 +30,6 @@
         font-family: var(--morning-breeze-font);
     }
 
-    font-family: "Monofur" !important;
-
+    font-family: 'Monofur' !important;
     */
 }
