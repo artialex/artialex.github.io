@@ -21,6 +21,17 @@ import {
   DefaultToolbarContent,
   DefaultMainMenu,
   TldrawUiMenuGroup,
+  TldrawUiDropdownMenuRoot,
+  TldrawUiDropdownMenuTrigger,
+  TldrawUiButton,
+  TldrawUiButtonLabel,
+  TldrawUiDropdownMenuContent,
+  TldrawUiDropdownMenuGroup,
+  TldrawUiDropdownMenuItem,
+  TldrawUiKbd,
+  TldrawUiDropdownMenuCheckboxItem,
+  TldrawUiDropdownMenuSub,
+  TldrawUiDropdownMenuSubTrigger,
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
@@ -129,6 +140,80 @@ function hasEmoji(s: string) {
   return /\p{Extended_Pictographic}/u.test(s);
 }
 
+const CustomMapMenu = () => {
+  return (
+    <section>
+      <div className="ui-row">
+        <TldrawUiDropdownMenuRoot id="example-dropdown">
+          <TldrawUiDropdownMenuTrigger>
+            <TldrawUiButton type="normal">
+              <TldrawUiButtonLabel>Open menu</TldrawUiButtonLabel>
+            </TldrawUiButton>
+          </TldrawUiDropdownMenuTrigger>
+          <TldrawUiDropdownMenuContent side="bottom" align="start">
+            <TldrawUiDropdownMenuGroup>
+              <TldrawUiDropdownMenuItem>
+                <TldrawUiButton type="menu">
+                  <TldrawUiButtonLabel>Cut</TldrawUiButtonLabel>
+                  <TldrawUiKbd>⌘X</TldrawUiKbd>
+                </TldrawUiButton>
+              </TldrawUiDropdownMenuItem>
+              <TldrawUiDropdownMenuItem>
+                <TldrawUiButton type="menu">
+                  <TldrawUiButtonLabel>Copy</TldrawUiButtonLabel>
+                  <TldrawUiKbd>⌘C</TldrawUiKbd>
+                </TldrawUiButton>
+              </TldrawUiDropdownMenuItem>
+              <TldrawUiDropdownMenuItem>
+                <TldrawUiButton type="menu">
+                  <TldrawUiButtonLabel>Paste</TldrawUiButtonLabel>
+                  <TldrawUiKbd>⌘V</TldrawUiKbd>
+                </TldrawUiButton>
+              </TldrawUiDropdownMenuItem>
+            </TldrawUiDropdownMenuGroup>
+            {/*<TldrawUiDropdownMenuGroup>
+              <TldrawUiDropdownMenuCheckboxItem
+                checked={checkboxValue}
+                title="Toggle option"
+                onSelect={() => setCheckboxValue(!checkboxValue)}
+              >
+                <TldrawUiButtonLabel>Checkbox item</TldrawUiButtonLabel>
+              </TldrawUiDropdownMenuCheckboxItem>
+            </TldrawUiDropdownMenuGroup>*/}
+            {/*<TldrawUiDropdownMenuGroup>
+              <TldrawUiDropdownMenuSub id="example-submenu">
+                <TldrawUiDropdownMenuSubTrigger label="More options..." />
+                <TldrawUiDropdownMenuSubContent>
+                  <TldrawUiDropdownMenuItem>
+                    <TldrawUiButton type="menu">
+                      <TldrawUiButtonLabel>Option A</TldrawUiButtonLabel>
+                    </TldrawUiButton>
+                  </TldrawUiDropdownMenuItem>
+                  <TldrawUiDropdownMenuItem>
+                    <TldrawUiButton type="menu">
+                      <TldrawUiButtonLabel>Option B</TldrawUiButtonLabel>
+                    </TldrawUiButton>
+                  </TldrawUiDropdownMenuItem>
+                </TldrawUiDropdownMenuSubContent>
+              </TldrawUiDropdownMenuSub>
+            </TldrawUiDropdownMenuGroup>*/}
+          </TldrawUiDropdownMenuContent>
+        </TldrawUiDropdownMenuRoot>
+      </div>
+    </section>
+  );
+
+  return (
+    <select
+      className="tlui-button"
+      onPointerDown={(e) => e.stopPropagation()}
+      onClick={(e) => e.stopPropagation()}
+    >
+      <option value="/">Main Page</option>
+    </select>
+  );
+};
+
 const CustomMenuPanel = () => (
   <div className="tlui-menu-zone">
     <div
@@ -140,7 +225,7 @@ const CustomMenuPanel = () => (
       }}
     >
       <DefaultMainMenu />
-      {/*<DefaultMenuPanel />*/}
+      <CustomMapMenu />
       <DefaultPageMenu />
       {/*<DefaultToolbarContent />*/}
       {/*<DefaultQuickActions />*/}
