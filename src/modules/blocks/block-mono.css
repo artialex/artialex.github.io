@@ -1,12 +1,12 @@
-@font-face {
+/*@font-face {
     font-family: tldraw_mono;
     font-weight: normal;
     src: url('/fonts/fantasquesansmono-regular.otf');
-}
+}*/
 
 [data-font='mono'] {
     tab-size: 4;
-    font-family: 'Fantasque Sans Mono';
+    /*font-family: 'Fantasque Sans Mono';*/
 
     /*
     h1 {

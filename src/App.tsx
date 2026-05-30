@@ -41,6 +41,8 @@ const assetUrls: TldrawProps['assetUrls'] = {
   },
 };
 
+console.log(assetUrls);
+
 FONT_SIZES.s = 16;
 FONT_SIZES.m = 20;
 FONT_SIZES.l = 24;
