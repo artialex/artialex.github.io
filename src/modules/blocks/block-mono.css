@@ -1,12 +1,12 @@
 /*@font-face {
     font-family: tldraw_mono;
     font-weight: normal;
-    src: url('/fonts/fantasquesansmono-regular.otf');
+    src: url('/fonts/Anonymous Pro Minus.ttf');
 }*/
 
 [data-font='mono'] {
     tab-size: 4;
-    font-family: 'Iosevka SS04';
+    font-family: 'Mononoki';
 
     /*
     h1 {
