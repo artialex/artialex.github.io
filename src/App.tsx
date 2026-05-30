@@ -14,24 +14,15 @@ import {
   Tldraw,
   Editor,
   tipTapDefaultExtensions,
-  DefaultMenuPanel,
-  DefaultToolbar,
-  DefaultQuickActions,
   DefaultPageMenu,
-  DefaultToolbarContent,
   DefaultMainMenu,
-  TldrawUiMenuGroup,
   TldrawUiDropdownMenuRoot,
   TldrawUiDropdownMenuTrigger,
   TldrawUiButton,
-  TldrawUiButtonLabel,
   TldrawUiDropdownMenuContent,
-  TldrawUiDropdownMenuGroup,
   TldrawUiDropdownMenuItem,
-  TldrawUiKbd,
-  TldrawUiDropdownMenuCheckboxItem,
-  TldrawUiDropdownMenuSub,
-  TldrawUiDropdownMenuSubTrigger,
+  TldrawUiDropdownMenuGroup,
+  TldrawUiButtonLabel,
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
@@ -142,65 +133,32 @@ function hasEmoji(s: string) {
 
 const CustomMapMenu = () => {
   return (
-    <section>
-      <div className="ui-row">
-        <TldrawUiDropdownMenuRoot id="example-dropdown">
-          <TldrawUiDropdownMenuTrigger>
-            <TldrawUiButton type="normal">
-              <TldrawUiButtonLabel>Open menu</TldrawUiButtonLabel>
+    <TldrawUiDropdownMenuRoot id="my-dropdown">
+      <TldrawUiDropdownMenuTrigger>
+        <TldrawUiButton type="normal">
+          <TldrawUiButtonLabel>Options</TldrawUiButtonLabel>
+        </TldrawUiButton>
+      </TldrawUiDropdownMenuTrigger>
+      <TldrawUiDropdownMenuContent>
+        <TldrawUiDropdownMenuGroup>
+          <TldrawUiDropdownMenuItem>
+            <TldrawUiButton type="menu" onClick={() => {}}>
+              <TldrawUiButtonLabel>Edit</TldrawUiButtonLabel>
             </TldrawUiButton>
-          </TldrawUiDropdownMenuTrigger>
-          <TldrawUiDropdownMenuContent side="bottom" align="start">
-            <TldrawUiDropdownMenuGroup>
-              <TldrawUiDropdownMenuItem>
-                <TldrawUiButton type="menu">
-                  <TldrawUiButtonLabel>Cut</TldrawUiButtonLabel>
-                  <TldrawUiKbd>⌘X</TldrawUiKbd>
-                </TldrawUiButton>
-              </TldrawUiDropdownMenuItem>
-              <TldrawUiDropdownMenuItem>
-                <TldrawUiButton type="menu">
-                  <TldrawUiButtonLabel>Copy</TldrawUiButtonLabel>
-                  <TldrawUiKbd>⌘C</TldrawUiKbd>
-                </TldrawUiButton>
-              </TldrawUiDropdownMenuItem>
-              <TldrawUiDropdownMenuItem>
-                <TldrawUiButton type="menu">
-                  <TldrawUiButtonLabel>Paste</TldrawUiButtonLabel>
-                  <TldrawUiKbd>⌘V</TldrawUiKbd>
-                </TldrawUiButton>
-              </TldrawUiDropdownMenuItem>
-            </TldrawUiDropdownMenuGroup>
-            {/*<TldrawUiDropdownMenuGroup>
-              <TldrawUiDropdownMenuCheckboxItem
-                checked={checkboxValue}
-                title="Toggle option"
-                onSelect={() => setCheckboxValue(!checkboxValue)}
-              >
-                <TldrawUiButtonLabel>Checkbox item</TldrawUiButtonLabel>
-              </TldrawUiDropdownMenuCheckboxItem>
-            </TldrawUiDropdownMenuGroup>*/}
-            {/*<TldrawUiDropdownMenuGroup>
-              <TldrawUiDropdownMenuSub id="example-submenu">
-                <TldrawUiDropdownMenuSubTrigger label="More options..." />
-                <TldrawUiDropdownMenuSubContent>
-                  <TldrawUiDropdownMenuItem>
-                    <TldrawUiButton type="menu">
-                      <TldrawUiButtonLabel>Option A</TldrawUiButtonLabel>
-                    </TldrawUiButton>
-                  </TldrawUiDropdownMenuItem>
-                  <TldrawUiDropdownMenuItem>
-                    <TldrawUiButton type="menu">
-                      <TldrawUiButtonLabel>Option B</TldrawUiButtonLabel>
-                    </TldrawUiButton>
-                  </TldrawUiDropdownMenuItem>
-                </TldrawUiDropdownMenuSubContent>
-              </TldrawUiDropdownMenuSub>
-            </TldrawUiDropdownMenuGroup>*/}
-          </TldrawUiDropdownMenuContent>
-        </TldrawUiDropdownMenuRoot>
-      </div>
-    </section>
+          </TldrawUiDropdownMenuItem>
+          <TldrawUiDropdownMenuItem>
+            <TldrawUiButton type="menu" onClick={() => {}}>
+              <TldrawUiButtonLabel>Duplicate</TldrawUiButtonLabel>
+            </TldrawUiButton>
+          </TldrawUiDropdownMenuItem>
+          <TldrawUiDropdownMenuItem>
+            <TldrawUiButton type="menu" onClick={() => {}}>
+              <TldrawUiButtonLabel>Delete</TldrawUiButtonLabel>
+            </TldrawUiButton>
+          </TldrawUiDropdownMenuItem>
+        </TldrawUiDropdownMenuGroup>
+      </TldrawUiDropdownMenuContent>
+    </TldrawUiDropdownMenuRoot>
   );
 
   return (
