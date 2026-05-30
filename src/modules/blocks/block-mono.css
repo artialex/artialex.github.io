@@ -1,16 +1,31 @@
 @font-face {
     font-family: tldraw_mono;
-    font-weight: 400;
+    font-weight: normal;
+    font-style: normal;
     src: url('/fonts/mononoki-Regular.ttf');
     size-adjust: 80%;
 }
 @font-face {
     font-family: tldraw_mono;
-    font-weight: 400;
-    src: url('/fonts/mononoki-Regular.ttf');
+    font-weight: bolder;
+    font-style: normal;
+    src: url('/fonts/mononoki-Medium.ttf');
     size-adjust: 80%;
 }
-
+@font-face {
+    font-family: tldraw_mono;
+    font-weight: normal;
+    font-style: italic;
+    src: url('/fonts/mononoki-Italic.ttf');
+    size-adjust: 80%;
+}
+@font-face {
+    font-family: tldraw_mono;
+    font-weight: bold;
+    font-style: italic;
+    src: url('/fonts/mononoki-MediumItalic.ttf');
+    size-adjust: 80%;
+}
 [data-font='mono'] {
     tab-size: 4;
     font-family: tldraw_mono;
