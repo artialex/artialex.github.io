@@ -14,6 +14,12 @@ import {
   Tldraw,
   Editor,
   tipTapDefaultExtensions,
+  DefaultMenuPanel,
+  DefaultToolbar,
+  DefaultQuickActions,
+  DefaultPageMenu,
+  DefaultToolbarContent,
+  DefaultMainMenu,
 } from "tldraw";
 import "tldraw/tldraw.css";
 import defaultSnapshot from "./defaultSnapshot.json";
@@ -122,6 +128,16 @@ function hasEmoji(s: string) {
   return /\p{Extended_Pictographic}/u.test(s);
 }
 
+const CustomMenuPanel = () => (
+  <div>
+    <DefaultMainMenu />
+    <DefaultMenuPanel />
+    <DefaultPageMenu />
+    {/*<DefaultToolbarContent />*/}
+    {/*<DefaultQuickActions />*/}
+  </div>
+);
+
 export const App = () => {
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
@@ -150,6 +166,7 @@ export const App = () => {
     <div style={{ position: "fixed", inset: 0 }}>
       <Tldraw
         deepLinks
+        components={{ MenuPanel: CustomMenuPanel }}
         textOptions={{
           tipTapConfig: {
             extensions: [
