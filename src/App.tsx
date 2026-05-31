@@ -59,7 +59,7 @@ const dict: Record<string, string> = {
   _pkm: 'PKM',
   _index: "ArtiAlex's Pensieve",
   _random: 'Random',
-  _management: 'Management',
+  _management: '🌵 Management',
 
   _javascript: 'JavaScript',
   _typescript: 'TypeScript',
@@ -75,7 +75,7 @@ const dict: Record<string, string> = {
   _cs: 'Computer Science',
   _programming: 'Programming',
   _swe: 'Software Engineering',
-  _networking: 'Networking',
+  _networking: '🌿 Networking',
 
   _algebra: '📘 Algebra',
   _trigonometry: 'Trigonometry',
