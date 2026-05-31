@@ -97,7 +97,7 @@ const dict: Record<string, string> = {
 function setTitle(editor: Editor) {
   const page = editor.getCurrentPage();
   const title = page?.name.replace(/\p{Extended_Pictographic}/u, '');
-  document.title = dict[id] + ' • ' + title;
+  document.title = dict[id].replace(/\p{Extended_Pictographic}/u, '') + ' • ' + title;
 }
 
 const CustomLink = Link.extend({
