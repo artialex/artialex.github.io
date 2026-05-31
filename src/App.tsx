@@ -77,7 +77,7 @@ const dict: Record<string, string> = {
   _swe: 'Software Engineering',
   _networking: 'Networking',
 
-  _algebra: 'Algebra',
+  _algebra: '📘 Algebra',
   _trigonometry: 'Trigonometry',
 
   _chemistry: 'Chemistry',
@@ -96,7 +96,7 @@ const dict: Record<string, string> = {
 
 function setTitle(editor: Editor) {
   const page = editor.getCurrentPage();
-  const title = page?.name;
+  const title = page?.name.replace(/\p{Extended_Pictographic}/u, '');
   document.title = dict[id] + ' • ' + title;
 }
 
