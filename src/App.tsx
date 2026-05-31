@@ -64,7 +64,7 @@ const dict: Record<string, string> = {
   _javascript: 'JavaScript',
   _typescript: 'TypeScript',
   _golang: 'Golang',
-  '_operating-systems': 'Operating Systems',
+  '_operating-systems': '🌿 Operating Systems',
   '_algorithms-n-data-structures': 'Algorithms & Data Structures',
   '_computer-hardware-n-architecture': 'Hardware',
   _cg: 'Computer Graphics',
