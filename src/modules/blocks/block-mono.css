@@ -30,6 +30,9 @@
     tab-size: 4;
     font-family: tldraw_mono;
 
+    code {
+        text-decoration: underline;
+    }
     /*
     h1 {
         font-weight: 800;
