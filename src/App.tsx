@@ -2,6 +2,7 @@ import HorizontalRule from '@tiptap/extension-horizontal-rule';
 import Typography from '@tiptap/extension-typography';
 import 'lucide-static/font/lucide.css';
 import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import {
   Editor,
@@ -19,29 +20,38 @@ import { extensions as iconExtensions } from './modules/icons/icons';
 
 import { mono } from './modules/blocks/block-mono';
 import { customLinkExtensions } from './modules/custom-link/custom-link';
-import { id, setTitle } from './modules/files/logic';
+import { getPageId, setTitle } from './modules/files/logic';
 import { CustomMenuPanel } from './modules/files/ui';
 
 import './modules/blocks/sizes';
 import { containsEmoji } from './modules/toolbelt/string';
 
+const baseUrl = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
+
 const assetUrls: TldrawProps['assetUrls'] = {
   fonts: {
-    tldraw_draw: '/fonts/MorningBreeze-Light.otf',
-    tldraw_draw_italic: '/fonts/MorningBreeze-Light.otf',
-    tldraw_draw_bold: '/fonts/PlaypenSans-Bold.ttf',
+    tldraw_draw: withBase('fonts/MorningBreeze-Light.otf'),
+    tldraw_draw_italic: withBase('fonts/MorningBreeze-Light.otf'),
+    tldraw_draw_bold: withBase('fonts/PlaypenSans-Bold.ttf'),
 
     ...mono.assetUrls?.fonts,
   },
 };
 
 export const App = () => {
+  const location = useLocation();
+  const id = getPageId(location.pathname);
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
   const [loadedWithError, setLoadedWithError] = useState(false);
 
   useEffect(() => {
-    fetch(`/data/${id}.json`)
+    // setEditor(null);
+    // setSnapshot(null);
+    // setLoadedWithError(false);
+
+    fetch(withBase(`data/${id}.json`))
       .then((r) => r.json())
       .then((snapshot) => {
         setSnapshot(snapshot);
@@ -51,7 +61,7 @@ export const App = () => {
         setSnapshot(defaultSnapshot as unknown as TLEditorSnapshot);
         setLoadedWithError(true);
       });
-  }, []);
+  }, [id]);
 
   if (!snapshot) return null;
 
@@ -60,8 +70,9 @@ export const App = () => {
   return (
     <div style={{ position: 'fixed', inset: 0 }} className={import.meta.env.PROD ? 'prod' : 'dev'}>
       <Tldraw
+        key={id}
         deepLinks
-        components={{ MenuPanel: CustomMenuPanel }}
+        components={{ MenuPanel: () => <CustomMenuPanel id={id} /> }}
         textOptions={{
           tipTapConfig: {
             extensions: [
@@ -82,7 +93,7 @@ export const App = () => {
         assetUrls={assetUrls}
         onUiEvent={(name) => {
           if (name === 'change-page' && editor) {
-            setTitle(editor);
+            setTitle(editor, id);
           }
         }}
         getShapeVisibility={(shape) => {
@@ -126,7 +137,7 @@ export const App = () => {
           }
 
           // Handle title
-          setTitle(editor);
+          setTitle(editor, id);
 
           // Make stuff read-only in PROD
           if (import.meta.env.PROD) {

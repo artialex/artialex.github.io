@@ -9,10 +9,12 @@ import {
   TldrawUiDropdownMenuRoot,
   TldrawUiDropdownMenuTrigger,
 } from 'tldraw';
-import { files, id } from './logic';
+import { useNavigate } from 'react-router-dom';
+import { files, getPagePath } from './logic';
 import { containsEmoji } from '../toolbelt/string';
 
-export const CustomMapMenu = () => {
+export const CustomMapMenu = ({ id }: { id: string }) => {
+  const navigate = useNavigate();
   let entries = Object.entries(files);
 
   if (import.meta.env.PROD) {
@@ -34,7 +36,7 @@ export const CustomMapMenu = () => {
                 <TldrawUiButton
                   type="menu"
                   onClick={() => {
-                    location.pathname = key === '_index' ? '/' : key.replace('_', '/');
+                    navigate(getPagePath(key));
                   }}
                 >
                   <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
@@ -48,7 +50,7 @@ export const CustomMapMenu = () => {
   );
 };
 
-export const CustomMenuPanel = () => (
+export const CustomMenuPanel = ({ id }: { id: string }) => (
   <div className="tlui-menu-zone">
     <div
       style={{
@@ -59,7 +61,7 @@ export const CustomMenuPanel = () => (
       }}
     >
       <DefaultMainMenu />
-      <CustomMapMenu />
+      <CustomMapMenu id={id} />
       <DefaultPageMenu />
     </div>
   </div>

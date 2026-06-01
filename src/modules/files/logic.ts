@@ -39,10 +39,17 @@ export const files: Record<string, string> = {
   _backend: 'Backend',
 };
 
-export const id = location.pathname === '/' ? '_index' : location.pathname.replaceAll('/', '_');
+export function getPageId(pathname: string) {
+  return pathname === '/' ? '_index' : pathname.replaceAll('/', '_');
+}
 
-export function setTitle(editor: Editor) {
+export function getPagePath(id: string) {
+  return id === '_index' ? '/' : id.replace('_', '/');
+}
+
+export function setTitle(editor: Editor, id: string) {
   const page = editor.getCurrentPage();
   const title = page?.name.replace(/\p{Extended_Pictographic}/u, '');
-  document.title = files[id].replace(/\p{Extended_Pictographic}/u, '') + ' • ' + title;
+  const fileTitle = (files[id] ?? files._index).replace(/\p{Extended_Pictographic}/u, '');
+  document.title = fileTitle + ' • ' + title;
 }

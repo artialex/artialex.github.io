@@ -2,14 +2,14 @@ import Link from '@tiptap/extension-link';
 
 export const CustomLink = Link.extend({
   renderHTML({ HTMLAttributes }) {
-    console.log(HTMLAttributes);
-
     const href = HTMLAttributes.href ?? '';
+    const normalizedHref = href.startsWith('/') ? `#${href}` : href.includes('///') ? href.replace('https://', '') : href;
+
     return [
       'a',
       {
         ...HTMLAttributes,
-        href: href.includes('///') ? href.replace('https://', '') : href,
+        href: normalizedHref,
       },
       0,
     ];
