@@ -5,7 +5,7 @@
 @import './styles/small-text.css';
 @import './modules/blocks/block-backgrounds.css';
 @import './modules/blocks/block-mono.css';
-@import './modules/blocks/block-draw.css';
+/*@import './modules/blocks/block-draw.css';*/
 @import './modules/icons/icons.css';
 
 :root {

@@ -57,7 +57,7 @@ const id = location.pathname === '/' ? '_index' : location.pathname.replaceAll('
 
 const dict: Record<string, string> = {
   _pkm: 'PKM',
-  _index: "ArtiAlex's Pensieve",
+  _index: "⭐ ArtiAlex's Pensieve",
   _random: 'Random',
   _management: '🌵 Management',
 
