@@ -5,7 +5,6 @@
 @import './styles/small-text.css';
 @import './modules/blocks/block-backgrounds.css';
 @import './modules/blocks/block-mono.css';
-/*@import './modules/blocks/block-draw.css';*/
 @import './modules/icons/icons.css';
 
 :root {
@@ -22,7 +21,6 @@
 
     --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
     --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-    /*--mono: ui-monospace, Consolas, monospace;*/
 
     font: 18px/145% var(--sans);
     letter-spacing: 0.18px;
