@@ -13,15 +13,6 @@ import {
   Tldraw,
   Editor,
   tipTapDefaultExtensions,
-  DefaultPageMenu,
-  DefaultMainMenu,
-  TldrawUiDropdownMenuRoot,
-  TldrawUiDropdownMenuTrigger,
-  TldrawUiButton,
-  TldrawUiDropdownMenuContent,
-  TldrawUiDropdownMenuItem,
-  TldrawUiDropdownMenuGroup,
-  TldrawUiButtonLabel,
 } from 'tldraw';
 import 'tldraw/tldraw.css';
 import defaultSnapshot from './defaultSnapshot.json';
@@ -30,7 +21,8 @@ import { extensions as iconExtensions } from './modules/icons/icons';
 
 import Link from '@tiptap/extension-link';
 import { mono } from './modules/blocks/block-mono';
-import { files } from './modules/files';
+import { CustomMenuPanel } from './modules/files/ui';
+import { id, setTitle } from './modules/files/logic';
 
 const assetUrls: TldrawProps['assetUrls'] = {
   fonts: {
@@ -73,23 +65,6 @@ const CustomLink = Link.extend({
 function hasEmoji(s: string) {
   return /\p{Extended_Pictographic}/u.test(s);
 }
-
-const CustomMenuPanel = () => (
-  <div className="tlui-menu-zone">
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 4,
-        pointerEvents: 'all',
-      }}
-    >
-      <DefaultMainMenu />
-      <CustomMapMenu />
-      <DefaultPageMenu />
-    </div>
-  </div>
-);
 
 export const App = () => {
   const [editor, setEditor] = useState<Editor | null>(null);
