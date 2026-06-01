@@ -19,10 +19,12 @@ import defaultSnapshot from './defaultSnapshot.json';
 import './colors/colors';
 import { extensions as iconExtensions } from './modules/icons/icons';
 
-import Link from '@tiptap/extension-link';
 import { mono } from './modules/blocks/block-mono';
 import { CustomMenuPanel } from './modules/files/ui';
 import { id, setTitle } from './modules/files/logic';
+import { customLinkExtensions } from './modules/custom-link/custom-link';
+
+import './modules/blocks/sizes';
 
 const assetUrls: TldrawProps['assetUrls'] = {
   fonts: {
@@ -33,34 +35,6 @@ const assetUrls: TldrawProps['assetUrls'] = {
     ...mono.assetUrls?.fonts,
   },
 };
-
-console.log(assetUrls);
-
-FONT_SIZES.s = 16;
-FONT_SIZES.m = 20;
-FONT_SIZES.l = 24;
-FONT_SIZES.xl = 28;
-
-STROKE_SIZES.s = 2;
-STROKE_SIZES.m = 2;
-STROKE_SIZES.l = 4;
-STROKE_SIZES.xl = 8;
-
-const CustomLink = Link.extend({
-  renderHTML({ HTMLAttributes }) {
-    console.log(HTMLAttributes);
-
-    const href = HTMLAttributes.href ?? '';
-    return [
-      'a',
-      {
-        ...HTMLAttributes,
-        href: href.includes('///') ? href.replace('https://', '') : href,
-      },
-      0,
-    ];
-  },
-});
 
 function hasEmoji(s: string) {
   return /\p{Extended_Pictographic}/u.test(s);
@@ -97,13 +71,7 @@ export const App = () => {
           tipTapConfig: {
             extensions: [
               ...extensions,
-              CustomLink.configure({
-                autolink: false,
-                isAllowedUri: (url, ctx) => {
-                  if (url.startsWith('/')) return true;
-                  return ctx.defaultValidate(url);
-                },
-              }),
+              ...customLinkExtensions,
               Typography.configure({
                 openDoubleQuote: false,
                 openSingleQuote: false,
@@ -118,8 +86,6 @@ export const App = () => {
         snapshot={snapshot}
         assetUrls={assetUrls}
         onUiEvent={(name) => {
-          console.log(name);
-
           if (name === 'change-page' && editor) {
             setTitle(editor);
           }

@@ -1,0 +1,11 @@
+import { FONT_SIZES, STROKE_SIZES } from 'tldraw';
+
+FONT_SIZES.s = 16;
+FONT_SIZES.m = 20;
+FONT_SIZES.l = 24;
+FONT_SIZES.xl = 28;
+
+STROKE_SIZES.s = 2;
+STROKE_SIZES.m = 2;
+STROKE_SIZES.l = 4;
+STROKE_SIZES.xl = 8;

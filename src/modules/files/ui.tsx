@@ -13,6 +13,12 @@ import { files, id } from './logic';
 import { containsEmoji } from '../toolbelt/string';
 
 export const CustomMapMenu = () => {
+  let entries = Object.entries(files);
+
+  if (import.meta.env.PROD) {
+    entries = entries.filter(([, value]) => containsEmoji(value));
+  }
+
   return (
     <TldrawUiDropdownMenuRoot id="my-dropdown">
       <TldrawUiDropdownMenuTrigger>
@@ -23,20 +29,18 @@ export const CustomMapMenu = () => {
       <TldrawUiDropdownMenuContent>
         <div style={{ columns: 3 }}>
           <TldrawUiDropdownMenuGroup>
-            {Object.entries(files)
-              .filter(([_, value]) => containsEmoji(value))
-              .map(([key, value]) => (
-                <TldrawUiDropdownMenuItem>
-                  <TldrawUiButton
-                    type="menu"
-                    onClick={() => {
-                      location.pathname = key === '_index' ? '/' : key.replace('_', '/');
-                    }}
-                  >
-                    <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
-                  </TldrawUiButton>
-                </TldrawUiDropdownMenuItem>
-              ))}
+            {entries.map(([key, value]) => (
+              <TldrawUiDropdownMenuItem>
+                <TldrawUiButton
+                  type="menu"
+                  onClick={() => {
+                    location.pathname = key === '_index' ? '/' : key.replace('_', '/');
+                  }}
+                >
+                  <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
+                </TldrawUiButton>
+              </TldrawUiDropdownMenuItem>
+            ))}
           </TldrawUiDropdownMenuGroup>
         </div>
       </TldrawUiDropdownMenuContent>
