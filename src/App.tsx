@@ -1,30 +1,29 @@
-import { useEffect, useState } from 'react';
-import Typography from '@tiptap/extension-typography';
 import HorizontalRule from '@tiptap/extension-horizontal-rule';
+import Typography from '@tiptap/extension-typography';
 import 'lucide-static/font/lucide.css';
+import { useEffect, useState } from 'react';
 
 import {
-  type TldrawProps,
-  FONT_SIZES,
-  STROKE_SIZES,
-  getSnapshot,
-  debounce,
+  Editor,
   type TLEditorSnapshot,
   Tldraw,
-  Editor,
+  type TldrawProps,
+  debounce,
+  getSnapshot,
   tipTapDefaultExtensions,
 } from 'tldraw';
 import 'tldraw/tldraw.css';
-import defaultSnapshot from './defaultSnapshot.json';
 import './colors/colors';
+import defaultSnapshot from './defaultSnapshot.json';
 import { extensions as iconExtensions } from './modules/icons/icons';
 
 import { mono } from './modules/blocks/block-mono';
-import { CustomMenuPanel } from './modules/files/ui';
-import { id, setTitle } from './modules/files/logic';
 import { customLinkExtensions } from './modules/custom-link/custom-link';
+import { id, setTitle } from './modules/files/logic';
+import { CustomMenuPanel } from './modules/files/ui';
 
 import './modules/blocks/sizes';
+import { containsEmoji } from './modules/toolbelt/string';
 
 const assetUrls: TldrawProps['assetUrls'] = {
   fonts: {
@@ -35,10 +34,6 @@ const assetUrls: TldrawProps['assetUrls'] = {
     ...mono.assetUrls?.fonts,
   },
 };
-
-function hasEmoji(s: string) {
-  return /\p{Extended_Pictographic}/u.test(s);
-}
 
 export const App = () => {
   const [editor, setEditor] = useState<Editor | null>(null);
@@ -119,7 +114,7 @@ export const App = () => {
           console.log(pages);
 
           for (const page of pages) {
-            if (!hasEmoji(page.name)) {
+            if (!containsEmoji(page.name)) {
               const style = document.createElement('style');
               style.textContent = `
                 [data-pageid="${page.id}"] {
