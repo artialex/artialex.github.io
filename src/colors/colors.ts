@@ -35,11 +35,13 @@ for (const [key, color] of Object.entries(colors)) {
   `;
 }
 
-style.textContent += `
-  .tl-shape:has([style*="color: ${colors['light-violet']}"], [stroke="${colors['light-violet']}"]) {
-    display: none !important;
-  }
-`;
+// style.textContent += `
+//   .tl-shape:has([style*="color: ${colors['light-violet']}"], [stroke="${colors['light-violet']}"]) {
+//     display: none !important;
+//     opacity: 0 !important;
+//     pointer-events: none !important;
+//   }
+// `;
 
 document.head.appendChild(style);
 

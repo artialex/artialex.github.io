@@ -10,6 +10,7 @@ import {
   type TldrawProps,
   debounce,
   getSnapshot,
+  react,
   tipTapDefaultExtensions,
 } from 'tldraw';
 import 'tldraw/tldraw.css';
@@ -109,9 +110,21 @@ export const App = () => {
         onMount={(editor) => {
           setEditor(editor);
 
+          react('filter hidden from selection', () => {
+            const allShapes = editor.getCurrentPageShapes();
+
+            const lightVioletShapes = allShapes.filter((_) => _.props?.color === 'light-violet');
+
+            console.log(lightVioletShapes);
+            // const selectedIds = editor.getSelectedShapeIds()
+            // const visibleIds = selectedIds.filter((id) => !editor.isShapeHidden(id))
+            // if (selectedIds.length !== visibleIds.length) {
+            // 	editor.setSelectedShapes(visibleIds)
+            // }
+          });
+
           // hide some pages
           const pages = editor.getPages();
-          console.log(pages);
 
           for (const page of pages) {
             if (!containsEmoji(page.name)) {
