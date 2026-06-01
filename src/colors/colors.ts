@@ -34,14 +34,13 @@ for (const [key, color] of Object.entries(colors)) {
     }
   `;
 }
-if (import.meta.env.PROD) {
-  style.textContent += `
-  .prod :where([style*="color: ${color}"], [stroke="${color}"]) {
-    display: none;
-  }
 
-  `;
-}
+style.textContent += `
+  .tl-shape:has([style*="color: ${colors['light-violet']}"], [stroke="${colors['light-violet']}"]) {
+    display: none !important;
+  }
+`;
+
 document.head.appendChild(style);
 
 // Light Theme
