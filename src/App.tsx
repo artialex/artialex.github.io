@@ -10,7 +10,6 @@ import {
   type TldrawProps,
   debounce,
   getSnapshot,
-  react,
   tipTapDefaultExtensions,
 } from 'tldraw';
 import 'tldraw/tldraw.css';
@@ -86,42 +85,19 @@ export const App = () => {
             setTitle(editor);
           }
         }}
-        // components={{
-        //   PageMenu: () => {
-        //     const editor = useEditor();
-        //     const pages = useValue("pages", () => editor.getPages(), [editor]);
+        getShapeVisibility={(shape) => {
+          if (import.meta.env.DEV) {
+            return 'inherit';
+          }
 
-        //     const visiblePages = pages;
+          if ('color' in shape.props && shape.props.color === 'light-violet') {
+            return 'hidden';
+          }
 
-        //     return (
-        //       <div>
-        //         {visiblePages.map((page) => (
-        //           <button
-        //             key={page.id}
-        //             onClick={() => editor.setCurrentPage(page.id)}
-        //           >
-        //             {page.name}
-        //           </button>
-        //         ))}
-        //       </div>
-        //     );
-        //   },
-        // }}
+          return 'inherit';
+        }}
         onMount={(editor) => {
           setEditor(editor);
-
-          react('filter hidden from selection', () => {
-            const allShapes = editor.getCurrentPageShapes();
-
-            const lightVioletShapes = allShapes.filter((_) => _.props?.color === 'light-violet');
-
-            console.log(lightVioletShapes);
-            // const selectedIds = editor.getSelectedShapeIds()
-            // const visibleIds = selectedIds.filter((id) => !editor.isShapeHidden(id))
-            // if (selectedIds.length !== visibleIds.length) {
-            // 	editor.setSelectedShapes(visibleIds)
-            // }
-          });
 
           // hide some pages
           const pages = editor.getPages();
