@@ -110,6 +110,8 @@ export const App = () => {
         onMount={(editor) => {
           setEditor(editor);
 
+          editor.user.updateUserPreferences({ colorScheme: 'dark' });
+
           // hide some pages
           const pages = editor.getPages();
 

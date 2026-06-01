@@ -55,51 +55,51 @@
 @font-face {
     font-family: tldraw_sans;
     font-weight: 400;
-    src: url('/fonts/YsabeauOffice-Regular.ttf');
+    src: url('../public/fonts/YsabeauOffice-Regular.ttf');
 }
 
 @font-face {
     font-family: tldraw_sans;
     font-weight: 600;
-    src: url('/fonts/YsabeauOffice-SemiBold.ttf');
+    src: url('../public/fonts/YsabeauOffice-SemiBold.ttf');
 }
 
 @font-face {
     font-family: tldraw_sans;
     font-weight: 800;
-    src: url('/fonts/YsabeauOffice-SemiBold.ttf');
+    src: url('../public/fonts/YsabeauOffice-SemiBold.ttf');
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-weight: 800;
-    src: url('/fonts/PlaypenSans-ExtraBold.ttf');
+    src: url('../public/fonts/PlaypenSans-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-weight: 600;
-    src: url('/fonts/PlaypenSans-Bold.ttf');
+    src: url('../public/fonts/PlaypenSans-Bold.ttf');
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-style: 400;
     font-style: italic;
-    src: url('/fonts/MorningBreeze-Light.otf');
+    src: url('../public/fonts/MorningBreeze-Light.otf');
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-weight: 400;
     font-style: normal;
-    src: url('/fonts/MorningBreeze-Light.otf');
+    src: url('../public/fonts/MorningBreeze-Light.otf');
 }
 
 @font-face {
     font-family: NerkoRussianFallback;
 
-    src: url('/fonts/PlaypenSans-SemiBold.ttf');
+    src: url('../public/fonts/PlaypenSans-SemiBold.ttf');
     size-adjust: 80%;
 }
 
