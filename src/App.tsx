@@ -58,7 +58,7 @@ export const App = () => {
   const extensions = tipTapDefaultExtensions.filter((_) => !(_.type === 'mark' && _.name === 'link'));
 
   return (
-    <div style={{ position: 'fixed', inset: 0 }}>
+    <div style={{ position: 'fixed', inset: 0 }} className={import.meta.env.PROD ? 'prod' : 'dev'}>
       <Tldraw
         deepLinks
         components={{ MenuPanel: CustomMenuPanel }}
