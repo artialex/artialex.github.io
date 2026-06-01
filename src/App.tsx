@@ -30,6 +30,7 @@ import { extensions as iconExtensions } from './modules/icons/icons';
 
 import Link from '@tiptap/extension-link';
 import { mono } from './modules/blocks/block-mono';
+import { files } from './modules/files';
 
 const assetUrls: TldrawProps['assetUrls'] = {
   fonts: {
@@ -53,53 +54,6 @@ STROKE_SIZES.m = 2;
 STROKE_SIZES.l = 4;
 STROKE_SIZES.xl = 8;
 
-const id = location.pathname === '/' ? '_index' : location.pathname.replaceAll('/', '_');
-
-const dict: Record<string, string> = {
-  _pkm: 'PKM',
-  _index: "⭐ ArtiAlex's Pensieve",
-  _random: 'Random',
-  _management: '🌵 Management',
-
-  _javascript: 'JavaScript',
-  _typescript: 'TypeScript',
-  _golang: 'Golang',
-  '_operating-systems': '🌿 Operating Systems',
-  '_algorithms-n-data-structures': 'Algorithms & Data Structures',
-  '_computer-hardware-n-architecture': 'Hardware',
-  _cg: 'Computer Graphics',
-  _web: 'Web Dev',
-  _css: 'CSS',
-  _ai: 'ML & AI',
-  _devops: 'DevOps',
-  _cs: 'Computer Science',
-  _programming: 'Programming',
-  _swe: 'Software Engineering',
-  _networking: '🌿 Networking',
-
-  _algebra: '📘 Algebra',
-  _trigonometry: 'Trigonometry',
-
-  _chemistry: 'Chemistry',
-  _physics: 'Physics',
-  _biology: 'Biology',
-  _science: 'Science',
-
-  _gamedev: 'Game Development',
-  _music: 'Music',
-  _design: 'Design',
-  _finances: 'Finances',
-  _pde: 'PDE',
-  _colors: 'Colors',
-  _backend: 'Backend',
-};
-
-function setTitle(editor: Editor) {
-  const page = editor.getCurrentPage();
-  const title = page?.name.replace(/\p{Extended_Pictographic}/u, '');
-  document.title = dict[id].replace(/\p{Extended_Pictographic}/u, '') + ' • ' + title;
-}
-
 const CustomLink = Link.extend({
   renderHTML({ HTMLAttributes }) {
     console.log(HTMLAttributes);
@@ -119,40 +73,6 @@ const CustomLink = Link.extend({
 function hasEmoji(s: string) {
   return /\p{Extended_Pictographic}/u.test(s);
 }
-
-const CustomMapMenu = () => {
-  // console.log(dict);
-  // console.log(location.pathname);
-  console.log(id);
-
-  return (
-    <TldrawUiDropdownMenuRoot id="my-dropdown">
-      <TldrawUiDropdownMenuTrigger>
-        <TldrawUiButton type="normal" style={{ width: 'max-content' }}>
-          <TldrawUiButtonLabel>{dict[id]}</TldrawUiButtonLabel>
-        </TldrawUiButton>
-      </TldrawUiDropdownMenuTrigger>
-      <TldrawUiDropdownMenuContent>
-        <div style={{ columns: 3 }}>
-          <TldrawUiDropdownMenuGroup>
-            {Object.entries(dict).map(([key, value]) => (
-              <TldrawUiDropdownMenuItem>
-                <TldrawUiButton
-                  type="menu"
-                  onClick={() => {
-                    location.pathname = key === '_index' ? '/' : key.replace('_', '/');
-                  }}
-                >
-                  <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
-                </TldrawUiButton>
-              </TldrawUiDropdownMenuItem>
-            ))}
-          </TldrawUiDropdownMenuGroup>
-        </div>
-      </TldrawUiDropdownMenuContent>
-    </TldrawUiDropdownMenuRoot>
-  );
-};
 
 const CustomMenuPanel = () => (
   <div className="tlui-menu-zone">
