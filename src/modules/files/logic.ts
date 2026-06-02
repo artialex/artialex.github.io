@@ -47,9 +47,14 @@ export function getPagePath(id: string) {
   return id === '_index' ? '/' : id.replace('_', '/');
 }
 
+export function removeEmoji(str: string) {
+  return str.replace(/\p{Extended_Pictographic}/u, '');
+}
+
 export function setTitle(editor: Editor, id: string) {
   const page = editor.getCurrentPage();
-  const title = page?.name.replace(/\p{Extended_Pictographic}/u, '');
-  const fileTitle = (files[id] ?? files._index).replace(/\p{Extended_Pictographic}/u, '');
+  const title = removeEmoji(page?.name);
+  const fileTitle = removeEmoji(files[id] ?? files._index);
+
   document.title = fileTitle + ' • ' + title;
 }

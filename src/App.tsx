@@ -41,6 +41,8 @@ const assetUrls: TldrawProps['assetUrls'] = {
 
 export const App = () => {
   const location = useLocation();
+  console.log(location);
+
   const id = getPageId(location.pathname);
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
