@@ -4,7 +4,7 @@ export const notebooks: Record<string, string> = {
   _pkm: 'PKM',
   _index: "⭐ ArtiAlex's Pensieve",
   _random: 'Random',
-  _management: '🌵 Management',
+  _management: 'Management',
 
   _javascript: 'JavaScript',
   _typescript: '🪻 TypeScript',
