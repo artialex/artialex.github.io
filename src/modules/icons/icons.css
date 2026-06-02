@@ -1,6 +1,6 @@
-span[class^="icon"] {
+span[class^='icon'] {
     font-size: 90%;
-    vertical-align: -15%;
+    vertical-align: -12.5%;
 
     h1 & {
         vertical-align: -10%;
@@ -15,10 +15,11 @@ p:has(.icon-square-check, .icon-circle-check) {
     color: rgb(9, 146, 104);
 }
 
-p:has(.icon-square-slash) {
+p:has(.icon-square-slash),
+p:has([class*='question']) {
     color: rgb(245, 158, 11);
 }
 
-p:has([class*="alert"]) {
+p:has([class*='alert']) {
     color: rgb(248, 119, 119);
 }

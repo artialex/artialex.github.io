@@ -1,35 +1,35 @@
-import { mergeAttributes, Node, nodeInputRule } from "@tiptap/core";
+import { mergeAttributes, Node, nodeInputRule } from '@tiptap/core';
 
 export const Emoji = Node.create({
-  name: "icon",
-  group: "inline",
+  name: 'icon',
+  group: 'inline',
   inline: true,
 
   addAttributes() {
     return {
       name: {
         default: null,
-        parseHTML: (element) => element.getAttribute("data-lucide"),
+        parseHTML: (element) => element.getAttribute('data-lucide'),
         renderHTML: (attributes) => ({
-          "data-lucide": attributes.name,
+          'data-lucide': attributes.name,
         }),
       },
     };
   },
 
   parseHTML() {
-    return [{ tag: "span[data-lucide]" }];
+    return [{ tag: 'span[data-lucide]' }];
   },
 
   // <i data-lucide="menu"></i>
   renderHTML({ node, HTMLAttributes }) {
     return [
-      "span",
+      'span',
       mergeAttributes(HTMLAttributes, {
-        "data-lucide": node.attrs.name,
+        'data-lucide': node.attrs.name,
         class: `icon-${node.attrs.name}`,
       }),
-      " ",
+      ' ',
     ];
   },
 
@@ -46,37 +46,42 @@ export const Emoji = Node.create({
       nodeInputRule({
         find: /\[ \]/,
         type: this.type,
-        getAttributes: () => ({ name: "square" }),
+        getAttributes: () => ({ name: 'square' }),
       }),
       nodeInputRule({
         find: /\[x\]/,
         type: this.type,
-        getAttributes: () => ({ name: "square-check" }),
+        getAttributes: () => ({ name: 'square-check' }),
       }),
       nodeInputRule({
         find: /\[\/\]/,
         type: this.type,
-        getAttributes: () => ({ name: "square-slash" }),
+        getAttributes: () => ({ name: 'square-slash' }),
       }),
       nodeInputRule({
         find: /^& /,
         type: this.type,
-        getAttributes: () => ({ name: "check" }),
+        getAttributes: () => ({ name: 'check' }),
       }),
       nodeInputRule({
         find: /^= /,
         type: this.type,
-        getAttributes: () => ({ name: "equal" }),
+        getAttributes: () => ({ name: 'equal' }),
       }),
       nodeInputRule({
         find: /^@ /,
         type: this.type,
-        getAttributes: () => ({ name: "box" }),
+        getAttributes: () => ({ name: 'box' }),
       }),
       nodeInputRule({
         find: /^! /,
         type: this.type,
-        getAttributes: () => ({ name: "info" }),
+        getAttributes: () => ({ name: 'info' }),
+      }),
+      nodeInputRule({
+        find: /^\? /,
+        type: this.type,
+        getAttributes: () => ({ name: 'circle-question-mark' }),
       }),
     ];
   },
