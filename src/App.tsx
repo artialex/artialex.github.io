@@ -18,6 +18,7 @@ import { CustomMenuPanel } from './modules/notebooks/ui';
 import './modules/blocks/sizes';
 import { containsEmoji } from './modules/toolbelt/string';
 import { saveSnapshot } from './modules/persistence/persistence';
+import { partition } from './modules/toolbelt/array';
 
 const baseUrl = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
@@ -110,9 +111,11 @@ export const App = () => {
           editor.user.updateUserPreferences({ colorScheme: 'dark' });
 
           // hide some pages
-          const pages = editor.getPages();
+          const [visiblePages, invisiblePages] = partition(editor.getPages(), (page) => {
+            return containsEmoji(page.name);
+          });
 
-          for (const page of pages) {
+          for (const page of invisiblePages) {
             if (!containsEmoji(page.name)) {
               const style = document.createElement('style');
               console.log(page.name, id);
@@ -122,6 +125,10 @@ export const App = () => {
                 }
               `;
               document.head.appendChild(style);
+
+              if (editor.getCurrentPage()?.id === page.id) {
+                editor.setCurrentPage(visiblePages[0].id);
+              }
             }
           }
 
