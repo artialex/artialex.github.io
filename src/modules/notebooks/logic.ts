@@ -10,7 +10,7 @@ export const notebooks: Record<string, string> = {
   '_operating-systems': '🌿 Operating Systems',
   '_algorithms-n-data-structures': 'Algorithms & Data Structures',
   '_computer-hardware-n-architecture': 'Hardware',
-  _cg: 'Computer Graphics',
+  _cg: '🫖 Computer Graphics',
   _web: 'Web Dev',
   _css: 'CSS',
   _ai: 'ML & AI',
