@@ -4,7 +4,7 @@ export const notebooks: Record<string, string> = {
   _index: "⭐ ArtiAlex's Pensieve",
 
   // Computer Science
-  _javascript: 'JavaScript',
+  _javascript: '🪻 JavaScript',
   _typescript: '🪻 TypeScript',
   _golang: '🐹 Golang',
   '_operating-systems': '🌿 Operating Systems',

@@ -18,6 +18,7 @@ import { CustomMenuPanel } from './modules/notebooks/ui';
 import './modules/blocks/sizes';
 import { containsEmoji } from './modules/toolbelt/string';
 import { saveSnapshot } from './modules/persistence/persistence';
+import { LeafyGreen } from 'lucide-static';
 
 const baseUrl = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
@@ -110,6 +111,7 @@ export const App = () => {
           for (const page of pages) {
             if (!containsEmoji(page.name)) {
               const style = document.createElement('style');
+              console.log(page.name, id);
               style.textContent = `
                 [data-pageid="${page.id}"] {
                   ${import.meta.env.DEV ? 'opacity: 0.5;' : 'display: none;'}
