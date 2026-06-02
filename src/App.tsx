@@ -18,7 +18,6 @@ import { CustomMenuPanel } from './modules/notebooks/ui';
 import './modules/blocks/sizes';
 import { containsEmoji } from './modules/toolbelt/string';
 import { saveSnapshot } from './modules/persistence/persistence';
-import { LeafyGreen } from 'lucide-static';
 
 const baseUrl = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
@@ -87,6 +86,10 @@ export const App = () => {
         onUiEvent={(name) => {
           if (name === 'change-page' && editor) {
             setTitle(editor, id);
+
+            if (import.meta.env.PROD) {
+              editor.zoomToFit();
+            }
           }
         }}
         getShapeVisibility={(shape) => {
@@ -103,6 +106,7 @@ export const App = () => {
         onMount={(editor) => {
           setEditor(editor);
 
+          // Set dark mode always by default
           editor.user.updateUserPreferences({ colorScheme: 'dark' });
 
           // hide some pages
