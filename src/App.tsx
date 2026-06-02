@@ -4,15 +4,7 @@ import 'lucide-static/font/lucide.css';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import {
-  Editor,
-  type TLEditorSnapshot,
-  Tldraw,
-  type TldrawProps,
-  debounce,
-  getSnapshot,
-  tipTapDefaultExtensions,
-} from 'tldraw';
+import { Editor, type TLEditorSnapshot, Tldraw, type TldrawProps, tipTapDefaultExtensions } from 'tldraw';
 import 'tldraw/tldraw.css';
 import './colors/colors';
 import defaultSnapshot from './defaultSnapshot.json';
@@ -20,11 +12,12 @@ import { extensions as iconExtensions } from './modules/icons/icons';
 
 import { mono } from './modules/blocks/block-mono';
 import { customLinkExtensions } from './modules/custom-link/custom-link';
-import { getPageId, setTitle } from './modules/files/logic';
-import { CustomMenuPanel } from './modules/files/ui';
+import { getPageId, setTitle } from './modules/notebooks/logic';
+import { CustomMenuPanel } from './modules/notebooks/ui';
 
 import './modules/blocks/sizes';
 import { containsEmoji } from './modules/toolbelt/string';
+import { saveSnapshot } from './modules/persistence/persistence';
 
 const baseUrl = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
@@ -41,18 +34,15 @@ const assetUrls: TldrawProps['assetUrls'] = {
 
 export const App = () => {
   const location = useLocation();
-  console.log(location);
-
   const id = getPageId(location.pathname);
+
+  console.log(location, id);
+
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
   const [loadedWithError, setLoadedWithError] = useState(false);
 
   useEffect(() => {
-    // setEditor(null);
-    // setSnapshot(null);
-    // setLoadedWithError(false);
-
     fetch(withBase(`data/${id}.json`))
       .then((r) => r.json())
       .then((snapshot) => {
@@ -150,23 +140,8 @@ export const App = () => {
             editor.zoomToFit();
           }
 
-          // Auto-save in DEV
           if (import.meta.env.DEV && !loadedWithError) {
-            editor.store.listen(
-              debounce(() => {
-                const snapshot = getSnapshot(editor.store);
-
-                fetch(`/api/save?id=${id}`, {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/json' },
-                  body: JSON.stringify(snapshot),
-                });
-              }, 5000),
-              {
-                source: 'user',
-                scope: 'document',
-              },
-            );
+            saveSnapshot(editor.store, id);
           }
         }}
       />

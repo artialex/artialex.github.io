@@ -10,12 +10,12 @@ import {
   TldrawUiDropdownMenuTrigger,
 } from 'tldraw';
 import { useNavigate } from 'react-router-dom';
-import { files, getPagePath } from './logic';
+import { notebooks, getPagePath } from './logic';
 import { containsEmoji } from '../toolbelt/string';
 
 export const CustomMapMenu = ({ id }: { id: string }) => {
   const navigate = useNavigate();
-  let entries = Object.entries(files);
+  let entries = Object.entries(notebooks);
 
   if (import.meta.env.PROD) {
     entries = entries.filter(([, value]) => containsEmoji(value));
@@ -25,7 +25,7 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
     <TldrawUiDropdownMenuRoot id="my-dropdown">
       <TldrawUiDropdownMenuTrigger>
         <TldrawUiButton type="normal" style={{ width: 'max-content' }}>
-          <TldrawUiButtonLabel>{files[id]}</TldrawUiButtonLabel>
+          <TldrawUiButtonLabel>{notebooks[id]}</TldrawUiButtonLabel>
         </TldrawUiButton>
       </TldrawUiDropdownMenuTrigger>
       <TldrawUiDropdownMenuContent>

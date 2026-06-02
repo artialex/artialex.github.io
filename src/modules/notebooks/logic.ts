@@ -1,6 +1,6 @@
 import type { Editor } from 'tldraw';
 
-export const files: Record<string, string> = {
+export const notebooks: Record<string, string> = {
   _pkm: 'PKM',
   _index: "⭐ ArtiAlex's Pensieve",
   _random: 'Random',
@@ -54,7 +54,7 @@ export function removeEmoji(str: string) {
 export function setTitle(editor: Editor, id: string) {
   const page = editor.getCurrentPage();
   const title = removeEmoji(page?.name);
-  const fileTitle = removeEmoji(files[id] ?? files._index);
+  const fileTitle = removeEmoji(notebooks[id] ?? notebooks._index);
 
   document.title = fileTitle + ' • ' + title;
 }
