@@ -1,14 +1,12 @@
 import type { Editor } from 'tldraw';
 
 export const notebooks: Record<string, string> = {
-  _pkm: 'PKM',
   _index: "⭐ ArtiAlex's Pensieve",
-  _random: 'Random',
-  _management: 'Management',
 
+  // Computer Science
   _javascript: 'JavaScript',
   _typescript: '🪻 TypeScript',
-  _golang: 'Golang',
+  _golang: '🐹 Golang',
   '_operating-systems': '🌿 Operating Systems',
   '_algorithms-n-data-structures': 'Algorithms & Data Structures',
   '_computer-hardware-n-architecture': 'Hardware',
@@ -21,22 +19,30 @@ export const notebooks: Record<string, string> = {
   _programming: 'Programming',
   _swe: 'Software Engineering',
   _networking: '🌿 Networking',
+  _gamedev: 'Game Development',
+  _backend: 'Backend',
 
+  _management: 'Management',
+
+  // Mathematics
   _algebra: '📘 Algebra',
   _trigonometry: 'Trigonometry',
 
+  // STEM
   _chemistry: 'Chemistry',
   _physics: 'Physics',
   _biology: 'Biology',
   _science: 'Science',
 
-  _gamedev: 'Game Development',
+  // Hobbies
   _music: 'Music',
   _design: 'Design',
   _finances: 'Finances',
   _pde: 'PDE',
   _colors: 'Colors',
-  _backend: 'Backend',
+  _pkm: 'PKM',
+
+  _random: 'Random',
 };
 
 export function getPageId(pathname: string) {
