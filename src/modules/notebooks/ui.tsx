@@ -13,7 +13,6 @@ import { useNavigate } from 'react-router-dom';
 import { notebooks, getPagePath } from './logic';
 import { containsEmoji } from '../toolbelt/string';
 import { partition } from '../toolbelt/array';
-import { Divide } from 'lucide-static';
 
 export const CustomMapMenu = ({ id }: { id: string }) => {
   const navigate = useNavigate();
