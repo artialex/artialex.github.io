@@ -84,17 +84,15 @@
 
 @font-face {
     font-family: tldraw_draw;
-    font-style: 400;
-    font-style: italic;
     src: url('../public/fonts/MorningBreeze-Light.otf');
 }
 
-@font-face {
+/*@font-face {
     font-family: tldraw_draw;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     src: url('../public/fonts/MorningBreeze-Light.otf');
-}
+}*/
 
 @font-face {
     font-family: NerkoRussianFallback;
