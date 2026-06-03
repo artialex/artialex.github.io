@@ -13,6 +13,7 @@ import { useNavigate } from 'react-router-dom';
 import { notebooks, getPagePath } from './logic';
 import { containsEmoji } from '../toolbelt/string';
 import { partition } from '../toolbelt/array';
+import { Divide } from 'lucide-static';
 
 export const CustomMapMenu = ({ id }: { id: string }) => {
   const navigate = useNavigate();
@@ -39,18 +40,20 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
       <TldrawUiDropdownMenuContent>
         {[index, cs, math, stem, rest].map((group, index) => (
           <TldrawUiDropdownMenuGroup key={index}>
-            <div style={{ columns: 3 }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
               {group.map(([key, value]) => (
-                <TldrawUiDropdownMenuItem>
-                  <TldrawUiButton
-                    type="menu"
-                    onClick={() => {
-                      navigate(getPagePath(key));
-                    }}
-                  >
-                    <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
-                  </TldrawUiButton>
-                </TldrawUiDropdownMenuItem>
+                <div style={{ width: '100px' }}>
+                  <TldrawUiDropdownMenuItem>
+                    <TldrawUiButton
+                      type="menu"
+                      onClick={() => {
+                        navigate(getPagePath(key));
+                      }}
+                    >
+                      <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
+                    </TldrawUiButton>
+                  </TldrawUiDropdownMenuItem>
+                </div>
               ))}
             </div>
           </TldrawUiDropdownMenuGroup>
