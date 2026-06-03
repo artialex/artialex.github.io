@@ -126,7 +126,7 @@ export const App = () => {
               `;
               document.head.appendChild(style);
 
-              if (editor.getCurrentPage()?.id === page.id) {
+              if (editor.getCurrentPage()?.id === page.id && visiblePages.length > 0) {
                 editor.setCurrentPage(visiblePages[0].id);
               }
             }
