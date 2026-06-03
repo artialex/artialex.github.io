@@ -33,7 +33,7 @@ export const notebooks: Record<string, string> = {
   _chemistry: '📗 Chemistry',
   _physics: 'Physics',
   _biology: '📗 Biology',
-  _science: '📗 Science',
+  _science: 'Science',
 
   // Hobbies
   _music: 'Music',
