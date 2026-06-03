@@ -21,7 +21,12 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
   if (import.meta.env.PROD) {
     entries = entries.filter(([, value]) => containsEmoji(value));
   }
-  const [index, rest] = partition(entries, ([_, name]) => name.includes('⭐'));
+
+  const [index, rest1] = partition(entries, ([, name]) => name.includes('⭐'));
+  const [cs, rest2] = partition(rest1, ([, name]) =>
+    ['🌻', '🌱', '🪻', '🌷', '🫖', '🐹'].some((flower) => name.includes(flower)),
+  );
+  const [stem, rest] = partition(rest2, ([, name]) => ['📘'].some((flower) => name.includes(flower)));
 
   return (
     <TldrawUiDropdownMenuRoot id="my-dropdown">
@@ -31,38 +36,24 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
         </TldrawUiButton>
       </TldrawUiDropdownMenuTrigger>
       <TldrawUiDropdownMenuContent>
-        <TldrawUiDropdownMenuGroup>
-          <div style={{ columns: 3 }}>
-            {index.map(([key, value]) => (
-              <TldrawUiDropdownMenuItem>
-                <TldrawUiButton
-                  type="menu"
-                  onClick={() => {
-                    navigate(getPagePath(key));
-                  }}
-                >
-                  <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
-                </TldrawUiButton>
-              </TldrawUiDropdownMenuItem>
-            ))}
-          </div>
-        </TldrawUiDropdownMenuGroup>
-        <TldrawUiDropdownMenuGroup>
-          <div style={{ columns: 3 }}>
-            {rest.map(([key, value]) => (
-              <TldrawUiDropdownMenuItem>
-                <TldrawUiButton
-                  type="menu"
-                  onClick={() => {
-                    navigate(getPagePath(key));
-                  }}
-                >
-                  <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
-                </TldrawUiButton>
-              </TldrawUiDropdownMenuItem>
-            ))}
-          </div>
-        </TldrawUiDropdownMenuGroup>
+        {[index, cs, stem, rest].map((group, index) => (
+          <TldrawUiDropdownMenuGroup key={index}>
+            <div style={{ columns: 3 }}>
+              {group.map(([key, value]) => (
+                <TldrawUiDropdownMenuItem>
+                  <TldrawUiButton
+                    type="menu"
+                    onClick={() => {
+                      navigate(getPagePath(key));
+                    }}
+                  >
+                    <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
+                  </TldrawUiButton>
+                </TldrawUiDropdownMenuItem>
+              ))}
+            </div>
+          </TldrawUiDropdownMenuGroup>
+        ))}
       </TldrawUiDropdownMenuContent>
     </TldrawUiDropdownMenuRoot>
   );
