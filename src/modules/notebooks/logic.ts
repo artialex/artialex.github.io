@@ -29,6 +29,7 @@ export const notebooks: Record<string, string> = {
   _algebra: '📘 Algebra',
   _trigonometry: 'Trigonometry',
   _combinatorics: 'Combinatorics',
+  _probability: 'Probability',
 
   // STEM
   _chemistry: '📗 Chemistry',
