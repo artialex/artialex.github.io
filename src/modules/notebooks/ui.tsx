@@ -12,6 +12,7 @@ import {
 import { useNavigate } from 'react-router-dom';
 import { notebooks, getPagePath } from './logic';
 import { containsEmoji } from '../toolbelt/string';
+import { partition } from '../toolbelt/array';
 
 export const CustomMapMenu = ({ id }: { id: string }) => {
   const navigate = useNavigate();
@@ -20,6 +21,7 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
   if (import.meta.env.PROD) {
     entries = entries.filter(([, value]) => containsEmoji(value));
   }
+  const [index, rest] = partition(entries, ([_, name]) => name.includes('⭐'));
 
   return (
     <TldrawUiDropdownMenuRoot id="my-dropdown">
@@ -29,9 +31,9 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
         </TldrawUiButton>
       </TldrawUiDropdownMenuTrigger>
       <TldrawUiDropdownMenuContent>
-        <div style={{ columns: 3 }}>
-          <TldrawUiDropdownMenuGroup>
-            {entries.map(([key, value]) => (
+        <TldrawUiDropdownMenuGroup>
+          <div style={{ columns: 3 }}>
+            {index.map(([key, value]) => (
               <TldrawUiDropdownMenuItem>
                 <TldrawUiButton
                   type="menu"
@@ -43,8 +45,24 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
                 </TldrawUiButton>
               </TldrawUiDropdownMenuItem>
             ))}
-          </TldrawUiDropdownMenuGroup>
-        </div>
+          </div>
+        </TldrawUiDropdownMenuGroup>
+        <TldrawUiDropdownMenuGroup>
+          <div style={{ columns: 3 }}>
+            {rest.map(([key, value]) => (
+              <TldrawUiDropdownMenuItem>
+                <TldrawUiButton
+                  type="menu"
+                  onClick={() => {
+                    navigate(getPagePath(key));
+                  }}
+                >
+                  <TldrawUiButtonLabel>{value}</TldrawUiButtonLabel>
+                </TldrawUiButton>
+              </TldrawUiDropdownMenuItem>
+            ))}
+          </div>
+        </TldrawUiDropdownMenuGroup>
       </TldrawUiDropdownMenuContent>
     </TldrawUiDropdownMenuRoot>
   );
