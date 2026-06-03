@@ -40,9 +40,9 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
       <TldrawUiDropdownMenuContent>
         {[index, cs, math, stem, rest].map((group, index) => (
           <TldrawUiDropdownMenuGroup key={index}>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(100px, 1fr))' }}>
               {group.map(([key, value]) => (
-                <div style={{ width: '100px' }}>
+                <div>
                   <TldrawUiDropdownMenuItem>
                     <TldrawUiButton
                       type="menu"

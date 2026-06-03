@@ -31,7 +31,7 @@ export const notebooks: Record<string, string> = {
 
   // STEM
   _chemistry: '📗 Chemistry',
-  _physics: '📗 Physics',
+  _physics: 'Physics',
   _biology: '📗 Biology',
   _science: '📗 Science',
 
