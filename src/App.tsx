@@ -28,7 +28,8 @@ const assetUrls: TldrawProps['assetUrls'] = {
     tldraw_draw: withBase('fonts/MorningBreeze-Light.otf'),
     tldraw_draw_italic: withBase('fonts/MorningBreeze-Light.otf'),
     // tldraw_draw_bold: withBase('fonts/PlaypenSans-Bold.ttf'),
-    tldraw_draw_bold: withBase('fonts/MorningBreeze.otf'),
+    tldraw_draw_bold: withBase('fonts/MorningBreeze-Light.otf'),
+    tldraw_draw_italic_bold: withBase('fonts/MorningBreeze-Light.otf'),
 
     ...mono.assetUrls?.fonts,
   },

@@ -73,13 +73,13 @@
 @font-face {
     font-family: tldraw_draw;
     font-weight: 800;
-    src: url('../public/fonts/PlaypenSans-ExtraBold.ttf');
+    /*src: url('../public/fonts/PlaypenSans-ExtraBold.ttf');*/
 }
 
 @font-face {
     font-family: tldraw_draw;
     font-weight: 600;
-    src: url('../public/fonts/PlaypenSans-Bold.ttf');
+    /*src: url('../public/fonts/PlaypenSans-Bold.ttf');*/
 }
 
 @font-face {
