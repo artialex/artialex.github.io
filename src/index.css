@@ -70,29 +70,37 @@
     src: url('../public/fonts/YsabeauOffice-SemiBold.ttf');
 }
 
-@font-face {
+/*@font-face {
     font-family: tldraw_draw;
     font-weight: 800;
     src: url('../public/fonts/PlaypenSans-ExtraBold.ttf');
-}
-
-@font-face {
-    font-family: tldraw_draw;
-    font-weight: 600;
-    src: url('../public/fonts/PlaypenSans-Bold.ttf');
-}
-
-@font-face {
-    font-family: tldraw_draw;
-    src: url('../public/fonts/MorningBreeze-Light.otf');
-}
+}*/
 
 /*@font-face {
     font-family: tldraw_draw;
-    font-weight: 500;
+    font-weight: 600;
+    src: url('../public/fonts/PlaypenSans-Bold.ttf');
+}*/
+
+@font-face {
+    font-family: tldraw_draw;
+    font-weight: 400;
+    font-style: italic;
+    src: url('../public/fonts/MorningBreeze-Light.otf');
+}
+
+@font-face {
+    font-family: tldraw_draw;
+    font-weight: 400;
     font-style: normal;
     src: url('../public/fonts/MorningBreeze-Light.otf');
-}*/
+}
+@font-face {
+    font-family: 'Morning Breeze Light';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../public/fonts/MorningBreeze-Light.otf');
+}
 
 @font-face {
     font-family: NerkoRussianFallback;
