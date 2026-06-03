@@ -26,7 +26,8 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
   const [cs, rest2] = partition(rest1, ([, name]) =>
     ['🌻', '🌱', '🪻', '🌷', '🫖', '🐹'].some((flower) => name.includes(flower)),
   );
-  const [stem, rest] = partition(rest2, ([, name]) => ['📘'].some((flower) => name.includes(flower)));
+  const [math, rest3] = partition(rest2, ([, name]) => name.includes('📘'));
+  const [stem, rest] = partition(rest3, ([, name]) => name.includes('📗'));
 
   return (
     <TldrawUiDropdownMenuRoot id="my-dropdown">
@@ -36,7 +37,7 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
         </TldrawUiButton>
       </TldrawUiDropdownMenuTrigger>
       <TldrawUiDropdownMenuContent>
-        {[index, cs, stem, rest].map((group, index) => (
+        {[index, cs, math, stem, rest].map((group, index) => (
           <TldrawUiDropdownMenuGroup key={index}>
             <div style={{ columns: 3 }}>
               {group.map(([key, value]) => (

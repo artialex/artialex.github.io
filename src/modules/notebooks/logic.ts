@@ -30,10 +30,10 @@ export const notebooks: Record<string, string> = {
   _trigonometry: 'Trigonometry',
 
   // STEM
-  _chemistry: 'Chemistry',
-  _physics: 'Physics',
-  _biology: 'Biology',
-  _science: 'Science',
+  _chemistry: '📗 Chemistry',
+  _physics: '📗 Physics',
+  _biology: '📗 Biology',
+  _science: '📗 Science',
 
   // Hobbies
   _music: 'Music',
