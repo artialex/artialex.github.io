@@ -4,11 +4,12 @@ export const notebooks: Record<string, string> = {
   _index: "⭐ ArtiAlex's Pensieve",
 
   // Computer Science
+  '_algorithms-n-data-structures': '🌱 Algorithms & Data Structures',
+  _networking: '🌻 Networking',
+  '_operating-systems': '🌻 Operating Systems',
   _javascript: '🪻 JavaScript',
   _typescript: '🪻 TypeScript',
   _golang: '🐹 Golang',
-  '_operating-systems': '🌿 Operating Systems',
-  '_algorithms-n-data-structures': 'Algorithms & Data Structures',
   '_computer-hardware-n-architecture': 'Hardware',
   _cg: '🫖 Computer Graphics',
   _web: 'Web Dev',
@@ -18,7 +19,6 @@ export const notebooks: Record<string, string> = {
   _cs: 'Computer Science',
   _programming: 'Programming',
   _swe: 'Software Engineering',
-  _networking: '🌿 Networking',
   _gamedev: 'Game Development',
   _backend: 'Backend',
 
