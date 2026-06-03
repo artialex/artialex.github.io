@@ -152,9 +152,7 @@
 
         b,
         strong {
-            font-family: var(--playpen-sans-font);
-            font-weight: 500;
-            font-size: 90%;
+            font-weight: 600;
         }
 
         i,
