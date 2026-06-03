@@ -39,8 +39,6 @@ export const App = () => {
   const location = useLocation();
   const id = getPageId(location.pathname);
 
-  console.log(location, id);
-
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
   const [loadedWithError, setLoadedWithError] = useState(false);
