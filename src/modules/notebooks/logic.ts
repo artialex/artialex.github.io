@@ -12,6 +12,7 @@ export const notebooks: Record<string, string> = {
   _typescript: '🪻 TypeScript',
   _golang: '🐹 Golang',
   _python: 'Python',
+  _databases: 'Databases',
   '_computer-hardware-n-architecture': 'Hardware',
   _cg: '🫖 Computer Graphics',
   _web: 'Web Dev',
