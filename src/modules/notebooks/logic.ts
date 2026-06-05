@@ -11,6 +11,7 @@ export const notebooks: Record<string, string> = {
   _javascript: '🪻 JavaScript',
   _typescript: '🪻 TypeScript',
   _golang: '🐹 Golang',
+  _java: '☕ Java',
   _python: 'Python',
   _databases: 'Databases',
   '_computer-hardware-n-architecture': 'Hardware',
