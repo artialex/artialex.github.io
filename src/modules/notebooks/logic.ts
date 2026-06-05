@@ -17,7 +17,7 @@ export const notebooks: Record<string, string> = {
   _cg: '🫖 Computer Graphics',
   _web: 'Web Dev',
   _css: 'CSS',
-  _ai: 'ML & AI',
+  _ai: 'Neural networks, ML & AI',
   _devops: 'DevOps',
   _cs: 'Computer Science',
   _swe: 'Software Engineering',
