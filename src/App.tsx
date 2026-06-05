@@ -40,7 +40,6 @@ export const App = () => {
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
   const [loadedWithError, setLoadedWithError] = useState(false);
-  const [shapeCount, setShapeCount] = useState(0);
 
   useEffect(() => {
     fetch(withBase(`data/${id}.json`))
@@ -64,7 +63,7 @@ export const App = () => {
       <Tldraw
         key={id}
         deepLinks
-        components={{ MenuPanel: () => <CustomMenuPanel id={id} shapeCount={shapeCount} /> }}
+        components={{ MenuPanel: () => <CustomMenuPanel id={id} /> }}
         textOptions={{
           tipTapConfig: {
             extensions: [
@@ -165,3 +164,9 @@ export const App = () => {
     </div>
   );
 };
+
+function setShapeCount(shapeCount: number) {
+  const el = document.getElementById('shape-count');
+
+  if (el) el.textContent = `${shapeCount} shapes`;
+}
