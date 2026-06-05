@@ -62,7 +62,12 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
   );
 };
 
-export const CustomMenuPanel = ({ id }: { id: string }) => (
+interface Props {
+  id: string;
+  shapeCount: number;
+}
+
+export const CustomMenuPanel = ({ id, shapeCount }: Props) => (
   <div className="tlui-menu-zone">
     <div
       style={{
@@ -75,6 +80,11 @@ export const CustomMenuPanel = ({ id }: { id: string }) => (
       <DefaultMainMenu />
       <CustomMapMenu id={id} />
       <DefaultPageMenu />
+      {import.meta.env.DEV && shapeCount > 0 && (
+        <TldrawUiButton type="normal" style={{ width: 'max-content', pointerEvents: 'none' }}>
+          <TldrawUiButtonLabel>{shapeCount} shapes</TldrawUiButtonLabel>
+        </TldrawUiButton>
+      )}
     </div>
   </div>
 );

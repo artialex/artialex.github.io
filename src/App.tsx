@@ -152,6 +152,8 @@ export const App = () => {
           }
 
           if (import.meta.env.DEV && !loadedWithError) {
+            // console.log(editor.getCurrentPageShapeIds().size);
+
             saveSnapshot(editor.store, id);
           }
         }}
