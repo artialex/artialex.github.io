@@ -40,6 +40,7 @@ export const App = () => {
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
   const [loadedWithError, setLoadedWithError] = useState(false);
+  const [shapeCount, setShapeCount] = useState(0);
 
   useEffect(() => {
     fetch(withBase(`data/${id}.json`))
@@ -63,7 +64,7 @@ export const App = () => {
       <Tldraw
         key={id}
         deepLinks
-        components={{ MenuPanel: () => <CustomMenuPanel id={id} /> }}
+        components={{ MenuPanel: () => <CustomMenuPanel id={id} shapeCount={shapeCount} /> }}
         textOptions={{
           tipTapConfig: {
             extensions: [
@@ -85,6 +86,9 @@ export const App = () => {
         onUiEvent={(name) => {
           if (name === 'change-page' && editor) {
             setTitle(editor, id);
+            console.log(editor.getCurrentPageShapeIds().size);
+
+            setShapeCount(editor.getCurrentPageShapeIds().size);
 
             if (import.meta.env.PROD) {
               editor.zoomToFit();
@@ -152,7 +156,7 @@ export const App = () => {
           }
 
           if (import.meta.env.DEV && !loadedWithError) {
-            // console.log(editor.getCurrentPageShapeIds().size);
+            setShapeCount(editor.getCurrentPageShapeIds().size);
 
             saveSnapshot(editor.store, id);
           }
