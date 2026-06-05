@@ -23,6 +23,7 @@ export const notebooks: Record<string, string> = {
   _swe: 'Software Engineering',
   _gamedev: 'Game Development',
   _backend: 'Backend',
+  _git: 'Git',
 
   _management: 'Management',
 
