@@ -14,6 +14,7 @@ export const notebooks: Record<string, string> = {
   _java: 'Java',
   _cpp: 'C++',
   _python: 'Python',
+  _react: 'React',
   _databases: 'Databases',
   '_computer-hardware-n-architecture': 'Hardware',
   _cg: '🫖 Computer Graphics',
