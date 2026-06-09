@@ -23,13 +23,13 @@ export const notebooks: Record<string, string> = {
   _ai: 'Neural networks, ML & AI',
   _devops: 'DevOps',
   _cs: 'Computer Science',
-  _swe: 'Software Engineering',
-  _gamedev: 'Game Development',
+  _swe: '💐 Software Engineering',
+  _gamedev: '👾 Game Development',
   _backend: 'Backend',
   _git: '🌿 Git',
   _dsp: 'Digital Signal Processing',
 
-  _management: 'Management',
+  _management: '🌵 Management',
 
   // Mathematics
   _algebra: '📘 Algebra',

@@ -24,7 +24,7 @@ export const CustomMapMenu = ({ id }: { id: string }) => {
 
   const [index, rest1] = partition(entries, ([, name]) => name.includes('⭐'));
   const [cs, rest2] = partition(rest1, ([, name]) =>
-    ['🌻', '🌱', '🪻', '🌷', '🫖', '🐹', '☕', '🌿', '💅'].some((flower) => name.includes(flower)),
+    ['🌻', '🌱', '🪻', '🌷', '💐', '🫖', '🐹', '☕', '🌿', '💅', '👾', '🌵'].some((flower) => name.includes(flower)),
   );
   const [math, rest3] = partition(rest2, ([, name]) => name.includes('📘'));
   const [stem, rest] = partition(rest3, ([, name]) => name.includes('📗'));
