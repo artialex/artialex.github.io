@@ -171,16 +171,24 @@ function setShapeCount(shapeCount: number) {
   if (el) el.textContent = `${shapeCount} shapes`;
 }
 
-let last = 0;
-let x = 0;
+const samples = [];
+let previousTime = performance.now();
 
-function frame(time: number) {
-  const dt = time - last;
-  last = time;
+function loop(now) {
+  const dt = now - previousTime;
+  previousTime = now;
 
-  x += (100 * dt) / 1000;
+  samples.push(dt);
 
-  requestAnimationFrame(frame);
+  if (samples.length > 60) {
+    samples.shift();
+
+    const avg = samples.reduce((a, b) => a + b, 0) / samples.length;
+
+    console.log(`avg dt=${avg.toFixed(2)}ms, avg fps=${(1000 / avg).toFixed(1)}`);
+  }
+
+  requestAnimationFrame(loop);
 }
 
-requestAnimationFrame(frame);
+requestAnimationFrame(loop);
