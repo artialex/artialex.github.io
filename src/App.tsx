@@ -170,3 +170,17 @@ function setShapeCount(shapeCount: number) {
 
   if (el) el.textContent = `${shapeCount} shapes`;
 }
+
+let last = 0;
+let x = 0;
+
+function frame(time: number) {
+  const dt = time - last;
+  last = time;
+
+  x += (100 * dt) / 1000;
+
+  requestAnimationFrame(frame);
+}
+
+requestAnimationFrame(frame);
