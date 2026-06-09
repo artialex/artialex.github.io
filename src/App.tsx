@@ -170,25 +170,3 @@ function setShapeCount(shapeCount: number) {
 
   if (el) el.textContent = `${shapeCount} shapes`;
 }
-
-const samples = [];
-let previousTime = performance.now();
-
-function loop(now) {
-  const dt = now - previousTime;
-  previousTime = now;
-
-  samples.push(dt);
-
-  if (samples.length > 60) {
-    samples.shift();
-
-    const avg = samples.reduce((a, b) => a + b, 0) / samples.length;
-
-    console.log(`avg dt=${avg.toFixed(2)}ms, avg fps=${(1000 / avg).toFixed(1)}`);
-  }
-
-  requestAnimationFrame(loop);
-}
-
-requestAnimationFrame(loop);
