@@ -6,6 +6,7 @@
 /*@import './modules/blocks/block-backgrounds.css';*/
 @import './modules/blocks/block-mono.css';
 @import './modules/icons/icons.css';
+@import './modules/strike-through/strike-through.css';
 
 :root {
     --text: #6b6375;

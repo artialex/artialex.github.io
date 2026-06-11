@@ -1,0 +1,15 @@
+s {
+    text-decoration-color: transparent;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: red;
+        rotate: 5deg;
+    }
+}
