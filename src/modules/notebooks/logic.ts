@@ -51,6 +51,7 @@ export const notebooks: Record<string, string> = {
   _pde: 'PDE',
   _colors: 'Colors',
   _pkm: 'PKM',
+  _english: 'English',
 
   _random: 'Random',
 };
