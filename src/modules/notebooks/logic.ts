@@ -52,6 +52,7 @@ export const notebooks: Record<string, string> = {
   _colors: 'Colors',
   _pkm: 'PKM',
   _english: 'English',
+  _spanish: 'Spanish',
 
   _random: 'Random',
 };
