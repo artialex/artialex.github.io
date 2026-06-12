@@ -180,3 +180,9 @@ hr {
     color: transparent !important;
     border-bottom: 1px solid rgb(255, 255, 255, 20%);
 }
+
+hr ~ p,
+hr ~ ul {
+    font-size: 90%;
+    opacity: 75%;
+}
