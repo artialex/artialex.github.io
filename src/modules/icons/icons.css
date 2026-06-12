@@ -27,3 +27,11 @@ p:has([class*='alert']) {
 p:has([class*='equal']) {
     color: lightslategray;
 }
+
+p:has([class*='plus']) {
+    color: rgb(9, 146, 104);
+}
+
+p:has([class*='minus']) {
+    color: rgb(248, 119, 119);
+}
