@@ -5,8 +5,13 @@
 @import './styles/small-text.css';
 /*@import './modules/blocks/block-backgrounds.css';*/
 @import './modules/blocks/block-mono.css';
+@import './modules/blocks/block-draw.css';
+@import './modules/blocks/block-serif.css';
+@import './modules/blocks/block-sans.css';
 @import './modules/icons/icons.css';
+@import './modules/blocks/headers.css';
 @import './modules/strike-through/strike-through.css';
+@import './modules/math/plot.css';
 
 :root {
     --text: #6b6375;
@@ -53,114 +58,10 @@
     }
 }
 
-@font-face {
-    font-family: tldraw_sans;
-    font-weight: 400;
-    src: url('../public/fonts/YsabeauOffice-Regular.ttf');
-}
-
-@font-face {
-    font-family: tldraw_sans;
-    font-weight: 600;
-    src: url('../public/fonts/YsabeauOffice-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: tldraw_sans;
-    font-weight: 800;
-    src: url('../public/fonts/YsabeauOffice-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: tldraw_draw;
-    font-weight: 400;
-    font-style: italic;
-    src: url('../public/fonts/MorningBreeze-Light.otf');
-}
-
-@font-face {
-    font-family: tldraw_draw;
-    font-weight: 400;
-    font-style: normal;
-    src: url('../public/fonts/MorningBreeze-Light.otf');
-}
-@font-face {
-    font-family: 'Morning Breeze Light';
-    font-weight: 400;
-    font-style: normal;
-    src: url('../public/fonts/MorningBreeze-Light.otf');
-}
-
-@font-face {
-    font-family: NerkoRussianFallback;
-
-    src: url('../public/fonts/PlaypenSans-SemiBold.ttf');
-    size-adjust: 80%;
-}
-
-[data-font='sans'] {
-    h1 {
-        font-family: 'Lilita One';
-    }
-
-    h2 {
-        font-family: 'Cuprum';
-    }
-
-    p {
-        font-family: 'Ysabeau Office';
-    }
-}
-
-[data-font='draw'] {
-    h1 {
-        font-weight: 800;
-        font-size: 150%;
-    }
-    h2 {
-        font-weight: 600;
-        font-size: 125%;
-        position: relative;
-        display: inline-block;
-
-        &::before {
-            content: '';
-            bottom: 0%;
-            left: 10%;
-            right: 10%;
-            width: 80%;
-            height: 50%;
-            background: rgb(from currentColor r g b / 15%);
-            display: block;
-            position: absolute;
-            border-radius: 50%;
-            z-index: -1;
-        }
-    }
-    h3 {
-        font-family: var(--nerko-font), NerkoRussianFallback;
-        font-weight: normal;
-        font-size: 120%;
-    }
-    p {
-        font-family: var(--morning-breeze-font);
-
-        b,
-        strong {
-            font-weight: 600;
-        }
-
-        i,
-        em {
-            font-weight: 300;
-            font-style: italic !important;
-            font-family: var(--morning-breeze-font);
-        }
-    }
-    code {
-        background-color: rgb(from currentColor r g b / 10%);
-        border-radius: 4px;
-    }
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 ul {
@@ -171,18 +72,61 @@ ul {
     }
 
     ::marker {
-        content: '·  ';
-        font-size: 70%;
+        content: '∙ ';
     }
 }
 
 hr {
-    color: transparent !important;
-    border-bottom: 1px solid rgb(255, 255, 255, 20%);
+    border: none;
+    .tl-theme__dark & {
+        border-top: 1px solid rgb(255, 255, 255, 20%);
+    }
+
+    .tl-theme__light & {
+        border-top: 1px solid rgb(0, 0, 0, 20%);
+    }
 }
 
 hr ~ p,
 hr ~ ul {
-    font-size: 90%;
     opacity: 75%;
 }
+
+.tl-theme__dark {
+    --color-background: oklch(18.1% 0.005 285.823);
+}
+
+.tl-theme__light {
+    --color-background: #f9f5ff;
+}
+
+sup {
+    color: mediumvioletred;
+    font-family: 'Morning Breeze', Alkatra, Vollda;
+    font-size: 0.6em;
+}
+
+sub {
+    color: slateblue;
+    font-family: 'Morning Breeze', Alkatra, Vollda;
+    font-style: italic !important;
+    font-size: 0.6em;
+}
+@font-face {
+    font-family: 'LibertinusMath';
+    src: url('/public/fonts/LibertinusMath-Regular.ttf');
+}
+
+.katex {
+    font-family: 'LibertinusMath', serif;
+    font-size: 1.3em;
+}
+
+/*@font-face {
+    font-family: 'Euler';
+    src: url('/public/fonts/Euler.otf');
+}
+
+.katex {
+    font-family: 'Euler', serif;
+}*/

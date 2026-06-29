@@ -13,6 +13,7 @@ import { useNavigate } from 'react-router-dom';
 import { notebooks, getPagePath } from './logic';
 import { containsEmoji } from '../toolbelt/string';
 import { partition } from '../toolbelt/array';
+import type { PropsWithChildren } from 'react';
 
 export const CustomMapMenu = ({ id }: { id: string }) => {
   const navigate = useNavigate();
@@ -66,7 +67,7 @@ interface Props {
   id: string;
 }
 
-export const CustomMenuPanel = ({ id }: Props) => (
+export const CustomMenuPanel = ({ id, children }: PropsWithChildren<Props>) => (
   <div className="tlui-menu-zone">
     <div
       style={{
@@ -80,11 +81,14 @@ export const CustomMenuPanel = ({ id }: Props) => (
       <CustomMapMenu id={id} />
       <DefaultPageMenu />
       {import.meta.env.DEV && (
-        <TldrawUiButton type="normal" style={{ width: 'max-content', pointerEvents: 'none' }}>
-          <TldrawUiButtonLabel>
-            <span id="shape-count">0 shapes</span>
-          </TldrawUiButtonLabel>
-        </TldrawUiButton>
+        <>
+          <TldrawUiButton type="normal" style={{ width: 'max-content', pointerEvents: 'none' }}>
+            <TldrawUiButtonLabel>
+              <span id="shape-count">0 shapes</span>
+            </TldrawUiButtonLabel>
+          </TldrawUiButton>
+          {children}
+        </>
       )}
     </div>
   </div>

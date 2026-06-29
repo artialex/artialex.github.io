@@ -49,7 +49,7 @@ export const Emoji = Node.create({
         getAttributes: () => ({ name: 'circle-plus' }),
       }),
       nodeInputRule({
-        find: /\(\-\)/,
+        find: /\(-\)/,
         type: this.type,
         getAttributes: () => ({ name: 'circle-minus' }),
       }),
@@ -92,6 +92,16 @@ export const Emoji = Node.create({
         find: /^\? /,
         type: this.type,
         getAttributes: () => ({ name: 'circle-question-mark' }),
+      }),
+      nodeInputRule({
+        find: /^\^ /,
+        type: this.type,
+        getAttributes: () => ({ name: 'corner-left-up' }),
+      }),
+      nodeInputRule({
+        find: /^" /,
+        type: this.type,
+        getAttributes: () => ({ name: 'quote' }),
       }),
     ];
   },

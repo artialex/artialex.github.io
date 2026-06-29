@@ -1,13 +1,20 @@
+:root {
+    --gray-color: oklch(55.4% 0.046 257.417);
+}
+
 span[class^='icon'] {
     font-size: 90%;
     vertical-align: -12.5%;
+    text-decoration: none !important;
+    position: relative;
 
     h1 & {
         vertical-align: -10%;
     }
 
-    h2 & {
-        vertical-align: -10%;
+    :where(h1, h2, h3) & {
+        position: absolute;
+        transform: translate(0.33em, 0.1em);
     }
 }
 
@@ -29,9 +36,18 @@ p:has([class*='equal']) {
 }
 
 p:has([class*='plus']) {
-    color: rgb(9, 146, 104);
+    color: seagreen;
 }
 
 p:has([class*='minus']) {
-    color: rgb(248, 119, 119);
+    color: indianred;
+}
+
+p:has([class*='corner-left-up']) {
+    color: var(--gray-color);
+    font-size: 0.9em;
+    transform: translateY(-0.5em);
+}
+p:has([class*='quote']) {
+    color: darkslateblue;
 }

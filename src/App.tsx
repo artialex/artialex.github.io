@@ -4,13 +4,23 @@ import 'lucide-static/font/lucide.css';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { Editor, type TLEditorSnapshot, Tldraw, type TldrawProps, tipTapDefaultExtensions } from 'tldraw';
+import {
+  Editor,
+  TldrawUiButton,
+  type TLEditorSnapshot,
+  Tldraw,
+  type TldrawProps,
+  tipTapDefaultExtensions,
+  useEditor,
+  createShapeId,
+} from 'tldraw';
+import Superscript from '@tiptap/extension-superscript';
+import Subscript from '@tiptap/extension-subscript';
+
 import 'tldraw/tldraw.css';
 import './colors/colors';
-import defaultSnapshot from './defaultSnapshot.json';
 import { extensions as iconExtensions } from './modules/icons/icons';
 
-import { mono } from './modules/blocks/block-mono';
 import { customLinkExtensions } from './modules/custom-link/custom-link';
 import { getPageId, setTitle } from './modules/notebooks/logic';
 import { CustomMenuPanel } from './modules/notebooks/ui';
@@ -19,16 +29,90 @@ import './modules/blocks/sizes';
 import { containsEmoji } from './modules/toolbelt/string';
 import { saveSnapshot } from './modules/persistence/persistence';
 import { partition } from './modules/toolbelt/array';
+import { draw } from './modules/blocks/block-draw';
+import { sans } from './modules/blocks/block-sans';
+import { serif } from './modules/blocks/block-serif';
+import { mono } from './modules/blocks/block-mono';
+import { MATH_SHAPE_TYPE, MathShapeUtil, type MathShape } from './modules/math/math';
+import { GRAPH_SHAPE_TYPE, GraphShapeUtil, type GraphShape } from './modules/math/plot';
 
 const baseUrl = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
 
+const shapeUtils = [MathShapeUtil, GraphShapeUtil];
+
+function AddGraphButton() {
+  const editor = useEditor();
+
+  return (
+    <TldrawUiButton
+      type="normal"
+      onClick={() => {
+        const bounds = editor.getViewportPageBounds();
+        const id = createShapeId();
+
+        editor.createShape<GraphShape>({
+          id,
+          type: GRAPH_SHAPE_TYPE,
+          x: bounds.center.x - 210,
+          y: bounds.center.y - 150,
+          props: {
+            w: 420,
+            h: 300,
+            expr: 'sin(x)',
+            xmin: -10,
+            xmax: 10,
+            ymin: -5,
+            ymax: 5,
+          },
+        });
+
+        editor.select(id);
+        editor.setEditingShape(id);
+      }}
+      style={{
+        width: 'max-content',
+      }}
+    >
+      Add graph
+    </TldrawUiButton>
+  );
+}
+
+function AddMathButton() {
+  const editor = useEditor();
+
+  return (
+    <TldrawUiButton
+      type="normal"
+      onClick={() => {
+        const point = editor.getViewportPageBounds().center;
+
+        editor.createShape<MathShape>({
+          type: MATH_SHAPE_TYPE,
+          x: point.x - 160,
+          y: point.y - 60,
+          props: {
+            w: 320,
+            h: 120,
+            latex: String.raw`\int_0^1 x^2\,dx = \frac{1}{3}`,
+          },
+        });
+      }}
+      style={{
+        width: 'max-content',
+      }}
+    >
+      Add math
+    </TldrawUiButton>
+  );
+}
+
 const assetUrls: TldrawProps['assetUrls'] = {
   fonts: {
-    tldraw_draw: withBase('fonts/MorningBreeze-Light.otf'),
-    tldraw_draw_italic: withBase('fonts/MorningBreeze-Light.otf'),
-    tldraw_draw_bold: withBase('fonts/PlaypenSans-Bold.ttf'),
-
+    ...draw.assetUrls?.fonts,
+    ...sans.assetUrls?.fonts,
+    ...serif.assetUrls?.fonts,
     ...mono.assetUrls?.fonts,
   },
 };
@@ -45,11 +129,12 @@ export const App = () => {
     fetch(withBase(`data/${id}.json`))
       .then((r) => r.json())
       .then((snapshot) => {
+        // console.log(snapshot);
         setSnapshot(snapshot);
       })
       .catch((err) => {
         console.log(err);
-        setSnapshot(defaultSnapshot as unknown as TLEditorSnapshot);
+        // setSnapshot(defaultSnapshot as unknown as TLEditorSnapshot);
         setLoadedWithError(true);
       });
   }, [id]);
@@ -63,12 +148,25 @@ export const App = () => {
       <Tldraw
         key={id}
         deepLinks
-        components={{ MenuPanel: () => <CustomMenuPanel id={id} /> }}
+        shapeUtils={shapeUtils}
+        components={{
+          MenuPanel: () => (
+            <CustomMenuPanel id={id}>
+              <span id="saved-status" style={{ color: 'green' }}>
+                Saved
+              </span>
+              <AddMathButton />
+              <AddGraphButton />
+            </CustomMenuPanel>
+          ),
+        }}
         textOptions={{
           tipTapConfig: {
             extensions: [
               ...extensions,
               ...customLinkExtensions,
+              Superscript,
+              Subscript,
               Typography.configure({
                 openDoubleQuote: false,
                 openSingleQuote: false,
@@ -85,9 +183,8 @@ export const App = () => {
         onUiEvent={(name) => {
           if (name === 'change-page' && editor) {
             setTitle(editor, id);
-            console.log(editor.getCurrentPageShapeIds().size);
 
-            setShapeCount(editor.getCurrentPageShapeIds().size);
+            setShapeCount(...getHeaderCount(editor));
 
             if (import.meta.env.PROD) {
               editor.zoomToFit();
@@ -109,7 +206,7 @@ export const App = () => {
           setEditor(editor);
 
           // Set dark mode always by default
-          editor.user.updateUserPreferences({ colorScheme: 'dark' });
+          // editor.user.updateUserPreferences({ colorScheme: 'dark' });
 
           // hide some pages
           const [visiblePages, invisiblePages] = partition(editor.getPages(), (page) => {
@@ -119,7 +216,6 @@ export const App = () => {
           for (const page of invisiblePages) {
             if (!containsEmoji(page.name)) {
               const style = document.createElement('style');
-              console.log(page.name, id);
               style.textContent = `
                 [data-pageid="${page.id}"] {
                   ${import.meta.env.DEV ? 'opacity: 0.5;' : 'display: none;'}
@@ -127,7 +223,7 @@ export const App = () => {
               `;
               document.head.appendChild(style);
 
-              if (editor.getCurrentPage()?.id === page.id && visiblePages.length > 0) {
+              if (import.meta.env.PROD && editor.getCurrentPage()?.id === page.id && visiblePages.length > 0) {
                 editor.setCurrentPage(visiblePages[0].id);
               }
             }
@@ -155,9 +251,22 @@ export const App = () => {
           }
 
           if (import.meta.env.DEV && !loadedWithError) {
-            setShapeCount(editor.getCurrentPageShapeIds().size);
+            setShapeCount(...getHeaderCount(editor));
+            saveSnapshot(
+              editor.store,
+              id,
+              () => {
+                console.log('unsaved');
 
-            saveSnapshot(editor.store, id);
+                document.getElementById('saved-status')!.style.color = 'red';
+                document.getElementById('saved-status')!.textContent = 'Unsaved';
+              },
+              () => {
+                console.log('saved');
+                document.getElementById('saved-status')!.style.color = 'green';
+                document.getElementById('saved-status')!.textContent = 'Saved';
+              },
+            );
           }
         }}
       />
@@ -165,8 +274,36 @@ export const App = () => {
   );
 };
 
-function setShapeCount(shapeCount: number) {
+function getHeaderCount(editor: Editor) {
+  let h1Count = 0;
+  let h2Count = 0;
+  let h3Count = 0;
+  editor.getCurrentPageShapes().forEach((shape) => {
+    if (shape.type === 'text') {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-expect-error
+      const headings = shape.props?.richText?.content.filter((_: { type: string }) => _.type === 'heading');
+
+      headings.forEach((heading: { attrs: { level: number } }) => {
+        switch (heading.attrs.level) {
+          case 1:
+            h1Count += 1;
+            break;
+          case 2:
+            h2Count += 1;
+            break;
+          case 3:
+            h3Count += 1;
+            break;
+        }
+      });
+    }
+  });
+  return [h1Count, h2Count, h3Count];
+}
+
+function setShapeCount(h1Count: number = 0, h2Count: number = 0, h3Count: number = 0) {
   const el = document.getElementById('shape-count');
 
-  if (el) el.textContent = `${shapeCount} shapes`;
+  if (el) el.textContent = `Headings: ${h1Count} / ${h2Count} / ${h3Count}`;
 }

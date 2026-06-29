@@ -2,28 +2,28 @@
     font-family: tldraw_mono;
     font-weight: normal;
     font-style: normal;
-    src: url('../../../public/fonts/mononoki-Regular.ttf');
+    src: url('/public/fonts/mononoki-Regular.ttf');
     size-adjust: 80%;
 }
 @font-face {
     font-family: tldraw_mono;
     font-weight: bold;
     font-style: normal;
-    src: url('../../../public/fonts/mononoki-Bold.ttf');
+    src: url('/public/fonts/mononoki-Bold.ttf');
     size-adjust: 80%;
 }
 @font-face {
     font-family: tldraw_mono;
     font-weight: normal;
     font-style: italic;
-    src: url('../../../public/fonts/mononoki-Italic.ttf');
+    src: url('/public/fonts/mononoki-Italic.ttf');
     size-adjust: 80%;
 }
 @font-face {
     font-family: tldraw_mono;
     font-weight: bold;
     font-style: italic;
-    src: url('../../../public/fonts/mononoki-BoldItalic.ttf');
+    src: url('/public/fonts/mononoki-BoldItalic.ttf');
     size-adjust: 80%;
 }
 [data-font='mono'] {
@@ -33,6 +33,7 @@
     code {
         text-decoration: underline;
     }
+
     /*
     h1 {
         font-weight: 800;

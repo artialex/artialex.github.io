@@ -1,0 +1,59 @@
+@font-face {
+    font-family: tldraw_draw;
+    font-weight: normal;
+    font-style: normal;
+    src: url('../../../public/fonts/MorningBreeze-Light.otf');
+}
+
+@font-face {
+    font-family: tldraw_draw;
+    font-weight: normal;
+    font-style: italic;
+    src: url('../../../public/fonts/MorningBreeze-Light.otf');
+}
+@font-face {
+    font-family: tldraw_draw;
+    font-weight: bold;
+    font-style: normal;
+    src: url('../../../public/fonts/NerkoOne-Regular.ttf');
+    size-adjust: 100%;
+}
+@font-face {
+    font-family: tldraw_draw;
+    font-weight: bold;
+    font-style: italic;
+    src: url('../../../public/fonts/NerkoOne-Regular.ttf');
+    size-adjust: 100%;
+}
+[data-font='draw'] {
+    tab-size: 4;
+    font-family: tldraw_draw;
+
+    p {
+        font-family: tldraw_draw, Alkatra, Vollda;
+        em {
+            font-weight: 200 !important;
+            font-style: italic !important;
+            font-family: 'Morning Breeze', Alkatra, Vollda !important;
+            color: color-mix(in srgb, currentColor 80%, black);
+
+            strong & {
+                text-decoration: underline !important;
+                text-decoration-style: dashed !important;
+                text-decoration-color: rgb(from currentColor r g b / 50%) !important;
+                text-underline-offset: 3px;
+                font-style: normal !important;
+                text-decoration-thickness: 1px !important;
+                color: var(--base-color) !important;
+            }
+        }
+    }
+
+    code:not(:where(h1, h2, h3) code) {
+        background-color: rgb(from currentColor r g b / 10%);
+        border-radius: 4px;
+    }
+    code {
+        font-family: tldraw_mono;
+    }
+}

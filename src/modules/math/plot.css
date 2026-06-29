@@ -1,0 +1,19 @@
+.plot {
+    overflow: hidden;
+    pointer-events: none;
+    * {
+        pointer-events: none;
+    }
+
+    .x.axis .tick:nth-child(even),
+    .y.axis .tick:nth-child(even) {
+        display: none;
+    }
+}
+
+.plot-title {
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: -2px;
+}

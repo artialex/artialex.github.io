@@ -19,7 +19,7 @@ export const notebooks: Record<string, string> = {
   '_computer-hardware-n-architecture': 'Hardware',
   _cg: '🫖 Computer Graphics',
   _web: 'Web Dev',
-  _css: '💅 CSS',
+  _css: '💅 HTML & CSS',
   _ai: 'Neural networks, ML & AI',
   _devops: 'DevOps',
   _cs: 'Computer Science',
@@ -28,6 +28,7 @@ export const notebooks: Record<string, string> = {
   _backend: 'Backend',
   _git: '🌿 Git',
   _dsp: 'Digital Signal Processing',
+  _linux: 'Linux',
 
   _management: '🌵 Management',
 
@@ -56,6 +57,7 @@ export const notebooks: Record<string, string> = {
   _spanish: 'Spanish',
 
   _random: 'Random',
+  _games: 'Games',
 };
 
 export function getPageId(pathname: string) {

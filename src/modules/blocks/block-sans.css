@@ -1,0 +1,46 @@
+/* -- TYPOGRAPHY ------------------------- */
+
+@font-face {
+    font-family: tldraw_sans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../public/fonts/Nunito-Light.ttf');
+    size-adjust: 80%;
+}
+
+@font-face {
+    font-family: tldraw_sans;
+    font-weight: normal;
+    font-style: italic;
+    src: url('../../../public/fonts/Nunito-LightItalic.ttf');
+    size-adjust: 80%;
+}
+
+@font-face {
+    font-family: tldraw_sans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../public/fonts/Marmelad-Regular.ttf');
+    size-adjust: 80%;
+}
+
+@font-face {
+    font-family: tldraw_sans;
+    font-weight: bold;
+    font-style: italic;
+    src: url('../../../public/fonts/Marmelad-Regular.ttf');
+    size-adjust: 80%;
+}
+
+[data-font='sans'] {
+    font-family: tldraw_sans;
+
+    code {
+        background-color: rgb(from currentColor r g b / 10%);
+        border-radius: 4px;
+    }
+
+    p {
+        font-family: tldraw_sans, 'Alkatra', 'Vollda';
+    }
+}

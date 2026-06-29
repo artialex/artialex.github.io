@@ -1,0 +1,47 @@
+/* -- TYPOGRAPHY ------------------------- */
+
+@font-face {
+    font-family: tldraw_serif;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../public/fonts/FiraSans-Regular.ttf');
+    size-adjust: 80%;
+}
+
+@font-face {
+    font-family: tldraw_serif;
+    font-weight: normal;
+    font-style: italic;
+    src: url('../../../public/fonts/FiraSans-Italic.ttf');
+    size-adjust: 80%;
+}
+
+@font-face {
+    font-family: tldraw_serif;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../public/fonts/FiraSans-Medium.ttf');
+    size-adjust: 80%;
+}
+
+@font-face {
+    font-family: tldraw_serif;
+    font-weight: bold;
+    font-style: italic;
+    src: url('../../../public/fonts/FiraSans-MediumItalic.ttf');
+    size-adjust: 80%;
+}
+
+[data-font='serif'] {
+    font-family: tldraw_serif;
+
+    p {
+        font-family: tldraw_serif, 'Alkatra', 'Vollda';
+    }
+
+    h1,
+    h2,
+    h3 {
+        /*color: var(--primary-color, white);*/
+    }
+}
