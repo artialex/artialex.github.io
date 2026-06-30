@@ -2,39 +2,42 @@
     font-family: tldraw_draw;
     font-weight: normal;
     font-style: normal;
-    src: url('../../../public/fonts/MorningBreeze-Light.otf');
+    src: url('/public/fonts/MorningBreeze-Light.otf');
 }
-
 @font-face {
     font-family: tldraw_draw;
     font-weight: normal;
     font-style: italic;
-    src: url('../../../public/fonts/MorningBreeze-Light.otf');
+    src: url('/public/fonts/MorningBreeze-Light.otf');
 }
 @font-face {
     font-family: tldraw_draw;
     font-weight: bold;
     font-style: normal;
-    src: url('../../../public/fonts/NerkoOne-Regular.ttf');
-    size-adjust: 100%;
+    src: url('/public/fonts/NerkoOne-Regular.ttf');
 }
 @font-face {
     font-family: tldraw_draw;
     font-weight: bold;
     font-style: italic;
-    src: url('../../../public/fonts/NerkoOne-Regular.ttf');
-    size-adjust: 100%;
+    src: url('/public/fonts/MorningBreeze-Light.otf');
 }
+@font-face {
+    font-family: 'Morning Breeze Italic';
+    src: url('/public/fonts/MorningBreeze-Light.otf');
+}
+
 [data-font='draw'] {
     tab-size: 4;
-    font-family: tldraw_draw;
 
     p {
         font-family: tldraw_draw, Alkatra, Vollda;
+
         em {
             font-weight: 200 !important;
             font-style: italic !important;
-            font-family: 'Morning Breeze', Alkatra, Vollda !important;
+            font-family: 'Morning Breeze Italic', tldraw_draw, Alkatra, Vollda !important;
+
             color: color-mix(in srgb, currentColor 80%, black);
 
             strong & {
@@ -43,6 +46,7 @@
                 text-decoration-color: rgb(from currentColor r g b / 50%) !important;
                 text-underline-offset: 3px;
                 font-style: normal !important;
+                font-weight: normal !important;
                 text-decoration-thickness: 1px !important;
                 color: var(--base-color) !important;
             }

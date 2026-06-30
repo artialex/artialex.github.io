@@ -7,8 +7,9 @@ export const draw: TldrawProps = {
     fonts: {
       tldraw_draw: `${baseUrl}fonts/MorningBreeze-Light.otf`,
       tldraw_draw_italic: `${baseUrl}fonts/MorningBreeze-Light.otf`,
+
       tldraw_draw_bold: `${baseUrl}fonts/NerkoOne-Regular.ttf`,
-      tldraw_draw_italic_bold: `${baseUrl}fonts/NerkoOne-Regular.ttf`,
+      tldraw_draw_italic_bold: `${baseUrl}fonts/MorningBreeze-Light.otf`,
     },
   },
 };

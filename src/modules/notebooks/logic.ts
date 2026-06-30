@@ -14,11 +14,11 @@ export const notebooks: Record<string, string> = {
   _java: '☕ Java',
   _cpp: 'C++',
   _python: 'Python',
-  _react: 'React',
+  _react: '⚛️ React',
   _databases: 'Databases',
   '_computer-hardware-n-architecture': 'Hardware',
   _cg: '🫖 Computer Graphics',
-  _web: 'Web Dev',
+  _web: '🌐 Web Dev',
   _css: '💅 HTML & CSS',
   _ai: 'Neural networks, ML & AI',
   _devops: 'DevOps',
@@ -37,7 +37,7 @@ export const notebooks: Record<string, string> = {
   _trigonometry: '📘 Trigonometry',
   _linal: '📘 Linear Algebra',
   _combinatorics: 'Combinatorics',
-  _geometry: 'Geometry',
+  _geometry: '📘 Geometry',
   _probability: 'Probability',
 
   // STEM
@@ -52,11 +52,11 @@ export const notebooks: Record<string, string> = {
   _finances: 'Finances',
   _pde: 'PDE',
   _colors: 'Colors',
-  _pkm: 'PKM',
+  _pkm: '📚 PKM',
   _english: 'English',
   _spanish: 'Spanish',
 
-  _random: 'Random',
+  _random: '🎲 Random',
   _games: 'Games',
 };
 

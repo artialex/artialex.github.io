@@ -1,5 +1,4 @@
 @import './styles/colors.css';
-@import './styles/fonts.css';
 @import './styles/code.css';
 @import './styles/links.css';
 @import './styles/small-text.css';
@@ -72,7 +71,7 @@ ul {
     }
 
     ::marker {
-        content: '∙ ';
+        content: '· ';
     }
 }
 

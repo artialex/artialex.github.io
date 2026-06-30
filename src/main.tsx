@@ -21,9 +21,9 @@ root.render(
 if (import.meta.env.PROD) {
   const style = document.createElement('style');
 
-  style.textContent += `
-    code { font-size: 80%; }
-  `;
+  // style.textContent += `
+  //   [data-font=mono], code { font-size-adjust: 0.4; }
+  // `;
 
   document.body.appendChild(style);
 }
