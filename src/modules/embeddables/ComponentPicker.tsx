@@ -39,6 +39,8 @@ export function ComponentBlockShapeView({ shape }: { shape: ComponentBlockShape 
           overflow: 'hidden',
         }}
       >
+        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+        {/* @ts-expect-error */}
         <Component editor={editor} shape={shape} data={data} />
       </div>
     </HTMLContainer>

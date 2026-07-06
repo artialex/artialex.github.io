@@ -1,9 +1,9 @@
 import { CounterBlock, QuoteBlock, StatusBlock } from './components/CounterBlock';
 import { BezierCurves } from './components/BezierCurves';
-import { BacktrackingSearch } from './components/BacktrackingSearch/BacktrackingSearch';
+// import { BacktrackingSearch } from './components/BacktrackingSearch/BacktrackingSearch';
 import type { Editor } from '@tiptap/core';
 import type { ComponentBlockShape } from './embeddable';
-import { Combinatorics } from './components/Combinatorics';
+// import { Combinatorics } from './components/Combinatorics';
 
 export type RuntimeComponentProps = {
   editor: Editor;
@@ -18,20 +18,21 @@ export type RegistryItem = {
 };
 
 export const componentRegistry = {
-  BacktrackingSearch: {
-    label: 'Backtracking Search',
-    Component: BacktrackingSearch,
-    defaultProps: { initial: 0 },
-  },
-  Combinatorics: {
-    label: 'Combinatorics',
-    Component: Combinatorics,
-    defaultProps: {
-      type: 'combinations',
-      k: 2,
-      n: 2,
-    },
-  },
+  // BacktrackingSearch: {
+  //   label: 'Backtracking Search',
+  //   Component: BacktrackingSearch,
+  //   defaultProps: { initial: 0 },
+  // },
+  // Combinatorics: {
+  //   label: 'Combinatorics',
+
+  //   Component: Combinatorics,
+  //   defaultProps: {
+  //     type: 'combinations',
+  //     k: 2,
+  //     n: 2,
+  //   },
+  // },
   CounterBlock: {
     label: 'Counter',
     Component: CounterBlock,

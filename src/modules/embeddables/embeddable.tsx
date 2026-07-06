@@ -1,18 +1,13 @@
 import {
-  Editor,
   Geometry2d,
-  HTMLContainer,
   Rectangle2d,
   ShapeUtil,
   T,
   resizeBox,
-  useEditor,
-  useValue,
   type RecordProps,
   type TLBaseShape,
   type TLResizeInfo,
 } from 'tldraw';
-import React from 'react';
 import { ComponentBlockShapeView } from './ComponentPicker';
 
 export const COMPONENT_BLOCK_SHAPE_TYPE = 'component-block';

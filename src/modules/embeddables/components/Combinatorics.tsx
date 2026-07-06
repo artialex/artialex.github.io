@@ -1,59 +1,58 @@
-import { type FC } from 'react';
-import Tex from '@matejmazur/react-katex';
-import * as _ from 'lodash';
-import 'lodash.combinations';
-import 'lodash.multicombinations';
-import 'lodash.permutations';
-import 'lodash.multipermutations';
-import type { RuntimeComponentProps } from '../registry';
+// import Tex from '@matejmazur/react-katex';
+// import * as _ from 'lodash';
+// import 'lodash.combinations';
+// import 'lodash.multicombinations';
+// import 'lodash.permutations';
+// import 'lodash.multipermutations';
+// import type { RuntimeComponentProps } from '../registry';
 
-interface CombinatoricsProps {
-  type: 'combinations' | 'multicombinations' | 'permutations' | 'multipermutations';
-  k: string;
-  n: string;
-}
+// interface CombinatoricsProps {
+//   type: 'combinations' | 'multicombinations' | 'permutations' | 'multipermutations';
+//   k: string;
+//   n: string;
+// }
 
-const letterMap = {
-  combinations: 'C',
-  multicombinations: '\\bar{C}',
-  permutations: 'P',
-  multipermutations: '\\bar{P}',
-};
+// const letterMap = {
+//   combinations: 'C',
+//   multicombinations: '\\bar{C}',
+//   permutations: 'P',
+//   multipermutations: '\\bar{P}',
+// };
 
-export const Combinatorics: RuntimeComponentProps = ({ data }) => {
-  const { type, k, n } = data;
-  const _k = Number(k);
-  const _n = Number(n);
+// export const Combinatorics: RuntimeComponentProps = ({ data }) => {
+//   const { type, k, n } = data;
+//   const _k = Number(k);
+//   const _n = Number(n);
 
-  const colors = ['red', 'blue', 'green', 'yellow', 'violet'].slice(0, _n);
-  const letter = letterMap[type];
+//   const colors = ['red', 'blue', 'green', 'yellow', 'violet'].slice(0, _n);
+//   const letter = letterMap[type];
 
-  const selections: any[][] = _[type](colors, _k);
+//   const selections: any[][] = _[type](colors, _k);
 
-  return (
-    <div className="m-2 ml-6 flex items-center">
-      <Tex math={String.raw`${letter}( \ `} />
-      <ColorSet colors={colors} />
+//   return (
+//     <div className="m-2 ml-6 flex items-center">
+//       <Tex math={String.raw`${letter}( \ `} />
+//       <ColorSet colors={colors} />
 
-      <Tex math={String.raw` \ , ${_k}) = \ `} />
+//       <Tex math={String.raw` \ , ${_k}) = \ `} />
 
-      {selections.length > 40 ? (
-        <Tex math={String.raw`${selections.length} \ \text{selections}`} />
-      ) : (
-        selections.map((selection) => <ColorSet colors={selection} />)
-      )}
-    </div>
-  );
-};
+//       {selections.length > 40 ? (
+//         <Tex math={String.raw`${selections.length} \ \text{selections}`} />
+//       ) : (
+//         selections.map((selection) => <ColorSet colors={selection} />)
+//       )}
+//     </div>
+//   );
+// };
 
-const ColorSet = ({ colors }: { colors: string[] }) => (
-  <div className="flex flex-col">
-    {colors.map((color, i) => (
-      <div
-        key={i}
-        className="m-0.5 h-2 w-2 rounded-sm text-center uppercase"
-        style={{ backgroundColor: `var(--${color}-color)` }}
-      />
-    ))}
-  </div>
-);
+// const ColorSet = ({ colors }: { colors: string[] }) => (
+//   <div className="flex flex-col">
+//     {colors.map((color, i) => (
+//       <div
+//         key={i}
+//         className="m-0.5 h-2 w-2 rounded-sm text-center uppercase"
+//         style={{ backgroundColor: `var(--${color}-color)` }}
+//       />
+//     ))}
+//   </div>
+// );

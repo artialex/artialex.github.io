@@ -8,7 +8,6 @@ import {
   type TLBaseShape,
 } from 'tldraw';
 
-import katex from 'katex';
 import 'katex/dist/katex.min.css';
 import { RenderedKatex } from './RenderedKatex';
 
