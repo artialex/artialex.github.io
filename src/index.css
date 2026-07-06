@@ -113,7 +113,7 @@ sub {
 }
 @font-face {
     font-family: 'LibertinusMath';
-    src: url('/public/fonts/LibertinusMath-Regular.ttf');
+    src: url('/fonts/LibertinusMath-Regular.ttf');
 }
 
 .katex {
@@ -129,3 +129,7 @@ sub {
 .katex {
     font-family: 'Euler', serif;
 }*/
+
+.tl-shape[data-shape-type='math'] {
+    z-index: 999999999 !important;
+}

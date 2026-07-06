@@ -2,29 +2,29 @@
     font-family: tldraw_draw;
     font-weight: normal;
     font-style: normal;
-    src: url('/public/fonts/MorningBreeze-Light.otf');
+    src: url('/fonts/MorningBreeze-Light.otf');
 }
 @font-face {
     font-family: tldraw_draw;
     font-weight: normal;
     font-style: italic;
-    src: url('/public/fonts/MorningBreeze-Light.otf');
+    src: url('/fonts/MorningBreeze-Light.otf');
 }
 @font-face {
     font-family: tldraw_draw;
     font-weight: bold;
     font-style: normal;
-    src: url('/public/fonts/NerkoOne-Regular.ttf');
+    src: url('/fonts/NerkoOne-Regular.ttf');
 }
 @font-face {
     font-family: tldraw_draw;
     font-weight: bold;
     font-style: italic;
-    src: url('/public/fonts/MorningBreeze-Light.otf');
+    src: url('/fonts/MorningBreeze-Light.otf');
 }
 @font-face {
     font-family: 'Morning Breeze Italic';
-    src: url('/public/fonts/MorningBreeze-Light.otf');
+    src: url('/fonts/MorningBreeze-Light.otf');
 }
 
 [data-font='draw'] {

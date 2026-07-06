@@ -5,7 +5,7 @@
     font-family: tldraw_sans;
     font-style: normal;
     font-weight: normal;
-    src: url('/public/fonts/NationalPark-Regular.ttf');
+    src: url('/fonts/NationalPark-Regular.ttf');
     size-adjust: 80%;
 }
 
@@ -13,7 +13,7 @@
     font-family: tldraw_sans;
     font-weight: normal;
     font-style: italic;
-    src: url('/public/fonts/SofiaSans-Italic.ttf');
+    src: url('/fonts/SofiaSans-Italic.ttf');
     size-adjust: 80%;
 }
 
@@ -21,7 +21,7 @@
     font-family: tldraw_sans;
     font-style: normal;
     font-weight: bold;
-    src: url('/public/fonts/NationalPark-SemiBold.ttf');
+    src: url('/fonts/NationalPark-SemiBold.ttf');
     size-adjust: 80%;
 }
 
@@ -29,7 +29,7 @@
     font-family: tldraw_sans;
     font-weight: bold;
     font-style: italic;
-    src: url('/public/fonts/NationalPark-Regular.ttf');
+    src: url('/fonts/NationalPark-Regular.ttf');
     size-adjust: 80%;
 }
 
@@ -37,7 +37,7 @@
     font-family: 'Dosis Bold';
     font-weight: bold;
     font-style: italic;
-    src: url('/public/fonts/Dosis-Bold.ttf');
+    src: url('/fonts/Dosis-Bold.ttf');
     size-adjust: 92%;
 }
 

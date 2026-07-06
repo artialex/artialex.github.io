@@ -33,13 +33,50 @@ import { draw } from './modules/blocks/block-draw';
 import { sans } from './modules/blocks/block-sans';
 import { serif } from './modules/blocks/block-serif';
 import { mono } from './modules/blocks/block-mono';
+
 import { MATH_SHAPE_TYPE, MathShapeUtil, type MathShape } from './modules/math/math';
 import { GRAPH_SHAPE_TYPE, GraphShapeUtil, type GraphShape } from './modules/math/plot';
+import { DEFAULT_PROCESSING_CODE, PROCESSING_SHAPE_TYPE, PaperShapeUtil, type PaperShape } from './modules/paper/paper';
+import {
+  COMPONENT_BLOCK_SHAPE_TYPE,
+  ComponentBlockShapeUtil,
+  type ComponentBlockShape,
+} from './modules/embeddables/embeddable';
 
 const baseUrl = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
 
-const shapeUtils = [MathShapeUtil, GraphShapeUtil];
+const shapeUtils = [MathShapeUtil, GraphShapeUtil, PaperShapeUtil, ComponentBlockShapeUtil];
+
+function AddComponentBlockButton() {
+  const editor = useEditor();
+
+  return (
+    <TldrawUiButton
+      type="normal"
+      onClick={() => {
+        const bounds = editor.getViewportPageBounds();
+        const id = createShapeId();
+
+        editor.createShape<ComponentBlockShape>({
+          id,
+          type: COMPONENT_BLOCK_SHAPE_TYPE,
+          x: bounds.center.x - 210,
+          y: bounds.center.y - 150,
+          props: {},
+        });
+
+        editor.select(id);
+        editor.setEditingShape(id);
+      }}
+      style={{
+        width: 'max-content',
+      }}
+    >
+      Add component
+    </TldrawUiButton>
+  );
+}
 
 function AddGraphButton() {
   const editor = useEditor();
@@ -74,7 +111,36 @@ function AddGraphButton() {
         width: 'max-content',
       }}
     >
-      Add graph
+      Add plot
+    </TldrawUiButton>
+  );
+}
+
+function AddPaperButton() {
+  const editor = useEditor();
+
+  return (
+    <TldrawUiButton
+      type="normal"
+      onClick={() => {
+        const point = editor.getViewportPageBounds().center;
+
+        editor.createShape<PaperShape>({
+          type: PROCESSING_SHAPE_TYPE,
+          x: point.x - 160,
+          y: point.y - 60,
+          props: {
+            w: 320,
+            h: 120,
+            code: DEFAULT_PROCESSING_CODE,
+          },
+        });
+      }}
+      style={{
+        width: 'max-content',
+      }}
+    >
+      Add paper
     </TldrawUiButton>
   );
 }
@@ -157,6 +223,8 @@ export const App = () => {
               </span>
               <AddMathButton />
               <AddGraphButton />
+              <AddPaperButton />
+              <AddComponentBlockButton />
             </CustomMenuPanel>
           ),
         }}

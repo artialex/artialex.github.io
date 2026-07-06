@@ -10,6 +10,7 @@ import {
 
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
+import { RenderedKatex } from './RenderedKatex';
 
 export const MATH_SHAPE_TYPE = 'math' as const;
 
@@ -48,7 +49,7 @@ export class MathShapeUtil extends BaseBoxShapeUtil<MathShape> {
 
     if (isEditing) {
       return (
-        <HTMLContainer>
+        <HTMLContainer style={{ position: 'relative' }}>
           <textarea
             autoFocus
             value={shape.props.latex}
@@ -86,44 +87,14 @@ export class MathShapeUtil extends BaseBoxShapeUtil<MathShape> {
               color: 'black',
             }}
           />
+          <div style={{ position: 'absolute', right: 0, top: 0 }}>
+            <RenderedKatex width={shape.props.w * 1.5} height={shape.props.h * 1.5} latex={shape.props.latex} />
+          </div>
         </HTMLContainer>
       );
     }
 
-    const html = katex.renderToString(shape.props.latex, {
-      throwOnError: false,
-      displayMode: true,
-      macros: {
-        '\\a': '{\\color{#D1495B}{a}}',
-        '\\b': '{\\color{#2E86AB}{b}}',
-        '\\c': '{\\color{#3A7D44}{c}}',
-        '\\d': '{\\color{#9C6ADE}{d}}',
-
-        '\\gathered': '\\begin{gathered}',
-        '\\egathered': '\\end{gathered}',
-      },
-    });
-
-    return (
-      <HTMLContainer>
-        <div
-          style={{
-            width: shape.props.w,
-            height: shape.props.h,
-            boxSizing: 'border-box',
-            padding: 12,
-            border: '1px solid #ddd',
-            borderRadius: 8,
-            background: 'white',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            overflow: 'hidden',
-          }}
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </HTMLContainer>
-    );
+    return <RenderedKatex width={shape.props.w} height={shape.props.h} latex={shape.props.latex} />;
   }
 
   override indicator(shape: MathShape) {
