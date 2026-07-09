@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef } from 'react';
 import type { RuntimeComponentProps } from '../registry';
 
 const CELL_SIZE = 24;
-const CELL_LIFETIME_MS = 2000;
+const CELL_LIFETIME_MS = 700;
 const COLOR_PALETTE = ['#ffd166', '#80ed99', '#90e0ef', '#a0c4ff', '#cdb4db', '#ffafcc'];
 
 type ActiveCell = {
@@ -81,10 +81,10 @@ export const CanvasBlock = ({ shape }: RuntimeComponentProps) => {
     const col = Math.max(0, Math.min(grid.cols - 1, Math.floor((x / bounds.width) * grid.cols)));
     const row = Math.max(0, Math.min(grid.rows - 1, Math.floor((y / bounds.height) * grid.rows)));
     const key = `${col}:${row}`;
-    const color = COLOR_PALETTE[Math.floor(Math.random() * COLOR_PALETTE.length)];
+    const existingCell = activeCellsRef.current.get(key);
 
     activeCellsRef.current.set(key, {
-      color,
+      color: existingCell?.color ?? COLOR_PALETTE[Math.floor(Math.random() * COLOR_PALETTE.length)],
       expiresAt: performance.now() + CELL_LIFETIME_MS,
     });
   };
