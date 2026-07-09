@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef } from 'react';
 import type { RuntimeComponentProps } from '../registry';
 
-export const CanvasBlock = ({ data }: RuntimeComponentProps) => {
+export const CanvasBlock = (props: RuntimeComponentProps) => {
   // return 'Canvas';
   const ref = useRef<HTMLCanvasElement>(null);
 
