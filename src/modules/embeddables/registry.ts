@@ -3,6 +3,7 @@ import { BezierCurves } from './components/BezierCurves';
 // import { BacktrackingSearch } from './components/BacktrackingSearch/BacktrackingSearch';
 import type { Editor } from '@tiptap/core';
 import type { ComponentBlockShape } from './embeddable';
+import { CanvasBlock } from './canvas/CanvasBlock';
 // import { Combinatorics } from './components/Combinatorics';
 
 export type RuntimeComponentProps = {
@@ -33,6 +34,11 @@ export const componentRegistry = {
   //     n: 2,
   //   },
   // },
+  CanvasBlock: {
+    label: 'Canvas',
+    Component: CanvasBlock,
+    defaultProps: {},
+  },
   CounterBlock: {
     label: 'Counter',
     Component: CounterBlock,
