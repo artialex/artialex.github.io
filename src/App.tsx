@@ -378,8 +378,3 @@ function setShapeCount(h1Count: number = 0, h2Count: number = 0, h3Count: number
 
   if (el) el.textContent = `Headings: ${h1Count} / ${h2Count} / ${h3Count}`;
 }
-
-
-
-
-
