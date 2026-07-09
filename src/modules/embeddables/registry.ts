@@ -1,9 +1,10 @@
-import { CounterBlock, QuoteBlock, StatusBlock } from './components/CounterBlock';
+import { CounterBlock, StatusBlock } from './components/CounterBlock';
 import { BezierCurves } from './components/BezierCurves';
 // import { BacktrackingSearch } from './components/BacktrackingSearch/BacktrackingSearch';
 import type { Editor } from '@tiptap/core';
 import type { ComponentBlockShape } from './embeddable';
 import { CanvasBlock } from './canvas/CanvasBlock';
+import { QuoteBlock } from './components/QuoteBlock';
 // import { Combinatorics } from './components/Combinatorics';
 
 export type RuntimeComponentProps = {
@@ -37,7 +38,7 @@ export const componentRegistry = {
   CanvasBlock: {
     label: 'Canvas',
     Component: CanvasBlock,
-    defaultProps: {},
+    defaultProps: { initial: 0 },
   },
   CounterBlock: {
     label: 'Counter',

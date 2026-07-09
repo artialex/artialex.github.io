@@ -34,28 +34,6 @@ export function CounterBlock({ data }: RuntimeComponentProps) {
   );
 }
 
-export function QuoteBlock({ data }: RuntimeComponentProps) {
-  const text = typeof data.text === 'string' ? data.text : 'No quote provided';
-
-  return (
-    <div
-      style={{
-        width: '100%',
-        height: '100%',
-        boxSizing: 'border-box',
-        padding: 24,
-        display: 'flex',
-        alignItems: 'center',
-        fontSize: 22,
-        fontFamily: 'serif',
-        lineHeight: 1.35,
-      }}
-    >
-      “{text}”
-    </div>
-  );
-}
-
 export function StatusBlock({ data }: RuntimeComponentProps) {
   const label = typeof data.label === 'string' ? data.label : 'Status';
   const value = typeof data.value === 'string' ? data.value : 'Unknown';
