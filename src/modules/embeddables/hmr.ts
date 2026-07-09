@@ -1,8 +1,9 @@
 import { useSyncExternalStore } from 'react';
 
 type EmbeddableHmrState = {
-  version: number;
+  isReloadScheduled: boolean;
   listeners: Set<() => void>;
+  version: number;
 };
 
 declare global {
@@ -12,8 +13,9 @@ declare global {
 const state =
   globalThis.__embeddableHmrState__ ??
   (globalThis.__embeddableHmrState__ = {
-    version: 0,
+    isReloadScheduled: false,
     listeners: new Set<() => void>(),
+    version: 0,
   });
 
 function subscribe(listener: () => void) {
@@ -42,6 +44,16 @@ function isEmbeddablePath(path: string | undefined) {
   return path.includes('/src/modules/embeddables/') || path.includes('\\src\\modules\\embeddables\\');
 }
 
+function scheduleEmbeddableReload() {
+  if (state.isReloadScheduled) return;
+
+  state.isReloadScheduled = true;
+
+  queueMicrotask(() => {
+    window.location.reload();
+  });
+}
+
 if (import.meta.hot) {
   import.meta.hot.on('vite:afterUpdate', (payload) => {
     const hasEmbeddableUpdate = payload.updates.some((update) => {
@@ -50,6 +62,7 @@ if (import.meta.hot) {
 
     if (hasEmbeddableUpdate) {
       bumpEmbeddableHmrVersion();
+      scheduleEmbeddableReload();
     }
   });
 }
