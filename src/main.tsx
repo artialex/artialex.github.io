@@ -16,14 +16,3 @@ root.render(
     </HashRouter>
   </StrictMode>,
 );
-
-// HACK
-if (import.meta.env.PROD) {
-  const style = document.createElement('style');
-
-  // style.textContent += `
-  //   [data-font=mono], code { font-size-adjust: 0.4; }
-  // `;
-
-  document.body.appendChild(style);
-}
