@@ -10,7 +10,7 @@ export const CanvasBlock = () => {
     ctx.beginPath();
     ctx.moveTo(50, 50);
     ctx.lineTo(250, 150);
-    ctx.strokeStyle = 'gray';
+    ctx.strokeStyle = 'green';
     ctx.stroke();
   }, []);
 

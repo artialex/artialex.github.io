@@ -1,26 +1,57 @@
 import { useSyncExternalStore } from 'react';
 
-let version = 0;
-const listeners = new Set<() => void>();
+type EmbeddableHmrState = {
+  version: number;
+  listeners: Set<() => void>;
+};
+
+declare global {
+  var __embeddableHmrState__: EmbeddableHmrState | undefined;
+}
+
+const state =
+  globalThis.__embeddableHmrState__ ??
+  (globalThis.__embeddableHmrState__ = {
+    version: 0,
+    listeners: new Set<() => void>(),
+  });
 
 function subscribe(listener: () => void) {
-  listeners.add(listener);
+  state.listeners.add(listener);
 
   return () => {
-    listeners.delete(listener);
+    state.listeners.delete(listener);
   };
 }
 
 function getSnapshot() {
-  return version;
+  return state.version;
 }
 
 export function bumpEmbeddableHmrVersion() {
-  version += 1;
+  state.version += 1;
 
-  for (const listener of listeners) {
+  for (const listener of state.listeners) {
     listener();
   }
+}
+
+function isEmbeddablePath(path: string | undefined) {
+  if (!path) return false;
+
+  return path.includes('/src/modules/embeddables/') || path.includes('\\src\\modules\\embeddables\\');
+}
+
+if (import.meta.hot) {
+  import.meta.hot.on('vite:afterUpdate', (payload) => {
+    const hasEmbeddableUpdate = payload.updates.some((update) => {
+      return isEmbeddablePath(update.path) || isEmbeddablePath(update.acceptedPath);
+    });
+
+    if (hasEmbeddableUpdate) {
+      bumpEmbeddableHmrVersion();
+    }
+  });
 }
 
 export function useEmbeddableHmrVersion() {
