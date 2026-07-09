@@ -13,6 +13,10 @@ export const CanvasBlock = (props: RuntimeComponentProps) => {
     ctx.beginPath();
     ctx.moveTo(50, 50);
     ctx.lineTo(250, 150);
+
+    ctx.moveTo(150, 50);
+    ctx.lineTo(150, 150);
+
     ctx.strokeStyle = 'red';
     ctx.stroke();
   }, []);
