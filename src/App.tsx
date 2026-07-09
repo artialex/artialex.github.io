@@ -42,6 +42,7 @@ import {
   ComponentBlockShapeUtil,
   type ComponentBlockShape,
 } from './modules/embeddables/embeddable';
+import { useEmbeddableHmrVersion } from './modules/embeddables/hmr';
 
 const baseUrl = import.meta.env.BASE_URL;
 const withBase = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
@@ -190,6 +191,7 @@ export const App = () => {
   const [editor, setEditor] = useState<Editor | null>(null);
   const [snapshot, setSnapshot] = useState<TLEditorSnapshot | null>(null);
   const [loadedWithError, setLoadedWithError] = useState(false);
+  const embeddableHmrVersion = useEmbeddableHmrVersion();
 
   useEffect(() => {
     fetch(withBase(`data/${id}.json`))
@@ -208,11 +210,12 @@ export const App = () => {
   if (!snapshot) return null;
 
   const extensions = tipTapDefaultExtensions.filter((_) => !(_.type === 'mark' && _.name === 'link'));
+  const tldrawKey = id + ':' + embeddableHmrVersion;
 
   return (
     <div style={{ position: 'fixed', inset: 0 }} className={import.meta.env.PROD ? 'prod' : 'dev'}>
       <Tldraw
-        key={id}
+        key={tldrawKey}
         deepLinks
         shapeUtils={shapeUtils}
         components={{
@@ -375,3 +378,8 @@ function setShapeCount(h1Count: number = 0, h2Count: number = 0, h3Count: number
 
   if (el) el.textContent = `Headings: ${h1Count} / ${h2Count} / ${h3Count}`;
 }
+
+
+
+
+

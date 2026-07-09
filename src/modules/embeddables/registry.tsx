@@ -1,11 +1,12 @@
-import { CounterBlock, StatusBlock } from './components/CounterBlock';
-import { BezierCurves } from './components/BezierCurves';
-// import { BacktrackingSearch } from './components/BacktrackingSearch/BacktrackingSearch';
 import type { Editor } from '@tiptap/core';
 import type { ComponentBlockShape } from './embeddable';
-import { CanvasBlock } from './canvas/CanvasBlock';
-import { QuoteBlock } from './components/QuoteBlock';
-// import { Combinatorics } from './components/Combinatorics';
+import {
+  BezierCurvesEntry,
+  CanvasBlockEntry,
+  CounterBlockEntry,
+  QuoteBlockEntry,
+  StatusBlockEntry,
+} from './components';
 
 export type RuntimeComponentProps = {
   editor: Editor;
@@ -37,29 +38,29 @@ export const componentRegistry = {
   // },
   CanvasBlock: {
     label: 'Canvas',
-    Component: CanvasBlock,
+    Component: CanvasBlockEntry,
     defaultProps: { initial: 0 },
   },
   CounterBlock: {
     label: 'Counter',
-    Component: CounterBlock,
+    Component: CounterBlockEntry,
     defaultProps: { initial: 0 },
   },
   BezierCurves: {
     label: 'Bezier Curves',
-    Component: BezierCurves,
+    Component: BezierCurvesEntry,
     defaultProps: {},
   },
   QuoteBlock: {
     label: 'Quote',
-    Component: QuoteBlock,
+    Component: QuoteBlockEntry,
     defaultProps: {
       text: 'A React component rendered inside a tldraw block.',
     },
   },
   StatusBlock: {
     label: 'Status',
-    Component: StatusBlock,
+    Component: StatusBlockEntry,
     defaultProps: {
       label: 'Status',
       value: 'Draft',
