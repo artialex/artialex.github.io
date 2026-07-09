@@ -1,8 +1,6 @@
 import { useLayoutEffect, useRef } from 'react';
-import type { RuntimeComponentProps } from '../registry';
 
-export const CanvasBlock = (props: RuntimeComponentProps) => {
-  // return 'Canvas';
+export const CanvasBlock = () => {
   const ref = useRef<HTMLCanvasElement>(null);
 
   useLayoutEffect(() => {
@@ -12,7 +10,7 @@ export const CanvasBlock = (props: RuntimeComponentProps) => {
     ctx.beginPath();
     ctx.moveTo(50, 50);
     ctx.lineTo(250, 150);
-    ctx.strokeStyle = 'red';
+    ctx.strokeStyle = 'gray';
     ctx.stroke();
   }, []);
 

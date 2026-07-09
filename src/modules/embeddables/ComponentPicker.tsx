@@ -1,9 +1,11 @@
 import { HTMLContainer, useEditor, useValue } from 'tldraw';
 import type { ComponentBlockShape } from './embeddable';
+import { useEmbeddableHmrVersion } from './hmr';
 import { componentRegistry, type ComponentName, type RegistryItem } from './registry';
 
 export function ComponentBlockShapeView({ shape }: { shape: ComponentBlockShape }) {
   const editor = useEditor();
+  const hmrVersion = useEmbeddableHmrVersion();
 
   const isEditing = useValue('is editing component block', () => editor.getEditingShapeId() === shape.id, [
     editor,
@@ -41,7 +43,7 @@ export function ComponentBlockShapeView({ shape }: { shape: ComponentBlockShape 
       >
         {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
         {/* @ts-expect-error */}
-        <Component editor={editor} shape={shape} data={data} />
+        <Component key={`${shape.props.componentName}:${hmrVersion}`} editor={editor} shape={shape} data={data} />
       </div>
     </HTMLContainer>
   );

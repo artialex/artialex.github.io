@@ -5,6 +5,8 @@ import type { Editor } from '@tiptap/core';
 import type { ComponentBlockShape } from './embeddable';
 import { CanvasBlock } from './canvas/CanvasBlock';
 import { QuoteBlock } from './components/QuoteBlock';
+import { bumpEmbeddableHmrVersion } from './hmr';
+import { embeddableHmrPaths } from './hmrPaths';
 // import { Combinatorics } from './components/Combinatorics';
 
 export type RuntimeComponentProps = {
@@ -68,3 +70,9 @@ export const componentRegistry = {
 } satisfies Record<string, RegistryItem>;
 
 export type ComponentName = keyof typeof componentRegistry;
+
+if (import.meta.hot) {
+  import.meta.hot.accept(embeddableHmrPaths, () => {
+    bumpEmbeddableHmrVersion();
+  });
+}
