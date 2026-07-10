@@ -111,14 +111,19 @@ sub {
     font-style: italic !important;
     font-size: 0.6em;
 }
-@font-face {
+/*@font-face {
     font-family: 'LibertinusMath';
     src: url('/fonts/LibertinusMath-Regular.ttf');
+}*/
+
+@font-face {
+    font-family: 'Euler';
+    src: url('/fonts/Euler.otf');
 }
 
 .katex {
-    font-family: 'LibertinusMath', serif;
-    font-size: 1.3em;
+    /*font-family: 'Euler', serif;*/
+    /*font-size: 1.3em;*/
 }
 
 /*@font-face {
