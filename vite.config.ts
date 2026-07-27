@@ -42,6 +42,7 @@ function persistence() {
 }
 
 export default defineConfig({
+  server: { port: 1337 },
   base: process.env.VITE_BASE_PATH ?? './',
   plugins: [react(), babel({ presets: [reactCompilerPreset()] }), persistence()],
   build: {
