@@ -48,6 +48,12 @@ p:has([class*='corner-left-up']) {
     font-size: 0.9em;
     transform: translateY(-0.5em);
 }
+
 p:has([class*='quote']) {
     color: darkslateblue;
 }
+
+p:has([class*='hexagon']) {
+    color: seagreen;
+}
+

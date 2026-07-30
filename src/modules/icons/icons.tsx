@@ -103,6 +103,11 @@ export const Emoji = Node.create({
         type: this.type,
         getAttributes: () => ({ name: 'quote' }),
       }),
+      nodeInputRule({
+        find: /^\* /,
+        type: this.type,
+        getAttributes: () => ({ name: 'hexagon' }),
+      }),
     ];
   },
 });
